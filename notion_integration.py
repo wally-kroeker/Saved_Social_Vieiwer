@@ -137,47 +137,48 @@ class NotionIntegration:
         """
         logger.info(f"Marking item {item_id} as processed")
         
-        try:
-            # Prepare the properties to update based on the existing script's property names
-            properties = {
-                "Status": {
-                    "select": {
-                        "name": "Done"
-                    }
+        # First attempt to update with 'Done' status
+        properties = {
+            "Status": {
+                "status": {
+                    "name": "Done"
                 }
             }
-            
-            # Add metadata if provided
-            if metadata:
-                # Extract filename from metadata if available
-                filename = metadata.get("filename", "Processed")
-                
-                # Update the Name property (title)
-                properties["Name"] = {
-                    "title": [
-                        {
-                            "text": {
-                                "content": filename
-                            }
-                        }
-                    ]
-                }
-            
-            # Update the page
+        }
+        
+        try:
             self.client.pages.update(
                 page_id=item_id,
                 properties=properties
             )
-            
-            logger.info(f"Successfully marked item {item_id} as processed")
+            logger.info(f"Successfully marked item {item_id} as processed with status 'Done'")
             return True
             
-        except APIResponseError as e:
-            logger.error(f"Notion API error when marking item as processed: {e}")
-            return False
         except Exception as e:
-            logger.error(f"Unexpected error when marking item as processed: {e}")
-            return False
+            # Check if the error indicates an invalid status option
+            error_msg = str(e)
+            if "Invalid" in error_msg or "expected" in error_msg:
+                logger.error(f"Status option 'Done' appears invalid: {error_msg}. Falling back to 'Not started'.")
+                fallback_properties = {
+                    "Status": {
+                        "status": {
+                            "name": "Not started"
+                        }
+                    }
+                }
+                try:
+                    self.client.pages.update(
+                        page_id=item_id,
+                        properties=fallback_properties
+                    )
+                    logger.info(f"Successfully marked item {item_id} as processed with fallback status 'Not started'")
+                    return True
+                except Exception as inner_e:
+                    logger.error(f"Fallback update failed for item {item_id}: {inner_e}")
+                    return False
+            else:
+                logger.error(f"Unexpected error when marking item {item_id} as processed: {e}")
+                return False
     
     def mark_as_failed(self, item_id: str, error_message: str) -> bool:
         """
@@ -195,15 +196,10 @@ class NotionIntegration:
         try:
             # Prepare the properties to update based on the existing script's property names
             properties = {
-                "Status": {"status": {"name": "Failed"}},
-                "Name": {
-                    "title": [
-                        {
-                            "text": {
-                                "content": f"Error: {error_message[:100]}"  # Limit to 100 chars
-                            }
-                        }
-                    ]
+                "Status": {
+                    "status": {
+                        "name": "Not started"  # Using a valid status value
+                    }
                 }
             }
             
@@ -213,7 +209,7 @@ class NotionIntegration:
                 properties=properties
             )
             
-            logger.info(f"Successfully marked item {item_id} as failed")
+            logger.info(f"Successfully marked item {item_id} as failed (status set to Not started)")
             return True
             
         except APIResponseError as e:
