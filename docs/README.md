@@ -1,56 +1,33 @@
 # Process Saved Links Documentation
 
-This directory contains comprehensive documentation for the Process Saved Links project.
+Welcome to the Process Saved Links documentation. This project automates the downloading, processing, and organization of content from social media platforms like YouTube and Instagram.
 
-## Documentation Structure
+## Simplified Documentation
 
-### 1. Project Overview
-- [Project Overview](./overview/project_overview.md) - High-level description and goals
-- [Architecture](./overview/architecture.md) - System architecture and components
-- [Requirements](./overview/requirements.md) - Detailed project requirements
+To understand the project quickly, refer to these two primary documents:
 
-### 2. Implementation
-- [Implementation Guide](./implementation/implementation_guide.md) - General implementation information
-- [Instagram Processor](./implementation/instagram_processor.md) - Instagram-specific implementation
-- [YouTube Processor](./implementation/youtube_processor.md) - YouTube-specific implementation
-- [Scheduling](./implementation/scheduling.md) - Scheduling implementation details
+1. [Project Overview](PROJECT_OVERVIEW.md) - What the project does and technologies used
+2. [Development Guide](DEVELOPMENT_GUIDE.md) - Current status, roadmap, and how to contribute
 
-### 3. Integrations
-- [Notion Integration](./integrations/notion_integration.md) - Notion API integration details
-- [Offmute Integration](./integrations/offmute_integration.md) - Offmute API integration details
+These documents provide all the essential information to get started with the project.
 
-### 4. Development
-- [Setup Guide](./development/setup_guide.md) - Setting up the development environment
-- [Testing Guide](./development/testing_guide.md) - Testing procedures and guidelines
-- [Contribution Guide](./development/contribution_guide.md) - How to contribute to the project
+## Archived Documentation
 
-### 5. Reference
-- [File Structure](./reference/file_structure.md) - Project file organization
-- [API Reference](./reference/api_reference.md) - Internal API documentation
-- [Configuration Reference](./reference/configuration_reference.md) - Configuration options
+All legacy documentation has been moved to the `/archive` directory for reference. This includes:
 
-## How to Navigate
+- Previous project overview documents
+- Detailed implementation guides
+- Integration specifications
+- Development setup guides
+- Reference documentation
 
-- Each section contains focused documentation on specific aspects of the project
-- Cross-references link related topics across different documents
-- Implementation guides connect requirements to actual code implementation
+New contributors should focus on the simplified documentation files first. The archived documentation may contain outdated information but is preserved for historical reference.
 
-## Keeping Documentation Updated
+## Documentation Status
 
-Guidelines for maintaining this documentation:
+We've completed the consolidation of our documentation to make it more accessible and maintainable. The project now has:
 
-1. **Update with code changes**: Whenever you make significant code changes, update the relevant documentation
-2. **Follow the structure**: Place new documentation in the appropriate section
-3. **Link related content**: Use cross-references to connect related information
-4. **Use standard formatting**: Maintain consistent Markdown formatting across documents
-5. **Include examples**: Add examples wherever possible to illustrate concepts
+1. Two primary documentation files that contain all essential information
+2. An archive of historical documentation for reference when needed
 
-## Documentation Formats
-
-Each document follows a standard format:
-
-1. Title and brief description
-2. Table of contents (for longer documents)
-3. Main content with clear headings
-4. Related documentation links
-5. Changelog (when applicable) 
+If you find any inconsistencies or have questions, please refer to the primary documents or contact the project maintainers. 
