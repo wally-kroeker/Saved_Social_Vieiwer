@@ -183,9 +183,10 @@ view_status() {
 run_diagnostics() {
     echo -e "\n${GREEN}System Diagnostics${NC}"
     echo -e "${YELLOW}1)${NC} Check Notion connectivity"
-    echo -e "${YELLOW}2)${NC} Verify environment setup"
-    echo -e "${YELLOW}3)${NC} Check output directory"
-    echo -e "${YELLOW}4)${NC} Test transcript generation"
+    echo -e "${YELLOW}2)${NC} Check Instagram connectivity"
+    echo -e "${YELLOW}3)${NC} Verify environment setup"
+    echo -e "${YELLOW}4)${NC} Check output directory"
+    echo -e "${YELLOW}5)${NC} Test transcript generation"
     echo -e "${YELLOW}b)${NC} Back to main menu"
     echo -e "${YELLOW}q)${NC} Quit"
 
@@ -197,6 +198,10 @@ run_diagnostics() {
             run_with_uv check_notion_connection.py
             ;;
         2)
+            echo -e "${BLUE}Checking Instagram connectivity...${NC}"
+            run_with_uv check_instagram_connection.py
+            ;;
+        3)
             echo -e "${BLUE}Verifying environment setup...${NC}"
             echo -e "Python: $(python --version)"
             echo -e "Node.js: $(node --version 2>/dev/null || echo 'Not installed')"
@@ -206,7 +211,7 @@ run_diagnostics() {
             echo -e "\n${BLUE}Checking installed packages:${NC}"
             uv pip list | grep -E "notion-client|yt-dlp|instaloader|fastapi"
             ;;
-        3)
+        4)
             echo -e "${BLUE}Checking output directory...${NC}"
             output_dir="/home/walub/Documents/Processed-ContentIdeas"
             if [ ! -d "$output_dir" ]; then
@@ -220,7 +225,7 @@ run_diagnostics() {
                 echo -e "Total size: $(du -sh "$output_dir" | cut -f1)"
             fi
             ;;
-        4)
+        5)
             echo -e "${BLUE}Testing transcript generation...${NC}"
             if [ -z "$GEMINI_API_KEY" ]; then
                 echo -e "${RED}GEMINI_API_KEY not set. Cannot test transcript generation.${NC}"
