@@ -1,68 +1,100 @@
 # Process Saved Links
 
-A system for automatically processing saved social media links from Instagram, YouTube, and other platforms.
+A tool for processing saved links from various platforms and saving them to a local directory for future reference. Currently supports YouTube and Instagram links.
 
-## Overview
+## Features
 
-Process Saved Links automates the workflow of downloading, processing, and organizing content from various social media platforms. It helps users save and reference interesting or useful content for later analysis or repurposing.
+- Process YouTube videos: Download videos, generate transcripts, and save metadata
+- Process Instagram posts: Download images, save captions, and metadata
+- Integration with Notion database for tracking processed links
+- Platform-specific settings (batch sizes, rate limiting, etc.)
+- Parallel processing of different platforms
+- Continuous processing mode
 
-### Key Features
+## Prerequisites
 
-- **Multi-Platform Support**: Process content from Instagram, YouTube, and potentially other platforms
-- **Automated Processing**: Schedule automatic runs to process new content
-- **Content Transcription**: Generate transcripts for video content using Offmute
-- **Structured Organization**: Store processed content in a standardized directory structure
-- **Notion Integration**: Use Notion as a database for tracking and managing links
+- Python 3.10 or higher
+- Node.js (for offmute transcript generation)
+- Notion API token and database ID
+- Gemini API key (for transcript generation)
 
-## Quick Start
+## Installation
 
-### Prerequisites
-
-- Python 3.8 or higher
-- Node.js and npm (for Offmute)
-- ffmpeg (for video processing)
-- Notion account with API access
-- API keys for required services
-
-### Installation
-
+1. Clone the repository
+2. Create a `.env` file with the required environment variables:
+```
+NOTION_API_TOKEN=your_notion_api_token
+NOTION_DATABASE_ID=your_notion_database_id
+GEMINI_API_KEY=your_gemini_api_key
+```
+3. Run the setup script:
 ```bash
-# Clone the repository
-git clone https://github.com/yourusername/Process_Saved_Links.git
-cd Process_Saved_Links
-
-# Install uv
-curl -sSf https://github.com/astral-sh/uv/releases/latest/download/uv-installer.sh | bash
-
-# Create a virtual environment
-uv venv
-source .venv/bin/activate  # On Linux/macOS
-
-# Install dependencies
-uv pip install -r requirements.txt
-
-# Install Offmute
-npm install -g offmute
-
-# Set up environment variables (copy from template)
-cp .env.example .env
-# Edit .env with your API keys and configuration
+./run_process_links_v2.sh
 ```
 
-For complete setup instructions, see the [Setup Guide](docs/development/setup_guide.md).
+## Usage
 
 ### Basic Usage
 
 ```bash
-# Run with dry-run mode (no actual processing)
-uv run python main.py --dry-run
+# Process all platforms sequentially
+./run_process_links_v2.sh
 
-# Run with a limited number of items
-uv run python main.py --limit 1
+# Process only YouTube links
+./run_process_links_v2.sh --platform youtube
 
-# Run normally
-uv run python main.py
+# Process only Instagram links
+./run_process_links_v2.sh --platform instagram
 ```
+
+### Advanced Options
+
+```bash
+# Process platforms in parallel
+./run_process_links_v2.sh --parallel
+
+# Process continuously until stopped
+./run_process_links_v2.sh --continuous
+
+# Process a specific number of links per platform
+./run_process_links_v2.sh --limit 5
+
+# Combine options
+./run_process_links_v2.sh --platform youtube --limit 5 --parallel --continuous
+```
+
+### Notion Database Structure
+
+The Notion database must have the following properties:
+- **URL**: URL of the link to process
+- **Status**: Status of the processing (Not started, Processed, etc.)
+- **Name**: Title of the content
+
+## Architecture
+
+### Key Components
+
+- **platform_processor.py**: Handles platform-specific processing with appropriate settings
+- **processor_factory.py**: Factory for creating processor instances
+- **platform_config.py**: Configuration for platform-specific settings
+- **process_links.py**: Main script for parallel processing
+- **run_process_links_v2.sh**: Shell script for running the application
+
+### Processing Flow
+
+1. Fetch unprocessed links from Notion database
+2. Filter links by platform type
+3. Process each link using the appropriate processor
+4. Update the Notion database with the processing status
+5. Apply platform-specific delays between batches
+
+## Troubleshooting
+
+### Common Issues
+
+- **Notion API errors**: Check that your Notion API token and database ID are correct
+- **Transcript generation failures**: Ensure that Gemini API key is set correctly
+- **Rate limiting**: If experiencing rate limiting, adjust the delay settings in platform_config.py
 
 ## Project Structure
 

@@ -24,16 +24,18 @@ export LOG_LEVEL=DEBUG
 # Ensure we're using the correct Python environment
 VENV_PATH="$SCRIPT_DIR/.venv"
 
-# Create virtual environment if it doesn't exist and install dependencies
-if [ ! -d "$VENV_PATH" ]; then
-    echo "Creating new virtual environment..."
-    uv venv "$VENV_PATH"
-    source "$VENV_PATH/bin/activate"
-    echo "Installing dependencies..."
-    uv pip install -r requirements.txt
-else
-    source "$VENV_PATH/bin/activate"
+# Remove existing environment if it exists
+if [ -d "$VENV_PATH" ]; then
+    echo "Removing existing virtual environment..."
+    rm -rf "$VENV_PATH"
 fi
+
+# Create fresh virtual environment and install dependencies
+echo "Creating new virtual environment..."
+uv venv "$VENV_PATH"
+source "$VENV_PATH/bin/activate"
+echo "Installing dependencies..."
+uv pip install -r requirements.txt
 
 # Print information about the environment
 echo "Running Process Saved Links at $(date)"
@@ -75,13 +77,50 @@ process_instagram_links() {
     echo "Processing Instagram links..."
     python run_instagram_post.py --limit 1
     
-    # Wait for 15 minutes before processing the next link
-    echo "Waiting 15 minutes before processing next link..."
+    # Wait for 15 minutes before next Instagram processing to avoid rate limiting
+    echo "Waiting 15 minutes before processing next Instagram link..."
     sleep 900  # 15 minutes = 900 seconds
+}
+
+# Function to process YouTube links
+process_youtube_links() {
+    echo "========== Processing YouTube links ==========="
+    # Process all available YouTube links
+    local processed_count=0
+    local max_attempts=10  # Prevent infinite loops if something goes wrong
+    
+    for ((i=1; i<=max_attempts; i++)); do
+        echo "YouTube processing attempt $i of $max_attempts"
+        python run_youtube_post.py --limit 1
+        exit_code=$?
+        
+        echo "YouTube processor exit code: $exit_code"
+        
+        if [ $exit_code -eq 0 ]; then
+            echo "Successfully processed a YouTube link"
+            processed_count=$((processed_count + 1))
+        elif [ $exit_code -eq 1 ]; then
+            echo "No more YouTube links to process"
+            break
+        else
+            echo "Error occurred while processing YouTube links (exit code: $exit_code)"
+            break
+        fi
+    done
+    
+    echo "Processed $processed_count YouTube links"
+    echo "========== YouTube processing complete ==========="
 }
 
 # Main processing loop
 while true; do
+    echo "==============================================="
     echo "Starting new processing cycle at $(date)"
+    echo "==============================================="
+    
+    # First, process all YouTube links
+    process_youtube_links
+    
+    # Then process Instagram links (with rate limit)
     process_instagram_links
 done
