@@ -21,13 +21,23 @@ A tool for processing saved links from various platforms and saving them to a lo
 ## Installation
 
 1. Clone the repository
-2. Create a `.env` file with the required environment variables:
+2. Install uv package manager:
+```bash
+curl -LsSf https://astral.sh/uv/install.sh | sh
+```
+3. Create a virtual environment and install dependencies:
+```bash
+uv venv
+source .venv/bin/activate
+uv pip install -r requirements.txt
+```
+4. Create a `.env` file with the required environment variables:
 ```
 NOTION_API_TOKEN=your_notion_api_token
 NOTION_DATABASE_ID=your_notion_database_id
 GEMINI_API_KEY=your_gemini_api_key
 ```
-3. Run the setup script:
+5. Run the setup script:
 ```bash
 ./run_process_links_v2.sh
 ```
@@ -79,6 +89,16 @@ The Notion database must have the following properties:
 - **platform_config.py**: Configuration for platform-specific settings
 - **process_links.py**: Main script for parallel processing
 - **run_process_links_v2.sh**: Shell script for running the application
+- **notion_integration.py**: Handles all Notion database operations
+- **output_manager.py**: Manages output formatting and file organization
+
+### Utility Scripts
+
+- **fix_file_names.py**: Script for fixing file naming issues
+- **cleanup_transcripts.py**: Cleanup script for transcript files
+- **cleanup_files.py**: General file cleanup utility
+- **check_notion_connection.py**: Test Notion API connectivity
+- **check_instagram_connection.py**: Test Instagram API connectivity
 
 ### Processing Flow
 
@@ -100,12 +120,42 @@ The Notion database must have the following properties:
 
 The project follows a modular architecture:
 
-- **Core Scheduler**: Manages scheduling and execution
-- **Notion Integration**: Handles Notion database operations
-- **Platform Processors**: Process content from specific platforms
-- **Output Manager**: Standardizes output formatting
+```
+.
+├── run_process_links_v2.sh    # Main entry point script
+├── process_links.py           # Core processing logic
+├── platform_processor.py      # Base platform processor
+├── processor_factory.py       # Factory for creating processors
+├── platform_config.py         # Platform-specific settings
+├── notion_integration.py      # Notion API integration
+├── output_manager.py         # Output formatting and management
+├── config.py                 # Global configuration
+├── processors/               # Platform-specific processors
+├── utils/                    # Utility functions and helpers
+├── docs/                     # Documentation
+├── tests/                    # Test suite
+├── logs/                     # Log files
+├── archive/                  # Archived/deprecated files
+└── requirements.txt          # Python dependencies
+```
 
-For detailed information, see the [Architecture Documentation](docs/overview/architecture.md).
+### Key Components
+
+- **platform_processor.py**: Handles platform-specific processing with appropriate settings
+- **processor_factory.py**: Factory for creating processor instances
+- **platform_config.py**: Configuration for platform-specific settings
+- **process_links.py**: Main script for parallel processing
+- **run_process_links_v2.sh**: Shell script for running the application
+- **notion_integration.py**: Handles all Notion database operations
+- **output_manager.py**: Manages output formatting and file organization
+
+### Utility Scripts
+
+- **fix_file_names.py**: Script for fixing file naming issues
+- **cleanup_transcripts.py**: Cleanup script for transcript files
+- **cleanup_files.py**: General file cleanup utility
+- **check_notion_connection.py**: Test Notion API connectivity
+- **check_instagram_connection.py**: Test Instagram API connectivity
 
 ## Documentation
 
@@ -120,6 +170,21 @@ Comprehensive documentation is available in the `docs` directory:
 For a complete list of documentation, see the [Documentation Index](docs/overview/project_index.md).
 
 ## Development
+
+### Environment Setup
+
+The project uses `uv` as the package manager for better performance and dependency management. Make sure to always use `uv` when installing packages or running Python scripts:
+
+```bash
+# Install a new package
+uv pip install package_name
+
+# Run Python scripts
+uv run python script.py
+
+# Update dependencies
+uv pip install -r requirements.txt
+```
 
 ### Testing
 
