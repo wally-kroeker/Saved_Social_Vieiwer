@@ -227,12 +227,89 @@ run_diagnostics() {
             ;;
         5)
             echo -e "${BLUE}Testing transcript generation...${NC}"
-            if [ -z "$GEMINI_API_KEY" ]; then
-                echo -e "${RED}GEMINI_API_KEY not set. Cannot test transcript generation.${NC}"
+            
+            # First check if Offmute is installed
+            if ! command -v npx &> /dev/null; then
+                echo -e "${RED}NPX is not installed. Cannot run Offmute.${NC}"
+                echo -e "${YELLOW}Please install Node.js and NPM first.${NC}"
             else
-                echo -e "${YELLOW}This will generate a test transcript.${NC}"
-                # Implement test transcript generation here
-                echo -e "${GREEN}Transcript generation capability verified.${NC}"
+                # Check if offmute is available
+                if ! npx offmute --version &> /dev/null; then
+                    echo -e "${RED}Offmute is not installed or not accessible.${NC}"
+                    echo -e "${YELLOW}Try installing it with: npm install -g offmute${NC}"
+                else
+                    echo -e "${GREEN}✓ Offmute is installed: $(npx offmute --version 2>&1)${NC}"
+                    
+                    # Now check for GEMINI_API_KEY
+                    if [ -z "$GEMINI_API_KEY" ]; then
+                        echo -e "${RED}GEMINI_API_KEY not set. Transcript generation will be limited.${NC}"
+                        echo -e "${YELLOW}Set this in your .env file for full functionality.${NC}"
+                    else
+                        echo -e "${GREEN}✓ GEMINI_API_KEY is set${NC}"
+                    fi
+                    
+                    # Offer to run a real test with a sample file
+                    echo -e "${YELLOW}Would you like to run a full test with a sample audio file? (yes/no)${NC}"
+                    read -p "This will create a test transcript file: " run_test
+                    
+                    if [ "$run_test" = "yes" ]; then
+                        # Create a temporary directory
+                        test_dir="/tmp/offmute_test"
+                        mkdir -p "$test_dir"
+                        
+                        echo -e "${YELLOW}Running transcript test...${NC}"
+                        
+                        # Try to find a sample audio/video file, or download one
+                        sample_file=""
+                        
+                        # Look for existing sample files
+                        if [ -d "test_samples" ] && [ -f "test_samples/sample.mp3" ]; then
+                            sample_file="test_samples/sample.mp3"
+                        elif [ -f "/usr/share/sounds/alsa/Front_Center.wav" ]; then
+                            # Use system sample sound on Linux
+                            sample_file="/usr/share/sounds/alsa/Front_Center.wav"
+                        fi
+                        
+                        if [ -z "$sample_file" ]; then
+                            # Create a simple test file with ffmpeg if available
+                            if command -v ffmpeg &> /dev/null; then
+                                test_wav="$test_dir/test_audio.wav"
+                                echo -e "${YELLOW}Creating test audio file...${NC}"
+                                ffmpeg -f lavfi -i "sine=frequency=1000:duration=3" -ar 44100 "$test_wav" -y &> /dev/null
+                                sample_file="$test_wav"
+                            else
+                                echo -e "${RED}No sample file found and ffmpeg is not available to create one.${NC}"
+                                echo -e "${YELLOW}Please install ffmpeg or place a sample file in test_samples/sample.mp3${NC}"
+                                rm -rf "$test_dir"
+                                break
+                            fi
+                        fi
+                        
+                        # Run offmute with the sample file
+                        test_output="$test_dir/transcript.txt"
+                        echo -e "${YELLOW}Processing sample file with Offmute...${NC}"
+                        
+                        export GEMINI_API_KEY
+                        npx offmute "$sample_file" --output "$test_output" &> "$test_dir/offmute.log"
+                        
+                        if [ -f "$test_output" ] && [ -s "$test_output" ]; then
+                            echo -e "${GREEN}✓ Transcript generation successful!${NC}"
+                            echo -e "${BLUE}Generated transcript preview:${NC}"
+                            head -n 5 "$test_output"
+                            echo -e "${YELLOW}...(truncated)${NC}"
+                        else
+                            echo -e "${RED}Failed to generate transcript.${NC}"
+                            echo -e "${YELLOW}Offmute log:${NC}"
+                            cat "$test_dir/offmute.log"
+                        fi
+                        
+                        # Clean up
+                        echo -e "${YELLOW}Cleaning up test files...${NC}"
+                        rm -rf "$test_dir"
+                    else
+                        echo -e "${YELLOW}Skipping full transcript test.${NC}"
+                    fi
+                fi
             fi
             ;;
         b|B)
