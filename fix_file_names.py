@@ -6,6 +6,7 @@ from pathlib import Path
 from datetime import datetime
 import json
 import argparse
+from config import OUTPUT_DIR
 
 def extract_metadata_from_filename(filename):
     """Extract username, date, and title from a filename."""
@@ -184,24 +185,27 @@ def fix_file_names(directory, dry_run=True):
             else:
                 print(f"Could not determine correct name for transcript: {filename}")
 
-if __name__ == "__main__":
-    parser = argparse.ArgumentParser(description='Fix file names in Processed-ContentIdeas directory')
-    parser.add_argument('--no-dry-run', action='store_true', help='Actually rename files instead of just showing changes')
+def main():
+    """Main function to fix file names."""
+    parser = argparse.ArgumentParser(description='Fix file names in output directory')
+    parser.add_argument('--dry-run', action='store_true', help='Show what would be done without making changes')
     args = parser.parse_args()
-    
-    # Directory containing the files
-    directory = "/home/walub/Documents/Processed-ContentIdeas"
+
+    directory = OUTPUT_DIR
     
     print("Starting file name cleanup...")
-    if args.no_dry_run:
+    if args.dry_run:
+        print("DRY RUN: Showing proposed changes without making them")
+    else:
         print("WARNING: This will actually rename files. Press Ctrl+C to cancel.")
         try:
             input("Press Enter to continue...")
         except KeyboardInterrupt:
             print("\nOperation cancelled.")
             exit(0)
-    else:
-        print("DRY RUN: Showing proposed changes without making them")
     
-    fix_file_names(directory, dry_run=not args.no_dry_run)
-    print("Cleanup complete!") 
+    fix_file_names(directory, dry_run=args.dry_run)
+    print("Cleanup complete!")
+
+if __name__ == "__main__":
+    main() 

@@ -1,8 +1,12 @@
 #!/usr/bin/env python3
+"""Script to clean up transcript files."""
 import os
 import re
 import shutil
+import json
+import argparse
 from pathlib import Path
+from config import OUTPUT_DIR
 
 def cleanup_transcripts(directory):
     """Rename Instagram-style transcript files to match the server's expected pattern."""
@@ -47,10 +51,17 @@ def cleanup_transcripts(directory):
             else:
                 print(f"No matching video file found for transcript: {filename}")
 
-if __name__ == "__main__":
-    # Directory containing the files
-    directory = "/home/walub/Documents/Processed-ContentIdeas"
+def main():
+    """Main function to clean up transcripts."""
+    parser = argparse.ArgumentParser(description='Clean up transcript files')
+    parser.add_argument('--dry-run', action='store_true', help='Show what would be done without making changes')
+    args = parser.parse_args()
+
+    directory = OUTPUT_DIR
     
     print("Starting transcript cleanup...")
     cleanup_transcripts(directory)
-    print("Cleanup complete!") 
+    print("Cleanup complete!")
+
+if __name__ == "__main__":
+    main() 

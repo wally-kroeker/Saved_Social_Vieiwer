@@ -29,17 +29,32 @@ process_links.log
 
 # Environment variables
 .env
+.env.*
+!.env.example
 
 # IDE
 .vscode/
 .idea/
 *.swp
 *.swo
+.cursor/
+.cursorrules
 
 # Project specific
 sessions/
 test_output/
 Process_Saved_Links.llm
+
+# Media files in output directory
+output/**/*.mp4
+output/**/*.jpg
+output/**/*.jpeg
+output/**/*.png
+output/**/*.webp
+output/**/*.pdf
+output/**/*.json
+# Keep output directory structure
+!output/.gitkeep
 
 # Operating System
 .DS_Store

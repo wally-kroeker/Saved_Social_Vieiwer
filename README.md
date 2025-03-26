@@ -10,6 +10,7 @@ A tool for processing saved links from various platforms and saving them to a lo
 - Platform-specific settings (batch sizes, rate limiting, etc.)
 - Parallel processing of different platforms
 - Continuous processing mode
+- Built-in content viewer for processed media
 
 ## Prerequisites
 
@@ -55,6 +56,9 @@ GEMINI_API_KEY=your_gemini_api_key
 
 # Process only Instagram links
 ./run_process_links_v2.sh --platform instagram
+
+# Interactive CLI (recommended)
+./process_links_manager.sh
 ```
 
 ### Advanced Options
@@ -71,7 +75,33 @@ GEMINI_API_KEY=your_gemini_api_key
 
 # Combine options
 ./run_process_links_v2.sh --platform youtube --limit 5 --parallel --continuous
+
+# Start the content viewer
+./process_links_manager.sh viewer start
+
+# Stop the content viewer
+./process_links_manager.sh viewer stop
 ```
+
+### Content Viewer
+
+The project includes a built-in web-based viewer for processed content:
+
+1. Start the viewer using one of these methods:
+   - From the interactive CLI: Select option 7
+   - From the command line: `./process_links_manager.sh viewer start`
+
+2. Open your browser and navigate to: `http://localhost:8080`
+
+3. Features of the viewer:
+   - Browse all processed videos and content
+   - Play videos directly in browser
+   - View transcripts and metadata
+   - Sort content by date or platform
+
+4. Stop the viewer when done:
+   - From the interactive CLI: Select option 8
+   - From the command line: `./process_links_manager.sh viewer stop`
 
 ### Notion Database Structure
 
@@ -124,19 +154,24 @@ The project follows a modular architecture:
 .
 ├── run_process_links_v2.sh    # Main entry point script
 ├── process_links.py           # Core processing logic
+├── process_links_manager.sh   # Interactive CLI interface
 ├── platform_processor.py      # Base platform processor
 ├── processor_factory.py       # Factory for creating processors
 ├── platform_config.py         # Platform-specific settings
 ├── notion_integration.py      # Notion API integration
-├── output_manager.py         # Output formatting and management
-├── config.py                 # Global configuration
-├── processors/               # Platform-specific processors
-├── utils/                    # Utility functions and helpers
-├── docs/                     # Documentation
-├── tests/                    # Test suite
-├── logs/                     # Log files
-├── archive/                  # Archived/deprecated files
-└── requirements.txt          # Python dependencies
+├── output_manager.py          # Output formatting and management
+├── config.py                  # Global configuration
+├── processors/                # Platform-specific processors
+├── utils/                     # Utility functions and helpers
+├── docs/                      # Documentation
+├── viewer/                    # Web-based content viewer
+│   ├── server.py              # HTTP server for viewing content
+│   └── videos.html            # Frontend for the viewer
+├── output/                    # Processed content storage
+├── tests/                     # Test suite
+├── logs/                      # Log files
+├── archive/                   # Archived/deprecated files
+└── requirements.txt           # Python dependencies
 ```
 
 ### Key Components

@@ -75,7 +75,7 @@ if ! command -v npx &> /dev/null; then
 fi
 
 # Check output directory
-OUTPUT_DIR="/home/walub/Documents/Processed-ContentIdeas"
+OUTPUT_DIR="$SCRIPT_DIR/output"
 if [ ! -d "$OUTPUT_DIR" ]; then
     echo "Creating output directory: $OUTPUT_DIR"
     mkdir -p "$OUTPUT_DIR"

@@ -96,6 +96,8 @@ show_help() {
     echo -e "  ${YELLOW}4) View processing status${NC} - Check current processing status and history"
     echo -e "  ${YELLOW}5) System diagnostics${NC} - Verify system components and connections"
     echo -e "  ${YELLOW}6) Configuration${NC} - View and edit configuration settings"
+    echo -e "  ${YELLOW}7) Start content viewer${NC} - Start the content viewer server"
+    echo -e "  ${YELLOW}8)${NC} Stop content viewer${NC} - Stop the content viewer server"
     echo -e "  ${YELLOW}h) Show help${NC} - Display this help message"
     echo -e "  ${YELLOW}q) Quit${NC} - Exit the script"
     
@@ -213,7 +215,7 @@ run_diagnostics() {
             ;;
         4)
             echo -e "${BLUE}Checking output directory...${NC}"
-            output_dir="/home/walub/Documents/Processed-ContentIdeas"
+            output_dir="$SCRIPT_DIR/output"
             if [ ! -d "$output_dir" ]; then
                 echo -e "${YELLOW}Output directory doesn't exist. Creating it now...${NC}"
                 mkdir -p "$output_dir"
@@ -400,7 +402,7 @@ manage_config() {
             ;;
         4)
             echo -e "${BLUE}Output directory settings:${NC}"
-            output_dir="/home/walub/Documents/Processed-ContentIdeas"
+            output_dir="$SCRIPT_DIR/output"
             echo -e "Current output directory: $output_dir"
             
             read -p "Do you want to change the output directory? (yes/no): " change_dir
@@ -510,6 +512,34 @@ process_all() {
     echo -e "${GREEN}All platform processing complete.${NC}"
 }
 
+# Function to start the viewer server
+start_viewer() {
+    echo -e "${BLUE}Starting content viewer server...${NC}"
+    
+    # Check if Python server is already running
+    if pgrep -f "python.*viewer/server.py" > /dev/null; then
+        echo -e "${YELLOW}Viewer server is already running${NC}"
+        return
+    fi
+    
+    # Start the viewer server
+    if [ -f "viewer/server.py" ]; then
+        echo -e "${GREEN}Starting viewer at http://localhost:8080${NC}"
+        python viewer/server.py &
+        echo -e "${GREEN}Viewer server started in background${NC}"
+        echo -e "Access the viewer at: ${BLUE}http://localhost:8080${NC}"
+    else
+        echo -e "${RED}Error: viewer/server.py not found${NC}"
+    fi
+}
+
+# Function to stop the viewer server
+stop_viewer() {
+    echo -e "${BLUE}Stopping content viewer server...${NC}"
+    pkill -f "python.*viewer/server.py"
+    echo -e "${GREEN}Viewer server stopped${NC}"
+}
+
 # Main menu function
 show_menu() {
     echo -e "\n${GREEN}Select an action:${NC}"
@@ -519,6 +549,8 @@ show_menu() {
     echo -e "${YELLOW}4)${NC} View processing status"
     echo -e "${YELLOW}5)${NC} System diagnostics"
     echo -e "${YELLOW}6)${NC} Configuration"
+    echo -e "${YELLOW}7)${NC} Start content viewer"
+    echo -e "${YELLOW}8)${NC} Stop content viewer"
     echo -e "${YELLOW}h)${NC} Show help"
     echo -e "${YELLOW}q)${NC} Quit"
 
@@ -557,6 +589,12 @@ show_menu() {
             ;;
         6)
             manage_config
+            ;;
+        7)
+            start_viewer
+            ;;
+        8)
+            stop_viewer
             ;;
         h|H)
             show_help
@@ -617,6 +655,15 @@ main() {
                 ;;
             "help")
                 show_help
+                ;;
+            "viewer")
+                if [ "$2" = "start" ]; then
+                    start_viewer
+                elif [ "$2" = "stop" ]; then
+                    stop_viewer
+                else
+                    echo -e "${YELLOW}Usage: $0 viewer [start|stop]${NC}"
+                fi
                 ;;
             *)
                 echo -e "${RED}Unknown command: $1${NC}"

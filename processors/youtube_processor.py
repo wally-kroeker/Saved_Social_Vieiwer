@@ -20,6 +20,7 @@ import yt_dlp
 from processors.base_processor import BaseProcessor
 from utils.logging_utils import get_logger
 import config
+from config import OUTPUT_DIR
 
 class YouTubeProcessor(BaseProcessor):
     """
@@ -197,12 +198,9 @@ class YouTubeProcessor(BaseProcessor):
                     base_filename = f"{uploader}-{formatted_date}-{title}"
                     self.logger.info(f"Generated base filename: {base_filename}")
                     
-                    # Set up output paths using the same pattern as Instagram
-                    if hasattr(config, "OUTPUT_DIR") and config.OUTPUT_DIR:
-                        output_dir = config.OUTPUT_DIR
-                    else:
-                        output_dir = "/home/walub/Documents/Processed-ContentIdeas"
-                        
+                    # Set up output directory
+                    output_dir = OUTPUT_DIR / "youtube"
+                    
                     self.logger.info(f"Using output directory: {output_dir}")
                     
                     output_paths = {

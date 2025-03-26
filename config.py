@@ -18,7 +18,7 @@ except ImportError:
 
 # Base directories
 BASE_DIR = Path(__file__).resolve().parent
-OUTPUT_DIR = Path(os.environ.get("OUTPUT_DIR", os.path.expanduser("~/Documents/Processed-ContentIdeas")))
+OUTPUT_DIR = Path(os.environ.get("OUTPUT_DIR", os.path.join(os.path.dirname(os.path.abspath(__file__)), "output")))
 
 # Create output directory if it doesn't exist
 OUTPUT_DIR.mkdir(parents=True, exist_ok=True)
