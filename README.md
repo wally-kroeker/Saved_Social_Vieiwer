@@ -15,32 +15,103 @@ A tool for processing saved links from various platforms and saving them to a lo
 ## Prerequisites
 
 - Python 3.10 or higher
-- Node.js (for offmute transcript generation)
+- Node.js 14+ and npm (for Offmute transcript generation)
+- FFmpeg (for media processing and thumbnail generation)
 - Notion API token and database ID
 - Gemini API key (for transcript generation)
 
 ## Installation
 
-1. Clone the repository
-2. Install uv package manager:
+### 1. Install System Dependencies
+
+First, ensure you have the required system dependencies installed:
+
 ```bash
-curl -LsSf https://astral.sh/uv/install.sh | sh
+# Check Python version (should be 3.10+)
+python3 --version
+
+# Install Node.js 14+ using NVM (recommended method)
+curl -o- https://raw.githubusercontent.com/nvm-sh/nvm/v0.39.7/install.sh | bash
+source ~/.bashrc  # or restart terminal
+nvm install stable
+nvm use stable
+node --version  # Should be 14+
+
+# Install FFmpeg
+# On Ubuntu/Debian:
+apt update
+apt install ffmpeg
+# On MacOS:
+brew install ffmpeg
 ```
-3. Create a virtual environment and install dependencies:
+
+### 2. Install UV Package Manager
+
+UV is a fast, reliable package manager for Python:
+
 ```bash
+# Install UV
+curl -LsSf https://astral.sh/uv/install.sh | sh
+
+# Add UV to your PATH if needed
+export PATH="$HOME/.local/bin:$PATH"
+```
+
+### 3. Install Offmute for Transcription
+
+```bash
+# Method 1: Install globally (may require permission fixes)
+npm install -g offmute
+
+# Method 2: Fix permission issues (if method 1 fails)
+mkdir -p ~/.npm-global
+npm config set prefix ~/.npm-global
+export PATH=~/.npm-global/bin:$PATH
+npm install -g offmute
+
+# Verify installation
+offmute --help
+```
+
+### 4. Set Up the Project
+
+```bash
+# Clone the repository (if not already done)
+git clone <repository-url>
+cd Process_Saved_Links
+
+# Create and activate virtual environment with UV
 uv venv
 source .venv/bin/activate
+
+# Install Python dependencies
 uv pip install -r requirements.txt
 ```
-4. Create a `.env` file with the required environment variables:
-```
+
+### 5. Configure Environment Variables
+
+Create a `.env` file with your API keys:
+
+```bash
+# Create .env file
+cat > .env << EOF
+# Notion API Configuration
 NOTION_API_TOKEN=your_notion_api_token
 NOTION_DATABASE_ID=your_notion_database_id
+
+# API key used for offmute transcription
 GEMINI_API_KEY=your_gemini_api_key
+EOF
+
+# Edit the file if needed
+nano .env
 ```
-5. Run the setup script:
+
+### 6. Verify Installation
+
 ```bash
-./run_process_links_v2.sh
+# Test Notion connection
+uv run python check_notion_connection.py
 ```
 
 ## Usage
@@ -248,3 +319,63 @@ For complete testing instructions, see the [Testing Guide](docs/development/test
 - [Offmute](https://github.com/offmute/offmute) for transcription capabilities
 - [yt-dlp](https://github.com/yt-dlp/yt-dlp) for YouTube downloading
 - [Notion API](https://developers.notion.com/) for database integration
+
+## Troubleshooting Installation
+
+### UV Installation Issues
+
+If UV is installed but not found in your PATH:
+
+```bash
+# Add UV to your PATH
+export PATH="$HOME/.local/bin:$PATH"
+
+# Make it permanent
+echo 'export PATH="$HOME/.local/bin:$PATH"' >> ~/.bashrc
+source ~/.bashrc
+```
+
+### Node.js Version Issues
+
+If Offmute fails with syntax errors, your Node.js version is likely too old:
+
+```bash
+# Check current version
+node --version
+
+# Install NVM (Node Version Manager)
+curl -o- https://raw.githubusercontent.com/nvm-sh/nvm/v0.39.7/install.sh | bash
+source ~/.bashrc
+
+# Install and use latest stable Node.js
+nvm install stable
+nvm use stable
+```
+
+### NPM Permission Issues
+
+If you encounter permission errors with npm:
+
+```bash
+# Set up a user-local npm prefix
+mkdir -p ~/.npm-global
+npm config set prefix ~/.npm-global
+echo 'export PATH=~/.npm-global/bin:$PATH' >> ~/.bashrc
+source ~/.bashrc
+
+# Now install packages globally without sudo
+npm install -g offmute
+```
+
+### Python Virtual Environment Issues
+
+If you have issues with the virtual environment:
+
+```bash
+# Alternative way to create a virtual environment
+python3 -m venv .venv
+source .venv/bin/activate
+
+# Install dependencies with pip if UV isn't working
+pip install -r requirements.txt
+```
