@@ -1,6 +1,37 @@
 # Active Development Context
 
 ## Current Focus
+Replacing the basic Python http.server viewer with a robust FastAPI-based solution to address file serving issues and improve functionality.
+
+## Active Tasks
+1. Implementing FastAPI backend with proper file serving and content indexing
+2. Developing modern JavaScript frontend with improved UX
+3. Updating process_links_manager.sh for FastAPI integration
+
+## Key Issues Being Addressed
+- File serving issues with special characters in filenames
+- Path handling and security
+- Performance with large video files
+- User experience improvements
+
+## Next Steps
+1. Set up FastAPI project structure
+2. Implement content indexing
+3. Create API endpoints
+4. Develop frontend components
+
+## Recent Changes
+- Identified issues with current http.server implementation
+- Planned FastAPI migration
+- Updated task list with detailed implementation plan
+
+## Dependencies
+- FastAPI
+- Uvicorn
+- Python-multipart
+- UV package manager
+
+## Current Focus
 
 The project has been successfully set up with all dependencies installed:
 
@@ -44,18 +75,6 @@ Recent significant changes to the project include:
 6. Enhancement of transcript generation with Gemini API integration
 7. Addition of parallel processing capabilities for different platforms
 8. Implementation of continuous processing mode
-
-## Next Steps
-
-Immediate next steps for development:
-
-1. Begin processing content from Notion database
-2. Monitor transcript generation with Offmute
-3. Test processing Instagram content
-4. Test processing YouTube content
-5. Complete the interactive CLI interface
-6. Fix Notion status update reliability issues
-7. Implement enhanced error handling and notification system
 
 ## Known Issues
 

@@ -16,21 +16,27 @@ OUTPUT_DIRECTORY = PROJECT_ROOT / 'output'
 VIEWER_DIRECTORY = PROJECT_ROOT / 'viewer'
 
 # Server configuration
-PORT = 8080
+PORT = 8081
 
 # Function to get metadata for all videos
 def get_video_metadata():
     videos = []
     
     try:
+        print(f"Scanning for videos in: {OUTPUT_DIRECTORY}")
         # Look in both output directory and its subdirectories
-        for root, _, files in os.walk(OUTPUT_DIRECTORY):
+        for root, dirs, files in os.walk(OUTPUT_DIRECTORY):
+            print(f"Scanning directory: {root}")
             # Filter for MP4 files
             mp4_files = [f for f in files if f.endswith('.mp4')]
+            
+            print(f"Found {len(mp4_files)} MP4 files in {root}")
             
             for filename in mp4_files:
                 file_path = os.path.join(root, filename)
                 relative_path = os.path.relpath(file_path, OUTPUT_DIRECTORY)
+                
+                print(f"Processing file: {relative_path}")
                 
                 # Parse the filename to extract metadata
                 base_name = os.path.splitext(filename)[0]
@@ -53,8 +59,8 @@ def get_video_metadata():
                 
                 # Extract username and description
                 parts = base_name.split('-')
-                if len(parts) >= 4:
-                    username = parts[0]
+                if len(parts) >= 1:  # Changed from >= 4 to >= 1 to be more permissive
+                    username = parts[0] if parts else "Unknown"
                     
                     # Get parts after the date for the description
                     date_index = -1
@@ -68,8 +74,12 @@ def get_video_metadata():
                     else:
                         description = base_name
                     
+                    # URL encode the filename for safe handling in URLs (especially # characters)
+                    safe_filename = urllib.parse.quote(relative_path, safe='')
+                    
                     videos.append({
                         'filename': relative_path,
+                        'safe_filename': safe_filename,
                         'basename': base_name,
                         'username': username,
                         'date': date_str,
@@ -83,8 +93,15 @@ def get_video_metadata():
         videos.sort(key=lambda x: x['date'] if x['date'] else '', reverse=True)
         
         print(f"Found {len(videos)} video files in {OUTPUT_DIRECTORY}")
+        
+        # Debug print the first video data for inspection
+        if videos:
+            print(f"First video metadata: {videos[0]}")
     except Exception as e:
         print(f"Error scanning videos directory: {e}")
+        # Print traceback for debugging
+        import traceback
+        traceback.print_exc()
     
     return videos
 
@@ -103,34 +120,41 @@ class MyHandler(http.server.SimpleHTTPRequestHandler):
         # Print path for debugging
         print(f"Requested path: {path}")
         
+        # URL decode the path to handle URL-encoded characters
+        try:
+            decoded_path = urllib.parse.unquote(path, errors='surrogatepass')
+            print(f"URL-decoded path: {decoded_path}")
+        except UnicodeDecodeError:
+            decoded_path = path
+        
         # Check if this is requesting a transcript file
-        is_transcript = path.endswith('.md')
+        is_transcript = decoded_path.endswith('.md')
         if is_transcript:
-            print(f"Transcript file requested: {path}")
+            print(f"Transcript file requested: {decoded_path}")
             
         # abandon query parameters
-        path = path.split('?',1)[0]
-        path = path.split('#',1)[0]
-        # Don't forget explicit trailing slash when normalizing. Issue17324
-        trailing_slash = path.rstrip().endswith('/')
-        try:
-            path = urllib.parse.unquote(path, errors='surrogatepass')
-        except UnicodeDecodeError:
-            path = urllib.parse.unquote_to_bytes(path)
-            path = path.decode('utf-8', 'replace')
-        path = posixpath.normpath(path)
+        decoded_path = decoded_path.split('?',1)[0]
         
-        print(f"Normalized path: {path}")
+        # Don't forget explicit trailing slash when normalizing. Issue17324
+        trailing_slash = decoded_path.rstrip().endswith('/')
+        try:
+            decoded_path = urllib.parse.unquote(decoded_path, errors='surrogatepass')
+        except UnicodeDecodeError:
+            decoded_path = urllib.parse.unquote_to_bytes(decoded_path)
+            decoded_path = decoded_path.decode('utf-8', 'replace')
+        decoded_path = posixpath.normpath(decoded_path)
+        
+        print(f"Normalized path: {decoded_path}")
         
         # Determine which directory to use based on the path
-        if path == '/' or path == '/videos.html':
+        if decoded_path == '/' or decoded_path == '/videos.html':
             # Serve viewer files from the viewer directory
-            result = os.path.join(VIEWER_DIRECTORY, path.lstrip('/') or 'videos.html')
+            result = os.path.join(VIEWER_DIRECTORY, decoded_path.lstrip('/') or 'videos.html')
             print(f"Serving viewer file: {result}")
             return result
         else:
             # For all media content, serve from the output directory
-            words = path.split('/')
+            words = decoded_path.split('/')
             words = filter(None, words)
             path = OUTPUT_DIRECTORY
             
@@ -150,6 +174,18 @@ class MyHandler(http.server.SimpleHTTPRequestHandler):
                     self.content_type = 'text/markdown'
             else:
                 print(f"File not found: {path}")
+                # Try to find a matching file regardless of case or URL encoding
+                try:
+                    parent_dir = os.path.dirname(path)
+                    basename = os.path.basename(path)
+                    if os.path.exists(parent_dir):
+                        for file in os.listdir(parent_dir):
+                            if os.path.basename(file).lower() == basename.lower():
+                                corrected_path = os.path.join(parent_dir, file)
+                                print(f"Found close match: {corrected_path}")
+                                return corrected_path
+                except Exception as e:
+                    print(f"Error trying to find matching file: {e}")
                 
             return path
 
@@ -223,23 +259,27 @@ def main():
     # Ensure output directory exists
     OUTPUT_DIRECTORY.mkdir(parents=True, exist_ok=True)
     
-    # Create the server with a custom socket handling
-    server = socketserver.TCPServer(("", PORT), MyHandler)
-    server.allow_reuse_address = True
-    
-    print(f"Starting viewer server at http://localhost:{PORT}")
-    print(f"Serving content from: {OUTPUT_DIRECTORY}")
-    print(f"Serving viewer files from: {VIEWER_DIRECTORY}")
-    
     try:
+        # Create the server with a custom socket handling
+        # Use "0.0.0.0" instead of "" to explicitly bind to all interfaces
+        server = socketserver.TCPServer(("0.0.0.0", PORT), MyHandler)
+        server.allow_reuse_address = True
+        
+        print(f"Starting viewer server at http://0.0.0.0:{PORT}")
+        print(f"Serving content from: {OUTPUT_DIRECTORY}")
+        print(f"Serving viewer files from: {VIEWER_DIRECTORY}")
+        
         server.serve_forever()
     except KeyboardInterrupt:
         print("\nShutting down server...")
     except Exception as e:
         print(f"Server error: {e}")
+        import traceback
+        traceback.print_exc()
     finally:
-        server.server_close()
-        print("Server closed.")
+        if 'server' in locals():
+            server.server_close()
+            print("Server closed.")
 
 if __name__ == "__main__":
     main()

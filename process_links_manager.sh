@@ -97,7 +97,7 @@ show_help() {
     echo -e "  ${YELLOW}5) System diagnostics${NC} - Verify system components and connections"
     echo -e "  ${YELLOW}6) Configuration${NC} - View and edit configuration settings"
     echo -e "  ${YELLOW}7) Start content viewer${NC} - Start the content viewer server"
-    echo -e "  ${YELLOW}8)${NC} Stop content viewer${NC} - Stop the content viewer server"
+    echo -e "  ${YELLOW}8)${NC} Restart content viewer${NC} - Restart the content viewer server"
     echo -e "  ${YELLOW}h) Show help${NC} - Display this help message"
     echo -e "  ${YELLOW}q) Quit${NC} - Exit the script"
     
@@ -533,11 +533,11 @@ start_viewer() {
     fi
 }
 
-# Function to stop the viewer server
-stop_viewer() {
-    echo -e "${BLUE}Stopping content viewer server...${NC}"
-    pkill -f "python.*viewer/server.py"
-    echo -e "${GREEN}Viewer server stopped${NC}"
+# Function to restart the viewer server
+restart_viewer() {
+    echo -e "${BLUE}Restarting content viewer server...${NC}"
+    pkill -f "python.*server.py" && echo -e "${YELLOW}Attempting to restart server...${NC}" && python3 viewer/server.py &
+    echo -e "${GREEN}Viewer server restart initiated.${NC}"
 }
 
 # Main menu function
@@ -550,7 +550,7 @@ show_menu() {
     echo -e "${YELLOW}5)${NC} System diagnostics"
     echo -e "${YELLOW}6)${NC} Configuration"
     echo -e "${YELLOW}7)${NC} Start content viewer"
-    echo -e "${YELLOW}8)${NC} Stop content viewer"
+    echo -e "${YELLOW}8)${NC} Restart content viewer"
     echo -e "${YELLOW}h)${NC} Show help"
     echo -e "${YELLOW}q)${NC} Quit"
 
@@ -594,7 +594,7 @@ show_menu() {
             start_viewer
             ;;
         8)
-            stop_viewer
+            restart_viewer
             ;;
         h|H)
             show_help
@@ -659,10 +659,10 @@ main() {
             "viewer")
                 if [ "$2" = "start" ]; then
                     start_viewer
-                elif [ "$2" = "stop" ]; then
-                    stop_viewer
+                elif [ "$2" = "restart" ]; then
+                    restart_viewer
                 else
-                    echo -e "${YELLOW}Usage: $0 viewer [start|stop]${NC}"
+                    echo -e "${YELLOW}Usage: $0 viewer [start|restart]${NC}"
                 fi
                 ;;
             *)

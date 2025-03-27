@@ -481,24 +481,31 @@
             
             // Function to get video path
             function getVideoPath(filename) {
-                // Since we're serving directly from the content directory
-                return './' + filename;
+                // Make sure we're using the complete filename
+                console.log("Video path requested for:", filename);
+                
+                // Just return the raw filename - the server will handle decoding
+                // We need a leading / to ensure it's treated as a path from the server root
+                return "/" + filename;
             }
             
             // Function to get thumbnail path
             function getThumbnailPath(thumbnail) {
                 if (!thumbnail) return null;
-                return './' + thumbnail;
+                return "/" + thumbnail;
             }
             
             // Function to get transcript path
             function getTranscriptPath(basename) {
                 // Need to ensure we're requesting from content directory, not the /viewer subdirectory
-                return './' + basename + '.md';
+                return "/" + basename + '.md';
             }
             
             // Function to create a video card element
             function createVideoCard(video) {
+                // Log the video data for debugging
+                console.log("Creating card for video:", video);
+                
                 const card = document.createElement('div');
                 card.className = 'video-card';
                 card.dataset.videoId = video.basename; // Use basename as unique identifier
@@ -526,6 +533,16 @@
                     thumbnailImg.className = 'video-thumbnail';
                     thumbnailImg.src = getThumbnailPath(video.thumbnail);
                     thumbnailImg.alt = video.description || 'Video thumbnail';
+                    
+                    // Add error handler for thumbnail
+                    thumbnailImg.onerror = function() {
+                        console.error("Error loading thumbnail:", video.thumbnail);
+                        this.onerror = null;
+                        this.src = 'data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHdpZHRoPSIyNCIgaGVpZ2h0PSIyNCIgdmlld0JveD0iMCAwIDI0IDI0IiBmaWxsPSJub25lIiBzdHJva2U9IiM4ODgiIHN0cm9rZS13aWR0aD0iMiIgc3Ryb2tlLWxpbmVjYXA9InJvdW5kIiBzdHJva2UtbGluZWpvaW49InJvdW5kIj48cmVjdCB4PSIzIiB5PSIzIiB3aWR0aD0iMTgiIGhlaWdodD0iMTgiIHJ4PSIyIiByeT0iMiI+PC9yZWN0PjxjaXJjbGUgY3g9IjguNSIgY3k9IjguNSIgcj0iMS41Ij48L2NpcmNsZT48cG9seWxpbmUgcG9pbnRzPSIyMSAxNSAxNiAxMCA1IDIxIj48L3BvbHlsaW5lPjwvc3ZnPg==';
+                        this.style.padding = '20%';
+                        this.style.background = '#222';
+                    };
+                    
                     container.appendChild(thumbnailImg);
                     
                     // Add play button overlay
@@ -542,6 +559,18 @@
                 videoElement.src = getVideoPath(video.filename);
                 videoElement.style.display = 'none'; // Hide initially
                 videoElement.setAttribute('loading', 'lazy');
+                
+                // Add error handler for video
+                videoElement.onerror = function() {
+                    console.error("Error loading video:", video.filename);
+                    const errorMsg = document.createElement('div');
+                    errorMsg.textContent = "Error loading video. Format may not be supported.";
+                    errorMsg.style.color = "red";
+                    errorMsg.style.padding = "10px";
+                    errorMsg.style.textAlign = "center";
+                    videoElement.parentNode.insertBefore(errorMsg, videoElement.nextSibling);
+                };
+                
                 container.appendChild(videoElement);
                 
                 card.appendChild(container);
@@ -587,11 +616,11 @@
                     if (!video.hasTranscript) return;
                     
                     // Get transcript file path
-                    const transcriptPath = video.basename + '.md';
+                    const transcriptPath = getTranscriptPath(video.basename);
                     console.log("Fetching transcript:", transcriptPath);
                     
                     // Fetch and display transcript in a modal
-                    fetch('./' + transcriptPath)
+                    fetch(transcriptPath)
                         .then(response => {
                             if (!response.ok) {
                                 throw new Error(`Failed to load transcript: ${response.status}`);
@@ -644,7 +673,10 @@
                         if (container.querySelector('.play-button')) {
                             container.querySelector('.play-button').style.display = 'none';
                         }
-                        videoElement.play();
+                        videoElement.play().catch(err => {
+                            console.error("Error playing video:", err);
+                            alert("Error playing video: " + err.message);
+                        });
                     } else {
                         // Show in fullscreen player
                         showVideoPlayer(video.filename, cleanTitle);
@@ -878,6 +910,18 @@
                 video.controls = true;
                 video.autoplay = true;
                 
+                // Add error handling for the modal video player
+                video.onerror = function() {
+                    console.error("Error loading video in player:", filename);
+                    const errorMsg = document.createElement('div');
+                    errorMsg.textContent = "Error loading video. The format may not be supported by your browser.";
+                    errorMsg.style.color = "red";
+                    errorMsg.style.padding = "20px";
+                    errorMsg.style.textAlign = "center";
+                    errorMsg.style.fontSize = "18px";
+                    videoWrapper.appendChild(errorMsg);
+                };
+                
                 videoWrapper.appendChild(video);
                 modalContent.appendChild(closeBtn);
                 modalContent.appendChild(modalTitle);
@@ -889,6 +933,7 @@
             // Update modal content
             document.getElementById('player-title').textContent = title;
             const modalVideo = document.getElementById('modal-video');
+            // Use proper path for video
             modalVideo.src = getVideoPath(filename);
             
             // Show modal
