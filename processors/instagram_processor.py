@@ -186,6 +186,7 @@ class InstagramProcessor(BaseProcessor):
             username = None
             date = None
             title = None
+            caption = None
             
             if "metadata" in downloaded_files and os.path.exists(downloaded_files["metadata"]):
                 try:
@@ -195,27 +196,64 @@ class InstagramProcessor(BaseProcessor):
                     # Extract username
                     if "node" in metadata and "owner" in metadata["node"]:
                         username = metadata["node"]["owner"]["username"]
+                    elif "owner_username" in metadata:
+                        username = metadata["owner_username"]
+                    elif "owner" in metadata and "username" in metadata["owner"]:
+                        username = metadata["owner"]["username"]
                     
                     # Extract date
                     if "node" in metadata and "taken_at_timestamp" in metadata["node"]:
                         timestamp = metadata["node"]["taken_at_timestamp"]
                         date = datetime.fromtimestamp(timestamp).strftime("%Y-%m-%d")
+                    elif "taken_at_timestamp" in metadata:
+                        timestamp = metadata["taken_at_timestamp"]
+                        date = datetime.fromtimestamp(timestamp).strftime("%Y-%m-%d")
                     
-                    # Extract title from caption
+                    # Extract title/caption
                     if "node" in metadata and "edge_media_to_caption" in metadata["node"]:
                         edges = metadata["node"]["edge_media_to_caption"]["edges"]
                         if edges:
-                            title = edges[0]["node"]["text"]
-                            # Take first line as title, limit length
-                            title = title.split("\n")[0][:100]
+                            caption = edges[0]["node"]["text"]
+                            # Take first line or first 100 chars as title, whichever is shorter
+                            title = caption.split("\n")[0][:100]
+                    elif "edge_media_to_caption" in metadata and "edges" in metadata["edge_media_to_caption"]:
+                        edges = metadata["edge_media_to_caption"]["edges"]
+                        if edges and "node" in edges[0] and "text" in edges[0]["node"]:
+                            caption = edges[0]["node"]["text"]
+                            title = caption.split("\n")[0][:100]
+                    
+                    # If no title was found, use a generic title with the content ID
+                    if not title or title.strip() == "":
+                        title = f"Instagram Post {content_id}"
                 except Exception as e:
                     logger.warning(f"Error extracting metadata: {e}")
+            
+            # If username isn't set, try to get it from the downloaded_files
+            if not username and "username" in downloaded_files:
+                username = downloaded_files["username"]
+            
+            # If date isn't set, use today's date
+            if not date:
+                date = datetime.now().strftime("%Y-%m-%d")
+            
+            # Set platform explicitly for new file naming
+            platform = "instagram"
+            
+            # Use our new filename utilities to generate consistent paths
+            from utils.filename_utils import get_output_paths as get_standardized_paths
+            standardized_paths = get_standardized_paths(
+                platform=platform,
+                username=username,
+                date=date,
+                title=title,
+                use_platform_subdir=True
+            )
             
             # Process video
             if "video" in downloaded_files and os.path.exists(downloaded_files["video"]):
                 video_path = copy_file(
                     downloaded_files["video"],
-                    output_paths["video"],
+                    standardized_paths["video"],
                     username=username,
                     date=date,
                     title=title
@@ -226,11 +264,9 @@ class InstagramProcessor(BaseProcessor):
                 if self.offmute_enabled:
                     # Try to generate transcript, but continue even if it fails
                     try:
-                        # Generate transcript with consistent naming
-                        transcript_path = output_paths["output_dir"] / f"{username}-{date}-{title}.md"
-                        transcript_success = self._generate_transcript_with_offmute(video_path, transcript_path)
+                        transcript_success = self._generate_transcript_with_offmute(video_path, standardized_paths["transcript"])
                         if transcript_success:
-                            result["transcript"] = str(transcript_path)
+                            result["transcript"] = str(standardized_paths["transcript"])
                         else:
                             logger.warning("Transcript generation failed, but continuing with other processing")
                     except Exception as e:
@@ -242,9 +278,19 @@ class InstagramProcessor(BaseProcessor):
                 image_paths = []
                 for i, img_path in enumerate(downloaded_files["images"]):
                     if os.path.exists(img_path):
-                        # Create a unique path for each image
-                        img_output_path = output_paths["output_dir"] / f"{username}-{date}-{title}-{i}.jpg"
-                        img_path_copied = copy_file(img_path, img_output_path)
+                        # Create a numbered version of the image path
+                        from pathlib import Path
+                        img_basename = Path(standardized_paths["thumbnail"]).stem
+                        img_extension = Path(standardized_paths["thumbnail"]).suffix
+                        img_output_path = Path(standardized_paths["thumbnail"]).parent / f"{img_basename}-{i}{img_extension}"
+                        
+                        img_path_copied = copy_file(
+                            img_path, 
+                            img_output_path,
+                            username=username,
+                            date=date,
+                            title=title
+                        )
                         image_paths.append(str(img_path_copied))
                 
                 if image_paths:
@@ -254,7 +300,7 @@ class InstagramProcessor(BaseProcessor):
                     if "thumbnail" not in result and image_paths:
                         thumbnail_path = copy_file(
                             downloaded_files["images"][0],
-                            output_paths["thumbnail"],
+                            standardized_paths["thumbnail"],
                             username=username,
                             date=date,
                             title=title
@@ -265,7 +311,7 @@ class InstagramProcessor(BaseProcessor):
             if "thumbnail" in downloaded_files and os.path.exists(downloaded_files["thumbnail"]):
                 thumbnail_path = copy_file(
                     downloaded_files["thumbnail"],
-                    output_paths["thumbnail"],
+                    standardized_paths["thumbnail"],
                     username=username,
                     date=date,
                     title=title
@@ -273,42 +319,45 @@ class InstagramProcessor(BaseProcessor):
                 result["thumbnail"] = str(thumbnail_path)
             
             # Process caption/transcript (only if offmute didn't create one)
-            if "caption" in downloaded_files and os.path.exists(downloaded_files["caption"]) and "transcript" not in result:
-                # Convert caption to markdown format
-                with open(downloaded_files["caption"], "r", encoding="utf-8") as f:
-                    caption_text = f.read()
-                
+            if caption and "transcript" not in result:
                 # Create a simple markdown transcript
-                transcript_text = f"# Instagram Post {content_id}\n\n{caption_text}"
+                transcript_text = f"# Instagram Post by {username}\n\n{caption}"
                 
                 # Save the transcript with consistent naming
-                transcript_path = output_paths["output_dir"] / f"{username}-{date}-{title}.md"
-                with open(transcript_path, "w", encoding="utf-8") as f:
+                with open(standardized_paths["transcript"], "w", encoding="utf-8") as f:
                     f.write(transcript_text)
                 
-                result["transcript"] = str(transcript_path)
+                result["transcript"] = str(standardized_paths["transcript"])
             
             # Process metadata
             if "metadata" in downloaded_files and os.path.exists(downloaded_files["metadata"]):
-                # Copy the metadata file
-                metadata_path = output_paths["output_dir"] / f"{username}-{date}-{title}.json"
-                metadata_path_copied = copy_file(downloaded_files["metadata"], metadata_path)
-                result["metadata"] = str(metadata_path_copied)
+                # Read the metadata
+                with open(downloaded_files["metadata"], "r", encoding="utf-8") as f:
+                    raw_metadata = json.load(f)
                 
-                # Extract additional information from metadata
-                try:
-                    with open(downloaded_files["metadata"], "r", encoding="utf-8") as f:
-                        metadata = json.load(f)
+                # Add platform information
+                raw_metadata["platform"] = "instagram"
+                if username:
+                    raw_metadata["owner_username"] = username
+                
+                # Copy the metadata file
+                metadata_file_copied = copy_file(
+                    downloaded_files["metadata"],
+                    standardized_paths["metadata"],
+                    username=username,
+                    date=date,
+                    title=title
+                )
+                
+                # Also update the metadata file with additional information
+                with open(metadata_file_copied, "w", encoding="utf-8") as f:
+                    json.dump(raw_metadata, f, indent=2, ensure_ascii=False)
                     
-                    # Extract username
-                    if "node" in metadata and "owner" in metadata["node"]:
-                        result["username"] = metadata["node"]["owner"]["username"]
-                except Exception as e:
-                    logger.warning(f"Error extracting information from metadata: {e}")
+                result["metadata"] = str(metadata_file_copied)
             
-            # Include username if it was directly extracted by the downloader
-            if "username" in downloaded_files:
-                result["username"] = downloaded_files["username"]
+            # Include username in the result
+            if username:
+                result["username"] = username
             
             return result
             
@@ -387,9 +436,22 @@ class InstagramProcessor(BaseProcessor):
             logger.info(f"Looking for transcript at: {generated_transcript}")
             
             if os.path.exists(generated_transcript):
-                # Copy the transcript to the output path
-                shutil.copy2(generated_transcript, output_path)
-                logger.info(f"Transcript copied from {generated_transcript} to {output_path}")
+                # Instead of copying, read the content and write it to our standardized path
+                with open(generated_transcript, 'r', encoding='utf-8') as src_file:
+                    transcript_content = src_file.read()
+                
+                # Write to our standardized path
+                with open(output_path, 'w', encoding='utf-8') as dest_file:
+                    dest_file.write(transcript_content)
+                    
+                logger.info(f"Transcript moved from {generated_transcript} to {output_path}")
+                
+                # Remove the original transcript file
+                try:
+                    os.remove(generated_transcript)
+                except:
+                    logger.warning(f"Could not remove original transcript file: {generated_transcript}")
+                    
                 return True
             else:
                 # Look for any transcription files in the directory
@@ -400,9 +462,23 @@ class InstagramProcessor(BaseProcessor):
                     # Use the most recent one
                     latest_transcript = max(possible_transcripts, key=os.path.getmtime)
                     logger.info(f"Found alternative transcript: {latest_transcript}")
-                    # Copy to the output path
-                    shutil.copy2(latest_transcript, output_path)
-                    logger.info(f"Transcript copied from {latest_transcript} to {output_path}")
+                    
+                    # Read content and write to our standardized path
+                    with open(latest_transcript, 'r', encoding='utf-8') as src_file:
+                        transcript_content = src_file.read()
+                    
+                    # Write to our standardized path
+                    with open(output_path, 'w', encoding='utf-8') as dest_file:
+                        dest_file.write(transcript_content)
+                        
+                    logger.info(f"Transcript moved from {latest_transcript} to {output_path}")
+                    
+                    # Remove the original transcript file
+                    try:
+                        os.remove(latest_transcript)
+                    except:
+                        logger.warning(f"Could not remove original transcript file: {latest_transcript}")
+                        
                     return True
                 
                 logger.error(f"No transcript file found after offmute processing")

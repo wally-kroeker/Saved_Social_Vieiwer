@@ -12,6 +12,14 @@ import json
 from pathlib import Path
 from datetime import datetime
 
+# Import our new standardized filename utilities
+from utils.filename_utils import (
+    sanitize_string,
+    generate_base_filename,
+    get_output_paths,
+    ensure_output_dir
+)
+
 def ensure_directory_exists(directory_path):
     """
     Ensure that a directory exists, creating it if necessary.
@@ -36,12 +44,8 @@ def sanitize_filename(filename):
     Returns:
         str: Sanitized filename
     """
-    # Replace invalid characters with underscores
-    sanitized = re.sub(r'[\\/*?:"<>|]', "_", filename)
-    # Limit length to avoid issues with max path length
-    if len(sanitized) > 200:
-        sanitized = sanitized[:197] + "..."
-    return sanitized
+    # Use our new sanitization function
+    return sanitize_string(filename)
 
 def generate_output_path(platform, link_id, output_type, extension, base_dir=None, username=None, date=None, title=None):
     """
@@ -65,20 +69,35 @@ def generate_output_path(platform, link_id, output_type, extension, base_dir=Non
     if base_dir is None:
         base_dir = OUTPUT_DIR
     
-    # Create a sanitized filename
+    # Use our new filename utilities to generate consistent filenames
     if username and date and title:
-        # Use the new pattern: [username]-[date]-[title].[extension]
-        safe_title = sanitize_filename(title)
-        filename = f"{username}-{date}-{safe_title}.{extension}"
+        # Use our standardized naming pattern
+        base_filename = generate_base_filename(
+            platform=platform,
+            username=username,
+            date=date,
+            title=title
+        )
+        
+        # Create the platform-specific subdirectory
+        platform_dir = Path(base_dir) / sanitize_string(platform)
+        ensure_directory_exists(platform_dir)
+        
+        # Add the extension
+        filename = f"{base_filename}.{extension}"
+        
+        return platform_dir / filename
     else:
         # Fall back to the old pattern if metadata is missing
-        safe_id = sanitize_filename(link_id)
+        # But still place it in the platform subdirectory
+        safe_id = sanitize_string(link_id)
         filename = f"{platform}_{safe_id}_{output_type}.{extension}"
-    
-    # Create the output directory if it doesn't exist
-    output_dir = ensure_directory_exists(base_dir)
-    
-    return output_dir / filename
+        
+        # Create the platform-specific subdirectory
+        platform_dir = Path(base_dir) / sanitize_string(platform)
+        ensure_directory_exists(platform_dir)
+        
+        return platform_dir / filename
 
 def save_metadata(metadata, filepath):
     """
@@ -142,13 +161,28 @@ def copy_file(source, destination, username=None, date=None, title=None):
     
     # If username, date, and title are provided, use the new naming pattern
     if username and date and title:
+        # Extract platform from the destination path (usually this is in a platform subdirectory)
+        platform = destination.parent.name
+        if platform not in ["instagram", "youtube"]:
+            platform = "unknown"
+            
+        # Generate the new filename using our standardized function
+        base_filename = generate_base_filename(
+            platform=platform,
+            username=username,
+            date=date,
+            title=title
+        )
+        
         # Get the extension from the destination path
         extension = destination.suffix
-        # Generate the new filename
-        safe_title = sanitize_filename(title)
-        new_filename = f"{username}-{date}-{safe_title}{extension}"
-        # Update the destination path with the new filename
-        destination = destination.parent / new_filename
+        
+        # Update the destination path with the new filename and ensure it's in the platform subdirectory
+        from config import OUTPUT_DIR
+        platform_dir = Path(OUTPUT_DIR) / sanitize_string(platform)
+        ensure_directory_exists(platform_dir)
+        
+        destination = platform_dir / f"{base_filename}{extension}"
     
     # Create the destination directory if it doesn't exist
     ensure_directory_exists(destination.parent)
