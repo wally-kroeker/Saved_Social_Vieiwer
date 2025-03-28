@@ -17,7 +17,7 @@ import shutil
 import config
 from utils.logging_utils import get_logger
 from processors.base_processor import BaseProcessor
-from utils.file_utils import generate_output_path, copy_file
+from utils.file_utils import generate_output_path, copy_file, save_metadata
 from scripts.instagram_downloader import download_instagram_post
 from scripts.offmute import transcribe_video
 
@@ -393,100 +393,121 @@ class InstagramProcessor(BaseProcessor):
             # Create output directory if needed
             os.makedirs(os.path.dirname(str(output_path)), exist_ok=True)
             
-            # Use only the direct npx offmute approach
-            logger.info("Running npx offmute directly")
-            
-            # Prepare the command
-            command = ["npx", "offmute", str(video_path)]
-            
-            # Set the environment with the API key
-            env = os.environ.copy()
-            env["GEMINI_API_KEY"] = gemini_api_key
-            
-            # Log the command
-            logger.info(f"Command: {' '.join(command)}")
-            logger.info(f"Using GEMINI_API_KEY: {gemini_api_key[:4]}...{gemini_api_key[-4:]}")
-            
-            # Run the command
-            process = subprocess.run(
-                command,
-                capture_output=True,
-                text=True,
-                env=env,
-                check=False,  # Don't raise an exception on non-zero exit
-                timeout=300   # Add a timeout of 5 minutes to prevent hanging
-            )
-            
-            # Log the output regardless of success
-            logger.info(f"Command exit code: {process.returncode}")
-            logger.info(f"Command stdout: {process.stdout}")
-            
-            if process.returncode != 0:
-                logger.error(f"Command stderr: {process.stderr}")
-                return False
-            
-            # Check for the generated transcript file
-            # The offmute tool adds "_transcription.md" to the original filename
-            video_basename = os.path.basename(str(video_path))
-            video_name_without_ext = os.path.splitext(video_basename)[0]
-            transcript_filename = f"{video_name_without_ext}_transcription.md"
-            video_dir = os.path.dirname(str(video_path))
-            generated_transcript = os.path.join(video_dir, transcript_filename)
-            
-            logger.info(f"Looking for transcript at: {generated_transcript}")
-            
-            if os.path.exists(generated_transcript):
-                # Instead of copying, read the content and write it to our standardized path
-                with open(generated_transcript, 'r', encoding='utf-8') as src_file:
-                    transcript_content = src_file.read()
+            # Create a temporary directory for Offmute to work in
+            # This helps avoid creating temporary files in the output directory
+            with tempfile.TemporaryDirectory() as temp_dir:
+                logger.info(f"Created temporary directory for Offmute: {temp_dir}")
                 
-                # Write to our standardized path
-                with open(output_path, 'w', encoding='utf-8') as dest_file:
-                    dest_file.write(transcript_content)
-                    
-                logger.info(f"Transcript moved from {generated_transcript} to {output_path}")
+                # Create a temporary copy of the video file in the temp directory
+                temp_video_path = os.path.join(temp_dir, "temp_video.mp4")
+                shutil.copy2(video_path, temp_video_path)
+                logger.info(f"Copied video to temporary location: {temp_video_path}")
                 
-                # Remove the original transcript file
-                try:
-                    os.remove(generated_transcript)
-                except:
-                    logger.warning(f"Could not remove original transcript file: {generated_transcript}")
-                    
-                return True
-            else:
-                # Look for any transcription files in the directory
+                # Use only the direct npx offmute approach
+                logger.info("Running npx offmute directly")
+                
+                # Prepare the command with output-dir to control where files are created
+                command = [
+                    "npx", 
+                    "offmute", 
+                    temp_video_path,
+                    "--output-dir", temp_dir
+                ]
+                
+                # Set the environment with the API key
+                env = os.environ.copy()
+                env["GEMINI_API_KEY"] = gemini_api_key
+                
+                # Log the command
+                logger.info(f"Command: {' '.join(command)}")
+                logger.info(f"Using GEMINI_API_KEY: {gemini_api_key[:4]}...{gemini_api_key[-4:]}")
+                
+                # Run the command
+                process = subprocess.run(
+                    command,
+                    capture_output=True,
+                    text=True,
+                    env=env,
+                    check=False,  # Don't raise an exception on non-zero exit
+                    timeout=300   # Add a timeout of 5 minutes to prevent hanging
+                )
+                
+                # Log the output regardless of success
+                logger.info(f"Command exit code: {process.returncode}")
+                logger.info(f"Command stdout: {process.stdout}")
+                
+                if process.returncode != 0:
+                    logger.error(f"Command stderr: {process.stderr}")
+                    return False
+                
+                # Check for the generated transcript file
+                # The offmute tool adds "_transcription.md" to the original filename
+                temp_video_basename = os.path.basename(temp_video_path)
+                temp_video_name_without_ext = os.path.splitext(temp_video_basename)[0]
+                transcript_filename = f"{temp_video_name_without_ext}_transcription.md"
+                generated_transcript = os.path.join(temp_dir, transcript_filename)
+                
+                logger.info(f"Looking for transcript at: {generated_transcript}")
+                
+                # Also check for any _transcription.md file in the temp directory
                 import glob
-                possible_transcripts = glob.glob(os.path.join(video_dir, "*_transcription.md"))
+                possible_transcripts = glob.glob(os.path.join(temp_dir, "*_transcription.md"))
                 
-                if possible_transcripts:
-                    # Use the most recent one
-                    latest_transcript = max(possible_transcripts, key=os.path.getmtime)
-                    logger.info(f"Found alternative transcript: {latest_transcript}")
+                if os.path.exists(generated_transcript) or possible_transcripts:
+                    # Use the generated transcript or the first one found
+                    transcript_path = generated_transcript if os.path.exists(generated_transcript) else possible_transcripts[0]
+                    logger.info(f"Found transcript: {transcript_path}")
                     
                     # Read content and write to our standardized path
-                    with open(latest_transcript, 'r', encoding='utf-8') as src_file:
+                    with open(transcript_path, 'r', encoding='utf-8') as src_file:
                         transcript_content = src_file.read()
                     
                     # Write to our standardized path
                     with open(output_path, 'w', encoding='utf-8') as dest_file:
                         dest_file.write(transcript_content)
                         
-                    logger.info(f"Transcript moved from {latest_transcript} to {output_path}")
+                    logger.info(f"Transcript written to: {output_path}")
                     
-                    # Remove the original transcript file
-                    try:
-                        os.remove(latest_transcript)
-                    except:
-                        logger.warning(f"Could not remove original transcript file: {latest_transcript}")
-                        
                     return True
-                
-                logger.error(f"No transcript file found after offmute processing")
-                logger.info(f"Files in directory: {os.listdir(video_dir)}")
-                return False
+                else:
+                    logger.error(f"No transcript file found after offmute processing")
+                    logger.info(f"Files in temp directory: {os.listdir(temp_dir)}")
+                    return False
                 
         except Exception as e:
             import traceback
             logger.error(f"Error generating transcript with offmute: {e}")
             logger.error(traceback.format_exc())
             return False
+
+    def save_metadata(self, content_id: str, metadata: Dict[str, Any]) -> None:
+        """
+        Save metadata for the processed content.
+        
+        Args:
+            content_id (str): Unique identifier for the content
+            metadata (dict): Metadata to save
+            
+        Returns:
+            Path: Path to the saved metadata file
+        """
+        # Check if there are processed files with standardized paths
+        if "processed_files" in metadata and metadata["processed_files"]:
+            if "metadata" in metadata["processed_files"]:
+                # Metadata is already saved using standardized naming by the _process_downloaded_files method
+                # We don't need to save it again in the old format
+                logger.info(f"Metadata already saved with standardized naming: {metadata['processed_files']['metadata']}")
+                return
+        
+        # Fall back to the old method if no standardized metadata path is found
+        from utils.file_utils import save_metadata
+        
+        # Add platform and content ID to metadata
+        metadata["platform"] = self.platform_name
+        metadata["content_id"] = content_id
+        
+        # Generate the metadata file path using the old method
+        metadata_path = self.generate_output_paths(content_id)["metadata"]
+        
+        # Save the metadata
+        return save_metadata(metadata, metadata_path)
