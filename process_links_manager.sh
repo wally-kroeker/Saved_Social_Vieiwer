@@ -516,28 +516,42 @@ process_all() {
 start_viewer() {
     echo -e "${BLUE}Starting content viewer server...${NC}"
     
-    # Check if Python server is already running
-    if pgrep -f "python.*viewer/server.py" > /dev/null; then
-        echo -e "${YELLOW}Viewer server is already running${NC}"
+    # Check if FastAPI server is already running
+    if pgrep -f "uvicorn.*main:app" > /dev/null; then
+        echo -e "${YELLOW}FastAPI viewer server is already running${NC}"
         return
     fi
     
-    # Start the viewer server
-    if [ -f "viewer/server.py" ]; then
-        echo -e "${GREEN}Starting viewer at http://localhost:8080${NC}"
-        python viewer/server.py &
-        echo -e "${GREEN}Viewer server started in background${NC}"
+    # Start the FastAPI viewer server
+    if [ -f "viewer/main.py" ]; then
+        echo -e "${GREEN}Starting FastAPI viewer at http://localhost:8080${NC}"
+        cd viewer && uvicorn main:app --host 0.0.0.0 --port 8080 &
+        cd ..
+        echo -e "${GREEN}FastAPI viewer server started in background${NC}"
         echo -e "Access the viewer at: ${BLUE}http://localhost:8080${NC}"
     else
-        echo -e "${RED}Error: viewer/server.py not found${NC}"
+        echo -e "${RED}Error: viewer/main.py not found${NC}"
     fi
 }
 
 # Function to restart the viewer server
 restart_viewer() {
     echo -e "${BLUE}Restarting content viewer server...${NC}"
-    pkill -f "python.*server.py" && echo -e "${YELLOW}Attempting to restart server...${NC}" && python3 viewer/server.py &
-    echo -e "${GREEN}Viewer server restart initiated.${NC}"
+    
+    # Kill any running viewer server
+    pkill -f "uvicorn.*main:app" || true
+    sleep 1
+    
+    # Start a new server
+    if [ -f "viewer/main.py" ]; then
+        echo -e "${GREEN}Starting FastAPI viewer at http://localhost:8080${NC}"
+        cd viewer && uvicorn main:app --host 0.0.0.0 --port 8080 &
+        cd ..
+        echo -e "${GREEN}FastAPI viewer server started in background${NC}"
+        echo -e "Access the viewer at: ${BLUE}http://localhost:8080${NC}"
+    else
+        echo -e "${RED}Error: viewer/main.py not found${NC}"
+    fi
 }
 
 # Main menu function
