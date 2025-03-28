@@ -21,6 +21,34 @@ The Saved Social Viewer project enables users to:
 
 ## Recent Architectural Decisions
 
+### 2025-03-29: FastAPI Viewer Simplification
+- **Decision**: Simplified the FastAPI viewer implementation plan to focus on core functionality
+- **Details**:
+  - Basic FastAPI backend with minimal configuration
+  - Simple HTML/CSS/JS frontend without complex frameworks
+  - Focus on content display rather than advanced features
+  - Streamlined API endpoints for content discovery and serving
+- **Components**:
+  - Backend: FastAPI with Jinja2 templating
+  - Frontend: Basic HTML5 with minimal JavaScript
+  - Content views: Simple video player, image display, transcript viewer
+  - Features: Basic search and navigation
+- **Rationale**: Simpler approach speeds development and reduces complexity while still meeting core requirements
+
+### 2025-03-28: Instagram Processing Enhancement
+- **Validation:** Successfully tested the filename standardization with Instagram processing.
+- **Results:** 
+  - Files are now correctly named using the pattern: `instagram-username-YYYY-MM-DD-title.ext`
+  - All files are stored in the `output/instagram/` directory
+  - Special characters in titles are properly sanitized
+  - Temporary files are cleaned up properly
+  - Transcripts are successfully generated
+- **Improvements:**
+  - Implemented tempfile usage for Offmute to prevent temporary files in output directory
+  - Added proper cleanup of unnecessary files
+  - Created test script for validation (`test_new_processing.sh`)
+- **Next Steps:** Validate YouTube processing to ensure it follows the same conventions
+
 ### 2025-03-28: Filename Standardization
 - **Problem**: Special characters in filenames (especially `#`) were causing issues with web serving
 - **Solution**: 
@@ -51,9 +79,10 @@ The Saved Social Viewer project enables users to:
 - ✅ Basic CLI interface
 - ✅ Transcript generation
 - ✅ Filename standardization system
+- ✅ Instagram processor integration with standardized naming
 
 ### In Progress
-- 🔄 File migration implementation
+- 🔄 YouTube processor integration with standardized naming
 - 🔄 FastAPI viewer development
 - 🔄 Improved content browsing interface
 

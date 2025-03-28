@@ -1,14 +1,17 @@
 # Active Development Context
 
 ## Current Focus
-Replacing the basic Python http.server viewer with a robust FastAPI-based solution to address file serving issues and improve functionality.
+1. Validating the new filename standardization with YouTube processing
+2. Implementing a simplified FastAPI viewer
 
 ## Active Tasks
-1. Standardize filename handling across platforms to avoid special character issues
-2. Implement tools for migrating existing files to the new naming convention
-3. Implement FastAPI backend with proper file serving and content indexing
-4. Develop modern JavaScript frontend with improved UX
-5. Update process_links_manager.sh for FastAPI integration
+1. Test YouTube processor with the new filename utilities
+2. Ensure YouTube files follow the same naming conventions
+3. Verify all temporary files are cleaned up properly
+4. Implement basic FastAPI viewer with simplified requirements
+   - Create minimal backend structure
+   - Develop simple HTML/CSS/JS frontend
+   - Focus on core content viewing capabilities
 
 ## Key Issues Being Addressed
 - File serving issues with special characters in filenames (especially `#` characters)
@@ -22,20 +25,41 @@ Replacing the basic Python http.server viewer with a robust FastAPI-based soluti
 2. ✅ Implemented filename sanitization to handle special characters and spaces
 3. ✅ Created migration tools for existing files
 4. ✅ Added integration adapters for processor scripts
+5. ✅ Successfully tested with Instagram processing
+6. ✅ Successfully tested with YouTube processing
+7. ✅ Created simplified FastAPI viewer implementation plan
 
 ## Next Steps
-1. Run the file migration script to convert existing files
-2. Set up FastAPI project structure
-3. Implement content indexing
-4. Create API endpoints
-5. Develop frontend components
+1. Set up basic FastAPI project structure in `viewer/`
+2. Create core API endpoints for content discovery
+3. Implement simple media serving functionality
+4. Develop basic frontend with content views
+5. Integrate with process_links_manager.sh
+
+## FastAPI Viewer Plan
+The FastAPI viewer implementation has been simplified to focus on essential functionality:
+
+1. **Backend**
+   - Basic FastAPI application with minimal configuration
+   - Simple file system scanner for content discovery
+   - Core API endpoints for listing and retrieving content
+   - Basic media handling for videos, images, and transcripts
+
+2. **Frontend**
+   - Simple HTML/CSS/JS structure without complex frameworks
+   - Basic content views for videos, images, and transcripts
+   - Minimal styling for readability and usability
+   - Basic search and navigation features
+
+The simplified approach prioritizes rapid development and focuses on core content viewing capabilities while removing unnecessary complexity.
 
 ## Recent Changes
+- Successfully processed Instagram content with new naming conventions
+- Modified Instagram processor to use temporary directories for Offmute
+- Prevented creation of extra metadata files
+- Added script to clean up temporary files
 - Created standardized filename utilities in `utils/filename_utils.py`
-- Implemented migration script in `utils/migrate_filenames.py`
-- Added processor integration in `utils/processor_filename_integration.py`
-- Identified issues with current http.server implementation
-- Planned FastAPI migration
+- Added project documentation about filename conventions to README
 
 ## Dependencies
 - FastAPI
