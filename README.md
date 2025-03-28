@@ -5,6 +5,9 @@ A tool for processing saved links from various platforms and saving them to a lo
 ## Features
 
 - Process YouTube videos: Download videos, generate transcripts, and save metadata
+  - Optimized for smaller files (360p format) to save disk space
+  - Intelligent transcript generation with dynamic timeout based on video length
+  - Automated cleanup of temporary files
 - Process Instagram posts: Download images, save captions, and metadata
 - Integration with Notion database for tracking processed links
 - Platform-specific settings (batch sizes, rate limiting, etc.)

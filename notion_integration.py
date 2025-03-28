@@ -59,12 +59,13 @@ class NotionIntegration:
             logger.error(f"Failed to initialize Notion client: {e}")
             raise
     
-    def get_unprocessed_links(self, limit: int = 10) -> List[Dict[str, Any]]:
+    def get_unprocessed_links(self, limit: int = 10, platform: Optional[str] = None) -> List[Dict[str, Any]]:
         """
         Get unprocessed links from the Notion database.
         
         Args:
             limit (int, optional): Maximum number of links to retrieve. Defaults to 10.
+            platform (str, optional): If specified, directly use URL filtering to find links for this platform.
             
         Returns:
             List[Dict[str, Any]]: List of unprocessed links with their metadata
@@ -82,6 +83,30 @@ class NotionIntegration:
                 },
                 "page_size": limit
             }
+            
+            # If platform is specified, use additional filter for YouTube links
+            if platform == "youtube":
+                # Directly check Notion database for YouTube URLs
+                filter_params = {
+                    "filter": {
+                        "and": [
+                            {
+                                "property": "Status",
+                                "status": {
+                                    "equals": "Not started"
+                                }
+                            },
+                            {
+                                "property": "URL",
+                                "url": {
+                                    "contains": "youtu"
+                                }
+                            }
+                        ]
+                    },
+                    "page_size": limit
+                }
+                logger.info(f"Using YouTube-specific filtering for Notion query")
             
             # Query the database
             response = self.client.databases.query(
@@ -259,7 +284,7 @@ class NotionIntegration:
 # Create a singleton instance
 notion = NotionIntegration()
 
-def get_unprocessed_links(limit: int = 10) -> List[Dict[str, Any]]:
+def get_unprocessed_links(limit: int = 10, platform: Optional[str] = None) -> List[Dict[str, Any]]:
     """
     Get unprocessed links from the Notion database.
     
@@ -267,11 +292,12 @@ def get_unprocessed_links(limit: int = 10) -> List[Dict[str, Any]]:
     
     Args:
         limit (int, optional): Maximum number of links to retrieve. Defaults to 10.
+        platform (str, optional): If specified, directly use URL filtering to find links for this platform.
         
     Returns:
         List[Dict[str, Any]]: List of unprocessed links with their metadata
     """
-    return notion.get_unprocessed_links(limit)
+    return notion.get_unprocessed_links(limit, platform)
 
 def mark_as_processed(item_id: str, metadata: Optional[Dict[str, Any]] = None) -> bool:
     """

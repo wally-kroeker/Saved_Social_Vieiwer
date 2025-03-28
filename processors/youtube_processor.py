@@ -142,8 +142,8 @@ class YouTubeProcessor(BaseProcessor):
         with tempfile.TemporaryDirectory() as temp_dir:
             # Configure yt-dlp options
             ydl_opts = {
-                # Format selection - try progressively more flexible options
-                'format': 'bestvideo[ext=mp4]+bestaudio[ext=m4a]/mp4/best[ext=mp4]/best',
+                # Format selection - smaller file size (360p MP4)
+                'format': '18',  # 360p MP4 (video+audio, much smaller size)
                 'outtmpl': os.path.join(temp_dir, '%(id)s.%(ext)s'),
                 'writethumbnail': True,  # Enable thumbnail download
                 'writeinfojson': True,   # Enable metadata download
@@ -193,13 +193,13 @@ class YouTubeProcessor(BaseProcessor):
                     # Format date as YYYY-MM-DD
                     formatted_date = f"{upload_date[:4]}-{upload_date[4:6]}-{upload_date[6:8]}"
                     
-                    # Create base filename following Instagram pattern:
-                    # username-date-caption
+                    # Create base filename following platform-username-date-title pattern
                     base_filename = f"{uploader}-{formatted_date}-{title}"
                     self.logger.info(f"Generated base filename: {base_filename}")
                     
                     # Set up output directory
                     output_dir = OUTPUT_DIR / "youtube"
+                    os.makedirs(output_dir, exist_ok=True)
                     
                     self.logger.info(f"Using output directory: {output_dir}")
                     
@@ -214,10 +214,7 @@ class YouTubeProcessor(BaseProcessor):
                     for key, path in output_paths.items():
                         self.logger.info(f"Output path for {key}: {path}")
                     
-                    # Move files to final locations
-                    os.makedirs(output_dir, exist_ok=True)
-                    
-                    # Convert video to mp4 if needed and move to final location
+                    # Process video file - Convert to mp4 if needed
                     if not video_file.endswith('.mp4'):
                         self.logger.info("Converting video to MP4 format")
                         mp4_file = os.path.join(temp_dir, f"{video_id}.mp4")
@@ -231,13 +228,11 @@ class YouTubeProcessor(BaseProcessor):
                         self.logger.info(f"ffmpeg output: {result.stdout}")
                         video_file = mp4_file
                     
-                    self.logger.info(f"Moving video file from {video_file} to {output_paths['video']}")
-                    os.rename(video_file, output_paths["video"])
-                    
+                    # Copy video to final location (don't use rename which fails after the file is gone)
                     self.logger.info(f"Copying video file from {video_file} to {output_paths['video']}")
                     shutil.copy2(video_file, output_paths["video"])
                     
-                    # Convert thumbnail to jpg if needed and move to final location
+                    # Process thumbnail - convert to jpg if needed and copy to final location
                     if thumbnail_file:
                         if not thumbnail_file.endswith('.jpg'):
                             self.logger.info("Converting thumbnail to JPG format")
@@ -250,14 +245,20 @@ class YouTubeProcessor(BaseProcessor):
                             self.logger.info(f"ffmpeg output: {result.stdout}")
                             thumbnail_file = jpg_file
                         
-                        self.logger.info(f"Moving thumbnail file from {thumbnail_file} to {output_paths['thumbnail']}")
-                        os.rename(thumbnail_file, output_paths["thumbnail"])
+                        self.logger.info(f"Copying thumbnail file to {output_paths['thumbnail']}")
+                        shutil.copy2(thumbnail_file, output_paths["thumbnail"])
+                    else:
+                        # If no thumbnail, create a placeholder file
+                        self.logger.warning("No thumbnail file found, creating a placeholder")
+                        with open(output_paths["thumbnail"], 'w') as f:
+                            f.write("No thumbnail available")
                     
-                    # Save metadata in the same format as Instagram
+                    # Create metadata in the same format as Instagram
                     metadata = {
                         "title": info.get("title", ""),
                         "description": info.get("description", ""),
                         "uploader": info.get("uploader", ""),
+                        "platform": "youtube",  # explicitly mark platform
                         "duration": info.get("duration", 0),
                         "view_count": info.get("view_count", 0),
                         "like_count": info.get("like_count", 0),
@@ -273,15 +274,23 @@ class YouTubeProcessor(BaseProcessor):
                     with open(output_paths["metadata"], 'w', encoding='utf-8') as f:
                         json.dump(metadata, f, indent=2, ensure_ascii=False)
                     
-                    # Generate transcript using offmute
-                    self.logger.info("Generating transcript")
-                    self._generate_transcript(output_paths["video"], output_paths["transcript"])
+                    # Generate transcript using offmute - no fallback if it fails
+                    self.logger.info("Generating transcript using offmute")
+                    success = self._generate_transcript(output_paths["video"], output_paths["transcript"])
+                    if not success:
+                        self.logger.error("Transcript generation failed - no fallback will be created")
+                    
+                    # Clean up temporary files created by offmute
+                    self._cleanup_offmute_files(output_dir)
                     
                     return {
                         "success": True,
                         "video_id": video_id,
                         "output_paths": output_paths,
-                        "metadata": metadata
+                        "metadata": metadata,
+                        "platform": "youtube",
+                        "username": uploader,
+                        "title": title
                     }
                     
             except Exception as e:
@@ -289,14 +298,48 @@ class YouTubeProcessor(BaseProcessor):
                 self.logger.error(f"Error processing YouTube video: {e}")
                 self.logger.error(traceback.format_exc())
                 
+                # Clean up any temporary files in case of error
+                try:
+                    self._cleanup_offmute_files(OUTPUT_DIR / "youtube")
+                except Exception as cleanup_error:
+                    self.logger.error(f"Error during cleanup: {cleanup_error}")
+                
                 # Create a result with error information
                 return {
                     "success": False,
                     "error": str(e),
                     "video_id": video_id,
-                    "url": url
+                    "url": url,
+                    "platform": "youtube"
                 }
     
+    def _cleanup_offmute_files(self, output_dir: Path) -> None:
+        """
+        Clean up temporary files created by offmute.
+        
+        Args:
+            output_dir (Path): Directory containing files to clean up
+        """
+        self.logger.info(f"Cleaning up temporary offmute files in {output_dir}")
+        
+        try:
+            # Remove config.json file
+            config_json = os.path.join(output_dir, "config.json")
+            if os.path.exists(config_json):
+                self.logger.info(f"Removing config.json file: {config_json}")
+                os.remove(config_json)
+            
+            # Remove transcription directory
+            transcription_dir = os.path.join(output_dir, "transcription")
+            if os.path.exists(transcription_dir) and os.path.isdir(transcription_dir):
+                self.logger.info(f"Removing transcription directory: {transcription_dir}")
+                shutil.rmtree(transcription_dir)
+                
+            self.logger.info("Temporary offmute files cleaned up successfully")
+        except Exception as e:
+            self.logger.error(f"Error cleaning up offmute files: {e}")
+            # Don't re-raise the exception - we want the processing to continue
+            
     def _generate_transcript(self, video_path: str, transcript_path: str) -> bool:
         """
         Generate transcript for a video using offmute.
@@ -320,12 +363,7 @@ class YouTubeProcessor(BaseProcessor):
             self.logger.info("Using GEMINI_API_KEY from config")
             
         if not gemini_api_key:
-            self.logger.warning("No GEMINI_API_KEY found - creating placeholder transcript")
-            # Create a placeholder transcript
-            with open(transcript_path, 'w') as f:
-                f.write("# YouTube Transcript\n\n")
-                f.write("Transcript generation requires GEMINI_API_KEY.\n")
-                f.write(f"Video: {video_path}\n")
+            self.logger.error("No GEMINI_API_KEY found - transcript generation will fail")
             return False
         
         try:
@@ -334,8 +372,39 @@ class YouTubeProcessor(BaseProcessor):
                 self.logger.error(f"Video file does not exist: {video_path}")
                 return False
             
+            # Get video duration to determine timeout
+            try:
+                # Use ffprobe to get video duration
+                ffprobe_cmd = [
+                    'ffprobe', 
+                    '-v', 'error', 
+                    '-show_entries', 'format=duration', 
+                    '-of', 'default=noprint_wrappers=1:nokey=1', 
+                    str(video_path)
+                ]
+                duration_output = subprocess.check_output(ffprobe_cmd, text=True).strip()
+                video_duration = float(duration_output)
+                
+                # Calculate timeout - 5 minutes base + 1 minute per 10 minutes of video, capped at 30 minutes
+                # This is a reasonable balance for most videos
+                base_timeout = 300  # 5 minutes
+                duration_factor = min(video_duration / 600, 25 * 60)  # 1 minute per 10 minutes, max 25 minutes
+                timeout = base_timeout + duration_factor
+                
+                timeout = min(timeout, 1800)  # Cap at 30 minutes max (1800 seconds)
+                
+                self.logger.info(f"Video duration: {video_duration:.2f} seconds, setting timeout to {timeout:.2f} seconds")
+            except Exception as e:
+                self.logger.warning(f"Could not determine video duration, using default timeout: {e}")
+                timeout = 600  # 10 minutes default timeout
+            
             # Create output directory if needed
             os.makedirs(os.path.dirname(str(transcript_path)), exist_ok=True)
+            
+            # Check file size to warn about potentially long processing times
+            file_size_mb = os.path.getsize(str(video_path)) / (1024 * 1024)
+            if file_size_mb > 100:  # If file is larger than 100MB
+                self.logger.warning(f"Large video file: {file_size_mb:.2f}MB. Transcription may take a long time.")
             
             # Use direct npx offmute approach
             self.logger.info("Running npx offmute directly")
@@ -358,7 +427,7 @@ class YouTubeProcessor(BaseProcessor):
                 text=True,
                 env=env,
                 check=False,  # Don't raise an exception on non-zero exit
-                timeout=300   # Add a timeout of 5 minutes to prevent hanging
+                timeout=timeout   # Use calculated timeout
             )
             
             # Log the output regardless of success
@@ -367,11 +436,6 @@ class YouTubeProcessor(BaseProcessor):
             
             if process.returncode != 0:
                 self.logger.error(f"Command stderr: {process.stderr}")
-                # Create a fallback transcript with the error
-                with open(transcript_path, 'w') as f:
-                    f.write("# YouTube Transcript (Error)\n\n")
-                    f.write(f"Error running offmute: {process.stderr}\n")
-                    f.write(f"Video: {video_path}\n")
                 return False
             
             # Check for the generated transcript file
@@ -388,6 +452,14 @@ class YouTubeProcessor(BaseProcessor):
                 # Copy the transcript to the output path
                 shutil.copy2(generated_transcript, transcript_path)
                 self.logger.info(f"Transcript copied from {generated_transcript} to {transcript_path}")
+                
+                # Remove the original transcript file
+                try:
+                    os.remove(generated_transcript)
+                    self.logger.info(f"Removed original transcript file: {generated_transcript}")
+                except Exception as e:
+                    self.logger.warning(f"Could not remove original transcript file: {e}")
+                
                 return True
             else:
                 # Look for any transcription files in the directory
@@ -404,22 +476,16 @@ class YouTubeProcessor(BaseProcessor):
                     return True
                 
                 self.logger.error(f"No transcript file found after offmute processing")
-                # Create a fallback transcript
-                with open(transcript_path, 'w') as f:
-                    f.write("# YouTube Transcript (Not Generated)\n\n")
-                    f.write("Offmute ran successfully but no transcript was created.\n")
-                    f.write(f"Video: {video_path}\n")
                 return False
                 
+        except subprocess.TimeoutExpired as e:
+            import traceback
+            self.logger.error(f"Transcription timed out after {e.timeout} seconds. Video may be too long for transcription.")
+            self.logger.error(f"Consider using a shorter video or increasing the timeout. Original error: {e}")
+            self.logger.error(traceback.format_exc())
+            return False
         except Exception as e:
             import traceback
             self.logger.error(f"Error generating transcript: {e}")
             self.logger.error(traceback.format_exc())
-            
-            # Create a simple fallback transcript
-            with open(transcript_path, 'w') as f:
-                f.write("# YouTube Transcript (Error)\n\n")
-                f.write(f"Error generating transcript: {str(e)}\n")
-                f.write(f"Video: {video_path}\n")
-            
             return False

@@ -62,8 +62,8 @@ class PlatformProcessor:
         while True:
             logger.info(f"Processing {self.platform_type} batch with size {effective_batch_size}")
             
-            # Get unprocessed links
-            items = get_unprocessed_links(limit=effective_batch_size)
+            # Get unprocessed links, using platform-specific filtering
+            items = get_unprocessed_links(limit=effective_batch_size, platform=self.platform_type)
             logger.info(f"Found {len(items)} unprocessed links")
             
             if not items:
