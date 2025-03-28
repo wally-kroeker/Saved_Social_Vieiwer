@@ -4,26 +4,38 @@
 Replacing the basic Python http.server viewer with a robust FastAPI-based solution to address file serving issues and improve functionality.
 
 ## Active Tasks
-1. Implementing FastAPI backend with proper file serving and content indexing
-2. Developing modern JavaScript frontend with improved UX
-3. Updating process_links_manager.sh for FastAPI integration
+1. Standardize filename handling across platforms to avoid special character issues
+2. Implement tools for migrating existing files to the new naming convention
+3. Implement FastAPI backend with proper file serving and content indexing
+4. Develop modern JavaScript frontend with improved UX
+5. Update process_links_manager.sh for FastAPI integration
 
 ## Key Issues Being Addressed
-- File serving issues with special characters in filenames
+- File serving issues with special characters in filenames (especially `#` characters)
 - Path handling and security
 - Performance with large video files
 - User experience improvements
+- Consistency across different content sources (YouTube, Instagram)
+
+## Implementation Progress
+1. ✅ Designed consistent filename structure: `{platform}-{username}-{date}-{sanitized_title}`
+2. ✅ Implemented filename sanitization to handle special characters and spaces
+3. ✅ Created migration tools for existing files
+4. ✅ Added integration adapters for processor scripts
 
 ## Next Steps
-1. Set up FastAPI project structure
-2. Implement content indexing
-3. Create API endpoints
-4. Develop frontend components
+1. Run the file migration script to convert existing files
+2. Set up FastAPI project structure
+3. Implement content indexing
+4. Create API endpoints
+5. Develop frontend components
 
 ## Recent Changes
+- Created standardized filename utilities in `utils/filename_utils.py`
+- Implemented migration script in `utils/migrate_filenames.py`
+- Added processor integration in `utils/processor_filename_integration.py`
 - Identified issues with current http.server implementation
 - Planned FastAPI migration
-- Updated task list with detailed implementation plan
 
 ## Dependencies
 - FastAPI
