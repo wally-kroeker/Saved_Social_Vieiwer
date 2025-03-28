@@ -3,74 +3,76 @@
 ## Backend Setup
 
 ### Initial Setup
-- [ ] Create basic FastAPI application structure
-  - [ ] Set up project directory in `viewer/`
-  - [ ] Initialize FastAPI app with minimal configuration
-  - [ ] Configure to use UV for dependency management
-- [ ] Set up essential dependencies
-  - [ ] Add FastAPI and Uvicorn 
-  - [ ] Add Jinja2 for templating
-  - [ ] Add static file handling
+- [x] Create basic FastAPI application structure
+  - [x] Set up project directory structure
+  - [x] Initialize FastAPI app with minimal configuration
+  - [x] Configure to use UV for dependency management
+  - [x] Configure environment variables
+- [x] Set up essential dependencies
+  - [x] Add FastAPI and Uvicorn
+  - [x] Add Jinja2 for templating
+  - [x] Add static file handling
 
 ### Core API Development
-- [ ] Implement content discovery system
-  - [ ] Create simple file system scanner for content
-  - [ ] Extract basic metadata from JSON files
-- [ ] Create core API endpoints
-  - [ ] GET /api/content - List all content
-  - [ ] GET /api/content/{platform} - List platform content
-  - [ ] GET /api/content/{id} - Get specific content
-- [ ] Implement media handling
-  - [ ] Set up basic video streaming
-  - [ ] Set up static image serving
-  - [ ] Add transcript file serving
-  - [ ] Serve metadata JSON
+- [x] Implement content discovery system
+  - [x] Create simple file system scanner for content
+  - [x] Extract basic metadata from JSON files
+  - [x] Implement caching for file system operations
+- [x] Create core API endpoints
+  - [x] GET /api/content - List all content
+  - [x] GET /api/content/{platform} - List platform content
+  - [x] GET /api/content/{id} - Get specific content item
+- [x] Implement media handling
+  - [x] Set up basic video streaming
+  - [x] Set up static image serving
+  - [x] Add transcript file handling
+  - [x] Serve metadata JSON
 
 ## Frontend Development
 
 ### Base Structure
-- [ ] Create simple HTML/CSS/JS structure
-  - [ ] Basic responsive layout
-  - [ ] Simple navigation 
-  - [ ] Content listing page
-- [ ] Add minimal styling
-  - [ ] Clean, readable interface
-  - [ ] Mobile-friendly layout
+- [x] Create simple HTML/CSS/JS structure
+  - [x] Basic responsive layout
+  - [x] Simple navigation 
+  - [x] Content listing page
+- [x] Add minimal styling
+  - [x] Clean, readable interface
+  - [x] Mobile-friendly layout
 
 ### Content Views
-- [ ] Video Player
-  - [ ] Basic HTML5 video player
-  - [ ] Support for basic controls
-- [ ] Image Gallery
-  - [ ] Simple image display
-  - [ ] Basic navigation between images
-- [ ] Transcript Viewer
-  - [ ] Display formatted transcript
-  - [ ] Basic styling for readability
-- [ ] Metadata Display
-  - [ ] Show key metadata fields
-  - [ ] Format dates and titles properly
+- [x] Video Player
+  - [x] Basic HTML5 video player
+  - [x] Support for basic controls
+- [x] Image Gallery
+  - [x] Simple image display
+  - [x] Basic navigation between images
+- [x] Transcript Viewer
+  - [x] Display formatted transcript
+  - [x] Basic styling for readability
+- [x] Metadata Display
+  - [x] Show key metadata fields
+  - [x] Format dates and titles properly
 
 ### Interactive Features
-- [ ] Simple Search
-  - [ ] Basic text search
-  - [ ] Filter by platform
-- [ ] Basic Navigation
-  - [ ] Pagination for content lists
-  - [ ] Back/forward navigation
+- [x] Simple Search
+  - [x] Basic text search
+  - [x] Filter by platform
+- [x] Basic Navigation
+  - [x] Pagination for content lists
+  - [x] Back/forward navigation
 
 ## Testing
 
-- [ ] Basic Functionality Testing
-  - [ ] Verify API endpoints work
-  - [ ] Test content discovery
-  - [ ] Ensure media files load properly
-- [ ] Browser Testing
-  - [ ] Test in Chrome and Firefox
-  - [ ] Basic mobile testing
+- [x] Basic Functionality Testing
+  - [x] Verify API endpoints work
+  - [x] Test content discovery
+  - [x] Ensure media files load properly
+- [x] Browser Testing
+  - [x] Test in Chrome and Firefox
+  - [x] Basic mobile testing
 
 ## Integration
 
-- [ ] Update process_links_manager.sh
-  - [ ] Add viewer start/stop commands
-  - [ ] Configure to use FastAPI server 
+- [x] Update process_links_manager.sh
+  - [x] Add viewer start/stop commands
+  - [x] Configure to use FastAPI server 

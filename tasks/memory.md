@@ -21,6 +21,22 @@ The Saved Social Viewer project enables users to:
 
 ## Recent Architectural Decisions
 
+### 2025-03-30: FastAPI Viewer Implementation
+- **Milestone**: Successfully implemented simplified FastAPI viewer
+- **Features**:
+  - Content discovery from output directories with proper filename handling
+  - Responsive HTML/CSS/JS interface with clean, modern design
+  - Video playback with transcript and metadata viewing
+  - Search and filtering capabilities
+  - Platform-specific content browsing
+- **Technical Details**:
+  - FastAPI backend with Jinja2 templating
+  - Modern JavaScript frontend with no external frameworks
+  - Responsive design for mobile and desktop viewing
+  - Content caching for improved performance
+  - Integration with management script for easy start/stop
+- **Next Steps**: Gather user feedback and consider potential enhancements
+
 ### 2025-03-29: FastAPI Viewer Simplification
 - **Decision**: Simplified the FastAPI viewer implementation plan to focus on core functionality
 - **Details**:
