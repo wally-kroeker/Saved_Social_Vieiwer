@@ -169,10 +169,13 @@ The project includes a built-in web-based viewer for processed content:
    - Play videos directly in browser
    - View transcripts and metadata
    - Sort content by date or platform
+   - Search and filter functionality
 
-4. Stop the viewer when done:
+4. Stop or restart the viewer:
    - From the interactive CLI: Select option 8
-   - From the command line: `./process_links_manager.sh viewer stop`
+   - From the command line: `./process_links_manager.sh viewer restart`
+
+> **Note:** The viewer is being upgraded to use FastAPI for improved reliability and performance, especially when handling special characters in filenames. This change requires the standardized filename conventions described in the [Filename Conventions](#filename-conventions) section.
 
 ### Notion Database Structure
 
@@ -245,6 +248,46 @@ The project follows a modular architecture:
 └── requirements.txt           # Python dependencies
 ```
 
+## Filename Conventions
+
+The project follows a standardized naming convention for all output files, to ensure consistency and proper file handling:
+
+### Standard Naming Pattern
+```
+{platform}-{username}-{date}-{sanitized_title}.{extension}
+```
+
+For example:
+- `instagram-username-2025-03-26-post-title.mp4`
+- `youtube-channelname-2025-03-25-video-title.jpg`
+
+### Directory Structure
+All content is organized into platform-specific subdirectories:
+```
+output/
+├── instagram/  # Instagram content
+└── youtube/    # YouTube content
+```
+
+### Important Notes for Developers
+- **Special Characters:** Hashtags (`#`), spaces, and other special characters in titles are replaced with hyphens or underscores. This is crucial for proper URL handling in the viewer.
+- **Consistent Extensions:** Each content item will have multiple associated files with the same base name but different extensions:
+  - `.mp4` - Video content
+  - `.jpg` - Thumbnail image
+  - `.md` - Transcript
+  - `.json` - Metadata
+- **Breaking Changes:** Code that assumes the old naming format (`platform_id_filetype.ext`) will break with the new naming system.
+
+### Migration
+A migration utility is available in `utils/migrate_filenames.py` to convert existing files to the new naming convention:
+```bash
+# Show what would be migrated (dry run)
+python -m utils.migrate_filenames --dry-run
+
+# Migrate files for real
+python -m utils.migrate_filenames
+```
+
 ### Key Components
 
 - **platform_processor.py**: Handles platform-specific processing with appropriate settings
@@ -254,14 +297,6 @@ The project follows a modular architecture:
 - **run_process_links_v2.sh**: Shell script for running the application
 - **notion_integration.py**: Handles all Notion database operations
 - **output_manager.py**: Manages output formatting and file organization
-
-### Utility Scripts
-
-- **fix_file_names.py**: Script for fixing file naming issues
-- **cleanup_transcripts.py**: Cleanup script for transcript files
-- **cleanup_files.py**: General file cleanup utility
-- **check_notion_connection.py**: Test Notion API connectivity
-- **check_instagram_connection.py**: Test Instagram API connectivity
 
 ## Documentation
 
