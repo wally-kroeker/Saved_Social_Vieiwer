@@ -17,7 +17,7 @@ except ImportError:
     pass  # python-dotenv is not required, but recommended
 
 # Base directories
-BASE_DIR = Path(__file__).resolve().parent
+BASE_DIR = Path(__file__).resolve().parent.parent  # Go one level up to project root
 OUTPUT_DIR = Path(os.environ.get("OUTPUT_DIR", BASE_DIR / "output"))
 
 # Create output directory if it doesn't exist

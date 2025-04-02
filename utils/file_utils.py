@@ -149,45 +149,20 @@ def copy_file(source, destination, username=None, date=None, title=None):
     Args:
         source (str or Path): Source file path
         destination (str or Path): Destination file path
-        username (str, optional): Username of the content creator
-        date (str, optional): Date of the content in YYYY-MM-DD format
-        title (str, optional): Title of the content
+        username (str, optional): Username (unused in this simplified version)
+        date (str, optional): Date (unused in this simplified version)
+        title (str, optional): Title (unused in this simplified version)
         
     Returns:
         Path: Path object for the destination file
     """
     source = Path(source)
     destination = Path(destination)
-    
-    # If username, date, and title are provided, use the new naming pattern
-    if username and date and title:
-        # Extract platform from the destination path (usually this is in a platform subdirectory)
-        platform = destination.parent.name
-        if platform not in ["instagram", "youtube"]:
-            platform = "unknown"
-            
-        # Generate the new filename using our standardized function
-        base_filename = generate_base_filename(
-            platform=platform,
-            username=username,
-            date=date,
-            title=title
-        )
-        
-        # Get the extension from the destination path
-        extension = destination.suffix
-        
-        # Update the destination path with the new filename and ensure it's in the platform subdirectory
-        from config import OUTPUT_DIR
-        platform_dir = Path(OUTPUT_DIR) / sanitize_string(platform)
-        ensure_directory_exists(platform_dir)
-        
-        destination = platform_dir / f"{base_filename}{extension}"
-    
+
     # Create the destination directory if it doesn't exist
     ensure_directory_exists(destination.parent)
-    
+
     # Copy the file
     shutil.copy2(source, destination)
-    
+
     return destination
