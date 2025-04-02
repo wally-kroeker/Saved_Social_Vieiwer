@@ -2,7 +2,7 @@
 <html lang="en">
 <head>
     <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no">
     <title>{{ title }}</title>
     <link rel="stylesheet" href="{{ url_for('static', path='/css/styles.css') }}">
 </head>
@@ -98,5 +98,21 @@
     </template>
 
     <script src="{{ url_for('static', path='/js/app.js') }}"></script>
+    <script>
+        // This script ensures our layout recalculates if images load after initial page setup
+        window.addEventListener('load', function() {
+            // Set header and footer heights for proper calculations
+            const header = document.querySelector('.site-header');
+            const footer = document.querySelector('.site-footer');
+            
+            if (header && footer) {
+                document.documentElement.style.setProperty('--header-height', `${header.offsetHeight}px`);
+                document.documentElement.style.setProperty('--footer-height', `${footer.offsetHeight}px`);
+            }
+            
+            // Force a resize event to recalculate layout after everything is loaded
+            window.dispatchEvent(new Event('resize'));
+        });
+    </script>
 </body>
 </html> 

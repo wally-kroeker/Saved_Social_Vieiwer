@@ -19,6 +19,108 @@ document.addEventListener('DOMContentLoaded', function() {
     let currentItems = [];
     let currentPlatform = '';
     let currentSearch = '';
+    let resizeTimeout = null;
+    
+    // Initialize the page
+    initializePage();
+    
+    // Initialize page with event listeners and initial content load
+    function initializePage() {
+        // Set up event listeners
+        searchBtn.addEventListener('click', handleSearch);
+        searchInput.addEventListener('keyup', function(event) {
+            if (event.key === 'Enter') {
+                handleSearch();
+            }
+        });
+        platformFilter.addEventListener('change', handlePlatformChange);
+        closeBtn.addEventListener('click', closeModal);
+        window.addEventListener('click', function(event) {
+            if (event.target === contentModal) {
+                closeModal();
+            }
+        });
+        
+        // Add resize event listener for responsive grid
+        window.addEventListener('resize', handleResize);
+        
+        // Load initial content
+        loadContent();
+        
+        // Optimize grid layout for initial view
+        optimizeGridLayout();
+    }
+    
+    // Handle window resize with debounce for performance
+    function handleResize() {
+        if (resizeTimeout) {
+            clearTimeout(resizeTimeout);
+        }
+        
+        resizeTimeout = setTimeout(function() {
+            optimizeGridLayout();
+        }, 200); // 200ms debounce
+    }
+    
+    // Optimize grid layout based on screen size
+    function optimizeGridLayout() {
+        const containerWidth = contentGrid.clientWidth;
+        const idealCardWidth = getIdealCardWidth();
+        const cardsPerRow = Math.floor(containerWidth / idealCardWidth);
+        const actualCardWidth = Math.floor(containerWidth / cardsPerRow) - 24; // accounting for gap
+        
+        // Adjust the grid for optimal filling of screen
+        document.documentElement.style.setProperty('--card-width', `${actualCardWidth}px`);
+        
+        // Adjust content grid height to fill available space
+        const mainContent = document.querySelector('.main-content');
+        const headerHeight = document.querySelector('.site-header').offsetHeight;
+        const countHeight = contentCount.offsetHeight;
+        const footerHeight = document.querySelector('.site-footer').offsetHeight;
+        const availableHeight = window.innerHeight - headerHeight - footerHeight - 40; // 40px for padding
+        
+        mainContent.style.height = `${availableHeight}px`;
+    }
+    
+    // Get ideal card width based on screen size
+    function getIdealCardWidth() {
+        const screenWidth = window.innerWidth;
+        
+        if (screenWidth >= 2000) {
+            return 350;
+        } else if (screenWidth >= 1600) {
+            return 320;
+        } else if (screenWidth >= 1200) {
+            return 280;
+        } else if (screenWidth >= 768) {
+            return 250;
+        } else {
+            return 200;
+        }
+    }
+    
+    // Close modal
+    function closeModal() {
+        contentModal.style.display = 'none';
+        
+        // Pause video if playing
+        const video = modalContentContainer.querySelector('video');
+        if (video) {
+            video.pause();
+        }
+    }
+    
+    // Handle search input
+    function handleSearch() {
+        currentSearch = searchInput.value.trim();
+        loadContent();
+    }
+    
+    // Handle platform filter change
+    function handlePlatformChange() {
+        currentPlatform = platformFilter.value;
+        loadContent();
+    }
     
     // Load content items
     function loadContent() {
@@ -346,43 +448,6 @@ document.addEventListener('DOMContentLoaded', function() {
             .replace(/^./, str => str.toUpperCase());
     }
     
-    // Event listeners
-    searchBtn.addEventListener('click', () => {
-        currentSearch = searchInput.value.trim();
-        loadContent();
-    });
-    
-    searchInput.addEventListener('keyup', event => {
-        if (event.key === 'Enter') {
-            currentSearch = searchInput.value.trim();
-            loadContent();
-        }
-    });
-    
-    platformFilter.addEventListener('change', () => {
-        currentPlatform = platformFilter.value;
-        loadContent();
-    });
-    
-    closeBtn.addEventListener('click', () => {
-        contentModal.style.display = 'none';
-        const video = document.querySelector('.content-video');
-        if (video) {
-            video.pause();
-        }
-    });
-    
-    // Close modal when clicking outside content
-    contentModal.addEventListener('click', event => {
-        if (event.target === contentModal) {
-            contentModal.style.display = 'none';
-            const video = document.querySelector('.content-video');
-            if (video) {
-                video.pause();
-            }
-        }
-    });
-    
-    // Initialize
-    loadContent();
+    // Initialize the layout on first load
+    optimizeGridLayout();
 }); 
