@@ -117,6 +117,10 @@ def discover_content() -> List[ContentItem]:
             
             # Standard format: platform-username-date-title
             username = parts[1] if len(parts) > 1 else ""
+            # Remove any leading numbers from username (e.g., "123456nononsensespirituality" -> "nononsensespirituality")
+            if username:
+                username = re.sub(r'^[0-9]+', '', username)
+            
             date_str = parts[2] if len(parts) > 2 else ""
             
             # Format the title properly - join all remaining parts and replace hyphens with spaces

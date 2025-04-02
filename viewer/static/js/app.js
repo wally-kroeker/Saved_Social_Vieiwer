@@ -21,6 +21,85 @@ document.addEventListener('DOMContentLoaded', function() {
     let currentSearch = '';
     let resizeTimeout = null;
     
+    // Helper functions for video cards
+    function getThumbnailPath(thumbnailFile) {
+        if (!thumbnailFile) return '';
+        // Assuming the thumbnail is in the same folder as the video
+        return `/media/${currentPlatform}/${thumbnailFile}`;
+    }
+    
+    function getVideoPath(videoFile) {
+        if (!videoFile) return '';
+        return `/media/${currentPlatform}/${videoFile}`;
+    }
+    
+    function extractCleanTitle(video) {
+        if (!video.title) return '';
+        // Remove leading numbers pattern like "02 24" or "03 07" at the beginning of the title
+        return video.title.replace(/^\d{2}\s\d{2}\s+/, '');
+    }
+    
+    function showVideoPlayer(item) {
+        modalContentContainer.innerHTML = ''; // Clear previous content
+        
+        const playerContainer = document.createElement('div');
+        playerContainer.className = 'modal-player-container';
+
+        const videoEl = document.createElement('video');
+        // Use item properties directly
+        videoEl.src = `/media/${item.platform}/${item.filename}.mp4`;
+        videoEl.controls = true;
+        videoEl.autoplay = true;
+        videoEl.className = 'content-video';
+        
+        const titleEl = document.createElement('h2');
+        // Use extractCleanTitle with the item object
+        titleEl.textContent = toTitleCase(extractCleanTitle(item));
+        titleEl.className = 'content-title modal-title';
+        
+        // Container for buttons and transcript
+        const controlsContainer = document.createElement('div');
+        controlsContainer.style.textAlign = 'center'; // Center button
+        controlsContainer.style.marginTop = '1rem';
+
+        const transcriptContainer = document.createElement('div');
+        transcriptContainer.className = 'modal-transcript-container';
+        transcriptContainer.style.display = 'none'; // Hidden initially
+
+        // Create View Transcript button
+        const transcriptBtn = document.createElement('button');
+        transcriptBtn.textContent = 'View Transcript';
+        transcriptBtn.className = 'btn transcript-btn'; // Reuse existing styles
+        
+        if (item.has_transcript) {
+            transcriptBtn.addEventListener('click', () => {
+                if (transcriptContainer.style.display === 'none') {
+                    loadTranscriptModal(item, transcriptContainer);
+                    transcriptContainer.style.display = 'block';
+                    transcriptBtn.textContent = 'Hide Transcript';
+                } else {
+                    transcriptContainer.style.display = 'none';
+                    transcriptBtn.textContent = 'View Transcript';
+                }
+            });
+        } else {
+            transcriptBtn.disabled = true;
+            transcriptBtn.style.opacity = 0.5;
+            transcriptBtn.style.cursor = 'not-allowed';
+            transcriptBtn.title = 'No transcript available';
+        }
+        
+        // Append elements
+        playerContainer.appendChild(videoEl);
+        playerContainer.appendChild(titleEl);
+        controlsContainer.appendChild(transcriptBtn); // Add button to controls container
+        playerContainer.appendChild(controlsContainer); // Add controls below title
+        playerContainer.appendChild(transcriptContainer); // Add transcript container (initially hidden)
+        modalContentContainer.appendChild(playerContainer);
+        
+        contentModal.style.display = 'block';
+    }
+    
     // Initialize the page
     initializePage();
     
@@ -184,12 +263,12 @@ document.addEventListener('DOMContentLoaded', function() {
         contentCount.textContent = `${currentItems.length} items found`;
         
         currentItems.forEach(item => {
-            const card = createContentCard(item);
+            const card = createVideoCard(item);
             contentGrid.appendChild(card);
         });
     }
     
-    // Create content card
+    // Create content card (OLD FUNCTION - no longer called directly by renderItems)
     function createContentCard(item) {
         const template = contentItemTemplate.content.cloneNode(true);
         const card = template.querySelector('.content-card');
@@ -465,6 +544,135 @@ document.addEventListener('DOMContentLoaded', function() {
         return key
             .replace(/([A-Z])/g, ' $1')
             .replace(/^./, str => str.toUpperCase());
+    }
+    
+    // Video card creation function
+    function createVideoCard(video) {
+        const card = document.createElement('div');
+        card.className = 'video-card content-card'; // Add content-card for base styles and hover effect
+        card.dataset.videoId = video.basename; // Use filename or a unique ID if available
+        card.dataset.platform = video.platform;
+        card.dataset.filename = video.filename; // Store filename for player
+
+        // Make the entire card clickable
+        card.addEventListener('click', () => {
+            // Pass the full video object to showVideoPlayer
+            showVideoPlayer(video);
+        });
+        card.style.cursor = 'pointer'; // Indicate it's clickable
+
+        const container = document.createElement('div');
+        container.className = 'video-container content-thumbnail'; // Reuse thumbnail styles
+
+        // Thumbnail handling
+        if (video.has_thumbnail) { // Check if thumbnail exists
+            const img = document.createElement('img');
+            img.className = 'thumbnail-img'; // Reuse thumbnail image styles
+            // Construct thumbnail path properly (assuming it's base filename + .jpg)
+            img.src = `/media/${video.platform}/${video.filename}.jpg`;
+            img.alt = video.title || 'Video thumbnail';
+            img.style.objectFit = 'cover'; // Use full space
+            img.onerror = () => { img.style.display = 'none'; }; // Hide if thumbnail fails to load
+            container.appendChild(img);
+        }
+
+        // Type Badge (reusing from original card)
+        const typeBadge = document.createElement('div');
+        typeBadge.className = 'content-type-badge';
+        typeBadge.textContent = video.platform;
+        container.appendChild(typeBadge);
+
+        // Add video player (hidden initially) - Optional, not needed for this card display
+        /*
+        const videoElement = document.createElement('video');
+        videoElement.src = getVideoPath(video.filename);
+        videoElement.controls = true;
+        videoElement.style.display = 'none';
+        container.appendChild(videoElement);
+        */
+
+        card.appendChild(container);
+
+        // Video info section (reusing from original card)
+        const info = document.createElement('div');
+        info.className = 'video-info content-info'; // Reuse info styles
+
+        const date = document.createElement('div');
+        date.className = 'content-date';
+        date.textContent = formatDate(video.date);
+        info.appendChild(date);
+
+        const title = document.createElement('div');
+        title.className = 'content-title';
+        title.textContent = toTitleCase(extractCleanTitle(video)); // Use toTitleCase for consistency
+        info.appendChild(title);
+
+        const metadata = document.createElement('div');
+        metadata.className = 'content-metadata';
+
+        const username = document.createElement('div');
+        username.className = 'content-username';
+        username.textContent = formatUsername(video.username || 'Unknown'); // Use formatUsername
+
+        const platformSpan = document.createElement('span'); // Changed to span for inline display
+        platformSpan.className = 'content-platform';
+        platformSpan.textContent = capitalizeFirstLetter(video.platform);
+
+        metadata.appendChild(username);
+        metadata.appendChild(platformSpan);
+        info.appendChild(metadata);
+
+        // No explicit button needed as the whole card is clickable
+        /*
+        const viewBtn = document.createElement('button');
+        viewBtn.className = 'transcript-btn';
+        viewBtn.textContent = 'View Media';
+        viewBtn.addEventListener('click', (e) => {
+            e.stopPropagation(); // Prevent card click when button is clicked
+            showVideoPlayer(video.filename, extractCleanTitle(video));
+        });
+        info.appendChild(viewBtn);
+        */
+
+        card.appendChild(info);
+
+        return card;
+    }
+    
+    // NEW Helper function to load transcript into the modal
+    function loadTranscriptModal(item, container) {
+        container.innerHTML = 'Loading transcript...'; // Indicate loading
+        
+        fetch(`/media/${item.platform}/${item.filename}.md`)
+            .then(response => {
+                if (!response.ok) {
+                    throw new Error('Transcript not found or failed to load');
+                }
+                return response.text();
+            })
+            .then(markdown => {
+                // Convert basic markdown links to HTML links if needed
+                // Simple example: replace [text](url) with <a href="url" target="_blank">text</a>
+                // let htmlContent = markdown.replace(/\[([^\]]+)\]\(([^)]+)\)/g, '<a href="$2" target="_blank">$1</a>');
+                
+                // Use pre-wrap to preserve formatting
+                container.innerHTML = ''; // Clear loading message
+                const pre = document.createElement('pre');
+                pre.textContent = markdown; // Display raw markdown text with preserved whitespace
+                container.appendChild(pre);
+                container.style.maxHeight = '40vh'; // Limit height
+                container.style.overflowY = 'auto'; // Allow scrolling
+                container.style.whiteSpace = 'pre-wrap'; // Ensure wrapping
+                container.style.backgroundColor = '#2a2a2a'; // Darker background for readability
+                container.style.padding = '1rem';
+                container.style.borderRadius = '4px';
+                container.style.marginTop = '1rem';
+            })
+            .catch(error => {
+                console.error('Error loading transcript:', error);
+                container.innerHTML = 'Error loading transcript.';
+                container.style.color = '#ff6b6b'; // Indicate error
+            });
     }
     
     // Initialize the layout on first load
