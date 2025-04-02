@@ -72,6 +72,16 @@ document.addEventListener('DOMContentLoaded', function() {
         // Adjust the grid for optimal filling of screen
         document.documentElement.style.setProperty('--card-width', `${actualCardWidth}px`);
         
+        // Calculate ideal card height based on 4:3 aspect ratio for image plus 25% text area
+        // The total card height should maintain a ratio where the image is 75% and text is 25%
+        const imageHeight = Math.floor(actualCardWidth * 0.75); // 3:4 aspect ratio for image
+        const textHeight = Math.floor(imageHeight * 0.33); // Text area is 25% of total height (1/3 of image height)
+        const totalCardHeight = imageHeight + textHeight;
+        
+        document.documentElement.style.setProperty('--card-height', `${totalCardHeight}px`);
+        document.documentElement.style.setProperty('--image-height', `${imageHeight}px`);
+        document.documentElement.style.setProperty('--text-height', `${textHeight}px`);
+        
         // Adjust content grid height to fill available space
         const mainContent = document.querySelector('.main-content');
         const headerHeight = document.querySelector('.site-header').offsetHeight;
@@ -188,10 +198,15 @@ document.addEventListener('DOMContentLoaded', function() {
         card.dataset.platform = item.platform;
         card.dataset.filename = item.filename;
         
-        // Set title with proper capitalization
+        // Set title with proper capitalization and remove leading numbers
         const title = template.querySelector('.content-title');
-        title.textContent = toTitleCase(item.title);
-        title.title = toTitleCase(item.title); // tooltip
+        let cleanTitle = item.title;
+        
+        // Remove leading numbers pattern like "02 24" or "03 07" at the beginning of the title
+        cleanTitle = cleanTitle.replace(/^\d{2}\s\d{2}\s+/, '');
+        
+        title.textContent = toTitleCase(cleanTitle);
+        title.title = toTitleCase(cleanTitle); // tooltip
         
         // Set metadata
         const username = template.querySelector('.content-username');
@@ -207,7 +222,7 @@ document.addEventListener('DOMContentLoaded', function() {
         const thumbnailImg = template.querySelector('.thumbnail-img');
         const thumbnailPath = `/media/${item.platform}/${item.filename}.jpg`;
         thumbnailImg.src = thumbnailPath;
-        thumbnailImg.alt = item.title;
+        thumbnailImg.alt = cleanTitle;
         
         // Set type badge
         const typeBadge = template.querySelector('.content-type-badge');
@@ -232,9 +247,13 @@ document.addEventListener('DOMContentLoaded', function() {
         const video = template.querySelector('.content-video');
         video.src = `/media/${item.platform}/${item.filename}.mp4`;
         
+        // Clean title for display
+        let cleanTitle = item.title;
+        cleanTitle = cleanTitle.replace(/^\d{2}\s\d{2}\s+/, '');
+        
         // Set content details
         const title = template.querySelector('.content-title');
-        title.textContent = toTitleCase(item.title);
+        title.textContent = toTitleCase(cleanTitle);
         
         const username = template.querySelector('.content-username');
         username.textContent = formatUsername(item.username);
