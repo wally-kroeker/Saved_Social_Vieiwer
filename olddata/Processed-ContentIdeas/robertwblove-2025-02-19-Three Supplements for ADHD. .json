@@ -1,0 +1,454 @@
+{
+    "instaloader": {
+        "node_type": "Post",
+        "version": "4.14.1"
+    },
+    "node": {
+        "__isXDTGraphMediaInterface": "XDTGraphVideo",
+        "__typename": "GraphVideo",
+        "accessibility_caption": null,
+        "can_see_insights_as_brand": false,
+        "caption_is_edited": false,
+        "clips_music_attribution_info": {
+            "artist_name": "robertwblove",
+            "audio_id": "1144562920354450",
+            "should_mute_audio": false,
+            "should_mute_audio_reason": "",
+            "song_name": "Original audio",
+            "uses_original_audio": true
+        },
+        "coauthor_producers": [],
+        "commenting_disabled_for_viewer": false,
+        "comments_disabled": false,
+        "dash_info": {
+            "is_dash_eligible": false,
+            "number_of_qualities": 0,
+            "video_dash_manifest": null
+        },
+        "dimensions": {
+            "height": 1136,
+            "width": 640
+        },
+        "display_resources": [
+            {
+                "config_height": 1136,
+                "config_width": 640,
+                "src": "https://scontent-msp1-1.cdninstagram.com/v/t51.29350-15/480736514_595798306598177_4555186411657417836_n.jpg?stp=dst-jpg_e15_tt6&_nc_ht=scontent-msp1-1.cdninstagram.com&_nc_cat=105&_nc_oc=Q6cZ2AH1hikbbJy13voLmGj5wWfG0JPZv5GPAgT239tO7Bp0h1XVFA0dos3Z2JgicRHsm9c&_nc_ohc=yHF6KRhWvUkQ7kNvgEDhZrG&_nc_gid=167b7ef4538248558aee9622e9e977e9&edm=ANTKIIoBAAAA&ccb=7-5&oh=00_AYGDMsxPZUdYlv7HPYUi4SaRC7Q6ZYW4lSDegL5cX3cRZQ&oe=67CFDBCB&_nc_sid=d885a2"
+            },
+            {
+                "config_height": 1331,
+                "config_width": 750,
+                "src": "https://scontent-msp1-1.cdninstagram.com/v/t51.29350-15/480736514_595798306598177_4555186411657417836_n.jpg?stp=dst-jpg_e15_tt6&_nc_ht=scontent-msp1-1.cdninstagram.com&_nc_cat=105&_nc_oc=Q6cZ2AH1hikbbJy13voLmGj5wWfG0JPZv5GPAgT239tO7Bp0h1XVFA0dos3Z2JgicRHsm9c&_nc_ohc=yHF6KRhWvUkQ7kNvgEDhZrG&_nc_gid=167b7ef4538248558aee9622e9e977e9&edm=ANTKIIoBAAAA&ccb=7-5&oh=00_AYGDMsxPZUdYlv7HPYUi4SaRC7Q6ZYW4lSDegL5cX3cRZQ&oe=67CFDBCB&_nc_sid=d885a2"
+            },
+            {
+                "config_height": 1917,
+                "config_width": 1080,
+                "src": "https://scontent-msp1-1.cdninstagram.com/v/t51.29350-15/480736514_595798306598177_4555186411657417836_n.jpg?stp=dst-jpg_e15_tt6&_nc_ht=scontent-msp1-1.cdninstagram.com&_nc_cat=105&_nc_oc=Q6cZ2AH1hikbbJy13voLmGj5wWfG0JPZv5GPAgT239tO7Bp0h1XVFA0dos3Z2JgicRHsm9c&_nc_ohc=yHF6KRhWvUkQ7kNvgEDhZrG&_nc_gid=167b7ef4538248558aee9622e9e977e9&edm=ANTKIIoBAAAA&ccb=7-5&oh=00_AYGDMsxPZUdYlv7HPYUi4SaRC7Q6ZYW4lSDegL5cX3cRZQ&oe=67CFDBCB&_nc_sid=d885a2"
+            }
+        ],
+        "display_url": "https://scontent-msp1-1.cdninstagram.com/v/t51.29350-15/480736514_595798306598177_4555186411657417836_n.jpg?stp=dst-jpg_e15_tt6&_nc_ht=scontent-msp1-1.cdninstagram.com&_nc_cat=105&_nc_oc=Q6cZ2AH1hikbbJy13voLmGj5wWfG0JPZv5GPAgT239tO7Bp0h1XVFA0dos3Z2JgicRHsm9c&_nc_ohc=yHF6KRhWvUkQ7kNvgEDhZrG&_nc_gid=167b7ef4538248558aee9622e9e977e9&edm=ANTKIIoBAAAA&ccb=7-5&oh=00_AYGDMsxPZUdYlv7HPYUi4SaRC7Q6ZYW4lSDegL5cX3cRZQ&oe=67CFDBCB&_nc_sid=d885a2",
+        "edge_media_preview_comment": {
+            "count": 432,
+            "edges": [
+                {
+                    "node": {
+                        "created_at": 1741286287,
+                        "did_report_as_spam": false,
+                        "edge_liked_by": {
+                            "count": 0
+                        },
+                        "id": "17923765575064101",
+                        "is_restricted_pending": false,
+                        "owner": {
+                            "id": "3783540870",
+                            "is_verified": false,
+                            "profile_pic_url": "https://scontent-msp1-1.cdninstagram.com/v/t51.2885-19/274013038_147810107651093_8606931023046493937_n.jpg?stp=dst-jpg_s150x150_tt6&_nc_ht=scontent-msp1-1.cdninstagram.com&_nc_cat=105&_nc_oc=Q6cZ2AH1hikbbJy13voLmGj5wWfG0JPZv5GPAgT239tO7Bp0h1XVFA0dos3Z2JgicRHsm9c&_nc_ohc=Z3PugqyIKy0Q7kNvgGvKvp_&_nc_gid=167b7ef4538248558aee9622e9e977e9&edm=ANTKIIoBAAAA&ccb=7-5&oh=00_AYG3dcjV8d6_Ef4Kn_vQJqFvz6YYerVbbkYPsa_lTUL6AQ&oe=67D00C3C&_nc_sid=d885a2",
+                            "username": "minnewanjiku"
+                        },
+                        "text": "Recommend supplements for children and their dosage.",
+                        "viewer_has_liked": false
+                    }
+                },
+                {
+                    "node": {
+                        "created_at": 1741298912,
+                        "did_report_as_spam": false,
+                        "edge_liked_by": {
+                            "count": 0
+                        },
+                        "id": "18098115586467647",
+                        "is_restricted_pending": false,
+                        "owner": {
+                            "id": "3678742479",
+                            "is_verified": false,
+                            "profile_pic_url": "https://scontent-msp1-1.cdninstagram.com/v/t51.2885-19/240796230_244720724229573_3269411217383604367_n.jpg?stp=dst-jpg_s150x150_tt6&_nc_ht=scontent-msp1-1.cdninstagram.com&_nc_cat=109&_nc_oc=Q6cZ2AH1hikbbJy13voLmGj5wWfG0JPZv5GPAgT239tO7Bp0h1XVFA0dos3Z2JgicRHsm9c&_nc_ohc=IxIk6IK_1_UQ7kNvgGf4upo&_nc_gid=167b7ef4538248558aee9622e9e977e9&edm=ANTKIIoBAAAA&ccb=7-5&oh=00_AYG5Ez0V9EndIpg1xcuIq0WJk_WWGmw9yOclvYwrzZhX-A&oe=67CFE603&_nc_sid=d885a2",
+                            "username": "lil_miss_crystaldawn"
+                        },
+                        "text": "My 7 year old has ADHD and teachers and doctors want me to put her on medication.  I do not want to as we come from an addiction family. \nDo you know of any gummies that have all these supplements in them??",
+                        "viewer_has_liked": false
+                    }
+                }
+            ]
+        },
+        "edge_media_preview_like": {
+            "count": 16166,
+            "edges": []
+        },
+        "edge_media_to_caption": {
+            "edges": [
+                {
+                    "node": {
+                        "created_at": "1739979315",
+                        "id": "17993464934788218",
+                        "text": "Three Supplements for ADHD. \n\n#adhd #supplements #brain #learning #memory #acetylcholine #tyrosine #cognition #robertlove #robertwblove"
+                    }
+                }
+            ]
+        },
+        "edge_media_to_hoisted_comment": {
+            "edges": []
+        },
+        "edge_media_to_parent_comment": {
+            "count": 432,
+            "edges": [
+                {
+                    "node": {
+                        "created_at": 1741298912,
+                        "did_report_as_spam": false,
+                        "edge_liked_by": {
+                            "count": 0
+                        },
+                        "edge_threaded_comments": {
+                            "count": 0,
+                            "edges": [],
+                            "page_info": {
+                                "end_cursor": null,
+                                "has_next_page": false
+                            }
+                        },
+                        "id": "18098115586467647",
+                        "is_restricted_pending": false,
+                        "owner": {
+                            "id": "3678742479",
+                            "is_verified": false,
+                            "profile_pic_url": "https://scontent-msp1-1.cdninstagram.com/v/t51.2885-19/240796230_244720724229573_3269411217383604367_n.jpg?stp=dst-jpg_s150x150_tt6&_nc_ht=scontent-msp1-1.cdninstagram.com&_nc_cat=109&_nc_oc=Q6cZ2AH1hikbbJy13voLmGj5wWfG0JPZv5GPAgT239tO7Bp0h1XVFA0dos3Z2JgicRHsm9c&_nc_ohc=IxIk6IK_1_UQ7kNvgGf4upo&_nc_gid=167b7ef4538248558aee9622e9e977e9&edm=ANTKIIoBAAAA&ccb=7-5&oh=00_AYG5Ez0V9EndIpg1xcuIq0WJk_WWGmw9yOclvYwrzZhX-A&oe=67CFE603&_nc_sid=d885a2",
+                            "username": "lil_miss_crystaldawn"
+                        },
+                        "text": "My 7 year old has ADHD and teachers and doctors want me to put her on medication.  I do not want to as we come from an addiction family. \nDo you know of any gummies that have all these supplements in them??",
+                        "viewer_has_liked": false
+                    }
+                },
+                {
+                    "node": {
+                        "created_at": 1741286287,
+                        "did_report_as_spam": false,
+                        "edge_liked_by": {
+                            "count": 0
+                        },
+                        "edge_threaded_comments": {
+                            "count": 0,
+                            "edges": [],
+                            "page_info": {
+                                "end_cursor": null,
+                                "has_next_page": false
+                            }
+                        },
+                        "id": "17923765575064101",
+                        "is_restricted_pending": false,
+                        "owner": {
+                            "id": "3783540870",
+                            "is_verified": false,
+                            "profile_pic_url": "https://scontent-msp1-1.cdninstagram.com/v/t51.2885-19/274013038_147810107651093_8606931023046493937_n.jpg?stp=dst-jpg_s150x150_tt6&_nc_ht=scontent-msp1-1.cdninstagram.com&_nc_cat=105&_nc_oc=Q6cZ2AH1hikbbJy13voLmGj5wWfG0JPZv5GPAgT239tO7Bp0h1XVFA0dos3Z2JgicRHsm9c&_nc_ohc=Z3PugqyIKy0Q7kNvgGvKvp_&_nc_gid=167b7ef4538248558aee9622e9e977e9&edm=ANTKIIoBAAAA&ccb=7-5&oh=00_AYG3dcjV8d6_Ef4Kn_vQJqFvz6YYerVbbkYPsa_lTUL6AQ&oe=67D00C3C&_nc_sid=d885a2",
+                            "username": "minnewanjiku"
+                        },
+                        "text": "Recommend supplements for children and their dosage.",
+                        "viewer_has_liked": false
+                    }
+                },
+                {
+                    "node": {
+                        "created_at": 1741271846,
+                        "did_report_as_spam": false,
+                        "edge_liked_by": {
+                            "count": 0
+                        },
+                        "edge_threaded_comments": {
+                            "count": 0,
+                            "edges": [],
+                            "page_info": {
+                                "end_cursor": null,
+                                "has_next_page": false
+                            }
+                        },
+                        "id": "18055579859116435",
+                        "is_restricted_pending": false,
+                        "owner": {
+                            "id": "2234028004",
+                            "is_verified": false,
+                            "profile_pic_url": "https://scontent-msp1-1.cdninstagram.com/v/t51.2885-19/363802173_189708850763428_2396246718065839261_n.jpg?stp=dst-jpg_s150x150_tt6&_nc_ht=scontent-msp1-1.cdninstagram.com&_nc_cat=104&_nc_oc=Q6cZ2AH1hikbbJy13voLmGj5wWfG0JPZv5GPAgT239tO7Bp0h1XVFA0dos3Z2JgicRHsm9c&_nc_ohc=oIMaR6wi-N0Q7kNvgGNAMH5&_nc_gid=167b7ef4538248558aee9622e9e977e9&edm=ANTKIIoBAAAA&ccb=7-5&oh=00_AYGd_OvtpJTv1ghRb9vuWTByXfEKyQqvLFpW9m9TltfJTw&oe=67CFDD89&_nc_sid=d885a2",
+                            "username": "silvaad102"
+                        },
+                        "text": "Where do you get your supplements?",
+                        "viewer_has_liked": false
+                    }
+                },
+                {
+                    "node": {
+                        "created_at": 1741260299,
+                        "did_report_as_spam": false,
+                        "edge_liked_by": {
+                            "count": 0
+                        },
+                        "edge_threaded_comments": {
+                            "count": 0,
+                            "edges": [],
+                            "page_info": {
+                                "end_cursor": null,
+                                "has_next_page": false
+                            }
+                        },
+                        "id": "18058439849492762",
+                        "is_restricted_pending": false,
+                        "owner": {
+                            "id": "62204591940",
+                            "is_verified": false,
+                            "profile_pic_url": "https://scontent-msp1-1.cdninstagram.com/v/t51.2885-19/457525418_906285457983570_1155873824586121021_n.jpg?stp=dst-jpg_s150x150_tt6&_nc_ht=scontent-msp1-1.cdninstagram.com&_nc_cat=106&_nc_oc=Q6cZ2AH1hikbbJy13voLmGj5wWfG0JPZv5GPAgT239tO7Bp0h1XVFA0dos3Z2JgicRHsm9c&_nc_ohc=XOcJSQv76fkQ7kNvgEgZfM-&_nc_gid=167b7ef4538248558aee9622e9e977e9&edm=ANTKIIoBAAAA&ccb=7-5&oh=00_AYEgTiRE8lh3o0owMG2ohynSUVJPgdISu6LRQm07n-I45A&oe=67CFDFFF&_nc_sid=d885a2",
+                            "username": "charlief1972"
+                        },
+                        "text": "When I'm watching you but can't hear or focus after point 1 lol",
+                        "viewer_has_liked": false
+                    }
+                },
+                {
+                    "node": {
+                        "created_at": 1741242173,
+                        "did_report_as_spam": false,
+                        "edge_liked_by": {
+                            "count": 0
+                        },
+                        "edge_threaded_comments": {
+                            "count": 0,
+                            "edges": [],
+                            "page_info": {
+                                "end_cursor": null,
+                                "has_next_page": false
+                            }
+                        },
+                        "id": "18301459453235994",
+                        "is_restricted_pending": false,
+                        "owner": {
+                            "id": "255369978",
+                            "is_verified": false,
+                            "profile_pic_url": "https://scontent-msp1-1.cdninstagram.com/v/t51.2885-19/481756657_1544212506133888_5983040871072819481_n.jpg?stp=dst-jpg_s150x150_tt6&_nc_ht=scontent-msp1-1.cdninstagram.com&_nc_cat=104&_nc_oc=Q6cZ2AH1hikbbJy13voLmGj5wWfG0JPZv5GPAgT239tO7Bp0h1XVFA0dos3Z2JgicRHsm9c&_nc_ohc=R_7-1EzyhN0Q7kNvgFCbbIa&_nc_gid=167b7ef4538248558aee9622e9e977e9&edm=ANTKIIoBAAAA&ccb=7-5&oh=00_AYHRIBJ9puJQ-eDedfT9Se2ISSZpJkbwLmFoP6kCMxybuQ&oe=67D00C49&_nc_sid=d885a2",
+                            "username": "punkjester41"
+                        },
+                        "text": "Can't even pay attention to this video",
+                        "viewer_has_liked": false
+                    }
+                },
+                {
+                    "node": {
+                        "created_at": 1741232898,
+                        "did_report_as_spam": false,
+                        "edge_liked_by": {
+                            "count": 0
+                        },
+                        "edge_threaded_comments": {
+                            "count": 0,
+                            "edges": [],
+                            "page_info": {
+                                "end_cursor": null,
+                                "has_next_page": false
+                            }
+                        },
+                        "id": "18400075015101094",
+                        "is_restricted_pending": false,
+                        "owner": {
+                            "id": "6037446",
+                            "is_verified": false,
+                            "profile_pic_url": "https://scontent-msp1-1.cdninstagram.com/v/t51.2885-19/433946086_1361007617929682_7142149265732988953_n.jpg?stp=dst-jpg_s150x150_tt6&_nc_ht=scontent-msp1-1.cdninstagram.com&_nc_cat=102&_nc_oc=Q6cZ2AH1hikbbJy13voLmGj5wWfG0JPZv5GPAgT239tO7Bp0h1XVFA0dos3Z2JgicRHsm9c&_nc_ohc=WJOmD3Ig5QoQ7kNvgHZHrDi&_nc_gid=167b7ef4538248558aee9622e9e977e9&edm=ANTKIIoBAAAA&ccb=7-5&oh=00_AYHxGr9jZuo7MgrVrJw90dxARDGVtKs9qTt6fXgLOEDoag&oe=67CFEDB9&_nc_sid=d885a2",
+                            "username": "lovinlife77"
+                        },
+                        "text": "Not sure if you will see this, what can I take in the evening? I am a nurse and need something to help me finish my 12 hr shift.",
+                        "viewer_has_liked": false
+                    }
+                },
+                {
+                    "node": {
+                        "created_at": 1741171927,
+                        "did_report_as_spam": false,
+                        "edge_liked_by": {
+                            "count": 0
+                        },
+                        "edge_threaded_comments": {
+                            "count": 0,
+                            "edges": [],
+                            "page_info": {
+                                "end_cursor": null,
+                                "has_next_page": false
+                            }
+                        },
+                        "id": "18047906357249920",
+                        "is_restricted_pending": false,
+                        "owner": {
+                            "id": "226882280",
+                            "is_verified": false,
+                            "profile_pic_url": "https://scontent-msp1-1.cdninstagram.com/v/t51.2885-19/471683205_929176359311475_1090704051476381315_n.jpg?stp=dst-jpg_s150x150_tt6&_nc_ht=scontent-msp1-1.cdninstagram.com&_nc_cat=103&_nc_oc=Q6cZ2AH1hikbbJy13voLmGj5wWfG0JPZv5GPAgT239tO7Bp0h1XVFA0dos3Z2JgicRHsm9c&_nc_ohc=t5uVWhUs6TkQ7kNvgG0LsUj&_nc_gid=167b7ef4538248558aee9622e9e977e9&edm=ANTKIIoBAAAA&ccb=7-5&oh=00_AYHMhH0WwnfaZ4kA4aQkwYVaSaQh4-z-1KjFdu5QS07RFg&oe=67CFDA19&_nc_sid=d885a2",
+                            "username": "paolamjaramillo"
+                        },
+                        "text": "I take BCAA everyday is the enough for #2 the amino acid?",
+                        "viewer_has_liked": false
+                    }
+                },
+                {
+                    "node": {
+                        "created_at": 1741159137,
+                        "did_report_as_spam": false,
+                        "edge_liked_by": {
+                            "count": 0
+                        },
+                        "edge_threaded_comments": {
+                            "count": 0,
+                            "edges": [],
+                            "page_info": {
+                                "end_cursor": null,
+                                "has_next_page": false
+                            }
+                        },
+                        "id": "18026232482646010",
+                        "is_restricted_pending": false,
+                        "owner": {
+                            "id": "8137394024",
+                            "is_verified": false,
+                            "profile_pic_url": "https://scontent-msp1-1.cdninstagram.com/v/t51.2885-19/474264816_1139729960870708_797473381746132221_n.jpg?stp=dst-jpg_s150x150_tt6&_nc_ht=scontent-msp1-1.cdninstagram.com&_nc_cat=108&_nc_oc=Q6cZ2AH1hikbbJy13voLmGj5wWfG0JPZv5GPAgT239tO7Bp0h1XVFA0dos3Z2JgicRHsm9c&_nc_ohc=67Wz9xexTuwQ7kNvgFa3rzd&_nc_gid=167b7ef4538248558aee9622e9e977e9&edm=ANTKIIoBAAAA&ccb=7-5&oh=00_AYEK9F28Yhr0d7_y1AqWN8OdYhdfiikcuhbn-FeKmXM8wA&oe=67CFFA40&_nc_sid=d885a2",
+                            "username": "ultrasonicwhisperer"
+                        },
+                        "text": "Very important to have regular dental cleanings to prevent Alzheimer\u2019s \nP gingivalis bacteria found in Alzheimer\u2019s and gun disease\nProbiotics important too \nL Reutori",
+                        "viewer_has_liked": false
+                    }
+                },
+                {
+                    "node": {
+                        "created_at": 1741157054,
+                        "did_report_as_spam": false,
+                        "edge_liked_by": {
+                            "count": 0
+                        },
+                        "edge_threaded_comments": {
+                            "count": 1,
+                            "edges": [
+                                {
+                                    "node": {
+                                        "created_at": 1741157124,
+                                        "did_report_as_spam": false,
+                                        "edge_liked_by": {
+                                            "count": 1
+                                        },
+                                        "id": "18060432107008204",
+                                        "is_restricted_pending": false,
+                                        "owner": {
+                                            "id": "317291334",
+                                            "is_verified": false,
+                                            "profile_pic_url": "https://scontent-msp1-1.cdninstagram.com/v/t51.2885-19/482628484_2097323537362348_6556313323741791199_n.jpg?stp=dst-jpg_s150x150_tt6&_nc_ht=scontent-msp1-1.cdninstagram.com&_nc_cat=104&_nc_oc=Q6cZ2AH1hikbbJy13voLmGj5wWfG0JPZv5GPAgT239tO7Bp0h1XVFA0dos3Z2JgicRHsm9c&_nc_ohc=Iwah3e5HSmAQ7kNvgHFcvC2&_nc_gid=167b7ef4538248558aee9622e9e977e9&edm=ANTKIIoBAAAA&ccb=7-5&oh=00_AYE1mW-QPpWdk6XDsohCpeFZsIda7wwmYcBoSWqTOCohcQ&oe=67CFE0E3&_nc_sid=d885a2",
+                                            "username": "hunnybee7777"
+                                        },
+                                        "text": "@hunnybee7777 sorry. I typed that before finishing your vid where you mention it. I still haven\u2019t had any succeed with it",
+                                        "viewer_has_liked": false
+                                    }
+                                }
+                            ],
+                            "page_info": {
+                                "end_cursor": null,
+                                "has_next_page": false
+                            }
+                        },
+                        "id": "18300206272234477",
+                        "is_restricted_pending": false,
+                        "owner": {
+                            "id": "317291334",
+                            "is_verified": false,
+                            "profile_pic_url": "https://scontent-msp1-1.cdninstagram.com/v/t51.2885-19/482628484_2097323537362348_6556313323741791199_n.jpg?stp=dst-jpg_s150x150_tt6&_nc_ht=scontent-msp1-1.cdninstagram.com&_nc_cat=104&_nc_oc=Q6cZ2AH1hikbbJy13voLmGj5wWfG0JPZv5GPAgT239tO7Bp0h1XVFA0dos3Z2JgicRHsm9c&_nc_ohc=Iwah3e5HSmAQ7kNvgHFcvC2&_nc_gid=167b7ef4538248558aee9622e9e977e9&edm=ANTKIIoBAAAA&ccb=7-5&oh=00_AYE1mW-QPpWdk6XDsohCpeFZsIda7wwmYcBoSWqTOCohcQ&oe=67CFE0E3&_nc_sid=d885a2",
+                            "username": "hunnybee7777"
+                        },
+                        "text": "What do you think about lions mane mushroom supplements? I have been taking them because I heard it helps a lot but I have seen no difference",
+                        "viewer_has_liked": false
+                    }
+                }
+            ],
+            "page_info": {
+                "end_cursor": "{\"server_cursor\": \"QVFESUxqalNzbGh0X3UxLVVzLVVpY2FrZ3VaVTNNWXB3UURlelRQbzVzOHM5dnBQVVNrOFZLbnV4aFFCOHpvZlg1akRvNnVJVDJaZFRHVmU5SXNBMDJLMQ==\", \"is_server_cursor_inverse\": true}",
+                "has_next_page": true
+            }
+        },
+        "edge_media_to_sponsor_user": {
+            "edges": []
+        },
+        "edge_media_to_tagged_user": {
+            "edges": []
+        },
+        "edge_web_media_to_related_media": {
+            "edges": []
+        },
+        "encoding_status": null,
+        "fact_check_information": null,
+        "fact_check_overall_rating": null,
+        "gating_info": null,
+        "has_audio": true,
+        "has_ranked_comments": false,
+        "id": "3571518652471309444",
+        "is_ad": false,
+        "is_affiliate": false,
+        "is_paid_partnership": false,
+        "is_published": true,
+        "is_video": true,
+        "like_and_view_counts_disabled": false,
+        "location": null,
+        "media_overlay_info": null,
+        "media_preview": "ABgqvAmnc1WWcIgLl84GT2z+fTNWYz5i7gWA/wA+9TcpK+wuDRUkbhxx24PHOR+P40UXEYEPmyI4HIC4JJ6d8D1//VWhAy+WuCQCBkZ6VkJaserEBuoHX8e1Xof3aFemOn+f8+tKxaaRq2qgKW7Ek/5/KisyC8aMbWGRiinZkXGRNu49KewqvB981bPWrEJDa+Zkt+FFToSMfjRWbbN0lY//2Q==",
+        "nft_asset_info": null,
+        "owner": {
+            "blocked_by_viewer": false,
+            "edge_followed_by": {
+                "count": 1600260
+            },
+            "edge_owner_to_timeline_media": {
+                "count": 1596
+            },
+            "followed_by_viewer": false,
+            "full_name": "Robert W.B. Love",
+            "has_blocked_viewer": false,
+            "id": "50548395002",
+            "is_embeds_disabled": false,
+            "is_private": false,
+            "is_unpublished": false,
+            "is_verified": true,
+            "pass_tiering_recommendation": true,
+            "profile_pic_url": "https://scontent-msp1-1.cdninstagram.com/v/t51.2885-19/309679324_1157118578481662_8509318790049857430_n.jpg?stp=dst-jpg_s150x150_tt6&_nc_ht=scontent-msp1-1.cdninstagram.com&_nc_cat=1&_nc_oc=Q6cZ2AH1hikbbJy13voLmGj5wWfG0JPZv5GPAgT239tO7Bp0h1XVFA0dos3Z2JgicRHsm9c&_nc_ohc=f7WcBK3sEWsQ7kNvgHYvHVl&_nc_gid=167b7ef4538248558aee9622e9e977e9&edm=ANTKIIoBAAAA&ccb=7-5&oh=00_AYG2W4Pc9mdxA07ID9QxYxurF1B_OUVve_c1uKASNzR-ZQ&oe=67CFF134&_nc_sid=d885a2",
+            "requested_by_viewer": false,
+            "restricted_by_viewer": null,
+            "username": "robertwblove"
+        },
+        "pinned_for_users": [],
+        "product_type": "clips",
+        "sensitivity_friction_info": null,
+        "sharing_friction_info": {
+            "bloks_app_url": null,
+            "should_have_sharing_friction": false
+        },
+        "shortcode": "DGQlUqtO_SE",
+        "taken_at_timestamp": 1739979314,
+        "thumbnail_src": "https://scontent-msp1-1.cdninstagram.com/v/t51.29350-15/480736514_595798306598177_4555186411657417836_n.jpg?stp=c0.248.640.640a_dst-jpg_e15_tt6&_nc_ht=scontent-msp1-1.cdninstagram.com&_nc_cat=105&_nc_oc=Q6cZ2AH1hikbbJy13voLmGj5wWfG0JPZv5GPAgT239tO7Bp0h1XVFA0dos3Z2JgicRHsm9c&_nc_ohc=yHF6KRhWvUkQ7kNvgEDhZrG&_nc_gid=167b7ef4538248558aee9622e9e977e9&edm=ANTKIIoBAAAA&ccb=7-5&oh=00_AYG5w8USI4G_0YqhzeQ6fBqj43c50ZcwGwPmrrfYQfhqiQ&oe=67CFDBCB&_nc_sid=d885a2",
+        "title": "",
+        "tracking_token": "eyJ2ZXJzaW9uIjo1LCJwYXlsb2FkIjp7ImlzX2FuYWx5dGljc190cmFja2VkIjp0cnVlLCJ1dWlkIjoiMTY3YjdlZjQ1MzgyNDg1NThhZWU5NjIyZTllOTc3ZTkzNTcxNTE4NjUyNDcxMzA5NDQ0In0sInNpZ25hdHVyZSI6IiJ9",
+        "upcoming_event": null,
+        "video_duration": 83.01,
+        "video_play_count": 1319808,
+        "video_url": "https://scontent-msp1-1.cdninstagram.com/o1/v/t16/f2/m86/AQMOs2kQ1Ei1h635biKdhVM8BCsrB8HSNR1yaoekjIqd3SbCE0c4ziCpmjdzneO-WcaDg7KEfmWtopVFkCg4SkuQE2GfqWDThN7eLvs.mp4?stp=dst-mp4&efg=eyJxZV9ncm91cHMiOiJbXCJpZ193ZWJfZGVsaXZlcnlfdnRzX290ZlwiXSIsInZlbmNvZGVfdGFnIjoidnRzX3ZvZF91cmxnZW4uY2xpcHMuYzIuNzIwLmJhc2VsaW5lIn0&_nc_cat=100&vs=591527023875999_1528849221&_nc_vs=HBksFQIYUmlnX3hwdl9yZWVsc19wZXJtYW5lbnRfc3JfcHJvZC9BQjRDRjFBNDE0RDdFRjg2NzY4QTAwRUIwODhGODY4Ql92aWRlb19kYXNoaW5pdC5tcDQVAALIAQAVAhg6cGFzc3Rocm91Z2hfZXZlcnN0b3JlL0dGVGpwUnl4R0J2OV9zMEJBT2VpT2V2WWo1c3dicV9FQUFBRhUCAsgBACgAGAAbABUAACaKib%2BUy876PxUCKAJDMywXQFS90vGp%2B%2BcYEmRhc2hfYmFzZWxpbmVfMV92MREAdf4HAA%3D%3D&ccb=9-4&oh=00_AYFCOVNQZ11TN7y3E19wLza2DbDh0WOQEyRGGPePh1etjA&oe=67CC10AC&_nc_sid=d885a2",
+        "video_view_count": 255184,
+        "viewer_can_reshare": true,
+        "viewer_has_liked": false,
+        "viewer_has_saved": false,
+        "viewer_has_saved_to_collection": false,
+        "viewer_in_photo_of_you": false
+    }
+}

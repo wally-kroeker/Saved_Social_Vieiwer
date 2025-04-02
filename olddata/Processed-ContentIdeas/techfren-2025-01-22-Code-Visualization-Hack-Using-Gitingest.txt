@@ -1,0 +1,2 @@
+Code visualization hack: using GitIngest and Gemini to analyze repos and create Mermaid diagrams  Makes it easier to understand data flow in large codebases! Perfect for devs who want to maintain a clear mental model while leveraging AI. Turned a 193k token repo into an easy-to-read diagram in minutes.
+#GitIngest #MermaidDiagrams #CodeVisualization #Tech #Programming #AI #chagpt

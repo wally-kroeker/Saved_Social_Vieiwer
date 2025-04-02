@@ -1,0 +1,8 @@
+Might be the best AI for rapidly prototyping your app ideas 
+
+-ChatGPT/Claude to turn ideas into detailed design requirements
+-add the requirements as a prompt to tools like Lovable.dev
+-Build a functional MVP! 
+-launch it to validate the market need 
+
+#aitools #aiforbusiness #startups #uidesign #figmatips #webdesign #webdeveloper #startups

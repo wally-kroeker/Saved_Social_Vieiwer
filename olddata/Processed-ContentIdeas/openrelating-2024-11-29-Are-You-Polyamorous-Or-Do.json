@@ -1,0 +1,151 @@
+{
+    "instaloader": {
+        "node_type": "Post",
+        "version": "4.14.1"
+    },
+    "node": {
+        "__isXDTGraphMediaInterface": "XDTGraphVideo",
+        "__typename": "GraphVideo",
+        "accessibility_caption": null,
+        "can_see_insights_as_brand": false,
+        "caption_is_edited": false,
+        "clips_music_attribution_info": {
+            "artist_name": "openrelating",
+            "audio_id": "1399002367749262",
+            "should_mute_audio": false,
+            "should_mute_audio_reason": "",
+            "song_name": "Original audio",
+            "uses_original_audio": true
+        },
+        "coauthor_producers": [],
+        "commenting_disabled_for_viewer": false,
+        "comments_disabled": false,
+        "dash_info": {
+            "is_dash_eligible": false,
+            "number_of_qualities": 0,
+            "video_dash_manifest": null
+        },
+        "dimensions": {
+            "height": 1088,
+            "width": 612
+        },
+        "display_resources": [
+            {
+                "config_height": 1137,
+                "config_width": 640,
+                "src": "https://scontent-msp1-1.cdninstagram.com/v/t51.29350-15/468710543_557092973702198_942959508874995178_n.jpg?stp=dst-jpg_e15_tt6&_nc_ht=scontent-msp1-1.cdninstagram.com&_nc_cat=102&_nc_oc=Q6cZ2AGPhKihLdKRKgbxNfAQzkXTUTKJFIAdWoro4XWKLxj_dfYCBWnTk1cRfM-ww_nQI_8&_nc_ohc=f2m0UKB_qnYQ7kNvgEc00T6&_nc_gid=27ac692b22734bd68679fc41442ddcf7&edm=ANTKIIoBAAAA&ccb=7-5&oh=00_AYBe1GLWErgJ2Gr28I6tuRtIUUTf-1bi5muES3UpekMYVw&oe=67B4B8C2&_nc_sid=d885a2"
+            },
+            {
+                "config_height": 1333,
+                "config_width": 750,
+                "src": "https://scontent-msp1-1.cdninstagram.com/v/t51.29350-15/468710543_557092973702198_942959508874995178_n.jpg?stp=dst-jpg_e15_tt6&_nc_ht=scontent-msp1-1.cdninstagram.com&_nc_cat=102&_nc_oc=Q6cZ2AGPhKihLdKRKgbxNfAQzkXTUTKJFIAdWoro4XWKLxj_dfYCBWnTk1cRfM-ww_nQI_8&_nc_ohc=f2m0UKB_qnYQ7kNvgEc00T6&_nc_gid=27ac692b22734bd68679fc41442ddcf7&edm=ANTKIIoBAAAA&ccb=7-5&oh=00_AYBe1GLWErgJ2Gr28I6tuRtIUUTf-1bi5muES3UpekMYVw&oe=67B4B8C2&_nc_sid=d885a2"
+            },
+            {
+                "config_height": 1920,
+                "config_width": 1080,
+                "src": "https://scontent-msp1-1.cdninstagram.com/v/t51.29350-15/468710543_557092973702198_942959508874995178_n.jpg?stp=dst-jpg_e15_tt6&_nc_ht=scontent-msp1-1.cdninstagram.com&_nc_cat=102&_nc_oc=Q6cZ2AGPhKihLdKRKgbxNfAQzkXTUTKJFIAdWoro4XWKLxj_dfYCBWnTk1cRfM-ww_nQI_8&_nc_ohc=f2m0UKB_qnYQ7kNvgEc00T6&_nc_gid=27ac692b22734bd68679fc41442ddcf7&edm=ANTKIIoBAAAA&ccb=7-5&oh=00_AYBe1GLWErgJ2Gr28I6tuRtIUUTf-1bi5muES3UpekMYVw&oe=67B4B8C2&_nc_sid=d885a2"
+            }
+        ],
+        "display_url": "https://scontent-msp1-1.cdninstagram.com/v/t51.29350-15/468710543_557092973702198_942959508874995178_n.jpg?stp=dst-jpg_e15_tt6&_nc_ht=scontent-msp1-1.cdninstagram.com&_nc_cat=102&_nc_oc=Q6cZ2AGPhKihLdKRKgbxNfAQzkXTUTKJFIAdWoro4XWKLxj_dfYCBWnTk1cRfM-ww_nQI_8&_nc_ohc=f2m0UKB_qnYQ7kNvgEc00T6&_nc_gid=27ac692b22734bd68679fc41442ddcf7&edm=ANTKIIoBAAAA&ccb=7-5&oh=00_AYBe1GLWErgJ2Gr28I6tuRtIUUTf-1bi5muES3UpekMYVw&oe=67B4B8C2&_nc_sid=d885a2",
+        "edge_media_preview_comment": {
+            "count": 0,
+            "edges": []
+        },
+        "edge_media_preview_like": {
+            "count": 69,
+            "edges": []
+        },
+        "edge_media_to_caption": {
+            "edges": [
+                {
+                    "node": {
+                        "created_at": "1732903324",
+                        "id": "17884065453170125",
+                        "text": "Are you polyamorous?\n\nOr do you suffer from low self esteem and can't believe anyone will want to date you monogamously, since surely they will want to get some of their needs met elsewhere?\n\nIt's always good to inquire honestly what are your motivations for any type of relating, and sometimes it can be both an adaptation and orientation. The exploration is what gives you deeper insights into yourself.\n\nIf you aren't sure, coaching or therapy with a qualified and experienced practitioner can help."
+                    }
+                }
+            ]
+        },
+        "edge_media_to_hoisted_comment": {
+            "edges": []
+        },
+        "edge_media_to_parent_comment": {
+            "count": 0,
+            "edges": [],
+            "page_info": {
+                "end_cursor": null,
+                "has_next_page": false
+            }
+        },
+        "edge_media_to_sponsor_user": {
+            "edges": []
+        },
+        "edge_media_to_tagged_user": {
+            "edges": []
+        },
+        "edge_web_media_to_related_media": {
+            "edges": []
+        },
+        "encoding_status": null,
+        "fact_check_information": null,
+        "fact_check_overall_rating": null,
+        "gating_info": null,
+        "has_audio": true,
+        "has_ranked_comments": false,
+        "id": "3512169885266433560",
+        "is_ad": false,
+        "is_affiliate": false,
+        "is_paid_partnership": false,
+        "is_published": true,
+        "is_video": true,
+        "like_and_view_counts_disabled": false,
+        "location": null,
+        "media_overlay_info": null,
+        "media_preview": "ABgqvNcOCCG7dO2ef8Ktrd8DcPqa5V7p9x+pH3Sfp0NN+1SDpz7bT/jUu72dhq3U6W8uOm08dSQM/qP5UVziX8oYE4APB47Yx37+9FMRA2cnHTJ/z0NMZM9P8/oKlYcn6n1prD1GfbmgCEKQwBopyr8wOMCikxEqNuzT+PeqpOOnFM3H1P50rDLTkLjFFVsk0U7CP//Z",
+        "nft_asset_info": null,
+        "owner": {
+            "blocked_by_viewer": false,
+            "edge_followed_by": {
+                "count": 15424
+            },
+            "edge_owner_to_timeline_media": {
+                "count": 1458
+            },
+            "followed_by_viewer": false,
+            "full_name": "Roy Graff - Open Relating, expansive relationships therapist",
+            "has_blocked_viewer": false,
+            "id": "44095671874",
+            "is_embeds_disabled": false,
+            "is_private": false,
+            "is_unpublished": false,
+            "is_verified": false,
+            "pass_tiering_recommendation": true,
+            "profile_pic_url": "https://scontent-msp1-1.cdninstagram.com/v/t51.2885-19/414438672_384144360669654_3017718786940281532_n.jpg?stp=dst-jpg_s150x150_tt6&_nc_ht=scontent-msp1-1.cdninstagram.com&_nc_cat=106&_nc_oc=Q6cZ2AGPhKihLdKRKgbxNfAQzkXTUTKJFIAdWoro4XWKLxj_dfYCBWnTk1cRfM-ww_nQI_8&_nc_ohc=uDzoiTVXpQYQ7kNvgERgmyJ&_nc_gid=27ac692b22734bd68679fc41442ddcf7&edm=ANTKIIoBAAAA&ccb=7-5&oh=00_AYCvROX_BFeFZlhzpgdM5G0d5MW30GLWSyHvYoYWho5Odg&oe=67B4B54D&_nc_sid=d885a2",
+            "requested_by_viewer": false,
+            "restricted_by_viewer": null,
+            "username": "openrelating"
+        },
+        "pinned_for_users": [],
+        "product_type": "clips",
+        "sensitivity_friction_info": null,
+        "sharing_friction_info": {
+            "bloks_app_url": null,
+            "should_have_sharing_friction": false
+        },
+        "shortcode": "DC9u-cCIVYY",
+        "taken_at_timestamp": 1732903321,
+        "thumbnail_src": "https://scontent-msp1-1.cdninstagram.com/v/t51.29350-15/468710543_557092973702198_942959508874995178_n.jpg?stp=c0.238.612.612a_dst-jpg_e15_tt6&_nc_ht=scontent-msp1-1.cdninstagram.com&_nc_cat=102&_nc_oc=Q6cZ2AGPhKihLdKRKgbxNfAQzkXTUTKJFIAdWoro4XWKLxj_dfYCBWnTk1cRfM-ww_nQI_8&_nc_ohc=f2m0UKB_qnYQ7kNvgEc00T6&_nc_gid=27ac692b22734bd68679fc41442ddcf7&edm=ANTKIIoBAAAA&ccb=7-5&oh=00_AYCuK2k5TDuxJSiUCH_GU_SVppuFGA6WLW-CFEEIQH8-fg&oe=67B4B8C2&_nc_sid=d885a2",
+        "title": "",
+        "tracking_token": "eyJ2ZXJzaW9uIjo1LCJwYXlsb2FkIjp7ImlzX2FuYWx5dGljc190cmFja2VkIjp0cnVlLCJ1dWlkIjoiMjdhYzY5MmIyMjczNGJkNjg2NzlmYzQxNDQyZGRjZjczNTEyMTY5ODg1MjY2NDMzNTYwIn0sInNpZ25hdHVyZSI6IiJ9",
+        "upcoming_event": null,
+        "video_duration": 15.894,
+        "video_play_count": 3333,
+        "video_url": "https://scontent-msp1-1.cdninstagram.com/o1/v/t16/f2/m86/AQPD165YIKEql-tJ_eaSftCyo9UyV1DRhvySHDwIgVOI59AmyER2TZIC2e1ZJlZBRBPHJshvb-cx2aRACpfqhYBE47BKsyN65MkL9XQ.mp4?stp=dst-mp4&efg=eyJxZV9ncm91cHMiOiJbXCJpZ193ZWJfZGVsaXZlcnlfdnRzX290ZlwiXSIsInZlbmNvZGVfdGFnIjoidnRzX3ZvZF91cmxnZW4uY2xpcHMuYzIuNjEyLmJhc2VsaW5lIn0&_nc_cat=111&vs=607665495032855_1001934339&_nc_vs=HBksFQIYUmlnX3hwdl9yZWVsc19wZXJtYW5lbnRfc3JfcHJvZC9FMzQ3MUIwQjZDRTBDMkIwQTM5RjBGODA2REVEQkY5NF92aWRlb19kYXNoaW5pdC5tcDQVAALIAQAVAhg6cGFzc3Rocm91Z2hfZXZlcnN0b3JlL0dQMC03eHZHSnp5ZFlvSURBUFRkTG4tR25qMGVicV9FQUFBRhUCAsgBACgAGAAbABUAACaeyYuJgYiSQBUCKAJDMywXQC%2B7ZFocrAgYEmRhc2hfYmFzZWxpbmVfMV92MREAdf4HAA%3D%3D&ccb=9-4&oh=00_AYDbp_E1odujnw83vcJuRajUEc9bAaYFhnMt3FQ8g9KQzg&oe=67B0BA88&_nc_sid=d885a2",
+        "video_view_count": 1462,
+        "viewer_can_reshare": true,
+        "viewer_has_liked": false,
+        "viewer_has_saved": false,
+        "viewer_has_saved_to_collection": false,
+        "viewer_in_photo_of_you": false
+    }
+}

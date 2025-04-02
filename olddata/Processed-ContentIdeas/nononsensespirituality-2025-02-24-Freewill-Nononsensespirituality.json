@@ -1,0 +1,1306 @@
+{
+    "instaloader": {
+        "node_type": "Post",
+        "version": "4.14.1"
+    },
+    "node": {
+        "__isXDTGraphMediaInterface": "XDTGraphVideo",
+        "__typename": "GraphVideo",
+        "accessibility_caption": null,
+        "can_see_insights_as_brand": false,
+        "caption_is_edited": false,
+        "clips_music_attribution_info": {
+            "artist_name": "nononsensespirituality",
+            "audio_id": "1158418419272199",
+            "should_mute_audio": false,
+            "should_mute_audio_reason": "",
+            "song_name": "Original audio",
+            "uses_original_audio": true
+        },
+        "coauthor_producers": [],
+        "commenting_disabled_for_viewer": false,
+        "comments_disabled": false,
+        "dash_info": {
+            "is_dash_eligible": true,
+            "number_of_qualities": 4,
+            "video_dash_manifest": "<?xml version=\"1.0\" encoding=\"UTF-8\"?>\n<MPD xmlns=\"urn:mpeg:dash:schema:mpd:2011\" xmlns:xsi=\"http://www.w3.org/2001/XMLSchema-instance\" xsi:schemaLocation=\"urn:mpeg:dash:schema:mpd:2011 DASH-MPD.xsd\" profiles=\"urn:mpeg:dash:profile:isoff-on-demand:2011\" minBufferTime=\"PT2S\" type=\"static\" mediaPresentationDuration=\"PT136.415787S\" FBManifestIdentifier=\"FgAYEnIyZXZldnA5LXIxZ2VuMnZwORlW8PqJ9dL7oQP47Nyb0aGTBOy7zoDvhK4IrozI9JCI2gjMyPHViu6XICIYGGRhc2hfbG5faGVhYWNfdmJyM19hdWRpbwA=\"><Period id=\"0\" duration=\"PT136.415787S\"><AdaptationSet id=\"0\" contentType=\"video\" subsegmentAlignment=\"true\" par=\"9:16\" FBUnifiedUploadResolutionMos=\"360:87.8\"><Representation id=\"2353038501727990vd\" bandwidth=\"766127\" codecs=\"vp09.00.31.08.00.01.01.01.00\" mimeType=\"video/mp4\" sar=\"1:1\" FBEncodingTag=\"dash_r2evevp9-r1gen2vp9_q60\" FBContentLength=\"13062479\" FBPlaybackResolutionMos=\"0:100,360:62.7,480:51.3,720:36.2,1080:26.3\" FBPlaybackResolutionMosConfidenceLevel=\"high\" FBPlaybackResolutionCsvqm=\"0:100,360:94.4,480:92.6,720:87.3,1080:78.5\" FBAbrPolicyTags=\"\" width=\"720\" height=\"1280\" frameRate=\"15360/512\" FBDefaultQuality=\"1\" FBQualityClass=\"hd\" FBQualityLabel=\"540p\"><BaseURL>https://scontent-msp1-1.cdninstagram.com/o1/v/t2/f2/m367/AQOlHVeqytChgUymvRZ0C2Ee-tB5qOhnwE-ZVXkqI-WYCDyvtT-Abj2C4DXjCOhxctyU1-OF5BEbKrOVk0JWK_vXcvH695te44s8t-A.mp4?_nc_cat=104&amp;_nc_sid=9ca052&amp;_nc_ht=scontent-msp1-1.cdninstagram.com&amp;_nc_ohc=oirpFOUlAa4Q7kNvgGjkYmt&amp;efg=eyJ2ZW5jb2RlX3RhZyI6ImlnLXhwdmRzLmNsaXBzLmMyLUMzLmRhc2hfcjJldmV2cDktcjFnZW4ydnA5X3E2MCIsInZpZGVvX2lkIjpudWxsLCJjbGllbnRfbmFtZSI6ImlnIiwib2lsX3VybGdlbl9hcHBfaWQiOi0xLCJ1cmxnZW5fc291cmNlIjoid3d3In0%3D&amp;ccb=17-1&amp;_nc_zt=28&amp;oh=00_AYDsl0IUavkxIHHPnABIv7DpAhjODjwIQYqDtpEi1yn26w&amp;oe=67C3E2C9</BaseURL><SegmentBase indexRange=\"818-1185\" timescale=\"15360\" FBMinimumPrefetchRange=\"1186-43202\" FBPartialPrefetchDuration=\"2500\" FBPartialPrefetchRange=\"1186-261361\" FBFirstSegmentRange=\"1186-421092\" FBFirstSegmentDuration=\"5000\" FBSecondSegmentRange=\"421093-890356\" FBPrefetchSegmentRange=\"1186-421092\" FBPrefetchSegmentDuration=\"5000\"><Initialization range=\"0-817\"/></SegmentBase></Representation><Representation id=\"9059668007465510v\" bandwidth=\"1784196\" codecs=\"vp09.00.31.08.00.01.01.01.00\" mimeType=\"video/mp4\" sar=\"1:1\" FBEncodingTag=\"dash_r2evevp9-r1gen2vp9_q70\" FBContentLength=\"30420552\" FBPlaybackResolutionMos=\"0:100,360:75.1,480:66.5,720:53,1080:35.8\" FBPlaybackResolutionMosConfidenceLevel=\"high\" FBPlaybackResolutionCsvqm=\"0:100,360:97.6,480:96.8,720:93.4,1080:86.2\" FBAbrPolicyTags=\"\" width=\"720\" height=\"1280\" frameRate=\"15360/512\" FBQualityClass=\"hd\" FBQualityLabel=\"640p\"><BaseURL>https://scontent-msp1-1.cdninstagram.com/o1/v/t2/f2/m367/AQMmtJdJD7tkTu8V36WeyQzdk8HeMteMMjJjPRdVOTCykMe66fIcQjTXXG88UK4_NcUrUMgz9L-2I42VSZgBmPA91ikSAETT0FeTBus.mp4?_nc_cat=100&amp;_nc_sid=9ca052&amp;_nc_ht=scontent-msp1-1.cdninstagram.com&amp;_nc_ohc=pyjvp9pYsYsQ7kNvgGshtaH&amp;efg=eyJ2ZW5jb2RlX3RhZyI6ImlnLXhwdmRzLmNsaXBzLmMyLUMzLmRhc2hfcjJldmV2cDktcjFnZW4ydnA5X3E3MCIsInZpZGVvX2lkIjpudWxsLCJjbGllbnRfbmFtZSI6ImlnIiwib2lsX3VybGdlbl9hcHBfaWQiOi0xLCJ1cmxnZW5fc291cmNlIjoid3d3In0%3D&amp;ccb=17-1&amp;_nc_zt=28&amp;oh=00_AYC1HaZXhDXaN1q1TAmQrH9sFgcmJ0G-6BltVud40rRPyA&amp;oe=67C3D361</BaseURL><SegmentBase indexRange=\"818-1185\" timescale=\"15360\" FBMinimumPrefetchRange=\"1186-76675\" FBPartialPrefetchDuration=\"2500\" FBPartialPrefetchRange=\"1186-576986\" FBFirstSegmentRange=\"1186-993630\" FBFirstSegmentDuration=\"5000\" FBSecondSegmentRange=\"993631-2091317\" FBPrefetchSegmentRange=\"1186-993630\" FBPrefetchSegmentDuration=\"5000\"><Initialization range=\"0-817\"/></SegmentBase></Representation><Representation id=\"919116950093496v\" bandwidth=\"2630690\" codecs=\"vp09.00.31.08.00.01.01.01.00\" mimeType=\"video/mp4\" sar=\"1:1\" FBEncodingTag=\"dash_r2evevp9-r1gen2vp9_q80\" FBContentLength=\"44853279\" FBPlaybackResolutionMos=\"0:100,360:79.6,480:72.3,720:60.2,1080:41.1\" FBPlaybackResolutionMosConfidenceLevel=\"high\" FBPlaybackResolutionCsvqm=\"0:100,360:98.76,480:98.48,720:96.3,1080:90.2\" FBAbrPolicyTags=\"\" width=\"720\" height=\"1280\" frameRate=\"15360/512\" FBQualityClass=\"hd\" FBQualityLabel=\"720p\"><BaseURL>https://scontent-msp1-1.cdninstagram.com/o1/v/t2/f2/m367/AQMvDfgRnIqFfPZSWIQCr_9onVKt0K0OYgbEJx6krtjV3ObQZIAXSrQsBKVLckdrSo3Tfcmxnt8I3Xv2egq2yXS6pbSR0nVoyBrjLSg.mp4?_nc_cat=104&amp;_nc_sid=9ca052&amp;_nc_ht=scontent-msp1-1.cdninstagram.com&amp;_nc_ohc=4-_xmHzl96cQ7kNvgFnaugG&amp;efg=eyJ2ZW5jb2RlX3RhZyI6ImlnLXhwdmRzLmNsaXBzLmMyLUMzLmRhc2hfcjJldmV2cDktcjFnZW4ydnA5X3E4MCIsInZpZGVvX2lkIjpudWxsLCJjbGllbnRfbmFtZSI6ImlnIiwib2lsX3VybGdlbl9hcHBfaWQiOi0xLCJ1cmxnZW5fc291cmNlIjoid3d3In0%3D&amp;ccb=17-1&amp;_nc_zt=28&amp;oh=00_AYDmfXlSlJmyqZgJprPJB-fefnLXaf0gz03dNKG_JsGbJQ&amp;oe=67C3E54D</BaseURL><SegmentBase indexRange=\"818-1185\" timescale=\"15360\" FBMinimumPrefetchRange=\"1186-95599\" FBPartialPrefetchDuration=\"2500\" FBPartialPrefetchRange=\"1186-869465\" FBFirstSegmentRange=\"1186-1466583\" FBFirstSegmentDuration=\"5000\" FBSecondSegmentRange=\"1466584-3084916\" FBPrefetchSegmentRange=\"1186-1466583\" FBPrefetchSegmentDuration=\"5000\"><Initialization range=\"0-817\"/></SegmentBase></Representation><Representation id=\"1168259185089340v\" bandwidth=\"4668396\" codecs=\"vp09.00.40.08.00.01.01.01.00\" mimeType=\"video/mp4\" sar=\"1:1\" FBEncodingTag=\"dash_r2evevp9-r1gen2vp9_q90\" FBContentLength=\"79596153\" FBPlaybackResolutionMos=\"0:100,360:84.7,480:77.8,720:70.5,1080:63.6\" FBPlaybackResolutionMosConfidenceLevel=\"high\" FBPlaybackResolutionCsvqm=\"0:100,360:98.98,480:98.67,720:97.2,1080:95\" FBAbrPolicyTags=\"\" width=\"1080\" height=\"1920\" frameRate=\"15360/512\" FBQualityClass=\"hd\" FBQualityLabel=\"1080p\"><BaseURL>https://scontent-msp1-1.cdninstagram.com/o1/v/t2/f2/m367/AQMJH0O9WteqgPMUdu9mB1potiqoZy2ViC1PA2LkBx_oWqG-3uJnOsV4hDRvfyQV8mIzdCf6xgSn_8g0ZlI48VpdOnDavsz-LooBUlk.mp4?_nc_cat=108&amp;_nc_sid=9ca052&amp;_nc_ht=scontent-msp1-1.cdninstagram.com&amp;_nc_ohc=ymM9MJXYSuMQ7kNvgHqMBdO&amp;efg=eyJ2ZW5jb2RlX3RhZyI6ImlnLXhwdmRzLmNsaXBzLmMyLUMzLmRhc2hfcjJldmV2cDktcjFnZW4ydnA5X3E5MCIsInZpZGVvX2lkIjpudWxsLCJjbGllbnRfbmFtZSI6ImlnIiwib2lsX3VybGdlbl9hcHBfaWQiOi0xLCJ1cmxnZW5fc291cmNlIjoid3d3In0%3D&amp;ccb=17-1&amp;_nc_zt=28&amp;oh=00_AYDeklIYA7Uhc9czsOskwweRMiqxzSW12nYe44RVrr6BNg&amp;oe=67C3EEE9</BaseURL><SegmentBase indexRange=\"818-1185\" timescale=\"15360\" FBMinimumPrefetchRange=\"1186-167314\" FBPartialPrefetchDuration=\"2500\" FBPartialPrefetchRange=\"1186-1561981\" FBFirstSegmentRange=\"1186-2680253\" FBFirstSegmentDuration=\"5000\" FBSecondSegmentRange=\"2680254-5610741\" FBPrefetchSegmentRange=\"1186-2680253\" FBPrefetchSegmentDuration=\"5000\"><Initialization range=\"0-817\"/></SegmentBase></Representation></AdaptationSet><AdaptationSet id=\"1\" contentType=\"audio\" subsegmentStartsWithSAP=\"1\" subsegmentAlignment=\"true\"><Representation id=\"2449851615347479ad\" bandwidth=\"53473\" codecs=\"mp4a.40.5\" mimeType=\"audio/mp4\" FBAvgBitrate=\"53473\" audioSamplingRate=\"44100\" FBEncodingTag=\"dash_ln_heaac_vbr3_audio\" FBContentLength=\"913495\" FBPaqMos=\"89.13\" FBAbrPolicyTags=\"\" FBDefaultQuality=\"1\"><AudioChannelConfiguration schemeIdUri=\"urn:mpeg:dash:23003:3:audio_channel_configuration:2011\" value=\"2\"/><BaseURL>https://scontent-msp1-1.cdninstagram.com/o1/v/t16/f2/m69/AQPZ234slTUFT10eByIp44lAkI6GBliq7FNM-2B5Fzwqy0KIROKUAlUPKp63Lbggg91hJJZ_fQ9LQPRvAVcIK6PW.mp4?strext=1&amp;_nc_cat=110&amp;_nc_sid=9ca052&amp;_nc_ht=scontent-msp1-1.cdninstagram.com&amp;_nc_ohc=QcuJgYwEekoQ7kNvgHyzV_C&amp;efg=eyJ2ZW5jb2RlX3RhZyI6ImlnLXhwdmRzLmNsaXBzLmMyLUMzLmRhc2hfbG5faGVhYWNfdmJyM19hdWRpbyIsInZpZGVvX2lkIjpudWxsLCJjbGllbnRfbmFtZSI6ImlnIiwib2lsX3VybGdlbl9hcHBfaWQiOi0xLCJ1cmxnZW5fc291cmNlIjoid3d3In0%3D&amp;ccb=17-1&amp;_nc_zt=28&amp;oh=00_AYAWYIkrVV8uMZaERa6Jm6VD_KuWTLiOcicOskdJCupVEA&amp;oe=67C3E0D2</BaseURL><SegmentBase indexRange=\"824-1683\" timescale=\"44100\" FBMinimumPrefetchRange=\"1684-2027\" FBPartialPrefetchDuration=\"2500\" FBPartialPrefetchRange=\"1684-17864\" FBFirstSegmentRange=\"1684-15361\" FBFirstSegmentDuration=\"2021\" FBSecondSegmentRange=\"15362-28516\" FBPrefetchSegmentRange=\"1684-28516\" FBPrefetchSegmentDuration=\"4017\"><Initialization range=\"0-823\"/></SegmentBase></Representation></AdaptationSet></Period></MPD>\n"
+        },
+        "dimensions": {
+            "height": 1136,
+            "width": 640
+        },
+        "display_resources": [
+            {
+                "config_height": 1136,
+                "config_width": 640,
+                "src": "https://scontent-msp1-1.cdninstagram.com/v/t51.2885-15/481608162_1301556211063494_2169583295024506175_n.jpg?stp=dst-jpg_e15_tt6&_nc_ht=scontent-msp1-1.cdninstagram.com&_nc_cat=106&_nc_oc=Q6cZ2AHefq7b9KN5YnDIsmAYuOUmG3KvH9M8Lg8TxR5WG8efzICiVUqEkirhIKtsIrAiSrY&_nc_ohc=XS7UnCU7fkIQ7kNvgH5Qn56&_nc_gid=677db165c17743cca9b9173c014d2160&edm=ANTKIIoBAAAA&ccb=7-5&oh=00_AYB_g2KPWULL5A3IhrLRyLMZ6lduiJ90oPV-m_Kmc75Ujw&oe=67C3D8A6&_nc_sid=d885a2"
+            },
+            {
+                "config_height": 1331,
+                "config_width": 750,
+                "src": "https://scontent-msp1-1.cdninstagram.com/v/t51.2885-15/481608162_1301556211063494_2169583295024506175_n.jpg?stp=dst-jpg_e15_tt6&_nc_ht=scontent-msp1-1.cdninstagram.com&_nc_cat=106&_nc_oc=Q6cZ2AHefq7b9KN5YnDIsmAYuOUmG3KvH9M8Lg8TxR5WG8efzICiVUqEkirhIKtsIrAiSrY&_nc_ohc=XS7UnCU7fkIQ7kNvgH5Qn56&_nc_gid=677db165c17743cca9b9173c014d2160&edm=ANTKIIoBAAAA&ccb=7-5&oh=00_AYB_g2KPWULL5A3IhrLRyLMZ6lduiJ90oPV-m_Kmc75Ujw&oe=67C3D8A6&_nc_sid=d885a2"
+            },
+            {
+                "config_height": 1917,
+                "config_width": 1080,
+                "src": "https://scontent-msp1-1.cdninstagram.com/v/t51.2885-15/481608162_1301556211063494_2169583295024506175_n.jpg?stp=dst-jpg_e15_tt6&_nc_ht=scontent-msp1-1.cdninstagram.com&_nc_cat=106&_nc_oc=Q6cZ2AHefq7b9KN5YnDIsmAYuOUmG3KvH9M8Lg8TxR5WG8efzICiVUqEkirhIKtsIrAiSrY&_nc_ohc=XS7UnCU7fkIQ7kNvgH5Qn56&_nc_gid=677db165c17743cca9b9173c014d2160&edm=ANTKIIoBAAAA&ccb=7-5&oh=00_AYB_g2KPWULL5A3IhrLRyLMZ6lduiJ90oPV-m_Kmc75Ujw&oe=67C3D8A6&_nc_sid=d885a2"
+            }
+        ],
+        "display_url": "https://scontent-msp1-1.cdninstagram.com/v/t51.2885-15/481608162_1301556211063494_2169583295024506175_n.jpg?stp=dst-jpg_e15_tt6&_nc_ht=scontent-msp1-1.cdninstagram.com&_nc_cat=106&_nc_oc=Q6cZ2AHefq7b9KN5YnDIsmAYuOUmG3KvH9M8Lg8TxR5WG8efzICiVUqEkirhIKtsIrAiSrY&_nc_ohc=XS7UnCU7fkIQ7kNvgH5Qn56&_nc_gid=677db165c17743cca9b9173c014d2160&edm=ANTKIIoBAAAA&ccb=7-5&oh=00_AYB_g2KPWULL5A3IhrLRyLMZ6lduiJ90oPV-m_Kmc75Ujw&oe=67C3D8A6&_nc_sid=d885a2",
+        "edge_media_preview_comment": {
+            "count": 30,
+            "edges": [
+                {
+                    "node": {
+                        "created_at": 1740505955,
+                        "did_report_as_spam": false,
+                        "edge_liked_by": {
+                            "count": 0
+                        },
+                        "id": "18388216561128893",
+                        "is_restricted_pending": false,
+                        "owner": {
+                            "id": "47214798729",
+                            "is_verified": false,
+                            "profile_pic_url": "https://scontent-msp1-1.cdninstagram.com/v/t51.2885-19/434675159_804057931568616_5711137461509149914_n.jpg?stp=dst-jpg_s150x150_tt6&_nc_ht=scontent-msp1-1.cdninstagram.com&_nc_cat=100&_nc_oc=Q6cZ2AHefq7b9KN5YnDIsmAYuOUmG3KvH9M8Lg8TxR5WG8efzICiVUqEkirhIKtsIrAiSrY&_nc_ohc=krNvAYnBgesQ7kNvgF49xG5&_nc_gid=677db165c17743cca9b9173c014d2160&edm=ANTKIIoBAAAA&ccb=7-5&oh=00_AYBpU0pgu0XQuh3T6eE27RWORKPsHn86aLVNJ0qrEzSw0A&oe=67C3C53C&_nc_sid=d885a2",
+                            "username": "nononsensespirituality"
+                        },
+                        "text": "@david.a.cromer you have to look at the reasons why you do the things you do. If you had free will you could choose to believe in unicorns, and you\u2019d really believe it. You\u2019d choose to stick to a diet and never falter your whole life. You\u2019d choose your core values randomly. But we don\u2019t do that. We are a system of complex inputs. We don\u2019t choose our core values or what we desire, they choose us. You couldn\u2019t choose to believe a god you don\u2019t believe in, or choose to value something you don\u2019t.",
+                        "viewer_has_liked": false
+                    }
+                },
+                {
+                    "node": {
+                        "created_at": 1740506113,
+                        "did_report_as_spam": false,
+                        "edge_liked_by": {
+                            "count": 0
+                        },
+                        "id": "17878830879163718",
+                        "is_restricted_pending": false,
+                        "owner": {
+                            "id": "47214798729",
+                            "is_verified": false,
+                            "profile_pic_url": "https://scontent-msp1-1.cdninstagram.com/v/t51.2885-19/434675159_804057931568616_5711137461509149914_n.jpg?stp=dst-jpg_s150x150_tt6&_nc_ht=scontent-msp1-1.cdninstagram.com&_nc_cat=100&_nc_oc=Q6cZ2AHefq7b9KN5YnDIsmAYuOUmG3KvH9M8Lg8TxR5WG8efzICiVUqEkirhIKtsIrAiSrY&_nc_ohc=krNvAYnBgesQ7kNvgF49xG5&_nc_gid=677db165c17743cca9b9173c014d2160&edm=ANTKIIoBAAAA&ccb=7-5&oh=00_AYBpU0pgu0XQuh3T6eE27RWORKPsHn86aLVNJ0qrEzSw0A&oe=67C3C53C&_nc_sid=d885a2",
+                            "username": "nononsensespirituality"
+                        },
+                        "text": "@papayaqueen79 yes as parents we don\u2019t just shame a toddler for a tantrum that they can\u2019t fully control. We give resources, and discipline, to curb behavior in another direction. We can still choose to jail people, even with some compassion that they were dealt a bad hand in life.",
+                        "viewer_has_liked": false
+                    }
+                }
+            ]
+        },
+        "edge_media_preview_like": {
+            "count": 188,
+            "edges": []
+        },
+        "edge_media_to_caption": {
+            "edges": [
+                {
+                    "node": {
+                        "created_at": "1740448284",
+                        "id": "18077804776643627",
+                        "text": "#freewill #nononsensespirituality"
+                    }
+                }
+            ]
+        },
+        "edge_media_to_hoisted_comment": {
+            "edges": []
+        },
+        "edge_media_to_parent_comment": {
+            "count": 30,
+            "edges": [
+                {
+                    "node": {
+                        "created_at": 1740501166,
+                        "did_report_as_spam": false,
+                        "edge_liked_by": {
+                            "count": 0
+                        },
+                        "edge_threaded_comments": {
+                            "count": 4,
+                            "edges": [
+                                {
+                                    "node": {
+                                        "created_at": 1740502855,
+                                        "did_report_as_spam": false,
+                                        "edge_liked_by": {
+                                            "count": 0
+                                        },
+                                        "id": "18058196411049401",
+                                        "is_restricted_pending": false,
+                                        "owner": {
+                                            "id": "31965844",
+                                            "is_verified": false,
+                                            "profile_pic_url": "https://scontent-msp1-1.cdninstagram.com/v/t51.2885-19/449132188_987553892745906_6950790915259105431_n.jpg?stp=dst-jpg_s150x150_tt6&_nc_ht=scontent-msp1-1.cdninstagram.com&_nc_cat=106&_nc_oc=Q6cZ2AHefq7b9KN5YnDIsmAYuOUmG3KvH9M8Lg8TxR5WG8efzICiVUqEkirhIKtsIrAiSrY&_nc_ohc=mfWiWiEn76QQ7kNvgE4tagA&_nc_gid=677db165c17743cca9b9173c014d2160&edm=ANTKIIoBAAAA&ccb=7-5&oh=00_AYAK2HbtJMh-QhbxFHt5W4g3HDqWd9GWYgCH_4D2ZwoA-w&oe=67C3C95F&_nc_sid=d885a2",
+                                            "username": "sailorboyscout"
+                                        },
+                                        "text": "@david.a.cromer it\u2019s an argument based mostly in physics\u2026 I also find it a little \u201cmissing forest for the trees\u201d but it\u2019s not as simple as you\u2019d think. Tho I personally find \u201cno free will\u201d to be reductionist, it\u2019s not necessarily UNtrue",
+                                        "viewer_has_liked": false
+                                    }
+                                },
+                                {
+                                    "node": {
+                                        "created_at": 1740503718,
+                                        "did_report_as_spam": false,
+                                        "edge_liked_by": {
+                                            "count": 0
+                                        },
+                                        "id": "18035430482570685",
+                                        "is_restricted_pending": false,
+                                        "owner": {
+                                            "id": "227709971",
+                                            "is_verified": false,
+                                            "profile_pic_url": "https://scontent-msp1-1.cdninstagram.com/v/t51.2885-19/117773031_354318422265768_595011049374918585_n.jpg?stp=dst-jpg_s150x150_tt6&_nc_ht=scontent-msp1-1.cdninstagram.com&_nc_cat=100&_nc_oc=Q6cZ2AHefq7b9KN5YnDIsmAYuOUmG3KvH9M8Lg8TxR5WG8efzICiVUqEkirhIKtsIrAiSrY&_nc_ohc=n7VkTY8Vk9MQ7kNvgHJUClg&_nc_gid=677db165c17743cca9b9173c014d2160&edm=ANTKIIoBAAAA&ccb=7-5&oh=00_AYCyn14-lB532hSYfPm8r2XCbVD91UBcjakMPix5OejpLw&oe=67C3ECA8&_nc_sid=d885a2",
+                                            "username": "mysticsage7744"
+                                        },
+                                        "text": "@david.a.cromer also when you desire to have something that is not a system of input. What does one benefit from desire if all one needs is basic things for survival? One does not need desires if you just need food, clothing and shelter. Typically, the animal kingdom doesn't have desires on the functionality to survive based on instinct to survive. This is a very very difficult and debatable topic. I personally disagree but everyone is entitled to their beliefs whether I agree or not.",
+                                        "viewer_has_liked": false
+                                    }
+                                },
+                                {
+                                    "node": {
+                                        "created_at": 1740505955,
+                                        "did_report_as_spam": false,
+                                        "edge_liked_by": {
+                                            "count": 0
+                                        },
+                                        "id": "18388216561128893",
+                                        "is_restricted_pending": false,
+                                        "owner": {
+                                            "id": "47214798729",
+                                            "is_verified": false,
+                                            "profile_pic_url": "https://scontent-msp1-1.cdninstagram.com/v/t51.2885-19/434675159_804057931568616_5711137461509149914_n.jpg?stp=dst-jpg_s150x150_tt6&_nc_ht=scontent-msp1-1.cdninstagram.com&_nc_cat=100&_nc_oc=Q6cZ2AHefq7b9KN5YnDIsmAYuOUmG3KvH9M8Lg8TxR5WG8efzICiVUqEkirhIKtsIrAiSrY&_nc_ohc=krNvAYnBgesQ7kNvgF49xG5&_nc_gid=677db165c17743cca9b9173c014d2160&edm=ANTKIIoBAAAA&ccb=7-5&oh=00_AYBpU0pgu0XQuh3T6eE27RWORKPsHn86aLVNJ0qrEzSw0A&oe=67C3C53C&_nc_sid=d885a2",
+                                            "username": "nononsensespirituality"
+                                        },
+                                        "text": "@david.a.cromer you have to look at the reasons why you do the things you do. If you had free will you could choose to believe in unicorns, and you\u2019d really believe it. You\u2019d choose to stick to a diet and never falter your whole life. You\u2019d choose your core values randomly. But we don\u2019t do that. We are a system of complex inputs. We don\u2019t choose our core values or what we desire, they choose us. You couldn\u2019t choose to believe a god you don\u2019t believe in, or choose to value something you don\u2019t.",
+                                        "viewer_has_liked": false
+                                    }
+                                }
+                            ],
+                            "page_info": {
+                                "end_cursor": "QVFCUkhkNExydVUtelB2U0pzaW1fNDl4ci04bnp4c09ZLXp3OFZTTTljVDBBWEhBWTlXelRHeVBZcl8xX29XWjM1RDZmLTRqck9RTEhkZUdPZzBXRkhtMg==",
+                                "has_next_page": true
+                            }
+                        },
+                        "id": "17896672347083510",
+                        "is_restricted_pending": false,
+                        "owner": {
+                            "id": "11874723449",
+                            "is_verified": false,
+                            "profile_pic_url": "https://scontent-msp1-1.cdninstagram.com/v/t51.2885-19/458630781_956005503033322_3028388004018839568_n.jpg?stp=dst-jpg_s150x150_tt6&_nc_ht=scontent-msp1-1.cdninstagram.com&_nc_cat=110&_nc_oc=Q6cZ2AHefq7b9KN5YnDIsmAYuOUmG3KvH9M8Lg8TxR5WG8efzICiVUqEkirhIKtsIrAiSrY&_nc_ohc=wgPMl092D1oQ7kNvgGduIOB&_nc_gid=677db165c17743cca9b9173c014d2160&edm=ANTKIIoBAAAA&ccb=7-5&oh=00_AYAAQtZGxZ4ZpiJgtD6sawiyF64L6FdQHHF_AkRUeo8vZQ&oe=67C3E204&_nc_sid=d885a2",
+                            "username": "david.a.cromer"
+                        },
+                        "text": "I don\u2019t understand. You could have decided, at any point, to go the gym, but instead you chose other things. That is free will. What am I missing?",
+                        "viewer_has_liked": false
+                    }
+                },
+                {
+                    "node": {
+                        "created_at": 1740474333,
+                        "did_report_as_spam": false,
+                        "edge_liked_by": {
+                            "count": 0
+                        },
+                        "edge_threaded_comments": {
+                            "count": 3,
+                            "edges": [
+                                {
+                                    "node": {
+                                        "created_at": 1740493380,
+                                        "did_report_as_spam": false,
+                                        "edge_liked_by": {
+                                            "count": 1
+                                        },
+                                        "id": "18059504396057619",
+                                        "is_restricted_pending": false,
+                                        "owner": {
+                                            "id": "47214798729",
+                                            "is_verified": false,
+                                            "profile_pic_url": "https://scontent-msp1-1.cdninstagram.com/v/t51.2885-19/434675159_804057931568616_5711137461509149914_n.jpg?stp=dst-jpg_s150x150_tt6&_nc_ht=scontent-msp1-1.cdninstagram.com&_nc_cat=100&_nc_oc=Q6cZ2AHefq7b9KN5YnDIsmAYuOUmG3KvH9M8Lg8TxR5WG8efzICiVUqEkirhIKtsIrAiSrY&_nc_ohc=krNvAYnBgesQ7kNvgF49xG5&_nc_gid=677db165c17743cca9b9173c014d2160&edm=ANTKIIoBAAAA&ccb=7-5&oh=00_AYBpU0pgu0XQuh3T6eE27RWORKPsHn86aLVNJ0qrEzSw0A&oe=67C3C53C&_nc_sid=d885a2",
+                                            "username": "nononsensespirituality"
+                                        },
+                                        "text": "@real_rebeccabex no, because I didn\u2019t choose that my moms health inspired me. I didn\u2019t choose any of my core values or desires.",
+                                        "viewer_has_liked": false
+                                    }
+                                },
+                                {
+                                    "node": {
+                                        "created_at": 1740501910,
+                                        "did_report_as_spam": false,
+                                        "edge_liked_by": {
+                                            "count": 0
+                                        },
+                                        "id": "18040593176605400",
+                                        "is_restricted_pending": false,
+                                        "owner": {
+                                            "id": "37935443618",
+                                            "is_verified": false,
+                                            "profile_pic_url": "https://scontent-msp1-1.cdninstagram.com/v/t51.2885-19/104115180_1203121310070789_1869724225826072319_n.jpg?stp=dst-jpg_s150x150_tt6&_nc_ht=scontent-msp1-1.cdninstagram.com&_nc_cat=109&_nc_oc=Q6cZ2AHefq7b9KN5YnDIsmAYuOUmG3KvH9M8Lg8TxR5WG8efzICiVUqEkirhIKtsIrAiSrY&_nc_ohc=xoPIo8_VCEIQ7kNvgHZ7Ffb&_nc_gid=677db165c17743cca9b9173c014d2160&edm=ANTKIIoBAAAA&ccb=7-5&oh=00_AYBSizf7JWlhr9gK1KgMkU6Yu9OEW3JFFUs_XFWN7nmYLw&oe=67C3E9A2&_nc_sid=d885a2",
+                                            "username": "thecitizenbody"
+                                        },
+                                        "text": "@nononsensespirituality but you can ... we are better off choosing values that we believe are best for us and the citizen body and \"liking\" those than just compulsively going along with values that happened to be formed in our comfort configurations by circumstance. Philosophy allows us to imagine the person and world we want and act in accordance consciously to being them about.",
+                                        "viewer_has_liked": false
+                                    }
+                                },
+                                {
+                                    "node": {
+                                        "created_at": 1740505831,
+                                        "did_report_as_spam": false,
+                                        "edge_liked_by": {
+                                            "count": 0
+                                        },
+                                        "id": "18057377615090673",
+                                        "is_restricted_pending": false,
+                                        "owner": {
+                                            "id": "47214798729",
+                                            "is_verified": false,
+                                            "profile_pic_url": "https://scontent-msp1-1.cdninstagram.com/v/t51.2885-19/434675159_804057931568616_5711137461509149914_n.jpg?stp=dst-jpg_s150x150_tt6&_nc_ht=scontent-msp1-1.cdninstagram.com&_nc_cat=100&_nc_oc=Q6cZ2AHefq7b9KN5YnDIsmAYuOUmG3KvH9M8Lg8TxR5WG8efzICiVUqEkirhIKtsIrAiSrY&_nc_ohc=krNvAYnBgesQ7kNvgF49xG5&_nc_gid=677db165c17743cca9b9173c014d2160&edm=ANTKIIoBAAAA&ccb=7-5&oh=00_AYBpU0pgu0XQuh3T6eE27RWORKPsHn86aLVNJ0qrEzSw0A&oe=67C3C53C&_nc_sid=d885a2",
+                                            "username": "nononsensespirituality"
+                                        },
+                                        "text": "@thecitizenbody no one chooses their core values. You \u201cchoose\u201d them based on what already resonates with you. You naturally are inclined to justice over mercy, or vice versa. These are not random choices. The core values choose you in a way, and are formed as you walk out the door and have to create a hierarchy of values. I\u2019m not saying we take our core values from society giving them to you. It\u2019s far deeper than that. Even the disposition to study philosophy is found in some and not in others, by no real choice of their own.",
+                                        "viewer_has_liked": false
+                                    }
+                                }
+                            ],
+                            "page_info": {
+                                "end_cursor": null,
+                                "has_next_page": false
+                            }
+                        },
+                        "id": "18486598936045100",
+                        "is_restricted_pending": false,
+                        "owner": {
+                            "id": "2278717046",
+                            "is_verified": false,
+                            "profile_pic_url": "https://scontent-msp1-1.cdninstagram.com/v/t51.2885-19/358358104_1234471220605320_5818063806357627899_n.jpg?stp=dst-jpg_s150x150_tt6&_nc_ht=scontent-msp1-1.cdninstagram.com&_nc_cat=100&_nc_oc=Q6cZ2AHefq7b9KN5YnDIsmAYuOUmG3KvH9M8Lg8TxR5WG8efzICiVUqEkirhIKtsIrAiSrY&_nc_ohc=pBkocME25wkQ7kNvgFJu9Ea&_nc_gid=677db165c17743cca9b9173c014d2160&edm=ANTKIIoBAAAA&ccb=7-5&oh=00_AYB_SYlxiLJO_MIs0cRpM10WBVuiFP_ICKg6dT7nmUm2uQ&oe=67C3EC39&_nc_sid=d885a2",
+                            "username": "real_rebeccabex"
+                        },
+                        "text": "Can\u2019t your desires and choice to change inputs be at least partially free will? As in, you see your mother being healthy and desire the same results, therefore you choose to work towards that goal. Even if some aspects of life is beyond our control we aren\u2019t incapable of affecting or changing our lives and the results, in my own opinion ofc. \ud83e\udd14",
+                        "viewer_has_liked": false
+                    }
+                },
+                {
+                    "node": {
+                        "created_at": 1740499249,
+                        "did_report_as_spam": false,
+                        "edge_liked_by": {
+                            "count": 0
+                        },
+                        "edge_threaded_comments": {
+                            "count": 2,
+                            "edges": [
+                                {
+                                    "node": {
+                                        "created_at": 1740499452,
+                                        "did_report_as_spam": false,
+                                        "edge_liked_by": {
+                                            "count": 0
+                                        },
+                                        "id": "18037919402419447",
+                                        "is_restricted_pending": false,
+                                        "owner": {
+                                            "id": "53774852318",
+                                            "is_verified": false,
+                                            "profile_pic_url": "https://scontent-msp1-1.cdninstagram.com/v/t51.2885-19/285211877_327056699587406_5193975844948154189_n.jpg?stp=dst-jpg_s150x150_tt6&_nc_ht=scontent-msp1-1.cdninstagram.com&_nc_cat=102&_nc_oc=Q6cZ2AHefq7b9KN5YnDIsmAYuOUmG3KvH9M8Lg8TxR5WG8efzICiVUqEkirhIKtsIrAiSrY&_nc_ohc=bHjhKrBq1vEQ7kNvgF2I2wV&_nc_gid=677db165c17743cca9b9173c014d2160&edm=ANTKIIoBAAAA&ccb=7-5&oh=00_AYCaEO5BQx2dhdj6KrJvGlAyje7ZPCWnpD3AS-FI4qWdjQ&oe=67C3DDEE&_nc_sid=d885a2",
+                                            "username": "papayaqueen79"
+                                        },
+                                        "text": "@papayaqueen79 But I find it very interesting that, since we have no free will, you'd think it wouldn't be correct to shame people for poor choices. However, it's the  potential shaming that, ironically, helps us make better decisions. Or sometimes it's the punishment.  So even though nobody can help how \"bad\" we are, we still need to believe it was their choice, so we will shame them, so they will make better choices.  If my logic is wrong here, please let me know because I'm not very intelligent. \ud83d\ude02 Not my fault though!",
+                                        "viewer_has_liked": false
+                                    }
+                                },
+                                {
+                                    "node": {
+                                        "created_at": 1740506113,
+                                        "did_report_as_spam": false,
+                                        "edge_liked_by": {
+                                            "count": 0
+                                        },
+                                        "id": "17878830879163718",
+                                        "is_restricted_pending": false,
+                                        "owner": {
+                                            "id": "47214798729",
+                                            "is_verified": false,
+                                            "profile_pic_url": "https://scontent-msp1-1.cdninstagram.com/v/t51.2885-19/434675159_804057931568616_5711137461509149914_n.jpg?stp=dst-jpg_s150x150_tt6&_nc_ht=scontent-msp1-1.cdninstagram.com&_nc_cat=100&_nc_oc=Q6cZ2AHefq7b9KN5YnDIsmAYuOUmG3KvH9M8Lg8TxR5WG8efzICiVUqEkirhIKtsIrAiSrY&_nc_ohc=krNvAYnBgesQ7kNvgF49xG5&_nc_gid=677db165c17743cca9b9173c014d2160&edm=ANTKIIoBAAAA&ccb=7-5&oh=00_AYBpU0pgu0XQuh3T6eE27RWORKPsHn86aLVNJ0qrEzSw0A&oe=67C3C53C&_nc_sid=d885a2",
+                                            "username": "nononsensespirituality"
+                                        },
+                                        "text": "@papayaqueen79 yes as parents we don\u2019t just shame a toddler for a tantrum that they can\u2019t fully control. We give resources, and discipline, to curb behavior in another direction. We can still choose to jail people, even with some compassion that they were dealt a bad hand in life.",
+                                        "viewer_has_liked": false
+                                    }
+                                }
+                            ],
+                            "page_info": {
+                                "end_cursor": null,
+                                "has_next_page": false
+                            }
+                        },
+                        "id": "18026133371354537",
+                        "is_restricted_pending": false,
+                        "owner": {
+                            "id": "53774852318",
+                            "is_verified": false,
+                            "profile_pic_url": "https://scontent-msp1-1.cdninstagram.com/v/t51.2885-19/285211877_327056699587406_5193975844948154189_n.jpg?stp=dst-jpg_s150x150_tt6&_nc_ht=scontent-msp1-1.cdninstagram.com&_nc_cat=102&_nc_oc=Q6cZ2AHefq7b9KN5YnDIsmAYuOUmG3KvH9M8Lg8TxR5WG8efzICiVUqEkirhIKtsIrAiSrY&_nc_ohc=bHjhKrBq1vEQ7kNvgF2I2wV&_nc_gid=677db165c17743cca9b9173c014d2160&edm=ANTKIIoBAAAA&ccb=7-5&oh=00_AYCaEO5BQx2dhdj6KrJvGlAyje7ZPCWnpD3AS-FI4qWdjQ&oe=67C3DDEE&_nc_sid=d885a2",
+                            "username": "papayaqueen79"
+                        },
+                        "text": "I think of determinism in human behavior as similar to a huge barrel of tiny balls that is poured out. None of us can predict exactly where each little ball will go. It's not possible. However, that doesn't mean it's random. It's all cause and effect.  And, btw, the meatsuit term makes me uncomfortable. \ud83d\ude02 But I suppose that's what we are.",
+                        "viewer_has_liked": false
+                    }
+                },
+                {
+                    "node": {
+                        "created_at": 1740450521,
+                        "did_report_as_spam": false,
+                        "edge_liked_by": {
+                            "count": 0
+                        },
+                        "edge_threaded_comments": {
+                            "count": 1,
+                            "edges": [
+                                {
+                                    "node": {
+                                        "created_at": 1740451249,
+                                        "did_report_as_spam": false,
+                                        "edge_liked_by": {
+                                            "count": 0
+                                        },
+                                        "id": "17963245388853372",
+                                        "is_restricted_pending": false,
+                                        "owner": {
+                                            "id": "47214798729",
+                                            "is_verified": false,
+                                            "profile_pic_url": "https://scontent-msp1-1.cdninstagram.com/v/t51.2885-19/434675159_804057931568616_5711137461509149914_n.jpg?stp=dst-jpg_s150x150_tt6&_nc_ht=scontent-msp1-1.cdninstagram.com&_nc_cat=100&_nc_oc=Q6cZ2AHefq7b9KN5YnDIsmAYuOUmG3KvH9M8Lg8TxR5WG8efzICiVUqEkirhIKtsIrAiSrY&_nc_ohc=krNvAYnBgesQ7kNvgF49xG5&_nc_gid=677db165c17743cca9b9173c014d2160&edm=ANTKIIoBAAAA&ccb=7-5&oh=00_AYBpU0pgu0XQuh3T6eE27RWORKPsHn86aLVNJ0qrEzSw0A&oe=67C3C53C&_nc_sid=d885a2",
+                                            "username": "nononsensespirituality"
+                                        },
+                                        "text": "@cozy.pigeontoes I do a full YouTube video on it that totally unpacks it if you like",
+                                        "viewer_has_liked": false
+                                    }
+                                }
+                            ],
+                            "page_info": {
+                                "end_cursor": null,
+                                "has_next_page": false
+                            }
+                        },
+                        "id": "18097391620511062",
+                        "is_restricted_pending": false,
+                        "owner": {
+                            "id": "7936476819",
+                            "is_verified": false,
+                            "profile_pic_url": "https://scontent-msp1-1.cdninstagram.com/v/t51.2885-19/81435453_188959132223461_6577213522961235968_n.jpg?stp=dst-jpg_s150x150_tt6&_nc_ht=scontent-msp1-1.cdninstagram.com&_nc_cat=101&_nc_oc=Q6cZ2AHefq7b9KN5YnDIsmAYuOUmG3KvH9M8Lg8TxR5WG8efzICiVUqEkirhIKtsIrAiSrY&_nc_ohc=e9nImseGO0EQ7kNvgEgRBlE&_nc_gid=677db165c17743cca9b9173c014d2160&edm=ANTKIIoBAAAA&ccb=7-5&oh=00_AYBCszFGh7ilHBQ91bsCDvheTaeVQ-Yw72ptdOZ12qA09A&oe=67C3E9D8&_nc_sid=d885a2",
+                            "username": "cozy.pigeontoes"
+                        },
+                        "text": "You are correct, this meat suit here IS interested in this concept. However, there is something about this concept that I just do not get. I can\u2019t comprehend it. I\u2019ll ask my friend to help explain it to me.",
+                        "viewer_has_liked": false
+                    }
+                },
+                {
+                    "node": {
+                        "created_at": 1740467332,
+                        "did_report_as_spam": false,
+                        "edge_liked_by": {
+                            "count": 0
+                        },
+                        "edge_threaded_comments": {
+                            "count": 0,
+                            "edges": [],
+                            "page_info": {
+                                "end_cursor": null,
+                                "has_next_page": false
+                            }
+                        },
+                        "id": "18053220884136885",
+                        "is_restricted_pending": false,
+                        "owner": {
+                            "id": "11660578",
+                            "is_verified": false,
+                            "profile_pic_url": "https://scontent-msp1-1.cdninstagram.com/v/t51.2885-19/410311600_647035047638461_1972046478142370676_n.jpg?stp=dst-jpg_s150x150_tt6&_nc_ht=scontent-msp1-1.cdninstagram.com&_nc_cat=101&_nc_oc=Q6cZ2AHefq7b9KN5YnDIsmAYuOUmG3KvH9M8Lg8TxR5WG8efzICiVUqEkirhIKtsIrAiSrY&_nc_ohc=BCIa98b7zpYQ7kNvgEHF2Ml&_nc_gid=677db165c17743cca9b9173c014d2160&edm=ANTKIIoBAAAA&ccb=7-5&oh=00_AYCKAK6AZBdWhL7MJoSA54KV9cfFyC7-bbjhos_sg6bwKg&oe=67C3E707&_nc_sid=d885a2",
+                            "username": "abbybuahin"
+                        },
+                        "text": "Is free will and choice different? Because I think of them as the same, and you almost always have a choice - with lots of circumstances affecting that choice",
+                        "viewer_has_liked": false
+                    }
+                },
+                {
+                    "node": {
+                        "created_at": 1740461186,
+                        "did_report_as_spam": false,
+                        "edge_liked_by": {
+                            "count": 1
+                        },
+                        "edge_threaded_comments": {
+                            "count": 0,
+                            "edges": [],
+                            "page_info": {
+                                "end_cursor": null,
+                                "has_next_page": false
+                            }
+                        },
+                        "id": "18058148717013313",
+                        "is_restricted_pending": false,
+                        "owner": {
+                            "id": "849949466",
+                            "is_verified": false,
+                            "profile_pic_url": "https://scontent-msp1-1.cdninstagram.com/v/t51.2885-19/275887812_734932681246039_3560214612480572478_n.jpg?stp=dst-jpg_s150x150_tt6&_nc_ht=scontent-msp1-1.cdninstagram.com&_nc_cat=107&_nc_oc=Q6cZ2AHefq7b9KN5YnDIsmAYuOUmG3KvH9M8Lg8TxR5WG8efzICiVUqEkirhIKtsIrAiSrY&_nc_ohc=TqOg8HKISLEQ7kNvgHBr3G_&_nc_gid=677db165c17743cca9b9173c014d2160&edm=ANTKIIoBAAAA&ccb=7-5&oh=00_AYCaXys17HphYDWfibr-IujR5FajOjtwYreCQFAmVXThsA&oe=67C3D767&_nc_sid=d885a2",
+                            "username": "wasatchmaximus"
+                        },
+                        "text": "\u201cWorking with the system that I am.\u201d\nI love that! It is a system of complex living things at play, but our ego thinks it\u2019s a play about it. We are more bacteria than our own cells, kludged together from dead star stuff and evolution, a blip on the trillion trillion years cosmic lifespan.",
+                        "viewer_has_liked": false
+                    }
+                },
+                {
+                    "node": {
+                        "created_at": 1740448784,
+                        "did_report_as_spam": false,
+                        "edge_liked_by": {
+                            "count": 0
+                        },
+                        "edge_threaded_comments": {
+                            "count": 0,
+                            "edges": [],
+                            "page_info": {
+                                "end_cursor": null,
+                                "has_next_page": false
+                            }
+                        },
+                        "id": "18002100716726955",
+                        "is_restricted_pending": false,
+                        "owner": {
+                            "id": "58625068633",
+                            "is_verified": false,
+                            "profile_pic_url": "https://scontent-msp1-1.cdninstagram.com/v/t51.2885-19/468851666_466868099352142_7660948131288309487_n.jpg?stp=dst-jpg_s150x150_tt6&_nc_ht=scontent-msp1-1.cdninstagram.com&_nc_cat=110&_nc_oc=Q6cZ2AHefq7b9KN5YnDIsmAYuOUmG3KvH9M8Lg8TxR5WG8efzICiVUqEkirhIKtsIrAiSrY&_nc_ohc=iPkfMx_EuqYQ7kNvgGuKHMr&_nc_gid=677db165c17743cca9b9173c014d2160&edm=ANTKIIoBAAAA&ccb=7-5&oh=00_AYC8QNLleWaznD_fGSDTrdSGqw26d7xcbfFpuy7KBTWJwg&oe=67C3C475&_nc_sid=d885a2",
+                            "username": "chaospotions"
+                        },
+                        "text": "\ud83e\udd14 Or how you feel is an influence on your will. Like, the creature that is you has a status of balances... if you're imbalanced, your will, will be heavier than it is on other days... is it a lack of will... or an awareness of your well being in relation to your will?",
+                        "viewer_has_liked": false
+                    }
+                },
+                {
+                    "node": {
+                        "created_at": 1740493029,
+                        "did_report_as_spam": false,
+                        "edge_liked_by": {
+                            "count": 0
+                        },
+                        "edge_threaded_comments": {
+                            "count": 0,
+                            "edges": [],
+                            "page_info": {
+                                "end_cursor": null,
+                                "has_next_page": false
+                            }
+                        },
+                        "id": "18085327102594165",
+                        "is_restricted_pending": false,
+                        "owner": {
+                            "id": "265206544",
+                            "is_verified": false,
+                            "profile_pic_url": "https://scontent-msp1-1.cdninstagram.com/v/t51.2885-19/331946889_905763833973447_1997196929384350407_n.jpg?stp=dst-jpg_s150x150_tt6&_nc_ht=scontent-msp1-1.cdninstagram.com&_nc_cat=103&_nc_oc=Q6cZ2AHefq7b9KN5YnDIsmAYuOUmG3KvH9M8Lg8TxR5WG8efzICiVUqEkirhIKtsIrAiSrY&_nc_ohc=FqMiCV8x7XIQ7kNvgGZsc9p&_nc_gid=677db165c17743cca9b9173c014d2160&edm=ANTKIIoBAAAA&ccb=7-5&oh=00_AYAK1Pp_I4DDDRefqDEqhpJK_El8VLnjHomoinVaCrTuEA&oe=67C3C88D&_nc_sid=d885a2",
+                            "username": "threepeakfilms"
+                        },
+                        "text": "This is basically every convo with chatgpt",
+                        "viewer_has_liked": false
+                    }
+                },
+                {
+                    "node": {
+                        "created_at": 1740478295,
+                        "did_report_as_spam": false,
+                        "edge_liked_by": {
+                            "count": 0
+                        },
+                        "edge_threaded_comments": {
+                            "count": 0,
+                            "edges": [],
+                            "page_info": {
+                                "end_cursor": null,
+                                "has_next_page": false
+                            }
+                        },
+                        "id": "18061693357791172",
+                        "is_restricted_pending": false,
+                        "owner": {
+                            "id": "8213444137",
+                            "is_verified": false,
+                            "profile_pic_url": "https://scontent-msp1-1.cdninstagram.com/v/t51.2885-19/364330852_983673792850747_8069784978808168953_n.jpg?stp=dst-jpg_s150x150_tt6&_nc_ht=scontent-msp1-1.cdninstagram.com&_nc_cat=107&_nc_oc=Q6cZ2AHefq7b9KN5YnDIsmAYuOUmG3KvH9M8Lg8TxR5WG8efzICiVUqEkirhIKtsIrAiSrY&_nc_ohc=4RDoEj3jvj4Q7kNvgHlPOV4&_nc_gid=677db165c17743cca9b9173c014d2160&edm=ANTKIIoBAAAA&ccb=7-5&oh=00_AYDbBAhvY_ipItlHDAs0ubbSXLLfx5E_kg5H9KosxSAakw&oe=67C3D7E8&_nc_sid=d885a2",
+                            "username": "thalyaofthebay"
+                        },
+                        "text": "The system that is me..what inputs do I need\u2026I did stop!!! I was compelled to b/c it was always going to happen..b/c I had a dad that was always curious about the world around him which in turn made me take on the habit of curiosity\u2026",
+                        "viewer_has_liked": false
+                    }
+                },
+                {
+                    "node": {
+                        "created_at": 1740448787,
+                        "did_report_as_spam": false,
+                        "edge_liked_by": {
+                            "count": 1
+                        },
+                        "edge_threaded_comments": {
+                            "count": 0,
+                            "edges": [],
+                            "page_info": {
+                                "end_cursor": null,
+                                "has_next_page": false
+                            }
+                        },
+                        "id": "18039461453160325",
+                        "is_restricted_pending": false,
+                        "owner": {
+                            "id": "37935443618",
+                            "is_verified": false,
+                            "profile_pic_url": "https://scontent-msp1-1.cdninstagram.com/v/t51.2885-19/104115180_1203121310070789_1869724225826072319_n.jpg?stp=dst-jpg_s150x150_tt6&_nc_ht=scontent-msp1-1.cdninstagram.com&_nc_cat=109&_nc_oc=Q6cZ2AHefq7b9KN5YnDIsmAYuOUmG3KvH9M8Lg8TxR5WG8efzICiVUqEkirhIKtsIrAiSrY&_nc_ohc=xoPIo8_VCEIQ7kNvgHZ7Ffb&_nc_gid=677db165c17743cca9b9173c014d2160&edm=ANTKIIoBAAAA&ccb=7-5&oh=00_AYBSizf7JWlhr9gK1KgMkU6Yu9OEW3JFFUs_XFWN7nmYLw&oe=67C3E9A2&_nc_sid=d885a2",
+                            "username": "thecitizenbody"
+                        },
+                        "text": "You have the free will to go to the gym or not go to the gym. Cause and effect of whether you go is irrelevant to the fact you had the free will to choose. And you did, to not go.",
+                        "viewer_has_liked": false
+                    }
+                },
+                {
+                    "node": {
+                        "created_at": 1740466008,
+                        "did_report_as_spam": false,
+                        "edge_liked_by": {
+                            "count": 0
+                        },
+                        "edge_threaded_comments": {
+                            "count": 0,
+                            "edges": [],
+                            "page_info": {
+                                "end_cursor": null,
+                                "has_next_page": false
+                            }
+                        },
+                        "id": "17871631038298901",
+                        "is_restricted_pending": false,
+                        "owner": {
+                            "id": "52674031327",
+                            "is_verified": false,
+                            "profile_pic_url": "https://scontent-msp1-1.cdninstagram.com/v/t51.2885-19/476723340_1595335317794523_8345969299545126625_n.jpg?stp=dst-jpg_s150x150_tt6&_nc_ht=scontent-msp1-1.cdninstagram.com&_nc_cat=103&_nc_oc=Q6cZ2AHefq7b9KN5YnDIsmAYuOUmG3KvH9M8Lg8TxR5WG8efzICiVUqEkirhIKtsIrAiSrY&_nc_ohc=mU4BvGU3hKYQ7kNvgFlkW4s&_nc_gid=677db165c17743cca9b9173c014d2160&edm=ANTKIIoBAAAA&ccb=7-5&oh=00_AYC51CjqYvpqNq5yobjakDThUF_ypY37DmAVFwu6Drequw&oe=67C3F36F&_nc_sid=d885a2",
+                            "username": "archeohistorian"
+                        },
+                        "text": "Made me think and laugh. Bravo\ud83d\udc4f",
+                        "viewer_has_liked": false
+                    }
+                },
+                {
+                    "node": {
+                        "created_at": 1740494704,
+                        "did_report_as_spam": false,
+                        "edge_liked_by": {
+                            "count": 0
+                        },
+                        "edge_threaded_comments": {
+                            "count": 0,
+                            "edges": [],
+                            "page_info": {
+                                "end_cursor": null,
+                                "has_next_page": false
+                            }
+                        },
+                        "id": "18067271836857614",
+                        "is_restricted_pending": false,
+                        "owner": {
+                            "id": "4298470726",
+                            "is_verified": false,
+                            "profile_pic_url": "https://scontent-msp1-1.cdninstagram.com/v/t51.2885-19/466002030_3350413908424048_2369675522249483002_n.jpg?stp=dst-jpg_s150x150_tt6&_nc_ht=scontent-msp1-1.cdninstagram.com&_nc_cat=104&_nc_oc=Q6cZ2AHefq7b9KN5YnDIsmAYuOUmG3KvH9M8Lg8TxR5WG8efzICiVUqEkirhIKtsIrAiSrY&_nc_ohc=nlAiXb1dzXcQ7kNvgF6OBsk&_nc_gid=677db165c17743cca9b9173c014d2160&edm=ANTKIIoBAAAA&ccb=7-5&oh=00_AYDRvEAq5pplTOy4u98GvJF5s3-Hf1488HXNmpvNMVMvuw&oe=67C3DA41&_nc_sid=d885a2",
+                            "username": "lsr0830"
+                        },
+                        "text": "What do you say to someone when they are \u201cconflicted\u201d on what appears to be a free will choice. I can\u2019t put my finger on why some things feel like core values and other things are not 100%.",
+                        "viewer_has_liked": false
+                    }
+                },
+                {
+                    "node": {
+                        "created_at": 1740499646,
+                        "did_report_as_spam": false,
+                        "edge_liked_by": {
+                            "count": 0
+                        },
+                        "edge_threaded_comments": {
+                            "count": 0,
+                            "edges": [],
+                            "page_info": {
+                                "end_cursor": null,
+                                "has_next_page": false
+                            }
+                        },
+                        "id": "18268811305283226",
+                        "is_restricted_pending": false,
+                        "owner": {
+                            "id": "8707432687",
+                            "is_verified": false,
+                            "profile_pic_url": "https://scontent-msp1-1.cdninstagram.com/v/t51.2885-19/480371336_1542699523085282_1889787187586888403_n.jpg?stp=dst-jpg_s150x150_tt6&_nc_ht=scontent-msp1-1.cdninstagram.com&_nc_cat=102&_nc_oc=Q6cZ2AHefq7b9KN5YnDIsmAYuOUmG3KvH9M8Lg8TxR5WG8efzICiVUqEkirhIKtsIrAiSrY&_nc_ohc=3rNY-FzEEFIQ7kNvgHNsL5w&_nc_gid=677db165c17743cca9b9173c014d2160&edm=ANTKIIoBAAAA&ccb=7-5&oh=00_AYCMN_FdxEnDe8SxTb5Q5AqygQ0N9ezkTG2cQvo3J1WP8A&oe=67C3E295&_nc_sid=d885a2",
+                            "username": "cutmedownagain"
+                        },
+                        "text": "Just make zucchini pancakes",
+                        "viewer_has_liked": false
+                    }
+                },
+                {
+                    "node": {
+                        "created_at": 1740490326,
+                        "did_report_as_spam": false,
+                        "edge_liked_by": {
+                            "count": 0
+                        },
+                        "edge_threaded_comments": {
+                            "count": 0,
+                            "edges": [],
+                            "page_info": {
+                                "end_cursor": null,
+                                "has_next_page": false
+                            }
+                        },
+                        "id": "18053480003121458",
+                        "is_restricted_pending": false,
+                        "owner": {
+                            "id": "7091640138",
+                            "is_verified": false,
+                            "profile_pic_url": "https://scontent-msp1-1.cdninstagram.com/v/t51.2885-19/475543858_985160646922082_6468942371873037244_n.jpg?stp=dst-jpg_s150x150_tt6&_nc_ht=scontent-msp1-1.cdninstagram.com&_nc_cat=102&_nc_oc=Q6cZ2AHefq7b9KN5YnDIsmAYuOUmG3KvH9M8Lg8TxR5WG8efzICiVUqEkirhIKtsIrAiSrY&_nc_ohc=dZl5zIw8DuwQ7kNvgH3GSza&_nc_gid=677db165c17743cca9b9173c014d2160&edm=ANTKIIoBAAAA&ccb=7-5&oh=00_AYByEMUEr5bAK0oaXV7gi-qr7ODrzQ9dPumvEWtPFhMMiw&oe=67C3E746&_nc_sid=d885a2",
+                            "username": "grayejoyceramsay"
+                        },
+                        "text": "\ud83d\udc4f\ud83d\udc4f\ud83d\udc4f",
+                        "viewer_has_liked": false
+                    }
+                },
+                {
+                    "node": {
+                        "created_at": 1740451725,
+                        "did_report_as_spam": false,
+                        "edge_liked_by": {
+                            "count": 0
+                        },
+                        "edge_threaded_comments": {
+                            "count": 0,
+                            "edges": [],
+                            "page_info": {
+                                "end_cursor": null,
+                                "has_next_page": false
+                            }
+                        },
+                        "id": "18086310139581070",
+                        "is_restricted_pending": false,
+                        "owner": {
+                            "id": "1580873487",
+                            "is_verified": false,
+                            "profile_pic_url": "https://scontent-msp1-1.cdninstagram.com/v/t51.2885-19/147508745_698145847534697_6129675114569362108_n.jpg?stp=dst-jpg_s150x150_tt6&_nc_ht=scontent-msp1-1.cdninstagram.com&_nc_cat=105&_nc_oc=Q6cZ2AHefq7b9KN5YnDIsmAYuOUmG3KvH9M8Lg8TxR5WG8efzICiVUqEkirhIKtsIrAiSrY&_nc_ohc=ZM0J35QJeUQQ7kNvgFLvXrH&_nc_gid=677db165c17743cca9b9173c014d2160&edm=ANTKIIoBAAAA&ccb=7-5&oh=00_AYAvlcJFh1WR746n9lsuCwsw3fm04mPNIUauS38J6Deujw&oe=67C3C64F&_nc_sid=d885a2",
+                            "username": "mountain.g.o.a.t"
+                        },
+                        "text": "Interesting philosophy. Not sure I track it all the way, but I don't have an opinion on free will one way or the other. It does seem that \"you\" have a very psychosomatic definition of \"self\" (what you're calling the \"meat suit\") I tend towards more Eastern/Chinese systems of philosophy, especially in terms of \"spirituality\".",
+                        "viewer_has_liked": false
+                    }
+                },
+                {
+                    "node": {
+                        "created_at": 1740495196,
+                        "did_report_as_spam": false,
+                        "edge_liked_by": {
+                            "count": 0
+                        },
+                        "edge_threaded_comments": {
+                            "count": 0,
+                            "edges": [],
+                            "page_info": {
+                                "end_cursor": null,
+                                "has_next_page": false
+                            }
+                        },
+                        "id": "18054650894318627",
+                        "is_restricted_pending": false,
+                        "owner": {
+                            "id": "4540897434",
+                            "is_verified": false,
+                            "profile_pic_url": "https://scontent-msp1-1.cdninstagram.com/v/t51.2885-19/327856112_5894216404000172_5766188020965535212_n.jpg?stp=dst-jpg_s150x150_tt6&_nc_ht=scontent-msp1-1.cdninstagram.com&_nc_cat=108&_nc_oc=Q6cZ2AHefq7b9KN5YnDIsmAYuOUmG3KvH9M8Lg8TxR5WG8efzICiVUqEkirhIKtsIrAiSrY&_nc_ohc=ebUaQpV33cAQ7kNvgF5djbC&_nc_gid=677db165c17743cca9b9173c014d2160&edm=ANTKIIoBAAAA&ccb=7-5&oh=00_AYC5Du3y8b-OOAlbPD5QlosoVhC39honkvaRQxZk46B0xg&oe=67C3CB46&_nc_sid=d885a2",
+                            "username": "ptymn_wolfe"
+                        },
+                        "text": "Yep exactly. \nTaking that gym thought another step...\nPeople dont have 'free will' to be an olympic level athlete.  Instead Olympians are born with random genetics which predetermine their ability to excel at specific events. \nA person cant simply use 'free will' to decide they're going to be a world class athlete.",
+                        "viewer_has_liked": false
+                    }
+                },
+                {
+                    "node": {
+                        "created_at": 1740449448,
+                        "did_report_as_spam": false,
+                        "edge_liked_by": {
+                            "count": 1
+                        },
+                        "edge_threaded_comments": {
+                            "count": 0,
+                            "edges": [],
+                            "page_info": {
+                                "end_cursor": null,
+                                "has_next_page": false
+                            }
+                        },
+                        "id": "18032444408290199",
+                        "is_restricted_pending": false,
+                        "owner": {
+                            "id": "409667620",
+                            "is_verified": false,
+                            "profile_pic_url": "https://scontent-msp1-1.cdninstagram.com/v/t51.2885-19/118282490_309391083671683_2342078615174675883_n.jpg?stp=dst-jpg_s150x150_tt6&_nc_ht=scontent-msp1-1.cdninstagram.com&_nc_cat=107&_nc_oc=Q6cZ2AHefq7b9KN5YnDIsmAYuOUmG3KvH9M8Lg8TxR5WG8efzICiVUqEkirhIKtsIrAiSrY&_nc_ohc=sng69vaSJOkQ7kNvgFQ3Uw4&_nc_gid=677db165c17743cca9b9173c014d2160&edm=ANTKIIoBAAAA&ccb=7-5&oh=00_AYB0mP3fsmow18YQe_3lprZa7ZL7SAUitSNFfHm-1VK5BA&oe=67C3C9A3&_nc_sid=d885a2",
+                            "username": "hlbianchi"
+                        },
+                        "text": "I love the power of this soft and deep wisdom \ud83e\ude77\ud83d\udd25\ud83d\udc8e",
+                        "viewer_has_liked": false
+                    }
+                },
+                {
+                    "node": {
+                        "created_at": 1740453941,
+                        "did_report_as_spam": false,
+                        "edge_liked_by": {
+                            "count": 0
+                        },
+                        "edge_threaded_comments": {
+                            "count": 0,
+                            "edges": [],
+                            "page_info": {
+                                "end_cursor": null,
+                                "has_next_page": false
+                            }
+                        },
+                        "id": "18073556701684197",
+                        "is_restricted_pending": false,
+                        "owner": {
+                            "id": "68302456667",
+                            "is_verified": false,
+                            "profile_pic_url": "https://instagram.fslz16-1.fna.fbcdn.net/v/t51.2885-19/464760996_1254146839119862_3605321457742435801_n.png?stp=dst-jpg_e0_s150x150_tt6&cb=8577c754-c2464923&_nc_ht=instagram.fslz16-1.fna.fbcdn.net&_nc_cat=1&_nc_oc=Q6cZ2AGD8CYOntygmiisHJl5zS5NjYVzk7EOpYyYUT2vKaZoI2f--j3Rc9H3Q4qB9-yTVSU&_nc_ohc=sgyMmiutwp8Q7kNvgEQGBw2&_nc_gid=00c7e481c2884c27a79287bc2afac261&edm=AL4D0a4BAAAA&ccb=7-5&ig_cache_key=YW5vbnltb3VzX3Byb2ZpbGVfcGlj.3-ccb7-5-cb8577c754-c2464923&oh=00_AYA8Rttt7kcXQ7w1bScjXg-eLUd29gw0PE_uIetQOvZ3ew&oe=67C3CAE8&_nc_sid=9e8221",
+                            "username": "nonsensestomper"
+                        },
+                        "text": "What are you even rambling about? If you don't have free will this video doesn't matter your opinion doesn't matter and how a person reacts to your video is also not within their power and so everything is meaningless. Shut the fuck up",
+                        "viewer_has_liked": false
+                    }
+                },
+                {
+                    "node": {
+                        "created_at": 1740450011,
+                        "did_report_as_spam": false,
+                        "edge_liked_by": {
+                            "count": 0
+                        },
+                        "edge_threaded_comments": {
+                            "count": 1,
+                            "edges": [
+                                {
+                                    "node": {
+                                        "created_at": 1740451945,
+                                        "did_report_as_spam": false,
+                                        "edge_liked_by": {
+                                            "count": 0
+                                        },
+                                        "id": "18047696960032816",
+                                        "is_restricted_pending": false,
+                                        "owner": {
+                                            "id": "47214798729",
+                                            "is_verified": false,
+                                            "profile_pic_url": "https://scontent-msp1-1.cdninstagram.com/v/t51.2885-19/434675159_804057931568616_5711137461509149914_n.jpg?stp=dst-jpg_s150x150_tt6&_nc_ht=scontent-msp1-1.cdninstagram.com&_nc_cat=100&_nc_oc=Q6cZ2AHefq7b9KN5YnDIsmAYuOUmG3KvH9M8Lg8TxR5WG8efzICiVUqEkirhIKtsIrAiSrY&_nc_ohc=krNvAYnBgesQ7kNvgF49xG5&_nc_gid=677db165c17743cca9b9173c014d2160&edm=ANTKIIoBAAAA&ccb=7-5&oh=00_AYBpU0pgu0XQuh3T6eE27RWORKPsHn86aLVNJ0qrEzSw0A&oe=67C3C53C&_nc_sid=d885a2",
+                                            "username": "nononsensespirituality"
+                                        },
+                                        "text": "@chrewtransformation I\u2019ve heard that explained as you can want what you will but you can\u2019t will what you will",
+                                        "viewer_has_liked": false
+                                    }
+                                }
+                            ],
+                            "page_info": {
+                                "end_cursor": null,
+                                "has_next_page": false
+                            }
+                        },
+                        "id": "17922812960933858",
+                        "is_restricted_pending": false,
+                        "owner": {
+                            "id": "55098762542",
+                            "is_verified": false,
+                            "profile_pic_url": "https://scontent-msp1-1.cdninstagram.com/v/t51.2885-19/396144589_351045063982541_9039880510836963669_n.jpg?stp=dst-jpg_s150x150_tt6&_nc_ht=scontent-msp1-1.cdninstagram.com&_nc_cat=105&_nc_oc=Q6cZ2AHefq7b9KN5YnDIsmAYuOUmG3KvH9M8Lg8TxR5WG8efzICiVUqEkirhIKtsIrAiSrY&_nc_ohc=KeOiXUPFU-UQ7kNvgFaHlqC&_nc_gid=677db165c17743cca9b9173c014d2160&edm=ANTKIIoBAAAA&ccb=7-5&oh=00_AYCNYxr-bMLc5FYl_Oqxbp-t2xX8hI5NV1aKtJRIYmlI0Q&oe=67C3E3CD&_nc_sid=d885a2",
+                            "username": "chrewtransformation"
+                        },
+                        "text": "@cosmicskeptic posted a video about freewill years ago that really helped me understand this concept. What he said that made it click was that we can't choose to not like something or to not want to do something we want to do or that we like.",
+                        "viewer_has_liked": false
+                    }
+                }
+            ],
+            "page_info": {
+                "end_cursor": "{\"bifilter_token\": \"KJkBAEEplGPKJ0AAxBeisAMrQACF39pryxZAAA515YcWMEAAjtIqO2dBQAAVO5hbJ34_AFbV5lZ7S0AAl1tjo2kQQACa7lEYY-dAAOKH6RO0rD8AI3wZ_ZskQADlIQjXzTVAAKn9RTysCkAAq2pustD0PwAsJrC6dq1BADKxi16LI0AAtcPZCU8jQAB1zJhZgkBAAPbS6L3tlD8AAA==\"}",
+                "has_next_page": true
+            }
+        },
+        "edge_media_to_sponsor_user": {
+            "edges": []
+        },
+        "edge_media_to_tagged_user": {
+            "edges": []
+        },
+        "edge_web_media_to_related_media": {
+            "edges": []
+        },
+        "encoding_status": null,
+        "fact_check_information": null,
+        "fact_check_overall_rating": null,
+        "gating_info": null,
+        "has_audio": true,
+        "has_ranked_comments": true,
+        "id": "3575458968588495741",
+        "iphone_struct": {
+            "are_remixes_crosspostable": true,
+            "avatar_stickers": [],
+            "boost_unavailable_identifier": null,
+            "boost_unavailable_reason": null,
+            "boost_unavailable_reason_v2": null,
+            "can_reply": false,
+            "can_see_insights_as_brand": false,
+            "can_view_more_preview_comments": false,
+            "can_viewer_reshare": true,
+            "can_viewer_save": true,
+            "caption": {
+                "bit_flags": 0,
+                "content_type": "comment",
+                "created_at": 1740448284,
+                "created_at_utc": 1740448284,
+                "did_report_as_spam": false,
+                "is_covered": false,
+                "is_ranked_comment": false,
+                "media_id": 3575458968588495741,
+                "pk": "18077804776643627",
+                "private_reply_status": 0,
+                "share_enabled": false,
+                "status": "Active",
+                "strong_id__": "18077804776643627",
+                "text": "#freewill #nononsensespirituality",
+                "type": 1,
+                "user": {
+                    "fbid_v2": 17841447241891849,
+                    "full_name": "Brittney Hartley",
+                    "id": "47214798729",
+                    "is_private": false,
+                    "is_unpublished": false,
+                    "is_verified": false,
+                    "pk": 47214798729,
+                    "pk_id": "47214798729",
+                    "profile_pic_id": "3338952776130091493_47214798729",
+                    "profile_pic_url": "https://scontent-msp1-1.cdninstagram.com/v/t51.2885-19/434675159_804057931568616_5711137461509149914_n.jpg?stp=dst-jpg_e0_s150x150_tt6&_nc_ht=scontent-msp1-1.cdninstagram.com&_nc_cat=100&_nc_oc=Q6cZ2AGeHwO7LMHWXwtW7VDLmPC2mW9np6Cv-5LXMiDl_WUJ-Qr1ParBmgtYOb7R-CQaiFY&_nc_ohc=krNvAYnBgesQ7kNvgF49xG5&_nc_gid=393a4b67238d45288db6013831bc3d15&edm=ALQROFkBAAAA&ccb=7-5&oh=00_AYCtVTBdNuLQqJ7qzsR9qmtQdCUkh-4Sq978xSqMSCbzag&oe=67C3C53C&_nc_sid=fc8dfb",
+                    "strong_id__": "47214798729",
+                    "username": "nononsensespirituality"
+                },
+                "user_id": 47214798729
+            },
+            "caption_is_edited": false,
+            "client_cache_key": "MzU3NTQ1ODk2ODU4ODQ5NTc0MQ==.3",
+            "clips_metadata": {
+                "achievements_info": {
+                    "num_earned_achievements": null,
+                    "show_achievements": false
+                },
+                "additional_audio_info": {
+                    "additional_audio_username": null,
+                    "audio_reattribution_info": {
+                        "should_allow_restore": false
+                    }
+                },
+                "asset_recommendation_info": null,
+                "audio_ranking_info": {
+                    "best_audio_cluster_id": "1252527826230516"
+                },
+                "audio_type": "original_sounds",
+                "branded_content_tag_info": {
+                    "can_add_tag": false
+                },
+                "breaking_content_info": null,
+                "breaking_creator_info": null,
+                "challenge_info": null,
+                "clips_creation_entry_point": "clips",
+                "content_appreciation_info": {
+                    "enabled": false,
+                    "entry_point_container": null
+                },
+                "contextual_highlight_info": null,
+                "cutout_sticker_info": [],
+                "disable_use_in_clips_client_cache": false,
+                "external_media_info": null,
+                "featured_label": null,
+                "is_fan_club_promo_video": false,
+                "is_public_chat_welcome_video": false,
+                "is_shared_to_fb": false,
+                "mashup_info": {
+                    "can_toggle_mashups_allowed": false,
+                    "formatted_mashups_count": null,
+                    "has_been_mashed_up": false,
+                    "has_nonmimicable_additional_audio": false,
+                    "is_creator_requesting_mashup": false,
+                    "is_light_weight_check": true,
+                    "is_light_weight_reuse_allowed_check": false,
+                    "is_pivot_page_available": false,
+                    "is_reuse_allowed": true,
+                    "mashup_type": null,
+                    "mashups_allowed": true,
+                    "non_privacy_filtered_mashups_media_count": 0,
+                    "original_media": null,
+                    "privacy_filtered_mashups_media_count": null
+                },
+                "merchandising_pill_info": null,
+                "music_canonical_id": "18448283377076009",
+                "music_info": null,
+                "nux_info": null,
+                "original_sound_info": {
+                    "allow_creator_to_rename": true,
+                    "attributed_custom_audio_asset_id": null,
+                    "audio_asset_id": 1158418419272199,
+                    "audio_asset_start_time_in_ms": null,
+                    "audio_filter_infos": [],
+                    "audio_parts": [],
+                    "audio_parts_by_filter": [],
+                    "can_remix_be_shared_to_fb": true,
+                    "can_remix_be_shared_to_fb_expansion": true,
+                    "consumption_info": {
+                        "display_media_id": null,
+                        "is_bookmarked": false,
+                        "is_trending_in_clips": false,
+                        "should_mute_audio_reason": "",
+                        "should_mute_audio_reason_type": null
+                    },
+                    "dash_manifest": "<?xml version=\"1.0\" encoding=\"UTF-8\"?>\n<MPD xmlns=\"urn:mpeg:dash:schema:mpd:2011\" xmlns:xsi=\"http://www.w3.org/2001/XMLSchema-instance\" xsi:schemaLocation=\"urn:mpeg:dash:schema:mpd:2011 DASH-MPD.xsd\" profiles=\"urn:mpeg:dash:profile:isoff-on-demand:2011\" minBufferTime=\"PT2S\" type=\"static\" mediaPresentationDuration=\"PT136.415787S\"><Period id=\"0\" duration=\"PT136.415787S\"><AdaptationSet id=\"0\" contentType=\"audio\" subsegmentStartsWithSAP=\"1\" subsegmentAlignment=\"true\"><Representation id=\"2449851615347479a\" bandwidth=\"53473\" codecs=\"mp4a.40.5\" mimeType=\"audio/mp4\" FBAvgBitrate=\"53473\" audioSamplingRate=\"44100\" FBDefaultQuality=\"1\"><AudioChannelConfiguration schemeIdUri=\"urn:mpeg:dash:23003:3:audio_channel_configuration:2011\" value=\"2\"/><BaseURL>https://scontent-msp1-1.cdninstagram.com/o1/v/t16/f2/m69/AQPZ234slTUFT10eByIp44lAkI6GBliq7FNM-2B5Fzwqy0KIROKUAlUPKp63Lbggg91hJJZ_fQ9LQPRvAVcIK6PW.mp4?strext=1&amp;_nc_cat=110&amp;_nc_sid=9ca052&amp;_nc_ht=scontent-msp1-1.cdninstagram.com&amp;_nc_ohc=QcuJgYwEekoQ7kNvgHyzV_C&amp;efg=eyJ2ZW5jb2RlX3RhZyI6ImRhc2hfbG5faGVhYWNfdmJyM19hdWRpbyIsInZpZGVvX2lkIjpudWxsLCJjbGllbnRfbmFtZSI6InVua25vd24iLCJvaWxfdXJsZ2VuX2FwcF9pZCI6MjU2MjgxMDQwNTU4LCJ1cmxnZW5fc291cmNlIjoid3d3In0%3D&amp;ccb=17-1&amp;_nc_zt=28&amp;oh=00_AYAWYIkrVV8uMZaERa6Jm6VD_KuWTLiOcicOskdJCupVEA&amp;oe=67C3E0D2</BaseURL><SegmentBase indexRange=\"824-1683\" timescale=\"44100\"><Initialization range=\"0-823\"/></SegmentBase></Representation></AdaptationSet></Period></MPD>\n",
+                    "duration_in_ms": 136416,
+                    "fb_downstream_use_xpost_metadata": {
+                        "downstream_use_xpost_deny_reason": "NONE"
+                    },
+                    "formatted_clips_media_count": null,
+                    "hide_remixing": false,
+                    "ig_artist": {
+                        "full_name": "Brittney Hartley",
+                        "id": "47214798729",
+                        "is_private": false,
+                        "is_verified": false,
+                        "pk": 47214798729,
+                        "pk_id": "47214798729",
+                        "profile_pic_id": "3338952776130091493_47214798729",
+                        "profile_pic_url": "https://scontent-msp1-1.cdninstagram.com/v/t51.2885-19/434675159_804057931568616_5711137461509149914_n.jpg?stp=dst-jpg_e0_s150x150_tt6&_nc_ht=scontent-msp1-1.cdninstagram.com&_nc_cat=100&_nc_oc=Q6cZ2AGeHwO7LMHWXwtW7VDLmPC2mW9np6Cv-5LXMiDl_WUJ-Qr1ParBmgtYOb7R-CQaiFY&_nc_ohc=krNvAYnBgesQ7kNvgF49xG5&_nc_gid=393a4b67238d45288db6013831bc3d15&edm=ALQROFkBAAAA&ccb=7-5&oh=00_AYCtVTBdNuLQqJ7qzsR9qmtQdCUkh-4Sq978xSqMSCbzag&oe=67C3C53C&_nc_sid=fc8dfb",
+                        "strong_id__": "47214798729",
+                        "username": "nononsensespirituality"
+                    },
+                    "is_audio_automatically_attributed": false,
+                    "is_eligible_for_audio_effects": true,
+                    "is_eligible_for_vinyl_sticker": true,
+                    "is_explicit": false,
+                    "is_original_audio_download_eligible": true,
+                    "is_reuse_disabled": false,
+                    "is_xpost_from_fb": false,
+                    "music_canonical_id": null,
+                    "oa_owner_is_music_artist": false,
+                    "original_audio_subtype": "default",
+                    "original_audio_title": "Original audio",
+                    "original_media_id": 3575458968588495741,
+                    "overlap_duration_in_ms": null,
+                    "previous_trend_rank": null,
+                    "progressive_download_url": "https://scontent-msp1-1.xx.fbcdn.net/o1/v/t2/f2/m69/AQPgou_hBUPYPqZxntg5MU7S9Dr08uKtRte9thqD88QTwOSq-4KpFuH97Pxa_s9V3CsRB-4jK80s9vgs3PQFD1H8.mp4?strext=1&_nc_cat=109&_nc_sid=8bf8fe&_nc_ht=scontent-msp1-1.xx.fbcdn.net&_nc_ohc=qWa565hkE-UQ7kNvgE-vPI7&efg=eyJ2ZW5jb2RlX3RhZyI6Inhwdl9wcm9ncmVzc2l2ZS5BVURJT19PTkxZLi5DMy4wLnByb2dyZXNzaXZlX2F1ZGlvIiwieHB2X2Fzc2V0X2lkIjo5NDk5ODY3NjcyNTcyNjUsInVybGdlbl9zb3VyY2UiOiJ3d3cifQ%3D%3D&ccb=17-1&_nc_zt=28&oh=00_AYCtULwLDIKC-3utNv9h5Zsrrsc1GKBTljelYIiB9PG2yw&oe=67C3D641",
+                    "should_mute_audio": false,
+                    "time_created": 1740448286,
+                    "trend_rank": null,
+                    "xpost_fb_creator_info": null
+                },
+                "originality_info": null,
+                "professional_clips_upsell_type": 0,
+                "reels_on_the_rise_info": null,
+                "reusable_text_attribute_string": null,
+                "reusable_text_info": null,
+                "shopping_info": null,
+                "show_achievements": false,
+                "show_tips": null,
+                "template_info": null,
+                "viewer_interaction_settings": null
+            },
+            "clips_tab_pinned_user_ids": [],
+            "coauthor_producer_can_see_organic_insights": false,
+            "coauthor_producers": [],
+            "code": "DGelP0Ds6t9",
+            "comment_count": 30,
+            "comment_inform_treatment": {
+                "action_type": null,
+                "should_have_inform_treatment": false,
+                "text": "",
+                "url": null
+            },
+            "comment_threading_enabled": true,
+            "commerciality_status": "not_commercial",
+            "creator_viewer_insights": [],
+            "crosspost_metadata": {
+                "fb_downstream_use_xpost_metadata": {
+                    "downstream_use_xpost_deny_reason": "NONE"
+                }
+            },
+            "deleted_reason": 0,
+            "device_timestamp": 1740447878774682,
+            "enable_media_notes_production": false,
+            "explore_hide_comments": false,
+            "facepile_top_likers": [],
+            "fb_aggregated_comment_count": 0,
+            "fb_aggregated_like_count": 0,
+            "fb_user_tags": {
+                "in": []
+            },
+            "fbid": 18077804593643627,
+            "featured_products": [],
+            "filter_type": 0,
+            "gen_ai_detection_method": {
+                "detection_method": "NONE"
+            },
+            "has_audio": true,
+            "has_delayed_metadata": false,
+            "has_high_risk_gen_ai_inform_treatment": false,
+            "has_liked": false,
+            "has_more_comments": true,
+            "has_privately_liked": false,
+            "has_shared_to_fb": 0,
+            "has_views_fetching": true,
+            "hide_view_all_comment_entrypoint": false,
+            "id": "3575458968588495741_47214798729",
+            "ig_media_sharing_disabled": false,
+            "ig_play_count": 4117,
+            "igbio_product": null,
+            "image_versions2": {
+                "additional_candidates": {
+                    "first_frame": {
+                        "height": 1136,
+                        "scans_profile": "e15",
+                        "url": "https://scontent-msp1-1.cdninstagram.com/v/t51.2885-15/481691791_3586282398336452_3954734937495033698_n.jpg?stp=dst-jpg_e15_tt6&efg=eyJ2ZW5jb2RlX3RhZyI6ImltYWdlX3VybGdlbi42NDB4MTEzNi5zZHIuZjcxODc4LmFkZGl0aW9uYWxfY292ZXJfZnJhbWUifQ&_nc_ht=scontent-msp1-1.cdninstagram.com&_nc_cat=108&_nc_oc=Q6cZ2AGeHwO7LMHWXwtW7VDLmPC2mW9np6Cv-5LXMiDl_WUJ-Qr1ParBmgtYOb7R-CQaiFY&_nc_ohc=9gwW0t7f1J8Q7kNvgFOb-km&_nc_gid=393a4b67238d45288db6013831bc3d15&edm=ALQROFkBAAAA&ccb=7-5&ig_cache_key=acf.MzU3NTQ1ODk2ODU4ODQ5NTc0MQ%3D%3D.3-ccb7-5&oh=00_AYAm0ziPwP9BbW-PnLU6esN9B6ZEUz4etKoQVQgxVaKLhQ&oe=67C3F480&_nc_sid=fc8dfb",
+                        "width": 640
+                    },
+                    "igtv_first_frame": {
+                        "height": 1136,
+                        "scans_profile": "e15",
+                        "url": "https://scontent-msp1-1.cdninstagram.com/v/t51.2885-15/481691791_3586282398336452_3954734937495033698_n.jpg?stp=dst-jpg_e15_tt6&efg=eyJ2ZW5jb2RlX3RhZyI6ImltYWdlX3VybGdlbi42NDB4MTEzNi5zZHIuZjcxODc4LmFkZGl0aW9uYWxfY292ZXJfZnJhbWUifQ&_nc_ht=scontent-msp1-1.cdninstagram.com&_nc_cat=108&_nc_oc=Q6cZ2AGeHwO7LMHWXwtW7VDLmPC2mW9np6Cv-5LXMiDl_WUJ-Qr1ParBmgtYOb7R-CQaiFY&_nc_ohc=9gwW0t7f1J8Q7kNvgFOb-km&_nc_gid=393a4b67238d45288db6013831bc3d15&edm=ALQROFkBAAAA&ccb=7-5&ig_cache_key=acf.MzU3NTQ1ODk2ODU4ODQ5NTc0MQ%3D%3D.3-ccb7-5&oh=00_AYAm0ziPwP9BbW-PnLU6esN9B6ZEUz4etKoQVQgxVaKLhQ&oe=67C3F480&_nc_sid=fc8dfb",
+                        "width": 640
+                    },
+                    "smart_frame": null
+                },
+                "candidates": [
+                    {
+                        "height": 1136,
+                        "scans_profile": "e15",
+                        "url": "https://scontent-msp1-1.cdninstagram.com/v/t51.2885-15/481608162_1301556211063494_2169583295024506175_n.jpg?stp=dst-jpg_e15_tt6&efg=eyJ2ZW5jb2RlX3RhZyI6ImltYWdlX3VybGdlbi42NDB4MTEzNi5zZHIuZjcxODc4Lm5mcmFtZV9jb3Zlcl9mcmFtZSJ9&_nc_ht=scontent-msp1-1.cdninstagram.com&_nc_cat=106&_nc_oc=Q6cZ2AGeHwO7LMHWXwtW7VDLmPC2mW9np6Cv-5LXMiDl_WUJ-Qr1ParBmgtYOb7R-CQaiFY&_nc_ohc=XS7UnCU7fkIQ7kNvgH5Qn56&_nc_gid=393a4b67238d45288db6013831bc3d15&edm=ALQROFkBAAAA&ccb=7-5&ig_cache_key=MzU3NTQ1ODk2ODU4ODQ5NTc0MQ%3D%3D.3-ccb7-5&oh=00_AYDD8BnqjR9O8jbCGiz6Hyl_NFd1EHeM89y9-5aJCwaj7A&oe=67C3D8A6&_nc_sid=fc8dfb",
+                        "width": 640
+                    }
+                ],
+                "scrubber_spritesheet_info_candidates": {
+                    "default": {
+                        "file_size_kb": 432,
+                        "max_thumbnails_per_sprite": 105,
+                        "rendered_width": 96,
+                        "sprite_height": 1246,
+                        "sprite_urls": [
+                            "https://scontent-msp1-1.cdninstagram.com/v/t51.2885-15/482130197_1145933127000216_5128176243356062825_n.jpg?_nc_ht=scontent-msp1-1.cdninstagram.com&_nc_cat=100&_nc_oc=Q6cZ2AGeHwO7LMHWXwtW7VDLmPC2mW9np6Cv-5LXMiDl_WUJ-Qr1ParBmgtYOb7R-CQaiFY&_nc_ohc=RJ16xNI7Oo4Q7kNvgHLjGcq&_nc_gid=393a4b67238d45288db6013831bc3d15&edm=ALQROFkBAAAA&ccb=7-5&oh=00_AYDN6zVjuVbcbhfVlwqD7t5mj2E97AQ6G8hzd4-iqB-UJg&oe=67C3D9A3&_nc_sid=fc8dfb"
+                        ],
+                        "sprite_width": 1500,
+                        "thumbnail_duration": 1.299047619047619,
+                        "thumbnail_height": 178,
+                        "thumbnail_width": 100,
+                        "thumbnails_per_row": 15,
+                        "total_thumbnail_num_per_sprite": 105,
+                        "video_length": 136.4
+                    }
+                }
+            },
+            "inline_composer_display_condition": "impression_trigger",
+            "inline_composer_imp_trigger_time": 5,
+            "integrity_review_decision": "pending",
+            "invited_coauthor_producers": [],
+            "is_artist_pick": false,
+            "is_comments_gif_composer_enabled": true,
+            "is_cutout_sticker_allowed": false,
+            "is_dash_eligible": 1,
+            "is_eligible_content_for_post_roll_ad": false,
+            "is_eligible_for_media_note_recs_nux": false,
+            "is_eligible_for_meta_ai_share": false,
+            "is_in_profile_grid": false,
+            "is_open_to_public_submission": false,
+            "is_organic_product_tagging_eligible": false,
+            "is_paid_partnership": false,
+            "is_post_live_clips_media": false,
+            "is_quiet_post": false,
+            "is_reshare_of_text_post_app_media_in_ig": false,
+            "is_reuse_allowed": true,
+            "is_social_ufi_disabled": false,
+            "is_tagged_media_shared_to_viewer_profile_grid": false,
+            "is_third_party_downloads_eligible": true,
+            "is_unified_video": false,
+            "is_visual_reply_commenter_notice_enabled": true,
+            "like_and_view_counts_disabled": false,
+            "like_count": 188,
+            "max_num_visible_preview_comments": 2,
+            "media_cropping_info": {
+                "square_crop": {
+                    "crop_bottom": 0.0,
+                    "crop_left": 0.0,
+                    "crop_right": 0.0,
+                    "crop_top": 0.0
+                }
+            },
+            "media_notes": {
+                "items": []
+            },
+            "media_type": 2,
+            "meta_ai_suggested_prompts": [],
+            "mezql_token": "",
+            "music_metadata": null,
+            "number_of_qualities": 4,
+            "open_carousel_show_follow_button": false,
+            "organic_tracking_token": "eyJ2ZXJzaW9uIjo1LCJwYXlsb2FkIjp7ImlzX2FuYWx5dGljc190cmFja2VkIjp0cnVlLCJ1dWlkIjoiMzkzYTRiNjcyMzhkNDUyODhkYjYwMTM4MzFiYzNkMTUzNTc1NDU4OTY4NTg4NDk1NzQxIiwic2VydmVyX3Rva2VuIjoiMTc0MDUwNjY4NjQ1NXwzNTc1NDU4OTY4NTg4NDk1NzQxfDMzNTM0NzA2fDU5YjE3YThhNjdlNmI0ODdiODZiNzkwMzUxOTkyY2U3NWJiNGZjN2ZmMTM0MWVlNzk0NGExNDc1NjUxZWU2NjMifSwic2lnbmF0dXJlIjoiIn0=",
+            "original_height": 1136,
+            "original_media_has_visual_reply_media": false,
+            "original_width": 640,
+            "pk": 3575458968588495741,
+            "play_count": 4117,
+            "preview_comments": [],
+            "product_suggestions": [],
+            "product_type": "clips",
+            "profile_grid_control_enabled": false,
+            "reshare_count": 17,
+            "share_count_disabled": false,
+            "sharing_friction_info": {
+                "bloks_app_url": null,
+                "sharing_friction_payload": null,
+                "should_have_sharing_friction": false
+            },
+            "shop_routing_user_id": null,
+            "should_request_ads": false,
+            "should_show_author_pog_for_tagged_media_shared_to_profile_grid": false,
+            "strong_id__": "3575458968588495741_47214798729",
+            "subscribe_cta_visible": false,
+            "taken_at": 1740448283,
+            "timeline_pinned_user_ids": [],
+            "top_likers": [],
+            "user": {
+                "account_badges": [],
+                "account_type": 1,
+                "can_see_quiet_post_attribution": true,
+                "fan_club_info": {
+                    "autosave_to_exclusive_highlight": null,
+                    "connected_member_count": null,
+                    "fan_club_id": null,
+                    "fan_club_name": null,
+                    "fan_consideration_page_revamp_eligiblity": null,
+                    "has_created_ssc": null,
+                    "has_enough_subscribers_for_ssc": null,
+                    "is_fan_club_gifting_eligible": null,
+                    "is_fan_club_referral_eligible": null,
+                    "is_free_trial_eligible": null,
+                    "largest_public_bc_id": null,
+                    "subscriber_count": null
+                },
+                "fbid_v2": 17841447241891849,
+                "feed_post_reshare_disabled": false,
+                "friendship_status": {
+                    "following": true,
+                    "is_bestie": false,
+                    "is_feed_favorite": false,
+                    "is_restricted": false
+                },
+                "full_name": "Brittney Hartley",
+                "has_anonymous_profile_picture": false,
+                "id": "47214798729",
+                "is_active_on_text_post_app": false,
+                "is_favorite": false,
+                "is_private": false,
+                "is_unpublished": false,
+                "is_verified": false,
+                "latest_reel_media": 1740505151,
+                "pk": 47214798729,
+                "pk_id": "47214798729",
+                "profile_pic_id": "3338952776130091493_47214798729",
+                "profile_pic_url": "https://scontent-msp1-1.cdninstagram.com/v/t51.2885-19/434675159_804057931568616_5711137461509149914_n.jpg?stp=dst-jpg_e0_s150x150_tt6&_nc_ht=scontent-msp1-1.cdninstagram.com&_nc_cat=100&_nc_oc=Q6cZ2AGeHwO7LMHWXwtW7VDLmPC2mW9np6Cv-5LXMiDl_WUJ-Qr1ParBmgtYOb7R-CQaiFY&_nc_ohc=krNvAYnBgesQ7kNvgF49xG5&_nc_gid=393a4b67238d45288db6013831bc3d15&edm=ALQROFkBAAAA&ccb=7-5&oh=00_AYCtVTBdNuLQqJ7qzsR9qmtQdCUkh-4Sq978xSqMSCbzag&oe=67C3C53C&_nc_sid=fc8dfb",
+                "show_account_transparency_details": true,
+                "strong_id__": "47214798729",
+                "text_post_app_is_private": true,
+                "third_party_downloads_enabled": 1,
+                "transparency_product_enabled": false,
+                "username": "nononsensespirituality"
+            },
+            "video_codec": "vp09.00.31.08.00.01.01.01.00",
+            "video_dash_manifest": "<?xml version=\"1.0\" encoding=\"UTF-8\"?>\n<MPD xmlns=\"urn:mpeg:dash:schema:mpd:2011\" xmlns:xsi=\"http://www.w3.org/2001/XMLSchema-instance\" xsi:schemaLocation=\"urn:mpeg:dash:schema:mpd:2011 DASH-MPD.xsd\" profiles=\"urn:mpeg:dash:profile:isoff-on-demand:2011\" minBufferTime=\"PT2S\" type=\"static\" mediaPresentationDuration=\"PT136.415787S\" FBManifestIdentifier=\"FgAYEnIyZXZldnA5LXIxZ2VuMnZwORlW8PqJ9dL7oQOUoK2n6fuDBPjs3JvRoZME7LvOgO+ErgjMyPHViu6XICIYI2Rhc2hfdW5pZmllZF9wcmVtaXVtX3hoZV92YnIyX2F1ZGlvAA==\"><Period id=\"0\" duration=\"PT136.415787S\"><AdaptationSet id=\"0\" contentType=\"video\" subsegmentAlignment=\"true\" par=\"9:16\" FBUnifiedUploadResolutionMos=\"360:87.8\"><Representation id=\"2353038501727990vd\" bandwidth=\"766127\" codecs=\"vp09.00.31.08.00.01.01.01.00\" mimeType=\"video/mp4\" sar=\"1:1\" FBEncodingTag=\"dash_r2evevp9-r1gen2vp9_q60\" FBContentLength=\"13062479\" FBPlaybackResolutionMos=\"0:100,360:62.7,480:51.3,720:36.2,1080:26.3\" FBPlaybackResolutionMosConfidenceLevel=\"high\" FBPlaybackResolutionCsvqm=\"0:100,360:94.4,480:92.6,720:87.3,1080:78.5\" FBAbrPolicyTags=\"\" width=\"720\" height=\"1280\" frameRate=\"15360/512\" FBDefaultQuality=\"1\" FBQualityClass=\"hd\" FBQualityLabel=\"540p\"><BaseURL>https://scontent-msp1-1.cdninstagram.com/o1/v/t2/f2/m367/AQOlHVeqytChgUymvRZ0C2Ee-tB5qOhnwE-ZVXkqI-WYCDyvtT-Abj2C4DXjCOhxctyU1-OF5BEbKrOVk0JWK_vXcvH695te44s8t-A.mp4?_nc_cat=104&amp;_nc_sid=9ca052&amp;_nc_ht=scontent-msp1-1.cdninstagram.com&amp;_nc_ohc=oirpFOUlAa4Q7kNvgGjkYmt&amp;efg=eyJ2ZW5jb2RlX3RhZyI6ImlnLXhwdmRzLmNsaXBzLmMyLUMzLmRhc2hfcjJldmV2cDktcjFnZW4ydnA5X3E2MCIsInZpZGVvX2lkIjpudWxsLCJjbGllbnRfbmFtZSI6ImlnIiwib2lsX3VybGdlbl9hcHBfaWQiOjEyNDAyNDU3NDI4NzQxNCwidXJsZ2VuX3NvdXJjZSI6Ind3dyJ9&amp;ccb=17-1&amp;_nc_zt=28&amp;oh=00_AYDsl0IUavkxIHHPnABIv7DpAhjODjwIQYqDtpEi1yn26w&amp;oe=67C3E2C9</BaseURL><SegmentBase indexRange=\"818-1185\" timescale=\"15360\" FBMinimumPrefetchRange=\"1186-43202\" FBPartialPrefetchDuration=\"2500\" FBPartialPrefetchRange=\"1186-261361\" FBFirstSegmentRange=\"1186-421092\" FBFirstSegmentDuration=\"5000\" FBSecondSegmentRange=\"421093-890356\" FBPrefetchSegmentRange=\"1186-421092\" FBPrefetchSegmentDuration=\"5000\"><Initialization range=\"0-817\"/></SegmentBase></Representation><Representation id=\"9059668007465510v\" bandwidth=\"1784196\" codecs=\"vp09.00.31.08.00.01.01.01.00\" mimeType=\"video/mp4\" sar=\"1:1\" FBEncodingTag=\"dash_r2evevp9-r1gen2vp9_q70\" FBContentLength=\"30420552\" FBPlaybackResolutionMos=\"0:100,360:75.1,480:66.5,720:53,1080:35.8\" FBPlaybackResolutionMosConfidenceLevel=\"high\" FBPlaybackResolutionCsvqm=\"0:100,360:97.6,480:96.8,720:93.4,1080:86.2\" FBAbrPolicyTags=\"\" width=\"720\" height=\"1280\" frameRate=\"15360/512\" FBQualityClass=\"hd\" FBQualityLabel=\"640p\"><BaseURL>https://scontent-msp1-1.cdninstagram.com/o1/v/t2/f2/m367/AQMmtJdJD7tkTu8V36WeyQzdk8HeMteMMjJjPRdVOTCykMe66fIcQjTXXG88UK4_NcUrUMgz9L-2I42VSZgBmPA91ikSAETT0FeTBus.mp4?_nc_cat=100&amp;_nc_sid=9ca052&amp;_nc_ht=scontent-msp1-1.cdninstagram.com&amp;_nc_ohc=pyjvp9pYsYsQ7kNvgGshtaH&amp;efg=eyJ2ZW5jb2RlX3RhZyI6ImlnLXhwdmRzLmNsaXBzLmMyLUMzLmRhc2hfcjJldmV2cDktcjFnZW4ydnA5X3E3MCIsInZpZGVvX2lkIjpudWxsLCJjbGllbnRfbmFtZSI6ImlnIiwib2lsX3VybGdlbl9hcHBfaWQiOjEyNDAyNDU3NDI4NzQxNCwidXJsZ2VuX3NvdXJjZSI6Ind3dyJ9&amp;ccb=17-1&amp;_nc_zt=28&amp;oh=00_AYC1HaZXhDXaN1q1TAmQrH9sFgcmJ0G-6BltVud40rRPyA&amp;oe=67C3D361</BaseURL><SegmentBase indexRange=\"818-1185\" timescale=\"15360\" FBMinimumPrefetchRange=\"1186-76675\" FBPartialPrefetchDuration=\"2500\" FBPartialPrefetchRange=\"1186-576986\" FBFirstSegmentRange=\"1186-993630\" FBFirstSegmentDuration=\"5000\" FBSecondSegmentRange=\"993631-2091317\" FBPrefetchSegmentRange=\"1186-993630\" FBPrefetchSegmentDuration=\"5000\"><Initialization range=\"0-817\"/></SegmentBase></Representation><Representation id=\"919116950093496v\" bandwidth=\"2630690\" codecs=\"vp09.00.31.08.00.01.01.01.00\" mimeType=\"video/mp4\" sar=\"1:1\" FBEncodingTag=\"dash_r2evevp9-r1gen2vp9_q80\" FBContentLength=\"44853279\" FBPlaybackResolutionMos=\"0:100,360:79.6,480:72.3,720:60.2,1080:41.1\" FBPlaybackResolutionMosConfidenceLevel=\"high\" FBPlaybackResolutionCsvqm=\"0:100,360:98.76,480:98.48,720:96.3,1080:90.2\" FBAbrPolicyTags=\"\" width=\"720\" height=\"1280\" frameRate=\"15360/512\" FBQualityClass=\"hd\" FBQualityLabel=\"720p\"><BaseURL>https://scontent-msp1-1.cdninstagram.com/o1/v/t2/f2/m367/AQMvDfgRnIqFfPZSWIQCr_9onVKt0K0OYgbEJx6krtjV3ObQZIAXSrQsBKVLckdrSo3Tfcmxnt8I3Xv2egq2yXS6pbSR0nVoyBrjLSg.mp4?_nc_cat=104&amp;_nc_sid=9ca052&amp;_nc_ht=scontent-msp1-1.cdninstagram.com&amp;_nc_ohc=4-_xmHzl96cQ7kNvgFnaugG&amp;efg=eyJ2ZW5jb2RlX3RhZyI6ImlnLXhwdmRzLmNsaXBzLmMyLUMzLmRhc2hfcjJldmV2cDktcjFnZW4ydnA5X3E4MCIsInZpZGVvX2lkIjpudWxsLCJjbGllbnRfbmFtZSI6ImlnIiwib2lsX3VybGdlbl9hcHBfaWQiOjEyNDAyNDU3NDI4NzQxNCwidXJsZ2VuX3NvdXJjZSI6Ind3dyJ9&amp;ccb=17-1&amp;_nc_zt=28&amp;oh=00_AYDmfXlSlJmyqZgJprPJB-fefnLXaf0gz03dNKG_JsGbJQ&amp;oe=67C3E54D</BaseURL><SegmentBase indexRange=\"818-1185\" timescale=\"15360\" FBMinimumPrefetchRange=\"1186-95599\" FBPartialPrefetchDuration=\"2500\" FBPartialPrefetchRange=\"1186-869465\" FBFirstSegmentRange=\"1186-1466583\" FBFirstSegmentDuration=\"5000\" FBSecondSegmentRange=\"1466584-3084916\" FBPrefetchSegmentRange=\"1186-1466583\" FBPrefetchSegmentDuration=\"5000\"><Initialization range=\"0-817\"/></SegmentBase></Representation><Representation id=\"1168259185089340v\" bandwidth=\"4668396\" codecs=\"vp09.00.40.08.00.01.01.01.00\" mimeType=\"video/mp4\" sar=\"1:1\" FBEncodingTag=\"dash_r2evevp9-r1gen2vp9_q90\" FBContentLength=\"79596153\" FBPlaybackResolutionMos=\"0:100,360:84.7,480:77.8,720:70.5,1080:63.6\" FBPlaybackResolutionMosConfidenceLevel=\"high\" FBPlaybackResolutionCsvqm=\"0:100,360:98.98,480:98.67,720:97.2,1080:95\" FBAbrPolicyTags=\"\" width=\"1080\" height=\"1920\" frameRate=\"15360/512\" FBQualityClass=\"hd\" FBQualityLabel=\"1080p\"><BaseURL>https://scontent-msp1-1.cdninstagram.com/o1/v/t2/f2/m367/AQMJH0O9WteqgPMUdu9mB1potiqoZy2ViC1PA2LkBx_oWqG-3uJnOsV4hDRvfyQV8mIzdCf6xgSn_8g0ZlI48VpdOnDavsz-LooBUlk.mp4?_nc_cat=108&amp;_nc_sid=9ca052&amp;_nc_ht=scontent-msp1-1.cdninstagram.com&amp;_nc_ohc=ymM9MJXYSuMQ7kNvgHqMBdO&amp;efg=eyJ2ZW5jb2RlX3RhZyI6ImlnLXhwdmRzLmNsaXBzLmMyLUMzLmRhc2hfcjJldmV2cDktcjFnZW4ydnA5X3E5MCIsInZpZGVvX2lkIjpudWxsLCJjbGllbnRfbmFtZSI6ImlnIiwib2lsX3VybGdlbl9hcHBfaWQiOjEyNDAyNDU3NDI4NzQxNCwidXJsZ2VuX3NvdXJjZSI6Ind3dyJ9&amp;ccb=17-1&amp;_nc_zt=28&amp;oh=00_AYDeklIYA7Uhc9czsOskwweRMiqxzSW12nYe44RVrr6BNg&amp;oe=67C3EEE9</BaseURL><SegmentBase indexRange=\"818-1185\" timescale=\"15360\" FBMinimumPrefetchRange=\"1186-167314\" FBPartialPrefetchDuration=\"2500\" FBPartialPrefetchRange=\"1186-1561981\" FBFirstSegmentRange=\"1186-2680253\" FBFirstSegmentDuration=\"5000\" FBSecondSegmentRange=\"2680254-5610741\" FBPrefetchSegmentRange=\"1186-2680253\" FBPrefetchSegmentDuration=\"5000\"><Initialization range=\"0-817\"/></SegmentBase></Representation></AdaptationSet><AdaptationSet id=\"1\" contentType=\"audio\" subsegmentStartsWithSAP=\"1\" subsegmentAlignment=\"true\"><Representation id=\"1134624234645514ad\" bandwidth=\"79271\" codecs=\"mp4a.40.42\" mimeType=\"audio/mp4\" FBAvgBitrate=\"79271\" audioSamplingRate=\"44100\" FBEncodingTag=\"dash_audio_xheaac_vbr2_abr_lrac_frag_5_audio\" FBContentLength=\"1352926\" FBPaqMos=\"88.14\" FBAbrPolicyTags=\"\" FBDefaultQuality=\"1\"><AudioChannelConfiguration schemeIdUri=\"urn:mpeg:dash:23003:3:audio_channel_configuration:2011\" value=\"2\"/><BaseURL>https://scontent-msp1-1.cdninstagram.com/o1/v/t16/f2/m69/AQOTyn5qDkrpTVcw_2B7kyyXbIk11kLnTQfRIOdZKI4_emg8C4n0aMqegmGbwhn_FjxJeDsfVkb0bJI9Wi2fgnoH.mp4?strext=1&amp;_nc_cat=110&amp;_nc_sid=9ca052&amp;_nc_ht=scontent-msp1-1.cdninstagram.com&amp;_nc_ohc=HpnjjcIUMMAQ7kNvgFF11Iq&amp;efg=eyJ2ZW5jb2RlX3RhZyI6ImlnLXhwdmRzLmNsaXBzLmMyLUMzLmRhc2hfYXVkaW9feGhlYWFjX3ZicjJfYWJyX2xyYWNfZnJhZ181X2F1ZGlvIiwidmlkZW9faWQiOm51bGwsImNsaWVudF9uYW1lIjoiaWciLCJvaWxfdXJsZ2VuX2FwcF9pZCI6MTI0MDI0NTc0Mjg3NDE0LCJ1cmxnZW5fc291cmNlIjoid3d3In0%3D&amp;ccb=17-1&amp;_nc_zt=28&amp;oh=00_AYAh_43wdsYcCn3XjerS3KU-Bi2QQyX7yNhBgST-hUD8OA&amp;oe=67C3C04A</BaseURL><SegmentBase indexRange=\"838-1205\" timescale=\"44100\" FBMinimumPrefetchRange=\"1206-2083\" FBPartialPrefetchDuration=\"2500\" FBPartialPrefetchRange=\"1206-25319\" FBFirstSegmentRange=\"1206-47050\" FBFirstSegmentDuration=\"4922\" FBSecondSegmentRange=\"47051-94945\" FBPrefetchSegmentRange=\"1206-47050\" FBPrefetchSegmentDuration=\"4922\"><Initialization range=\"0-837\"/></SegmentBase></Representation></AdaptationSet></Period></MPD>\n",
+            "video_duration": 136.4,
+            "video_sticker_locales": [],
+            "video_subtitles_confidence": 0.9614444971084595,
+            "video_subtitles_locale": "en_US",
+            "video_subtitles_uri": "https://scontent-msp1-1.cdninstagram.com/v/t39.36743-6/480939924_1355349745464089_4263370367252514949_n.srt?_nc_ht=scontent-msp1-1.cdninstagram.com&_nc_cat=105&_nc_oc=Q6cZ2AGeHwO7LMHWXwtW7VDLmPC2mW9np6Cv-5LXMiDl_WUJ-Qr1ParBmgtYOb7R-CQaiFY&_nc_ohc=vN5E9_pc4IQQ7kNvgFUjaxf&_nc_gid=393a4b67238d45288db6013831bc3d15&edm=ALQROFkAAAAA&ccb=7-5&oh=00_AYAQQW---5zaiMUCEkwP2h_umY7Pwoj6iOTClIMnXX6tYQ&oe=67C3D2A5&_nc_sid=fc8dfb",
+            "video_versions": [
+                {
+                    "bandwidth": 2690403,
+                    "height": 1280,
+                    "id": "1142997994218564v",
+                    "type": 101,
+                    "url": "https://scontent-msp1-1.cdninstagram.com/o1/v/t16/f2/m86/AQNclJPU6L3QRnEOFHosOfcbQLHy7-MpvA8HA2qOwG7DeuGbbt57g0aS5HXTFvbQ--AtYReW0OeDl7EAoUemRr-9lIhA4plbc-nGQyo.mp4?efg=eyJ4cHZfYXNzZXRfaWQiOjk0OTk4Njc2NzI1NzI2NSwidmVuY29kZV90YWciOiJ4cHZfcHJvZ3Jlc3NpdmUuSU5TVEFHUkFNLkNMSVBTLkMzLjcyMC5kYXNoX2Jhc2VsaW5lXzFfdjEifQ&_nc_ht=scontent-msp1-1.cdninstagram.com&_nc_cat=108&vs=3b7705e11f30fb2a&_nc_vs=HBksFQIYUmlnX3hwdl9yZWVsc19wZXJtYW5lbnRfc3JfcHJvZC8xQzRDQTM4MzEyOEU3MzBFQjEwNkRBQkM3RDU1QjI5N192aWRlb19kYXNoaW5pdC5tcDQVAALIAQAVAhg6cGFzc3Rocm91Z2hfZXZlcnN0b3JlL0dKRHhyUnpiRmNmMTh1NENBT0txeXZtdjFLd25icV9FQUFBRhUCAsgBACgAGAAbAogHdXNlX29pbAExEnByb2dyZXNzaXZlX3JlY2lwZQExFQAAJuL67fzAgLADFQIoAkMzLBdAYQzMzMzMzRgSZGFzaF9iYXNlbGluZV8xX3YxEQB1_gcA&ccb=9-4&oh=00_AYBWP_aJ0a36C7t9EulrqCJJKjlzAIPjCgBt5-O2LVvpPQ&oe=67BFCFD8&_nc_sid=1d576d",
+                    "width": 720
+                },
+                {
+                    "bandwidth": 2690403,
+                    "height": 1280,
+                    "id": "1142997994218564v",
+                    "type": 102,
+                    "url": "https://scontent-msp1-1.cdninstagram.com/o1/v/t16/f2/m86/AQNclJPU6L3QRnEOFHosOfcbQLHy7-MpvA8HA2qOwG7DeuGbbt57g0aS5HXTFvbQ--AtYReW0OeDl7EAoUemRr-9lIhA4plbc-nGQyo.mp4?efg=eyJ4cHZfYXNzZXRfaWQiOjk0OTk4Njc2NzI1NzI2NSwidmVuY29kZV90YWciOiJ4cHZfcHJvZ3Jlc3NpdmUuSU5TVEFHUkFNLkNMSVBTLkMzLjcyMC5kYXNoX2Jhc2VsaW5lXzFfdjEifQ&_nc_ht=scontent-msp1-1.cdninstagram.com&_nc_cat=108&vs=3b7705e11f30fb2a&_nc_vs=HBksFQIYUmlnX3hwdl9yZWVsc19wZXJtYW5lbnRfc3JfcHJvZC8xQzRDQTM4MzEyOEU3MzBFQjEwNkRBQkM3RDU1QjI5N192aWRlb19kYXNoaW5pdC5tcDQVAALIAQAVAhg6cGFzc3Rocm91Z2hfZXZlcnN0b3JlL0dKRHhyUnpiRmNmMTh1NENBT0txeXZtdjFLd25icV9FQUFBRhUCAsgBACgAGAAbAogHdXNlX29pbAExEnByb2dyZXNzaXZlX3JlY2lwZQExFQAAJuL67fzAgLADFQIoAkMzLBdAYQzMzMzMzRgSZGFzaF9iYXNlbGluZV8xX3YxEQB1_gcA&ccb=9-4&oh=00_AYBWP_aJ0a36C7t9EulrqCJJKjlzAIPjCgBt5-O2LVvpPQ&oe=67BFCFD8&_nc_sid=1d576d",
+                    "width": 720
+                },
+                {
+                    "bandwidth": 2690403,
+                    "height": 1280,
+                    "id": "1142997994218564v",
+                    "type": 103,
+                    "url": "https://scontent-msp1-1.cdninstagram.com/o1/v/t16/f2/m86/AQNclJPU6L3QRnEOFHosOfcbQLHy7-MpvA8HA2qOwG7DeuGbbt57g0aS5HXTFvbQ--AtYReW0OeDl7EAoUemRr-9lIhA4plbc-nGQyo.mp4?efg=eyJ4cHZfYXNzZXRfaWQiOjk0OTk4Njc2NzI1NzI2NSwidmVuY29kZV90YWciOiJ4cHZfcHJvZ3Jlc3NpdmUuSU5TVEFHUkFNLkNMSVBTLkMzLjcyMC5kYXNoX2Jhc2VsaW5lXzFfdjEifQ&_nc_ht=scontent-msp1-1.cdninstagram.com&_nc_cat=108&vs=3b7705e11f30fb2a&_nc_vs=HBksFQIYUmlnX3hwdl9yZWVsc19wZXJtYW5lbnRfc3JfcHJvZC8xQzRDQTM4MzEyOEU3MzBFQjEwNkRBQkM3RDU1QjI5N192aWRlb19kYXNoaW5pdC5tcDQVAALIAQAVAhg6cGFzc3Rocm91Z2hfZXZlcnN0b3JlL0dKRHhyUnpiRmNmMTh1NENBT0txeXZtdjFLd25icV9FQUFBRhUCAsgBACgAGAAbAogHdXNlX29pbAExEnByb2dyZXNzaXZlX3JlY2lwZQExFQAAJuL67fzAgLADFQIoAkMzLBdAYQzMzMzMzRgSZGFzaF9iYXNlbGluZV8xX3YxEQB1_gcA&ccb=9-4&oh=00_AYBWP_aJ0a36C7t9EulrqCJJKjlzAIPjCgBt5-O2LVvpPQ&oe=67BFCFD8&_nc_sid=1d576d",
+                    "width": 720
+                }
+            ]
+        },
+        "is_ad": false,
+        "is_affiliate": false,
+        "is_paid_partnership": false,
+        "is_published": true,
+        "is_video": true,
+        "like_and_view_counts_disabled": false,
+        "location": null,
+        "media_overlay_info": null,
+        "media_preview": "ABgqoeSajKds5q4Ru4HerKWq/SpbsNK5lD60VdvIAoDgdCN30op7iHomCM+p/lVlQcFc/jVbLMcrU/zDJPQcmpZcSC9k2R4zyf8AJoqS5g+0KOxAyPpRVpWM20xMkEFeSO1TyOZEwBgHr746c9sGkXt+NI3T/gf+FU1fchNrYmTGPYjH4d/yxRRF90/7x/kKKVwsf//Z",
+        "nft_asset_info": null,
+        "owner": {
+            "blocked_by_viewer": false,
+            "edge_followed_by": {
+                "count": 42647
+            },
+            "edge_owner_to_timeline_media": {
+                "count": 534
+            },
+            "followed_by_viewer": true,
+            "full_name": "Brittney Hartley",
+            "has_blocked_viewer": false,
+            "id": "47214798729",
+            "is_embeds_disabled": false,
+            "is_private": false,
+            "is_unpublished": false,
+            "is_verified": false,
+            "pass_tiering_recommendation": true,
+            "profile_pic_url": "https://scontent-msp1-1.cdninstagram.com/v/t51.2885-19/434675159_804057931568616_5711137461509149914_n.jpg?stp=dst-jpg_s150x150_tt6&_nc_ht=scontent-msp1-1.cdninstagram.com&_nc_cat=100&_nc_oc=Q6cZ2AHefq7b9KN5YnDIsmAYuOUmG3KvH9M8Lg8TxR5WG8efzICiVUqEkirhIKtsIrAiSrY&_nc_ohc=krNvAYnBgesQ7kNvgF49xG5&_nc_gid=677db165c17743cca9b9173c014d2160&edm=ANTKIIoBAAAA&ccb=7-5&oh=00_AYBpU0pgu0XQuh3T6eE27RWORKPsHn86aLVNJ0qrEzSw0A&oe=67C3C53C&_nc_sid=d885a2",
+            "requested_by_viewer": false,
+            "restricted_by_viewer": false,
+            "username": "nononsensespirituality"
+        },
+        "pinned_for_users": [],
+        "product_type": "clips",
+        "sensitivity_friction_info": null,
+        "sharing_friction_info": {
+            "bloks_app_url": null,
+            "should_have_sharing_friction": false
+        },
+        "shortcode": "DGelP0Ds6t9",
+        "taken_at_timestamp": 1740448283,
+        "thumbnail_src": "https://scontent-msp1-1.cdninstagram.com/v/t51.2885-15/481608162_1301556211063494_2169583295024506175_n.jpg?stp=c0.248.640.640a_dst-jpg_e15_tt6&_nc_ht=scontent-msp1-1.cdninstagram.com&_nc_cat=106&_nc_oc=Q6cZ2AHefq7b9KN5YnDIsmAYuOUmG3KvH9M8Lg8TxR5WG8efzICiVUqEkirhIKtsIrAiSrY&_nc_ohc=XS7UnCU7fkIQ7kNvgH5Qn56&_nc_gid=677db165c17743cca9b9173c014d2160&edm=ANTKIIoBAAAA&ccb=7-5&oh=00_AYANbNefufY7O9qTCbnQ5WSEwS0TgNrcOybUW1bUuVDggQ&oe=67C3D8A6&_nc_sid=d885a2",
+        "title": "",
+        "tracking_token": "eyJ2ZXJzaW9uIjo1LCJwYXlsb2FkIjp7ImlzX2FuYWx5dGljc190cmFja2VkIjp0cnVlLCJ1dWlkIjoiNjc3ZGIxNjVjMTc3NDNjY2E5YjkxNzNjMDE0ZDIxNjAzNTc1NDU4OTY4NTg4NDk1NzQxIiwic2VydmVyX3Rva2VuIjoiMTc0MDUwNjY4MjczN3wzNTc1NDU4OTY4NTg4NDk1NzQxfDMzNTM0NzA2fDQ0MWQzMzNjY2M1ODQyZjNlYjhjZTNlZDliOWI1NGRlODA3OGI5ODQ1MmU3YTY2YWI1YTJmYTJmNTM3MjI3NGIifSwic2lnbmF0dXJlIjoiIn0=",
+        "upcoming_event": null,
+        "video_duration": 136.416,
+        "video_play_count": 4117,
+        "video_url": "https://scontent-msp1-1.cdninstagram.com/o1/v/t16/f2/m86/AQNclJPU6L3QRnEOFHosOfcbQLHy7-MpvA8HA2qOwG7DeuGbbt57g0aS5HXTFvbQ--AtYReW0OeDl7EAoUemRr-9lIhA4plbc-nGQyo.mp4?stp=dst-mp4&efg=eyJxZV9ncm91cHMiOiJbXCJpZ193ZWJfZGVsaXZlcnlfdnRzX290ZlwiXSIsInZlbmNvZGVfdGFnIjoidnRzX3ZvZF91cmxnZW4uY2xpcHMuYzIuNzIwLmJhc2VsaW5lIn0&_nc_cat=108&vs=1142997994218564_1083739825&_nc_vs=HBksFQIYUmlnX3hwdl9yZWVsc19wZXJtYW5lbnRfc3JfcHJvZC8xQzRDQTM4MzEyOEU3MzBFQjEwNkRBQkM3RDU1QjI5N192aWRlb19kYXNoaW5pdC5tcDQVAALIAQAVAhg6cGFzc3Rocm91Z2hfZXZlcnN0b3JlL0dKRHhyUnpiRmNmMTh1NENBT0txeXZtdjFLd25icV9FQUFBRhUCAsgBACgAGAAbABUAACbcndz%2FhK%2BaQBUCKAJDMywXQGEMzMzMzM0YEmRhc2hfYmFzZWxpbmVfMV92MREAdf4HAA%3D%3D&ccb=9-4&oh=00_AYCK3fyyQa1VdijVQfYJ4hEO-nVGbXhx9Fue_e4qYqDXTA&oe=67BFCFD8&_nc_sid=d885a2",
+        "video_view_count": 1964,
+        "viewer_can_reshare": true,
+        "viewer_has_liked": false,
+        "viewer_has_saved": false,
+        "viewer_has_saved_to_collection": false,
+        "viewer_in_photo_of_you": false
+    }
+}

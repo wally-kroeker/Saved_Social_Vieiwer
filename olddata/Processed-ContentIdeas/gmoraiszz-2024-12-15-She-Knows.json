@@ -1,0 +1,319 @@
+{
+    "instaloader": {
+        "node_type": "Post",
+        "version": "4.14.1"
+    },
+    "node": {
+        "__isXDTGraphMediaInterface": "XDTGraphVideo",
+        "__typename": "GraphVideo",
+        "accessibility_caption": null,
+        "can_see_insights_as_brand": false,
+        "caption_is_edited": false,
+        "clips_music_attribution_info": {
+            "artist_name": "gmoraiszz",
+            "audio_id": "1599274030689584",
+            "should_mute_audio": false,
+            "should_mute_audio_reason": "",
+            "song_name": "Original audio",
+            "uses_original_audio": true
+        },
+        "coauthor_producers": [],
+        "commenting_disabled_for_viewer": false,
+        "comments_disabled": false,
+        "dash_info": {
+            "is_dash_eligible": false,
+            "number_of_qualities": 0,
+            "video_dash_manifest": null
+        },
+        "dimensions": {
+            "height": 1333,
+            "width": 750
+        },
+        "display_resources": [
+            {
+                "config_height": 1137,
+                "config_width": 640,
+                "src": "https://scontent-msp1-1.cdninstagram.com/v/t51.2885-15/469651956_17889369741141402_6441315673043563464_n.jpg?stp=dst-jpg_e15_p640x640_tt6&_nc_ht=scontent-msp1-1.cdninstagram.com&_nc_cat=106&_nc_oc=Q6cZ2AEJrbDPO_3aa9G-RoBaDh-M3fvxIS9XNk2YDEkua_6dO5h74ZBKS5vtcSfDmtpHeAE&_nc_ohc=JXOtX4oUPGYQ7kNvgG2rpj0&_nc_gid=f3584f2f83024a508531127fdb22b673&edm=ANTKIIoBAAAA&ccb=7-5&oh=00_AYDVNytJw_9Rw67-dxvqX2jhJTOuuEg44N4bGuLw0mDvLA&oe=67C54922&_nc_sid=d885a2"
+            },
+            {
+                "config_height": 1333,
+                "config_width": 750,
+                "src": "https://scontent-msp1-1.cdninstagram.com/v/t51.2885-15/469651956_17889369741141402_6441315673043563464_n.jpg?stp=dst-jpg_e15_tt6&_nc_ht=scontent-msp1-1.cdninstagram.com&_nc_cat=106&_nc_oc=Q6cZ2AEJrbDPO_3aa9G-RoBaDh-M3fvxIS9XNk2YDEkua_6dO5h74ZBKS5vtcSfDmtpHeAE&_nc_ohc=JXOtX4oUPGYQ7kNvgG2rpj0&_nc_gid=f3584f2f83024a508531127fdb22b673&edm=ANTKIIoBAAAA&ccb=7-5&oh=00_AYB2qWcWJ4lBe95YB6YXrbZXIrAGj0aYgI5uBW8INeV1TA&oe=67C54922&_nc_sid=d885a2"
+            },
+            {
+                "config_height": 1920,
+                "config_width": 1080,
+                "src": "https://scontent-msp1-1.cdninstagram.com/v/t51.2885-15/469651956_17889369741141402_6441315673043563464_n.jpg?stp=dst-jpg_e15_tt6&_nc_ht=scontent-msp1-1.cdninstagram.com&_nc_cat=106&_nc_oc=Q6cZ2AEJrbDPO_3aa9G-RoBaDh-M3fvxIS9XNk2YDEkua_6dO5h74ZBKS5vtcSfDmtpHeAE&_nc_ohc=JXOtX4oUPGYQ7kNvgG2rpj0&_nc_gid=f3584f2f83024a508531127fdb22b673&edm=ANTKIIoBAAAA&ccb=7-5&oh=00_AYB2qWcWJ4lBe95YB6YXrbZXIrAGj0aYgI5uBW8INeV1TA&oe=67C54922&_nc_sid=d885a2"
+            }
+        ],
+        "display_url": "https://scontent-msp1-1.cdninstagram.com/v/t51.2885-15/469651956_17889369741141402_6441315673043563464_n.jpg?stp=dst-jpg_e15_tt6&_nc_ht=scontent-msp1-1.cdninstagram.com&_nc_cat=106&_nc_oc=Q6cZ2AEJrbDPO_3aa9G-RoBaDh-M3fvxIS9XNk2YDEkua_6dO5h74ZBKS5vtcSfDmtpHeAE&_nc_ohc=JXOtX4oUPGYQ7kNvgG2rpj0&_nc_gid=f3584f2f83024a508531127fdb22b673&edm=ANTKIIoBAAAA&ccb=7-5&oh=00_AYB2qWcWJ4lBe95YB6YXrbZXIrAGj0aYgI5uBW8INeV1TA&oe=67C54922&_nc_sid=d885a2",
+        "edge_media_preview_comment": {
+            "count": 437,
+            "edges": [
+                {
+                    "node": {
+                        "created_at": 1740498626,
+                        "did_report_as_spam": false,
+                        "edge_liked_by": {
+                            "count": 0
+                        },
+                        "id": "17880144705251143",
+                        "is_restricted_pending": false,
+                        "owner": {
+                            "id": "5781673505",
+                            "is_verified": false,
+                            "profile_pic_url": "https://scontent-msp1-1.cdninstagram.com/v/t51.2885-19/320426666_927129094938888_7203141672571679052_n.jpg?stp=dst-jpg_s150x150_tt6&_nc_ht=scontent-msp1-1.cdninstagram.com&_nc_cat=100&_nc_oc=Q6cZ2AEJrbDPO_3aa9G-RoBaDh-M3fvxIS9XNk2YDEkua_6dO5h74ZBKS5vtcSfDmtpHeAE&_nc_ohc=J1Jvopypk3AQ7kNvgHujI7r&_nc_gid=f3584f2f83024a508531127fdb22b673&edm=ANTKIIoBAAAA&ccb=7-5&oh=00_AYBf2o8DeLlrBwHzg2rBPermMidiW-cBRMvjjuijfh0Dsg&oe=67C564C0&_nc_sid=d885a2",
+                            "username": "kam68328"
+                        },
+                        "text": "Update plz",
+                        "viewer_has_liked": false
+                    }
+                },
+                {
+                    "node": {
+                        "created_at": 1740553149,
+                        "did_report_as_spam": false,
+                        "edge_liked_by": {
+                            "count": 0
+                        },
+                        "id": "17924708913040517",
+                        "is_restricted_pending": false,
+                        "owner": {
+                            "id": "7734911288",
+                            "is_verified": false,
+                            "profile_pic_url": "https://scontent-msp1-1.cdninstagram.com/v/t51.2885-19/32247712_171846370316198_6047625178983170048_n.jpg?stp=dst-jpg_s150x150_tt6&_nc_ht=scontent-msp1-1.cdninstagram.com&_nc_cat=1&_nc_oc=Q6cZ2AEJrbDPO_3aa9G-RoBaDh-M3fvxIS9XNk2YDEkua_6dO5h74ZBKS5vtcSfDmtpHeAE&_nc_ohc=WqLVNK8rp7wQ7kNvgEJ8aLt&_nc_gid=f3584f2f83024a508531127fdb22b673&edm=ANTKIIoBAAAA&ccb=7-5&oh=00_AYA1t82lfSRPPmTJXk6KMZ0O406QAB_RXyHr9hMTdL9YXw&oe=67C533BD&_nc_sid=d885a2",
+                            "username": "masmoney1000"
+                        },
+                        "text": "All these guys making tons of money some how they need your help !!",
+                        "viewer_has_liked": false
+                    }
+                }
+            ]
+        },
+        "edge_media_preview_like": {
+            "count": 57293,
+            "edges": []
+        },
+        "edge_media_to_caption": {
+            "edges": [
+                {
+                    "node": {
+                        "created_at": "1734283270",
+                        "id": "17883683319177795",
+                        "text": "She knows"
+                    }
+                }
+            ]
+        },
+        "edge_media_to_hoisted_comment": {
+            "edges": []
+        },
+        "edge_media_to_parent_comment": {
+            "count": 437,
+            "edges": [
+                {
+                    "node": {
+                        "created_at": 1740553149,
+                        "did_report_as_spam": false,
+                        "edge_liked_by": {
+                            "count": 0
+                        },
+                        "edge_threaded_comments": {
+                            "count": 0,
+                            "edges": [],
+                            "page_info": {
+                                "end_cursor": null,
+                                "has_next_page": false
+                            }
+                        },
+                        "id": "17924708913040517",
+                        "is_restricted_pending": false,
+                        "owner": {
+                            "id": "7734911288",
+                            "is_verified": false,
+                            "profile_pic_url": "https://scontent-msp1-1.cdninstagram.com/v/t51.2885-19/32247712_171846370316198_6047625178983170048_n.jpg?stp=dst-jpg_s150x150_tt6&_nc_ht=scontent-msp1-1.cdninstagram.com&_nc_cat=1&_nc_oc=Q6cZ2AEJrbDPO_3aa9G-RoBaDh-M3fvxIS9XNk2YDEkua_6dO5h74ZBKS5vtcSfDmtpHeAE&_nc_ohc=WqLVNK8rp7wQ7kNvgEJ8aLt&_nc_gid=f3584f2f83024a508531127fdb22b673&edm=ANTKIIoBAAAA&ccb=7-5&oh=00_AYA1t82lfSRPPmTJXk6KMZ0O406QAB_RXyHr9hMTdL9YXw&oe=67C533BD&_nc_sid=d885a2",
+                            "username": "masmoney1000"
+                        },
+                        "text": "All these guys making tons of money some how they need your help !!",
+                        "viewer_has_liked": false
+                    }
+                },
+                {
+                    "node": {
+                        "created_at": 1740498626,
+                        "did_report_as_spam": false,
+                        "edge_liked_by": {
+                            "count": 0
+                        },
+                        "edge_threaded_comments": {
+                            "count": 0,
+                            "edges": [],
+                            "page_info": {
+                                "end_cursor": null,
+                                "has_next_page": false
+                            }
+                        },
+                        "id": "17880144705251143",
+                        "is_restricted_pending": false,
+                        "owner": {
+                            "id": "5781673505",
+                            "is_verified": false,
+                            "profile_pic_url": "https://scontent-msp1-1.cdninstagram.com/v/t51.2885-19/320426666_927129094938888_7203141672571679052_n.jpg?stp=dst-jpg_s150x150_tt6&_nc_ht=scontent-msp1-1.cdninstagram.com&_nc_cat=100&_nc_oc=Q6cZ2AEJrbDPO_3aa9G-RoBaDh-M3fvxIS9XNk2YDEkua_6dO5h74ZBKS5vtcSfDmtpHeAE&_nc_ohc=J1Jvopypk3AQ7kNvgHujI7r&_nc_gid=f3584f2f83024a508531127fdb22b673&edm=ANTKIIoBAAAA&ccb=7-5&oh=00_AYBf2o8DeLlrBwHzg2rBPermMidiW-cBRMvjjuijfh0Dsg&oe=67C564C0&_nc_sid=d885a2",
+                            "username": "kam68328"
+                        },
+                        "text": "Update plz",
+                        "viewer_has_liked": false
+                    }
+                },
+                {
+                    "node": {
+                        "created_at": 1740485981,
+                        "did_report_as_spam": false,
+                        "edge_liked_by": {
+                            "count": 0
+                        },
+                        "edge_threaded_comments": {
+                            "count": 1,
+                            "edges": [
+                                {
+                                    "node": {
+                                        "created_at": 1740486059,
+                                        "did_report_as_spam": false,
+                                        "edge_liked_by": {
+                                            "count": 0
+                                        },
+                                        "id": "18137694961377544",
+                                        "is_restricted_pending": false,
+                                        "owner": {
+                                            "id": "2372441060",
+                                            "is_verified": false,
+                                            "profile_pic_url": "https://scontent-msp1-1.cdninstagram.com/v/t51.2885-19/476762325_9337091706383641_8765687129754850585_n.jpg?stp=dst-jpg_s150x150_tt6&_nc_ht=scontent-msp1-1.cdninstagram.com&_nc_cat=101&_nc_oc=Q6cZ2AEJrbDPO_3aa9G-RoBaDh-M3fvxIS9XNk2YDEkua_6dO5h74ZBKS5vtcSfDmtpHeAE&_nc_ohc=kdgMHkAr2osQ7kNvgGmHNu1&_nc_gid=f3584f2f83024a508531127fdb22b673&edm=ANTKIIoBAAAA&ccb=7-5&oh=00_AYDz_1HKYBBdrBnUcWG10TCV4X6VnqwoV_rHHvjN_9-RmA&oe=67C56AB6&_nc_sid=d885a2",
+                                            "username": "carlaviegasbarber"
+                                        },
+                                        "text": "@carlaviegasbarber lol *backlash \ud83d\ude02 wtf autocorrect.",
+                                        "viewer_has_liked": false
+                                    }
+                                }
+                            ],
+                            "page_info": {
+                                "end_cursor": null,
+                                "has_next_page": false
+                            }
+                        },
+                        "id": "17938826537852005",
+                        "is_restricted_pending": false,
+                        "owner": {
+                            "id": "2372441060",
+                            "is_verified": false,
+                            "profile_pic_url": "https://scontent-msp1-1.cdninstagram.com/v/t51.2885-19/476762325_9337091706383641_8765687129754850585_n.jpg?stp=dst-jpg_s150x150_tt6&_nc_ht=scontent-msp1-1.cdninstagram.com&_nc_cat=101&_nc_oc=Q6cZ2AEJrbDPO_3aa9G-RoBaDh-M3fvxIS9XNk2YDEkua_6dO5h74ZBKS5vtcSfDmtpHeAE&_nc_ohc=kdgMHkAr2osQ7kNvgGmHNu1&_nc_gid=f3584f2f83024a508531127fdb22b673&edm=ANTKIIoBAAAA&ccb=7-5&oh=00_AYDz_1HKYBBdrBnUcWG10TCV4X6VnqwoV_rHHvjN_9-RmA&oe=67C56AB6&_nc_sid=d885a2",
+                            "username": "carlaviegasbarber"
+                        },
+                        "text": "Dead Internet theory in full swing. The proliferation of exactly this is what\u2019s gonna destroy gen AI. The backpack is gonna be immense and most companies are \u201cgrowing\u201d and fundraising based on manufactured \u201ctraction\u201d. Smoke and mirrors talking to smoke and mirrors - humans are optional. This is gonna be the next dot com bubble.",
+                        "viewer_has_liked": false
+                    }
+                },
+                {
+                    "node": {
+                        "created_at": 1740328398,
+                        "did_report_as_spam": false,
+                        "edge_liked_by": {
+                            "count": 0
+                        },
+                        "edge_threaded_comments": {
+                            "count": 0,
+                            "edges": [],
+                            "page_info": {
+                                "end_cursor": null,
+                                "has_next_page": false
+                            }
+                        },
+                        "id": "18081091726624857",
+                        "is_restricted_pending": false,
+                        "owner": {
+                            "id": "70127529268",
+                            "is_verified": false,
+                            "profile_pic_url": "https://scontent-msp1-1.cdninstagram.com/v/t51.2885-19/468685572_463540926849647_1092055908168763760_n.jpg?stp=dst-jpg_s150x150_tt6&_nc_ht=scontent-msp1-1.cdninstagram.com&_nc_cat=111&_nc_oc=Q6cZ2AEJrbDPO_3aa9G-RoBaDh-M3fvxIS9XNk2YDEkua_6dO5h74ZBKS5vtcSfDmtpHeAE&_nc_ohc=sMiBelVL5n4Q7kNvgGcCZfO&_nc_gid=f3584f2f83024a508531127fdb22b673&edm=ANTKIIoBAAAA&ccb=7-5&oh=00_AYBKY8KWfnQTEQ-qfN9__DUeYjRmZoREHhSnt_8LGREfMA&oe=67C543C3&_nc_sid=d885a2",
+                            "username": "hamzasalifu24"
+                        },
+                        "text": "Am in bro",
+                        "viewer_has_liked": false
+                    }
+                }
+            ],
+            "page_info": {
+                "end_cursor": "{\"server_cursor\": \"QVFDbFVEMTlFa1NsWUJBUnVFdTVMWXRIVTd6c3ZRV0p5TDdFajVXOTNSVkxIbEFneUl2b0RWSG51UFl0YjRYM2tLSGdJNmE0TWRYZnlGeXUzX2U2c3VNOA==\", \"is_server_cursor_inverse\": true}",
+                "has_next_page": true
+            }
+        },
+        "edge_media_to_sponsor_user": {
+            "edges": []
+        },
+        "edge_media_to_tagged_user": {
+            "edges": []
+        },
+        "edge_web_media_to_related_media": {
+            "edges": []
+        },
+        "encoding_status": null,
+        "fact_check_information": null,
+        "fact_check_overall_rating": null,
+        "gating_info": null,
+        "has_audio": true,
+        "has_ranked_comments": false,
+        "id": "3523745443874547468",
+        "is_ad": false,
+        "is_affiliate": false,
+        "is_paid_partnership": false,
+        "is_published": true,
+        "is_video": true,
+        "like_and_view_counts_disabled": false,
+        "location": null,
+        "media_overlay_info": null,
+        "media_preview": "ABgqmuF5Bqtmrkw+QZ6jH+FUQNzFTwMdjg59s1z7m2w9TkgUVAgw5jOTwfy/zxRVpWIbuWvtQZPmYbh1wP5E/wCFN3eaB/8AXqK22Tfu3O3POBjBPTOf5DpmkYtExjYdPT07VaSRLdx5CqQw6jr9D2P86KrGVNhVQd2ec96KBFTzMcjrV1WNyQc/MBjB9PaspOtTxnDjHrVCJJYzGcHv0oqxd9D+FFID/9k=",
+        "nft_asset_info": null,
+        "owner": {
+            "blocked_by_viewer": false,
+            "edge_followed_by": {
+                "count": 115930
+            },
+            "edge_owner_to_timeline_media": {
+                "count": 3
+            },
+            "followed_by_viewer": false,
+            "full_name": "Gon\u00e7alo Morais",
+            "has_blocked_viewer": false,
+            "id": "64145581401",
+            "is_embeds_disabled": false,
+            "is_private": false,
+            "is_unpublished": false,
+            "is_verified": true,
+            "pass_tiering_recommendation": true,
+            "profile_pic_url": "https://scontent-msp1-1.cdninstagram.com/v/t51.2885-19/471733713_1305560373823503_8149924104114702598_n.jpg?stp=dst-jpg_s150x150_tt6&_nc_ht=scontent-msp1-1.cdninstagram.com&_nc_cat=1&_nc_oc=Q6cZ2AEJrbDPO_3aa9G-RoBaDh-M3fvxIS9XNk2YDEkua_6dO5h74ZBKS5vtcSfDmtpHeAE&_nc_ohc=1zNoyaR7nJ0Q7kNvgFp1gvv&_nc_gid=f3584f2f83024a508531127fdb22b673&edm=ANTKIIoBAAAA&ccb=7-5&oh=00_AYAgsYaUgFx8D7kuu39sbAaQs4Lep9G_yOz8KIHGf5vREw&oe=67C55E2F&_nc_sid=d885a2",
+            "requested_by_viewer": false,
+            "restricted_by_viewer": null,
+            "username": "gmoraiszz"
+        },
+        "pinned_for_users": [],
+        "product_type": "clips",
+        "sensitivity_friction_info": null,
+        "sharing_friction_info": {
+            "bloks_app_url": null,
+            "should_have_sharing_friction": false
+        },
+        "shortcode": "DDm28_FCycM",
+        "taken_at_timestamp": 1734283268,
+        "thumbnail_src": "https://scontent-msp1-1.cdninstagram.com/v/t51.2885-15/469651956_17889369741141402_6441315673043563464_n.jpg?stp=c0.280.720.720a_dst-jpg_e15_s640x640_tt6&_nc_ht=scontent-msp1-1.cdninstagram.com&_nc_cat=106&_nc_oc=Q6cZ2AEJrbDPO_3aa9G-RoBaDh-M3fvxIS9XNk2YDEkua_6dO5h74ZBKS5vtcSfDmtpHeAE&_nc_ohc=JXOtX4oUPGYQ7kNvgG2rpj0&_nc_gid=f3584f2f83024a508531127fdb22b673&edm=ANTKIIoBAAAA&ccb=7-5&oh=00_AYAoo-dSq_NIZuB8WYaIi8WcFkcIomU1NVS6E0xMfJItCw&oe=67C54922&_nc_sid=d885a2",
+        "title": "",
+        "tracking_token": "eyJ2ZXJzaW9uIjo1LCJwYXlsb2FkIjp7ImlzX2FuYWx5dGljc190cmFja2VkIjp0cnVlLCJ1dWlkIjoiZjM1ODRmMmY4MzAyNGE1MDg1MzExMjdmZGIyMmI2NzMzNTIzNzQ1NDQzODc0NTQ3NDY4In0sInNpZ25hdHVyZSI6IiJ9",
+        "upcoming_event": null,
+        "video_duration": 64.3,
+        "video_play_count": 4301929,
+        "video_url": "https://scontent-msp1-1.cdninstagram.com/o1/v/t16/f2/m86/AQN78E8ROqQ7ajRrJrgr3ljetAgYo-uYoeFP07bLKtGAEJqrE9sIKjSvFka1l32w5P9QKx2KwX-doWULOoFd4C1VhMW-aPKz8eOIpec.mp4?stp=dst-mp4&efg=eyJxZV9ncm91cHMiOiJbXCJpZ193ZWJfZGVsaXZlcnlfdnRzX290ZlwiXSIsInZlbmNvZGVfdGFnIjoidnRzX3ZvZF91cmxnZW4uY2xpcHMuYzIuNzIwLmJhc2VsaW5lIn0&_nc_cat=105&vs=1855395764991836_3660928589&_nc_vs=HBksFQIYUmlnX3hwdl9yZWVsc19wZXJtYW5lbnRfc3JfcHJvZC85RTQ4NjYwQjdCMzVERUY0RDZGRkVDMjJGQzMwRTdBN192aWRlb19kYXNoaW5pdC5tcDQVAALIAQAVAhg6cGFzc3Rocm91Z2hfZXZlcnN0b3JlL0dOelRCUnlqRFdaVHhqQUNBSFpuVjZaMVdtbHhicV9FQUFBRhUCAsgBACgAGAAbABUAACb4iKSj%2F8eSQRUCKAJDMywXQFATMzMzMzMYEmRhc2hfYmFzZWxpbmVfMV92MREAdf4HAA%3D%3D&ccb=9-4&oh=00_AYDxOVvXi-4eZnsKZoI_wNwd4PqtwQCjHI9gDG2D7B_r8Q&oe=67C17629&_nc_sid=d885a2",
+        "video_view_count": 1922353,
+        "viewer_can_reshare": true,
+        "viewer_has_liked": false,
+        "viewer_has_saved": false,
+        "viewer_has_saved_to_collection": false,
+        "viewer_in_photo_of_you": false
+    }
+}

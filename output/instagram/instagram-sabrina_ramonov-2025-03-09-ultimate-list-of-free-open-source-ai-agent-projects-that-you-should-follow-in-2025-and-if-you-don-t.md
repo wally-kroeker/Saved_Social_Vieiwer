@@ -1,0 +1,3 @@
+# Instagram Post by sabrina_ramonov
+
+Ultimate list of free open source AI agent projects that you should follow in 2025! And if you don’t know much about AI agents but want to learn, check the link in my bio for FREE tutorials, including how to build your first AI agent without coding. Here are all the GitHub links: 1. https://github.com/Significant-Gravitas/AutoGPT 2. https://github.com/zaidmukaddam/scira 3. https://github.com/frdel/agent-zero 4. https://github.com/enricoros/big-AGI 5. https://github.com/browser-use/browser-useAI 6. https://github.com/Skyvern-AI/skyvern 7. https://github.com/feder-cr/Jobs_Applier_AI_Agent_AIHawk #ai #aiagent #aiagents #opensource #learning #sabrinaramonov

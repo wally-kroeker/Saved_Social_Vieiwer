@@ -1,0 +1,3 @@
+# Instagram Post by sabrina_ramonov
+
+3 ways to find problems worth solving that people are willing to pay for. Look at what you already pay for, or look at what other people pay for in a particular space (passion, hobby, prior industry experience, etc). Or partner with creator/influencer/leader who already has an audience and deeply familiar with their audience’s recurring pain points. #ai #startup #businessideas #sabrinaramonov

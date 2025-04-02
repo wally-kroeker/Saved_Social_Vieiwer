@@ -1,0 +1,427 @@
+{
+    "instaloader": {
+        "node_type": "Post",
+        "version": "4.14.1"
+    },
+    "node": {
+        "__isXDTGraphMediaInterface": "XDTGraphVideo",
+        "__typename": "GraphVideo",
+        "accessibility_caption": null,
+        "can_see_insights_as_brand": false,
+        "caption_is_edited": false,
+        "clips_music_attribution_info": {
+            "artist_name": "dr.lisamarie.delrio",
+            "audio_id": "948900840741473",
+            "should_mute_audio": false,
+            "should_mute_audio_reason": "",
+            "song_name": "Original audio",
+            "uses_original_audio": true
+        },
+        "coauthor_producers": [],
+        "commenting_disabled_for_viewer": false,
+        "comments_disabled": false,
+        "dash_info": {
+            "is_dash_eligible": false,
+            "number_of_qualities": 0,
+            "video_dash_manifest": null
+        },
+        "dimensions": {
+            "height": 1920,
+            "width": 1080
+        },
+        "display_resources": [
+            {
+                "config_height": 1137,
+                "config_width": 640,
+                "src": "https://scontent-yyz1-1.cdninstagram.com/v/t51.2885-15/485286943_18305583571225533_5076099147638455788_n.jpg?stp=dst-jpg_e35_p640x640_sh0.08_tt6&_nc_ht=scontent-yyz1-1.cdninstagram.com&_nc_cat=109&_nc_oc=Q6cZ2QEY9DVN2k1r5k6OGYjbF-NuoL1gHItU9Agnkag4zd64yC502LpwkdvC8nBIGRyJElE&_nc_ohc=rO9L9WebqJcQ7kNvgE96rQZ&_nc_gid=n19Crl8OZ7CzmV7SG8HmTQ&edm=ANTKIIoBAAAA&ccb=7-5&oh=00_AYEVs7hLlGGWqiP-3Z8_XxQtyMaUfTeJPhvOMp7s820W5g&oe=67E8F3D5&_nc_sid=d885a2"
+            },
+            {
+                "config_height": 1333,
+                "config_width": 750,
+                "src": "https://scontent-yyz1-1.cdninstagram.com/v/t51.2885-15/485286943_18305583571225533_5076099147638455788_n.jpg?stp=dst-jpg_e35_p750x750_sh0.08_tt6&_nc_ht=scontent-yyz1-1.cdninstagram.com&_nc_cat=109&_nc_oc=Q6cZ2QEY9DVN2k1r5k6OGYjbF-NuoL1gHItU9Agnkag4zd64yC502LpwkdvC8nBIGRyJElE&_nc_ohc=rO9L9WebqJcQ7kNvgE96rQZ&_nc_gid=n19Crl8OZ7CzmV7SG8HmTQ&edm=ANTKIIoBAAAA&ccb=7-5&oh=00_AYFVYFypIkCjgrAS73S33OFpE5uJXfqdgCuz_kQF-q-2pA&oe=67E8F3D5&_nc_sid=d885a2"
+            },
+            {
+                "config_height": 1920,
+                "config_width": 1080,
+                "src": "https://scontent-yyz1-1.cdninstagram.com/v/t51.2885-15/485286943_18305583571225533_5076099147638455788_n.jpg?stp=dst-jpg_e15_fr_p1080x1080_tt6&_nc_ht=scontent-yyz1-1.cdninstagram.com&_nc_cat=109&_nc_oc=Q6cZ2QEY9DVN2k1r5k6OGYjbF-NuoL1gHItU9Agnkag4zd64yC502LpwkdvC8nBIGRyJElE&_nc_ohc=rO9L9WebqJcQ7kNvgE96rQZ&_nc_gid=n19Crl8OZ7CzmV7SG8HmTQ&edm=ANTKIIoBAAAA&ccb=7-5&oh=00_AYFH5I0uQDCQcOup-5_Arm4xet94XPeawxPlVUpiEiX8uA&oe=67E8F3D5&_nc_sid=d885a2"
+            }
+        ],
+        "display_url": "https://scontent-yyz1-1.cdninstagram.com/v/t51.2885-15/485286943_18305583571225533_5076099147638455788_n.jpg?stp=dst-jpg_e15_fr_p1080x1080_tt6&_nc_ht=scontent-yyz1-1.cdninstagram.com&_nc_cat=109&_nc_oc=Q6cZ2QEY9DVN2k1r5k6OGYjbF-NuoL1gHItU9Agnkag4zd64yC502LpwkdvC8nBIGRyJElE&_nc_ohc=rO9L9WebqJcQ7kNvgE96rQZ&_nc_gid=n19Crl8OZ7CzmV7SG8HmTQ&edm=ANTKIIoBAAAA&ccb=7-5&oh=00_AYFH5I0uQDCQcOup-5_Arm4xet94XPeawxPlVUpiEiX8uA&oe=67E8F3D5&_nc_sid=d885a2",
+        "edge_media_preview_comment": {
+            "count": 75,
+            "edges": [
+                {
+                    "node": {
+                        "created_at": 1742755935,
+                        "did_report_as_spam": false,
+                        "edge_liked_by": {
+                            "count": 0
+                        },
+                        "id": "17888175615218143",
+                        "is_restricted_pending": false,
+                        "owner": {
+                            "id": "7280232656",
+                            "is_verified": false,
+                            "profile_pic_url": "https://scontent-yyz1-1.cdninstagram.com/v/t51.2885-19/88458002_1348261455366697_3814972832014663680_n.jpg?stp=dst-jpg_s150x150_tt6&_nc_ht=scontent-yyz1-1.cdninstagram.com&_nc_cat=101&_nc_oc=Q6cZ2QEY9DVN2k1r5k6OGYjbF-NuoL1gHItU9Agnkag4zd64yC502LpwkdvC8nBIGRyJElE&_nc_ohc=VdWQiNMunKUQ7kNvgE_nadI&_nc_gid=n19Crl8OZ7CzmV7SG8HmTQ&edm=ANTKIIoBAAAA&ccb=7-5&oh=00_AYGlY578JTrgUQBfI2770wXz6S-kabtuyxVJeQaithfDMg&oe=67E8D9B2&_nc_sid=d885a2",
+                            "username": "rootintobeing"
+                        },
+                        "text": "This is so beautiful, informative, and really broadened my understanding of men's lived experience.",
+                        "viewer_has_liked": false
+                    }
+                },
+                {
+                    "node": {
+                        "created_at": 1742824874,
+                        "did_report_as_spam": false,
+                        "edge_liked_by": {
+                            "count": 0
+                        },
+                        "id": "18052472225228024",
+                        "is_restricted_pending": false,
+                        "owner": {
+                            "id": "1489605396",
+                            "is_verified": false,
+                            "profile_pic_url": "https://scontent-yyz1-1.cdninstagram.com/v/t51.2885-19/269763844_995863371002410_7851960719675213175_n.jpg?stp=dst-jpg_s150x150_tt6&_nc_ht=scontent-yyz1-1.cdninstagram.com&_nc_cat=110&_nc_oc=Q6cZ2QEY9DVN2k1r5k6OGYjbF-NuoL1gHItU9Agnkag4zd64yC502LpwkdvC8nBIGRyJElE&_nc_ohc=6zkXL3zjad4Q7kNvgG7ZlFa&_nc_gid=n19Crl8OZ7CzmV7SG8HmTQ&edm=ANTKIIoBAAAA&ccb=7-5&oh=00_AYFEz6ahnnGSKBZXKl2pHJdnZ2WMDFay5PpV_DmT5P9Ixw&oe=67E90A05&_nc_sid=d885a2",
+                            "username": "davidcool856"
+                        },
+                        "text": "Refreshing to hear a female voice that gets one of the most important things to men! Thank you \ud83d\ude4f\ud83c\udfff",
+                        "viewer_has_liked": false
+                    }
+                }
+            ]
+        },
+        "edge_media_preview_like": {
+            "count": 1971,
+            "edges": []
+        },
+        "edge_media_to_caption": {
+            "edges": [
+                {
+                    "node": {
+                        "created_at": "1742407985",
+                        "id": "18394174000111384",
+                        "text": "Men are socialized to experience anger and neutrality as acceptable, but emotions, like fear or sadness are discouraged, because they showcase vulnerability and potential weakness.\n\nThis is a unique curse against men, because according to their neurological makeup, they experience these very primal, very vulnerable, very negative emotions more readily than women. \n\nThese sensations are necessary for our survival and the men that are able to recognize, honor, and hold their fear are the true protectors of our world. \n\nAlthough their strength is important as long as predators exist in the world, we want to make space to recognize their emotional tenderness, too, and the unique weight that they carry for us. \n\nThis is the \u201cother half\u201d to the reel I recently created for rage as sacred for women. I do things in pairs for both women and men so that everyone feels seen and so that we can reunite. I didn\u2019t forget about my male followers. It just takes me a little longer to create content for men since I am not a man, and I have to ascend the limitations of my gender to feel what they feel. \n\nThank you for your patience, and I hope you feel seen today. \n\nMen and women share this world with each other, and our working relationship is the future we are all praying for. \n\nFrom my heart, LM"
+                    }
+                }
+            ]
+        },
+        "edge_media_to_hoisted_comment": {
+            "edges": []
+        },
+        "edge_media_to_parent_comment": {
+            "count": 75,
+            "edges": [
+                {
+                    "node": {
+                        "created_at": 1742824874,
+                        "did_report_as_spam": false,
+                        "edge_liked_by": {
+                            "count": 0
+                        },
+                        "edge_threaded_comments": {
+                            "count": 0,
+                            "edges": [],
+                            "page_info": {
+                                "end_cursor": null,
+                                "has_next_page": false
+                            }
+                        },
+                        "id": "18052472225228024",
+                        "is_restricted_pending": false,
+                        "owner": {
+                            "id": "1489605396",
+                            "is_verified": false,
+                            "profile_pic_url": "https://scontent-yyz1-1.cdninstagram.com/v/t51.2885-19/269763844_995863371002410_7851960719675213175_n.jpg?stp=dst-jpg_s150x150_tt6&_nc_ht=scontent-yyz1-1.cdninstagram.com&_nc_cat=110&_nc_oc=Q6cZ2QEY9DVN2k1r5k6OGYjbF-NuoL1gHItU9Agnkag4zd64yC502LpwkdvC8nBIGRyJElE&_nc_ohc=6zkXL3zjad4Q7kNvgG7ZlFa&_nc_gid=n19Crl8OZ7CzmV7SG8HmTQ&edm=ANTKIIoBAAAA&ccb=7-5&oh=00_AYFEz6ahnnGSKBZXKl2pHJdnZ2WMDFay5PpV_DmT5P9Ixw&oe=67E90A05&_nc_sid=d885a2",
+                            "username": "davidcool856"
+                        },
+                        "text": "Refreshing to hear a female voice that gets one of the most important things to men! Thank you \ud83d\ude4f\ud83c\udfff",
+                        "viewer_has_liked": false
+                    }
+                },
+                {
+                    "node": {
+                        "created_at": 1742755935,
+                        "did_report_as_spam": false,
+                        "edge_liked_by": {
+                            "count": 0
+                        },
+                        "edge_threaded_comments": {
+                            "count": 0,
+                            "edges": [],
+                            "page_info": {
+                                "end_cursor": null,
+                                "has_next_page": false
+                            }
+                        },
+                        "id": "17888175615218143",
+                        "is_restricted_pending": false,
+                        "owner": {
+                            "id": "7280232656",
+                            "is_verified": false,
+                            "profile_pic_url": "https://scontent-yyz1-1.cdninstagram.com/v/t51.2885-19/88458002_1348261455366697_3814972832014663680_n.jpg?stp=dst-jpg_s150x150_tt6&_nc_ht=scontent-yyz1-1.cdninstagram.com&_nc_cat=101&_nc_oc=Q6cZ2QEY9DVN2k1r5k6OGYjbF-NuoL1gHItU9Agnkag4zd64yC502LpwkdvC8nBIGRyJElE&_nc_ohc=VdWQiNMunKUQ7kNvgE_nadI&_nc_gid=n19Crl8OZ7CzmV7SG8HmTQ&edm=ANTKIIoBAAAA&ccb=7-5&oh=00_AYGlY578JTrgUQBfI2770wXz6S-kabtuyxVJeQaithfDMg&oe=67E8D9B2&_nc_sid=d885a2",
+                            "username": "rootintobeing"
+                        },
+                        "text": "This is so beautiful, informative, and really broadened my understanding of men's lived experience.",
+                        "viewer_has_liked": false
+                    }
+                },
+                {
+                    "node": {
+                        "created_at": 1742693580,
+                        "did_report_as_spam": false,
+                        "edge_liked_by": {
+                            "count": 0
+                        },
+                        "edge_threaded_comments": {
+                            "count": 0,
+                            "edges": [],
+                            "page_info": {
+                                "end_cursor": null,
+                                "has_next_page": false
+                            }
+                        },
+                        "id": "18374055976187834",
+                        "is_restricted_pending": false,
+                        "owner": {
+                            "id": "249572766",
+                            "is_verified": false,
+                            "profile_pic_url": "https://scontent-yyz1-1.cdninstagram.com/v/t51.2885-19/478007527_653608233771965_8880205657256570977_n.jpg?stp=dst-jpg_s150x150_tt6&_nc_ht=scontent-yyz1-1.cdninstagram.com&_nc_cat=105&_nc_oc=Q6cZ2QEY9DVN2k1r5k6OGYjbF-NuoL1gHItU9Agnkag4zd64yC502LpwkdvC8nBIGRyJElE&_nc_ohc=bDogtAkkUC4Q7kNvgHcBls-&_nc_gid=n19Crl8OZ7CzmV7SG8HmTQ&edm=ANTKIIoBAAAA&ccb=7-5&oh=00_AYFBwlZVeuDu3ye_5Ip6I_i1O-Ab1XqpbDSu5aXwtByDqw&oe=67E90A15&_nc_sid=d885a2",
+                            "username": "jakeshap"
+                        },
+                        "text": "No moral high ground on a battlefield. We men just have to pretend that its not the case to fit into a civil society. If you are impulsive and reactive that means your brain has been trained and conditioned for war because the speed at which you react is a matter of life and death. So its not really an emotional problem but society talks about it that way. Its a sped up decision making problem. Really not a problem at all. Just a super power thats being activated in situations where its not necessary.",
+                        "viewer_has_liked": false
+                    }
+                },
+                {
+                    "node": {
+                        "created_at": 1742618419,
+                        "did_report_as_spam": false,
+                        "edge_liked_by": {
+                            "count": 1
+                        },
+                        "edge_threaded_comments": {
+                            "count": 1,
+                            "edges": [
+                                {
+                                    "node": {
+                                        "created_at": 1742637988,
+                                        "did_report_as_spam": false,
+                                        "edge_liked_by": {
+                                            "count": 0
+                                        },
+                                        "id": "17855236092403471",
+                                        "is_restricted_pending": false,
+                                        "owner": {
+                                            "id": "6942465532",
+                                            "is_verified": true,
+                                            "profile_pic_url": "https://scontent-yyz1-1.cdninstagram.com/v/t51.2885-19/338483420_767371781364640_7130261886171257817_n.jpg?stp=dst-jpg_s150x150_tt6&_nc_ht=scontent-yyz1-1.cdninstagram.com&_nc_cat=104&_nc_oc=Q6cZ2QEY9DVN2k1r5k6OGYjbF-NuoL1gHItU9Agnkag4zd64yC502LpwkdvC8nBIGRyJElE&_nc_ohc=vaeOXwBAERUQ7kNvgG1A410&_nc_gid=n19Crl8OZ7CzmV7SG8HmTQ&edm=ANTKIIoBAAAA&ccb=7-5&oh=00_AYFfJM41AutSheu656_tCmdFRER4kJeUX1gJ5_W5Ici3Fw&oe=67E8D65A&_nc_sid=d885a2",
+                                            "username": "dr.lisamarie.delrio"
+                                        },
+                                        "text": "@soulpatch70 I loved reading your comment. I am so happy to hear that you chose to stay with us, and I hope that you feel appreciated today. \u2764\ufe0f You are important and so needed to us.",
+                                        "viewer_has_liked": false
+                                    }
+                                }
+                            ],
+                            "page_info": {
+                                "end_cursor": null,
+                                "has_next_page": false
+                            }
+                        },
+                        "id": "18116168719410502",
+                        "is_restricted_pending": false,
+                        "owner": {
+                            "id": "3515604407",
+                            "is_verified": false,
+                            "profile_pic_url": "https://scontent-yyz1-1.cdninstagram.com/v/t51.2885-19/365832749_820083069562290_5220704527147519141_n.jpg?stp=dst-jpg_s150x150_tt6&_nc_ht=scontent-yyz1-1.cdninstagram.com&_nc_cat=106&_nc_oc=Q6cZ2QEY9DVN2k1r5k6OGYjbF-NuoL1gHItU9Agnkag4zd64yC502LpwkdvC8nBIGRyJElE&_nc_ohc=BgJqjtzh7m8Q7kNvgHJYstB&_nc_gid=n19Crl8OZ7CzmV7SG8HmTQ&edm=ANTKIIoBAAAA&ccb=7-5&oh=00_AYFzDlFl1CHe1e4qPCoc2b-Kyt0HaYg1Bmd2VZRXRlk08Q&oe=67E8D79B&_nc_sid=d885a2",
+                            "username": "soulpatch70"
+                        },
+                        "text": "Thank you. Thank you for saying this. I feel like today. We are consistently blamed for being who we are. I\u2019m truly grateful that you are helping others to see that men are not inherently evil, that we have value, and that we don\u2019t need to become women.  I\u2019ve been so close to suicide and it scared me, but now I\u2019m more grounded and wish I had heard this much more in the early stages of my divorce.\u2764\ufe0f",
+                        "viewer_has_liked": false
+                    }
+                },
+                {
+                    "node": {
+                        "created_at": 1742567017,
+                        "did_report_as_spam": false,
+                        "edge_liked_by": {
+                            "count": 0
+                        },
+                        "edge_threaded_comments": {
+                            "count": 0,
+                            "edges": [],
+                            "page_info": {
+                                "end_cursor": null,
+                                "has_next_page": false
+                            }
+                        },
+                        "id": "18090087298571286",
+                        "is_restricted_pending": false,
+                        "owner": {
+                            "id": "1227663527",
+                            "is_verified": false,
+                            "profile_pic_url": "https://scontent-yyz1-1.cdninstagram.com/v/t51.2885-19/72292860_513948949156370_4879156055973560320_n.jpg?stp=dst-jpg_s150x150_tt6&_nc_ht=scontent-yyz1-1.cdninstagram.com&_nc_cat=102&_nc_oc=Q6cZ2QEY9DVN2k1r5k6OGYjbF-NuoL1gHItU9Agnkag4zd64yC502LpwkdvC8nBIGRyJElE&_nc_ohc=O0D8ZAb_VN8Q7kNvgGdPCUx&_nc_gid=n19Crl8OZ7CzmV7SG8HmTQ&edm=ANTKIIoBAAAA&ccb=7-5&oh=00_AYFdClox3j7ktj-BnlarXmOYXq_ErBRWsrvmaBiKsLzI4Q&oe=67E8DF6D&_nc_sid=d885a2",
+                            "username": "drandreaecheverry"
+                        },
+                        "text": "#welovemen \u2764\ufe0f",
+                        "viewer_has_liked": false
+                    }
+                },
+                {
+                    "node": {
+                        "created_at": 1742528469,
+                        "did_report_as_spam": false,
+                        "edge_liked_by": {
+                            "count": 0
+                        },
+                        "edge_threaded_comments": {
+                            "count": 0,
+                            "edges": [],
+                            "page_info": {
+                                "end_cursor": null,
+                                "has_next_page": false
+                            }
+                        },
+                        "id": "18024735647425638",
+                        "is_restricted_pending": false,
+                        "owner": {
+                            "id": "647124819",
+                            "is_verified": false,
+                            "profile_pic_url": "https://scontent-yyz1-1.cdninstagram.com/v/t51.2885-19/486529884_1667950710492489_4027162704035292896_n.jpg?stp=dst-jpg_s150x150_tt6&_nc_ht=scontent-yyz1-1.cdninstagram.com&_nc_cat=109&_nc_oc=Q6cZ2QEY9DVN2k1r5k6OGYjbF-NuoL1gHItU9Agnkag4zd64yC502LpwkdvC8nBIGRyJElE&_nc_ohc=2zdYGH0VWrAQ7kNvgGlqbdN&_nc_gid=n19Crl8OZ7CzmV7SG8HmTQ&edm=ANTKIIoBAAAA&ccb=7-5&oh=00_AYFLTDmyGm5gTyvrRfh4dj6G9X1xEjMld8WL166r3i6S4w&oe=67E90246&_nc_sid=d885a2",
+                            "username": "ricksterh1"
+                        },
+                        "text": "Thank you! Taking this to a primal level is so enlightening. It has me fired up.",
+                        "viewer_has_liked": false
+                    }
+                },
+                {
+                    "node": {
+                        "created_at": 1742504440,
+                        "did_report_as_spam": false,
+                        "edge_liked_by": {
+                            "count": 0
+                        },
+                        "edge_threaded_comments": {
+                            "count": 0,
+                            "edges": [],
+                            "page_info": {
+                                "end_cursor": null,
+                                "has_next_page": false
+                            }
+                        },
+                        "id": "17900504235152987",
+                        "is_restricted_pending": false,
+                        "owner": {
+                            "id": "8288032185",
+                            "is_verified": false,
+                            "profile_pic_url": "https://scontent-yyz1-1.cdninstagram.com/v/t51.2885-19/469649988_482656814937747_5747276619222598948_n.jpg?stp=dst-jpg_s150x150_tt6&_nc_ht=scontent-yyz1-1.cdninstagram.com&_nc_cat=103&_nc_oc=Q6cZ2QEY9DVN2k1r5k6OGYjbF-NuoL1gHItU9Agnkag4zd64yC502LpwkdvC8nBIGRyJElE&_nc_ohc=m1jdVMCUMnwQ7kNvgHKnz3D&_nc_gid=n19Crl8OZ7CzmV7SG8HmTQ&edm=ANTKIIoBAAAA&ccb=7-5&oh=00_AYE_DnGC4gK2Wu3y7NJpeJROvR79VsYZIpV7BmzrAkSYTQ&oe=67E8FE2D&_nc_sid=d885a2",
+                            "username": "jackiedarnell_"
+                        },
+                        "text": "Protect us from WHOM? From WHOM? Men.",
+                        "viewer_has_liked": false
+                    }
+                },
+                {
+                    "node": {
+                        "created_at": 1742502909,
+                        "did_report_as_spam": false,
+                        "edge_liked_by": {
+                            "count": 0
+                        },
+                        "edge_threaded_comments": {
+                            "count": 0,
+                            "edges": [],
+                            "page_info": {
+                                "end_cursor": null,
+                                "has_next_page": false
+                            }
+                        },
+                        "id": "18042958589599957",
+                        "is_restricted_pending": false,
+                        "owner": {
+                            "id": "8288032185",
+                            "is_verified": false,
+                            "profile_pic_url": "https://scontent-yyz1-1.cdninstagram.com/v/t51.2885-19/469649988_482656814937747_5747276619222598948_n.jpg?stp=dst-jpg_s150x150_tt6&_nc_ht=scontent-yyz1-1.cdninstagram.com&_nc_cat=103&_nc_oc=Q6cZ2QEY9DVN2k1r5k6OGYjbF-NuoL1gHItU9Agnkag4zd64yC502LpwkdvC8nBIGRyJElE&_nc_ohc=m1jdVMCUMnwQ7kNvgHKnz3D&_nc_gid=n19Crl8OZ7CzmV7SG8HmTQ&edm=ANTKIIoBAAAA&ccb=7-5&oh=00_AYE_DnGC4gK2Wu3y7NJpeJROvR79VsYZIpV7BmzrAkSYTQ&oe=67E8FE2D&_nc_sid=d885a2",
+                            "username": "jackiedarnell_"
+                        },
+                        "text": "I challenge this as \"just the way it is\"... our brain wiring is plastic so these \"firings\" and \"light ups\" could absolutely be a result of social conditioning and not innate to males.",
+                        "viewer_has_liked": false
+                    }
+                }
+            ],
+            "page_info": {
+                "end_cursor": "{\"server_cursor\": \"QVFCT2hsc3BPSUZxLTRzbnlVOWYyNUpjZFdPaWlremc3SXVJajMxQUZlV2pOcGI1TmVXb1ZmbzA1eXpUck9VYUdITFI4SV9fNGlFTE9rbkcxS1k5SUp5eQ==\", \"is_server_cursor_inverse\": true}",
+                "has_next_page": true
+            }
+        },
+        "edge_media_to_sponsor_user": {
+            "edges": []
+        },
+        "edge_media_to_tagged_user": {
+            "edges": []
+        },
+        "edge_web_media_to_related_media": {
+            "edges": []
+        },
+        "encoding_status": null,
+        "fact_check_information": null,
+        "fact_check_overall_rating": null,
+        "gating_info": null,
+        "has_audio": true,
+        "has_ranked_comments": false,
+        "id": "3591899632478351841",
+        "is_ad": false,
+        "is_affiliate": false,
+        "is_paid_partnership": false,
+        "is_published": true,
+        "is_video": true,
+        "like_and_view_counts_disabled": false,
+        "location": null,
+        "media_overlay_info": null,
+        "media_preview": "ABgq5miiigAooooAkRyvHGD1yM1KHXnn/wAdH+eKrUuDjPagBzuW44wPQYoplFABU3m/JtqGigAooooA/9k=",
+        "nft_asset_info": null,
+        "owner": {
+            "blocked_by_viewer": false,
+            "edge_followed_by": {
+                "count": 105143
+            },
+            "edge_owner_to_timeline_media": {
+                "count": 333
+            },
+            "followed_by_viewer": false,
+            "full_name": "Lisa-Marie Del Rio, Psy.D.",
+            "has_blocked_viewer": false,
+            "id": "6942465532",
+            "is_embeds_disabled": false,
+            "is_private": false,
+            "is_unpublished": false,
+            "is_verified": true,
+            "pass_tiering_recommendation": true,
+            "profile_pic_url": "https://scontent-yyz1-1.cdninstagram.com/v/t51.2885-19/338483420_767371781364640_7130261886171257817_n.jpg?stp=dst-jpg_s150x150_tt6&_nc_ht=scontent-yyz1-1.cdninstagram.com&_nc_cat=104&_nc_oc=Q6cZ2QEY9DVN2k1r5k6OGYjbF-NuoL1gHItU9Agnkag4zd64yC502LpwkdvC8nBIGRyJElE&_nc_ohc=vaeOXwBAERUQ7kNvgG1A410&_nc_gid=n19Crl8OZ7CzmV7SG8HmTQ&edm=ANTKIIoBAAAA&ccb=7-5&oh=00_AYFfJM41AutSheu656_tCmdFRER4kJeUX1gJ5_W5Ici3Fw&oe=67E8D65A&_nc_sid=d885a2",
+            "requested_by_viewer": false,
+            "restricted_by_viewer": null,
+            "username": "dr.lisamarie.delrio"
+        },
+        "pinned_for_users": [],
+        "product_type": "clips",
+        "sensitivity_friction_info": null,
+        "sharing_friction_info": {
+            "bloks_app_url": null,
+            "should_have_sharing_friction": false
+        },
+        "shortcode": "DHY_a9eunHh",
+        "taken_at_timestamp": 1742407984,
+        "thumbnail_src": "https://scontent-yyz1-1.cdninstagram.com/v/t51.2885-15/485286943_18305583571225533_5076099147638455788_n.jpg?stp=c0.420.1080.1080a_dst-jpg_e35_s640x640_sh0.08_tt6&_nc_ht=scontent-yyz1-1.cdninstagram.com&_nc_cat=109&_nc_oc=Q6cZ2QEY9DVN2k1r5k6OGYjbF-NuoL1gHItU9Agnkag4zd64yC502LpwkdvC8nBIGRyJElE&_nc_ohc=rO9L9WebqJcQ7kNvgE96rQZ&_nc_gid=n19Crl8OZ7CzmV7SG8HmTQ&edm=ANTKIIoBAAAA&ccb=7-5&oh=00_AYHii_VcE8itKuvIbfziYUmXSIgTZ1Yx4Li1nnN8Kf76Jw&oe=67E8F3D5&_nc_sid=d885a2",
+        "title": "",
+        "tracking_token": "eyJ2ZXJzaW9uIjo1LCJwYXlsb2FkIjp7ImlzX2FuYWx5dGljc190cmFja2VkIjp0cnVlLCJ1dWlkIjoiNTFjMjMwMzJlNGNkNDQ3MTgwMjA4MWZmZTExZmE4ZDkzNTkxODk5NjMyNDc4MzUxODQxIn0sInNpZ25hdHVyZSI6IiJ9",
+        "upcoming_event": null,
+        "video_duration": 128.433,
+        "video_play_count": 32154,
+        "video_url": "https://scontent-yyz1-1.cdninstagram.com/o1/v/t16/f2/m86/AQPCYUvzcOXv-p9SjNNV0-Fee2aCkynTt--aOcsPmXBbLkU3HVKKyKX0dY3-hz0T6Ud0NNC2xkb8DiOg9Nl3OAWZjUaHdNlDMZr8W20.mp4?stp=dst-mp4&efg=eyJxZV9ncm91cHMiOiJbXCJpZ193ZWJfZGVsaXZlcnlfdnRzX290ZlwiXSIsInZlbmNvZGVfdGFnIjoidnRzX3ZvZF91cmxnZW4uY2xpcHMuYzIuNzIwLmJhc2VsaW5lIn0&_nc_cat=105&vs=2270173213376171_513821054&_nc_vs=HBksFQIYUmlnX3hwdl9yZWVsc19wZXJtYW5lbnRfc3JfcHJvZC9CRjREMjgyNzA3ODcyOTBBRDUyRDNEODc4RUJBQ0FBNV92aWRlb19kYXNoaW5pdC5tcDQVAALIAQAVAhg6cGFzc3Rocm91Z2hfZXZlcnN0b3JlL0dJejE4UnplMERZSE1COEZBQ3pRR0wxSF82QlNicV9FQUFBRhUCAsgBACgAGAAbABUAACamtYac0rOVQRUCKAJDMywXQGAN2yLQ5WAYEmRhc2hfYmFzZWxpbmVfMV92MREAdf4HAA%3D%3D&ccb=9-4&oh=00_AYElgsk7cn4Vz_X13bZyDBYvM2SDPQCabDXDOj5CRGRZ_Q&oe=67E4EFC6&_nc_sid=d885a2",
+        "video_view_count": 15136,
+        "viewer_can_reshare": true,
+        "viewer_has_liked": false,
+        "viewer_has_saved": false,
+        "viewer_has_saved_to_collection": false,
+        "viewer_in_photo_of_you": false
+    }
+}

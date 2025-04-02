@@ -1,0 +1,3 @@
+i finally got around to looking into MCP by anthropic and finding a client that I can use these MCP servers with by voice chat to an agent I can configure
+
+#aiagent #mcp #nodejs #opensource #aitools #artificelintelligence

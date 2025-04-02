@@ -1,0 +1,439 @@
+{
+    "instaloader": {
+        "node_type": "Post",
+        "version": "4.14.1"
+    },
+    "node": {
+        "__isXDTGraphMediaInterface": "XDTGraphVideo",
+        "__typename": "GraphVideo",
+        "accessibility_caption": null,
+        "can_see_insights_as_brand": false,
+        "caption_is_edited": false,
+        "clips_music_attribution_info": {
+            "artist_name": "hype.r.vigilance",
+            "audio_id": "1608329629828420",
+            "should_mute_audio": false,
+            "should_mute_audio_reason": "",
+            "song_name": "Original audio",
+            "uses_original_audio": true
+        },
+        "coauthor_producers": [],
+        "commenting_disabled_for_viewer": false,
+        "comments_disabled": false,
+        "dash_info": {
+            "is_dash_eligible": false,
+            "number_of_qualities": 0,
+            "video_dash_manifest": null
+        },
+        "dimensions": {
+            "height": 1920,
+            "width": 1080
+        },
+        "display_resources": [
+            {
+                "config_height": 1137,
+                "config_width": 640,
+                "src": "https://scontent-msp1-1.cdninstagram.com/v/t51.2885-15/482998762_18491058283044651_4096546739427390999_n.jpg?stp=dst-jpg_e35_p640x640_sh0.08_tt6&_nc_ht=scontent-msp1-1.cdninstagram.com&_nc_cat=103&_nc_oc=Q6cZ2AEogQiZ7I17HL4rsOb8GTYYrogRknwOOvbUaDpUu-zJvfkk0x97T9kW03KnaBMrWXo&_nc_ohc=9h_BCExrUxsQ7kNvgFwI7sO&_nc_gid=3b4b4dee2df643f8af13423a0b90dc7d&edm=ANTKIIoBAAAA&ccb=7-5&oh=00_AYEU6I0d-PBEkcaKUA1tudKTMcol6Ld51uZzHR6rDqDoEQ&oe=67D0F5AC&_nc_sid=d885a2"
+            },
+            {
+                "config_height": 1333,
+                "config_width": 750,
+                "src": "https://scontent-msp1-1.cdninstagram.com/v/t51.2885-15/482998762_18491058283044651_4096546739427390999_n.jpg?stp=dst-jpg_e35_p750x750_sh0.08_tt6&_nc_ht=scontent-msp1-1.cdninstagram.com&_nc_cat=103&_nc_oc=Q6cZ2AEogQiZ7I17HL4rsOb8GTYYrogRknwOOvbUaDpUu-zJvfkk0x97T9kW03KnaBMrWXo&_nc_ohc=9h_BCExrUxsQ7kNvgFwI7sO&_nc_gid=3b4b4dee2df643f8af13423a0b90dc7d&edm=ANTKIIoBAAAA&ccb=7-5&oh=00_AYF57nRioFkSNm-PR0X0666EiYYKED85J4yhatEkQ03wWg&oe=67D0F5AC&_nc_sid=d885a2"
+            },
+            {
+                "config_height": 1920,
+                "config_width": 1080,
+                "src": "https://scontent-msp1-1.cdninstagram.com/v/t51.2885-15/482998762_18491058283044651_4096546739427390999_n.jpg?stp=dst-jpg_e35_p1080x1080_sh0.08_tt6&_nc_ht=scontent-msp1-1.cdninstagram.com&_nc_cat=103&_nc_oc=Q6cZ2AEogQiZ7I17HL4rsOb8GTYYrogRknwOOvbUaDpUu-zJvfkk0x97T9kW03KnaBMrWXo&_nc_ohc=9h_BCExrUxsQ7kNvgFwI7sO&_nc_gid=3b4b4dee2df643f8af13423a0b90dc7d&edm=ANTKIIoBAAAA&ccb=7-5&oh=00_AYEQQQ1BqRXxd9gtqjHho3VIBmVaKd0GPucj2MNwA7gbUw&oe=67D0F5AC&_nc_sid=d885a2"
+            }
+        ],
+        "display_url": "https://scontent-msp1-1.cdninstagram.com/v/t51.2885-15/482998762_18491058283044651_4096546739427390999_n.jpg?stp=dst-jpg_e35_p1080x1080_sh0.08_tt6&_nc_ht=scontent-msp1-1.cdninstagram.com&_nc_cat=103&_nc_oc=Q6cZ2AEogQiZ7I17HL4rsOb8GTYYrogRknwOOvbUaDpUu-zJvfkk0x97T9kW03KnaBMrWXo&_nc_ohc=9h_BCExrUxsQ7kNvgFwI7sO&_nc_gid=3b4b4dee2df643f8af13423a0b90dc7d&edm=ANTKIIoBAAAA&ccb=7-5&oh=00_AYEQQQ1BqRXxd9gtqjHho3VIBmVaKd0GPucj2MNwA7gbUw&oe=67D0F5AC&_nc_sid=d885a2",
+        "edge_media_preview_comment": {
+            "count": 216,
+            "edges": [
+                {
+                    "node": {
+                        "created_at": 1741369454,
+                        "did_report_as_spam": false,
+                        "edge_liked_by": {
+                            "count": 0
+                        },
+                        "id": "17963271293894544",
+                        "is_restricted_pending": false,
+                        "owner": {
+                            "id": "395820650",
+                            "is_verified": false,
+                            "profile_pic_url": "https://scontent-msp1-1.cdninstagram.com/v/t51.2885-19/482171520_1271529487265690_699372070651770896_n.jpg?stp=dst-jpg_s150x150_tt6&_nc_ht=scontent-msp1-1.cdninstagram.com&_nc_cat=102&_nc_oc=Q6cZ2AEogQiZ7I17HL4rsOb8GTYYrogRknwOOvbUaDpUu-zJvfkk0x97T9kW03KnaBMrWXo&_nc_ohc=DkmIVL4dh6MQ7kNvgFA1gV4&_nc_gid=3b4b4dee2df643f8af13423a0b90dc7d&edm=ANTKIIoBAAAA&ccb=7-5&oh=00_AYGIZvd51Mzx_EanXfpPGu5B34HxhL7SY7Wr52h23oWWLw&oe=67D11EA9&_nc_sid=d885a2",
+                            "username": "hype.r.vigilance"
+                        },
+                        "text": "@elahintraining no because yahweh doesn\u2019t exist. It\u2019s a character in book. If it was a good and loving diety who can control the world as you imply here why is there so much suffering in the world?",
+                        "viewer_has_liked": false
+                    }
+                },
+                {
+                    "node": {
+                        "created_at": 1741370058,
+                        "did_report_as_spam": false,
+                        "edge_liked_by": {
+                            "count": 0
+                        },
+                        "id": "18384659953116744",
+                        "is_restricted_pending": false,
+                        "owner": {
+                            "id": "1574317799",
+                            "is_verified": false,
+                            "profile_pic_url": "https://scontent-msp1-1.cdninstagram.com/v/t51.2885-19/438832858_2439083989631612_7192166573911898158_n.jpg?stp=dst-jpg_s150x150_tt6&_nc_ht=scontent-msp1-1.cdninstagram.com&_nc_cat=108&_nc_oc=Q6cZ2AEogQiZ7I17HL4rsOb8GTYYrogRknwOOvbUaDpUu-zJvfkk0x97T9kW03KnaBMrWXo&_nc_ohc=tZf7whvAurkQ7kNvgEOpoFQ&_nc_gid=3b4b4dee2df643f8af13423a0b90dc7d&edm=ANTKIIoBAAAA&ccb=7-5&oh=00_AYG8s48DQ44cgXVZP-oJzJV_2bfETDBRuRa3WyWOzs6a9A&oe=67D11B92&_nc_sid=d885a2",
+                            "username": "ayekaycole"
+                        },
+                        "text": "Thankuuuuuu\ud83d\udd25\ud83d\udd25\ud83d\udd25",
+                        "viewer_has_liked": false
+                    }
+                }
+            ]
+        },
+        "edge_media_preview_like": {
+            "count": 1699,
+            "edges": []
+        },
+        "edge_media_to_caption": {
+            "edges": []
+        },
+        "edge_media_to_hoisted_comment": {
+            "edges": []
+        },
+        "edge_media_to_parent_comment": {
+            "count": 216,
+            "edges": [
+                {
+                    "node": {
+                        "created_at": 1741370058,
+                        "did_report_as_spam": false,
+                        "edge_liked_by": {
+                            "count": 0
+                        },
+                        "edge_threaded_comments": {
+                            "count": 0,
+                            "edges": [],
+                            "page_info": {
+                                "end_cursor": null,
+                                "has_next_page": false
+                            }
+                        },
+                        "id": "18384659953116744",
+                        "is_restricted_pending": false,
+                        "owner": {
+                            "id": "1574317799",
+                            "is_verified": false,
+                            "profile_pic_url": "https://scontent-msp1-1.cdninstagram.com/v/t51.2885-19/438832858_2439083989631612_7192166573911898158_n.jpg?stp=dst-jpg_s150x150_tt6&_nc_ht=scontent-msp1-1.cdninstagram.com&_nc_cat=108&_nc_oc=Q6cZ2AEogQiZ7I17HL4rsOb8GTYYrogRknwOOvbUaDpUu-zJvfkk0x97T9kW03KnaBMrWXo&_nc_ohc=tZf7whvAurkQ7kNvgEOpoFQ&_nc_gid=3b4b4dee2df643f8af13423a0b90dc7d&edm=ANTKIIoBAAAA&ccb=7-5&oh=00_AYG8s48DQ44cgXVZP-oJzJV_2bfETDBRuRa3WyWOzs6a9A&oe=67D11B92&_nc_sid=d885a2",
+                            "username": "ayekaycole"
+                        },
+                        "text": "Thankuuuuuu\ud83d\udd25\ud83d\udd25\ud83d\udd25",
+                        "viewer_has_liked": false
+                    }
+                },
+                {
+                    "node": {
+                        "created_at": 1741369262,
+                        "did_report_as_spam": false,
+                        "edge_liked_by": {
+                            "count": 0
+                        },
+                        "edge_threaded_comments": {
+                            "count": 0,
+                            "edges": [],
+                            "page_info": {
+                                "end_cursor": null,
+                                "has_next_page": false
+                            }
+                        },
+                        "id": "18032369579303572",
+                        "is_restricted_pending": false,
+                        "owner": {
+                            "id": "50751828341",
+                            "is_verified": false,
+                            "profile_pic_url": "https://scontent-msp1-1.cdninstagram.com/v/t51.2885-19/320020713_190053893673884_6010646439920998243_n.jpg?stp=dst-jpg_s150x150_tt6&_nc_ht=scontent-msp1-1.cdninstagram.com&_nc_cat=108&_nc_oc=Q6cZ2AEogQiZ7I17HL4rsOb8GTYYrogRknwOOvbUaDpUu-zJvfkk0x97T9kW03KnaBMrWXo&_nc_ohc=QOQ_Ub5DlIAQ7kNvgGD_ySV&_nc_gid=3b4b4dee2df643f8af13423a0b90dc7d&edm=ANTKIIoBAAAA&ccb=7-5&oh=00_AYERrOwM4DFEgSJmNdnrUugX6ehl-gnYIk8IGt4LKYlKqA&oe=67D10F1D&_nc_sid=d885a2",
+                            "username": "jeremiah.hackett"
+                        },
+                        "text": "No it did not, at least in Catholicism, where the mother of the Son of God is all important!",
+                        "viewer_has_liked": false
+                    }
+                },
+                {
+                    "node": {
+                        "created_at": 1741368850,
+                        "did_report_as_spam": false,
+                        "edge_liked_by": {
+                            "count": 0
+                        },
+                        "edge_threaded_comments": {
+                            "count": 0,
+                            "edges": [],
+                            "page_info": {
+                                "end_cursor": null,
+                                "has_next_page": false
+                            }
+                        },
+                        "id": "17861583747362364",
+                        "is_restricted_pending": false,
+                        "owner": {
+                            "id": "336581821",
+                            "is_verified": false,
+                            "profile_pic_url": "https://scontent-msp1-1.cdninstagram.com/v/t51.2885-19/422036798_398411269385906_5930357350043872900_n.jpg?stp=dst-jpg_s150x150_tt6&_nc_ht=scontent-msp1-1.cdninstagram.com&_nc_cat=102&_nc_oc=Q6cZ2AEogQiZ7I17HL4rsOb8GTYYrogRknwOOvbUaDpUu-zJvfkk0x97T9kW03KnaBMrWXo&_nc_ohc=aMHY38nUWm0Q7kNvgGoEyrw&_nc_gid=3b4b4dee2df643f8af13423a0b90dc7d&edm=ANTKIIoBAAAA&ccb=7-5&oh=00_AYHxIw4wTl_Moo0FgsAkR2moswsVsYlcvUP9OHP7w8x52Q&oe=67D0F9E2&_nc_sid=d885a2",
+                            "username": "jennel227"
+                        },
+                        "text": "also 100% believe that christianity and religion in general all have let to evil and are corrupted by the man who created them. \nbut not sold on belief that the gospel/ bible isn\u2019t significant \u2026 but that\u2019s where i\u2019m at now.. as I learn more and discuss more who knows. I love exploring all of this.",
+                        "viewer_has_liked": false
+                    }
+                },
+                {
+                    "node": {
+                        "created_at": 1741368800,
+                        "did_report_as_spam": false,
+                        "edge_liked_by": {
+                            "count": 0
+                        },
+                        "edge_threaded_comments": {
+                            "count": 1,
+                            "edges": [
+                                {
+                                    "node": {
+                                        "created_at": 1741369454,
+                                        "did_report_as_spam": false,
+                                        "edge_liked_by": {
+                                            "count": 0
+                                        },
+                                        "id": "17963271293894544",
+                                        "is_restricted_pending": false,
+                                        "owner": {
+                                            "id": "395820650",
+                                            "is_verified": false,
+                                            "profile_pic_url": "https://scontent-msp1-1.cdninstagram.com/v/t51.2885-19/482171520_1271529487265690_699372070651770896_n.jpg?stp=dst-jpg_s150x150_tt6&_nc_ht=scontent-msp1-1.cdninstagram.com&_nc_cat=102&_nc_oc=Q6cZ2AEogQiZ7I17HL4rsOb8GTYYrogRknwOOvbUaDpUu-zJvfkk0x97T9kW03KnaBMrWXo&_nc_ohc=DkmIVL4dh6MQ7kNvgFA1gV4&_nc_gid=3b4b4dee2df643f8af13423a0b90dc7d&edm=ANTKIIoBAAAA&ccb=7-5&oh=00_AYGIZvd51Mzx_EanXfpPGu5B34HxhL7SY7Wr52h23oWWLw&oe=67D11EA9&_nc_sid=d885a2",
+                                            "username": "hype.r.vigilance"
+                                        },
+                                        "text": "@elahintraining no because yahweh doesn\u2019t exist. It\u2019s a character in book. If it was a good and loving diety who can control the world as you imply here why is there so much suffering in the world?",
+                                        "viewer_has_liked": false
+                                    }
+                                }
+                            ],
+                            "page_info": {
+                                "end_cursor": null,
+                                "has_next_page": false
+                            }
+                        },
+                        "id": "18061990447791939",
+                        "is_restricted_pending": false,
+                        "owner": {
+                            "id": "5516943105",
+                            "is_verified": false,
+                            "profile_pic_url": "https://scontent-msp1-1.cdninstagram.com/v/t51.2885-19/327015299_879502280027708_4834433396038324039_n.jpg?stp=dst-jpg_s150x150_tt6&_nc_ht=scontent-msp1-1.cdninstagram.com&_nc_cat=108&_nc_oc=Q6cZ2AEogQiZ7I17HL4rsOb8GTYYrogRknwOOvbUaDpUu-zJvfkk0x97T9kW03KnaBMrWXo&_nc_ohc=sClcwePWccgQ7kNvgEogIqW&_nc_gid=3b4b4dee2df643f8af13423a0b90dc7d&edm=ANTKIIoBAAAA&ccb=7-5&oh=00_AYEcLJ1sBFMRnoDh5KVzWXjBBRKd1zUBrcH6h3Ka7s0GtQ&oe=67D1183C&_nc_sid=d885a2",
+                            "username": "elahintraining"
+                        },
+                        "text": "If Yahweh is this narcissistic evil being, wouldn\u2019t you be dead just for saying that?\nYeah the thing about evil is that you can manipulate the truth into a lie. That doesn\u2019t stop the truth from being true.\nGod made women in his image. They\u2019re here to serve God same as men, but they play a different role having different abilities.",
+                        "viewer_has_liked": false
+                    }
+                },
+                {
+                    "node": {
+                        "created_at": 1741368558,
+                        "did_report_as_spam": false,
+                        "edge_liked_by": {
+                            "count": 0
+                        },
+                        "edge_threaded_comments": {
+                            "count": 0,
+                            "edges": [],
+                            "page_info": {
+                                "end_cursor": null,
+                                "has_next_page": false
+                            }
+                        },
+                        "id": "18049369286212341",
+                        "is_restricted_pending": false,
+                        "owner": {
+                            "id": "336581821",
+                            "is_verified": false,
+                            "profile_pic_url": "https://scontent-msp1-1.cdninstagram.com/v/t51.2885-19/422036798_398411269385906_5930357350043872900_n.jpg?stp=dst-jpg_s150x150_tt6&_nc_ht=scontent-msp1-1.cdninstagram.com&_nc_cat=102&_nc_oc=Q6cZ2AEogQiZ7I17HL4rsOb8GTYYrogRknwOOvbUaDpUu-zJvfkk0x97T9kW03KnaBMrWXo&_nc_ohc=aMHY38nUWm0Q7kNvgGoEyrw&_nc_gid=3b4b4dee2df643f8af13423a0b90dc7d&edm=ANTKIIoBAAAA&ccb=7-5&oh=00_AYHxIw4wTl_Moo0FgsAkR2moswsVsYlcvUP9OHP7w8x52Q&oe=67D0F9E2&_nc_sid=d885a2",
+                            "username": "jennel227"
+                        },
+                        "text": "and if man was living as God intended to create him\u2026 why WOULDNT or SHOULDNT woman want to submit to that? It\u2019s literally pure agape love \ud83d\udc95",
+                        "viewer_has_liked": false
+                    }
+                },
+                {
+                    "node": {
+                        "created_at": 1741368499,
+                        "did_report_as_spam": false,
+                        "edge_liked_by": {
+                            "count": 0
+                        },
+                        "edge_threaded_comments": {
+                            "count": 0,
+                            "edges": [],
+                            "page_info": {
+                                "end_cursor": null,
+                                "has_next_page": false
+                            }
+                        },
+                        "id": "17887303941215119",
+                        "is_restricted_pending": false,
+                        "owner": {
+                            "id": "336581821",
+                            "is_verified": false,
+                            "profile_pic_url": "https://scontent-msp1-1.cdninstagram.com/v/t51.2885-19/422036798_398411269385906_5930357350043872900_n.jpg?stp=dst-jpg_s150x150_tt6&_nc_ht=scontent-msp1-1.cdninstagram.com&_nc_cat=102&_nc_oc=Q6cZ2AEogQiZ7I17HL4rsOb8GTYYrogRknwOOvbUaDpUu-zJvfkk0x97T9kW03KnaBMrWXo&_nc_ohc=aMHY38nUWm0Q7kNvgGoEyrw&_nc_gid=3b4b4dee2df643f8af13423a0b90dc7d&edm=ANTKIIoBAAAA&ccb=7-5&oh=00_AYHxIw4wTl_Moo0FgsAkR2moswsVsYlcvUP9OHP7w8x52Q&oe=67D0F9E2&_nc_sid=d885a2",
+                            "username": "jennel227"
+                        },
+                        "text": "Also we get hung up on the scripture that says women are to submit@to husbands. but that\u2019s literally all was said for them. the rest of it teaches MAN how to be LOVE towards the woman. Also I don\u2019t think it matters if eve or adam plucked the fruit from the evil/ bad tree.. they both were in agreement to not completely TRUST their CREATor/ higher power / LOVE/holy spirit and all its fruits according to scripture\u2026  This is why when we can lean back and trust and feel and just BE the way we were created ( in \u201chis\u201d image) \u2026 we FEEL FREEDOM AND JOY",
+                        "viewer_has_liked": false
+                    }
+                },
+                {
+                    "node": {
+                        "created_at": 1741368234,
+                        "did_report_as_spam": false,
+                        "edge_liked_by": {
+                            "count": 0
+                        },
+                        "edge_threaded_comments": {
+                            "count": 1,
+                            "edges": [
+                                {
+                                    "node": {
+                                        "created_at": 1741368934,
+                                        "did_report_as_spam": false,
+                                        "edge_liked_by": {
+                                            "count": 0
+                                        },
+                                        "id": "17928552285009582",
+                                        "is_restricted_pending": false,
+                                        "owner": {
+                                            "id": "336581821",
+                                            "is_verified": false,
+                                            "profile_pic_url": "https://scontent-msp1-1.cdninstagram.com/v/t51.2885-19/422036798_398411269385906_5930357350043872900_n.jpg?stp=dst-jpg_s150x150_tt6&_nc_ht=scontent-msp1-1.cdninstagram.com&_nc_cat=102&_nc_oc=Q6cZ2AEogQiZ7I17HL4rsOb8GTYYrogRknwOOvbUaDpUu-zJvfkk0x97T9kW03KnaBMrWXo&_nc_ohc=aMHY38nUWm0Q7kNvgGoEyrw&_nc_gid=3b4b4dee2df643f8af13423a0b90dc7d&edm=ANTKIIoBAAAA&ccb=7-5&oh=00_AYHxIw4wTl_Moo0FgsAkR2moswsVsYlcvUP9OHP7w8x52Q&oe=67D0F9E2&_nc_sid=d885a2",
+                                            "username": "jennel227"
+                                        },
+                                        "text": "@jennel227 who the hell not \u201cwhite hell \u201c lol",
+                                        "viewer_has_liked": false
+                                    }
+                                }
+                            ],
+                            "page_info": {
+                                "end_cursor": null,
+                                "has_next_page": false
+                            }
+                        },
+                        "id": "17849360262422076",
+                        "is_restricted_pending": false,
+                        "owner": {
+                            "id": "336581821",
+                            "is_verified": false,
+                            "profile_pic_url": "https://scontent-msp1-1.cdninstagram.com/v/t51.2885-19/422036798_398411269385906_5930357350043872900_n.jpg?stp=dst-jpg_s150x150_tt6&_nc_ht=scontent-msp1-1.cdninstagram.com&_nc_cat=102&_nc_oc=Q6cZ2AEogQiZ7I17HL4rsOb8GTYYrogRknwOOvbUaDpUu-zJvfkk0x97T9kW03KnaBMrWXo&_nc_ohc=aMHY38nUWm0Q7kNvgGoEyrw&_nc_gid=3b4b4dee2df643f8af13423a0b90dc7d&edm=ANTKIIoBAAAA&ccb=7-5&oh=00_AYHxIw4wTl_Moo0FgsAkR2moswsVsYlcvUP9OHP7w8x52Q&oe=67D0F9E2&_nc_sid=d885a2",
+                            "username": "jennel227"
+                        },
+                        "text": "this is so interesting to me. lots of interesting points. I laid down religion a long time ago. but based on what i\u2019ve read and learned and experienced so far in my life I currently do believe in the gospel and the trinity. spirit/ flesh . good: evil. transformation (increased awarenesss basically) and that God isn\u2019t male or@female \u2026 when i think of@the word God i dont think of a man, i think of a spirit. the holy spirit and Gid are any higher power / with more awareness / conciousness than me, i think of pure agape love , and whatever goodness / love is beyond that. My understanding from scripture was that \u201cwisdom\u201d aka \u201cthe holy spirit ( i feel like ghost is what the catholic RELIGION called it) which virgin mary is used to symbolize  in HUMAN FLESHLY nature are all the divine feminine . I currently believe that as explained in timothy.. every piece of the gospel was written as a result of the holy spirit working through man. Not written or created by man. I also was under the understanding that God/ higher power chose to send a man ( jesus ) to earth as an example of@what he meant for@us to act like if we truly were created in Gods image. Because MAN was the problem. He didn\u2019t send his only@daughter\u2026 \nI don\u2019t think God/ holy spirt / higher power/ LOVE.. all which are simply represent by jesus as an example .. I don\u2019t think he/ she / it/ they ( lol) CARED OR WANTED IS TO FOCUS ON skin color. it\u2019s irrelevant. And I think that anyone who gets caught up in the outer appearance of anyone in order to define their worth is racist. \nif LOVE doesn\u2019t see color then white hell cares what color. I don\u2019t like to make@assumptions or judgements about why someone chose to create a picture or@film of jesus and chose whotw@skin. \nThey POINT is his behavior , and the fact that he literally is a living example of pure agape love\u2026 aka holy@sporit/ god/ higher power he / she /it / divine feminine is you want/ a bright colorful spirit unicorn.. doesn\u2019t MATTER. what matters is the Love and goodness and other fruits OF the SPIRIT .",
+                        "viewer_has_liked": false
+                    }
+                },
+                {
+                    "node": {
+                        "created_at": 1741368046,
+                        "did_report_as_spam": false,
+                        "edge_liked_by": {
+                            "count": 0
+                        },
+                        "edge_threaded_comments": {
+                            "count": 0,
+                            "edges": [],
+                            "page_info": {
+                                "end_cursor": null,
+                                "has_next_page": false
+                            }
+                        },
+                        "id": "18119223934434657",
+                        "is_restricted_pending": false,
+                        "owner": {
+                            "id": "70108099294",
+                            "is_verified": false,
+                            "profile_pic_url": "https://scontent-msp1-1.cdninstagram.com/v/t51.2885-19/462817913_871146148127039_4630764379856182761_n.jpg?stp=dst-jpg_s150x150_tt6&_nc_ht=scontent-msp1-1.cdninstagram.com&_nc_cat=111&_nc_oc=Q6cZ2AEogQiZ7I17HL4rsOb8GTYYrogRknwOOvbUaDpUu-zJvfkk0x97T9kW03KnaBMrWXo&_nc_ohc=Gvd07E2WUY8Q7kNvgExDcVa&_nc_gid=3b4b4dee2df643f8af13423a0b90dc7d&edm=ANTKIIoBAAAA&ccb=7-5&oh=00_AYHIIybe7DAaccNkTU5sOyiPCSpOb9s_hu0WnVhSxpKjxQ&oe=67D11C42&_nc_sid=d885a2",
+                            "username": "realmsofthespiritart"
+                        },
+                        "text": "Abrahamic religions but yes",
+                        "viewer_has_liked": false
+                    }
+                }
+            ],
+            "page_info": {
+                "end_cursor": "{\"server_cursor\": \"QVFCMExWNktDN29VV3NtSDRRRHZXd0RKTnVWQ1NHTTNMVGYyRlhORkFfalRHRW5tX0hRR2FqUkZ6Qm8yWE50NEJyUmZpbjExb0s5dHpKZDAwYWVjTkptbw==\", \"is_server_cursor_inverse\": true}",
+                "has_next_page": true
+            }
+        },
+        "edge_media_to_sponsor_user": {
+            "edges": []
+        },
+        "edge_media_to_tagged_user": {
+            "edges": []
+        },
+        "edge_web_media_to_related_media": {
+            "edges": []
+        },
+        "encoding_status": null,
+        "fact_check_information": null,
+        "fact_check_overall_rating": null,
+        "gating_info": null,
+        "has_audio": true,
+        "has_ranked_comments": false,
+        "id": "3582468998949300574",
+        "is_ad": false,
+        "is_affiliate": false,
+        "is_paid_partnership": false,
+        "is_published": true,
+        "is_video": true,
+        "like_and_view_counts_disabled": false,
+        "location": null,
+        "media_overlay_info": null,
+        "media_preview": "ABgq0ERz0xgcelOMb+35iotPud/mByFwRjPHGPf3q6GQnG5c/Uf40gMy4Dxj5sYPHUGipNQdSiYIbBPQg0UwMffhsNyo/rzWkrR7chcFT6VkBuvqSK1pJf3WW+UkioNVsZpIAx/nrmipltxIud3t07/nRWhiZoVg2QCPX/PpViadzgMDgflVl/vIe5xn36VVm6Y9GrO5qXI4Cr5XkH5sHpjPr/KipICfIB9j/OiqJsf/2Q==",
+        "nft_asset_info": null,
+        "owner": {
+            "blocked_by_viewer": false,
+            "edge_followed_by": {
+                "count": 67212
+            },
+            "edge_owner_to_timeline_media": {
+                "count": 2961
+            },
+            "followed_by_viewer": false,
+            "full_name": "Christian John",
+            "has_blocked_viewer": false,
+            "id": "395820650",
+            "is_embeds_disabled": false,
+            "is_private": false,
+            "is_unpublished": false,
+            "is_verified": false,
+            "pass_tiering_recommendation": true,
+            "profile_pic_url": "https://scontent-msp1-1.cdninstagram.com/v/t51.2885-19/482171520_1271529487265690_699372070651770896_n.jpg?stp=dst-jpg_s150x150_tt6&_nc_ht=scontent-msp1-1.cdninstagram.com&_nc_cat=102&_nc_oc=Q6cZ2AEogQiZ7I17HL4rsOb8GTYYrogRknwOOvbUaDpUu-zJvfkk0x97T9kW03KnaBMrWXo&_nc_ohc=DkmIVL4dh6MQ7kNvgFA1gV4&_nc_gid=3b4b4dee2df643f8af13423a0b90dc7d&edm=ANTKIIoBAAAA&ccb=7-5&oh=00_AYGIZvd51Mzx_EanXfpPGu5B34HxhL7SY7Wr52h23oWWLw&oe=67D11EA9&_nc_sid=d885a2",
+            "requested_by_viewer": false,
+            "restricted_by_viewer": null,
+            "username": "hype.r.vigilance"
+        },
+        "pinned_for_users": [],
+        "product_type": "clips",
+        "sensitivity_friction_info": null,
+        "sharing_friction_info": {
+            "bloks_app_url": null,
+            "should_have_sharing_friction": false
+        },
+        "shortcode": "DG3fJLlOOle",
+        "taken_at_timestamp": 1741283729,
+        "thumbnail_src": "https://scontent-msp1-1.cdninstagram.com/v/t51.2885-15/482998762_18491058283044651_4096546739427390999_n.jpg?stp=c0.458.1179.1179a_dst-jpg_e35_s640x640_sh0.08_tt6&_nc_ht=scontent-msp1-1.cdninstagram.com&_nc_cat=103&_nc_oc=Q6cZ2AEogQiZ7I17HL4rsOb8GTYYrogRknwOOvbUaDpUu-zJvfkk0x97T9kW03KnaBMrWXo&_nc_ohc=9h_BCExrUxsQ7kNvgFwI7sO&_nc_gid=3b4b4dee2df643f8af13423a0b90dc7d&edm=ANTKIIoBAAAA&ccb=7-5&oh=00_AYEFSZedVIycocAC58TquMJ_e--jtvHwSsdebmwk6zhsXw&oe=67D0F5AC&_nc_sid=d885a2",
+        "title": null,
+        "tracking_token": "eyJ2ZXJzaW9uIjo1LCJwYXlsb2FkIjp7ImlzX2FuYWx5dGljc190cmFja2VkIjp0cnVlLCJ1dWlkIjoiM2I0YjRkZWUyZGY2NDNmOGFmMTM0MjNhMGI5MGRjN2QzNTgyNDY4OTk4OTQ5MzAwNTc0In0sInNpZ25hdHVyZSI6IiJ9",
+        "upcoming_event": null,
+        "video_duration": 138.412,
+        "video_play_count": 20302,
+        "video_url": "https://scontent-msp1-1.cdninstagram.com/o1/v/t16/f2/m86/AQO0eUnRStODOW9QZ2St4lW8dn5zY13j9-InKbhek5oXA8AgZSttViCp3WnpC5F6BxNH9wJN2hdOd4jQoZrB9kAcJ1OFqaztjg_a7B8.mp4?stp=dst-mp4&efg=eyJxZV9ncm91cHMiOiJbXCJpZ193ZWJfZGVsaXZlcnlfdnRzX290ZlwiXSIsInZlbmNvZGVfdGFnIjoidnRzX3ZvZF91cmxnZW4uY2xpcHMuYzIuNzIwLmJhc2VsaW5lIn0&_nc_cat=107&vs=1612792029361596_13823904&_nc_vs=HBksFQIYUmlnX3hwdl9yZWVsc19wZXJtYW5lbnRfc3JfcHJvZC8wRTRCNzdCOENBMTIxRDFGMTU3QzZFOUE4MEEzRjc5M192aWRlb19kYXNoaW5pdC5tcDQVAALIAQAVAhg6cGFzc3Rocm91Z2hfZXZlcnN0b3JlL0dLeDd3QngxZEU3b2JRQU9BR19xdENXd3ZmaG9icV9FQUFBRhUCAsgBACgAGAAbABUAACayhaKapcqEQBUCKAJDMywXQGFNFocrAgwYEmRhc2hfYmFzZWxpbmVfMV92MREAdf4HAA%3D%3D&ccb=9-4&oh=00_AYFSQeU7MMd2F7FBPcm39QFiPpI2id_mYXrF8nGMe14Gsg&oe=67CD0F66&_nc_sid=d885a2",
+        "video_view_count": 9825,
+        "viewer_can_reshare": true,
+        "viewer_has_liked": false,
+        "viewer_has_saved": false,
+        "viewer_has_saved_to_collection": false,
+        "viewer_in_photo_of_you": false
+    }
+}

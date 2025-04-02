@@ -1,0 +1,3 @@
+# Instagram Post by sabrina_ramonov
+
+How to build mobile apps with AI in 2025, using this brand new, still kind of buggy and early stage project. Really excited for this project to takeoff because so many people ask me how to build mobile apps with AI instead of using lovable, and cursor is a bit too advanced for people just starting out without any technical background. - can AI build mobile apps for iOS and android? - best AI tools to build mobile apps in 2025? - I want to build a mobile app, but don’t know where to start AI help? ##ai##coding##reactnative##mobileapp##software##startup##aitools##aiwebsites##sabrinaramonov##artificialintelligence

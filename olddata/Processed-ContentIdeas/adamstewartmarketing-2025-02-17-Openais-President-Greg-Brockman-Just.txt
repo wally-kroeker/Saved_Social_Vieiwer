@@ -1,0 +1,10 @@
+OpenAI’s President Greg Brockman just shared the best way to structure the perfect prompt.
+
+The framework originally from Ben Hylak, is built on four key pillars:
+
+1️⃣ Goal – Define what you want clearly.
+2️⃣ Return Format – Specify exactly how you want the response structured.
+3️⃣ Warnings – Highlight any important details the AI should double-check.
+4️⃣ Context Dump – Provide background info to improve the response.
+
+#prompt #ai #o1 #openai #chatgpt

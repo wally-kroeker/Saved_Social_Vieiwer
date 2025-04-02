@@ -1,0 +1,1828 @@
+{
+    "instaloader": {
+        "node_type": "Post",
+        "version": "4.14.1"
+    },
+    "node": {
+        "__isXDTGraphMediaInterface": "XDTGraphVideo",
+        "__typename": "GraphVideo",
+        "accessibility_caption": null,
+        "can_see_insights_as_brand": false,
+        "caption_is_edited": false,
+        "clips_music_attribution_info": {
+            "artist_name": "nononsensespirituality",
+            "audio_id": "1000595745297993",
+            "should_mute_audio": false,
+            "should_mute_audio_reason": "",
+            "song_name": "Original audio",
+            "uses_original_audio": true
+        },
+        "coauthor_producers": [],
+        "commenting_disabled_for_viewer": false,
+        "comments_disabled": false,
+        "dash_info": {
+            "is_dash_eligible": true,
+            "number_of_qualities": 6,
+            "video_dash_manifest": "<?xml version=\"1.0\" encoding=\"UTF-8\"?>\n<MPD xmlns=\"urn:mpeg:dash:schema:mpd:2011\" xmlns:xsi=\"http://www.w3.org/2001/XMLSchema-instance\" xsi:schemaLocation=\"urn:mpeg:dash:schema:mpd:2011 DASH-MPD.xsd\" profiles=\"urn:mpeg:dash:profile:isoff-on-demand:2011\" minBufferTime=\"PT2S\" type=\"static\" mediaPresentationDuration=\"PT188.266663S\" FBManifestIdentifier=\"FgAYEnIyZXZldnA5LXIxZ2VuMnZwORl2pqHP15nmkQKsh6yvmuWtAp6omufRyMgDgMmz3M+k1AOK+ZK2ipmuBL6736yJreQF1LmrqfT0tAYiGBhkYXNoX2xuX2hlYWFjX3ZicjNfYXVkaW8A\"><Period id=\"0\" duration=\"PT188.266663S\"><AdaptationSet id=\"0\" contentType=\"video\" subsegmentAlignment=\"true\" par=\"9:16\" FBUnifiedUploadResolutionMos=\"360:83.4\"><Representation id=\"1227485872283205vd\" bandwidth=\"121857\" codecs=\"vp09.00.31.08.00.01.01.01.00\" mimeType=\"video/mp4\" sar=\"1:1\" FBEncodingTag=\"dash_r2evevp9-r1gen2vp9_q40\" FBContentLength=\"2867715\" FBPlaybackResolutionMos=\"0:100,360:49.5,480:42.8,720:36,1080:33.9\" FBPlaybackResolutionMosConfidenceLevel=\"high\" FBPlaybackResolutionCsvqm=\"0:100,360:86.4,480:83.5,720:77.7,1080:68.9\" FBAbrPolicyTags=\"\" width=\"720\" height=\"1280\" frameRate=\"15360/512\" FBDefaultQuality=\"1\" FBQualityClass=\"hd\" FBQualityLabel=\"360p\"><BaseURL>https://scontent-msp1-1.cdninstagram.com/o1/v/t2/f2/m367/AQPQYXQvD-bAO32b1GuLKXcid0tI0L3vGhMtshgGRCmdtLHCtkohQdn5AgkQjC5WUlZI3T1LrwlNB2flisbqj0NzehPN8t15KIl94Qw.mp4?_nc_cat=109&amp;_nc_sid=9ca052&amp;_nc_ht=scontent-msp1-1.cdninstagram.com&amp;_nc_ohc=2MWlBPjtCxwQ7kNvgE8gnNF&amp;efg=eyJ2ZW5jb2RlX3RhZyI6ImlnLXhwdmRzLmNsaXBzLmMyLUMzLmRhc2hfcjJldmV2cDktcjFnZW4ydnA5X3E0MCIsInZpZGVvX2lkIjpudWxsLCJjbGllbnRfbmFtZSI6ImlnIiwib2lsX3VybGdlbl9hcHBfaWQiOi0xLCJ1cmxnZW5fc291cmNlIjoid3d3In0%3D&amp;ccb=17-1&amp;_nc_zt=28&amp;oh=00_AYA8C34LnThetllz_Y_4NesXRDBo2dMtqpPIaLAIuLOwLg&amp;oe=67C4143A</BaseURL><SegmentBase indexRange=\"818-1305\" timescale=\"15360\" FBMinimumPrefetchRange=\"1306-18248\" FBFirstSegmentRange=\"1306-64496\" FBFirstSegmentDuration=\"5000\" FBSecondSegmentRange=\"64497-128518\" FBPrefetchSegmentRange=\"1306-64496\" FBPrefetchSegmentDuration=\"5000\"><Initialization range=\"0-817\"/></SegmentBase></Representation><Representation id=\"1029772058980928v\" bandwidth=\"265139\" codecs=\"vp09.00.31.08.00.01.01.01.00\" mimeType=\"video/mp4\" sar=\"1:1\" FBEncodingTag=\"dash_r2evevp9-r1gen2vp9_q50\" FBContentLength=\"6239608\" FBPlaybackResolutionMos=\"0:100,360:65.3,480:57.8,720:48.8,1080:43.6\" FBPlaybackResolutionMosConfidenceLevel=\"high\" FBPlaybackResolutionCsvqm=\"0:100,360:94.2,480:92.5,720:88.4,1080:80.5\" FBAbrPolicyTags=\"\" width=\"720\" height=\"1280\" frameRate=\"15360/512\" FBQualityClass=\"hd\" FBQualityLabel=\"480p\"><BaseURL>https://scontent-msp1-1.cdninstagram.com/o1/v/t2/f2/m367/AQMh2NckrYcekXS9LdHe6rfYw4SrK-pC97tgHXFEABqZh8cQhVM_Gz4vppjj7s9tHFrca_r2zebZIJj-JZgozm881wyUH2bhq1xrw4w.mp4?_nc_cat=108&amp;_nc_sid=9ca052&amp;_nc_ht=scontent-msp1-1.cdninstagram.com&amp;_nc_ohc=L-yrMhDFeJAQ7kNvgGsV6Xv&amp;efg=eyJ2ZW5jb2RlX3RhZyI6ImlnLXhwdmRzLmNsaXBzLmMyLUMzLmRhc2hfcjJldmV2cDktcjFnZW4ydnA5X3E1MCIsInZpZGVvX2lkIjpudWxsLCJjbGllbnRfbmFtZSI6ImlnIiwib2lsX3VybGdlbl9hcHBfaWQiOi0xLCJ1cmxnZW5fc291cmNlIjoid3d3In0%3D&amp;ccb=17-1&amp;_nc_zt=28&amp;oh=00_AYCgkGUovzaqZ6Xd7eEVG58aTdoHGKhGTTMYRt21x24Dvg&amp;oe=67C3EDD9</BaseURL><SegmentBase indexRange=\"818-1305\" timescale=\"15360\" FBMinimumPrefetchRange=\"1306-30855\" FBFirstSegmentRange=\"1306-141190\" FBFirstSegmentDuration=\"5000\" FBSecondSegmentRange=\"141191-278110\" FBPrefetchSegmentRange=\"1306-141190\" FBPrefetchSegmentDuration=\"5000\"><Initialization range=\"0-817\"/></SegmentBase></Representation><Representation id=\"1628051558100703v\" bandwidth=\"460329\" codecs=\"vp09.00.31.08.00.01.01.01.00\" mimeType=\"video/mp4\" sar=\"1:1\" FBEncodingTag=\"dash_r2evevp9-r1gen2vp9_q60\" FBContentLength=\"10833085\" FBPlaybackResolutionMos=\"0:100,360:73.1,480:66.3,720:56.6,1080:50.5\" FBPlaybackResolutionMosConfidenceLevel=\"high\" FBPlaybackResolutionCsvqm=\"0:100,360:96.7,480:95.6,720:92.8,1080:85.8\" FBAbrPolicyTags=\"\" width=\"720\" height=\"1280\" frameRate=\"15360/512\" FBQualityClass=\"hd\" FBQualityLabel=\"540p\"><BaseURL>https://scontent-msp1-1.cdninstagram.com/o1/v/t2/f2/m367/AQPr4THyJZ-Mx74EttiFZi6jYWzP4RhSWpQG-5Vgry4Rm4o3rkwZ3_mDCcQDR6RpeRj1s5Ll85V1TaBoUsUhpLT318gP-DTYi9l2z6U.mp4?_nc_cat=106&amp;_nc_sid=9ca052&amp;_nc_ht=scontent-msp1-1.cdninstagram.com&amp;_nc_ohc=oiXxtRTy1CAQ7kNvgF1T15X&amp;efg=eyJ2ZW5jb2RlX3RhZyI6ImlnLXhwdmRzLmNsaXBzLmMyLUMzLmRhc2hfcjJldmV2cDktcjFnZW4ydnA5X3E2MCIsInZpZGVvX2lkIjpudWxsLCJjbGllbnRfbmFtZSI6ImlnIiwib2lsX3VybGdlbl9hcHBfaWQiOi0xLCJ1cmxnZW5fc291cmNlIjoid3d3In0%3D&amp;ccb=17-1&amp;_nc_zt=28&amp;oh=00_AYDIzQyTIEV-iMUhoow-ERYLWj85HtwcAWhP1WxV_jX9Og&amp;oe=67C4074B</BaseURL><SegmentBase indexRange=\"818-1305\" timescale=\"15360\" FBMinimumPrefetchRange=\"1306-42231\" FBFirstSegmentRange=\"1306-251650\" FBFirstSegmentDuration=\"5000\" FBSecondSegmentRange=\"251651-481922\" FBPrefetchSegmentRange=\"1306-251650\" FBPrefetchSegmentDuration=\"5000\"><Initialization range=\"0-817\"/></SegmentBase></Representation><Representation id=\"663644706013654v\" bandwidth=\"712751\" codecs=\"vp09.00.31.08.00.01.01.01.00\" mimeType=\"video/mp4\" sar=\"1:1\" FBEncodingTag=\"dash_r2evevp9-r1gen2vp9_q70\" FBContentLength=\"16773425\" FBPlaybackResolutionMos=\"0:100,360:77.7,480:72,720:62.5,1080:55.6\" FBPlaybackResolutionMosConfidenceLevel=\"high\" FBPlaybackResolutionCsvqm=\"0:100,360:97.9,480:97.1,720:95,1080:88.6\" FBAbrPolicyTags=\"\" width=\"720\" height=\"1280\" frameRate=\"15360/512\" FBQualityClass=\"hd\" FBQualityLabel=\"640p\"><BaseURL>https://scontent-msp1-1.cdninstagram.com/o1/v/t2/f2/m367/AQPjfgiv2_3rZ6iUFc1xuWJb5KEFHxoVMG3DqTdshoIQgtuyNMNvLeSveRqPR9fqvdtqsFQFyVkeNIUW0DmLXbbDQRQ69CJXplDIXRA.mp4?_nc_cat=104&amp;_nc_sid=9ca052&amp;_nc_ht=scontent-msp1-1.cdninstagram.com&amp;_nc_ohc=3ikXHsCoFVIQ7kNvgGw0wJj&amp;efg=eyJ2ZW5jb2RlX3RhZyI6ImlnLXhwdmRzLmNsaXBzLmMyLUMzLmRhc2hfcjJldmV2cDktcjFnZW4ydnA5X3E3MCIsInZpZGVvX2lkIjpudWxsLCJjbGllbnRfbmFtZSI6ImlnIiwib2lsX3VybGdlbl9hcHBfaWQiOi0xLCJ1cmxnZW5fc291cmNlIjoid3d3In0%3D&amp;ccb=17-1&amp;_nc_zt=28&amp;oh=00_AYDG6zwqamkieHSGiaP0b7CAWuO5cpFNSe7ECf9kHApSgA&amp;oe=67C3FC81</BaseURL><SegmentBase indexRange=\"818-1305\" timescale=\"15360\" FBMinimumPrefetchRange=\"1306-53935\" FBFirstSegmentRange=\"1306-402814\" FBFirstSegmentDuration=\"5000\" FBSecondSegmentRange=\"402815-765705\" FBPrefetchSegmentRange=\"1306-402814\" FBPrefetchSegmentDuration=\"5000\"><Initialization range=\"0-817\"/></SegmentBase></Representation><Representation id=\"1805207546981994v\" bandwidth=\"1011130\" codecs=\"vp09.00.31.08.00.01.01.01.00\" mimeType=\"video/mp4\" sar=\"1:1\" FBEncodingTag=\"dash_r2evevp9-r1gen2vp9_q80\" FBContentLength=\"23795268\" FBPlaybackResolutionMos=\"0:100,360:81.7,480:75.6,720:66.7,1080:59.2\" FBPlaybackResolutionMosConfidenceLevel=\"high\" FBPlaybackResolutionCsvqm=\"0:100,360:98.47,480:98,720:96.3,1080:90.4\" FBAbrPolicyTags=\"\" width=\"720\" height=\"1280\" frameRate=\"15360/512\" FBQualityClass=\"hd\" FBQualityLabel=\"720p\"><BaseURL>https://scontent-msp1-1.cdninstagram.com/o1/v/t2/f2/m367/AQMC47Tr7BlAt1veCcUvjEg1HLE9auf4n0K7Y725AVn_uyf9ifwLEvUTEe_0NvXu4jsKignnrqODoYo7eP96M2k752vrRfy4jBoiXYI.mp4?_nc_cat=105&amp;_nc_sid=9ca052&amp;_nc_ht=scontent-msp1-1.cdninstagram.com&amp;_nc_ohc=JLlnJm_MTDEQ7kNvgEp4FBk&amp;efg=eyJ2ZW5jb2RlX3RhZyI6ImlnLXhwdmRzLmNsaXBzLmMyLUMzLmRhc2hfcjJldmV2cDktcjFnZW4ydnA5X3E4MCIsInZpZGVvX2lkIjpudWxsLCJjbGllbnRfbmFtZSI6ImlnIiwib2lsX3VybGdlbl9hcHBfaWQiOi0xLCJ1cmxnZW5fc291cmNlIjoid3d3In0%3D&amp;ccb=17-1&amp;_nc_zt=28&amp;oh=00_AYAAgkDxUm9dpC8yAFwHKcBeWDIPMNwwnfOn703BhkswYQ&amp;oe=67C40DAE</BaseURL><SegmentBase indexRange=\"818-1305\" timescale=\"15360\" FBMinimumPrefetchRange=\"1306-65016\" FBFirstSegmentRange=\"1306-594117\" FBFirstSegmentDuration=\"5000\" FBSecondSegmentRange=\"594118-1126311\" FBPrefetchSegmentRange=\"1306-594117\" FBPrefetchSegmentDuration=\"5000\"><Initialization range=\"0-817\"/></SegmentBase></Representation><Representation id=\"602089142741075v\" bandwidth=\"1494921\" codecs=\"vp09.00.40.08.00.01.01.01.00\" mimeType=\"video/mp4\" sar=\"1:1\" FBEncodingTag=\"dash_r2evevp9-r1gen2vp9_q90\" FBContentLength=\"35180477\" FBPlaybackResolutionMos=\"0:100,360:84.6,480:78.5,720:70.4,1080:66\" FBPlaybackResolutionMosConfidenceLevel=\"high\" FBPlaybackResolutionCsvqm=\"0:100,360:98.74,480:98.36,720:97.5,1080:95.3\" FBAbrPolicyTags=\"\" width=\"1080\" height=\"1920\" frameRate=\"15360/512\" FBQualityClass=\"hd\" FBQualityLabel=\"1080p\"><BaseURL>https://scontent-msp1-1.cdninstagram.com/o1/v/t2/f2/m367/AQN0jNrJag7wHBDlNBvrkgcsmEeA-VNkmfy8nCUW1e27_qzEvRs0_aAaMMlUikXEWEbBRJ5hcW-WijqDSreH4I87AVVCaqAA_s9RdJY.mp4?_nc_cat=103&amp;_nc_sid=9ca052&amp;_nc_ht=scontent-msp1-1.cdninstagram.com&amp;_nc_ohc=TvR0c4zKrLMQ7kNvgFkv9U6&amp;efg=eyJ2ZW5jb2RlX3RhZyI6ImlnLXhwdmRzLmNsaXBzLmMyLUMzLmRhc2hfcjJldmV2cDktcjFnZW4ydnA5X3E5MCIsInZpZGVvX2lkIjpudWxsLCJjbGllbnRfbmFtZSI6ImlnIiwib2lsX3VybGdlbl9hcHBfaWQiOi0xLCJ1cmxnZW5fc291cmNlIjoid3d3In0%3D&amp;ccb=17-1&amp;_nc_zt=28&amp;oh=00_AYB26Vb42HHgnzdyqvTUDVWqa-pnSMPcHGnpiaJbD5CCAQ&amp;oe=67C3F5A4</BaseURL><SegmentBase indexRange=\"818-1305\" timescale=\"15360\" FBMinimumPrefetchRange=\"1306-86571\" FBFirstSegmentRange=\"1306-905325\" FBFirstSegmentDuration=\"5000\" FBSecondSegmentRange=\"905326-1738126\" FBPrefetchSegmentRange=\"1306-905325\" FBPrefetchSegmentDuration=\"5000\"><Initialization range=\"0-817\"/></SegmentBase></Representation></AdaptationSet><AdaptationSet id=\"1\" contentType=\"audio\" subsegmentStartsWithSAP=\"1\" subsegmentAlignment=\"true\"><Representation id=\"1004002534967823ad\" bandwidth=\"59467\" codecs=\"mp4a.40.5\" mimeType=\"audio/mp4\" FBAvgBitrate=\"59467\" audioSamplingRate=\"44100\" FBEncodingTag=\"dash_ln_heaac_vbr3_audio\" FBContentLength=\"1401431\" FBPaqMos=\"89.29\" FBAbrPolicyTags=\"\" FBDefaultQuality=\"1\"><AudioChannelConfiguration schemeIdUri=\"urn:mpeg:dash:23003:3:audio_channel_configuration:2011\" value=\"2\"/><BaseURL>https://scontent-msp1-1.cdninstagram.com/o1/v/t16/f2/m69/AQPY1eg9JxN-T2guErHwx0Wix2shqpyhSgUBwSQ_fCYWmhy2DUmsMgXGohGyYAzGN7klmtlinHpxWAHLhe6h_G44.mp4?strext=1&amp;_nc_cat=100&amp;_nc_sid=9ca052&amp;_nc_ht=scontent-msp1-1.cdninstagram.com&amp;_nc_ohc=x8p4UTPQzq0Q7kNvgGksKq7&amp;efg=eyJ2ZW5jb2RlX3RhZyI6ImlnLXhwdmRzLmNsaXBzLmMyLUMzLmRhc2hfbG5faGVhYWNfdmJyM19hdWRpbyIsInZpZGVvX2lkIjpudWxsLCJjbGllbnRfbmFtZSI6ImlnIiwib2lsX3VybGdlbl9hcHBfaWQiOi0xLCJ1cmxnZW5fc291cmNlIjoid3d3In0%3D&amp;ccb=17-1&amp;_nc_zt=28&amp;oh=00_AYCOJ6hTLI03olSAczJU174E9uZOOX7s2SAcpm2y1mVT9A&amp;oe=67C40C18</BaseURL><SegmentBase indexRange=\"824-1995\" timescale=\"44100\" FBMinimumPrefetchRange=\"1996-2339\" FBFirstSegmentRange=\"1996-17864\" FBFirstSegmentDuration=\"2021\" FBSecondSegmentRange=\"17865-33393\" FBPrefetchSegmentRange=\"1996-33393\" FBPrefetchSegmentDuration=\"4017\"><Initialization range=\"0-823\"/></SegmentBase></Representation></AdaptationSet></Period></MPD>\n"
+        },
+        "dimensions": {
+            "height": 1136,
+            "width": 640
+        },
+        "display_resources": [
+            {
+                "config_height": 1136,
+                "config_width": 640,
+                "src": "https://scontent-msp1-1.cdninstagram.com/v/t51.2885-15/477391004_932514225716371_1727661287742072303_n.jpg?stp=dst-jpg_e15_tt6&_nc_ht=scontent-msp1-1.cdninstagram.com&_nc_cat=107&_nc_oc=Q6cZ2AEK1CpK2vKjfGvukErl5kX13HyV3NYetz-xQKqehzbUcXsULTs52C348cUtrj6gqMU&_nc_ohc=edngJmNFTRIQ7kNvgF6R-Dr&_nc_gid=89debf7080e2457bbc4b26eed97035ec&edm=ANTKIIoBAAAA&ccb=7-5&oh=00_AYB9a_UbYiGarAtq8fPHgiq-6zMm5mjAukflBHUvR-nVLg&oe=67C3E9DE&_nc_sid=d885a2"
+            },
+            {
+                "config_height": 1331,
+                "config_width": 750,
+                "src": "https://scontent-msp1-1.cdninstagram.com/v/t51.2885-15/477391004_932514225716371_1727661287742072303_n.jpg?stp=dst-jpg_e15_tt6&_nc_ht=scontent-msp1-1.cdninstagram.com&_nc_cat=107&_nc_oc=Q6cZ2AEK1CpK2vKjfGvukErl5kX13HyV3NYetz-xQKqehzbUcXsULTs52C348cUtrj6gqMU&_nc_ohc=edngJmNFTRIQ7kNvgF6R-Dr&_nc_gid=89debf7080e2457bbc4b26eed97035ec&edm=ANTKIIoBAAAA&ccb=7-5&oh=00_AYB9a_UbYiGarAtq8fPHgiq-6zMm5mjAukflBHUvR-nVLg&oe=67C3E9DE&_nc_sid=d885a2"
+            },
+            {
+                "config_height": 1917,
+                "config_width": 1080,
+                "src": "https://scontent-msp1-1.cdninstagram.com/v/t51.2885-15/477391004_932514225716371_1727661287742072303_n.jpg?stp=dst-jpg_e15_tt6&_nc_ht=scontent-msp1-1.cdninstagram.com&_nc_cat=107&_nc_oc=Q6cZ2AEK1CpK2vKjfGvukErl5kX13HyV3NYetz-xQKqehzbUcXsULTs52C348cUtrj6gqMU&_nc_ohc=edngJmNFTRIQ7kNvgF6R-Dr&_nc_gid=89debf7080e2457bbc4b26eed97035ec&edm=ANTKIIoBAAAA&ccb=7-5&oh=00_AYB9a_UbYiGarAtq8fPHgiq-6zMm5mjAukflBHUvR-nVLg&oe=67C3E9DE&_nc_sid=d885a2"
+            }
+        ],
+        "display_url": "https://scontent-msp1-1.cdninstagram.com/v/t51.2885-15/477391004_932514225716371_1727661287742072303_n.jpg?stp=dst-jpg_e15_tt6&_nc_ht=scontent-msp1-1.cdninstagram.com&_nc_cat=107&_nc_oc=Q6cZ2AEK1CpK2vKjfGvukErl5kX13HyV3NYetz-xQKqehzbUcXsULTs52C348cUtrj6gqMU&_nc_ohc=edngJmNFTRIQ7kNvgF6R-Dr&_nc_gid=89debf7080e2457bbc4b26eed97035ec&edm=ANTKIIoBAAAA&ccb=7-5&oh=00_AYB9a_UbYiGarAtq8fPHgiq-6zMm5mjAukflBHUvR-nVLg&oe=67C3E9DE&_nc_sid=d885a2",
+        "edge_media_preview_comment": {
+            "count": 119,
+            "edges": [
+                {
+                    "node": {
+                        "created_at": 1740123405,
+                        "did_report_as_spam": false,
+                        "edge_liked_by": {
+                            "count": 0
+                        },
+                        "id": "17951876540923372",
+                        "is_restricted_pending": false,
+                        "owner": {
+                            "id": "300609011",
+                            "is_verified": false,
+                            "profile_pic_url": "https://scontent-msp1-1.cdninstagram.com/v/t51.2885-19/361565606_290480173667614_985374527644733362_n.jpg?stp=dst-jpg_s150x150_tt6&_nc_ht=scontent-msp1-1.cdninstagram.com&_nc_cat=110&_nc_oc=Q6cZ2AEK1CpK2vKjfGvukErl5kX13HyV3NYetz-xQKqehzbUcXsULTs52C348cUtrj6gqMU&_nc_ohc=ypouOnXBABUQ7kNvgFTwx3E&_nc_gid=89debf7080e2457bbc4b26eed97035ec&edm=ANTKIIoBAAAA&ccb=7-5&oh=00_AYBoxb2YRgSwZxXkiUSfgSMmOlO5LfXQbq9jeqih_2ZnMA&oe=67C3FF34&_nc_sid=d885a2",
+                            "username": "brunaholistic"
+                        },
+                        "text": "Thats an ancient study. Please do your astral map, you will be very grateful :) metaphysical science is indeed finally something in 2025!",
+                        "viewer_has_liked": false
+                    }
+                },
+                {
+                    "node": {
+                        "created_at": 1740150686,
+                        "did_report_as_spam": false,
+                        "edge_liked_by": {
+                            "count": 0
+                        },
+                        "id": "18072287419762847",
+                        "is_restricted_pending": false,
+                        "owner": {
+                            "id": "1908443625",
+                            "is_verified": false,
+                            "profile_pic_url": "https://scontent-msp1-1.cdninstagram.com/v/t51.2885-19/11190842_365619860315535_1946311425_a.jpg?stp=dst-jpg_s150x150_tt6&_nc_ht=scontent-msp1-1.cdninstagram.com&_nc_cat=103&_nc_oc=Q6cZ2AEK1CpK2vKjfGvukErl5kX13HyV3NYetz-xQKqehzbUcXsULTs52C348cUtrj6gqMU&_nc_ohc=ts0CGJ7zz_MQ7kNvgHiWtCr&_nc_gid=89debf7080e2457bbc4b26eed97035ec&edm=ANTKIIoBAAAA&ccb=7-5&oh=00_AYC07GpAajcKLkFBpR9-KSgGXnpVpqqfsqzrVTYd0c01Rw&oe=67C3FB42&_nc_sid=d885a2",
+                            "username": "rosarioscavino"
+                        },
+                        "text": "Jung didn't believe and yet found it useful. I think that \"believe\" is not the best word you could have picked there, I too could use it as \"not the best mirror\" yet without any beliving involved",
+                        "viewer_has_liked": false
+                    }
+                }
+            ]
+        },
+        "edge_media_preview_like": {
+            "count": 554,
+            "edges": []
+        },
+        "edge_media_to_caption": {
+            "edges": [
+                {
+                    "node": {
+                        "created_at": "1739391869",
+                        "id": "18080724400627412",
+                        "text": "#astrology #nononsensespirituality"
+                    }
+                }
+            ]
+        },
+        "edge_media_to_hoisted_comment": {
+            "edges": []
+        },
+        "edge_media_to_parent_comment": {
+            "count": 119,
+            "edges": [
+                {
+                    "node": {
+                        "created_at": 1739455760,
+                        "did_report_as_spam": false,
+                        "edge_liked_by": {
+                            "count": 3
+                        },
+                        "edge_threaded_comments": {
+                            "count": 7,
+                            "edges": [
+                                {
+                                    "node": {
+                                        "created_at": 1739488631,
+                                        "did_report_as_spam": false,
+                                        "edge_liked_by": {
+                                            "count": 0
+                                        },
+                                        "id": "17962258883744920",
+                                        "is_restricted_pending": false,
+                                        "owner": {
+                                            "id": "44967298",
+                                            "is_verified": false,
+                                            "profile_pic_url": "https://scontent-msp1-1.cdninstagram.com/v/t51.2885-19/464975669_548888171334692_3450532237536536966_n.jpg?stp=dst-jpg_s150x150_tt6&_nc_ht=scontent-msp1-1.cdninstagram.com&_nc_cat=108&_nc_oc=Q6cZ2AEK1CpK2vKjfGvukErl5kX13HyV3NYetz-xQKqehzbUcXsULTs52C348cUtrj6gqMU&_nc_ohc=pAsk7PMqhboQ7kNvgH0VHA6&_nc_gid=89debf7080e2457bbc4b26eed97035ec&edm=ANTKIIoBAAAA&ccb=7-5&oh=00_AYB3JAHHA-d89gA-8y_NRe8vWJKb76XIB2TKHu1JjhyU3w&oe=67C3F4C9&_nc_sid=d885a2",
+                                            "username": "gclefm"
+                                        },
+                                        "text": "@nononsensespirituality and just because apologists justification sounds like astrology apologetics - if there\u2019s such a thing- it doesn\u2019t mean it applies just the same either",
+                                        "viewer_has_liked": false
+                                    }
+                                },
+                                {
+                                    "node": {
+                                        "created_at": 1739493499,
+                                        "did_report_as_spam": false,
+                                        "edge_liked_by": {
+                                            "count": 2
+                                        },
+                                        "id": "17897687316109923",
+                                        "is_restricted_pending": false,
+                                        "owner": {
+                                            "id": "47214798729",
+                                            "is_verified": false,
+                                            "profile_pic_url": "https://scontent-msp1-1.cdninstagram.com/v/t51.2885-19/434675159_804057931568616_5711137461509149914_n.jpg?stp=dst-jpg_s150x150_tt6&_nc_ht=scontent-msp1-1.cdninstagram.com&_nc_cat=100&_nc_oc=Q6cZ2AEK1CpK2vKjfGvukErl5kX13HyV3NYetz-xQKqehzbUcXsULTs52C348cUtrj6gqMU&_nc_ohc=krNvAYnBgesQ7kNvgF49xG5&_nc_gid=89debf7080e2457bbc4b26eed97035ec&edm=ANTKIIoBAAAA&ccb=7-5&oh=00_AYAkFwr3kK7Uga-Y5x4Ad35hVL48XFQHEDWtjp0BLE-T9A&oe=67C3FD7C&_nc_sid=d885a2",
+                                            "username": "nononsensespirituality"
+                                        },
+                                        "text": "@gclefm really? It\u2019s incredibly complex actually. That\u2019s 5,000 years of history in itself with an incredible amount of nuance.",
+                                        "viewer_has_liked": false
+                                    }
+                                },
+                                {
+                                    "node": {
+                                        "created_at": 1739493536,
+                                        "did_report_as_spam": false,
+                                        "edge_liked_by": {
+                                            "count": 2
+                                        },
+                                        "id": "17860659633357641",
+                                        "is_restricted_pending": false,
+                                        "owner": {
+                                            "id": "47214798729",
+                                            "is_verified": false,
+                                            "profile_pic_url": "https://scontent-msp1-1.cdninstagram.com/v/t51.2885-19/434675159_804057931568616_5711137461509149914_n.jpg?stp=dst-jpg_s150x150_tt6&_nc_ht=scontent-msp1-1.cdninstagram.com&_nc_cat=100&_nc_oc=Q6cZ2AEK1CpK2vKjfGvukErl5kX13HyV3NYetz-xQKqehzbUcXsULTs52C348cUtrj6gqMU&_nc_ohc=krNvAYnBgesQ7kNvgF49xG5&_nc_gid=89debf7080e2457bbc4b26eed97035ec&edm=ANTKIIoBAAAA&ccb=7-5&oh=00_AYAkFwr3kK7Uga-Y5x4Ad35hVL48XFQHEDWtjp0BLE-T9A&oe=67C3FD7C&_nc_sid=d885a2",
+                                            "username": "nononsensespirituality"
+                                        },
+                                        "text": "@gclefm you don\u2019t think it\u2019s curious that everyone is using the same arguments and tricks for their religions and new age spirituality and yet they all can\u2019t be true? I find that curious.",
+                                        "viewer_has_liked": false
+                                    }
+                                }
+                            ],
+                            "page_info": {
+                                "end_cursor": "QVFDUzlHaVhFWFc5YkFpTzgwZTI1bHJVUFRaSVl4WGVZcU1ad3dFOFFhNDlITmg3MnJGRHRfekFxelhFS09KUldITGR1ZUFnSlpmTlh3Z196dzhtcFg4eQ==",
+                                "has_next_page": true
+                            }
+                        },
+                        "id": "18483083641004920",
+                        "is_restricted_pending": false,
+                        "owner": {
+                            "id": "44967298",
+                            "is_verified": false,
+                            "profile_pic_url": "https://scontent-msp1-1.cdninstagram.com/v/t51.2885-19/464975669_548888171334692_3450532237536536966_n.jpg?stp=dst-jpg_s150x150_tt6&_nc_ht=scontent-msp1-1.cdninstagram.com&_nc_cat=108&_nc_oc=Q6cZ2AEK1CpK2vKjfGvukErl5kX13HyV3NYetz-xQKqehzbUcXsULTs52C348cUtrj6gqMU&_nc_ohc=pAsk7PMqhboQ7kNvgH0VHA6&_nc_gid=89debf7080e2457bbc4b26eed97035ec&edm=ANTKIIoBAAAA&ccb=7-5&oh=00_AYB3JAHHA-d89gA-8y_NRe8vWJKb76XIB2TKHu1JjhyU3w&oe=67C3F4C9&_nc_sid=d885a2",
+                            "username": "gclefm"
+                        },
+                        "text": "Astrology is the study of patterns and its recognition. Some use it as a religious belief but that\u2019s not what it\u2019s intended for. You can\u2019t say a pattern isn\u2019t true. It just is.",
+                        "viewer_has_liked": false
+                    }
+                },
+                {
+                    "node": {
+                        "created_at": 1739436668,
+                        "did_report_as_spam": false,
+                        "edge_liked_by": {
+                            "count": 10
+                        },
+                        "edge_threaded_comments": {
+                            "count": 6,
+                            "edges": [
+                                {
+                                    "node": {
+                                        "created_at": 1739504373,
+                                        "did_report_as_spam": false,
+                                        "edge_liked_by": {
+                                            "count": 1
+                                        },
+                                        "id": "18284471848220997",
+                                        "is_restricted_pending": false,
+                                        "owner": {
+                                            "id": "47214798729",
+                                            "is_verified": false,
+                                            "profile_pic_url": "https://scontent-msp1-1.cdninstagram.com/v/t51.2885-19/434675159_804057931568616_5711137461509149914_n.jpg?stp=dst-jpg_s150x150_tt6&_nc_ht=scontent-msp1-1.cdninstagram.com&_nc_cat=100&_nc_oc=Q6cZ2AEK1CpK2vKjfGvukErl5kX13HyV3NYetz-xQKqehzbUcXsULTs52C348cUtrj6gqMU&_nc_ohc=krNvAYnBgesQ7kNvgF49xG5&_nc_gid=89debf7080e2457bbc4b26eed97035ec&edm=ANTKIIoBAAAA&ccb=7-5&oh=00_AYAkFwr3kK7Uga-Y5x4Ad35hVL48XFQHEDWtjp0BLE-T9A&oe=67C3FD7C&_nc_sid=d885a2",
+                                            "username": "nononsensespirituality"
+                                        },
+                                        "text": "This is incredibly unkind. I am a huge advocate for feminine spirituality, as a speaker, coach, and plant medicine guide for women. Because I disagree with you I am just a parrot for white men or here for clicks? Let me tell you this. I wish I was wrong. I make little money in my grounded approach to spirituality. I\u2019d make far more money doing readings for people. That would actually be the way to engage people if that were my goal. One of the best things I can do for women and queer people is highlight tools that help while also being aware of the shadow side of intuition. Intuition without rationality has dangers. As a woman I will never again participate in a spiritual path that tells me to turn part of me off or kill a part of me to participate. And some astrologers do ask me to have faith and turn off my brain. Im not against using this as a tool, but as you can see in my comment section, people are treating this like a religion and doing a lot of spiritual bypassing with it. It\u2019s kindness to show not only the best of the feminine but also its shadow. Otherwise we\u2019re no better than men who don\u2019t see their shadow in their dependence on rationality.",
+                                        "viewer_has_liked": false
+                                    }
+                                },
+                                {
+                                    "node": {
+                                        "created_at": 1739723147,
+                                        "did_report_as_spam": false,
+                                        "edge_liked_by": {
+                                            "count": 0
+                                        },
+                                        "id": "17956697030903331",
+                                        "is_restricted_pending": false,
+                                        "owner": {
+                                            "id": "28026416253",
+                                            "is_verified": false,
+                                            "profile_pic_url": "https://scontent-msp1-1.cdninstagram.com/v/t51.2885-19/464760996_1254146839119862_3605321457742435801_n.png?stp=dst-jpg_s150x150_tt6&cb=8577c754-c2464923&_nc_ht=scontent-msp1-1.cdninstagram.com&_nc_cat=1&_nc_oc=Q6cZ2AEK1CpK2vKjfGvukErl5kX13HyV3NYetz-xQKqehzbUcXsULTs52C348cUtrj6gqMU&_nc_ohc=sgyMmiutwp8Q7kNvgFGJQ7v&_nc_gid=89debf7080e2457bbc4b26eed97035ec&edm=ANTKIIoBAAAA&ccb=7-5&ig_cache_key=YW5vbnltb3VzX3Byb2ZpbGVfcGlj.3-ccb7-5-cb8577c754-c2464923&oh=00_AYDxqCQIRBDvyIDooXcg-fndHTGw5ReYXWEyX4gqr-yBGQ&oe=67C40328&_nc_sid=d885a2",
+                                            "username": "ljsall3"
+                                        },
+                                        "text": "@nononsensespirituality Astrology has absolutely no scientific basis. To condem rationality, reason and critical thought is irresponsible.",
+                                        "viewer_has_liked": false
+                                    }
+                                },
+                                {
+                                    "node": {
+                                        "created_at": 1739723784,
+                                        "did_report_as_spam": false,
+                                        "edge_liked_by": {
+                                            "count": 0
+                                        },
+                                        "id": "18006737507531644",
+                                        "is_restricted_pending": false,
+                                        "owner": {
+                                            "id": "47214798729",
+                                            "is_verified": false,
+                                            "profile_pic_url": "https://scontent-msp1-1.cdninstagram.com/v/t51.2885-19/434675159_804057931568616_5711137461509149914_n.jpg?stp=dst-jpg_s150x150_tt6&_nc_ht=scontent-msp1-1.cdninstagram.com&_nc_cat=100&_nc_oc=Q6cZ2AEK1CpK2vKjfGvukErl5kX13HyV3NYetz-xQKqehzbUcXsULTs52C348cUtrj6gqMU&_nc_ohc=krNvAYnBgesQ7kNvgF49xG5&_nc_gid=89debf7080e2457bbc4b26eed97035ec&edm=ANTKIIoBAAAA&ccb=7-5&oh=00_AYAkFwr3kK7Uga-Y5x4Ad35hVL48XFQHEDWtjp0BLE-T9A&oe=67C3FD7C&_nc_sid=d885a2",
+                                            "username": "nononsensespirituality"
+                                        },
+                                        "text": "@ljsall3 I\u2019ve never done that. I\u2019ll never leave rationality at the door. But let\u2019s not pretend that our entire brain is rational. We are also experiencing creatures because consciousness has an experiential quality.",
+                                        "viewer_has_liked": false
+                                    }
+                                }
+                            ],
+                            "page_info": {
+                                "end_cursor": "QVFCYXpmT3htU3pCdkNIcWFaeVFsTnV0YUotTUdfOWxEcjhDekR3RjJDNUN4Qlg3eUpMd1FHeEswUFZIRzRJczNXdnFtMkRJOHNlREZZZHVOUGhIc1gtbg==",
+                                "has_next_page": true
+                            }
+                        },
+                        "id": "18085067338590204",
+                        "is_restricted_pending": false,
+                        "owner": {
+                            "id": "375225230",
+                            "is_verified": false,
+                            "profile_pic_url": "https://scontent-msp1-1.cdninstagram.com/v/t51.2885-19/124878348_734597394079871_6887266022078503345_n.jpg?stp=dst-jpg_s150x150_tt6&_nc_ht=scontent-msp1-1.cdninstagram.com&_nc_cat=111&_nc_oc=Q6cZ2AEK1CpK2vKjfGvukErl5kX13HyV3NYetz-xQKqehzbUcXsULTs52C348cUtrj6gqMU&_nc_ohc=NWAWoLhen5YQ7kNvgELBv1D&_nc_gid=89debf7080e2457bbc4b26eed97035ec&edm=ANTKIIoBAAAA&ccb=7-5&oh=00_AYAY3Yo55kHlnR9Zy-cM--KY5OiZoAiYQvlxFkL6IBLlxQ&oe=67C40E6E&_nc_sid=d885a2",
+                            "username": "theoliviahope"
+                        },
+                        "text": "Hmm.. I appreciate the confidence in your voice, but your remarkable ignorance is showing. After observing you more you seem like someone who once lacking expertise somewhere, needs to overtake that topic to denounce it. Anyway, history lesson. Without Astrology, no one would be here. Farmers wouldn\u2019t have been able to get us here without tracking the moon cycles to grow crops. CC: the 1800s. They still use Astrology btw. And there\u2019s a lot more where that came from. Scientific studies show that biological women cycle with the new and full moon cycles more often than any other periods. Conclusive, repeatable studies cannot be done on Astrology for the most BEAUTIFUL and cosmic reason that is meant to surpass your (and everyone\u2019s) comprehension, and that is this: Every planet will never be in the same exact location again as it once was, ever. Timing is divine. Timing is everything. Women feel time in our bodies as part of our inherent intuition. Astrology comes from the original myths. Astrology gave us our first archetypes. A talented astrologer, Carl Jung, gave us the word archetypes. Johannes Kepler, another talented astrologer, gave us the heliocentric model. Furthermore, few \u201cstudies\u201d have been done on Astrology. But I would LOVE to list some patterns for you of historical events that have taken place due to the same transits repeating. My fear is that you\u2019ll delete my comment because your ego will feel more important than the usefulness of this information. But I will continue. Richard Tarnas predicted Covid as part of the 2020 Jupiter Saturn and Pluto conjunctions. You would be amazed at the predictions Astrologers have made and continue to make. You would be amazed at the current transit history repeating right now this second. But your curiosity and yearning for spiritual development would have to be bigger than your ego\u2019s yearning for authority on the public stage. Feel free to lmk if you want my full dissertation. I would love to tell you about the women Astrologers contributions and those who were stolen from, of which were written out intentionally, just like women\u2026\u2026",
+                        "viewer_has_liked": false
+                    }
+                },
+                {
+                    "node": {
+                        "created_at": 1739470173,
+                        "did_report_as_spam": false,
+                        "edge_liked_by": {
+                            "count": 1
+                        },
+                        "edge_threaded_comments": {
+                            "count": 4,
+                            "edges": [
+                                {
+                                    "node": {
+                                        "created_at": 1739500732,
+                                        "did_report_as_spam": false,
+                                        "edge_liked_by": {
+                                            "count": 0
+                                        },
+                                        "id": "17924882663921010",
+                                        "is_restricted_pending": false,
+                                        "owner": {
+                                            "id": "8744386884",
+                                            "is_verified": false,
+                                            "profile_pic_url": "https://scontent-msp1-1.cdninstagram.com/v/t51.2885-19/475098916_626953133359017_5340085233335443470_n.jpg?stp=dst-jpg_s150x150_tt6&_nc_ht=scontent-msp1-1.cdninstagram.com&_nc_cat=109&_nc_oc=Q6cZ2AEK1CpK2vKjfGvukErl5kX13HyV3NYetz-xQKqehzbUcXsULTs52C348cUtrj6gqMU&_nc_ohc=yaAxDJ4g9bcQ7kNvgGWZjwu&_nc_gid=89debf7080e2457bbc4b26eed97035ec&edm=ANTKIIoBAAAA&ccb=7-5&oh=00_AYC6tu8-o_VoDAupO-FUA28QBA2wofQRGpXmS6DySNIRuQ&oe=67C40228&_nc_sid=d885a2",
+                                            "username": "thirdeyebroad"
+                                        },
+                                        "text": "@nononsensespirituality I do organize regularly, perhaps professionally, but not at the same depth or randomness as I do unknowingly during Mercury retrograde. Certain tasks\u2014like a full garage reorganization\u2014naturally align with these periods, which then help me be more practical in my day-to-day life. Just like the moon cycles shift the tides, there are countless examples of energetic syncs influencing nature and behavior. Whether we actively track them or not, these patterns exist.",
+                                        "viewer_has_liked": false
+                                    }
+                                },
+                                {
+                                    "node": {
+                                        "created_at": 1739502915,
+                                        "did_report_as_spam": false,
+                                        "edge_liked_by": {
+                                            "count": 0
+                                        },
+                                        "id": "18072921409706429",
+                                        "is_restricted_pending": false,
+                                        "owner": {
+                                            "id": "47214798729",
+                                            "is_verified": false,
+                                            "profile_pic_url": "https://scontent-msp1-1.cdninstagram.com/v/t51.2885-19/434675159_804057931568616_5711137461509149914_n.jpg?stp=dst-jpg_s150x150_tt6&_nc_ht=scontent-msp1-1.cdninstagram.com&_nc_cat=100&_nc_oc=Q6cZ2AEK1CpK2vKjfGvukErl5kX13HyV3NYetz-xQKqehzbUcXsULTs52C348cUtrj6gqMU&_nc_ohc=krNvAYnBgesQ7kNvgF49xG5&_nc_gid=89debf7080e2457bbc4b26eed97035ec&edm=ANTKIIoBAAAA&ccb=7-5&oh=00_AYAkFwr3kK7Uga-Y5x4Ad35hVL48XFQHEDWtjp0BLE-T9A&oe=67C3FD7C&_nc_sid=d885a2",
+                                            "username": "nononsensespirituality"
+                                        },
+                                        "text": "@thirdeyebroad patterns are fine to live by, but were the ones making the patterns meaningful.",
+                                        "viewer_has_liked": false
+                                    }
+                                },
+                                {
+                                    "node": {
+                                        "created_at": 1739548247,
+                                        "did_report_as_spam": false,
+                                        "edge_liked_by": {
+                                            "count": 0
+                                        },
+                                        "id": "17845498017395874",
+                                        "is_restricted_pending": false,
+                                        "owner": {
+                                            "id": "8744386884",
+                                            "is_verified": false,
+                                            "profile_pic_url": "https://scontent-msp1-1.cdninstagram.com/v/t51.2885-19/475098916_626953133359017_5340085233335443470_n.jpg?stp=dst-jpg_s150x150_tt6&_nc_ht=scontent-msp1-1.cdninstagram.com&_nc_cat=109&_nc_oc=Q6cZ2AEK1CpK2vKjfGvukErl5kX13HyV3NYetz-xQKqehzbUcXsULTs52C348cUtrj6gqMU&_nc_ohc=yaAxDJ4g9bcQ7kNvgGWZjwu&_nc_gid=89debf7080e2457bbc4b26eed97035ec&edm=ANTKIIoBAAAA&ccb=7-5&oh=00_AYC6tu8-o_VoDAupO-FUA28QBA2wofQRGpXmS6DySNIRuQ&oe=67C40228&_nc_sid=d885a2",
+                                            "username": "thirdeyebroad"
+                                        },
+                                        "text": "@nononsensespirituality Yes, we engage with patterns and interpret them\u2014but does that mean we create them, or are we just recognizing something that already exists? The moon doesn\u2019t need us to believe in its influence to shift the tides. Birds don\u2019t need us to assign meaning to migration patterns for them to follow natural cycles. Just because something requires perception to be understood doesn\u2019t mean it only exists in our minds.",
+                                        "viewer_has_liked": false
+                                    }
+                                }
+                            ],
+                            "page_info": {
+                                "end_cursor": "QVFCNXZIaFNjSjFnbFZEUlk2ampBa1F1Nm1qSUtYd2NpWWozb0lTTWlOblI2LWdtdHgtcDI5MDRmcnNIenNLRWJ5V1poa3dvX29POE4yNkM0TXFSaHhLQg==",
+                                "has_next_page": true
+                            }
+                        },
+                        "id": "18029544899316585",
+                        "is_restricted_pending": false,
+                        "owner": {
+                            "id": "8744386884",
+                            "is_verified": false,
+                            "profile_pic_url": "https://scontent-msp1-1.cdninstagram.com/v/t51.2885-19/475098916_626953133359017_5340085233335443470_n.jpg?stp=dst-jpg_s150x150_tt6&_nc_ht=scontent-msp1-1.cdninstagram.com&_nc_cat=109&_nc_oc=Q6cZ2AEK1CpK2vKjfGvukErl5kX13HyV3NYetz-xQKqehzbUcXsULTs52C348cUtrj6gqMU&_nc_ohc=yaAxDJ4g9bcQ7kNvgGWZjwu&_nc_gid=89debf7080e2457bbc4b26eed97035ec&edm=ANTKIIoBAAAA&ccb=7-5&oh=00_AYC6tu8-o_VoDAupO-FUA28QBA2wofQRGpXmS6DySNIRuQ&oe=67C40228&_nc_sid=d885a2",
+                            "username": "thirdeyebroad"
+                        },
+                        "text": "You can\u2019t blame being late on Mercury retrograde\u2014you have to recognize that this period brings a higher likelihood of inconvenient disruptions, which means being more prepared is essential. However, the challenge is that Mercury retrograde tends to drain our energy, making that extra preparation feel even more demanding. This forces us to work smarter, not harder, and to reassess how we manage our time and resources.\n\nOnce again, the simplified, pop-culture version of astrology barely scratches the surface of real, in-depth astrology. Some people actually thrive during Mercury retrograde, especially if they were born during one or have a chart that aligns well with its energy. They may even find themselves feeling clearer and more focused during this time.\n\nMercury retrograde is an opportunity to reassess, reevaluate, and reconsider what\u2019s truly productive and necessary in your life. Interestingly, I don\u2019t even check when Mercury retrograde is happening, yet every single time, I find myself naturally reorganizing or restructuring things. Whether we realize it or not, we move in sync with these energetic cycles.",
+                        "viewer_has_liked": false
+                    }
+                },
+                {
+                    "node": {
+                        "created_at": 1739447720,
+                        "did_report_as_spam": false,
+                        "edge_liked_by": {
+                            "count": 22
+                        },
+                        "edge_threaded_comments": {
+                            "count": 4,
+                            "edges": [
+                                {
+                                    "node": {
+                                        "created_at": 1739494095,
+                                        "did_report_as_spam": false,
+                                        "edge_liked_by": {
+                                            "count": 2
+                                        },
+                                        "id": "18087898384567634",
+                                        "is_restricted_pending": false,
+                                        "owner": {
+                                            "id": "24474070",
+                                            "is_verified": false,
+                                            "profile_pic_url": "https://scontent-msp1-1.cdninstagram.com/v/t51.2885-19/229696020_2058220967664783_4463302421315732924_n.jpg?stp=dst-jpg_s150x150_tt6&_nc_ht=scontent-msp1-1.cdninstagram.com&_nc_cat=103&_nc_oc=Q6cZ2AEK1CpK2vKjfGvukErl5kX13HyV3NYetz-xQKqehzbUcXsULTs52C348cUtrj6gqMU&_nc_ohc=CCtGZa2202gQ7kNvgG_CsCQ&_nc_gid=89debf7080e2457bbc4b26eed97035ec&edm=ANTKIIoBAAAA&ccb=7-5&oh=00_AYCiwPLaSZm-WMVWdCeuHVD6lT2PRVzJP8-5hWU1Kj7CoQ&oe=67C3F53C&_nc_sid=d885a2",
+                                            "username": "whered_zoedream"
+                                        },
+                                        "text": "That\u2019s actually why science tests against placebo so that it remains objective, science can only be interpreted with more science. Otherwise our brains make the assessment and decides on its own based on what we\u2019ve previously known and understood, we only know what we know.",
+                                        "viewer_has_liked": false
+                                    }
+                                },
+                                {
+                                    "node": {
+                                        "created_at": 1739496631,
+                                        "did_report_as_spam": false,
+                                        "edge_liked_by": {
+                                            "count": 6
+                                        },
+                                        "id": "18034910231233580",
+                                        "is_restricted_pending": false,
+                                        "owner": {
+                                            "id": "22247011",
+                                            "is_verified": false,
+                                            "profile_pic_url": "https://scontent-msp1-1.cdninstagram.com/v/t51.2885-19/340966191_723147479547315_7821352883998689302_n.jpg?stp=dst-jpg_s150x150_tt6&_nc_ht=scontent-msp1-1.cdninstagram.com&_nc_cat=103&_nc_oc=Q6cZ2AEK1CpK2vKjfGvukErl5kX13HyV3NYetz-xQKqehzbUcXsULTs52C348cUtrj6gqMU&_nc_ohc=PnbXQy7OY10Q7kNvgHdt90S&_nc_gid=89debf7080e2457bbc4b26eed97035ec&edm=ANTKIIoBAAAA&ccb=7-5&oh=00_AYDYj6QmM10LVV1-443_wx8mNFZCZYUYejdqF8y0Wy-8jw&oe=67C40E2D&_nc_sid=d885a2",
+                                            "username": "heyyyyits_mel"
+                                        },
+                                        "text": "@nononsensespirituality The difference is that astrology isn\u2019t a religion\u2014it doesn\u2019t require blind faith or divine authority. It\u2019s a system of pattern recognition that has been studied, adapted, and applied in many cultures. Dismissing it outright while favoring Enneagrams (which also rely on pattern interpretation) is selective reasoning. If meaning-making from patterns is invalid, then wouldn\u2019t that apply to personality models as well?",
+                                        "viewer_has_liked": false
+                                    }
+                                },
+                                {
+                                    "node": {
+                                        "created_at": 1739501143,
+                                        "did_report_as_spam": false,
+                                        "edge_liked_by": {
+                                            "count": 3
+                                        },
+                                        "id": "18078162439575820",
+                                        "is_restricted_pending": false,
+                                        "owner": {
+                                            "id": "375225230",
+                                            "is_verified": false,
+                                            "profile_pic_url": "https://scontent-msp1-1.cdninstagram.com/v/t51.2885-19/124878348_734597394079871_6887266022078503345_n.jpg?stp=dst-jpg_s150x150_tt6&_nc_ht=scontent-msp1-1.cdninstagram.com&_nc_cat=111&_nc_oc=Q6cZ2AEK1CpK2vKjfGvukErl5kX13HyV3NYetz-xQKqehzbUcXsULTs52C348cUtrj6gqMU&_nc_ohc=NWAWoLhen5YQ7kNvgELBv1D&_nc_gid=89debf7080e2457bbc4b26eed97035ec&edm=ANTKIIoBAAAA&ccb=7-5&oh=00_AYAY3Yo55kHlnR9Zy-cM--KY5OiZoAiYQvlxFkL6IBLlxQ&oe=67C40E6E&_nc_sid=d885a2",
+                                            "username": "theoliviahope"
+                                        },
+                                        "text": "@whered_zoedream you not @nononsensespirituality know enough about Astrology to speak to it. If you want to take your own years long intensives, studying under mentors, and report back with your own genuine documented research, we will be all ears. Until then, let\u2019s keep quiet about where we don\u2019t hold expertise. Thank you.",
+                                        "viewer_has_liked": false
+                                    }
+                                }
+                            ],
+                            "page_info": {
+                                "end_cursor": "QVFCY3Y0TjNyejlWWEZvQ29uVjYweTNURGFUVlBuMGdpdTRWNnczVV9OOUYzanh4NzVGeWZoTlp4QW9zcDNXeVRiRktaaGJtdGN1V1FjNTB4TzFIeGhWTA==",
+                                "has_next_page": true
+                            }
+                        },
+                        "id": "17922517149028215",
+                        "is_restricted_pending": false,
+                        "owner": {
+                            "id": "22247011",
+                            "is_verified": false,
+                            "profile_pic_url": "https://scontent-msp1-1.cdninstagram.com/v/t51.2885-19/340966191_723147479547315_7821352883998689302_n.jpg?stp=dst-jpg_s150x150_tt6&_nc_ht=scontent-msp1-1.cdninstagram.com&_nc_cat=103&_nc_oc=Q6cZ2AEK1CpK2vKjfGvukErl5kX13HyV3NYetz-xQKqehzbUcXsULTs52C348cUtrj6gqMU&_nc_ohc=PnbXQy7OY10Q7kNvgHdt90S&_nc_gid=89debf7080e2457bbc4b26eed97035ec&edm=ANTKIIoBAAAA&ccb=7-5&oh=00_AYDYj6QmM10LVV1-443_wx8mNFZCZYUYejdqF8y0Wy-8jw&oe=67C40E2D&_nc_sid=d885a2",
+                            "username": "heyyyyits_mel"
+                        },
+                        "text": "When someone presents themselves as the ultimate authority on \u2018truth\u2019\u2014especially in areas where objective proof is impossible\u2014they end up creating just another belief system. It\u2019s one thing to share opinions or personal insights, but when they attack others (like astrology) while treating their own views as unquestionable, it becomes hypocritical.\n\nShe dismisses ideas she doesn\u2019t personally believe in while expecting others to accept her claims as fact. That\u2019s no different from religious fundamentalism\u2014just under a different label. In reality, no belief system can be absolutely proven, and all sources can be questioned, making her just another person pushing subjective beliefs as universal truth.\n\nThat said, actual astrology\u2014not just the generalized, pop-culture version, but real, in-depth astrology\u2014has proven itself through history and personal experience. It serves as an energy forecasting tool that not only aids in self-reflection but also assists in planning. Like science, astrology can be interpreted in multiple ways; dismissing it outright would be like claiming meteorology isn\u2019t real just because weather predictions aren\u2019t always exact",
+                        "viewer_has_liked": false
+                    }
+                },
+                {
+                    "node": {
+                        "created_at": 1739393765,
+                        "did_report_as_spam": false,
+                        "edge_liked_by": {
+                            "count": 6
+                        },
+                        "edge_threaded_comments": {
+                            "count": 1,
+                            "edges": [
+                                {
+                                    "node": {
+                                        "created_at": 1739394017,
+                                        "did_report_as_spam": false,
+                                        "edge_liked_by": {
+                                            "count": 7
+                                        },
+                                        "id": "18004863848711200",
+                                        "is_restricted_pending": false,
+                                        "owner": {
+                                            "id": "47214798729",
+                                            "is_verified": false,
+                                            "profile_pic_url": "https://scontent-msp1-1.cdninstagram.com/v/t51.2885-19/434675159_804057931568616_5711137461509149914_n.jpg?stp=dst-jpg_s150x150_tt6&_nc_ht=scontent-msp1-1.cdninstagram.com&_nc_cat=100&_nc_oc=Q6cZ2AEK1CpK2vKjfGvukErl5kX13HyV3NYetz-xQKqehzbUcXsULTs52C348cUtrj6gqMU&_nc_ohc=krNvAYnBgesQ7kNvgF49xG5&_nc_gid=89debf7080e2457bbc4b26eed97035ec&edm=ANTKIIoBAAAA&ccb=7-5&oh=00_AYAkFwr3kK7Uga-Y5x4Ad35hVL48XFQHEDWtjp0BLE-T9A&oe=67C3FD7C&_nc_sid=d885a2",
+                                            "username": "nononsensespirituality"
+                                        },
+                                        "text": "@maxrohleder they\u2019re about to get real loud here",
+                                        "viewer_has_liked": false
+                                    }
+                                }
+                            ],
+                            "page_info": {
+                                "end_cursor": null,
+                                "has_next_page": false
+                            }
+                        },
+                        "id": "18058572868833605",
+                        "is_restricted_pending": false,
+                        "owner": {
+                            "id": "1146327702",
+                            "is_verified": false,
+                            "profile_pic_url": "https://scontent-msp1-1.cdninstagram.com/v/t51.2885-19/218240083_4191953370871040_6951669759750080191_n.jpg?stp=dst-jpg_s150x150_tt6&_nc_ht=scontent-msp1-1.cdninstagram.com&_nc_cat=108&_nc_oc=Q6cZ2AEK1CpK2vKjfGvukErl5kX13HyV3NYetz-xQKqehzbUcXsULTs52C348cUtrj6gqMU&_nc_ohc=51Ph9HaR9L0Q7kNvgFtCdqL&_nc_gid=89debf7080e2457bbc4b26eed97035ec&edm=ANTKIIoBAAAA&ccb=7-5&oh=00_AYAxUIr8gEE6F9tanG191FrVSuteFcLB_-_AeXYjei5Dow&oe=67C3E60E&_nc_sid=d885a2",
+                            "username": "maxrohleder"
+                        },
+                        "text": "I learned on your posts that there are still people who really follow astrology",
+                        "viewer_has_liked": false
+                    }
+                },
+                {
+                    "node": {
+                        "created_at": 1739420098,
+                        "did_report_as_spam": false,
+                        "edge_liked_by": {
+                            "count": 6
+                        },
+                        "edge_threaded_comments": {
+                            "count": 3,
+                            "edges": [
+                                {
+                                    "node": {
+                                        "created_at": 1739420138,
+                                        "did_report_as_spam": false,
+                                        "edge_liked_by": {
+                                            "count": 2
+                                        },
+                                        "id": "17857326036303876",
+                                        "is_restricted_pending": false,
+                                        "owner": {
+                                            "id": "64124651501",
+                                            "is_verified": false,
+                                            "profile_pic_url": "https://scontent-msp1-1.cdninstagram.com/v/t51.2885-19/455104504_1625072971387002_8938333315106818406_n.jpg?stp=dst-jpg_s150x150_tt6&_nc_ht=scontent-msp1-1.cdninstagram.com&_nc_cat=106&_nc_oc=Q6cZ2AEK1CpK2vKjfGvukErl5kX13HyV3NYetz-xQKqehzbUcXsULTs52C348cUtrj6gqMU&_nc_ohc=oLLEh-uECswQ7kNvgGMH-pm&_nc_gid=89debf7080e2457bbc4b26eed97035ec&edm=ANTKIIoBAAAA&ccb=7-5&oh=00_AYD2cjnlU0hP4ikkGH-vczFzy9FPAjWzoEIgq-qPsdWpKA&oe=67C3F19A&_nc_sid=d885a2",
+                                            "username": "bloomapotheca"
+                                        },
+                                        "text": "@bloomapotheca a huge shit \ud83d\ude2d\ud83d\ude2d\ud83e\udd23 a huge shift*",
+                                        "viewer_has_liked": false
+                                    }
+                                },
+                                {
+                                    "node": {
+                                        "created_at": 1739421376,
+                                        "did_report_as_spam": false,
+                                        "edge_liked_by": {
+                                            "count": 3
+                                        },
+                                        "id": "18093871162471693",
+                                        "is_restricted_pending": false,
+                                        "owner": {
+                                            "id": "47214798729",
+                                            "is_verified": false,
+                                            "profile_pic_url": "https://scontent-msp1-1.cdninstagram.com/v/t51.2885-19/434675159_804057931568616_5711137461509149914_n.jpg?stp=dst-jpg_s150x150_tt6&_nc_ht=scontent-msp1-1.cdninstagram.com&_nc_cat=100&_nc_oc=Q6cZ2AEK1CpK2vKjfGvukErl5kX13HyV3NYetz-xQKqehzbUcXsULTs52C348cUtrj6gqMU&_nc_ohc=krNvAYnBgesQ7kNvgF49xG5&_nc_gid=89debf7080e2457bbc4b26eed97035ec&edm=ANTKIIoBAAAA&ccb=7-5&oh=00_AYAkFwr3kK7Uga-Y5x4Ad35hVL48XFQHEDWtjp0BLE-T9A&oe=67C3FD7C&_nc_sid=d885a2",
+                                            "username": "nononsensespirituality"
+                                        },
+                                        "text": "@bloomapotheca I myself prefer tools where there it\u2019s harder to \u201cmiss the point\u201d just because I\u2019ve seen so many have regrets on that path. But for those who genuinely use it as a tool, I have no quarrel.",
+                                        "viewer_has_liked": false
+                                    }
+                                },
+                                {
+                                    "node": {
+                                        "created_at": 1739422345,
+                                        "did_report_as_spam": false,
+                                        "edge_liked_by": {
+                                            "count": 0
+                                        },
+                                        "id": "18049965523966884",
+                                        "is_restricted_pending": false,
+                                        "owner": {
+                                            "id": "64124651501",
+                                            "is_verified": false,
+                                            "profile_pic_url": "https://scontent-msp1-1.cdninstagram.com/v/t51.2885-19/455104504_1625072971387002_8938333315106818406_n.jpg?stp=dst-jpg_s150x150_tt6&_nc_ht=scontent-msp1-1.cdninstagram.com&_nc_cat=106&_nc_oc=Q6cZ2AEK1CpK2vKjfGvukErl5kX13HyV3NYetz-xQKqehzbUcXsULTs52C348cUtrj6gqMU&_nc_ohc=oLLEh-uECswQ7kNvgGMH-pm&_nc_gid=89debf7080e2457bbc4b26eed97035ec&edm=ANTKIIoBAAAA&ccb=7-5&oh=00_AYD2cjnlU0hP4ikkGH-vczFzy9FPAjWzoEIgq-qPsdWpKA&oe=67C3F19A&_nc_sid=d885a2",
+                                            "username": "bloomapotheca"
+                                        },
+                                        "text": "@nononsensespirituality interesting! I\u2019m curious how you feel about energy work! Have you ever tried anything like that?",
+                                        "viewer_has_liked": false
+                                    }
+                                }
+                            ],
+                            "page_info": {
+                                "end_cursor": null,
+                                "has_next_page": false
+                            }
+                        },
+                        "id": "17895797526149328",
+                        "is_restricted_pending": false,
+                        "owner": {
+                            "id": "64124651501",
+                            "is_verified": false,
+                            "profile_pic_url": "https://scontent-msp1-1.cdninstagram.com/v/t51.2885-19/455104504_1625072971387002_8938333315106818406_n.jpg?stp=dst-jpg_s150x150_tt6&_nc_ht=scontent-msp1-1.cdninstagram.com&_nc_cat=106&_nc_oc=Q6cZ2AEK1CpK2vKjfGvukErl5kX13HyV3NYetz-xQKqehzbUcXsULTs52C348cUtrj6gqMU&_nc_ohc=oLLEh-uECswQ7kNvgGMH-pm&_nc_gid=89debf7080e2457bbc4b26eed97035ec&edm=ANTKIIoBAAAA&ccb=7-5&oh=00_AYD2cjnlU0hP4ikkGH-vczFzy9FPAjWzoEIgq-qPsdWpKA&oe=67C3F19A&_nc_sid=d885a2",
+                            "username": "bloomapotheca"
+                        },
+                        "text": "Is your intention to throw away the whole tool because YOU couldn\u2019t or didn\u2019t want to use it as a threshold the way some other people do? Genuinely curious. Because for me, astrology was one of some AMAZING tools that were the gateway into my interest in embarking on a spiritual journey and really my personal healing journey in the first place. \n\nI feel like that\u2019s what much of the whole witchy/spiritual aesthetic has been over the last several years. People on the threshold of pushing truly inward, and I\u2019ve seen a huge shit in consciousness these last few months. In myself even, too. Are these tools not valuable because some people get caught up in them and miss the fact that they are merely TOOLS for consciousness?",
+                        "viewer_has_liked": false
+                    }
+                },
+                {
+                    "node": {
+                        "created_at": 1739432781,
+                        "did_report_as_spam": false,
+                        "edge_liked_by": {
+                            "count": 5
+                        },
+                        "edge_threaded_comments": {
+                            "count": 5,
+                            "edges": [
+                                {
+                                    "node": {
+                                        "created_at": 1739871693,
+                                        "did_report_as_spam": false,
+                                        "edge_liked_by": {
+                                            "count": 0
+                                        },
+                                        "id": "17872418550203734",
+                                        "is_restricted_pending": false,
+                                        "owner": {
+                                            "id": "21180343662",
+                                            "is_verified": false,
+                                            "profile_pic_url": "https://scontent-msp1-1.cdninstagram.com/v/t51.2885-19/70848618_2399056243465224_2844240876576702464_n.jpg?stp=dst-jpg_s150x150_tt6&_nc_ht=scontent-msp1-1.cdninstagram.com&_nc_cat=1&_nc_oc=Q6cZ2AEK1CpK2vKjfGvukErl5kX13HyV3NYetz-xQKqehzbUcXsULTs52C348cUtrj6gqMU&_nc_ohc=aI1YQggRsPQQ7kNvgExdIav&_nc_gid=89debf7080e2457bbc4b26eed97035ec&edm=ANTKIIoBAAAA&ccb=7-5&oh=00_AYCYakslcvIqenC1A3mwp1PbHGtkO39QSCHhNJX2x0xiEw&oe=67C3E3C6&_nc_sid=d885a2",
+                                            "username": "stevepayne1972"
+                                        },
+                                        "text": "@annam.art Science *is* already questioned. By scientists. Constantly. That's their job.",
+                                        "viewer_has_liked": false
+                                    }
+                                },
+                                {
+                                    "node": {
+                                        "created_at": 1739922464,
+                                        "did_report_as_spam": false,
+                                        "edge_liked_by": {
+                                            "count": 0
+                                        },
+                                        "id": "18268450867249025",
+                                        "is_restricted_pending": false,
+                                        "owner": {
+                                            "id": "5456319435",
+                                            "is_verified": false,
+                                            "profile_pic_url": "https://scontent-msp1-1.cdninstagram.com/v/t51.2885-19/459371014_1773382600160222_8761068400008242438_n.jpg?stp=dst-jpg_s150x150_tt6&_nc_ht=scontent-msp1-1.cdninstagram.com&_nc_cat=102&_nc_oc=Q6cZ2AEK1CpK2vKjfGvukErl5kX13HyV3NYetz-xQKqehzbUcXsULTs52C348cUtrj6gqMU&_nc_ohc=dQXnuaxnUXIQ7kNvgGHm2LY&_nc_gid=89debf7080e2457bbc4b26eed97035ec&edm=ANTKIIoBAAAA&ccb=7-5&oh=00_AYCZLLWBeGbDV3ZOJZLmKHV-fGIZxBGqF_D7vKZI5Yqs6Q&oe=67C3E7B4&_nc_sid=d885a2",
+                                            "username": "annam.art"
+                                        },
+                                        "text": "@stevepayne1972 look around you , there is lot of mess on this planet and science unfortunately has created . Have you also noticed how many times science got it wrong and then they have to go back to cleaning up the mess they created while we believe them unquestionably. Astrology is a science , it\u2019s not the weekly horoscope . Anyone who has not studied it dies not have the authority to belittle it . If an individual chooses not to believe in something it does not mean it doesn\u2019t exist or is not true . Only arrogance and ignorance makes it so",
+                                        "viewer_has_liked": false
+                                    }
+                                },
+                                {
+                                    "node": {
+                                        "created_at": 1739922676,
+                                        "did_report_as_spam": false,
+                                        "edge_liked_by": {
+                                            "count": 1
+                                        },
+                                        "id": "18023800001644309",
+                                        "is_restricted_pending": false,
+                                        "owner": {
+                                            "id": "47214798729",
+                                            "is_verified": false,
+                                            "profile_pic_url": "https://scontent-msp1-1.cdninstagram.com/v/t51.2885-19/434675159_804057931568616_5711137461509149914_n.jpg?stp=dst-jpg_s150x150_tt6&_nc_ht=scontent-msp1-1.cdninstagram.com&_nc_cat=100&_nc_oc=Q6cZ2AEK1CpK2vKjfGvukErl5kX13HyV3NYetz-xQKqehzbUcXsULTs52C348cUtrj6gqMU&_nc_ohc=krNvAYnBgesQ7kNvgF49xG5&_nc_gid=89debf7080e2457bbc4b26eed97035ec&edm=ANTKIIoBAAAA&ccb=7-5&oh=00_AYAkFwr3kK7Uga-Y5x4Ad35hVL48XFQHEDWtjp0BLE-T9A&oe=67C3FD7C&_nc_sid=d885a2",
+                                            "username": "nononsensespirituality"
+                                        },
+                                        "text": "@annam.art you missed the point. Science is the only thing that humans do that self corrects. Religion does not. Astrology does not. The fact that science messes up and changes is a great thing. No matter how complex you make astrology, and I\u2019ll admit it gets incredibly complex, that does not validate the base truth claims being made by astrology, that celestial bodies affect humans, or that patterns are anything more than hindsight bias.",
+                                        "viewer_has_liked": false
+                                    }
+                                }
+                            ],
+                            "page_info": {
+                                "end_cursor": "QVFBd256RGtQV2hOS0JPdnVpZG53SDRiVVNvQ1VpaDZPYzVzaFNoekR0OW5DRXRyUHQyMUVKZnhvRXhGbDZHN3BBM1c4Q2k2ZjBfWEUwNlpCVnlfZWtUOQ==",
+                                "has_next_page": true
+                            }
+                        },
+                        "id": "17907450497999079",
+                        "is_restricted_pending": false,
+                        "owner": {
+                            "id": "5456319435",
+                            "is_verified": false,
+                            "profile_pic_url": "https://scontent-msp1-1.cdninstagram.com/v/t51.2885-19/459371014_1773382600160222_8761068400008242438_n.jpg?stp=dst-jpg_s150x150_tt6&_nc_ht=scontent-msp1-1.cdninstagram.com&_nc_cat=102&_nc_oc=Q6cZ2AEK1CpK2vKjfGvukErl5kX13HyV3NYetz-xQKqehzbUcXsULTs52C348cUtrj6gqMU&_nc_ohc=dQXnuaxnUXIQ7kNvgGHm2LY&_nc_gid=89debf7080e2457bbc4b26eed97035ec&edm=ANTKIIoBAAAA&ccb=7-5&oh=00_AYCZLLWBeGbDV3ZOJZLmKHV-fGIZxBGqF_D7vKZI5Yqs6Q&oe=67C3E7B4&_nc_sid=d885a2",
+                            "username": "annam.art"
+                        },
+                        "text": "Have you studied astrology ? \nIn today\u2019s day and age we need to start questioning science and stop relying so much on their truth . \nAstrology is Annan ancient tool of wisdom . Science or Meta wouldn\u2019t even have a clue on what that means !",
+                        "viewer_has_liked": false
+                    }
+                },
+                {
+                    "node": {
+                        "created_at": 1739393380,
+                        "did_report_as_spam": false,
+                        "edge_liked_by": {
+                            "count": 19
+                        },
+                        "edge_threaded_comments": {
+                            "count": 5,
+                            "edges": [
+                                {
+                                    "node": {
+                                        "created_at": 1739398185,
+                                        "did_report_as_spam": false,
+                                        "edge_liked_by": {
+                                            "count": 1
+                                        },
+                                        "id": "18058289003493836",
+                                        "is_restricted_pending": false,
+                                        "owner": {
+                                            "id": "192955900",
+                                            "is_verified": false,
+                                            "profile_pic_url": "https://scontent-msp1-1.cdninstagram.com/v/t51.2885-19/46301684_2448338248570176_8792197199107719168_n.jpg?stp=dst-jpg_s150x150_tt6&_nc_ht=scontent-msp1-1.cdninstagram.com&_nc_cat=100&_nc_oc=Q6cZ2AEK1CpK2vKjfGvukErl5kX13HyV3NYetz-xQKqehzbUcXsULTs52C348cUtrj6gqMU&_nc_ohc=nSoQXZyYtqkQ7kNvgH6kE0W&_nc_gid=89debf7080e2457bbc4b26eed97035ec&edm=ANTKIIoBAAAA&ccb=7-5&oh=00_AYAU_dX_Ff9OsHXjTzIHNYRSwY5tc2TLSxEcVefRcM_MLQ&oe=67C3EE5A&_nc_sid=d885a2",
+                                            "username": "brittsterhartley"
+                                        },
+                                        "text": "@goofy_enfriends if the truth claims don\u2019t matter you can actually do the same work no matter your sign.",
+                                        "viewer_has_liked": false
+                                    }
+                                },
+                                {
+                                    "node": {
+                                        "created_at": 1739439469,
+                                        "did_report_as_spam": false,
+                                        "edge_liked_by": {
+                                            "count": 2
+                                        },
+                                        "id": "18340670734157504",
+                                        "is_restricted_pending": false,
+                                        "owner": {
+                                            "id": "15397354178",
+                                            "is_verified": false,
+                                            "profile_pic_url": "https://scontent-msp1-1.cdninstagram.com/v/t51.2885-19/339334293_1381468472649573_1088311895801296745_n.jpg?stp=dst-jpg_s150x150_tt6&_nc_ht=scontent-msp1-1.cdninstagram.com&_nc_cat=109&_nc_oc=Q6cZ2AEK1CpK2vKjfGvukErl5kX13HyV3NYetz-xQKqehzbUcXsULTs52C348cUtrj6gqMU&_nc_ohc=QaunflSfmcsQ7kNvgHC3REJ&_nc_gid=89debf7080e2457bbc4b26eed97035ec&edm=ANTKIIoBAAAA&ccb=7-5&oh=00_AYC2JQPE4mIX6Gpn6El6jAJA4c_7SuEYvryiys4hEX68rA&oe=67C3EC53&_nc_sid=d885a2",
+                                            "username": "makjaggertarot"
+                                        },
+                                        "text": "@goofy_enfriends I fully agree with what you\u2019re saying and it\u2019s clear to me that although this person has shared a lot of wisdom that I\u2019ve appreciated, their grasp of astrology is extremely limited at best. \n\nThe algo showed me another  video right before this one that does an excellent job of refuting points just like this one: https://www.instagram.com/reel/DEyex0fMZJQ/?igsh=MWVvcTZhM3loZjl2bg==",
+                                        "viewer_has_liked": false
+                                    }
+                                },
+                                {
+                                    "node": {
+                                        "created_at": 1739451813,
+                                        "did_report_as_spam": false,
+                                        "edge_liked_by": {
+                                            "count": 1
+                                        },
+                                        "id": "18330585955085819",
+                                        "is_restricted_pending": false,
+                                        "owner": {
+                                            "id": "227709971",
+                                            "is_verified": false,
+                                            "profile_pic_url": "https://scontent-msp1-1.cdninstagram.com/v/t51.2885-19/117773031_354318422265768_595011049374918585_n.jpg?stp=dst-jpg_s150x150_tt6&_nc_ht=scontent-msp1-1.cdninstagram.com&_nc_cat=100&_nc_oc=Q6cZ2AEK1CpK2vKjfGvukErl5kX13HyV3NYetz-xQKqehzbUcXsULTs52C348cUtrj6gqMU&_nc_ohc=n7VkTY8Vk9MQ7kNvgHJUClg&_nc_gid=89debf7080e2457bbc4b26eed97035ec&edm=ANTKIIoBAAAA&ccb=7-5&oh=00_AYCwFvAp40SGRL4jW6ADTI4q2l0aDcf_nA-zIA1_2PvdFg&oe=67C3ECA8&_nc_sid=d885a2",
+                                            "username": "mysticsage7744"
+                                        },
+                                        "text": "@goofy_enfriends that is true, even her belief in that humans have no free will is debatable. I was reading differeint neuroscientists takes on it and there is a whole lot that goes into that argument along with behavior scientists, philosophers, biology, psychology. It's definitely not a layered topic, its definitely not black and white. Getting into reading the science behind that thinking is that I simply don't agree with it after listenging to interviews with neuroscientists about it. One researcher Robert Sapolsky makes that claim but also Sapolksy suffers from depression too and has for a while so it makes me wonder does that influence his outlook?",
+                                        "viewer_has_liked": false
+                                    }
+                                }
+                            ],
+                            "page_info": {
+                                "end_cursor": "QVFDNnRVMVhsb0xEbHlZbkpxWVUwcjA5VzJkY3k5aWNNYWNHT1FqbDBwQWE4MlR3bFhLNDFQRVJrUkFzZjlmOHloVVVFSDdNVVpySUJyOFNtcUZkUjcyYg==",
+                                "has_next_page": true
+                            }
+                        },
+                        "id": "18029792219626869",
+                        "is_restricted_pending": false,
+                        "owner": {
+                            "id": "45606877393",
+                            "is_verified": false,
+                            "profile_pic_url": "https://scontent-msp1-1.cdninstagram.com/v/t51.2885-19/203109354_543209990187132_2176105435475059257_n.jpg?stp=dst-jpg_s150x150_tt6&_nc_ht=scontent-msp1-1.cdninstagram.com&_nc_cat=100&_nc_oc=Q6cZ2AEK1CpK2vKjfGvukErl5kX13HyV3NYetz-xQKqehzbUcXsULTs52C348cUtrj6gqMU&_nc_ohc=_eJem81Qb5gQ7kNvgGpY1kl&_nc_gid=89debf7080e2457bbc4b26eed97035ec&edm=ANTKIIoBAAAA&ccb=7-5&oh=00_AYD6CqupwLj2Qkh1r7M5zL76HbnnUQnkVWHiT7cR79tzHg&oe=67C40F2F&_nc_sid=d885a2",
+                            "username": "goofy_enfriends"
+                        },
+                        "text": "Hi, I really like your content! I still have to give some feedback on this subject though. Excuse my English, it\u2019s not my first language. A person who is really into astrology would never say they don\u2019t like a certain sun sign or say things about \u2018mercury in retrograde is responsible for\u2019 anything. That has nothing to do with astrology. Persons who are really into astrology are very rare, and such a person has years and years of training and studying. It\u2019s not fair to judge the relevance of astrology if you\u2019re not expert level yourself and are just making this statement based on populair opinions about astrology, assumptions or your own subjective feelings towards astrology",
+                        "viewer_has_liked": false
+                    }
+                },
+                {
+                    "node": {
+                        "created_at": 1739794087,
+                        "did_report_as_spam": false,
+                        "edge_liked_by": {
+                            "count": 0
+                        },
+                        "edge_threaded_comments": {
+                            "count": 1,
+                            "edges": [
+                                {
+                                    "node": {
+                                        "created_at": 1739794131,
+                                        "did_report_as_spam": false,
+                                        "edge_liked_by": {
+                                            "count": 0
+                                        },
+                                        "id": "18090599272553195",
+                                        "is_restricted_pending": false,
+                                        "owner": {
+                                            "id": "3544109078",
+                                            "is_verified": false,
+                                            "profile_pic_url": "https://scontent-msp1-1.cdninstagram.com/v/t51.2885-19/16464325_121121731741507_4761569463545888768_a.jpg?stp=dst-jpg_s150x150_tt6&_nc_ht=scontent-msp1-1.cdninstagram.com&_nc_cat=107&_nc_oc=Q6cZ2AEK1CpK2vKjfGvukErl5kX13HyV3NYetz-xQKqehzbUcXsULTs52C348cUtrj6gqMU&_nc_ohc=moANwiEdKSAQ7kNvgFWsY7U&_nc_gid=89debf7080e2457bbc4b26eed97035ec&edm=ANTKIIoBAAAA&ccb=7-5&oh=00_AYD0LZWgxcpaNLV7zKA_NZD0RRUpF9QMQNRM_H2dB3i8-w&oe=67C40EA5&_nc_sid=d885a2",
+                                            "username": "chris.er.suth"
+                                        },
+                                        "text": "@chris.er.suth reign* whoops",
+                                        "viewer_has_liked": false
+                                    }
+                                }
+                            ],
+                            "page_info": {
+                                "end_cursor": null,
+                                "has_next_page": false
+                            }
+                        },
+                        "id": "18071265946745536",
+                        "is_restricted_pending": false,
+                        "owner": {
+                            "id": "3544109078",
+                            "is_verified": false,
+                            "profile_pic_url": "https://scontent-msp1-1.cdninstagram.com/v/t51.2885-19/16464325_121121731741507_4761569463545888768_a.jpg?stp=dst-jpg_s150x150_tt6&_nc_ht=scontent-msp1-1.cdninstagram.com&_nc_cat=107&_nc_oc=Q6cZ2AEK1CpK2vKjfGvukErl5kX13HyV3NYetz-xQKqehzbUcXsULTs52C348cUtrj6gqMU&_nc_ohc=moANwiEdKSAQ7kNvgFWsY7U&_nc_gid=89debf7080e2457bbc4b26eed97035ec&edm=ANTKIIoBAAAA&ccb=7-5&oh=00_AYD0LZWgxcpaNLV7zKA_NZD0RRUpF9QMQNRM_H2dB3i8-w&oe=67C40EA5&_nc_sid=d885a2",
+                            "username": "chris.er.suth"
+                        },
+                        "text": "Studies and meta studies done on how the existence of a sky daddy isn\u2019t plausible, but it helps others make peace with the seemingly chaotic world around them. The difference is: astrology doesn\u2019t really hurt anyone the way structured religion does. There\u2019s no true authority on your individualism except for the day you were born. \nI don\u2019t know dude. \n\nBoth Judeo-Christian religions and astrology lean on mysticism, god of the gaps, confirmation bias, divine order and cosmic law, prophecy and predestination, circles of time and \u201csacred history\u201d, symbolism and archetypes. \n\nOne belief doesnt rain more true than the other in this instance.",
+                        "viewer_has_liked": false
+                    }
+                },
+                {
+                    "node": {
+                        "created_at": 1739425859,
+                        "did_report_as_spam": false,
+                        "edge_liked_by": {
+                            "count": 2
+                        },
+                        "edge_threaded_comments": {
+                            "count": 2,
+                            "edges": [
+                                {
+                                    "node": {
+                                        "created_at": 1739425923,
+                                        "did_report_as_spam": false,
+                                        "edge_liked_by": {
+                                            "count": 1
+                                        },
+                                        "id": "18052067060136266",
+                                        "is_restricted_pending": false,
+                                        "owner": {
+                                            "id": "5655921524",
+                                            "is_verified": false,
+                                            "profile_pic_url": "https://scontent-msp1-1.cdninstagram.com/v/t51.2885-19/103957006_563361944348693_8166182213519176090_n.jpg?stp=dst-jpg_s150x150_tt6&_nc_ht=scontent-msp1-1.cdninstagram.com&_nc_cat=105&_nc_oc=Q6cZ2AEK1CpK2vKjfGvukErl5kX13HyV3NYetz-xQKqehzbUcXsULTs52C348cUtrj6gqMU&_nc_ohc=JQzu_aTWcmEQ7kNvgH6U31o&_nc_gid=89debf7080e2457bbc4b26eed97035ec&edm=ANTKIIoBAAAA&ccb=7-5&oh=00_AYCj_B5KSpLeIhpVn2mb5N21P13sgzV6JXauL3IwbSTXxQ&oe=67C412CE&_nc_sid=d885a2",
+                                            "username": "julianmarcwalker"
+                                        },
+                                        "text": "@julianmarcwalker what I mean is that astrology is a misleading and superficial substitute for what is actually being sought out! It doesn\u2019t\u201cwork.\u201d It\u2019s spiritual junk food.",
+                                        "viewer_has_liked": false
+                                    }
+                                },
+                                {
+                                    "node": {
+                                        "created_at": 1739446325,
+                                        "did_report_as_spam": false,
+                                        "edge_liked_by": {
+                                            "count": 0
+                                        },
+                                        "id": "18071753521750761",
+                                        "is_restricted_pending": false,
+                                        "owner": {
+                                            "id": "22247011",
+                                            "is_verified": false,
+                                            "profile_pic_url": "https://scontent-msp1-1.cdninstagram.com/v/t51.2885-19/340966191_723147479547315_7821352883998689302_n.jpg?stp=dst-jpg_s150x150_tt6&_nc_ht=scontent-msp1-1.cdninstagram.com&_nc_cat=103&_nc_oc=Q6cZ2AEK1CpK2vKjfGvukErl5kX13HyV3NYetz-xQKqehzbUcXsULTs52C348cUtrj6gqMU&_nc_ohc=PnbXQy7OY10Q7kNvgHdt90S&_nc_gid=89debf7080e2457bbc4b26eed97035ec&edm=ANTKIIoBAAAA&ccb=7-5&oh=00_AYDYj6QmM10LVV1-443_wx8mNFZCZYUYejdqF8y0Wy-8jw&oe=67C40E2D&_nc_sid=d885a2",
+                                            "username": "heyyyyits_mel"
+                                        },
+                                        "text": "Maybe pop culture astrology but actual real astrology is an amazing art, science and tool",
+                                        "viewer_has_liked": false
+                                    }
+                                }
+                            ],
+                            "page_info": {
+                                "end_cursor": null,
+                                "has_next_page": false
+                            }
+                        },
+                        "id": "18135955879389264",
+                        "is_restricted_pending": false,
+                        "owner": {
+                            "id": "5655921524",
+                            "is_verified": false,
+                            "profile_pic_url": "https://scontent-msp1-1.cdninstagram.com/v/t51.2885-19/103957006_563361944348693_8166182213519176090_n.jpg?stp=dst-jpg_s150x150_tt6&_nc_ht=scontent-msp1-1.cdninstagram.com&_nc_cat=105&_nc_oc=Q6cZ2AEK1CpK2vKjfGvukErl5kX13HyV3NYetz-xQKqehzbUcXsULTs52C348cUtrj6gqMU&_nc_ohc=JQzu_aTWcmEQ7kNvgH6U31o&_nc_gid=89debf7080e2457bbc4b26eed97035ec&edm=ANTKIIoBAAAA&ccb=7-5&oh=00_AYCj_B5KSpLeIhpVn2mb5N21P13sgzV6JXauL3IwbSTXxQ&oe=67C412CE&_nc_sid=d885a2",
+                            "username": "julianmarcwalker"
+                        },
+                        "text": "It doesn\u2019t work either, though. There are much better ways to learn about your own psychology and reflect on your life that aren\u2019t superficial make believe misleading manipulative nonsense!",
+                        "viewer_has_liked": false
+                    }
+                },
+                {
+                    "node": {
+                        "created_at": 1739723913,
+                        "did_report_as_spam": false,
+                        "edge_liked_by": {
+                            "count": 1
+                        },
+                        "edge_threaded_comments": {
+                            "count": 0,
+                            "edges": [],
+                            "page_info": {
+                                "end_cursor": null,
+                                "has_next_page": false
+                            }
+                        },
+                        "id": "18058360555834715",
+                        "is_restricted_pending": false,
+                        "owner": {
+                            "id": "18359991284",
+                            "is_verified": false,
+                            "profile_pic_url": "https://scontent-msp1-1.cdninstagram.com/v/t51.2885-19/387752729_1367660167491665_1972624341077868324_n.jpg?stp=dst-jpg_s150x150_tt6&_nc_ht=scontent-msp1-1.cdninstagram.com&_nc_cat=105&_nc_oc=Q6cZ2AEK1CpK2vKjfGvukErl5kX13HyV3NYetz-xQKqehzbUcXsULTs52C348cUtrj6gqMU&_nc_ohc=p_3cC-FTlR0Q7kNvgG_YOdc&_nc_gid=89debf7080e2457bbc4b26eed97035ec&edm=ANTKIIoBAAAA&ccb=7-5&oh=00_AYCE_AkvH8360prqhF8qw1YNu_g_Bk7afmN2vX20SPJcSw&oe=67C3E912&_nc_sid=d885a2",
+                            "username": "da_gurrs"
+                        },
+                        "text": "Science is constantly evolving and just because we do not yet have the technology to prove something using the scientific method doesn\u2019t mean it\u2019s invalid. Don\u2019t get me wrong- if there\u2019s science that asserts something is doing more harm than it is good I trust science. But just because science can\u2019t prove something\u2019s legitimacy doesn\u2019t mean we should disregard it. I love acupuncture which was not developed using the scientific method. It\u2019s been used for many, many generations but for most of its existence there was no scientific evidence to prove its efficacy or how it works. Because of this so many people have called it a gimmick and denied there\u2019s any actual healing happening so people who use it are just wasting their money. However, in just the past ten years or so scientists have developed ways to measure how frequencies travel through the human body and all of their findings have backed up the acupuncture theories. Just because we aren\u2019t there yet doesn\u2019t mean science won\u2019t someday back up astrology. Science certainly hasn\u2019t disproved it. Many people who believe in science also embrace astrology and I\u2019ve seen astrologers accurately predict a crazy amount of things. I\u2019ve also had experiences that repeatedly coincide with the same astrological events (many of which I wasn\u2019t even aware of at the time of the happenings, I only connected the dots afterwards so I don\u2019t think I was just projecting these things to happen). No one has to follow astrology if they don\u2019t want to and I agree many people overthink it but I embrace astrology to a certain degree and there\u2019s nothing wrong with that. I think it\u2019s far more systematic and rooted in things we directly experience than most religious doctrines are.",
+                        "viewer_has_liked": false
+                    }
+                },
+                {
+                    "node": {
+                        "created_at": 1739801177,
+                        "did_report_as_spam": false,
+                        "edge_liked_by": {
+                            "count": 1
+                        },
+                        "edge_threaded_comments": {
+                            "count": 0,
+                            "edges": [],
+                            "page_info": {
+                                "end_cursor": null,
+                                "has_next_page": false
+                            }
+                        },
+                        "id": "17860292637359247",
+                        "is_restricted_pending": false,
+                        "owner": {
+                            "id": "2873617877",
+                            "is_verified": false,
+                            "profile_pic_url": "https://scontent-msp1-1.cdninstagram.com/v/t51.2885-19/404927751_724792555783475_2995516222459647164_n.jpg?stp=dst-jpg_s150x150_tt6&_nc_ht=scontent-msp1-1.cdninstagram.com&_nc_cat=111&_nc_oc=Q6cZ2AEK1CpK2vKjfGvukErl5kX13HyV3NYetz-xQKqehzbUcXsULTs52C348cUtrj6gqMU&_nc_ohc=XUbqdQvGUQYQ7kNvgFd6tUI&_nc_gid=89debf7080e2457bbc4b26eed97035ec&edm=ANTKIIoBAAAA&ccb=7-5&oh=00_AYBBWr8sa0rDv2f6GRQnETs5-_ZCaJP3JeyVxQgu-lYZUw&oe=67C40245&_nc_sid=d885a2",
+                            "username": "kimddesrosiers"
+                        },
+                        "text": "In wisdom traditions, especially those of the east, one would proffer \u201cpointing out\u201d instructions in response to your position.  Pointing Out instructions allow the person holding the bias to see the reflection they are perceiving contains within it the bias they themselves hold. \n\nSo, when you can\u2019t rely on scientism, because meta-studies always involve the bias of the observer, and quantum physics already tells us that the presence of an observer changes the measured result, what are you left with as a basis for your belief?  You can see why non-dualists and quantum scientists get along.  A razor cannot cut itself.  And these comments are your razor.",
+                        "viewer_has_liked": false
+                    }
+                },
+                {
+                    "node": {
+                        "created_at": 1739419972,
+                        "did_report_as_spam": false,
+                        "edge_liked_by": {
+                            "count": 5
+                        },
+                        "edge_threaded_comments": {
+                            "count": 4,
+                            "edges": [
+                                {
+                                    "node": {
+                                        "created_at": 1739461839,
+                                        "did_report_as_spam": false,
+                                        "edge_liked_by": {
+                                            "count": 1
+                                        },
+                                        "id": "17896245927151607",
+                                        "is_restricted_pending": false,
+                                        "owner": {
+                                            "id": "30396777318",
+                                            "is_verified": false,
+                                            "profile_pic_url": "https://scontent-msp1-1.cdninstagram.com/v/t51.2885-19/468277050_1088176356082989_8093042422404864245_n.jpg?stp=dst-jpg_s150x150_tt6&_nc_ht=scontent-msp1-1.cdninstagram.com&_nc_cat=109&_nc_oc=Q6cZ2AEK1CpK2vKjfGvukErl5kX13HyV3NYetz-xQKqehzbUcXsULTs52C348cUtrj6gqMU&_nc_ohc=N3BaI22jyQsQ7kNvgHeA3LA&_nc_gid=89debf7080e2457bbc4b26eed97035ec&edm=ANTKIIoBAAAA&ccb=7-5&oh=00_AYDjEGYj01ToTYhVa77cnhreKNs3y9yzVbgUIs0DyXUqNA&oe=67C402AF&_nc_sid=d885a2",
+                                            "username": "alina_vpa"
+                                        },
+                                        "text": "@jacquiestcequi I hear you, but I'm also a big proponent of marrying science and spiritually because I dont believe the two are supposed to be mutually exclusive",
+                                        "viewer_has_liked": false
+                                    }
+                                },
+                                {
+                                    "node": {
+                                        "created_at": 1739463889,
+                                        "did_report_as_spam": false,
+                                        "edge_liked_by": {
+                                            "count": 0
+                                        },
+                                        "id": "18067492663869533",
+                                        "is_restricted_pending": false,
+                                        "owner": {
+                                            "id": "14335979254",
+                                            "is_verified": false,
+                                            "profile_pic_url": "https://scontent-msp1-1.cdninstagram.com/v/t51.2885-19/402004139_3598167493844233_1486722626462136849_n.jpg?stp=dst-jpg_s150x150_tt6&_nc_ht=scontent-msp1-1.cdninstagram.com&_nc_cat=101&_nc_oc=Q6cZ2AEK1CpK2vKjfGvukErl5kX13HyV3NYetz-xQKqehzbUcXsULTs52C348cUtrj6gqMU&_nc_ohc=G5LF3rmb52IQ7kNvgGx8leq&_nc_gid=89debf7080e2457bbc4b26eed97035ec&edm=ANTKIIoBAAAA&ccb=7-5&oh=00_AYA9TzdY9ydMOTkBGzxGVLG9JrwRo359UbT8T7oGSWvZgA&oe=67C3F694&_nc_sid=d885a2",
+                                            "username": "jacquiestcequi"
+                                        },
+                                        "text": "@alina_vpa me too, that's why I love nononsensespirituality. She marries the two by taking the best of both, not by watering them down until there is just some useless pseudoscience left.",
+                                        "viewer_has_liked": false
+                                    }
+                                },
+                                {
+                                    "node": {
+                                        "created_at": 1739466722,
+                                        "did_report_as_spam": false,
+                                        "edge_liked_by": {
+                                            "count": 0
+                                        },
+                                        "id": "17891899776177601",
+                                        "is_restricted_pending": false,
+                                        "owner": {
+                                            "id": "30396777318",
+                                            "is_verified": false,
+                                            "profile_pic_url": "https://scontent-msp1-1.cdninstagram.com/v/t51.2885-19/468277050_1088176356082989_8093042422404864245_n.jpg?stp=dst-jpg_s150x150_tt6&_nc_ht=scontent-msp1-1.cdninstagram.com&_nc_cat=109&_nc_oc=Q6cZ2AEK1CpK2vKjfGvukErl5kX13HyV3NYetz-xQKqehzbUcXsULTs52C348cUtrj6gqMU&_nc_ohc=N3BaI22jyQsQ7kNvgHeA3LA&_nc_gid=89debf7080e2457bbc4b26eed97035ec&edm=ANTKIIoBAAAA&ccb=7-5&oh=00_AYDjEGYj01ToTYhVa77cnhreKNs3y9yzVbgUIs0DyXUqNA&oe=67C402AF&_nc_sid=d885a2",
+                                            "username": "alina_vpa"
+                                        },
+                                        "text": "@jacquiestcequi right, same here\nwhich is why I follow her.\nHowever, after taking a look at our\nhistory on earth, it's obvious that science\nis always learning and evolving,\nand isn't always settled.\nSometimes (not always), its even\ncatching up. I think when there\ntoo many \"coincidences\" enough\nto merit studies, its easier to\nlabel something as a\npseudoscience and throw it in a\n\"non-scientific\" bucket when\nresults aren't conclusive, or\njustified according to our current\nunderstanding. But when there\nare truly too many coincidences, especially coupled with a long standing history, its wiser to conclude that we dont have enough information. Science should never have to gaslit a concept, thats not science in my opinion.",
+                                        "viewer_has_liked": false
+                                    }
+                                }
+                            ],
+                            "page_info": {
+                                "end_cursor": "QVFCS3dUWk1md2padXR0R3FOZFJlWkhRTndFN1dwNndWSzhhbU91dEk1bXZOUmRuMi1YZUZjUVo4MTVLQVJ3WUZnWHdyN0liVDZsd0lXVnUyMG44Q0Vreg==",
+                                "has_next_page": true
+                            }
+                        },
+                        "id": "17939391710844622",
+                        "is_restricted_pending": false,
+                        "owner": {
+                            "id": "30396777318",
+                            "is_verified": false,
+                            "profile_pic_url": "https://scontent-msp1-1.cdninstagram.com/v/t51.2885-19/468277050_1088176356082989_8093042422404864245_n.jpg?stp=dst-jpg_s150x150_tt6&_nc_ht=scontent-msp1-1.cdninstagram.com&_nc_cat=109&_nc_oc=Q6cZ2AEK1CpK2vKjfGvukErl5kX13HyV3NYetz-xQKqehzbUcXsULTs52C348cUtrj6gqMU&_nc_ohc=N3BaI22jyQsQ7kNvgHeA3LA&_nc_gid=89debf7080e2457bbc4b26eed97035ec&edm=ANTKIIoBAAAA&ccb=7-5&oh=00_AYDjEGYj01ToTYhVa77cnhreKNs3y9yzVbgUIs0DyXUqNA&oe=67C402AF&_nc_sid=d885a2",
+                            "username": "alina_vpa"
+                        },
+                        "text": "I want to know how the studies were conducted. Are we taking frequency, vibration, and energetics into consideration when conducting these studies? Because it seems as if modern scientific thought towards metaphysical science is quite primitive still.",
+                        "viewer_has_liked": false
+                    }
+                },
+                {
+                    "node": {
+                        "created_at": 1739414306,
+                        "did_report_as_spam": false,
+                        "edge_liked_by": {
+                            "count": 9
+                        },
+                        "edge_threaded_comments": {
+                            "count": 0,
+                            "edges": [],
+                            "page_info": {
+                                "end_cursor": null,
+                                "has_next_page": false
+                            }
+                        },
+                        "id": "17937494228983092",
+                        "is_restricted_pending": false,
+                        "owner": {
+                            "id": "4079677869",
+                            "is_verified": false,
+                            "profile_pic_url": "https://scontent-msp1-1.cdninstagram.com/v/t51.2885-19/471449817_9132243776840422_4498513328078460910_n.jpg?stp=dst-jpg_s150x150_tt6&_nc_ht=scontent-msp1-1.cdninstagram.com&_nc_cat=110&_nc_oc=Q6cZ2AEK1CpK2vKjfGvukErl5kX13HyV3NYetz-xQKqehzbUcXsULTs52C348cUtrj6gqMU&_nc_ohc=x54ZoRoDAk4Q7kNvgGMX3Qk&_nc_gid=89debf7080e2457bbc4b26eed97035ec&edm=ANTKIIoBAAAA&ccb=7-5&oh=00_AYA5ue6UAtLIea_CFGxZQU3keVbKpC7y8h2NM2_38YPzNw&oe=67C41010&_nc_sid=d885a2",
+                            "username": "dakinisbreath"
+                        },
+                        "text": "Enneagram, Human Design, Gene Keys all of it is rooted in astrology and the physics behind how the universe moves as this unmovable force. It\u2019s all patterns & math at the end. And also just words appearing in silence. What people make out of it is their responsibility and experience.",
+                        "viewer_has_liked": false
+                    }
+                },
+                {
+                    "node": {
+                        "created_at": 1739395076,
+                        "did_report_as_spam": false,
+                        "edge_liked_by": {
+                            "count": 1
+                        },
+                        "edge_threaded_comments": {
+                            "count": 0,
+                            "edges": [],
+                            "page_info": {
+                                "end_cursor": null,
+                                "has_next_page": false
+                            }
+                        },
+                        "id": "18087421150569204",
+                        "is_restricted_pending": false,
+                        "owner": {
+                            "id": "17130476",
+                            "is_verified": false,
+                            "profile_pic_url": "https://scontent-msp1-1.cdninstagram.com/v/t51.2885-19/446227255_1612266186206173_8465511801957837877_n.jpg?stp=dst-jpg_s150x150_tt6&_nc_ht=scontent-msp1-1.cdninstagram.com&_nc_cat=101&_nc_oc=Q6cZ2AEK1CpK2vKjfGvukErl5kX13HyV3NYetz-xQKqehzbUcXsULTs52C348cUtrj6gqMU&_nc_ohc=H6xJ9mrr8BQQ7kNvgGjnQHB&_nc_gid=89debf7080e2457bbc4b26eed97035ec&edm=ANTKIIoBAAAA&ccb=7-5&oh=00_AYAEpNnM_Jb0DZZgSpANjxFhUIx2v1K-3TmQDqR9NnfVJQ&oe=67C3F4BD&_nc_sid=d885a2",
+                            "username": "jest_steve"
+                        },
+                        "text": "I think of I Ching, astrology, tarot, and human design as heuristics in service of reflection",
+                        "viewer_has_liked": false
+                    }
+                },
+                {
+                    "node": {
+                        "created_at": 1739394606,
+                        "did_report_as_spam": false,
+                        "edge_liked_by": {
+                            "count": 6
+                        },
+                        "edge_threaded_comments": {
+                            "count": 2,
+                            "edges": [
+                                {
+                                    "node": {
+                                        "created_at": 1739405949,
+                                        "did_report_as_spam": false,
+                                        "edge_liked_by": {
+                                            "count": 5
+                                        },
+                                        "id": "17875779726267454",
+                                        "is_restricted_pending": false,
+                                        "owner": {
+                                            "id": "178324262",
+                                            "is_verified": false,
+                                            "profile_pic_url": "https://scontent-msp1-1.cdninstagram.com/v/t51.2885-19/301255844_467493845013228_1785142486957284639_n.jpg?stp=dst-jpg_s150x150_tt6&_nc_ht=scontent-msp1-1.cdninstagram.com&_nc_cat=100&_nc_oc=Q6cZ2AEK1CpK2vKjfGvukErl5kX13HyV3NYetz-xQKqehzbUcXsULTs52C348cUtrj6gqMU&_nc_ohc=52uL1zTybEUQ7kNvgF48neJ&_nc_gid=89debf7080e2457bbc4b26eed97035ec&edm=ANTKIIoBAAAA&ccb=7-5&oh=00_AYB-m0f4aXrpzwz9it7GHZnj-e7sE5ZIfce3PkgE8GwQXQ&oe=67C401D0&_nc_sid=d885a2",
+                                            "username": "leisahammett"
+                                        },
+                                        "text": "@fireseedarts @nononsensespirituality 2 decades of therapy, parts work family constellation, years of coaching, becoming a coach, 25 years of mindfulness, nearly 20-year meditator, love enneagram, thought of becoming an Myers-Briggs admin, all the tests, all the things named, I have learned more about myself through astrology than all the other psychological testing tools (not saying therapy and deep spiritual work) but for tools, I learned the most through astrology and still going. Not arguing. Just my experience. But I do like knowing how Jung used bc I'm just learning that aspect of his work.",
+                                        "viewer_has_liked": false
+                                    }
+                                },
+                                {
+                                    "node": {
+                                        "created_at": 1739413816,
+                                        "did_report_as_spam": false,
+                                        "edge_liked_by": {
+                                            "count": 1
+                                        },
+                                        "id": "18043344680350036",
+                                        "is_restricted_pending": false,
+                                        "owner": {
+                                            "id": "372422953",
+                                            "is_verified": false,
+                                            "profile_pic_url": "https://scontent-msp1-1.cdninstagram.com/v/t51.2885-19/319887356_948644052783712_1536007598430361360_n.jpg?stp=dst-jpg_s150x150_tt6&_nc_ht=scontent-msp1-1.cdninstagram.com&_nc_cat=104&_nc_oc=Q6cZ2AEK1CpK2vKjfGvukErl5kX13HyV3NYetz-xQKqehzbUcXsULTs52C348cUtrj6gqMU&_nc_ohc=aAHoumHx_d8Q7kNvgEPJJpk&_nc_gid=89debf7080e2457bbc4b26eed97035ec&edm=ANTKIIoBAAAA&ccb=7-5&oh=00_AYALEUdIFToo6cmlNZ4FcauoLE5xKpvPXBtiObBqow4l2w&oe=67C3E08C&_nc_sid=d885a2",
+                                            "username": "fireseedarts"
+                                        },
+                                        "text": "@leisahammett I get it. I\u2019ve found tremendous value in it. I think it\u2019s often misused and many try to put more in it than what\u2019s actually there, but as a tool for self understanding and interrelationship understanding it\u2019s powerful.",
+                                        "viewer_has_liked": false
+                                    }
+                                }
+                            ],
+                            "page_info": {
+                                "end_cursor": null,
+                                "has_next_page": false
+                            }
+                        },
+                        "id": "18029553530560215",
+                        "is_restricted_pending": false,
+                        "owner": {
+                            "id": "372422953",
+                            "is_verified": false,
+                            "profile_pic_url": "https://scontent-msp1-1.cdninstagram.com/v/t51.2885-19/319887356_948644052783712_1536007598430361360_n.jpg?stp=dst-jpg_s150x150_tt6&_nc_ht=scontent-msp1-1.cdninstagram.com&_nc_cat=104&_nc_oc=Q6cZ2AEK1CpK2vKjfGvukErl5kX13HyV3NYetz-xQKqehzbUcXsULTs52C348cUtrj6gqMU&_nc_ohc=aAHoumHx_d8Q7kNvgEPJJpk&_nc_gid=89debf7080e2457bbc4b26eed97035ec&edm=ANTKIIoBAAAA&ccb=7-5&oh=00_AYALEUdIFToo6cmlNZ4FcauoLE5xKpvPXBtiObBqow4l2w&oe=67C3E08C&_nc_sid=d885a2",
+                            "username": "fireseedarts"
+                        },
+                        "text": "As a collector of tools I can say I use or have used most of the ones you\u2019ve mentioned. Astrology still has a unique place when used as a tool for self reflection, but not exclusively. I think I could say that for any of them though, so yes, I own 12 different types of hammers. Which one is the best? It depends on the job I\u2019m doing.",
+                        "viewer_has_liked": false
+                    }
+                },
+                {
+                    "node": {
+                        "created_at": 1739583450,
+                        "did_report_as_spam": false,
+                        "edge_liked_by": {
+                            "count": 1
+                        },
+                        "edge_threaded_comments": {
+                            "count": 0,
+                            "edges": [],
+                            "page_info": {
+                                "end_cursor": null,
+                                "has_next_page": false
+                            }
+                        },
+                        "id": "17880580152145911",
+                        "is_restricted_pending": false,
+                        "owner": {
+                            "id": "17542605",
+                            "is_verified": false,
+                            "profile_pic_url": "https://scontent-msp1-1.cdninstagram.com/v/t51.2885-19/465942118_1114638080292074_6054783620722340043_n.jpg?stp=dst-jpg_s150x150_tt6&_nc_ht=scontent-msp1-1.cdninstagram.com&_nc_cat=102&_nc_oc=Q6cZ2AEK1CpK2vKjfGvukErl5kX13HyV3NYetz-xQKqehzbUcXsULTs52C348cUtrj6gqMU&_nc_ohc=QaAf__votK4Q7kNvgE4Efxy&_nc_gid=89debf7080e2457bbc4b26eed97035ec&edm=ANTKIIoBAAAA&ccb=7-5&oh=00_AYAxBeX4JId4zllGFFiVQ_Kmflnmt1Vv_hDQWKx2jRoFvA&oe=67C3FD9C&_nc_sid=d885a2",
+                            "username": "_lexleo_"
+                        },
+                        "text": "Except religion is based on stories and astrology is based on patterns and science",
+                        "viewer_has_liked": false
+                    }
+                },
+                {
+                    "node": {
+                        "created_at": 1739404071,
+                        "did_report_as_spam": false,
+                        "edge_liked_by": {
+                            "count": 6
+                        },
+                        "edge_threaded_comments": {
+                            "count": 0,
+                            "edges": [],
+                            "page_info": {
+                                "end_cursor": null,
+                                "has_next_page": false
+                            }
+                        },
+                        "id": "17957736713868725",
+                        "is_restricted_pending": false,
+                        "owner": {
+                            "id": "2125738655",
+                            "is_verified": false,
+                            "profile_pic_url": "https://scontent-msp1-1.cdninstagram.com/v/t51.2885-19/362889106_6350148081758863_2795257088025876413_n.jpg?stp=dst-jpg_s150x150_tt6&_nc_ht=scontent-msp1-1.cdninstagram.com&_nc_cat=107&_nc_oc=Q6cZ2AEK1CpK2vKjfGvukErl5kX13HyV3NYetz-xQKqehzbUcXsULTs52C348cUtrj6gqMU&_nc_ohc=Cfakt_dB90cQ7kNvgHEZqP9&_nc_gid=89debf7080e2457bbc4b26eed97035ec&edm=ANTKIIoBAAAA&ccb=7-5&oh=00_AYAuJYmfh1bmiTiQlaPwLkNo60ilMfcL-f_F6R9B71vqag&oe=67C3EE8E&_nc_sid=d885a2",
+                            "username": "noel_rainey"
+                        },
+                        "text": "Oh no.  Don't come for our astrology! \ud83d\ude48\ud83d\ude02",
+                        "viewer_has_liked": false
+                    }
+                },
+                {
+                    "node": {
+                        "created_at": 1739392821,
+                        "did_report_as_spam": false,
+                        "edge_liked_by": {
+                            "count": 1
+                        },
+                        "edge_threaded_comments": {
+                            "count": 0,
+                            "edges": [],
+                            "page_info": {
+                                "end_cursor": null,
+                                "has_next_page": false
+                            }
+                        },
+                        "id": "17867224341315515",
+                        "is_restricted_pending": false,
+                        "owner": {
+                            "id": "221293607",
+                            "is_verified": false,
+                            "profile_pic_url": "https://scontent-msp1-1.cdninstagram.com/v/t51.2885-19/473612544_1280602059857550_8499465406695522314_n.jpg?stp=dst-jpg_s150x150_tt6&_nc_ht=scontent-msp1-1.cdninstagram.com&_nc_cat=106&_nc_oc=Q6cZ2AEK1CpK2vKjfGvukErl5kX13HyV3NYetz-xQKqehzbUcXsULTs52C348cUtrj6gqMU&_nc_ohc=4mvGjNQLki0Q7kNvgFOsvvt&_nc_gid=89debf7080e2457bbc4b26eed97035ec&edm=ANTKIIoBAAAA&ccb=7-5&oh=00_AYC39xlL1vgYCk6L9gAE6ZiEkzTOpUDUhyVE0W3fHuNKAA&oe=67C3E2EF&_nc_sid=d885a2",
+                            "username": "__mind_the_gap__"
+                        },
+                        "text": "\ud83d\udc4f\ud83d\udc4f I adore your channel and approach \u2764\ufe0f\u2764\ufe0f",
+                        "viewer_has_liked": false
+                    }
+                },
+                {
+                    "node": {
+                        "created_at": 1739401790,
+                        "did_report_as_spam": false,
+                        "edge_liked_by": {
+                            "count": 4
+                        },
+                        "edge_threaded_comments": {
+                            "count": 0,
+                            "edges": [],
+                            "page_info": {
+                                "end_cursor": null,
+                                "has_next_page": false
+                            }
+                        },
+                        "id": "17906299491096175",
+                        "is_restricted_pending": false,
+                        "owner": {
+                            "id": "9440233102",
+                            "is_verified": false,
+                            "profile_pic_url": "https://scontent-msp1-1.cdninstagram.com/v/t51.2885-19/480063280_514498964999791_6950386994934510892_n.jpg?stp=dst-jpg_s150x150_tt6&_nc_ht=scontent-msp1-1.cdninstagram.com&_nc_cat=107&_nc_oc=Q6cZ2AEK1CpK2vKjfGvukErl5kX13HyV3NYetz-xQKqehzbUcXsULTs52C348cUtrj6gqMU&_nc_ohc=LTdV988DKlUQ7kNvgFV4Bv9&_nc_gid=89debf7080e2457bbc4b26eed97035ec&edm=ANTKIIoBAAAA&ccb=7-5&oh=00_AYDGjsbsx0Z7pkouZwCJ76l8wnam6u4Tq3dr3Yoqsq-K5Q&oe=67C402F3&_nc_sid=d885a2",
+                            "username": "fairy_snaps_artwork"
+                        },
+                        "text": "I agree! And I'm very into astrology. I recognize that it's divination, not science, and I find it useful for my own reflection. I think like any tool, it can be wielded in a harmful way.",
+                        "viewer_has_liked": false
+                    }
+                },
+                {
+                    "node": {
+                        "created_at": 1739408017,
+                        "did_report_as_spam": false,
+                        "edge_liked_by": {
+                            "count": 8
+                        },
+                        "edge_threaded_comments": {
+                            "count": 0,
+                            "edges": [],
+                            "page_info": {
+                                "end_cursor": null,
+                                "has_next_page": false
+                            }
+                        },
+                        "id": "18058316273500784",
+                        "is_restricted_pending": false,
+                        "owner": {
+                            "id": "6430865688",
+                            "is_verified": false,
+                            "profile_pic_url": "https://scontent-msp1-1.cdninstagram.com/v/t51.2885-19/469597057_524188307277198_8152075747226645939_n.jpg?stp=dst-jpg_s150x150_tt6&_nc_ht=scontent-msp1-1.cdninstagram.com&_nc_cat=106&_nc_oc=Q6cZ2AEK1CpK2vKjfGvukErl5kX13HyV3NYetz-xQKqehzbUcXsULTs52C348cUtrj6gqMU&_nc_ohc=Vht6qaH4zXYQ7kNvgGF2OHZ&_nc_gid=89debf7080e2457bbc4b26eed97035ec&edm=ANTKIIoBAAAA&ccb=7-5&oh=00_AYD9dEACsJIJUK4BdD4CS3DRflNKkKDl67cMn4KHve2fiQ&oe=67C3F263&_nc_sid=d885a2",
+                            "username": "jacqueline_hyacinth"
+                        },
+                        "text": "I love astrology and I know it\u2019s important to use it as a tool and not to give power away to it.",
+                        "viewer_has_liked": false
+                    }
+                },
+                {
+                    "node": {
+                        "created_at": 1739392085,
+                        "did_report_as_spam": false,
+                        "edge_liked_by": {
+                            "count": 1
+                        },
+                        "edge_threaded_comments": {
+                            "count": 0,
+                            "edges": [],
+                            "page_info": {
+                                "end_cursor": null,
+                                "has_next_page": false
+                            }
+                        },
+                        "id": "18060672079938425",
+                        "is_restricted_pending": false,
+                        "owner": {
+                            "id": "47071720911",
+                            "is_verified": false,
+                            "profile_pic_url": "https://scontent-msp1-1.cdninstagram.com/v/t51.2885-19/163853187_195878628626572_5340743673733659237_n.jpg?stp=dst-jpg_s150x150_tt6&_nc_ht=scontent-msp1-1.cdninstagram.com&_nc_cat=104&_nc_oc=Q6cZ2AEK1CpK2vKjfGvukErl5kX13HyV3NYetz-xQKqehzbUcXsULTs52C348cUtrj6gqMU&_nc_ohc=w5GnJtWjaE4Q7kNvgHx6G-8&_nc_gid=89debf7080e2457bbc4b26eed97035ec&edm=ANTKIIoBAAAA&ccb=7-5&oh=00_AYCkMN8Pli9cpH30innLnSzYNRPWh_xt9jiMWd8_0YKxOw&oe=67C3F118&_nc_sid=d885a2",
+                            "username": "writerkmschwab"
+                        },
+                        "text": "I love the way you explain these issues and ideas",
+                        "viewer_has_liked": false
+                    }
+                },
+                {
+                    "node": {
+                        "created_at": 1739420392,
+                        "did_report_as_spam": false,
+                        "edge_liked_by": {
+                            "count": 1
+                        },
+                        "edge_threaded_comments": {
+                            "count": 0,
+                            "edges": [],
+                            "page_info": {
+                                "end_cursor": null,
+                                "has_next_page": false
+                            }
+                        },
+                        "id": "18079924204624365",
+                        "is_restricted_pending": false,
+                        "owner": {
+                            "id": "11620358625",
+                            "is_verified": false,
+                            "profile_pic_url": "https://scontent-msp1-1.cdninstagram.com/v/t51.2885-19/470917595_1087422849520572_4525368510588979783_n.jpg?stp=dst-jpg_s150x150_tt6&_nc_ht=scontent-msp1-1.cdninstagram.com&_nc_cat=100&_nc_oc=Q6cZ2AEK1CpK2vKjfGvukErl5kX13HyV3NYetz-xQKqehzbUcXsULTs52C348cUtrj6gqMU&_nc_ohc=3t4djOTTohAQ7kNvgEusY1L&_nc_gid=89debf7080e2457bbc4b26eed97035ec&edm=ANTKIIoBAAAA&ccb=7-5&oh=00_AYDdcPluQrghTGjubnBPDmzTlhB6MgQAfTuOZS2s9toRQA&oe=67C3F81A&_nc_sid=d885a2",
+                            "username": "dthompsongdeb"
+                        },
+                        "text": "Please check out Astro.com and report back. Love to hear what you experienced!",
+                        "viewer_has_liked": false
+                    }
+                },
+                {
+                    "node": {
+                        "created_at": 1739453120,
+                        "did_report_as_spam": false,
+                        "edge_liked_by": {
+                            "count": 2
+                        },
+                        "edge_threaded_comments": {
+                            "count": 0,
+                            "edges": [],
+                            "page_info": {
+                                "end_cursor": null,
+                                "has_next_page": false
+                            }
+                        },
+                        "id": "18495045775007889",
+                        "is_restricted_pending": false,
+                        "owner": {
+                            "id": "6543168",
+                            "is_verified": false,
+                            "profile_pic_url": "https://scontent-msp1-1.cdninstagram.com/v/t51.2885-19/129137896_4163070200388731_8054077858938412661_n.jpg?stp=dst-jpg_s150x150_tt6&_nc_ht=scontent-msp1-1.cdninstagram.com&_nc_cat=111&_nc_oc=Q6cZ2AEK1CpK2vKjfGvukErl5kX13HyV3NYetz-xQKqehzbUcXsULTs52C348cUtrj6gqMU&_nc_ohc=uaJexDdpnaUQ7kNvgHb1Ldp&_nc_gid=89debf7080e2457bbc4b26eed97035ec&edm=ANTKIIoBAAAA&ccb=7-5&oh=00_AYBwEBNwHM1WsGHLJgj8HRWCGHQ7rsnVQKVgH4d-mPy7Rg&oe=67C3DDA6&_nc_sid=d885a2",
+                            "username": "nate.geo"
+                        },
+                        "text": "Everything is myth everything is symbol everything is real which makes nothing real",
+                        "viewer_has_liked": false
+                    }
+                }
+            ],
+            "page_info": {
+                "end_cursor": "{\"cached_comments_cursor\": \"18020846141442608\", \"bifilter_token\": \"KAkBAgAQAP__AgAA\"}",
+                "has_next_page": true
+            }
+        },
+        "edge_media_to_sponsor_user": {
+            "edges": []
+        },
+        "edge_media_to_tagged_user": {
+            "edges": []
+        },
+        "edge_web_media_to_related_media": {
+            "edges": []
+        },
+        "encoding_status": null,
+        "fact_check_information": null,
+        "fact_check_overall_rating": null,
+        "gating_info": null,
+        "has_audio": true,
+        "has_ranked_comments": true,
+        "id": "3566598696068387497",
+        "iphone_struct": {
+            "are_remixes_crosspostable": true,
+            "avatar_stickers": [],
+            "boost_unavailable_identifier": null,
+            "boost_unavailable_reason": null,
+            "boost_unavailable_reason_v2": null,
+            "can_reply": false,
+            "can_see_insights_as_brand": false,
+            "can_view_more_preview_comments": false,
+            "can_viewer_reshare": true,
+            "can_viewer_save": true,
+            "caption": {
+                "bit_flags": 0,
+                "content_type": "comment",
+                "created_at": 1739391869,
+                "created_at_utc": 1739391869,
+                "did_report_as_spam": false,
+                "is_covered": false,
+                "is_ranked_comment": false,
+                "media_id": 3566598696068387497,
+                "pk": "18080724400627412",
+                "private_reply_status": 0,
+                "share_enabled": false,
+                "status": "Active",
+                "strong_id__": "18080724400627412",
+                "text": "#astrology #nononsensespirituality",
+                "type": 1,
+                "user": {
+                    "fbid_v2": 17841447241891849,
+                    "full_name": "Brittney Hartley",
+                    "id": "47214798729",
+                    "is_private": false,
+                    "is_unpublished": false,
+                    "is_verified": false,
+                    "pk": 47214798729,
+                    "pk_id": "47214798729",
+                    "profile_pic_id": "3338952776130091493_47214798729",
+                    "profile_pic_url": "https://scontent-msp1-1.cdninstagram.com/v/t51.2885-19/434675159_804057931568616_5711137461509149914_n.jpg?stp=dst-jpg_e0_s150x150_tt6&_nc_ht=scontent-msp1-1.cdninstagram.com&_nc_cat=100&_nc_oc=Q6cZ2AGw_1cYR_XxU8m7p2gAj8Mm4sLn-sV5ifwygB-DUMMhcF7utMJ9_QPkIs5wW7ZBNpE&_nc_ohc=krNvAYnBgesQ7kNvgF49xG5&_nc_gid=219aec0fb17e46578038ee123aac67b5&edm=ALQROFkBAAAA&ccb=7-5&oh=00_AYD4i2JCd3dtnk9r2wp4g9nJQL-CcOvR0rsul_4fNNMjfg&oe=67C3FD7C&_nc_sid=fc8dfb",
+                    "strong_id__": "47214798729",
+                    "username": "nononsensespirituality"
+                },
+                "user_id": 47214798729
+            },
+            "caption_is_edited": false,
+            "client_cache_key": "MzU2NjU5ODY5NjA2ODM4NzQ5Nw==.3",
+            "clips_metadata": {
+                "achievements_info": {
+                    "num_earned_achievements": null,
+                    "show_achievements": false
+                },
+                "additional_audio_info": {
+                    "additional_audio_username": null,
+                    "audio_reattribution_info": {
+                        "should_allow_restore": false
+                    }
+                },
+                "asset_recommendation_info": null,
+                "audio_ranking_info": {
+                    "best_audio_cluster_id": "1119411979664383"
+                },
+                "audio_type": "original_sounds",
+                "branded_content_tag_info": {
+                    "can_add_tag": false
+                },
+                "breaking_content_info": null,
+                "breaking_creator_info": null,
+                "challenge_info": null,
+                "clips_creation_entry_point": "feed",
+                "content_appreciation_info": {
+                    "enabled": false,
+                    "entry_point_container": null
+                },
+                "contextual_highlight_info": null,
+                "cutout_sticker_info": [],
+                "disable_use_in_clips_client_cache": false,
+                "external_media_info": null,
+                "featured_label": null,
+                "is_fan_club_promo_video": false,
+                "is_public_chat_welcome_video": false,
+                "is_shared_to_fb": false,
+                "mashup_info": {
+                    "can_toggle_mashups_allowed": false,
+                    "formatted_mashups_count": null,
+                    "has_been_mashed_up": false,
+                    "has_nonmimicable_additional_audio": false,
+                    "is_creator_requesting_mashup": false,
+                    "is_light_weight_check": true,
+                    "is_light_weight_reuse_allowed_check": false,
+                    "is_pivot_page_available": false,
+                    "is_reuse_allowed": true,
+                    "mashup_type": null,
+                    "mashups_allowed": true,
+                    "non_privacy_filtered_mashups_media_count": 0,
+                    "original_media": null,
+                    "privacy_filtered_mashups_media_count": null
+                },
+                "merchandising_pill_info": null,
+                "music_canonical_id": "18490986268052165",
+                "music_info": null,
+                "nux_info": null,
+                "original_sound_info": {
+                    "allow_creator_to_rename": true,
+                    "attributed_custom_audio_asset_id": null,
+                    "audio_asset_id": 1000595745297993,
+                    "audio_asset_start_time_in_ms": null,
+                    "audio_filter_infos": [],
+                    "audio_parts": [],
+                    "audio_parts_by_filter": [],
+                    "can_remix_be_shared_to_fb": true,
+                    "can_remix_be_shared_to_fb_expansion": true,
+                    "consumption_info": {
+                        "display_media_id": null,
+                        "is_bookmarked": false,
+                        "is_trending_in_clips": false,
+                        "should_mute_audio_reason": "",
+                        "should_mute_audio_reason_type": null
+                    },
+                    "dash_manifest": "<?xml version=\"1.0\" encoding=\"UTF-8\"?>\n<MPD xmlns=\"urn:mpeg:dash:schema:mpd:2011\" xmlns:xsi=\"http://www.w3.org/2001/XMLSchema-instance\" xsi:schemaLocation=\"urn:mpeg:dash:schema:mpd:2011 DASH-MPD.xsd\" profiles=\"urn:mpeg:dash:profile:isoff-on-demand:2011\" minBufferTime=\"PT2S\" type=\"static\" mediaPresentationDuration=\"PT188.265945S\"><Period id=\"0\" duration=\"PT188.265945S\"><AdaptationSet id=\"0\" contentType=\"audio\" subsegmentStartsWithSAP=\"1\" subsegmentAlignment=\"true\"><Representation id=\"1004002534967823a\" bandwidth=\"59467\" codecs=\"mp4a.40.5\" mimeType=\"audio/mp4\" FBAvgBitrate=\"59467\" audioSamplingRate=\"44100\" FBDefaultQuality=\"1\"><AudioChannelConfiguration schemeIdUri=\"urn:mpeg:dash:23003:3:audio_channel_configuration:2011\" value=\"2\"/><BaseURL>https://scontent-msp1-1.cdninstagram.com/o1/v/t16/f2/m69/AQPY1eg9JxN-T2guErHwx0Wix2shqpyhSgUBwSQ_fCYWmhy2DUmsMgXGohGyYAzGN7klmtlinHpxWAHLhe6h_G44.mp4?strext=1&amp;_nc_cat=100&amp;_nc_sid=9ca052&amp;_nc_ht=scontent-msp1-1.cdninstagram.com&amp;_nc_ohc=x8p4UTPQzq0Q7kNvgGksKq7&amp;efg=eyJ2ZW5jb2RlX3RhZyI6ImRhc2hfbG5faGVhYWNfdmJyM19hdWRpbyIsInZpZGVvX2lkIjpudWxsLCJjbGllbnRfbmFtZSI6InVua25vd24iLCJvaWxfdXJsZ2VuX2FwcF9pZCI6MjU2MjgxMDQwNTU4LCJ1cmxnZW5fc291cmNlIjoid3d3In0%3D&amp;ccb=17-1&amp;_nc_zt=28&amp;oh=00_AYCOJ6hTLI03olSAczJU174E9uZOOX7s2SAcpm2y1mVT9A&amp;oe=67C40C18</BaseURL><SegmentBase indexRange=\"824-1995\" timescale=\"44100\"><Initialization range=\"0-823\"/></SegmentBase></Representation></AdaptationSet></Period></MPD>\n",
+                    "duration_in_ms": 188266,
+                    "fb_downstream_use_xpost_metadata": {
+                        "downstream_use_xpost_deny_reason": "NONE"
+                    },
+                    "formatted_clips_media_count": null,
+                    "hide_remixing": false,
+                    "ig_artist": {
+                        "full_name": "Brittney Hartley",
+                        "id": "47214798729",
+                        "is_private": false,
+                        "is_verified": false,
+                        "pk": 47214798729,
+                        "pk_id": "47214798729",
+                        "profile_pic_id": "3338952776130091493_47214798729",
+                        "profile_pic_url": "https://scontent-msp1-1.cdninstagram.com/v/t51.2885-19/434675159_804057931568616_5711137461509149914_n.jpg?stp=dst-jpg_e0_s150x150_tt6&_nc_ht=scontent-msp1-1.cdninstagram.com&_nc_cat=100&_nc_oc=Q6cZ2AGw_1cYR_XxU8m7p2gAj8Mm4sLn-sV5ifwygB-DUMMhcF7utMJ9_QPkIs5wW7ZBNpE&_nc_ohc=krNvAYnBgesQ7kNvgF49xG5&_nc_gid=219aec0fb17e46578038ee123aac67b5&edm=ALQROFkBAAAA&ccb=7-5&oh=00_AYD4i2JCd3dtnk9r2wp4g9nJQL-CcOvR0rsul_4fNNMjfg&oe=67C3FD7C&_nc_sid=fc8dfb",
+                        "strong_id__": "47214798729",
+                        "username": "nononsensespirituality"
+                    },
+                    "is_audio_automatically_attributed": false,
+                    "is_eligible_for_audio_effects": true,
+                    "is_eligible_for_vinyl_sticker": true,
+                    "is_explicit": false,
+                    "is_original_audio_download_eligible": true,
+                    "is_reuse_disabled": false,
+                    "is_xpost_from_fb": false,
+                    "music_canonical_id": null,
+                    "oa_owner_is_music_artist": false,
+                    "original_audio_subtype": "default",
+                    "original_audio_title": "Original audio",
+                    "original_media_id": 3566598696068387497,
+                    "overlap_duration_in_ms": null,
+                    "previous_trend_rank": null,
+                    "progressive_download_url": "https://scontent-msp1-1.xx.fbcdn.net/o1/v/t2/f2/m69/AQOpXDMz_YJC4lZbKcqyrjOUwJtv_HBBkyLBSYxGyz0dTr2lWkY45hvmceBazd-jK6Xv-011VL2wZtoCGgK8ifrX.mp4?strext=1&_nc_cat=100&_nc_sid=8bf8fe&_nc_ht=scontent-msp1-1.xx.fbcdn.net&_nc_ohc=PtqNq6skAl4Q7kNvgEqpvcw&efg=eyJ2ZW5jb2RlX3RhZyI6Inhwdl9wcm9ncmVzc2l2ZS5BVURJT19PTkxZLi5DMy4wLnByb2dyZXNzaXZlX2F1ZGlvIiwieHB2X2Fzc2V0X2lkIjoyMDc4NTg0NzY1OTEwODMwLCJ1cmxnZW5fc291cmNlIjoid3d3In0%3D&ccb=17-1&_nc_zt=28&oh=00_AYBmuy7MLoNE54AfnlpGQoab3hFRSIcJv4Td7_leeqkDUA&oe=67C40A3A",
+                    "should_mute_audio": false,
+                    "time_created": 1739391871,
+                    "trend_rank": null,
+                    "xpost_fb_creator_info": null
+                },
+                "originality_info": null,
+                "professional_clips_upsell_type": 0,
+                "reels_on_the_rise_info": null,
+                "reusable_text_attribute_string": null,
+                "reusable_text_info": null,
+                "shopping_info": null,
+                "show_achievements": false,
+                "show_tips": null,
+                "template_info": null,
+                "viewer_interaction_settings": null
+            },
+            "clips_tab_pinned_user_ids": [],
+            "coauthor_producer_can_see_organic_insights": false,
+            "coauthor_producers": [],
+            "code": "DF_Gp4PhxKp",
+            "comment_count": 119,
+            "comment_inform_treatment": {
+                "action_type": null,
+                "should_have_inform_treatment": false,
+                "text": "",
+                "url": null
+            },
+            "comment_threading_enabled": true,
+            "commerciality_status": "not_commercial",
+            "creator_viewer_insights": [],
+            "crosspost_metadata": {
+                "fb_downstream_use_xpost_metadata": {
+                    "downstream_use_xpost_deny_reason": "NONE"
+                }
+            },
+            "deleted_reason": 0,
+            "device_timestamp": 1739391682194101,
+            "enable_media_notes_production": false,
+            "explore_hide_comments": false,
+            "facepile_top_likers": [],
+            "fb_aggregated_comment_count": 0,
+            "fb_aggregated_like_count": 0,
+            "fb_user_tags": {
+                "in": []
+            },
+            "fbid": 18080724292627412,
+            "featured_products": [],
+            "filter_type": 0,
+            "gen_ai_detection_method": {
+                "detection_method": "NONE"
+            },
+            "has_audio": true,
+            "has_delayed_metadata": false,
+            "has_high_risk_gen_ai_inform_treatment": false,
+            "has_liked": false,
+            "has_more_comments": true,
+            "has_privately_liked": false,
+            "has_shared_to_fb": 0,
+            "has_views_fetching": true,
+            "hide_view_all_comment_entrypoint": false,
+            "id": "3566598696068387497_47214798729",
+            "ig_media_sharing_disabled": false,
+            "ig_play_count": 10769,
+            "igbio_product": null,
+            "image_versions2": {
+                "additional_candidates": {
+                    "first_frame": {
+                        "height": 1136,
+                        "scans_profile": "e15",
+                        "url": "https://scontent-msp1-1.cdninstagram.com/v/t51.2885-15/479492671_1163182641817470_8463341273738347336_n.jpg?stp=dst-jpg_e15_tt6&efg=eyJ2ZW5jb2RlX3RhZyI6ImltYWdlX3VybGdlbi42NDB4MTEzNi5zZHIuZjcxODc4LmFkZGl0aW9uYWxfY292ZXJfZnJhbWUifQ&_nc_ht=scontent-msp1-1.cdninstagram.com&_nc_cat=106&_nc_oc=Q6cZ2AGw_1cYR_XxU8m7p2gAj8Mm4sLn-sV5ifwygB-DUMMhcF7utMJ9_QPkIs5wW7ZBNpE&_nc_ohc=F9fq2VvXeDoQ7kNvgFput7m&_nc_gid=219aec0fb17e46578038ee123aac67b5&edm=ALQROFkBAAAA&ccb=7-5&ig_cache_key=acf.MzU2NjU5ODY5NjA2ODM4NzQ5Nw%3D%3D.3-ccb7-5&oh=00_AYCcz7qWOCFFVrS_HO5HxlXSeM4Kds25LoSb-x4rs2dteQ&oe=67C3FA9E&_nc_sid=fc8dfb",
+                        "width": 640
+                    },
+                    "igtv_first_frame": {
+                        "height": 1136,
+                        "scans_profile": "e15",
+                        "url": "https://scontent-msp1-1.cdninstagram.com/v/t51.2885-15/479492671_1163182641817470_8463341273738347336_n.jpg?stp=dst-jpg_e15_tt6&efg=eyJ2ZW5jb2RlX3RhZyI6ImltYWdlX3VybGdlbi42NDB4MTEzNi5zZHIuZjcxODc4LmFkZGl0aW9uYWxfY292ZXJfZnJhbWUifQ&_nc_ht=scontent-msp1-1.cdninstagram.com&_nc_cat=106&_nc_oc=Q6cZ2AGw_1cYR_XxU8m7p2gAj8Mm4sLn-sV5ifwygB-DUMMhcF7utMJ9_QPkIs5wW7ZBNpE&_nc_ohc=F9fq2VvXeDoQ7kNvgFput7m&_nc_gid=219aec0fb17e46578038ee123aac67b5&edm=ALQROFkBAAAA&ccb=7-5&ig_cache_key=acf.MzU2NjU5ODY5NjA2ODM4NzQ5Nw%3D%3D.3-ccb7-5&oh=00_AYCcz7qWOCFFVrS_HO5HxlXSeM4Kds25LoSb-x4rs2dteQ&oe=67C3FA9E&_nc_sid=fc8dfb",
+                        "width": 640
+                    },
+                    "smart_frame": null
+                },
+                "candidates": [
+                    {
+                        "height": 1136,
+                        "scans_profile": "e15",
+                        "url": "https://scontent-msp1-1.cdninstagram.com/v/t51.2885-15/477391004_932514225716371_1727661287742072303_n.jpg?stp=dst-jpg_e15_tt6&efg=eyJ2ZW5jb2RlX3RhZyI6ImltYWdlX3VybGdlbi42NDB4MTEzNi5zZHIuZjcxODc4Lm5mcmFtZV9jb3Zlcl9mcmFtZSJ9&_nc_ht=scontent-msp1-1.cdninstagram.com&_nc_cat=107&_nc_oc=Q6cZ2AGw_1cYR_XxU8m7p2gAj8Mm4sLn-sV5ifwygB-DUMMhcF7utMJ9_QPkIs5wW7ZBNpE&_nc_ohc=edngJmNFTRIQ7kNvgF6R-Dr&_nc_gid=219aec0fb17e46578038ee123aac67b5&edm=ALQROFkBAAAA&ccb=7-5&ig_cache_key=MzU2NjU5ODY5NjA2ODM4NzQ5Nw%3D%3D.3-ccb7-5&oh=00_AYCigV-yK7a7pktTEp8h2IxKefjKJ0WwG9DYbXwy09MMdw&oe=67C3E9DE&_nc_sid=fc8dfb",
+                        "width": 640
+                    }
+                ],
+                "scrubber_spritesheet_info_candidates": {
+                    "default": {
+                        "file_size_kb": 416,
+                        "max_thumbnails_per_sprite": 105,
+                        "rendered_width": 96,
+                        "sprite_height": 1246,
+                        "sprite_urls": [
+                            "https://scontent-msp1-1.cdninstagram.com/v/t51.2885-15/477259516_1355902532212991_1779636049485151972_n.jpg?_nc_ht=scontent-msp1-1.cdninstagram.com&_nc_cat=111&_nc_oc=Q6cZ2AGw_1cYR_XxU8m7p2gAj8Mm4sLn-sV5ifwygB-DUMMhcF7utMJ9_QPkIs5wW7ZBNpE&_nc_ohc=m_5xfmNDAZ4Q7kNvgGjOPx2&_nc_gid=219aec0fb17e46578038ee123aac67b5&edm=ALQROFkBAAAA&ccb=7-5&oh=00_AYBw_jyu48k4jItQn6cbEkrrvM1nU4G1OI-LSf7st-iOVA&oe=67C3E270&_nc_sid=fc8dfb"
+                        ],
+                        "sprite_width": 1500,
+                        "thumbnail_duration": 1.7930095238095238,
+                        "thumbnail_height": 178,
+                        "thumbnail_width": 100,
+                        "thumbnails_per_row": 15,
+                        "total_thumbnail_num_per_sprite": 105,
+                        "video_length": 188.266
+                    }
+                }
+            },
+            "inline_composer_display_condition": "impression_trigger",
+            "inline_composer_imp_trigger_time": 5,
+            "integrity_review_decision": "pending",
+            "invited_coauthor_producers": [],
+            "is_artist_pick": false,
+            "is_comments_gif_composer_enabled": true,
+            "is_cutout_sticker_allowed": false,
+            "is_dash_eligible": 1,
+            "is_eligible_content_for_post_roll_ad": false,
+            "is_eligible_for_media_note_recs_nux": false,
+            "is_eligible_for_meta_ai_share": false,
+            "is_in_profile_grid": false,
+            "is_open_to_public_submission": false,
+            "is_organic_product_tagging_eligible": false,
+            "is_paid_partnership": false,
+            "is_post_live_clips_media": false,
+            "is_quiet_post": false,
+            "is_reshare_of_text_post_app_media_in_ig": false,
+            "is_reuse_allowed": true,
+            "is_social_ufi_disabled": false,
+            "is_tagged_media_shared_to_viewer_profile_grid": false,
+            "is_third_party_downloads_eligible": true,
+            "is_unified_video": false,
+            "is_visual_reply_commenter_notice_enabled": true,
+            "like_and_view_counts_disabled": false,
+            "like_count": 554,
+            "max_num_visible_preview_comments": 2,
+            "media_cropping_info": {
+                "square_crop": {
+                    "crop_bottom": 0.0,
+                    "crop_left": 0.0,
+                    "crop_right": 0.0,
+                    "crop_top": 0.0
+                }
+            },
+            "media_notes": {
+                "items": []
+            },
+            "media_type": 2,
+            "meta_ai_suggested_prompts": [],
+            "mezql_token": "",
+            "music_metadata": null,
+            "number_of_qualities": 6,
+            "open_carousel_show_follow_button": false,
+            "organic_tracking_token": "eyJ2ZXJzaW9uIjo1LCJwYXlsb2FkIjp7ImlzX2FuYWx5dGljc190cmFja2VkIjp0cnVlLCJ1dWlkIjoiMjE5YWVjMGZiMTdlNDY1NzgwMzhlZTEyM2FhYzY3YjUzNTY2NTk4Njk2MDY4Mzg3NDk3Iiwic2VydmVyX3Rva2VuIjoiMTc0MDUxNTAyNzQ4OXwzNTY2NTk4Njk2MDY4Mzg3NDk3fDMzNTM0NzA2fGJmMTJjYmYwNzgwOGM3YTU1YzMxYTZhYzU5N2NmNGJmZjIyZTBmZmVjYzk4MzYzNDg5NDZhNzExOGY2NzhlNGYifSwic2lnbmF0dXJlIjoiIn0=",
+            "original_height": 1136,
+            "original_media_has_visual_reply_media": false,
+            "original_width": 640,
+            "pk": 3566598696068387497,
+            "play_count": 10769,
+            "preview_comments": [],
+            "product_suggestions": [],
+            "product_type": "clips",
+            "profile_grid_control_enabled": false,
+            "reshare_count": 114,
+            "share_count_disabled": false,
+            "sharing_friction_info": {
+                "bloks_app_url": null,
+                "sharing_friction_payload": null,
+                "should_have_sharing_friction": false
+            },
+            "shop_routing_user_id": null,
+            "should_request_ads": false,
+            "should_show_author_pog_for_tagged_media_shared_to_profile_grid": false,
+            "strong_id__": "3566598696068387497_47214798729",
+            "subscribe_cta_visible": false,
+            "taken_at": 1739391868,
+            "timeline_pinned_user_ids": [],
+            "top_likers": [],
+            "user": {
+                "account_badges": [],
+                "account_type": 1,
+                "can_see_quiet_post_attribution": true,
+                "fan_club_info": {
+                    "autosave_to_exclusive_highlight": null,
+                    "connected_member_count": null,
+                    "fan_club_id": null,
+                    "fan_club_name": null,
+                    "fan_consideration_page_revamp_eligiblity": null,
+                    "has_created_ssc": null,
+                    "has_enough_subscribers_for_ssc": null,
+                    "is_fan_club_gifting_eligible": null,
+                    "is_fan_club_referral_eligible": null,
+                    "is_free_trial_eligible": null,
+                    "largest_public_bc_id": null,
+                    "subscriber_count": null
+                },
+                "fbid_v2": 17841447241891849,
+                "feed_post_reshare_disabled": false,
+                "friendship_status": {
+                    "following": true,
+                    "is_bestie": false,
+                    "is_feed_favorite": false,
+                    "is_restricted": false
+                },
+                "full_name": "Brittney Hartley",
+                "has_anonymous_profile_picture": false,
+                "id": "47214798729",
+                "is_active_on_text_post_app": false,
+                "is_favorite": false,
+                "is_private": false,
+                "is_unpublished": false,
+                "is_verified": false,
+                "latest_reel_media": 1740503090,
+                "pk": 47214798729,
+                "pk_id": "47214798729",
+                "profile_pic_id": "3338952776130091493_47214798729",
+                "profile_pic_url": "https://scontent-msp1-1.cdninstagram.com/v/t51.2885-19/434675159_804057931568616_5711137461509149914_n.jpg?stp=dst-jpg_e0_s150x150_tt6&_nc_ht=scontent-msp1-1.cdninstagram.com&_nc_cat=100&_nc_oc=Q6cZ2AGw_1cYR_XxU8m7p2gAj8Mm4sLn-sV5ifwygB-DUMMhcF7utMJ9_QPkIs5wW7ZBNpE&_nc_ohc=krNvAYnBgesQ7kNvgF49xG5&_nc_gid=219aec0fb17e46578038ee123aac67b5&edm=ALQROFkBAAAA&ccb=7-5&oh=00_AYD4i2JCd3dtnk9r2wp4g9nJQL-CcOvR0rsul_4fNNMjfg&oe=67C3FD7C&_nc_sid=fc8dfb",
+                "show_account_transparency_details": true,
+                "strong_id__": "47214798729",
+                "text_post_app_is_private": true,
+                "third_party_downloads_enabled": 1,
+                "transparency_product_enabled": false,
+                "username": "nononsensespirituality"
+            },
+            "video_codec": "vp09.00.31.08.00.01.01.01.00",
+            "video_dash_manifest": "<?xml version=\"1.0\" encoding=\"UTF-8\"?>\n<MPD xmlns=\"urn:mpeg:dash:schema:mpd:2011\" xmlns:xsi=\"http://www.w3.org/2001/XMLSchema-instance\" xsi:schemaLocation=\"urn:mpeg:dash:schema:mpd:2011 DASH-MPD.xsd\" profiles=\"urn:mpeg:dash:profile:isoff-on-demand:2011\" minBufferTime=\"PT2S\" type=\"static\" mediaPresentationDuration=\"PT188.266663S\" FBManifestIdentifier=\"FgAYEnIyZXZldnA5LXIxZ2VuMnZwORl2pqHP15nmkQLmmtWPt+OcAqyHrK+a5a0CgMmz3M+k1AOK+ZK2ipmuBL6736yJreQF1LmrqfT0tAYiGCNkYXNoX3VuaWZpZWRfcHJlbWl1bV94aGVfdmJyMl9hdWRpbwA=\"><Period id=\"0\" duration=\"PT188.266663S\"><AdaptationSet id=\"0\" contentType=\"video\" subsegmentAlignment=\"true\" par=\"9:16\" FBUnifiedUploadResolutionMos=\"360:83.4\"><Representation id=\"1227485872283205vd\" bandwidth=\"121857\" codecs=\"vp09.00.31.08.00.01.01.01.00\" mimeType=\"video/mp4\" sar=\"1:1\" FBEncodingTag=\"dash_r2evevp9-r1gen2vp9_q40\" FBContentLength=\"2867715\" FBPlaybackResolutionMos=\"0:100,360:49.5,480:42.8,720:36,1080:33.9\" FBPlaybackResolutionMosConfidenceLevel=\"high\" FBPlaybackResolutionCsvqm=\"0:100,360:86.4,480:83.5,720:77.7,1080:68.9\" FBAbrPolicyTags=\"\" width=\"720\" height=\"1280\" frameRate=\"15360/512\" FBDefaultQuality=\"1\" FBQualityClass=\"hd\" FBQualityLabel=\"360p\"><BaseURL>https://scontent-msp1-1.cdninstagram.com/o1/v/t2/f2/m367/AQPQYXQvD-bAO32b1GuLKXcid0tI0L3vGhMtshgGRCmdtLHCtkohQdn5AgkQjC5WUlZI3T1LrwlNB2flisbqj0NzehPN8t15KIl94Qw.mp4?_nc_cat=109&amp;_nc_sid=9ca052&amp;_nc_ht=scontent-msp1-1.cdninstagram.com&amp;_nc_ohc=2MWlBPjtCxwQ7kNvgE8gnNF&amp;efg=eyJ2ZW5jb2RlX3RhZyI6ImlnLXhwdmRzLmNsaXBzLmMyLUMzLmRhc2hfcjJldmV2cDktcjFnZW4ydnA5X3E0MCIsInZpZGVvX2lkIjpudWxsLCJjbGllbnRfbmFtZSI6ImlnIiwib2lsX3VybGdlbl9hcHBfaWQiOjEyNDAyNDU3NDI4NzQxNCwidXJsZ2VuX3NvdXJjZSI6Ind3dyJ9&amp;ccb=17-1&amp;_nc_zt=28&amp;oh=00_AYA8C34LnThetllz_Y_4NesXRDBo2dMtqpPIaLAIuLOwLg&amp;oe=67C4143A</BaseURL><SegmentBase indexRange=\"818-1305\" timescale=\"15360\" FBMinimumPrefetchRange=\"1306-18248\" FBFirstSegmentRange=\"1306-64496\" FBFirstSegmentDuration=\"5000\" FBSecondSegmentRange=\"64497-128518\" FBPrefetchSegmentRange=\"1306-64496\" FBPrefetchSegmentDuration=\"5000\"><Initialization range=\"0-817\"/></SegmentBase></Representation><Representation id=\"1029772058980928v\" bandwidth=\"265139\" codecs=\"vp09.00.31.08.00.01.01.01.00\" mimeType=\"video/mp4\" sar=\"1:1\" FBEncodingTag=\"dash_r2evevp9-r1gen2vp9_q50\" FBContentLength=\"6239608\" FBPlaybackResolutionMos=\"0:100,360:65.3,480:57.8,720:48.8,1080:43.6\" FBPlaybackResolutionMosConfidenceLevel=\"high\" FBPlaybackResolutionCsvqm=\"0:100,360:94.2,480:92.5,720:88.4,1080:80.5\" FBAbrPolicyTags=\"\" width=\"720\" height=\"1280\" frameRate=\"15360/512\" FBQualityClass=\"hd\" FBQualityLabel=\"480p\"><BaseURL>https://scontent-msp1-1.cdninstagram.com/o1/v/t2/f2/m367/AQMh2NckrYcekXS9LdHe6rfYw4SrK-pC97tgHXFEABqZh8cQhVM_Gz4vppjj7s9tHFrca_r2zebZIJj-JZgozm881wyUH2bhq1xrw4w.mp4?_nc_cat=108&amp;_nc_sid=9ca052&amp;_nc_ht=scontent-msp1-1.cdninstagram.com&amp;_nc_ohc=L-yrMhDFeJAQ7kNvgGsV6Xv&amp;efg=eyJ2ZW5jb2RlX3RhZyI6ImlnLXhwdmRzLmNsaXBzLmMyLUMzLmRhc2hfcjJldmV2cDktcjFnZW4ydnA5X3E1MCIsInZpZGVvX2lkIjpudWxsLCJjbGllbnRfbmFtZSI6ImlnIiwib2lsX3VybGdlbl9hcHBfaWQiOjEyNDAyNDU3NDI4NzQxNCwidXJsZ2VuX3NvdXJjZSI6Ind3dyJ9&amp;ccb=17-1&amp;_nc_zt=28&amp;oh=00_AYCgkGUovzaqZ6Xd7eEVG58aTdoHGKhGTTMYRt21x24Dvg&amp;oe=67C3EDD9</BaseURL><SegmentBase indexRange=\"818-1305\" timescale=\"15360\" FBMinimumPrefetchRange=\"1306-30855\" FBFirstSegmentRange=\"1306-141190\" FBFirstSegmentDuration=\"5000\" FBSecondSegmentRange=\"141191-278110\" FBPrefetchSegmentRange=\"1306-141190\" FBPrefetchSegmentDuration=\"5000\"><Initialization range=\"0-817\"/></SegmentBase></Representation><Representation id=\"1628051558100703v\" bandwidth=\"460329\" codecs=\"vp09.00.31.08.00.01.01.01.00\" mimeType=\"video/mp4\" sar=\"1:1\" FBEncodingTag=\"dash_r2evevp9-r1gen2vp9_q60\" FBContentLength=\"10833085\" FBPlaybackResolutionMos=\"0:100,360:73.1,480:66.3,720:56.6,1080:50.5\" FBPlaybackResolutionMosConfidenceLevel=\"high\" FBPlaybackResolutionCsvqm=\"0:100,360:96.7,480:95.6,720:92.8,1080:85.8\" FBAbrPolicyTags=\"\" width=\"720\" height=\"1280\" frameRate=\"15360/512\" FBQualityClass=\"hd\" FBQualityLabel=\"540p\"><BaseURL>https://scontent-msp1-1.cdninstagram.com/o1/v/t2/f2/m367/AQPr4THyJZ-Mx74EttiFZi6jYWzP4RhSWpQG-5Vgry4Rm4o3rkwZ3_mDCcQDR6RpeRj1s5Ll85V1TaBoUsUhpLT318gP-DTYi9l2z6U.mp4?_nc_cat=106&amp;_nc_sid=9ca052&amp;_nc_ht=scontent-msp1-1.cdninstagram.com&amp;_nc_ohc=oiXxtRTy1CAQ7kNvgF1T15X&amp;efg=eyJ2ZW5jb2RlX3RhZyI6ImlnLXhwdmRzLmNsaXBzLmMyLUMzLmRhc2hfcjJldmV2cDktcjFnZW4ydnA5X3E2MCIsInZpZGVvX2lkIjpudWxsLCJjbGllbnRfbmFtZSI6ImlnIiwib2lsX3VybGdlbl9hcHBfaWQiOjEyNDAyNDU3NDI4NzQxNCwidXJsZ2VuX3NvdXJjZSI6Ind3dyJ9&amp;ccb=17-1&amp;_nc_zt=28&amp;oh=00_AYDIzQyTIEV-iMUhoow-ERYLWj85HtwcAWhP1WxV_jX9Og&amp;oe=67C4074B</BaseURL><SegmentBase indexRange=\"818-1305\" timescale=\"15360\" FBMinimumPrefetchRange=\"1306-42231\" FBFirstSegmentRange=\"1306-251650\" FBFirstSegmentDuration=\"5000\" FBSecondSegmentRange=\"251651-481922\" FBPrefetchSegmentRange=\"1306-251650\" FBPrefetchSegmentDuration=\"5000\"><Initialization range=\"0-817\"/></SegmentBase></Representation><Representation id=\"663644706013654v\" bandwidth=\"712751\" codecs=\"vp09.00.31.08.00.01.01.01.00\" mimeType=\"video/mp4\" sar=\"1:1\" FBEncodingTag=\"dash_r2evevp9-r1gen2vp9_q70\" FBContentLength=\"16773425\" FBPlaybackResolutionMos=\"0:100,360:77.7,480:72,720:62.5,1080:55.6\" FBPlaybackResolutionMosConfidenceLevel=\"high\" FBPlaybackResolutionCsvqm=\"0:100,360:97.9,480:97.1,720:95,1080:88.6\" FBAbrPolicyTags=\"\" width=\"720\" height=\"1280\" frameRate=\"15360/512\" FBQualityClass=\"hd\" FBQualityLabel=\"640p\"><BaseURL>https://scontent-msp1-1.cdninstagram.com/o1/v/t2/f2/m367/AQPjfgiv2_3rZ6iUFc1xuWJb5KEFHxoVMG3DqTdshoIQgtuyNMNvLeSveRqPR9fqvdtqsFQFyVkeNIUW0DmLXbbDQRQ69CJXplDIXRA.mp4?_nc_cat=104&amp;_nc_sid=9ca052&amp;_nc_ht=scontent-msp1-1.cdninstagram.com&amp;_nc_ohc=3ikXHsCoFVIQ7kNvgGw0wJj&amp;efg=eyJ2ZW5jb2RlX3RhZyI6ImlnLXhwdmRzLmNsaXBzLmMyLUMzLmRhc2hfcjJldmV2cDktcjFnZW4ydnA5X3E3MCIsInZpZGVvX2lkIjpudWxsLCJjbGllbnRfbmFtZSI6ImlnIiwib2lsX3VybGdlbl9hcHBfaWQiOjEyNDAyNDU3NDI4NzQxNCwidXJsZ2VuX3NvdXJjZSI6Ind3dyJ9&amp;ccb=17-1&amp;_nc_zt=28&amp;oh=00_AYDG6zwqamkieHSGiaP0b7CAWuO5cpFNSe7ECf9kHApSgA&amp;oe=67C3FC81</BaseURL><SegmentBase indexRange=\"818-1305\" timescale=\"15360\" FBMinimumPrefetchRange=\"1306-53935\" FBFirstSegmentRange=\"1306-402814\" FBFirstSegmentDuration=\"5000\" FBSecondSegmentRange=\"402815-765705\" FBPrefetchSegmentRange=\"1306-402814\" FBPrefetchSegmentDuration=\"5000\"><Initialization range=\"0-817\"/></SegmentBase></Representation><Representation id=\"1805207546981994v\" bandwidth=\"1011130\" codecs=\"vp09.00.31.08.00.01.01.01.00\" mimeType=\"video/mp4\" sar=\"1:1\" FBEncodingTag=\"dash_r2evevp9-r1gen2vp9_q80\" FBContentLength=\"23795268\" FBPlaybackResolutionMos=\"0:100,360:81.7,480:75.6,720:66.7,1080:59.2\" FBPlaybackResolutionMosConfidenceLevel=\"high\" FBPlaybackResolutionCsvqm=\"0:100,360:98.47,480:98,720:96.3,1080:90.4\" FBAbrPolicyTags=\"\" width=\"720\" height=\"1280\" frameRate=\"15360/512\" FBQualityClass=\"hd\" FBQualityLabel=\"720p\"><BaseURL>https://scontent-msp1-1.cdninstagram.com/o1/v/t2/f2/m367/AQMC47Tr7BlAt1veCcUvjEg1HLE9auf4n0K7Y725AVn_uyf9ifwLEvUTEe_0NvXu4jsKignnrqODoYo7eP96M2k752vrRfy4jBoiXYI.mp4?_nc_cat=105&amp;_nc_sid=9ca052&amp;_nc_ht=scontent-msp1-1.cdninstagram.com&amp;_nc_ohc=JLlnJm_MTDEQ7kNvgEp4FBk&amp;efg=eyJ2ZW5jb2RlX3RhZyI6ImlnLXhwdmRzLmNsaXBzLmMyLUMzLmRhc2hfcjJldmV2cDktcjFnZW4ydnA5X3E4MCIsInZpZGVvX2lkIjpudWxsLCJjbGllbnRfbmFtZSI6ImlnIiwib2lsX3VybGdlbl9hcHBfaWQiOjEyNDAyNDU3NDI4NzQxNCwidXJsZ2VuX3NvdXJjZSI6Ind3dyJ9&amp;ccb=17-1&amp;_nc_zt=28&amp;oh=00_AYAAgkDxUm9dpC8yAFwHKcBeWDIPMNwwnfOn703BhkswYQ&amp;oe=67C40DAE</BaseURL><SegmentBase indexRange=\"818-1305\" timescale=\"15360\" FBMinimumPrefetchRange=\"1306-65016\" FBFirstSegmentRange=\"1306-594117\" FBFirstSegmentDuration=\"5000\" FBSecondSegmentRange=\"594118-1126311\" FBPrefetchSegmentRange=\"1306-594117\" FBPrefetchSegmentDuration=\"5000\"><Initialization range=\"0-817\"/></SegmentBase></Representation><Representation id=\"602089142741075v\" bandwidth=\"1494921\" codecs=\"vp09.00.40.08.00.01.01.01.00\" mimeType=\"video/mp4\" sar=\"1:1\" FBEncodingTag=\"dash_r2evevp9-r1gen2vp9_q90\" FBContentLength=\"35180477\" FBPlaybackResolutionMos=\"0:100,360:84.6,480:78.5,720:70.4,1080:66\" FBPlaybackResolutionMosConfidenceLevel=\"high\" FBPlaybackResolutionCsvqm=\"0:100,360:98.74,480:98.36,720:97.5,1080:95.3\" FBAbrPolicyTags=\"\" width=\"1080\" height=\"1920\" frameRate=\"15360/512\" FBQualityClass=\"hd\" FBQualityLabel=\"1080p\"><BaseURL>https://scontent-msp1-1.cdninstagram.com/o1/v/t2/f2/m367/AQN0jNrJag7wHBDlNBvrkgcsmEeA-VNkmfy8nCUW1e27_qzEvRs0_aAaMMlUikXEWEbBRJ5hcW-WijqDSreH4I87AVVCaqAA_s9RdJY.mp4?_nc_cat=103&amp;_nc_sid=9ca052&amp;_nc_ht=scontent-msp1-1.cdninstagram.com&amp;_nc_ohc=TvR0c4zKrLMQ7kNvgFkv9U6&amp;efg=eyJ2ZW5jb2RlX3RhZyI6ImlnLXhwdmRzLmNsaXBzLmMyLUMzLmRhc2hfcjJldmV2cDktcjFnZW4ydnA5X3E5MCIsInZpZGVvX2lkIjpudWxsLCJjbGllbnRfbmFtZSI6ImlnIiwib2lsX3VybGdlbl9hcHBfaWQiOjEyNDAyNDU3NDI4NzQxNCwidXJsZ2VuX3NvdXJjZSI6Ind3dyJ9&amp;ccb=17-1&amp;_nc_zt=28&amp;oh=00_AYB26Vb42HHgnzdyqvTUDVWqa-pnSMPcHGnpiaJbD5CCAQ&amp;oe=67C3F5A4</BaseURL><SegmentBase indexRange=\"818-1305\" timescale=\"15360\" FBMinimumPrefetchRange=\"1306-86571\" FBFirstSegmentRange=\"1306-905325\" FBFirstSegmentDuration=\"5000\" FBSecondSegmentRange=\"905326-1738126\" FBPrefetchSegmentRange=\"1306-905325\" FBPrefetchSegmentDuration=\"5000\"><Initialization range=\"0-817\"/></SegmentBase></Representation></AdaptationSet><AdaptationSet id=\"1\" contentType=\"audio\" subsegmentStartsWithSAP=\"1\" subsegmentAlignment=\"true\"><Representation id=\"626230810027699ad\" bandwidth=\"81386\" codecs=\"mp4a.40.42\" mimeType=\"audio/mp4\" FBAvgBitrate=\"81386\" audioSamplingRate=\"44100\" FBEncodingTag=\"dash_audio_xheaac_vbr2_abr_lrac_frag_5_audio\" FBContentLength=\"1916611\" FBPaqMos=\"88.90\" FBAbrPolicyTags=\"\" FBDefaultQuality=\"1\"><AudioChannelConfiguration schemeIdUri=\"urn:mpeg:dash:23003:3:audio_channel_configuration:2011\" value=\"2\"/><BaseURL>https://scontent-msp1-1.cdninstagram.com/o1/v/t16/f2/m69/AQOpDme8ac9UNIv-zhC3yQvATJYn22-ID3o4h3muhwszYL1QN2OrVB4fim6ogNeq05hmgx29fsttddyM6GAKxQfZ.mp4?strext=1&amp;_nc_cat=102&amp;_nc_sid=9ca052&amp;_nc_ht=scontent-msp1-1.cdninstagram.com&amp;_nc_ohc=GezXLhQ1HRwQ7kNvgGg9CuQ&amp;efg=eyJ2ZW5jb2RlX3RhZyI6ImlnLXhwdmRzLmNsaXBzLmMyLUMzLmRhc2hfYXVkaW9feGhlYWFjX3ZicjJfYWJyX2xyYWNfZnJhZ181X2F1ZGlvIiwidmlkZW9faWQiOm51bGwsImNsaWVudF9uYW1lIjoiaWciLCJvaWxfdXJsZ2VuX2FwcF9pZCI6MTI0MDI0NTc0Mjg3NDE0LCJ1cmxnZW5fc291cmNlIjoid3d3In0%3D&amp;ccb=17-1&amp;_nc_zt=28&amp;oh=00_AYDtm4_FUs28z9WVVyikzGkH4Qdr5rAXWOuE1QJgsbJb8w&amp;oe=67C40AE2</BaseURL><SegmentBase indexRange=\"838-1337\" timescale=\"44100\" FBMinimumPrefetchRange=\"1338-2670\" FBFirstSegmentRange=\"1338-50571\" FBFirstSegmentDuration=\"4922\" FBSecondSegmentRange=\"50572-101836\" FBPrefetchSegmentRange=\"1338-50571\" FBPrefetchSegmentDuration=\"4922\"><Initialization range=\"0-837\"/></SegmentBase></Representation></AdaptationSet></Period></MPD>\n",
+            "video_duration": 188.266,
+            "video_sticker_locales": [],
+            "video_subtitles_confidence": 0.9623166918754578,
+            "video_subtitles_locale": "en_US",
+            "video_subtitles_uri": "https://scontent-msp1-1.cdninstagram.com/v/t39.36743-6/477324550_2085927455158515_7674854058608339817_n.srt?_nc_ht=scontent-msp1-1.cdninstagram.com&_nc_cat=103&_nc_oc=Q6cZ2AGw_1cYR_XxU8m7p2gAj8Mm4sLn-sV5ifwygB-DUMMhcF7utMJ9_QPkIs5wW7ZBNpE&_nc_ohc=uFtMlHDphmwQ7kNvgHvipMT&_nc_gid=219aec0fb17e46578038ee123aac67b5&edm=ALQROFkAAAAA&ccb=7-5&oh=00_AYDMShP0Panmmgb-JZjPqKAYQOSpoMEfl-nb7K1uGQ966w&oe=67C3FDEA&_nc_sid=fc8dfb",
+            "video_versions": [
+                {
+                    "bandwidth": 1232126,
+                    "height": 1280,
+                    "id": "1987949845073539v",
+                    "type": 101,
+                    "url": "https://scontent-msp1-1.cdninstagram.com/o1/v/t16/f2/m86/AQNTedMHlyBIu6PETWEEpYpbse-pBIzFRtl7ph1bApJwGDtsp-FvM0ZYPjM05akDbiZewg8O7UNPdfXC0sMbYjEqAZ3oHzh4wFdsd58.mp4?efg=eyJ4cHZfYXNzZXRfaWQiOjIwNzg1ODQ3NjU5MTA4MzAsInZlbmNvZGVfdGFnIjoieHB2X3Byb2dyZXNzaXZlLklOU1RBR1JBTS5DTElQUy5DMy43MjAuZGFzaF9iYXNlbGluZV8xX3YxIn0&_nc_ht=scontent-msp1-1.cdninstagram.com&_nc_cat=100&vs=4a602d68389e4981&_nc_vs=HBksFQIYUmlnX3hwdl9yZWVsc19wZXJtYW5lbnRfc3JfcHJvZC83QjQyMkVCMjUxMEIzMDkxMzFDNTQzMzJGMERDMTlBNF92aWRlb19kYXNoaW5pdC5tcDQVAALIAQAVAhg6cGFzc3Rocm91Z2hfZXZlcnN0b3JlL0dDTlFheHc5ZXNTT01Sc0VBRDNudXQ3QnNia2FicV9FQUFBRhUCAsgBACgAGAAbAogHdXNlX29pbAExEnByb2dyZXNzaXZlX3JlY2lwZQExFQAAJty83KnHnbEHFQIoAkMzLBdAZ4iDEm6XjRgSZGFzaF9iYXNlbGluZV8xX3YxEQB1_gcA&ccb=9-4&oh=00_AYCe3tOjUQmfodBPz3eJVhlmQQZIdGsRDHg4OaK4J5QGAQ&oe=67C0186C&_nc_sid=1d576d",
+                    "width": 720
+                },
+                {
+                    "bandwidth": 1232126,
+                    "height": 1280,
+                    "id": "1987949845073539v",
+                    "type": 102,
+                    "url": "https://scontent-msp1-1.cdninstagram.com/o1/v/t16/f2/m86/AQNTedMHlyBIu6PETWEEpYpbse-pBIzFRtl7ph1bApJwGDtsp-FvM0ZYPjM05akDbiZewg8O7UNPdfXC0sMbYjEqAZ3oHzh4wFdsd58.mp4?efg=eyJ4cHZfYXNzZXRfaWQiOjIwNzg1ODQ3NjU5MTA4MzAsInZlbmNvZGVfdGFnIjoieHB2X3Byb2dyZXNzaXZlLklOU1RBR1JBTS5DTElQUy5DMy43MjAuZGFzaF9iYXNlbGluZV8xX3YxIn0&_nc_ht=scontent-msp1-1.cdninstagram.com&_nc_cat=100&vs=4a602d68389e4981&_nc_vs=HBksFQIYUmlnX3hwdl9yZWVsc19wZXJtYW5lbnRfc3JfcHJvZC83QjQyMkVCMjUxMEIzMDkxMzFDNTQzMzJGMERDMTlBNF92aWRlb19kYXNoaW5pdC5tcDQVAALIAQAVAhg6cGFzc3Rocm91Z2hfZXZlcnN0b3JlL0dDTlFheHc5ZXNTT01Sc0VBRDNudXQ3QnNia2FicV9FQUFBRhUCAsgBACgAGAAbAogHdXNlX29pbAExEnByb2dyZXNzaXZlX3JlY2lwZQExFQAAJty83KnHnbEHFQIoAkMzLBdAZ4iDEm6XjRgSZGFzaF9iYXNlbGluZV8xX3YxEQB1_gcA&ccb=9-4&oh=00_AYCe3tOjUQmfodBPz3eJVhlmQQZIdGsRDHg4OaK4J5QGAQ&oe=67C0186C&_nc_sid=1d576d",
+                    "width": 720
+                },
+                {
+                    "bandwidth": 1232126,
+                    "height": 1280,
+                    "id": "1987949845073539v",
+                    "type": 103,
+                    "url": "https://scontent-msp1-1.cdninstagram.com/o1/v/t16/f2/m86/AQNTedMHlyBIu6PETWEEpYpbse-pBIzFRtl7ph1bApJwGDtsp-FvM0ZYPjM05akDbiZewg8O7UNPdfXC0sMbYjEqAZ3oHzh4wFdsd58.mp4?efg=eyJ4cHZfYXNzZXRfaWQiOjIwNzg1ODQ3NjU5MTA4MzAsInZlbmNvZGVfdGFnIjoieHB2X3Byb2dyZXNzaXZlLklOU1RBR1JBTS5DTElQUy5DMy43MjAuZGFzaF9iYXNlbGluZV8xX3YxIn0&_nc_ht=scontent-msp1-1.cdninstagram.com&_nc_cat=100&vs=4a602d68389e4981&_nc_vs=HBksFQIYUmlnX3hwdl9yZWVsc19wZXJtYW5lbnRfc3JfcHJvZC83QjQyMkVCMjUxMEIzMDkxMzFDNTQzMzJGMERDMTlBNF92aWRlb19kYXNoaW5pdC5tcDQVAALIAQAVAhg6cGFzc3Rocm91Z2hfZXZlcnN0b3JlL0dDTlFheHc5ZXNTT01Sc0VBRDNudXQ3QnNia2FicV9FQUFBRhUCAsgBACgAGAAbAogHdXNlX29pbAExEnByb2dyZXNzaXZlX3JlY2lwZQExFQAAJty83KnHnbEHFQIoAkMzLBdAZ4iDEm6XjRgSZGFzaF9iYXNlbGluZV8xX3YxEQB1_gcA&ccb=9-4&oh=00_AYCe3tOjUQmfodBPz3eJVhlmQQZIdGsRDHg4OaK4J5QGAQ&oe=67C0186C&_nc_sid=1d576d",
+                    "width": 720
+                }
+            ]
+        },
+        "is_ad": false,
+        "is_affiliate": false,
+        "is_paid_partnership": false,
+        "is_published": true,
+        "is_video": true,
+        "like_and_view_counts_disabled": false,
+        "location": null,
+        "media_overlay_info": null,
+        "media_preview": "ABgqzsk+tIQcZwcDvit22kVY1VW55+UkZHJ7deferFwgliKFuWHbHrSCxzA+airCxeW+1+inn3opCsTQjbIBkE49cj860dzY6DNYkbbXDDnH8q1GmCqW6+mOpoaNoPQo3Mrb2UeoopCwZ92MA9QePY0UyHqysaYfSpkGc/7p/nUB61ZJIhxRUf8AF+FFAH//2Q==",
+        "nft_asset_info": null,
+        "owner": {
+            "blocked_by_viewer": false,
+            "edge_followed_by": {
+                "count": 42698
+            },
+            "edge_owner_to_timeline_media": {
+                "count": 534
+            },
+            "followed_by_viewer": true,
+            "full_name": "Brittney Hartley",
+            "has_blocked_viewer": false,
+            "id": "47214798729",
+            "is_embeds_disabled": false,
+            "is_private": false,
+            "is_unpublished": false,
+            "is_verified": false,
+            "pass_tiering_recommendation": true,
+            "profile_pic_url": "https://scontent-msp1-1.cdninstagram.com/v/t51.2885-19/434675159_804057931568616_5711137461509149914_n.jpg?stp=dst-jpg_s150x150_tt6&_nc_ht=scontent-msp1-1.cdninstagram.com&_nc_cat=100&_nc_oc=Q6cZ2AEK1CpK2vKjfGvukErl5kX13HyV3NYetz-xQKqehzbUcXsULTs52C348cUtrj6gqMU&_nc_ohc=krNvAYnBgesQ7kNvgF49xG5&_nc_gid=89debf7080e2457bbc4b26eed97035ec&edm=ANTKIIoBAAAA&ccb=7-5&oh=00_AYAkFwr3kK7Uga-Y5x4Ad35hVL48XFQHEDWtjp0BLE-T9A&oe=67C3FD7C&_nc_sid=d885a2",
+            "requested_by_viewer": false,
+            "restricted_by_viewer": false,
+            "username": "nononsensespirituality"
+        },
+        "pinned_for_users": [],
+        "product_type": "clips",
+        "sensitivity_friction_info": null,
+        "sharing_friction_info": {
+            "bloks_app_url": null,
+            "should_have_sharing_friction": false
+        },
+        "shortcode": "DF_Gp4PhxKp",
+        "taken_at_timestamp": 1739391868,
+        "thumbnail_src": "https://scontent-msp1-1.cdninstagram.com/v/t51.2885-15/477391004_932514225716371_1727661287742072303_n.jpg?stp=c0.248.640.640a_dst-jpg_e15_tt6&_nc_ht=scontent-msp1-1.cdninstagram.com&_nc_cat=107&_nc_oc=Q6cZ2AEK1CpK2vKjfGvukErl5kX13HyV3NYetz-xQKqehzbUcXsULTs52C348cUtrj6gqMU&_nc_ohc=edngJmNFTRIQ7kNvgF6R-Dr&_nc_gid=89debf7080e2457bbc4b26eed97035ec&edm=ANTKIIoBAAAA&ccb=7-5&oh=00_AYASZ93c7iTuolxdnq0vuQERDWK0SwxrdX9ri2VOzavQVA&oe=67C3E9DE&_nc_sid=d885a2",
+        "title": "",
+        "tracking_token": "eyJ2ZXJzaW9uIjo1LCJwYXlsb2FkIjp7ImlzX2FuYWx5dGljc190cmFja2VkIjp0cnVlLCJ1dWlkIjoiODlkZWJmNzA4MGUyNDU3YmJjNGIyNmVlZDk3MDM1ZWMzNTY2NTk4Njk2MDY4Mzg3NDk3Iiwic2VydmVyX3Rva2VuIjoiMTc0MDUxNTAyMjg1MXwzNTY2NTk4Njk2MDY4Mzg3NDk3fDMzNTM0NzA2fDFhYTdjNjUwY2FiYjBmM2E0NmUwZGU2Mjg4YzkzMzU3NWUyZDQ1NjZhYTk4MTgzMDAwYmY4YTdhYjdhOWNhZDkifSwic2lnbmF0dXJlIjoiIn0=",
+        "upcoming_event": null,
+        "video_duration": 188.266,
+        "video_play_count": 10769,
+        "video_url": "https://scontent-msp1-1.cdninstagram.com/o1/v/t16/f2/m86/AQNTedMHlyBIu6PETWEEpYpbse-pBIzFRtl7ph1bApJwGDtsp-FvM0ZYPjM05akDbiZewg8O7UNPdfXC0sMbYjEqAZ3oHzh4wFdsd58.mp4?stp=dst-mp4&efg=eyJxZV9ncm91cHMiOiJbXCJpZ193ZWJfZGVsaXZlcnlfdnRzX290ZlwiXSIsInZlbmNvZGVfdGFnIjoidnRzX3ZvZF91cmxnZW4uY2xpcHMuYzIuNzIwLmJhc2VsaW5lIn0&_nc_cat=109&vs=1987949845073539_3593680038&_nc_vs=HBksFQIYUmlnX3hwdl9yZWVsc19wZXJtYW5lbnRfc3JfcHJvZC83QjQyMkVCMjUxMEIzMDkxMzFDNTQzMzJGMERDMTlBNF92aWRlb19kYXNoaW5pdC5tcDQVAALIAQAVAhg6cGFzc3Rocm91Z2hfZXZlcnN0b3JlL0dDTlFheHc5ZXNTT01Sc0VBRDNudXQ3QnNia2FicV9FQUFBRhUCAsgBACgAGAAbABUAACbi%2F5mw%2BcGiQBUCKAJDMywXQGeIgxJul40YEmRhc2hfYmFzZWxpbmVfMV92MREAdf4HAA%3D%3D&ccb=9-4&oh=00_AYAE_aST-l8lgPGhlxzs6mv_V_4vH2y6L1jUo3XXXOKUmQ&oe=67C0186C&_nc_sid=d885a2",
+        "video_view_count": 4698,
+        "viewer_can_reshare": true,
+        "viewer_has_liked": false,
+        "viewer_has_saved": false,
+        "viewer_has_saved_to_collection": false,
+        "viewer_in_photo_of_you": false
+    }
+}

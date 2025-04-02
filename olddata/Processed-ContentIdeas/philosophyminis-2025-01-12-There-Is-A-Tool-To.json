@@ -1,0 +1,272 @@
+{
+    "instaloader": {
+        "node_type": "Post",
+        "version": "4.14.1"
+    },
+    "node": {
+        "__isXDTGraphMediaInterface": "XDTGraphVideo",
+        "__typename": "GraphVideo",
+        "accessibility_caption": null,
+        "can_see_insights_as_brand": false,
+        "caption_is_edited": false,
+        "clips_music_attribution_info": {
+            "artist_name": "philosophyminis",
+            "audio_id": "1674395706621000",
+            "should_mute_audio": false,
+            "should_mute_audio_reason": "",
+            "song_name": "Original audio",
+            "uses_original_audio": true
+        },
+        "coauthor_producers": [],
+        "commenting_disabled_for_viewer": false,
+        "comments_disabled": false,
+        "dash_info": {
+            "is_dash_eligible": false,
+            "number_of_qualities": 0,
+            "video_dash_manifest": null
+        },
+        "dimensions": {
+            "height": 1919,
+            "width": 1080
+        },
+        "display_resources": [
+            {
+                "config_height": 1137,
+                "config_width": 640,
+                "src": "https://scontent-msp1-1.cdninstagram.com/v/t51.2885-15/473156912_18074516560640680_279415337661948572_n.jpg?stp=dst-jpg_e15_p640x640_tt6&_nc_ht=scontent-msp1-1.cdninstagram.com&_nc_cat=104&_nc_oc=Q6cZ2AFZkdT75jgZPEXnn_OUI0iFhaA5-QrNtX8FaF4k0bSQY1RK9mwLZta6TLrTT9mzkG0&_nc_ohc=5IggFV-_vgAQ7kNvgHXzmF8&_nc_gid=557c5fc0fc1849d58fa3cd9533d58c56&edm=ANTKIIoBAAAA&ccb=7-5&oh=00_AYCWkuWID1t7chYYoSWxtiC_yBxCge_mVeskDEGrsMZWBQ&oe=67B541AB&_nc_sid=d885a2"
+            },
+            {
+                "config_height": 1333,
+                "config_width": 750,
+                "src": "https://scontent-msp1-1.cdninstagram.com/v/t51.2885-15/473156912_18074516560640680_279415337661948572_n.jpg?stp=dst-jpg_e15_p750x750_tt6&_nc_ht=scontent-msp1-1.cdninstagram.com&_nc_cat=104&_nc_oc=Q6cZ2AFZkdT75jgZPEXnn_OUI0iFhaA5-QrNtX8FaF4k0bSQY1RK9mwLZta6TLrTT9mzkG0&_nc_ohc=5IggFV-_vgAQ7kNvgHXzmF8&_nc_gid=557c5fc0fc1849d58fa3cd9533d58c56&edm=ANTKIIoBAAAA&ccb=7-5&oh=00_AYCbdq27K4ZjOGhGFhcntWTL6WJa1bUnG0AVx_8JUqU0mg&oe=67B541AB&_nc_sid=d885a2"
+            },
+            {
+                "config_height": 1919,
+                "config_width": 1080,
+                "src": "https://scontent-msp1-1.cdninstagram.com/v/t51.2885-15/473156912_18074516560640680_279415337661948572_n.jpg?stp=dst-jpg_e15_tt6&_nc_ht=scontent-msp1-1.cdninstagram.com&_nc_cat=104&_nc_oc=Q6cZ2AFZkdT75jgZPEXnn_OUI0iFhaA5-QrNtX8FaF4k0bSQY1RK9mwLZta6TLrTT9mzkG0&_nc_ohc=5IggFV-_vgAQ7kNvgHXzmF8&_nc_gid=557c5fc0fc1849d58fa3cd9533d58c56&edm=ANTKIIoBAAAA&ccb=7-5&oh=00_AYD7Lh61J4vLz7gsvCvWYbVl8nsaoxnuscijMZdliQ1ohw&oe=67B541AB&_nc_sid=d885a2"
+            }
+        ],
+        "display_url": "https://scontent-msp1-1.cdninstagram.com/v/t51.2885-15/473156912_18074516560640680_279415337661948572_n.jpg?stp=dst-jpg_e15_tt6&_nc_ht=scontent-msp1-1.cdninstagram.com&_nc_cat=104&_nc_oc=Q6cZ2AFZkdT75jgZPEXnn_OUI0iFhaA5-QrNtX8FaF4k0bSQY1RK9mwLZta6TLrTT9mzkG0&_nc_ohc=5IggFV-_vgAQ7kNvgHXzmF8&_nc_gid=557c5fc0fc1849d58fa3cd9533d58c56&edm=ANTKIIoBAAAA&ccb=7-5&oh=00_AYD7Lh61J4vLz7gsvCvWYbVl8nsaoxnuscijMZdliQ1ohw&oe=67B541AB&_nc_sid=d885a2",
+        "edge_media_preview_comment": {
+            "count": 851,
+            "edges": [
+                {
+                    "node": {
+                        "created_at": 1739481582,
+                        "did_report_as_spam": false,
+                        "edge_liked_by": {
+                            "count": 1
+                        },
+                        "id": "17966840438723664",
+                        "is_restricted_pending": false,
+                        "owner": {
+                            "id": "26347467134",
+                            "is_verified": false,
+                            "profile_pic_url": "https://scontent-msp1-1.cdninstagram.com/v/t51.2885-19/369976344_170047569511770_7862520611310797022_n.jpg?stp=dst-jpg_s150x150_tt6&_nc_ht=scontent-msp1-1.cdninstagram.com&_nc_cat=106&_nc_oc=Q6cZ2AFZkdT75jgZPEXnn_OUI0iFhaA5-QrNtX8FaF4k0bSQY1RK9mwLZta6TLrTT9mzkG0&_nc_ohc=e7YBhUbIFVkQ7kNvgECiIXa&_nc_gid=557c5fc0fc1849d58fa3cd9533d58c56&edm=ANTKIIoBAAAA&ccb=7-5&oh=00_AYCmdshXtI2LX4JY69Ge6Y2CKYGLmIbR_6TNMAsRrPS4vw&oe=67B5263F&_nc_sid=d885a2",
+                            "username": "patrickelliottbrennanphotos"
+                        },
+                        "text": "@peter_genfoedt you're just describing an example of where people had opinions, but no evidence. They didn't test it. They didn't review it. They didn't review it. They didn't look at the evidence. It's a very different situation.",
+                        "viewer_has_liked": false
+                    }
+                },
+                {
+                    "node": {
+                        "created_at": 1739487220,
+                        "did_report_as_spam": false,
+                        "edge_liked_by": {
+                            "count": 0
+                        },
+                        "id": "17947217135801954",
+                        "is_restricted_pending": false,
+                        "owner": {
+                            "id": "6102398326",
+                            "is_verified": false,
+                            "profile_pic_url": "https://scontent-msp1-1.cdninstagram.com/v/t51.2885-19/403904388_698020538958279_2458600344219978649_n.jpg?stp=dst-jpg_s150x150_tt6&_nc_ht=scontent-msp1-1.cdninstagram.com&_nc_cat=103&_nc_oc=Q6cZ2AFZkdT75jgZPEXnn_OUI0iFhaA5-QrNtX8FaF4k0bSQY1RK9mwLZta6TLrTT9mzkG0&_nc_ohc=kTE26sD2HIoQ7kNvgGJDWim&_nc_gid=557c5fc0fc1849d58fa3cd9533d58c56&edm=ANTKIIoBAAAA&ccb=7-5&oh=00_AYA0yuP5uviXM2UXsOC_nxRsPoRBhMXjRJuIRo0wOJX1yg&oe=67B52A4B&_nc_sid=d885a2",
+                            "username": "pouya_rajaee"
+                        },
+                        "text": "@_der_georg_ I wish people could read your comment before dismissing a whole doctrine to strive for",
+                        "viewer_has_liked": false
+                    }
+                }
+            ]
+        },
+        "edge_media_preview_like": {
+            "count": 38847,
+            "edges": []
+        },
+        "edge_media_to_caption": {
+            "edges": [
+                {
+                    "node": {
+                        "created_at": "1736692816",
+                        "id": "18017251391457360",
+                        "text": "There is a tool to tell if something is nonsense or not. It\u2019s a tool to call out the quacks, the charlatans, and the snake oil peddlers of the world. It\u2019s a tool to tell pseudoscience from real. \n\nAnd it goes back to Karl Popper, whose \u2018falsification\u2019 theory is now a bedrock of the scientific method. \n\nAccording to falsification, a theory is only as strong as how far it can resist falsifying evidence. Empirical experiments cannot prove or verify a theory, only disprove it. The theory of gravity is such a strong theory because for however many plates we\u2019ve dropped over the centuries, gravity will stubbornly persist in breaking them. So, if we call something a \u2018working theory,\u2019 that simply means that all experiments since it was presented haven\u2019t shown it to be wrong yet. \n\nBut if a theory cannot be logically falsified, or if no possible evidence could disprove it, then Popper dismissed it as nonsense \u2014 a criticism he quite aggressively aimed at Hegel, Marx and Freud. For instance, if you find a man who seemingly has no desire for the mother figure, then the Freudian might say, \u2018Well, it\u2019s repressed. It\u2019ll be there.\u2019 Or if you find a Marxist and point out certain historic failures of Marxism, then they might say, \u2018Well, it\u2019s never been tried properly, yet.\u2019 \n\nIn other words, if it\u2019s impossible to prove something or someone wrong, then it\u2019s not science. It\u2019s dogmatic conjecture. So, if you have a friend who tells you that they believe the world is run by extraterrestrial lizard people, ask them what it would take to disprove them. If they say nothing, then take Popper\u2019s advice and walk away."
+                    }
+                }
+            ]
+        },
+        "edge_media_to_hoisted_comment": {
+            "edges": []
+        },
+        "edge_media_to_parent_comment": {
+            "count": 851,
+            "edges": [
+                {
+                    "node": {
+                        "created_at": 1739336415,
+                        "did_report_as_spam": false,
+                        "edge_liked_by": {
+                            "count": 0
+                        },
+                        "edge_threaded_comments": {
+                            "count": 0,
+                            "edges": [],
+                            "page_info": {
+                                "end_cursor": null,
+                                "has_next_page": false
+                            }
+                        },
+                        "id": "17979261935669093",
+                        "is_restricted_pending": false,
+                        "owner": {
+                            "id": "32325435534",
+                            "is_verified": false,
+                            "profile_pic_url": "https://scontent-msp1-1.cdninstagram.com/v/t51.2885-19/134961413_311330980234322_3201726714521485721_n.jpg?stp=dst-jpg_s150x150_tt6&_nc_ht=scontent-msp1-1.cdninstagram.com&_nc_cat=102&_nc_oc=Q6cZ2AFZkdT75jgZPEXnn_OUI0iFhaA5-QrNtX8FaF4k0bSQY1RK9mwLZta6TLrTT9mzkG0&_nc_ohc=zZEDnBO1RIEQ7kNvgEUC-DS&_nc_gid=557c5fc0fc1849d58fa3cd9533d58c56&edm=ANTKIIoBAAAA&ccb=7-5&oh=00_AYA4Aj6shLDB4NlJBj2AzIY525ymREcJcX_Dd_0Es7IqCA&oe=67B52DC7&_nc_sid=d885a2",
+                            "username": "bappo_wasnt_taken"
+                        },
+                        "text": "You hear that, you fucking morons? A theory isn't a fucking random guess, it's the closest thing to fact we know.",
+                        "viewer_has_liked": false
+                    }
+                },
+                {
+                    "node": {
+                        "created_at": 1739327314,
+                        "did_report_as_spam": false,
+                        "edge_liked_by": {
+                            "count": 1
+                        },
+                        "edge_threaded_comments": {
+                            "count": 0,
+                            "edges": [],
+                            "page_info": {
+                                "end_cursor": null,
+                                "has_next_page": false
+                            }
+                        },
+                        "id": "18080393476626126",
+                        "is_restricted_pending": false,
+                        "owner": {
+                            "id": "1387170445",
+                            "is_verified": false,
+                            "profile_pic_url": "https://scontent-msp1-1.cdninstagram.com/v/t51.2885-19/464892348_537800622439514_1517028784152292860_n.jpg?stp=dst-jpg_s150x150_tt6&_nc_ht=scontent-msp1-1.cdninstagram.com&_nc_cat=102&_nc_oc=Q6cZ2AFZkdT75jgZPEXnn_OUI0iFhaA5-QrNtX8FaF4k0bSQY1RK9mwLZta6TLrTT9mzkG0&_nc_ohc=xdu4PXjkf3QQ7kNvgGGg9wN&_nc_gid=557c5fc0fc1849d58fa3cd9533d58c56&edm=ANTKIIoBAAAA&ccb=7-5&oh=00_AYC3zYELokSQXj9EiT2EJ-fZtLRb-ebP7ZMgF94T3c-5fA&oe=67B5354F&_nc_sid=d885a2",
+                            "username": "pedropontes77"
+                        },
+                        "text": "Pretty cool, except for one thing: Freud\u2019s ideas were never meant to be taken that literally. That is a hell of a common mistake. Otherwise, really good ideas.",
+                        "viewer_has_liked": false
+                    }
+                },
+                {
+                    "node": {
+                        "created_at": 1739300227,
+                        "did_report_as_spam": false,
+                        "edge_liked_by": {
+                            "count": 0
+                        },
+                        "edge_threaded_comments": {
+                            "count": 0,
+                            "edges": [],
+                            "page_info": {
+                                "end_cursor": null,
+                                "has_next_page": false
+                            }
+                        },
+                        "id": "17943576845825582",
+                        "is_restricted_pending": false,
+                        "owner": {
+                            "id": "3287085296",
+                            "is_verified": false,
+                            "profile_pic_url": "https://scontent-msp1-1.cdninstagram.com/v/t51.2885-19/13329214_1184838931549100_2009632067_a.jpg?stp=dst-jpg_s150x150_tt6&_nc_ht=scontent-msp1-1.cdninstagram.com&_nc_cat=108&_nc_oc=Q6cZ2AFZkdT75jgZPEXnn_OUI0iFhaA5-QrNtX8FaF4k0bSQY1RK9mwLZta6TLrTT9mzkG0&_nc_ohc=D6BwJ7_AK_cQ7kNvgEXilE3&_nc_gid=557c5fc0fc1849d58fa3cd9533d58c56&edm=ANTKIIoBAAAA&ccb=7-5&oh=00_AYCdGZq7SZRmmVoSXmQCzKqqcXO4J1shNx44PVblEEQDIg&oe=67B5292A&_nc_sid=d885a2",
+                            "username": "jaisonjames"
+                        },
+                        "text": "I was just thinking about Karl Popper",
+                        "viewer_has_liked": false
+                    }
+                }
+            ],
+            "page_info": {
+                "end_cursor": "{\"server_cursor\": \"QVFCbk5FakI3TVgxOGJNTFcwb0xHOHFWdFhtRHRIbGowd1V4aUUzQlJGcHFKM1NDc3I1TlpWbDBwMWVQQXFac1ExdXNjWVBzc3JFRUMtQ24xalJtWGQwQw==\", \"is_server_cursor_inverse\": true}",
+                "has_next_page": true
+            }
+        },
+        "edge_media_to_sponsor_user": {
+            "edges": []
+        },
+        "edge_media_to_tagged_user": {
+            "edges": []
+        },
+        "edge_web_media_to_related_media": {
+            "edges": []
+        },
+        "encoding_status": null,
+        "fact_check_information": null,
+        "fact_check_overall_rating": null,
+        "gating_info": null,
+        "has_audio": true,
+        "has_ranked_comments": false,
+        "id": "3543958991912756194",
+        "is_ad": false,
+        "is_affiliate": false,
+        "is_paid_partnership": false,
+        "is_published": true,
+        "is_video": true,
+        "like_and_view_counts_disabled": false,
+        "location": null,
+        "media_overlay_info": null,
+        "media_preview": "ABgq3KKKi87nG1vy/wDr0jIlooooEGM1C5wVCgHLYIwOnOTntj9enepqq/Yo8dDn1y3+NAy0BiiiigQUUUUAFFFFAH//2Q==",
+        "nft_asset_info": null,
+        "owner": {
+            "blocked_by_viewer": false,
+            "edge_followed_by": {
+                "count": 464253
+            },
+            "edge_owner_to_timeline_media": {
+                "count": 372
+            },
+            "followed_by_viewer": false,
+            "full_name": "Jonny Thomson",
+            "has_blocked_viewer": false,
+            "id": "19314904679",
+            "is_embeds_disabled": false,
+            "is_private": false,
+            "is_unpublished": false,
+            "is_verified": true,
+            "pass_tiering_recommendation": true,
+            "profile_pic_url": "https://scontent-msp1-1.cdninstagram.com/v/t51.2885-19/449752168_437957822410902_2529200355619444188_n.jpg?stp=dst-jpg_s150x150_tt6&_nc_ht=scontent-msp1-1.cdninstagram.com&_nc_cat=106&_nc_oc=Q6cZ2AFZkdT75jgZPEXnn_OUI0iFhaA5-QrNtX8FaF4k0bSQY1RK9mwLZta6TLrTT9mzkG0&_nc_ohc=4vQDrAc5el0Q7kNvgGYrLDQ&_nc_gid=557c5fc0fc1849d58fa3cd9533d58c56&edm=ANTKIIoBAAAA&ccb=7-5&oh=00_AYDkpbwZMtpq4yPPYHmSoovJ5iBDmWvmPTVZoGVO8DVoTQ&oe=67B52C16&_nc_sid=d885a2",
+            "requested_by_viewer": false,
+            "restricted_by_viewer": null,
+            "username": "philosophyminis"
+        },
+        "pinned_for_users": [],
+        "product_type": "clips",
+        "sensitivity_friction_info": null,
+        "sharing_friction_info": {
+            "bloks_app_url": null,
+            "should_have_sharing_friction": false
+        },
+        "shortcode": "DEuq-0rguPi",
+        "taken_at_timestamp": 1736692800,
+        "thumbnail_src": "https://scontent-msp1-1.cdninstagram.com/v/t51.2885-15/473156912_18074516560640680_279415337661948572_n.jpg?stp=c0.398.1024.1024a_dst-jpg_e15_s640x640_tt6&_nc_ht=scontent-msp1-1.cdninstagram.com&_nc_cat=104&_nc_oc=Q6cZ2AFZkdT75jgZPEXnn_OUI0iFhaA5-QrNtX8FaF4k0bSQY1RK9mwLZta6TLrTT9mzkG0&_nc_ohc=5IggFV-_vgAQ7kNvgHXzmF8&_nc_gid=557c5fc0fc1849d58fa3cd9533d58c56&edm=ANTKIIoBAAAA&ccb=7-5&oh=00_AYDgDQ_j-DbbcaG1veWoqkpEjdowzl1aXrCNJgix6Ciq0g&oe=67B541AB&_nc_sid=d885a2",
+        "title": "",
+        "tracking_token": "eyJ2ZXJzaW9uIjo1LCJwYXlsb2FkIjp7ImlzX2FuYWx5dGljc190cmFja2VkIjp0cnVlLCJ1dWlkIjoiNTU3YzVmYzBmYzE4NDlkNThmYTNjZDk1MzNkNThjNTYzNTQzOTU4OTkxOTEyNzU2MTk0In0sInNpZ25hdHVyZSI6IiJ9",
+        "upcoming_event": null,
+        "video_duration": 89.36,
+        "video_play_count": 931232,
+        "video_url": "https://scontent-msp1-1.cdninstagram.com/o1/v/t16/f2/m86/AQPZSyf1RHYpMzxmwx5a4UbvCM1RhVtW_iwpH9b9wfYkT1bclkAcKrYb59hzaZTGDtnoFDNZQvkH_DHp-ZTgact3rKFWO-mtnToVyBQ.mp4?stp=dst-mp4&efg=eyJxZV9ncm91cHMiOiJbXCJpZ193ZWJfZGVsaXZlcnlfdnRzX290ZlwiXSIsInZlbmNvZGVfdGFnIjoidnRzX3ZvZF91cmxnZW4uY2xpcHMuYzIuNzIwLmJhc2VsaW5lIn0&_nc_cat=108&vs=614459871141844_3691165907&_nc_vs=HBksFQIYUmlnX3hwdl9yZWVsc19wZXJtYW5lbnRfc3JfcHJvZC9EQzQ3ODI5OEM5OEQ2REY5ODM4Qzg1MjhCODNFQjA4NF92aWRlb19kYXNoaW5pdC5tcDQVAALIAQAVAhg6cGFzc3Rocm91Z2hfZXZlcnN0b3JlL0dERTFMUnlXT0x6aVF0VU1BSTl2U1Y0NTQ3VkticV9FQUFBRhUCAsgBACgAGAAbABUAACaezJn7zu2QQBUCKAJDMywXQFZXCj1wo9cYEmRhc2hfYmFzZWxpbmVfMV92MREAdf4HAA%3D%3D&ccb=9-4&oh=00_AYCb9QjE9C1NXRwRMwnaePOQaZAJD-uCuGxacU-HwaQH2w&oe=67B11F13&_nc_sid=d885a2",
+        "video_view_count": 371681,
+        "viewer_can_reshare": true,
+        "viewer_has_liked": false,
+        "viewer_has_saved": false,
+        "viewer_has_saved_to_collection": false,
+        "viewer_in_photo_of_you": false
+    }
+}

@@ -1,0 +1,454 @@
+{
+    "instaloader": {
+        "node_type": "Post",
+        "version": "4.14.1"
+    },
+    "node": {
+        "__isXDTGraphMediaInterface": "XDTGraphVideo",
+        "__typename": "GraphVideo",
+        "accessibility_caption": null,
+        "can_see_insights_as_brand": false,
+        "caption_is_edited": false,
+        "clips_music_attribution_info": null,
+        "coauthor_producers": [],
+        "commenting_disabled_for_viewer": false,
+        "comments_disabled": false,
+        "dash_info": {
+            "is_dash_eligible": false,
+            "number_of_qualities": 0,
+            "video_dash_manifest": null
+        },
+        "dimensions": {
+            "height": 1137,
+            "width": 640
+        },
+        "display_resources": [
+            {
+                "config_height": 1137,
+                "config_width": 640,
+                "src": "https://scontent-msp1-1.cdninstagram.com/v/t51.2885-15/469944804_18052158745993508_8145727835169828198_n.jpg?stp=dst-jpg_e15_tt6&_nc_ht=scontent-msp1-1.cdninstagram.com&_nc_cat=108&_nc_oc=Q6cZ2AGg5RuOwK6834r4Wt8QhXb5x80Dmj5cF56BOt-vOEIp_FxVsz6lpM8mSrS32Kw2ymA&_nc_ohc=5EblnIwZMKoQ7kNvgFoXcld&_nc_gid=406fd97fac8d4af991e53b8b61dbf7d8&edm=ANTKIIoBAAAA&ccb=7-5&oh=00_AYBc2tt-rK-suD0oQ8cixFfJciHoY1EBrEXm9V8yIRU3bg&oe=67B4C8EF&_nc_sid=d885a2"
+            },
+            {
+                "config_height": 1333,
+                "config_width": 750,
+                "src": "https://scontent-msp1-1.cdninstagram.com/v/t51.2885-15/469944804_18052158745993508_8145727835169828198_n.jpg?stp=dst-jpg_e15_tt6&_nc_ht=scontent-msp1-1.cdninstagram.com&_nc_cat=108&_nc_oc=Q6cZ2AGg5RuOwK6834r4Wt8QhXb5x80Dmj5cF56BOt-vOEIp_FxVsz6lpM8mSrS32Kw2ymA&_nc_ohc=5EblnIwZMKoQ7kNvgFoXcld&_nc_gid=406fd97fac8d4af991e53b8b61dbf7d8&edm=ANTKIIoBAAAA&ccb=7-5&oh=00_AYBc2tt-rK-suD0oQ8cixFfJciHoY1EBrEXm9V8yIRU3bg&oe=67B4C8EF&_nc_sid=d885a2"
+            },
+            {
+                "config_height": 1920,
+                "config_width": 1080,
+                "src": "https://scontent-msp1-1.cdninstagram.com/v/t51.2885-15/469944804_18052158745993508_8145727835169828198_n.jpg?stp=dst-jpg_e15_tt6&_nc_ht=scontent-msp1-1.cdninstagram.com&_nc_cat=108&_nc_oc=Q6cZ2AGg5RuOwK6834r4Wt8QhXb5x80Dmj5cF56BOt-vOEIp_FxVsz6lpM8mSrS32Kw2ymA&_nc_ohc=5EblnIwZMKoQ7kNvgFoXcld&_nc_gid=406fd97fac8d4af991e53b8b61dbf7d8&edm=ANTKIIoBAAAA&ccb=7-5&oh=00_AYBc2tt-rK-suD0oQ8cixFfJciHoY1EBrEXm9V8yIRU3bg&oe=67B4C8EF&_nc_sid=d885a2"
+            }
+        ],
+        "display_url": "https://scontent-msp1-1.cdninstagram.com/v/t51.2885-15/469944804_18052158745993508_8145727835169828198_n.jpg?stp=dst-jpg_e15_tt6&_nc_ht=scontent-msp1-1.cdninstagram.com&_nc_cat=108&_nc_oc=Q6cZ2AGg5RuOwK6834r4Wt8QhXb5x80Dmj5cF56BOt-vOEIp_FxVsz6lpM8mSrS32Kw2ymA&_nc_ohc=5EblnIwZMKoQ7kNvgFoXcld&_nc_gid=406fd97fac8d4af991e53b8b61dbf7d8&edm=ANTKIIoBAAAA&ccb=7-5&oh=00_AYBc2tt-rK-suD0oQ8cixFfJciHoY1EBrEXm9V8yIRU3bg&oe=67B4C8EF&_nc_sid=d885a2",
+        "edge_media_preview_comment": {
+            "count": 195,
+            "edges": [
+                {
+                    "node": {
+                        "created_at": 1737911645,
+                        "did_report_as_spam": false,
+                        "edge_liked_by": {
+                            "count": 3
+                        },
+                        "id": "18110806801455749",
+                        "is_restricted_pending": false,
+                        "owner": {
+                            "id": "228032229",
+                            "is_verified": false,
+                            "profile_pic_url": "https://scontent-msp1-1.cdninstagram.com/v/t51.2885-19/438505534_982756306538046_6609823135587994412_n.jpg?stp=dst-jpg_s150x150_tt6&_nc_ht=scontent-msp1-1.cdninstagram.com&_nc_cat=106&_nc_oc=Q6cZ2AGg5RuOwK6834r4Wt8QhXb5x80Dmj5cF56BOt-vOEIp_FxVsz6lpM8mSrS32Kw2ymA&_nc_ohc=ijBk8Uv1WjEQ7kNvgEv9STs&_nc_gid=406fd97fac8d4af991e53b8b61dbf7d8&edm=ANTKIIoBAAAA&ccb=7-5&oh=00_AYAcp_-GFL9i1dg7yskxtitnUfNVYvqEKjV_9qauUYc-kw&oe=67B4DF07&_nc_sid=d885a2",
+                            "username": "amb1963"
+                        },
+                        "text": "This showed up in my feed today.  The timing is uncanny, yet not, when you know it\u2019s the Universe coming to knock on your door.  I sent it to my adult children and advised them to adopt this mindset now to avoid so much unnecessary suffering - don\u2019t be like Mom LOL who is figuring this all out now. Thank you for summarizing it in one place, so simply and while you are outside walking in nature - trifecta!",
+                        "viewer_has_liked": false
+                    }
+                },
+                {
+                    "node": {
+                        "created_at": 1738253365,
+                        "did_report_as_spam": false,
+                        "edge_liked_by": {
+                            "count": 1
+                        },
+                        "id": "18034982450608603",
+                        "is_restricted_pending": false,
+                        "owner": {
+                            "id": "1418557945",
+                            "is_verified": false,
+                            "profile_pic_url": "https://scontent-msp1-1.cdninstagram.com/v/t51.2885-19/356265929_821936862887821_5764474899239268064_n.jpg?stp=dst-jpg_s150x150_tt6&_nc_ht=scontent-msp1-1.cdninstagram.com&_nc_cat=101&_nc_oc=Q6cZ2AGg5RuOwK6834r4Wt8QhXb5x80Dmj5cF56BOt-vOEIp_FxVsz6lpM8mSrS32Kw2ymA&_nc_ohc=HJHjVBiev2MQ7kNvgGH7uqI&_nc_gid=406fd97fac8d4af991e53b8b61dbf7d8&edm=ANTKIIoBAAAA&ccb=7-5&oh=00_AYAFDvY-2kkiQipKIGlTSQO3x0PVjsathzuyyp7qgWZcwQ&oe=67B4C672&_nc_sid=d885a2",
+                            "username": "marsan012"
+                        },
+                        "text": "\u2764\ufe0f",
+                        "viewer_has_liked": false
+                    }
+                }
+            ]
+        },
+        "edge_media_preview_like": {
+            "count": 42888,
+            "edges": []
+        },
+        "edge_media_to_caption": {
+            "edges": [
+                {
+                    "node": {
+                        "created_at": "1734120522",
+                        "id": "18048324602120866",
+                        "text": "\u2728 10 Things Happy People Never Waste Their Energy On \u2728\n\ud83c\udf1f Life is a river, and happy souls flow effortlessly\u2014unshaken by the currents, untouched by the weeds of worry. Here\u2019s even more insights on the secrets to true freedom:\n1\ufe0f\u20e3 Regrets \u2013 The past is a lesson, not a life sentence. Embrace its wisdom, then set it free. Your future awaits your courage. \ud83d\udeaa\u2728\n2\ufe0f\u20e3 Other People's Opinions \u2013 True happiness is wearing the crown of self-love. \ud83d\udc51\ud83d\udc96\n3\ufe0f\u20e3 Perfection \u2013 The beauty of life is in its imperfections; it\u2019s the cracks that let the light in. \ud83c\udf05\n4\ufe0f\u20e3 Negativity \u2013 Bad vibes are just clouds passing the sun of your joy. \u2600\ufe0f\ud83c\udf2c\ufe0f\n5\ufe0f\u20e3 Comparison \u2013 Your journey is a masterpiece; don\u2019t copy someone else\u2019s strokes. \ud83c\udfa8\ud83d\udeb6\u200d\u2642\ufe0f\n6\ufe0f\u20e3 Blame \u2013 Accountability is freedom, blame is a chain. Break free. \ud83d\udd4a\ufe0f\ud83d\udddd\ufe0f\n7\ufe0f\u20e3 Fears of the Unknown \u2013 Growth blooms in uncertainty. Embrace the mystery. \ud83c\udf31\ud83c\udf0c\n8\ufe0f\u20e3 Drama \u2013 Like a calm pond, happiness ripples with peace, not chaos. \ud83c\udf0a\ud83e\udeb7\n9\ufe0f\u20e3 Material Validation \u2013 True wealth is found in a grateful heart, not a stuffed wallet. \ud83d\udcb0\u2764\ufe0f\n\ud83d\udd1f Dwelling on Failures \u2013 Every fall is a step closer to soaring. Dust off, rise again. \ud83e\udd85\u2b06\ufe0f\n\u2728 Happy people cultivate their joy like a qigong master balancing energy\u2014steady, focused, and grounded. \ud83c\udf00\ud83c\udf3f Find your flow and let go of what doesn't serve you.\nMore insights and my fitness routine at JoeDrummerBoy.com \u2728\n#love #happy #wellness #positivity #mindfulness #joy #success #growth #selfcare #inspiration"
+                    }
+                }
+            ]
+        },
+        "edge_media_to_hoisted_comment": {
+            "edges": []
+        },
+        "edge_media_to_parent_comment": {
+            "count": 195,
+            "edges": [
+                {
+                    "node": {
+                        "created_at": 1738253365,
+                        "did_report_as_spam": false,
+                        "edge_liked_by": {
+                            "count": 1
+                        },
+                        "edge_threaded_comments": {
+                            "count": 0,
+                            "edges": [],
+                            "page_info": {
+                                "end_cursor": null,
+                                "has_next_page": false
+                            }
+                        },
+                        "id": "18034982450608603",
+                        "is_restricted_pending": false,
+                        "owner": {
+                            "id": "1418557945",
+                            "is_verified": false,
+                            "profile_pic_url": "https://scontent-msp1-1.cdninstagram.com/v/t51.2885-19/356265929_821936862887821_5764474899239268064_n.jpg?stp=dst-jpg_s150x150_tt6&_nc_ht=scontent-msp1-1.cdninstagram.com&_nc_cat=101&_nc_oc=Q6cZ2AGg5RuOwK6834r4Wt8QhXb5x80Dmj5cF56BOt-vOEIp_FxVsz6lpM8mSrS32Kw2ymA&_nc_ohc=HJHjVBiev2MQ7kNvgGH7uqI&_nc_gid=406fd97fac8d4af991e53b8b61dbf7d8&edm=ANTKIIoBAAAA&ccb=7-5&oh=00_AYAFDvY-2kkiQipKIGlTSQO3x0PVjsathzuyyp7qgWZcwQ&oe=67B4C672&_nc_sid=d885a2",
+                            "username": "marsan012"
+                        },
+                        "text": "\u2764\ufe0f",
+                        "viewer_has_liked": false
+                    }
+                },
+                {
+                    "node": {
+                        "created_at": 1737911645,
+                        "did_report_as_spam": false,
+                        "edge_liked_by": {
+                            "count": 3
+                        },
+                        "edge_threaded_comments": {
+                            "count": 0,
+                            "edges": [],
+                            "page_info": {
+                                "end_cursor": null,
+                                "has_next_page": false
+                            }
+                        },
+                        "id": "18110806801455749",
+                        "is_restricted_pending": false,
+                        "owner": {
+                            "id": "228032229",
+                            "is_verified": false,
+                            "profile_pic_url": "https://scontent-msp1-1.cdninstagram.com/v/t51.2885-19/438505534_982756306538046_6609823135587994412_n.jpg?stp=dst-jpg_s150x150_tt6&_nc_ht=scontent-msp1-1.cdninstagram.com&_nc_cat=106&_nc_oc=Q6cZ2AGg5RuOwK6834r4Wt8QhXb5x80Dmj5cF56BOt-vOEIp_FxVsz6lpM8mSrS32Kw2ymA&_nc_ohc=ijBk8Uv1WjEQ7kNvgEv9STs&_nc_gid=406fd97fac8d4af991e53b8b61dbf7d8&edm=ANTKIIoBAAAA&ccb=7-5&oh=00_AYAcp_-GFL9i1dg7yskxtitnUfNVYvqEKjV_9qauUYc-kw&oe=67B4DF07&_nc_sid=d885a2",
+                            "username": "amb1963"
+                        },
+                        "text": "This showed up in my feed today.  The timing is uncanny, yet not, when you know it\u2019s the Universe coming to knock on your door.  I sent it to my adult children and advised them to adopt this mindset now to avoid so much unnecessary suffering - don\u2019t be like Mom LOL who is figuring this all out now. Thank you for summarizing it in one place, so simply and while you are outside walking in nature - trifecta!",
+                        "viewer_has_liked": false
+                    }
+                },
+                {
+                    "node": {
+                        "created_at": 1737147917,
+                        "did_report_as_spam": false,
+                        "edge_liked_by": {
+                            "count": 3
+                        },
+                        "edge_threaded_comments": {
+                            "count": 0,
+                            "edges": [],
+                            "page_info": {
+                                "end_cursor": null,
+                                "has_next_page": false
+                            }
+                        },
+                        "id": "18048159389327133",
+                        "is_restricted_pending": false,
+                        "owner": {
+                            "id": "58649402002",
+                            "is_verified": false,
+                            "profile_pic_url": "https://scontent-msp1-1.cdninstagram.com/v/t51.2885-19/416674451_919284416376930_1291268853835456386_n.jpg?stp=dst-jpg_s150x150_tt6&_nc_ht=scontent-msp1-1.cdninstagram.com&_nc_cat=106&_nc_oc=Q6cZ2AGg5RuOwK6834r4Wt8QhXb5x80Dmj5cF56BOt-vOEIp_FxVsz6lpM8mSrS32Kw2ymA&_nc_ohc=6mQ6-t-WYsMQ7kNvgHv0b5S&_nc_gid=406fd97fac8d4af991e53b8b61dbf7d8&edm=ANTKIIoBAAAA&ccb=7-5&oh=00_AYCXHPOU-0izIAdOLGt7Q64KGGugzCNCZkru8iJB1z7FEg&oe=67B4DFFD&_nc_sid=d885a2",
+                            "username": "genaslagg"
+                        },
+                        "text": "Great to listen to this list. It\u2019s my second time and I already feel better. Such true advice to live by. I need to stop thinking negative things I can\u2019t change in my life. I overthink. Overdue. Go over things In my past I can\u2019t change. Overreact. Worry can\u2019t focus on the hear and now. Self sabotage myself. You are going to help me . I literally make my self sick and have bad pain because of the things I think and the way I live. Thank you Joe you rock",
+                        "viewer_has_liked": false
+                    }
+                },
+                {
+                    "node": {
+                        "created_at": 1736286297,
+                        "did_report_as_spam": false,
+                        "edge_liked_by": {
+                            "count": 2
+                        },
+                        "edge_threaded_comments": {
+                            "count": 0,
+                            "edges": [],
+                            "page_info": {
+                                "end_cursor": null,
+                                "has_next_page": false
+                            }
+                        },
+                        "id": "17872612143257451",
+                        "is_restricted_pending": false,
+                        "owner": {
+                            "id": "408176933",
+                            "is_verified": false,
+                            "profile_pic_url": "https://scontent-msp1-1.cdninstagram.com/v/t51.2885-19/13731335_214646025604650_621526395_a.jpg?stp=dst-jpg_s150x150_tt6&_nc_ht=scontent-msp1-1.cdninstagram.com&_nc_cat=106&_nc_oc=Q6cZ2AGg5RuOwK6834r4Wt8QhXb5x80Dmj5cF56BOt-vOEIp_FxVsz6lpM8mSrS32Kw2ymA&_nc_ohc=xcfzEnHn8FwQ7kNvgEJiR1W&_nc_gid=406fd97fac8d4af991e53b8b61dbf7d8&edm=ANTKIIoBAAAA&ccb=7-5&oh=00_AYAGi3aT33XW6-s7q-UbRb13GZSwBOTIBNaksDpHVCEvNg&oe=67B4EB0F&_nc_sid=d885a2",
+                            "username": "kiranwill"
+                        },
+                        "text": "@mrskatybuxton \u2764\ufe0f",
+                        "viewer_has_liked": false
+                    }
+                },
+                {
+                    "node": {
+                        "created_at": 1736286283,
+                        "did_report_as_spam": false,
+                        "edge_liked_by": {
+                            "count": 4
+                        },
+                        "edge_threaded_comments": {
+                            "count": 0,
+                            "edges": [],
+                            "page_info": {
+                                "end_cursor": null,
+                                "has_next_page": false
+                            }
+                        },
+                        "id": "18325653757089175",
+                        "is_restricted_pending": false,
+                        "owner": {
+                            "id": "408176933",
+                            "is_verified": false,
+                            "profile_pic_url": "https://scontent-msp1-1.cdninstagram.com/v/t51.2885-19/13731335_214646025604650_621526395_a.jpg?stp=dst-jpg_s150x150_tt6&_nc_ht=scontent-msp1-1.cdninstagram.com&_nc_cat=106&_nc_oc=Q6cZ2AGg5RuOwK6834r4Wt8QhXb5x80Dmj5cF56BOt-vOEIp_FxVsz6lpM8mSrS32Kw2ymA&_nc_ohc=xcfzEnHn8FwQ7kNvgEJiR1W&_nc_gid=406fd97fac8d4af991e53b8b61dbf7d8&edm=ANTKIIoBAAAA&ccb=7-5&oh=00_AYAGi3aT33XW6-s7q-UbRb13GZSwBOTIBNaksDpHVCEvNg&oe=67B4EB0F&_nc_sid=d885a2",
+                            "username": "kiranwill"
+                        },
+                        "text": "@amzy_garcha",
+                        "viewer_has_liked": false
+                    }
+                },
+                {
+                    "node": {
+                        "created_at": 1735758103,
+                        "did_report_as_spam": false,
+                        "edge_liked_by": {
+                            "count": 7
+                        },
+                        "edge_threaded_comments": {
+                            "count": 0,
+                            "edges": [],
+                            "page_info": {
+                                "end_cursor": null,
+                                "has_next_page": false
+                            }
+                        },
+                        "id": "18029334293613083",
+                        "is_restricted_pending": false,
+                        "owner": {
+                            "id": "4716326513",
+                            "is_verified": false,
+                            "profile_pic_url": "https://scontent-msp1-1.cdninstagram.com/v/t51.2885-19/16788881_1592429557452663_3435252492747669504_a.jpg?stp=dst-jpg_s150x150_tt6&_nc_ht=scontent-msp1-1.cdninstagram.com&_nc_cat=103&_nc_oc=Q6cZ2AGg5RuOwK6834r4Wt8QhXb5x80Dmj5cF56BOt-vOEIp_FxVsz6lpM8mSrS32Kw2ymA&_nc_ohc=0l8HflBsg-wQ7kNvgGjBnbE&_nc_gid=406fd97fac8d4af991e53b8b61dbf7d8&edm=ANTKIIoBAAAA&ccb=7-5&oh=00_AYDXlbSgTaNH_MQe0kB1sKanDWZkIcMcIko3x9dkCgMDyw&oe=67B4CAC6&_nc_sid=d885a2",
+                            "username": "cheriedalgleish"
+                        },
+                        "text": "Thank you for sharing your kindness and wisdom with us. We absolutely love your videos. You\u2019re a good friend, even though we\u2019ve never met.\u2764\ufe0f",
+                        "viewer_has_liked": false
+                    }
+                },
+                {
+                    "node": {
+                        "created_at": 1735184019,
+                        "did_report_as_spam": false,
+                        "edge_liked_by": {
+                            "count": 5
+                        },
+                        "edge_threaded_comments": {
+                            "count": 0,
+                            "edges": [],
+                            "page_info": {
+                                "end_cursor": null,
+                                "has_next_page": false
+                            }
+                        },
+                        "id": "17875914192232999",
+                        "is_restricted_pending": false,
+                        "owner": {
+                            "id": "1369337213",
+                            "is_verified": false,
+                            "profile_pic_url": "https://scontent-msp1-1.cdninstagram.com/v/t51.2885-19/474119416_585047974455543_2924260909490623285_n.jpg?stp=dst-jpg_s150x150_tt6&_nc_ht=scontent-msp1-1.cdninstagram.com&_nc_cat=103&_nc_oc=Q6cZ2AGg5RuOwK6834r4Wt8QhXb5x80Dmj5cF56BOt-vOEIp_FxVsz6lpM8mSrS32Kw2ymA&_nc_ohc=zQ_P7N78ir8Q7kNvgF7ov3i&_nc_gid=406fd97fac8d4af991e53b8b61dbf7d8&edm=ANTKIIoBAAAA&ccb=7-5&oh=00_AYAVc5xmlI_xzvXwjpKKIMs_5q5rQGPODROk0owkkJSGFA&oe=67B4C940&_nc_sid=d885a2",
+                            "username": "greg_gree"
+                        },
+                        "text": "Sent you a dm my dawg, check out that ish",
+                        "viewer_has_liked": false
+                    }
+                },
+                {
+                    "node": {
+                        "created_at": 1735140338,
+                        "did_report_as_spam": false,
+                        "edge_liked_by": {
+                            "count": 6
+                        },
+                        "edge_threaded_comments": {
+                            "count": 0,
+                            "edges": [],
+                            "page_info": {
+                                "end_cursor": null,
+                                "has_next_page": false
+                            }
+                        },
+                        "id": "18052868476989935",
+                        "is_restricted_pending": false,
+                        "owner": {
+                            "id": "2935037899",
+                            "is_verified": false,
+                            "profile_pic_url": "https://scontent-msp1-1.cdninstagram.com/v/t51.2885-19/356415057_629038869172007_3591805839003212852_n.jpg?stp=dst-jpg_s150x150_tt6&_nc_ht=scontent-msp1-1.cdninstagram.com&_nc_cat=111&_nc_oc=Q6cZ2AGg5RuOwK6834r4Wt8QhXb5x80Dmj5cF56BOt-vOEIp_FxVsz6lpM8mSrS32Kw2ymA&_nc_ohc=t3HXkg8plnsQ7kNvgGbYT8U&_nc_gid=406fd97fac8d4af991e53b8b61dbf7d8&edm=ANTKIIoBAAAA&ccb=7-5&oh=00_AYBkHVMikz4AQ6olB_SuausrDrIS_C8Y1YNaR9gnf2pktA&oe=67B4E682&_nc_sid=d885a2",
+                            "username": "dortiz426"
+                        },
+                        "text": "#7. Hard lesson. I\u2019m happy to be in a place of peace knowing I did my best to help others and, hopefully,  were blessed by it. \u2764\ufe0f",
+                        "viewer_has_liked": false
+                    }
+                },
+                {
+                    "node": {
+                        "created_at": 1735079859,
+                        "did_report_as_spam": false,
+                        "edge_liked_by": {
+                            "count": 5
+                        },
+                        "edge_threaded_comments": {
+                            "count": 0,
+                            "edges": [],
+                            "page_info": {
+                                "end_cursor": null,
+                                "has_next_page": false
+                            }
+                        },
+                        "id": "18265565098264055",
+                        "is_restricted_pending": false,
+                        "owner": {
+                            "id": "5439634802",
+                            "is_verified": false,
+                            "profile_pic_url": "https://scontent-msp1-1.cdninstagram.com/v/t51.2885-19/431835020_1583478005761450_9082383019826558325_n.jpg?stp=dst-jpg_s150x150_tt6&_nc_ht=scontent-msp1-1.cdninstagram.com&_nc_cat=110&_nc_oc=Q6cZ2AGg5RuOwK6834r4Wt8QhXb5x80Dmj5cF56BOt-vOEIp_FxVsz6lpM8mSrS32Kw2ymA&_nc_ohc=kjeBQthMEVwQ7kNvgFn4rRe&_nc_gid=406fd97fac8d4af991e53b8b61dbf7d8&edm=ANTKIIoBAAAA&ccb=7-5&oh=00_AYBUq5S7OK55V97JwtMwcklXxu-e6lf5Qa-Lu3fuy_nmjQ&oe=67B4D78C&_nc_sid=d885a2",
+                            "username": "poodlesandparis"
+                        },
+                        "text": "Merry Christmas Joe \ud83c\udf84 love from Australia \ud83e\udd98",
+                        "viewer_has_liked": false
+                    }
+                },
+                {
+                    "node": {
+                        "created_at": 1734902646,
+                        "did_report_as_spam": false,
+                        "edge_liked_by": {
+                            "count": 6
+                        },
+                        "edge_threaded_comments": {
+                            "count": 0,
+                            "edges": [],
+                            "page_info": {
+                                "end_cursor": null,
+                                "has_next_page": false
+                            }
+                        },
+                        "id": "18066103483692362",
+                        "is_restricted_pending": false,
+                        "owner": {
+                            "id": "64263362956",
+                            "is_verified": false,
+                            "profile_pic_url": "https://scontent-msp1-1.cdninstagram.com/v/t51.2885-19/420651491_2085285955158203_297725952922975507_n.jpg?stp=dst-jpg_s150x150_tt6&_nc_ht=scontent-msp1-1.cdninstagram.com&_nc_cat=111&_nc_oc=Q6cZ2AGg5RuOwK6834r4Wt8QhXb5x80Dmj5cF56BOt-vOEIp_FxVsz6lpM8mSrS32Kw2ymA&_nc_ohc=8d_5Zhqs46UQ7kNvgEQWsYW&_nc_gid=406fd97fac8d4af991e53b8b61dbf7d8&edm=ANTKIIoBAAAA&ccb=7-5&oh=00_AYCqIEZMnPgPEJETEWpsAK_RDJtTbeQvtxttYq5Ft-Jy9A&oe=67B4C95E&_nc_sid=d885a2",
+                            "username": "peac.hes2341"
+                        },
+                        "text": "\u2764\ufe0f",
+                        "viewer_has_liked": false
+                    }
+                }
+            ],
+            "page_info": {
+                "end_cursor": "{\"server_cursor\": \"QVFEMUJuemlfb3E3WndZbDc2a2RTY3RkUDRMTjFjZTNzQkRmX2VQdHF2RXZveW1MNE5tLURIVHNoamNmTlJyZDkzMDE0Qnd1OGEzNWZJUWVxZERlaDRVMw==\", \"is_server_cursor_inverse\": true}",
+                "has_next_page": true
+            }
+        },
+        "edge_media_to_sponsor_user": {
+            "edges": []
+        },
+        "edge_media_to_tagged_user": {
+            "edges": []
+        },
+        "edge_web_media_to_related_media": {
+            "edges": []
+        },
+        "encoding_status": null,
+        "fact_check_information": null,
+        "fact_check_overall_rating": null,
+        "gating_info": null,
+        "has_audio": true,
+        "has_ranked_comments": false,
+        "id": "3522380402587183502",
+        "is_ad": false,
+        "is_affiliate": false,
+        "is_paid_partnership": false,
+        "is_published": true,
+        "is_video": true,
+        "like_and_view_counts_disabled": false,
+        "location": null,
+        "media_overlay_info": null,
+        "media_preview": null,
+        "nft_asset_info": null,
+        "owner": {
+            "blocked_by_viewer": false,
+            "edge_followed_by": {
+                "count": 1338328
+            },
+            "edge_owner_to_timeline_media": {
+                "count": 689
+            },
+            "followed_by_viewer": false,
+            "full_name": "Joe Moody",
+            "has_blocked_viewer": false,
+            "id": "29842041507",
+            "is_embeds_disabled": false,
+            "is_private": false,
+            "is_unpublished": false,
+            "is_verified": true,
+            "pass_tiering_recommendation": true,
+            "profile_pic_url": "https://scontent-msp1-1.cdninstagram.com/v/t51.2885-19/321446337_141679571749881_4134968006531944381_n.jpg?stp=dst-jpg_s150x150_tt6&_nc_ht=scontent-msp1-1.cdninstagram.com&_nc_cat=109&_nc_oc=Q6cZ2AGg5RuOwK6834r4Wt8QhXb5x80Dmj5cF56BOt-vOEIp_FxVsz6lpM8mSrS32Kw2ymA&_nc_ohc=moCA_5K_XC0Q7kNvgHF4GkM&_nc_gid=406fd97fac8d4af991e53b8b61dbf7d8&edm=ANTKIIoBAAAA&ccb=7-5&oh=00_AYDSUDw1vgaeDyiDIHoAExSKgF44kmMCPjlPZXU7BBTlUw&oe=67B4DE50&_nc_sid=d885a2",
+            "requested_by_viewer": false,
+            "restricted_by_viewer": null,
+            "username": "joe_drummer_boy"
+        },
+        "pinned_for_users": [],
+        "product_type": "clips",
+        "sensitivity_friction_info": null,
+        "sharing_friction_info": {
+            "bloks_app_url": null,
+            "should_have_sharing_friction": false
+        },
+        "shortcode": "DDiAlBUAamO",
+        "taken_at_timestamp": 1734120520,
+        "thumbnail_src": "https://scontent-msp1-1.cdninstagram.com/v/t51.2885-15/469944804_18052158745993508_8145727835169828198_n.jpg?stp=c0.224.576.576a_dst-jpg_e15_tt6&_nc_ht=scontent-msp1-1.cdninstagram.com&_nc_cat=108&_nc_oc=Q6cZ2AGg5RuOwK6834r4Wt8QhXb5x80Dmj5cF56BOt-vOEIp_FxVsz6lpM8mSrS32Kw2ymA&_nc_ohc=5EblnIwZMKoQ7kNvgFoXcld&_nc_gid=406fd97fac8d4af991e53b8b61dbf7d8&edm=ANTKIIoBAAAA&ccb=7-5&oh=00_AYCbhOpZnfcZsCyLCHMpM6w4t1ZpPc705ccS4Jd0dzfyLQ&oe=67B4C8EF&_nc_sid=d885a2",
+        "title": "",
+        "tracking_token": "eyJ2ZXJzaW9uIjo1LCJwYXlsb2FkIjp7ImlzX2FuYWx5dGljc190cmFja2VkIjp0cnVlLCJ1dWlkIjoiNDA2ZmQ5N2ZhYzhkNGFmOTkxZTUzYjhiNjFkYmY3ZDgzNTIyMzgwNDAyNTg3MTgzNTAyIn0sInNpZ25hdHVyZSI6IiJ9",
+        "upcoming_event": null,
+        "video_duration": 116.465,
+        "video_play_count": 1434657,
+        "video_url": "https://scontent-msp1-1.cdninstagram.com/o1/v/t16/f2/m86/AQNFXH330vjbOuOGP5-Mts3CuiBx3XyzCPo9wUMNX0Hts_HOYSjz-svZ1szb8MtDlctfEaLnFsO9rLB8L816AHTSaYvSXTY4V84hVz0.mp4?stp=dst-mp4&efg=eyJxZV9ncm91cHMiOiJbXCJpZ193ZWJfZGVsaXZlcnlfdnRzX290ZlwiXSIsInZlbmNvZGVfdGFnIjoidnRzX3ZvZF91cmxnZW4uY2xpcHMuYzIuNTc2LmJhc2VsaW5lIn0&_nc_cat=109&vs=958028272887444_2408031880&_nc_vs=HBksFQIYUmlnX3hwdl9yZWVsc19wZXJtYW5lbnRfc3JfcHJvZC9EQTREMDdDQjU4ODNFNTAwNEVEOTEyMDE5OTg4M0Q5Ml92aWRlb19kYXNoaW5pdC5tcDQVAALIAQAVAhg6cGFzc3Rocm91Z2hfZXZlcnN0b3JlL0dIN0xCUnpfR2Rxb2h6RmpBQmJoSG5GZUNuTUNicV9FQUFBRhUCAsgBACgAGAAbABUAACbih7yDivuPQBUCKAJDMywXQF0dwo9cKPYYEmRhc2hfYmFzZWxpbmVfMV92MREAdf4HAA%3D%3D&ccb=9-4&oh=00_AYAO-GcQxhLB60raubXvaFVXYODUgNwkahSRjQNepXUK4g&oe=67B0FC0A&_nc_sid=d885a2",
+        "video_view_count": 803271,
+        "viewer_can_reshare": true,
+        "viewer_has_liked": false,
+        "viewer_has_saved": false,
+        "viewer_has_saved_to_collection": false,
+        "viewer_in_photo_of_you": false
+    }
+}

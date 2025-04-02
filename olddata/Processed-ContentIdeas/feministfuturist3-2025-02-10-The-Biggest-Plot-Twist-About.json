@@ -1,0 +1,1978 @@
+{
+    "instaloader": {
+        "node_type": "Post",
+        "version": "4.14.1"
+    },
+    "node": {
+        "__isXDTGraphMediaInterface": "XDTGraphVideo",
+        "__typename": "GraphVideo",
+        "accessibility_caption": null,
+        "can_see_insights_as_brand": false,
+        "caption_is_edited": false,
+        "clips_music_attribution_info": {
+            "artist_name": "feminist.futurist3",
+            "audio_id": "1310346546857055",
+            "should_mute_audio": false,
+            "should_mute_audio_reason": "",
+            "song_name": "Original audio",
+            "uses_original_audio": true
+        },
+        "coauthor_producers": [],
+        "commenting_disabled_for_viewer": false,
+        "comments_disabled": false,
+        "dash_info": {
+            "is_dash_eligible": true,
+            "number_of_qualities": 5,
+            "video_dash_manifest": "<?xml version=\"1.0\" encoding=\"UTF-8\"?>\n<MPD xmlns=\"urn:mpeg:dash:schema:mpd:2011\" xmlns:xsi=\"http://www.w3.org/2001/XMLSchema-instance\" xsi:schemaLocation=\"urn:mpeg:dash:schema:mpd:2011 DASH-MPD.xsd\" profiles=\"urn:mpeg:dash:profile:isoff-on-demand:2011\" minBufferTime=\"PT2S\" type=\"static\" mediaPresentationDuration=\"PT56.366665S\" FBManifestIdentifier=\"FgAYEnIyZXZldnA5LXIxZ2VuMnZwORlmpu/LhqyoxwPCm5yzq+aEBNaFkcfi2pEE3qabxvrAuwSkmrOc+LXLBYLx2uX+haIOIhgYZGFzaF9sbl9oZWFhY192YnIzX2F1ZGlvAA==\"><Period id=\"0\" duration=\"PT56.366665S\"><AdaptationSet id=\"0\" contentType=\"video\" subsegmentAlignment=\"true\" par=\"9:16\" FBUnifiedUploadResolutionMos=\"360:69.8\"><Representation id=\"1256758238734767vd\" bandwidth=\"89128\" codecs=\"vp09.00.31.08.00.01.01.01.00\" mimeType=\"video/mp4\" sar=\"1:1\" FBEncodingTag=\"dash_r2evevp9-r1gen2vp9_q50\" FBContentLength=\"627988\" FBPlaybackResolutionMos=\"0:100,360:49.3,480:47.4,720:48.1\" FBPlaybackResolutionMosConfidenceLevel=\"high\" FBPlaybackResolutionCsvqm=\"0:100,360:73,480:65.1,720:53.6\" FBAbrPolicyTags=\"\" width=\"720\" height=\"1280\" frameRate=\"15360/512\" FBDefaultQuality=\"1\" FBQualityClass=\"hd\" FBQualityLabel=\"360p\"><BaseURL>https://scontent-msp1-1.cdninstagram.com/o1/v/t2/f2/m367/AQOo32ZikXPWF1-Os3CcqxO94h1xh5QRFFxUe5zo16F2Teojf18LHtDnz8GoQ6xwpzkcXHY6DzXf2ywU9JOURTRj8ryi91yTz1CqHv4.mp4?_nc_cat=104&amp;_nc_sid=9ca052&amp;_nc_ht=scontent-msp1-1.cdninstagram.com&amp;_nc_ohc=3ReRdU4sCy4Q7kNvgGuGkiM&amp;efg=eyJ2ZW5jb2RlX3RhZyI6ImlnLXhwdmRzLmNsaXBzLmMyLUMzLmRhc2hfcjJldmV2cDktcjFnZW4ydnA5X3E1MCIsInZpZGVvX2lkIjpudWxsLCJjbGllbnRfbmFtZSI6ImlnIiwib2lsX3VybGdlbl9hcHBfaWQiOi0xLCJ1cmxnZW5fc291cmNlIjoid3d3In0%3D&amp;ccb=17-1&amp;_nc_zt=28&amp;oh=00_AYDP7qdf5oTSakzp43MkbkKWxW_q5PsDYM-jPAxuFtolkw&amp;oe=67C3FEA5</BaseURL><SegmentBase indexRange=\"818-993\" timescale=\"15360\" FBMinimumPrefetchRange=\"994-8725\" FBFirstSegmentRange=\"994-39205\" FBFirstSegmentDuration=\"5000\" FBSecondSegmentRange=\"39206-96106\" FBPrefetchSegmentRange=\"994-39205\" FBPrefetchSegmentDuration=\"5000\"><Initialization range=\"0-817\"/></SegmentBase></Representation><Representation id=\"1136454171592417v\" bandwidth=\"185147\" codecs=\"vp09.00.31.08.00.01.01.01.00\" mimeType=\"video/mp4\" sar=\"1:1\" FBEncodingTag=\"dash_r2evevp9-r1gen2vp9_q60\" FBContentLength=\"1304518\" FBPlaybackResolutionMos=\"0:100,360:64.9,480:62.5,720:61.8\" FBPlaybackResolutionMosConfidenceLevel=\"high\" FBPlaybackResolutionCsvqm=\"0:100,360:85.3,480:79.8,720:70.4\" FBAbrPolicyTags=\"\" width=\"720\" height=\"1280\" frameRate=\"15360/512\" FBQualityClass=\"hd\" FBQualityLabel=\"480p\"><BaseURL>https://scontent-msp1-1.cdninstagram.com/o1/v/t2/f2/m367/AQOf_2jbTAZNsz9ulVkO018inXtZjdcJ4KpHJVY1Hf5cj0Il6OhSTQLPcmR0MrIXRu4JRT5WNvMffFRKfrcBro1bD5fbg5bFy4Uw8p4.mp4?_nc_cat=109&amp;_nc_sid=9ca052&amp;_nc_ht=scontent-msp1-1.cdninstagram.com&amp;_nc_ohc=zvJsopnLGoQQ7kNvgECH6BH&amp;efg=eyJ2ZW5jb2RlX3RhZyI6ImlnLXhwdmRzLmNsaXBzLmMyLUMzLmRhc2hfcjJldmV2cDktcjFnZW4ydnA5X3E2MCIsInZpZGVvX2lkIjpudWxsLCJjbGllbnRfbmFtZSI6ImlnIiwib2lsX3VybGdlbl9hcHBfaWQiOi0xLCJ1cmxnZW5fc291cmNlIjoid3d3In0%3D&amp;ccb=17-1&amp;_nc_zt=28&amp;oh=00_AYCqb9XCSphEwbeABKJ-DWJneagCtq1Dv_WUf2Gv2ZSyXw&amp;oe=67C40B16</BaseURL><SegmentBase indexRange=\"818-993\" timescale=\"15360\" FBMinimumPrefetchRange=\"994-12835\" FBFirstSegmentRange=\"994-83588\" FBFirstSegmentDuration=\"5000\" FBSecondSegmentRange=\"83589-204350\" FBPrefetchSegmentRange=\"994-83588\" FBPrefetchSegmentDuration=\"5000\"><Initialization range=\"0-817\"/></SegmentBase></Representation><Representation id=\"4015519382068289v\" bandwidth=\"286217\" codecs=\"vp09.00.31.08.00.01.01.01.00\" mimeType=\"video/mp4\" sar=\"1:1\" FBEncodingTag=\"dash_r2evevp9-r1gen2vp9_q70\" FBContentLength=\"2016643\" FBPlaybackResolutionMos=\"0:100,360:72,480:69.8,720:68.5\" FBPlaybackResolutionMosConfidenceLevel=\"high\" FBPlaybackResolutionCsvqm=\"0:100,360:89.7,480:85.5,720:77.8\" FBAbrPolicyTags=\"\" width=\"720\" height=\"1280\" frameRate=\"15360/512\" FBQualityClass=\"hd\" FBQualityLabel=\"540p\"><BaseURL>https://scontent-msp1-1.cdninstagram.com/o1/v/t2/f2/m367/AQNfNtFNRVPjpVx9DgEZj4NSsKwBUS7k8W9QOQzaU-FDwWobDIIJ9PTManwSHh9lRrihFuGbia9xymBvJXByJmso7lhCjyWFmd70KVQ.mp4?_nc_cat=103&amp;_nc_sid=9ca052&amp;_nc_ht=scontent-msp1-1.cdninstagram.com&amp;_nc_ohc=zXAJ8GiCJ-4Q7kNvgHfH_2_&amp;efg=eyJ2ZW5jb2RlX3RhZyI6ImlnLXhwdmRzLmNsaXBzLmMyLUMzLmRhc2hfcjJldmV2cDktcjFnZW4ydnA5X3E3MCIsInZpZGVvX2lkIjpudWxsLCJjbGllbnRfbmFtZSI6ImlnIiwib2lsX3VybGdlbl9hcHBfaWQiOi0xLCJ1cmxnZW5fc291cmNlIjoid3d3In0%3D&amp;ccb=17-1&amp;_nc_zt=28&amp;oh=00_AYDhMgpa_7xMRzlksF0fbo5N7K3TtXi7Wly6G5z5HBYIaQ&amp;oe=67C3E63C</BaseURL><SegmentBase indexRange=\"818-993\" timescale=\"15360\" FBMinimumPrefetchRange=\"994-15940\" FBFirstSegmentRange=\"994-133583\" FBFirstSegmentDuration=\"5000\" FBSecondSegmentRange=\"133584-320233\" FBPrefetchSegmentRange=\"994-133583\" FBPrefetchSegmentDuration=\"5000\"><Initialization range=\"0-817\"/></SegmentBase></Representation><Representation id=\"1001248688536531v\" bandwidth=\"421071\" codecs=\"vp09.00.31.08.00.01.01.01.00\" mimeType=\"video/mp4\" sar=\"1:1\" FBEncodingTag=\"dash_r2evevp9-r1gen2vp9_q80\" FBContentLength=\"2966803\" FBPlaybackResolutionMos=\"0:100,360:76,480:73.8,720:72.4\" FBPlaybackResolutionMosConfidenceLevel=\"high\" FBPlaybackResolutionCsvqm=\"0:100,360:92.4,480:89.1,720:82.3\" FBAbrPolicyTags=\"\" width=\"720\" height=\"1280\" frameRate=\"15360/512\" FBQualityClass=\"hd\" FBQualityLabel=\"640p\"><BaseURL>https://scontent-msp1-1.cdninstagram.com/o1/v/t2/f2/m367/AQPZbaSouDTtceaZEHrtXV-gyg8SxlC93O5GrWEDGlfjKnip814_dawhk6_0rKL7-38wkVRKHLXCeohbqZWEHiXgHrBDK6t5OA7hoQU.mp4?_nc_cat=100&amp;_nc_sid=9ca052&amp;_nc_ht=scontent-msp1-1.cdninstagram.com&amp;_nc_ohc=Kcbd4O1lo9kQ7kNvgExUbAo&amp;efg=eyJ2ZW5jb2RlX3RhZyI6ImlnLXhwdmRzLmNsaXBzLmMyLUMzLmRhc2hfcjJldmV2cDktcjFnZW4ydnA5X3E4MCIsInZpZGVvX2lkIjpudWxsLCJjbGllbnRfbmFtZSI6ImlnIiwib2lsX3VybGdlbl9hcHBfaWQiOi0xLCJ1cmxnZW5fc291cmNlIjoid3d3In0%3D&amp;ccb=17-1&amp;_nc_zt=28&amp;oh=00_AYC17UE7bAdebYxRcAwqHkUrOzgLTiJ58qSdbh2pJLLadA&amp;oe=67C3F4CD</BaseURL><SegmentBase indexRange=\"818-993\" timescale=\"15360\" FBMinimumPrefetchRange=\"994-19068\" FBFirstSegmentRange=\"994-203368\" FBFirstSegmentDuration=\"5000\" FBSecondSegmentRange=\"203369-473895\" FBPrefetchSegmentRange=\"994-203368\" FBPrefetchSegmentDuration=\"5000\"><Initialization range=\"0-817\"/></SegmentBase></Representation><Representation id=\"1573228296693394v\" bandwidth=\"568429\" codecs=\"vp09.00.31.08.00.01.01.01.00\" mimeType=\"video/mp4\" sar=\"1:1\" FBEncodingTag=\"dash_r2evevp9-r1gen2vp9_q90\" FBContentLength=\"4005058\" FBPlaybackResolutionMos=\"0:100,360:78.2,480:76.1,720:74.7\" FBPlaybackResolutionMosConfidenceLevel=\"high\" FBPlaybackResolutionCsvqm=\"0:100,360:94.8,480:92.2,720:86.8\" FBAbrPolicyTags=\"\" width=\"720\" height=\"1280\" frameRate=\"15360/512\" FBQualityClass=\"hd\" FBQualityLabel=\"720p\"><BaseURL>https://scontent-msp1-1.cdninstagram.com/o1/v/t2/f2/m367/AQNLpujSGBUo9XDqO2YWzffS_MdfK_ePP9SACtEWzNU3f2x9iifT8R9TA_R4T9CctXViwIm29QhC7h_AKbFUM5M-HoMrgp324UnSB7M.mp4?_nc_cat=100&amp;_nc_sid=9ca052&amp;_nc_ht=scontent-msp1-1.cdninstagram.com&amp;_nc_ohc=wcH8EP2xs3kQ7kNvgF0aNDp&amp;efg=eyJ2ZW5jb2RlX3RhZyI6ImlnLXhwdmRzLmNsaXBzLmMyLUMzLmRhc2hfcjJldmV2cDktcjFnZW4ydnA5X3E5MCIsInZpZGVvX2lkIjpudWxsLCJjbGllbnRfbmFtZSI6ImlnIiwib2lsX3VybGdlbl9hcHBfaWQiOi0xLCJ1cmxnZW5fc291cmNlIjoid3d3In0%3D&amp;ccb=17-1&amp;_nc_zt=28&amp;oh=00_AYCW65eCj2Xvtg-v61iZotaFfIw3RNGapf9uAr9UAAdofA&amp;oe=67C403FD</BaseURL><SegmentBase indexRange=\"818-993\" timescale=\"15360\" FBMinimumPrefetchRange=\"994-21716\" FBFirstSegmentRange=\"994-283846\" FBFirstSegmentDuration=\"5000\" FBSecondSegmentRange=\"283847-656044\" FBPrefetchSegmentRange=\"994-283846\" FBPrefetchSegmentDuration=\"5000\"><Initialization range=\"0-817\"/></SegmentBase></Representation></AdaptationSet><AdaptationSet id=\"1\" contentType=\"audio\" subsegmentStartsWithSAP=\"1\" subsegmentAlignment=\"true\"><Representation id=\"1164842718339435ad\" bandwidth=\"58539\" codecs=\"mp4a.40.5\" mimeType=\"audio/mp4\" FBAvgBitrate=\"58539\" audioSamplingRate=\"44100\" FBEncodingTag=\"dash_ln_heaac_vbr3_audio\" FBContentLength=\"413561\" FBPaqMos=\"87.80\" FBAbrPolicyTags=\"\" FBDefaultQuality=\"1\"><AudioChannelConfiguration schemeIdUri=\"urn:mpeg:dash:23003:3:audio_channel_configuration:2011\" value=\"2\"/><BaseURL>https://scontent-msp1-1.cdninstagram.com/o1/v/t16/f2/m69/AQNrMrn6Codp7mQzaQ6UZiReR0xK865ZcGWloA9ZM3wTl-3NjSwNmhyafNy_tUpnRHK9DZSPOmE6dmzbDhaexoam.mp4?strext=1&amp;_nc_cat=103&amp;_nc_sid=9ca052&amp;_nc_ht=scontent-msp1-1.cdninstagram.com&amp;_nc_ohc=Js-o8WEk_A4Q7kNvgHR65t7&amp;efg=eyJ2ZW5jb2RlX3RhZyI6ImlnLXhwdmRzLmNsaXBzLmMyLUMzLmRhc2hfbG5faGVhYWNfdmJyM19hdWRpbyIsInZpZGVvX2lkIjpudWxsLCJjbGllbnRfbmFtZSI6ImlnIiwib2lsX3VybGdlbl9hcHBfaWQiOi0xLCJ1cmxnZW5fc291cmNlIjoid3d3In0%3D&amp;ccb=17-1&amp;_nc_zt=28&amp;oh=00_AYCkBNRPkvIclmYiuryxzaNsezNoEl9dEODCbX-qUO7WjA&amp;oe=67C406D1</BaseURL><SegmentBase indexRange=\"824-1203\" timescale=\"44100\" FBMinimumPrefetchRange=\"1204-1547\" FBFirstSegmentRange=\"1204-16267\" FBFirstSegmentDuration=\"2021\" FBSecondSegmentRange=\"16268-30718\" FBPrefetchSegmentRange=\"1204-30718\" FBPrefetchSegmentDuration=\"4017\"><Initialization range=\"0-823\"/></SegmentBase></Representation></AdaptationSet></Period></MPD>\n"
+        },
+        "dimensions": {
+            "height": 1333,
+            "width": 750
+        },
+        "display_resources": [
+            {
+                "config_height": 1137,
+                "config_width": 640,
+                "src": "https://scontent-msp1-1.cdninstagram.com/v/t51.2885-15/476778277_17892377946174590_5240667574788960918_n.jpg?stp=dst-jpg_e15_p640x640_tt6&_nc_ht=scontent-msp1-1.cdninstagram.com&_nc_cat=1&_nc_oc=Q6cZ2AGEJokpbxevQbOuShuZ2yDPz_2yuNpBoiswaS1ZCZLn771gxwxus5umaK1-caoICQw&_nc_ohc=8IEFKf_JfRIQ7kNvgGxS8xa&_nc_gid=d7abdc2d03804cf485e9c6883a504455&edm=ANTKIIoBAAAA&ccb=7-5&oh=00_AYD2EvQA7J_j_DXfDtiZl30mOfjjBJP1aV1nL4Ym2Q9CAg&oe=67C3E5AE&_nc_sid=d885a2"
+            },
+            {
+                "config_height": 1333,
+                "config_width": 750,
+                "src": "https://scontent-msp1-1.cdninstagram.com/v/t51.2885-15/476778277_17892377946174590_5240667574788960918_n.jpg?stp=dst-jpg_e15_tt6&_nc_ht=scontent-msp1-1.cdninstagram.com&_nc_cat=1&_nc_oc=Q6cZ2AGEJokpbxevQbOuShuZ2yDPz_2yuNpBoiswaS1ZCZLn771gxwxus5umaK1-caoICQw&_nc_ohc=8IEFKf_JfRIQ7kNvgGxS8xa&_nc_gid=d7abdc2d03804cf485e9c6883a504455&edm=ANTKIIoBAAAA&ccb=7-5&oh=00_AYCe3KD05PZfcaXuxKbIBWVHWHXfJBxmi8CfONqdmSGR0w&oe=67C3E5AE&_nc_sid=d885a2"
+            },
+            {
+                "config_height": 1920,
+                "config_width": 1080,
+                "src": "https://scontent-msp1-1.cdninstagram.com/v/t51.2885-15/476778277_17892377946174590_5240667574788960918_n.jpg?stp=dst-jpg_e15_tt6&_nc_ht=scontent-msp1-1.cdninstagram.com&_nc_cat=1&_nc_oc=Q6cZ2AGEJokpbxevQbOuShuZ2yDPz_2yuNpBoiswaS1ZCZLn771gxwxus5umaK1-caoICQw&_nc_ohc=8IEFKf_JfRIQ7kNvgGxS8xa&_nc_gid=d7abdc2d03804cf485e9c6883a504455&edm=ANTKIIoBAAAA&ccb=7-5&oh=00_AYCe3KD05PZfcaXuxKbIBWVHWHXfJBxmi8CfONqdmSGR0w&oe=67C3E5AE&_nc_sid=d885a2"
+            }
+        ],
+        "display_url": "https://scontent-msp1-1.cdninstagram.com/v/t51.2885-15/476778277_17892377946174590_5240667574788960918_n.jpg?stp=dst-jpg_e15_tt6&_nc_ht=scontent-msp1-1.cdninstagram.com&_nc_cat=1&_nc_oc=Q6cZ2AGEJokpbxevQbOuShuZ2yDPz_2yuNpBoiswaS1ZCZLn771gxwxus5umaK1-caoICQw&_nc_ohc=8IEFKf_JfRIQ7kNvgGxS8xa&_nc_gid=d7abdc2d03804cf485e9c6883a504455&edm=ANTKIIoBAAAA&ccb=7-5&oh=00_AYCe3KD05PZfcaXuxKbIBWVHWHXfJBxmi8CfONqdmSGR0w&oe=67C3E5AE&_nc_sid=d885a2",
+        "edge_media_preview_comment": {
+            "count": 1310,
+            "edges": [
+                {
+                    "node": {
+                        "created_at": 1740507388,
+                        "did_report_as_spam": false,
+                        "edge_liked_by": {
+                            "count": 0
+                        },
+                        "id": "18023985761653569",
+                        "is_restricted_pending": false,
+                        "owner": {
+                            "id": "14450499",
+                            "is_verified": false,
+                            "profile_pic_url": "https://scontent-msp1-1.cdninstagram.com/v/t51.2885-19/340497932_241797111713627_1861920615580769553_n.jpg?stp=dst-jpg_s150x150_tt6&_nc_ht=scontent-msp1-1.cdninstagram.com&_nc_cat=111&_nc_oc=Q6cZ2AGEJokpbxevQbOuShuZ2yDPz_2yuNpBoiswaS1ZCZLn771gxwxus5umaK1-caoICQw&_nc_ohc=Wk9x1pc1jikQ7kNvgEe0jq_&_nc_gid=d7abdc2d03804cf485e9c6883a504455&edm=ANTKIIoBAAAA&ccb=7-5&oh=00_AYCZdyXh_Zu4jGdrXm6QEcPy65x_cQ3MVulZke8g5tEk7w&oe=67C40D80&_nc_sid=d885a2",
+                            "username": "amyfordcarbone"
+                        },
+                        "text": "The internet made me realize me don\u2019t like women. Their comments on women\u2019s pages are wild!! They hate us!!",
+                        "viewer_has_liked": false
+                    }
+                },
+                {
+                    "node": {
+                        "created_at": 1740508810,
+                        "did_report_as_spam": false,
+                        "edge_liked_by": {
+                            "count": 0
+                        },
+                        "id": "18000938018737738",
+                        "is_restricted_pending": false,
+                        "owner": {
+                            "id": "612685089",
+                            "is_verified": false,
+                            "profile_pic_url": "https://scontent-msp1-1.cdninstagram.com/v/t51.2885-19/475072668_2423124551397805_8303078308761891540_n.jpg?stp=dst-jpg_s150x150_tt6&_nc_ht=scontent-msp1-1.cdninstagram.com&_nc_cat=101&_nc_oc=Q6cZ2AGEJokpbxevQbOuShuZ2yDPz_2yuNpBoiswaS1ZCZLn771gxwxus5umaK1-caoICQw&_nc_ohc=bqroZifHhVkQ7kNvgFVGGqN&_nc_gid=d7abdc2d03804cf485e9c6883a504455&edm=ANTKIIoBAAAA&ccb=7-5&oh=00_AYCGB1COb9-WWGl0IFDbfEZoF-UZzDwkp5yxY9l4XS7H4A&oe=67C3DFF8&_nc_sid=d885a2",
+                            "username": "yourfreespirit"
+                        },
+                        "text": "@shrinkiesxwife yes. \ud83d\udcaf",
+                        "viewer_has_liked": false
+                    }
+                }
+            ]
+        },
+        "edge_media_preview_like": {
+            "count": 54977,
+            "edges": [
+                {
+                    "node": {
+                        "id": "541852756",
+                        "is_verified": true,
+                        "profile_pic_url": "https://scontent-msp1-1.cdninstagram.com/v/t51.2885-19/339515177_1299180744343936_6677042087165872451_n.jpg?stp=dst-jpg_s150x150_tt6&_nc_ht=scontent-msp1-1.cdninstagram.com&_nc_cat=1&_nc_oc=Q6cZ2AGEJokpbxevQbOuShuZ2yDPz_2yuNpBoiswaS1ZCZLn771gxwxus5umaK1-caoICQw&_nc_ohc=2PAKRnqXUtcQ7kNvgHqRDWC&_nc_gid=d7abdc2d03804cf485e9c6883a504455&edm=ANTKIIoBAAAA&ccb=7-5&oh=00_AYC5yVVCOLQdgwU9wR1Nn5be1CMFDRtdlhSAyPrAv0faCg&oe=67C3EA6C&_nc_sid=d885a2",
+                        "username": "piper_cj"
+                    }
+                }
+            ]
+        },
+        "edge_media_to_caption": {
+            "edges": [
+                {
+                    "node": {
+                        "created_at": "1739198788",
+                        "id": "18464186809066582",
+                        "text": "The Biggest Plot Twist About Men No One Talks About\u2026 \ud83e\udd2f\n\nEver wondered why some men seem to want women but don\u2019t actually like them? Turns out, the way boys are raised plays a huge role. Society doesn\u2019t teach them how to be men, it just teaches them not to be like women. \ud83d\udca1\n\n\u274c \"Don't cry, be a man.\"\n\u274c \"Don't be weak, be a man.\"\n\u274c \"Don't like that, it's for girls.\"\n\nAnd the weapon of choice? Shame.\nThey\u2019re taught that being feminine is the worst thing ever. But at the same time, their status is measured by their ability to attract women. See the contradiction? \ud83e\uddd0\n\nNo wonder so many women feel unseen, unheard, and undervalued. Maybe it's time to start asking: Do they truly like women, or just what women can do for them?\n\nLet\u2019s talk. \ud83d\udc47\u2728\n\nSource - domesticblisters\n\n#Feminism #Patriarchy #ToxicMasculinity #MenAndWomen #GenderRoles #MaleSocialization #FemininePower #MasculinityCrisis #BreakingStereotypes #GenderNorms #SocialConditioning #RethinkMasculinity #TorontoRealEstate #GTARealEstate #TorontoHomes #RealEstateToronto #TorontoRealtor #GTABuyers #TorontoHomeBuyers #LuxuryHomesToronto #HomesForSaleToronto #InvestInToronto #RealEstateMarket #MenSupportingWomen #ModernMasculinity #FeminismForAll #UnlearnMisogyny #WomenEmpowerment #TimeForChange"
+                    }
+                }
+            ]
+        },
+        "edge_media_to_hoisted_comment": {
+            "edges": []
+        },
+        "edge_media_to_parent_comment": {
+            "count": 1310,
+            "edges": [
+                {
+                    "node": {
+                        "created_at": 1739425797,
+                        "did_report_as_spam": false,
+                        "edge_liked_by": {
+                            "count": 173
+                        },
+                        "edge_threaded_comments": {
+                            "count": 15,
+                            "edges": [
+                                {
+                                    "node": {
+                                        "created_at": 1740159960,
+                                        "did_report_as_spam": false,
+                                        "edge_liked_by": {
+                                            "count": 0
+                                        },
+                                        "id": "17961002330863373",
+                                        "is_restricted_pending": false,
+                                        "owner": {
+                                            "id": "56454015674",
+                                            "is_verified": false,
+                                            "profile_pic_url": "https://scontent-msp1-1.cdninstagram.com/v/t51.2885-19/476360079_1173953730832803_2293103835019669068_n.jpg?stp=dst-jpg_s150x150_tt6&_nc_ht=scontent-msp1-1.cdninstagram.com&_nc_cat=103&_nc_oc=Q6cZ2AGEJokpbxevQbOuShuZ2yDPz_2yuNpBoiswaS1ZCZLn771gxwxus5umaK1-caoICQw&_nc_ohc=z_mUpGJlBW8Q7kNvgH7jl41&_nc_gid=d7abdc2d03804cf485e9c6883a504455&edm=ANTKIIoBAAAA&ccb=7-5&oh=00_AYBTDZykigfw8NscRLw1-9GjyjFputvvopu5lV43ZXscUg&oe=67C406F6&_nc_sid=d885a2",
+                                            "username": "ty_play.dirty"
+                                        },
+                                        "text": "@thabo_kcreamio where do we get that from?? Mmm ok.",
+                                        "viewer_has_liked": false
+                                    }
+                                },
+                                {
+                                    "node": {
+                                        "created_at": 1740345400,
+                                        "did_report_as_spam": false,
+                                        "edge_liked_by": {
+                                            "count": 0
+                                        },
+                                        "id": "17884612296228742",
+                                        "is_restricted_pending": false,
+                                        "owner": {
+                                            "id": "54988057645",
+                                            "is_verified": false,
+                                            "profile_pic_url": "https://scontent-msp1-1.cdninstagram.com/v/t51.2885-19/298533316_1259367268202104_252835001010532104_n.jpg?stp=dst-jpg_s150x150_tt6&_nc_ht=scontent-msp1-1.cdninstagram.com&_nc_cat=104&_nc_oc=Q6cZ2AGEJokpbxevQbOuShuZ2yDPz_2yuNpBoiswaS1ZCZLn771gxwxus5umaK1-caoICQw&_nc_ohc=ih-WZzFS6qoQ7kNvgGT0Lnc&_nc_gid=d7abdc2d03804cf485e9c6883a504455&edm=ANTKIIoBAAAA&ccb=7-5&oh=00_AYAGz9dD0SEL23XczBfdAw4UB_Qz-5lMQTGUMm9_08PrVA&oe=67C406D8&_nc_sid=d885a2",
+                                            "username": "evidence.locker"
+                                        },
+                                        "text": "@thabo_kcreamio Again, societal grooming because of men.",
+                                        "viewer_has_liked": false
+                                    }
+                                },
+                                {
+                                    "node": {
+                                        "created_at": 1740349866,
+                                        "did_report_as_spam": false,
+                                        "edge_liked_by": {
+                                            "count": 0
+                                        },
+                                        "id": "17933785472884109",
+                                        "is_restricted_pending": false,
+                                        "owner": {
+                                            "id": "71535904409",
+                                            "is_verified": false,
+                                            "profile_pic_url": "https://scontent-msp1-1.cdninstagram.com/v/t51.2885-19/476897342_9120153658075378_2479588451071269303_n.jpg?stp=dst-jpg_s150x150_tt6&_nc_ht=scontent-msp1-1.cdninstagram.com&_nc_cat=110&_nc_oc=Q6cZ2AGEJokpbxevQbOuShuZ2yDPz_2yuNpBoiswaS1ZCZLn771gxwxus5umaK1-caoICQw&_nc_ohc=G-gr6_av66AQ7kNvgHe8-Hu&_nc_gid=d7abdc2d03804cf485e9c6883a504455&edm=ANTKIIoBAAAA&ccb=7-5&oh=00_AYCWn0enAmEHWpVb7zawHtONMb5CJ7bl9_x_rfnuAGA6Tg&oe=67C3E16D&_nc_sid=d885a2",
+                                            "username": "h.t.a44"
+                                        },
+                                        "text": "@thabo_kcreamio dude just listen",
+                                        "viewer_has_liked": false
+                                    }
+                                }
+                            ],
+                            "page_info": {
+                                "end_cursor": "QVFCWGl4TmtFYjE3bFY0bVh1RkU1Yzh4NVZuRDEzR01XbWJBcmJ1aGxSZUxFZzNmUlhoVk5fQlJpZWx0MzFCUVF2OHFZOFd4eklfVW8tNGFmZTlublZpZQ==",
+                                "has_next_page": true
+                            }
+                        },
+                        "id": "18170549266318108",
+                        "is_restricted_pending": false,
+                        "owner": {
+                            "id": "2261706520",
+                            "is_verified": false,
+                            "profile_pic_url": "https://scontent-msp1-1.cdninstagram.com/v/t51.2885-19/471962209_1777598539730874_2808309540351035714_n.jpg?stp=dst-jpg_s150x150_tt6&_nc_ht=scontent-msp1-1.cdninstagram.com&_nc_cat=1&_nc_oc=Q6cZ2AGEJokpbxevQbOuShuZ2yDPz_2yuNpBoiswaS1ZCZLn771gxwxus5umaK1-caoICQw&_nc_ohc=ZT4xjFT0omwQ7kNvgEXKfrE&_nc_gid=d7abdc2d03804cf485e9c6883a504455&edm=ANTKIIoBAAAA&ccb=7-5&oh=00_AYCZbwwu8884B4GOKChEuXYDJb3R7smtXwBFa7cGNYXnow&oe=67C3E8BC&_nc_sid=d885a2",
+                            "username": "thabo_kcreamio"
+                        },
+                        "text": "A woman insults you by shaming you as a gay or girlie... So we not here pointing fingers\ud83d\ude02",
+                        "viewer_has_liked": false
+                    }
+                },
+                {
+                    "node": {
+                        "created_at": 1740071923,
+                        "did_report_as_spam": false,
+                        "edge_liked_by": {
+                            "count": 3
+                        },
+                        "edge_threaded_comments": {
+                            "count": 0,
+                            "edges": [],
+                            "page_info": {
+                                "end_cursor": null,
+                                "has_next_page": false
+                            }
+                        },
+                        "id": "18488777803024646",
+                        "is_restricted_pending": false,
+                        "owner": {
+                            "id": "1724051587",
+                            "is_verified": false,
+                            "profile_pic_url": "https://scontent-msp1-1.cdninstagram.com/v/t51.2885-19/161751584_484852622669851_102322960877093364_n.jpg?stp=dst-jpg_s150x150_tt6&_nc_ht=scontent-msp1-1.cdninstagram.com&_nc_cat=107&_nc_oc=Q6cZ2AGEJokpbxevQbOuShuZ2yDPz_2yuNpBoiswaS1ZCZLn771gxwxus5umaK1-caoICQw&_nc_ohc=klxx33cTAcwQ7kNvgF8jgq0&_nc_gid=d7abdc2d03804cf485e9c6883a504455&edm=ANTKIIoBAAAA&ccb=7-5&oh=00_AYCDfqbgLuRlqgH4Fq4QkffqG0jrzdjc3yOaCW-l2sm8CA&oe=67C3E282&_nc_sid=d885a2",
+                            "username": "lotus_no_flowerbomb_"
+                        },
+                        "text": "So men in this comment section listened to this and said 'yeah but girls don't like each other either'. There are no real men left! We are doomed!! Maybe if a man had said it they would have listened.......\ud83d\ude22",
+                        "viewer_has_liked": false
+                    }
+                },
+                {
+                    "node": {
+                        "created_at": 1739305619,
+                        "did_report_as_spam": false,
+                        "edge_liked_by": {
+                            "count": 3216
+                        },
+                        "edge_threaded_comments": {
+                            "count": 13,
+                            "edges": [
+                                {
+                                    "node": {
+                                        "created_at": 1739940615,
+                                        "did_report_as_spam": false,
+                                        "edge_liked_by": {
+                                            "count": 1
+                                        },
+                                        "id": "18068621047678122",
+                                        "is_restricted_pending": false,
+                                        "owner": {
+                                            "id": "49417554131",
+                                            "is_verified": false,
+                                            "profile_pic_url": "https://scontent-msp1-1.cdninstagram.com/v/t51.2885-19/479741499_1182684490036001_6481980293721141272_n.jpg?stp=dst-jpg_s150x150_tt6&_nc_ht=scontent-msp1-1.cdninstagram.com&_nc_cat=105&_nc_oc=Q6cZ2AGEJokpbxevQbOuShuZ2yDPz_2yuNpBoiswaS1ZCZLn771gxwxus5umaK1-caoICQw&_nc_ohc=VuEqfsGJbjUQ7kNvgF_TopW&_nc_gid=d7abdc2d03804cf485e9c6883a504455&edm=ANTKIIoBAAAA&ccb=7-5&oh=00_AYAlx3gyqRw1ZqilqXMCWUQp8IYinDBrbALP1Dr0ZJLWrQ&oe=67C3EC41&_nc_sid=d885a2",
+                                            "username": "jaidynmessick"
+                                        },
+                                        "text": "@kalistablair you're raising a new breed of young men, thank you\ud83d\ude4f\ud83c\udffc",
+                                        "viewer_has_liked": false
+                                    }
+                                },
+                                {
+                                    "node": {
+                                        "created_at": 1739941635,
+                                        "did_report_as_spam": false,
+                                        "edge_liked_by": {
+                                            "count": 1
+                                        },
+                                        "id": "17896094757114873",
+                                        "is_restricted_pending": false,
+                                        "owner": {
+                                            "id": "19191505",
+                                            "is_verified": false,
+                                            "profile_pic_url": "https://scontent-msp1-1.cdninstagram.com/v/t51.2885-19/472947928_578012428533211_226879910528260831_n.jpg?stp=dst-jpg_s150x150_tt6&_nc_ht=scontent-msp1-1.cdninstagram.com&_nc_cat=1&_nc_oc=Q6cZ2AGEJokpbxevQbOuShuZ2yDPz_2yuNpBoiswaS1ZCZLn771gxwxus5umaK1-caoICQw&_nc_ohc=fjLRumdCHsQQ7kNvgHqYmfC&_nc_gid=d7abdc2d03804cf485e9c6883a504455&edm=ANTKIIoBAAAA&ccb=7-5&oh=00_AYAcE2L0d1cuqX-3pHjwCFgpU_etrI8t9LKzo57Fx3Adrg&oe=67C41026&_nc_sid=d885a2",
+                                            "username": "ckdolley"
+                                        },
+                                        "text": "@kalistablair you should be proud \ud83e\udd79 smart boy. We can help stop the cycle of shaming boys for simply being a human with a full range of feelings.",
+                                        "viewer_has_liked": false
+                                    }
+                                },
+                                {
+                                    "node": {
+                                        "created_at": 1740375780,
+                                        "did_report_as_spam": false,
+                                        "edge_liked_by": {
+                                            "count": 1
+                                        },
+                                        "id": "17847747597413262",
+                                        "is_restricted_pending": false,
+                                        "owner": {
+                                            "id": "1426587894",
+                                            "is_verified": false,
+                                            "profile_pic_url": "https://scontent-msp1-1.cdninstagram.com/v/t51.2885-19/434897873_386784657562469_4147179936775385180_n.jpg?stp=dst-jpg_s150x150_tt6&_nc_ht=scontent-msp1-1.cdninstagram.com&_nc_cat=105&_nc_oc=Q6cZ2AGEJokpbxevQbOuShuZ2yDPz_2yuNpBoiswaS1ZCZLn771gxwxus5umaK1-caoICQw&_nc_ohc=oxb9AlDQJIwQ7kNvgFntR3j&_nc_gid=d7abdc2d03804cf485e9c6883a504455&edm=ANTKIIoBAAAA&ccb=7-5&oh=00_AYCrq5JEALuYoKxuE7QUnG7LoDMhlQdNOUytPHlHqCHyvA&oe=67C3E873&_nc_sid=d885a2",
+                                            "username": "marleysaiii"
+                                        },
+                                        "text": "@kalistablair wow, props to your son and you being willing to dissect that with him",
+                                        "viewer_has_liked": false
+                                    }
+                                }
+                            ],
+                            "page_info": {
+                                "end_cursor": "QVFDYnJfbTU4UHNuM096T3l6YWNrdTJ2b3Y0WGk1dTZXQXEySnV5cEo3RWRUSDd0cDExOVJxckZKSGtZdjhSU0o1OC11UkttWFlBenpnNDFzdWFrMTEwRg==",
+                                "has_next_page": true
+                            }
+                        },
+                        "id": "18269946328248742",
+                        "is_restricted_pending": false,
+                        "owner": {
+                            "id": "3922655195",
+                            "is_verified": false,
+                            "profile_pic_url": "https://scontent-msp1-1.cdninstagram.com/v/t51.2885-19/14278899_1769362843342013_223595196_a.jpg?stp=dst-jpg_s150x150_tt6&_nc_ht=scontent-msp1-1.cdninstagram.com&_nc_cat=105&_nc_oc=Q6cZ2AGEJokpbxevQbOuShuZ2yDPz_2yuNpBoiswaS1ZCZLn771gxwxus5umaK1-caoICQw&_nc_ohc=7wolTgENgyYQ7kNvgGkJscb&_nc_gid=d7abdc2d03804cf485e9c6883a504455&edm=ANTKIIoBAAAA&ccb=7-5&oh=00_AYAK3TA02Wel6z27CxZyXHbCzP-6zOVmFBwaozmbSFuqpQ&oe=67C400BA&_nc_sid=d885a2",
+                            "username": "kalistablair"
+                        },
+                        "text": "My 7yo boy was watching Diary of a Wimpy Kid that came out in 2010. The coach yelled to the boys only class to \"get up ladies, quit knitting\" (or something like that). He looked at me with such a confused look, and asked \"why is it a bad thing to be knitting and why does he think callling them ladies is an insult?\" This was the first time we have ever encountered this together, or even talked about it. He came to the conclusion that the coach was trying to insult the boys on his own. I am so proud of him.",
+                        "viewer_has_liked": false
+                    }
+                },
+                {
+                    "node": {
+                        "created_at": 1739501064,
+                        "did_report_as_spam": false,
+                        "edge_liked_by": {
+                            "count": 6
+                        },
+                        "edge_threaded_comments": {
+                            "count": 0,
+                            "edges": [],
+                            "page_info": {
+                                "end_cursor": null,
+                                "has_next_page": false
+                            }
+                        },
+                        "id": "17902153542100561",
+                        "is_restricted_pending": false,
+                        "owner": {
+                            "id": "6732022218",
+                            "is_verified": false,
+                            "profile_pic_url": "https://scontent-msp1-1.cdninstagram.com/v/t51.2885-19/185786888_849540105634159_3541179228804571259_n.jpg?stp=dst-jpg_s150x150_tt6&_nc_ht=scontent-msp1-1.cdninstagram.com&_nc_cat=107&_nc_oc=Q6cZ2AGEJokpbxevQbOuShuZ2yDPz_2yuNpBoiswaS1ZCZLn771gxwxus5umaK1-caoICQw&_nc_ohc=omuV32ZgMdQQ7kNvgHC6Z7m&_nc_gid=d7abdc2d03804cf485e9c6883a504455&edm=ANTKIIoBAAAA&ccb=7-5&oh=00_AYCTbIF5lbbNOoYU_cvZs64o8rw85LHWQ02lHJP2B-r8vQ&oe=67C3F80C&_nc_sid=d885a2",
+                            "username": "xblackpeachx"
+                        },
+                        "text": "The amount of men here thinking this is a misandrist take is insane\u2026\nIn fact, this causes problems to men too and acknowledging it would be great for everybody.\nThis is definitely a factor in men loneliness, how can you find a partner of you don\u2019t know how to love them?\nHow can you have a healthy relationship with a woman or a healthy celibate life if you\u2019re both craving for women but at the same time looking down on them?\nAnd how do you expect women to give you a chance or to stay if you see them as the worst thing you could be yourself?",
+                        "viewer_has_liked": false
+                    }
+                },
+                {
+                    "node": {
+                        "created_at": 1739461302,
+                        "did_report_as_spam": false,
+                        "edge_liked_by": {
+                            "count": 2
+                        },
+                        "edge_threaded_comments": {
+                            "count": 6,
+                            "edges": [
+                                {
+                                    "node": {
+                                        "created_at": 1739560774,
+                                        "did_report_as_spam": false,
+                                        "edge_liked_by": {
+                                            "count": 0
+                                        },
+                                        "id": "18115662412436880",
+                                        "is_restricted_pending": false,
+                                        "owner": {
+                                            "id": "6235882192",
+                                            "is_verified": false,
+                                            "profile_pic_url": "https://scontent-msp1-1.cdninstagram.com/v/t51.2885-19/479710704_1364064118103816_7559531170924537887_n.jpg?stp=dst-jpg_s150x150_tt6&_nc_ht=scontent-msp1-1.cdninstagram.com&_nc_cat=108&_nc_oc=Q6cZ2AGEJokpbxevQbOuShuZ2yDPz_2yuNpBoiswaS1ZCZLn771gxwxus5umaK1-caoICQw&_nc_ohc=KCLAb_ISPV4Q7kNvgHkbPsL&_nc_gid=d7abdc2d03804cf485e9c6883a504455&edm=ANTKIIoBAAAA&ccb=7-5&oh=00_AYB67c0y1tzz5It1TH6zCYqIz3WcjuS-4rmHfhazEDVAcQ&oe=67C3E027&_nc_sid=d885a2",
+                                            "username": "bigbydesign68"
+                                        },
+                                        "text": "@macjnjoku I thought everyone had the right to express themselves and everyone should be held to the same standards. Because women want to be seen as equals not soft delicate objects.",
+                                        "viewer_has_liked": false
+                                    }
+                                },
+                                {
+                                    "node": {
+                                        "created_at": 1739824997,
+                                        "did_report_as_spam": false,
+                                        "edge_liked_by": {
+                                            "count": 0
+                                        },
+                                        "id": "17977339061809594",
+                                        "is_restricted_pending": false,
+                                        "owner": {
+                                            "id": "38372730",
+                                            "is_verified": false,
+                                            "profile_pic_url": "https://scontent-msp1-1.cdninstagram.com/v/t51.2885-19/465750427_1111311137175567_1820138949905759152_n.jpg?stp=dst-jpg_s150x150_tt6&_nc_ht=scontent-msp1-1.cdninstagram.com&_nc_cat=103&_nc_oc=Q6cZ2AGEJokpbxevQbOuShuZ2yDPz_2yuNpBoiswaS1ZCZLn771gxwxus5umaK1-caoICQw&_nc_ohc=qYOflsNZBbcQ7kNvgGGMNTj&_nc_gid=d7abdc2d03804cf485e9c6883a504455&edm=ANTKIIoBAAAA&ccb=7-5&oh=00_AYDdklfl30b5U_Yfl9Fus-aHbognjT5l0fMS5gqSV22Qvg&oe=67C3DB1F&_nc_sid=d885a2",
+                                            "username": "shrinkiesxwife"
+                                        },
+                                        "text": "@bigbydesign68 You didn\u2019t read that right. I\u2019m talking about when men rape children if the woman kills the rapist she\u2019ll go to prison. However, if for the father does it he\u2019ll get found not guilty.",
+                                        "viewer_has_liked": false
+                                    }
+                                },
+                                {
+                                    "node": {
+                                        "created_at": 1739834202,
+                                        "did_report_as_spam": false,
+                                        "edge_liked_by": {
+                                            "count": 0
+                                        },
+                                        "id": "18063649042897710",
+                                        "is_restricted_pending": false,
+                                        "owner": {
+                                            "id": "6235882192",
+                                            "is_verified": false,
+                                            "profile_pic_url": "https://scontent-msp1-1.cdninstagram.com/v/t51.2885-19/479710704_1364064118103816_7559531170924537887_n.jpg?stp=dst-jpg_s150x150_tt6&_nc_ht=scontent-msp1-1.cdninstagram.com&_nc_cat=108&_nc_oc=Q6cZ2AGEJokpbxevQbOuShuZ2yDPz_2yuNpBoiswaS1ZCZLn771gxwxus5umaK1-caoICQw&_nc_ohc=KCLAb_ISPV4Q7kNvgHkbPsL&_nc_gid=d7abdc2d03804cf485e9c6883a504455&edm=ANTKIIoBAAAA&ccb=7-5&oh=00_AYB67c0y1tzz5It1TH6zCYqIz3WcjuS-4rmHfhazEDVAcQ&oe=67C3E027&_nc_sid=d885a2",
+                                            "username": "bigbydesign68"
+                                        },
+                                        "text": "@shrinkiesxwife Women tend use character assination and weaponize the police against men  with no.jail time.or.accountability . Those rarely face jail time unless they had the option to leave and contact the police.",
+                                        "viewer_has_liked": false
+                                    }
+                                }
+                            ],
+                            "page_info": {
+                                "end_cursor": "QVFEYkdDMGE0bXI3T3JHWUVBMmdURFBqN2FiMS1DLWFTcHBpMUhXZWJXVUlYTk5DWnY3NGR0VHV5OFNNaVVuc19POEU4Z3dxYjJkeUpmQi1mNjYtUFFfZg==",
+                                "has_next_page": true
+                            }
+                        },
+                        "id": "18358992742193625",
+                        "is_restricted_pending": false,
+                        "owner": {
+                            "id": "6235882192",
+                            "is_verified": false,
+                            "profile_pic_url": "https://scontent-msp1-1.cdninstagram.com/v/t51.2885-19/479710704_1364064118103816_7559531170924537887_n.jpg?stp=dst-jpg_s150x150_tt6&_nc_ht=scontent-msp1-1.cdninstagram.com&_nc_cat=108&_nc_oc=Q6cZ2AGEJokpbxevQbOuShuZ2yDPz_2yuNpBoiswaS1ZCZLn771gxwxus5umaK1-caoICQw&_nc_ohc=KCLAb_ISPV4Q7kNvgHkbPsL&_nc_gid=d7abdc2d03804cf485e9c6883a504455&edm=ANTKIIoBAAAA&ccb=7-5&oh=00_AYB67c0y1tzz5It1TH6zCYqIz3WcjuS-4rmHfhazEDVAcQ&oe=67C3E027&_nc_sid=d885a2",
+                            "username": "bigbydesign68"
+                        },
+                        "text": "Is funny how you associate being a man with not liking women.  The world is a cold place for men because a man that has out burst or unfavorable opinions is seen as a threat. The treatment of a single dad and a single mom is two different things. Women face kess jail time than men even when they commit similar crimes.",
+                        "viewer_has_liked": false
+                    }
+                },
+                {
+                    "node": {
+                        "created_at": 1739315859,
+                        "did_report_as_spam": false,
+                        "edge_liked_by": {
+                            "count": 4023
+                        },
+                        "edge_threaded_comments": {
+                            "count": 20,
+                            "edges": [
+                                {
+                                    "node": {
+                                        "created_at": 1740425551,
+                                        "did_report_as_spam": false,
+                                        "edge_liked_by": {
+                                            "count": 0
+                                        },
+                                        "id": "18021211424455455",
+                                        "is_restricted_pending": false,
+                                        "owner": {
+                                            "id": "65694235740",
+                                            "is_verified": false,
+                                            "profile_pic_url": "https://scontent-msp1-1.cdninstagram.com/v/t51.2885-19/475625616_1365550167933785_5671937329345038116_n.jpg?stp=dst-jpg_s150x150_tt6&_nc_ht=scontent-msp1-1.cdninstagram.com&_nc_cat=105&_nc_oc=Q6cZ2AGEJokpbxevQbOuShuZ2yDPz_2yuNpBoiswaS1ZCZLn771gxwxus5umaK1-caoICQw&_nc_ohc=RaotP3mXhyUQ7kNvgEBfuGn&_nc_gid=d7abdc2d03804cf485e9c6883a504455&edm=ANTKIIoBAAAA&ccb=7-5&oh=00_AYD9lhu7kctF0mwbjXRYP3RDw0_tDJwX7qjemxXTcRDFBA&oe=67C3F9A8&_nc_sid=d885a2",
+                                            "username": "fl_poke_trader"
+                                        },
+                                        "text": "@build_junkie lmao buddy I\u2019ve got plenty reason. Women are evil, selfish creatures who are capable of committing heinous acts without a second thought.",
+                                        "viewer_has_liked": false
+                                    }
+                                },
+                                {
+                                    "node": {
+                                        "created_at": 1740466335,
+                                        "did_report_as_spam": false,
+                                        "edge_liked_by": {
+                                            "count": 1
+                                        },
+                                        "id": "17997058988759704",
+                                        "is_restricted_pending": false,
+                                        "owner": {
+                                            "id": "202069700",
+                                            "is_verified": false,
+                                            "profile_pic_url": "https://scontent-msp1-1.cdninstagram.com/v/t51.2885-19/472273447_1751845458948220_8517863928341705485_n.jpg?stp=dst-jpg_s150x150_tt6&_nc_ht=scontent-msp1-1.cdninstagram.com&_nc_cat=104&_nc_oc=Q6cZ2AGEJokpbxevQbOuShuZ2yDPz_2yuNpBoiswaS1ZCZLn771gxwxus5umaK1-caoICQw&_nc_ohc=SMvpHk2OYYQQ7kNvgEhrUzA&_nc_gid=d7abdc2d03804cf485e9c6883a504455&edm=ANTKIIoBAAAA&ccb=7-5&oh=00_AYC4uS3nsQKOxznNacGuOVH_vG-5RkSVoxnC51CfoxbgyQ&oe=67C3E07E&_nc_sid=d885a2",
+                                            "username": "go_cielo"
+                                        },
+                                        "text": "@build_junkie thank you",
+                                        "viewer_has_liked": false
+                                    }
+                                },
+                                {
+                                    "node": {
+                                        "created_at": 1740478441,
+                                        "did_report_as_spam": false,
+                                        "edge_liked_by": {
+                                            "count": 0
+                                        },
+                                        "id": "17914893048075242",
+                                        "is_restricted_pending": false,
+                                        "owner": {
+                                            "id": "70802873432",
+                                            "is_verified": false,
+                                            "profile_pic_url": "https://scontent-msp1-1.cdninstagram.com/v/t51.2885-19/475065872_1044783610740864_8600486859152997671_n.jpg?stp=dst-jpg_s150x150_tt6&_nc_ht=scontent-msp1-1.cdninstagram.com&_nc_cat=100&_nc_oc=Q6cZ2AGEJokpbxevQbOuShuZ2yDPz_2yuNpBoiswaS1ZCZLn771gxwxus5umaK1-caoICQw&_nc_ohc=hlPKWpfvzAEQ7kNvgFkaVUN&_nc_gid=d7abdc2d03804cf485e9c6883a504455&edm=ANTKIIoBAAAA&ccb=7-5&oh=00_AYDkr7LznBIvgc2I-E99kVNY5y5zmYMbXgfS_7GRXOnuTg&oe=67C3F44D&_nc_sid=d885a2",
+                                            "username": "dav_o103"
+                                        },
+                                        "text": "@pprincessoni Yea right",
+                                        "viewer_has_liked": false
+                                    }
+                                }
+                            ],
+                            "page_info": {
+                                "end_cursor": "QVFBVnNKajhIcklva3lRWVhJdmJiZkZDODRFamZyb1RhTWpFdEZZWjlVZ1pTR0VoUVJaeWRjc3l6eU5ZcDluWk91WjZJVjF0RmVDc1lfV3BwaHdoSGRXcQ==",
+                                "has_next_page": true
+                            }
+                        },
+                        "id": "17888236968196129",
+                        "is_restricted_pending": false,
+                        "owner": {
+                            "id": "929548296",
+                            "is_verified": false,
+                            "profile_pic_url": "https://scontent-msp1-1.cdninstagram.com/v/t51.2885-19/442463351_959065179042799_6203880462778043623_n.jpg?stp=dst-jpg_s150x150_tt6&_nc_ht=scontent-msp1-1.cdninstagram.com&_nc_cat=1&_nc_oc=Q6cZ2AGEJokpbxevQbOuShuZ2yDPz_2yuNpBoiswaS1ZCZLn771gxwxus5umaK1-caoICQw&_nc_ohc=BKmN3JsMKPEQ7kNvgEhvLxP&_nc_gid=d7abdc2d03804cf485e9c6883a504455&edm=ANTKIIoBAAAA&ccb=7-5&oh=00_AYB4LcHzS9kYo4bkprRZ-lqWCTzIfI9ZNMEayyLM_bpbcg&oe=67C3E3E9&_nc_sid=d885a2",
+                            "username": "build_junkie"
+                        },
+                        "text": "Sorry, dudes, but my girl here is 100% spot on. I've actually kinda studied bullying in general & the outright hatefulness towards women. I was actually quite shocked at not just the amount, but how openly hateful a large amount of men are with literally zero reason behind it. Come on guys we can do better than this.",
+                        "viewer_has_liked": false
+                    }
+                },
+                {
+                    "node": {
+                        "created_at": 1739204939,
+                        "did_report_as_spam": false,
+                        "edge_liked_by": {
+                            "count": 159
+                        },
+                        "edge_threaded_comments": {
+                            "count": 26,
+                            "edges": [
+                                {
+                                    "node": {
+                                        "created_at": 1740053354,
+                                        "did_report_as_spam": false,
+                                        "edge_liked_by": {
+                                            "count": 2
+                                        },
+                                        "id": "18000348608588263",
+                                        "is_restricted_pending": false,
+                                        "owner": {
+                                            "id": "44792940489",
+                                            "is_verified": false,
+                                            "profile_pic_url": "https://instagram.fdel1-8.fna.fbcdn.net/v/t51.2885-19/44884218_345707102882519_2446069589734326272_n.jpg?stp=dst-jpg_e0_s150x150_tt6&_nc_ht=instagram.fdel1-8.fna.fbcdn.net&_nc_cat=1&_nc_oc=Q6cZ2AEG6QRnSYZtmgIWwWyFKz_AV4o11jOU3FuVsxVCu0zpS45U1Iw_H343aMvOk-StyK4&_nc_ohc=GZRN6-mN2TUQ7kNvgGgEaVn&_nc_gid=e677e2af0d354be184d5ced05f369d54&edm=AHoPC7cBAAAA&ccb=7-5&ig_cache_key=YW5vbnltb3VzX3Byb2ZpbGVfcGlj.3-ccb7-5&oh=00_AYCFE22AuGhIBvRydM7dQtIcdtsvgHd3kzM7B2FTuZiEFQ&oe=67C3F74F&_nc_sid=4eb3e4",
+                                            "username": "stixaleda"
+                                        },
+                                        "text": "You\u2019re joking, right? India is one of the worst places to be a woman. And not only that, but the cast system is horrible as well. Lack of any consideration towards fellow humans\u2026 is fully on.",
+                                        "viewer_has_liked": false
+                                    }
+                                },
+                                {
+                                    "node": {
+                                        "created_at": 1740385482,
+                                        "did_report_as_spam": false,
+                                        "edge_liked_by": {
+                                            "count": 1
+                                        },
+                                        "id": "18489833056007456",
+                                        "is_restricted_pending": false,
+                                        "owner": {
+                                            "id": "256955536",
+                                            "is_verified": false,
+                                            "profile_pic_url": "https://scontent-msp1-1.cdninstagram.com/v/t51.2885-19/14134955_642254679267199_1719999154_a.jpg?stp=dst-jpg_s150x150_tt6&_nc_ht=scontent-msp1-1.cdninstagram.com&_nc_cat=107&_nc_oc=Q6cZ2AGEJokpbxevQbOuShuZ2yDPz_2yuNpBoiswaS1ZCZLn771gxwxus5umaK1-caoICQw&_nc_ohc=Ym9qXyR-5Z4Q7kNvgGUeui_&_nc_gid=d7abdc2d03804cf485e9c6883a504455&edm=ANTKIIoBAAAA&ccb=7-5&oh=00_AYDuzcnnFrjqfFwAgk33Msy7yDhmwTYf3w2tLbEem7uF9A&oe=67C3EA51&_nc_sid=d885a2",
+                                            "username": "renzpee"
+                                        },
+                                        "text": "India? Where women are raped constantly ??? I think India should sit this one out  especially in a country where shame leads men to unalive women who they think rebuff them. Leave the chat India!. Log off",
+                                        "viewer_has_liked": false
+                                    }
+                                },
+                                {
+                                    "node": {
+                                        "created_at": 1740385658,
+                                        "did_report_as_spam": false,
+                                        "edge_liked_by": {
+                                            "count": 1
+                                        },
+                                        "id": "18025700510357796",
+                                        "is_restricted_pending": false,
+                                        "owner": {
+                                            "id": "256955536",
+                                            "is_verified": false,
+                                            "profile_pic_url": "https://scontent-msp1-1.cdninstagram.com/v/t51.2885-19/14134955_642254679267199_1719999154_a.jpg?stp=dst-jpg_s150x150_tt6&_nc_ht=scontent-msp1-1.cdninstagram.com&_nc_cat=107&_nc_oc=Q6cZ2AGEJokpbxevQbOuShuZ2yDPz_2yuNpBoiswaS1ZCZLn771gxwxus5umaK1-caoICQw&_nc_ohc=Ym9qXyR-5Z4Q7kNvgGUeui_&_nc_gid=d7abdc2d03804cf485e9c6883a504455&edm=ANTKIIoBAAAA&ccb=7-5&oh=00_AYDuzcnnFrjqfFwAgk33Msy7yDhmwTYf3w2tLbEem7uF9A&oe=67C3EA51&_nc_sid=d885a2",
+                                            "username": "renzpee"
+                                        },
+                                        "text": "@realcharmi2023 you drank the kool-aid too. All over the Indian diaspora, domestic violence and SA against women is HIGH, so you lot are clearly lost in the sauce. Indian men seem to use brute force against women and children",
+                                        "viewer_has_liked": false
+                                    }
+                                }
+                            ],
+                            "page_info": {
+                                "end_cursor": "QVFBaUNPMWFJMS1hU1Jidmppa1NSSnQ2ekVnTkdiWS1nVy1OUWdjQlc3cVV3NzdKbnFyY2JRTHQ5OGt5ZDVtQWNlWVJzcmwtX1NKYmFFWGJMaUxhOGRPcw==",
+                                "has_next_page": true
+                            }
+                        },
+                        "id": "18091773100526810",
+                        "is_restricted_pending": false,
+                        "owner": {
+                            "id": "1766669497",
+                            "is_verified": false,
+                            "profile_pic_url": "https://scontent-msp1-1.cdninstagram.com/v/t51.2885-19/332147597_170993468733414_3432757775506511384_n.jpg?stp=dst-jpg_s150x150_tt6&_nc_ht=scontent-msp1-1.cdninstagram.com&_nc_cat=106&_nc_oc=Q6cZ2AGEJokpbxevQbOuShuZ2yDPz_2yuNpBoiswaS1ZCZLn771gxwxus5umaK1-caoICQw&_nc_ohc=tNC-ZaPRr-oQ7kNvgHxRGSx&_nc_gid=d7abdc2d03804cf485e9c6883a504455&edm=ANTKIIoBAAAA&ccb=7-5&oh=00_AYCYa1QjdRhQdPJ9SAUTKt9nSbmZKoLEc1mq84TFdH2c6Q&oe=67C41001&_nc_sid=d885a2",
+                            "username": "knee_kill_money_yen"
+                        },
+                        "text": "Sure if you base masculinity entirely on western ideas. But, in an Indian perspective, masculinity is not just defined by brute force, it includes discipline, sacrifice, righteousness, truthfulness. Around the world ancient cultures described about warrior poets, people who were warriors and appreciated the arts. The Euro centric idea of masculinity sees pursuit of the arts and poetry as girlie, while most of the rest of the world doesn't.",
+                        "viewer_has_liked": false
+                    }
+                },
+                {
+                    "node": {
+                        "created_at": 1739407993,
+                        "did_report_as_spam": false,
+                        "edge_liked_by": {
+                            "count": 42
+                        },
+                        "edge_threaded_comments": {
+                            "count": 2,
+                            "edges": [
+                                {
+                                    "node": {
+                                        "created_at": 1740287152,
+                                        "did_report_as_spam": false,
+                                        "edge_liked_by": {
+                                            "count": 4
+                                        },
+                                        "id": "18022687847653057",
+                                        "is_restricted_pending": false,
+                                        "owner": {
+                                            "id": "448263808",
+                                            "is_verified": false,
+                                            "profile_pic_url": "https://scontent-msp1-1.cdninstagram.com/v/t51.2885-19/914369_642529109167578_603907974_a.jpg?stp=dst-jpg_s150x150_tt6&_nc_ht=scontent-msp1-1.cdninstagram.com&_nc_cat=106&_nc_oc=Q6cZ2AGEJokpbxevQbOuShuZ2yDPz_2yuNpBoiswaS1ZCZLn771gxwxus5umaK1-caoICQw&_nc_ohc=q7rCMSuFW8sQ7kNvgEHaJVf&_nc_gid=d7abdc2d03804cf485e9c6883a504455&edm=ANTKIIoBAAAA&ccb=7-5&oh=00_AYAIhZZ0PN7N4O_3_sUFsX_5DK5gYu44JmIf8lQbp8EnqA&oe=67C4020E&_nc_sid=d885a2",
+                                            "username": "electriclady1"
+                                        },
+                                        "text": "This is not really the case in the US. Girls are now encouraged to be tough, play sports, get messy, be a leader, etc. so both girls and boys are taught to look down on feminine traits. It\u2019s something we have to consciously unlearn. Women proudly say they are not like other girls, one of the guys, etc.",
+                                        "viewer_has_liked": false
+                                    }
+                                },
+                                {
+                                    "node": {
+                                        "created_at": 1740361105,
+                                        "did_report_as_spam": false,
+                                        "edge_liked_by": {
+                                            "count": 3
+                                        },
+                                        "id": "18271870690255061",
+                                        "is_restricted_pending": false,
+                                        "owner": {
+                                            "id": "59589102928",
+                                            "is_verified": false,
+                                            "profile_pic_url": "https://scontent-msp1-1.cdninstagram.com/v/t51.2885-19/346290327_240094681936926_6289127681432452023_n.jpg?stp=dst-jpg_s150x150_tt6&_nc_ht=scontent-msp1-1.cdninstagram.com&_nc_cat=106&_nc_oc=Q6cZ2AGEJokpbxevQbOuShuZ2yDPz_2yuNpBoiswaS1ZCZLn771gxwxus5umaK1-caoICQw&_nc_ohc=w6XZ-qgzqVAQ7kNvgFtOEZN&_nc_gid=d7abdc2d03804cf485e9c6883a504455&edm=ANTKIIoBAAAA&ccb=7-5&oh=00_AYBztxZoyS6atbZVy8ewbmD3TSu1O6hXb5iwJzYYko5dtw&oe=67C3DC6A&_nc_sid=d885a2",
+                                            "username": "miracle.n.ufodiama"
+                                        },
+                                        "text": "I come from a country that does this. The difference for me is that this don't be the opposite sex is done to men by deep shame, for women it's not as intense unless it's to control their bodies or modest police/purity culture. You're not savagely mocked as a girl if you play roughly, the same way a boy who acts like a girl is.",
+                                        "viewer_has_liked": false
+                                    }
+                                }
+                            ],
+                            "page_info": {
+                                "end_cursor": null,
+                                "has_next_page": false
+                            }
+                        },
+                        "id": "18482651710032382",
+                        "is_restricted_pending": false,
+                        "owner": {
+                            "id": "7089327634",
+                            "is_verified": false,
+                            "profile_pic_url": "https://scontent-msp1-1.cdninstagram.com/v/t51.2885-19/409399530_1160219494945517_4723410217870143469_n.jpg?stp=dst-jpg_s150x150_tt6&_nc_ht=scontent-msp1-1.cdninstagram.com&_nc_cat=1&_nc_oc=Q6cZ2AGEJokpbxevQbOuShuZ2yDPz_2yuNpBoiswaS1ZCZLn771gxwxus5umaK1-caoICQw&_nc_ohc=FYgD2RXdDNAQ7kNvgEGSPyg&_nc_gid=d7abdc2d03804cf485e9c6883a504455&edm=ANTKIIoBAAAA&ccb=7-5&oh=00_AYDxeRvXhsfS5yFWM9RUlv400xPytaARRW_jfiCQkI1vGA&oe=67C3F828&_nc_sid=d885a2",
+                            "username": "kse_vinograd"
+                        },
+                        "text": "Not sure how it\u2019s in the US, but I grew up in a traditional patriarchal country and girls were raised in a similar way: you don\u2019t want to be like boys: \u201cdon\u2019t be dirty and messy\u2026 like boys\u201d, \u201cdon\u2019t be aggressive\u2026 like boys\u201d. Also it\u2019s kind of subtly suggested that being too \u201ctough\u201d and \u201cwork too hard physically\u201d is also a manly thing that\u2019s making you \u201cless of a woman\u201d. And you really want to be a woman.",
+                        "viewer_has_liked": false
+                    }
+                },
+                {
+                    "node": {
+                        "created_at": 1739479778,
+                        "did_report_as_spam": false,
+                        "edge_liked_by": {
+                            "count": 31
+                        },
+                        "edge_threaded_comments": {
+                            "count": 13,
+                            "edges": [
+                                {
+                                    "node": {
+                                        "created_at": 1740155573,
+                                        "did_report_as_spam": false,
+                                        "edge_liked_by": {
+                                            "count": 0
+                                        },
+                                        "id": "18062653642938671",
+                                        "is_restricted_pending": false,
+                                        "owner": {
+                                            "id": "57639320663",
+                                            "is_verified": false,
+                                            "profile_pic_url": "https://scontent-msp1-1.cdninstagram.com/v/t51.2885-19/468303115_508010392257514_6192756513149677066_n.jpg?stp=dst-jpg_s150x150_tt6&_nc_ht=scontent-msp1-1.cdninstagram.com&_nc_cat=110&_nc_oc=Q6cZ2AGEJokpbxevQbOuShuZ2yDPz_2yuNpBoiswaS1ZCZLn771gxwxus5umaK1-caoICQw&_nc_ohc=o_TcQ0B0U5wQ7kNvgGdzN87&_nc_gid=d7abdc2d03804cf485e9c6883a504455&edm=ANTKIIoBAAAA&ccb=7-5&oh=00_AYDarn0Iryfm2H0tBl_ULsy5i1IWcSrFccO0k-kLodzgYA&oe=67C3DAE9&_nc_sid=d885a2",
+                                            "username": "sonshine_stables"
+                                        },
+                                        "text": "@debrinacrivelli a good man will strengthen a ladies sounds like you have a good man :)",
+                                        "viewer_has_liked": false
+                                    }
+                                },
+                                {
+                                    "node": {
+                                        "created_at": 1740252510,
+                                        "did_report_as_spam": false,
+                                        "edge_liked_by": {
+                                            "count": 0
+                                        },
+                                        "id": "18057531356012215",
+                                        "is_restricted_pending": false,
+                                        "owner": {
+                                            "id": "176521612",
+                                            "is_verified": false,
+                                            "profile_pic_url": "https://scontent-msp1-1.cdninstagram.com/v/t51.2885-19/60374788_673018236460479_5830866924107464704_n.jpg?stp=dst-jpg_s150x150_tt6&_nc_ht=scontent-msp1-1.cdninstagram.com&_nc_cat=1&_nc_oc=Q6cZ2AGEJokpbxevQbOuShuZ2yDPz_2yuNpBoiswaS1ZCZLn771gxwxus5umaK1-caoICQw&_nc_ohc=9Lrug2ayGwAQ7kNvgGzvSKz&_nc_gid=d7abdc2d03804cf485e9c6883a504455&edm=ANTKIIoBAAAA&ccb=7-5&oh=00_AYCHRLH6m4OYfc9ZQphthYW01CY0S48jDuVPe5UH62V1Eg&oe=67C4045D&_nc_sid=d885a2",
+                                            "username": "ladyluuluu"
+                                        },
+                                        "text": "@sonshine_stables I do see what you mean however the don\u2019t think this is about \u2018blaming\u2019 others. if you blame others you already see the issue. The problem is when you are not aware or refuse to work on yourself",
+                                        "viewer_has_liked": false
+                                    }
+                                },
+                                {
+                                    "node": {
+                                        "created_at": 1740442630,
+                                        "did_report_as_spam": false,
+                                        "edge_liked_by": {
+                                            "count": 0
+                                        },
+                                        "id": "17889576672190349",
+                                        "is_restricted_pending": false,
+                                        "owner": {
+                                            "id": "48173749",
+                                            "is_verified": false,
+                                            "profile_pic_url": "https://scontent-msp1-1.cdninstagram.com/v/t51.2885-19/477330463_1310352470111755_5020184515014119176_n.jpg?stp=dst-jpg_s150x150_tt6&_nc_ht=scontent-msp1-1.cdninstagram.com&_nc_cat=107&_nc_oc=Q6cZ2AGEJokpbxevQbOuShuZ2yDPz_2yuNpBoiswaS1ZCZLn771gxwxus5umaK1-caoICQw&_nc_ohc=JStAD7-Z01oQ7kNvgG8h9Xn&_nc_gid=d7abdc2d03804cf485e9c6883a504455&edm=ANTKIIoBAAAA&ccb=7-5&oh=00_AYBtojY_ZNopt7Uh3wV0HsgFefD7JSrLkL4_Qb3z2VFifw&oe=67C3E73E&_nc_sid=d885a2",
+                                            "username": "throwingshadowsonoureyes"
+                                        },
+                                        "text": "@sonshine_stables the fuck are you even talking about?",
+                                        "viewer_has_liked": false
+                                    }
+                                }
+                            ],
+                            "page_info": {
+                                "end_cursor": "QVFEQ3lqdnYyUjg5WWZvSXZfSldoMEQ0RFpkMFVCUkx4UjdXMndrN3NnZ1FqZklFOEE5WE94MWZaZ3R6TzdpdG00cXJGazVFTFBFUEdYaVVlUldsc3JTbw==",
+                                "has_next_page": true
+                            }
+                        },
+                        "id": "18214490560289936",
+                        "is_restricted_pending": false,
+                        "owner": {
+                            "id": "57639320663",
+                            "is_verified": false,
+                            "profile_pic_url": "https://scontent-msp1-1.cdninstagram.com/v/t51.2885-19/468303115_508010392257514_6192756513149677066_n.jpg?stp=dst-jpg_s150x150_tt6&_nc_ht=scontent-msp1-1.cdninstagram.com&_nc_cat=110&_nc_oc=Q6cZ2AGEJokpbxevQbOuShuZ2yDPz_2yuNpBoiswaS1ZCZLn771gxwxus5umaK1-caoICQw&_nc_ohc=o_TcQ0B0U5wQ7kNvgGdzN87&_nc_gid=d7abdc2d03804cf485e9c6883a504455&edm=ANTKIIoBAAAA&ccb=7-5&oh=00_AYDarn0Iryfm2H0tBl_ULsy5i1IWcSrFccO0k-kLodzgYA&oe=67C3DAE9&_nc_sid=d885a2",
+                            "username": "sonshine_stables"
+                        },
+                        "text": "Uuummm wwrrooonngggg  so wrong. Our beautiful wives ate also our best friends. You are deflecting your personal experiences on others.",
+                        "viewer_has_liked": false
+                    }
+                },
+                {
+                    "node": {
+                        "created_at": 1739310659,
+                        "did_report_as_spam": false,
+                        "edge_liked_by": {
+                            "count": 1014
+                        },
+                        "edge_threaded_comments": {
+                            "count": 2,
+                            "edges": [
+                                {
+                                    "node": {
+                                        "created_at": 1739409333,
+                                        "did_report_as_spam": false,
+                                        "edge_liked_by": {
+                                            "count": 3
+                                        },
+                                        "id": "17943479933956175",
+                                        "is_restricted_pending": false,
+                                        "owner": {
+                                            "id": "216459387",
+                                            "is_verified": false,
+                                            "profile_pic_url": "https://scontent-msp1-1.cdninstagram.com/v/t51.2885-19/475086901_643372311616359_9204969655622446426_n.jpg?stp=dst-jpg_s150x150_tt6&_nc_ht=scontent-msp1-1.cdninstagram.com&_nc_cat=103&_nc_oc=Q6cZ2AGEJokpbxevQbOuShuZ2yDPz_2yuNpBoiswaS1ZCZLn771gxwxus5umaK1-caoICQw&_nc_ohc=oIRGwLdJDZoQ7kNvgHIx_OX&_nc_gid=d7abdc2d03804cf485e9c6883a504455&edm=ANTKIIoBAAAA&ccb=7-5&oh=00_AYBm_sk4f00k1lSI6nDBCpmHp3L6Qgmawd9W8D9uYQvKDg&oe=67C3DC63&_nc_sid=d885a2",
+                                            "username": "julie_anna_b"
+                                        },
+                                        "text": "@anothermakeupworld scary how spot on it is and I\u2019ve never thought along these lines before. Just wow.",
+                                        "viewer_has_liked": false
+                                    }
+                                },
+                                {
+                                    "node": {
+                                        "created_at": 1740002647,
+                                        "did_report_as_spam": false,
+                                        "edge_liked_by": {
+                                            "count": 1
+                                        },
+                                        "id": "18463413151069838",
+                                        "is_restricted_pending": false,
+                                        "owner": {
+                                            "id": "50172951",
+                                            "is_verified": false,
+                                            "profile_pic_url": "https://scontent-msp1-1.cdninstagram.com/v/t51.2885-19/447360998_1904097193359650_2677131139809798069_n.jpg?stp=dst-jpg_s150x150_tt6&_nc_ht=scontent-msp1-1.cdninstagram.com&_nc_cat=102&_nc_oc=Q6cZ2AGEJokpbxevQbOuShuZ2yDPz_2yuNpBoiswaS1ZCZLn771gxwxus5umaK1-caoICQw&_nc_ohc=RNnwYe8S0lQQ7kNvgEerxTH&_nc_gid=d7abdc2d03804cf485e9c6883a504455&edm=ANTKIIoBAAAA&ccb=7-5&oh=00_AYBo8D6iTsPU07TbbDmaYEUaxsmWcKCZuh64M-QQe0eQBw&oe=67C3E641&_nc_sid=d885a2",
+                                            "username": "freethrows.zo"
+                                        },
+                                        "text": "@anothermakeupworld a professor who has never queried every man. Made a blanket statement. Which happens daily. Then yall proceed to eat it up. \ud83d\ude02 when on the flip women try there best to be with a \u201chigh end/ value\u201d (status metric) can\u2019t make it up",
+                                        "viewer_has_liked": false
+                                    }
+                                }
+                            ],
+                            "page_info": {
+                                "end_cursor": null,
+                                "has_next_page": false
+                            }
+                        },
+                        "id": "17898782358136852",
+                        "is_restricted_pending": false,
+                        "owner": {
+                            "id": "3044162404",
+                            "is_verified": false,
+                            "profile_pic_url": "https://scontent-msp1-1.cdninstagram.com/v/t51.2885-19/350465791_2266974253692753_5190327708656938805_n.jpg?stp=dst-jpg_s150x150_tt6&_nc_ht=scontent-msp1-1.cdninstagram.com&_nc_cat=109&_nc_oc=Q6cZ2AGEJokpbxevQbOuShuZ2yDPz_2yuNpBoiswaS1ZCZLn771gxwxus5umaK1-caoICQw&_nc_ohc=fAFoTxl0uCYQ7kNvgFw5RLQ&_nc_gid=d7abdc2d03804cf485e9c6883a504455&edm=ANTKIIoBAAAA&ccb=7-5&oh=00_AYCstNcZoHiMyu5jB3f06QxeX9aDY6qbOoo-S-ghBFl1-A&oe=67C3EE24&_nc_sid=d885a2",
+                            "username": "anothermakeupworld"
+                        },
+                        "text": "This is so real and so disturbing\u2026",
+                        "viewer_has_liked": false
+                    }
+                },
+                {
+                    "node": {
+                        "created_at": 1739396753,
+                        "did_report_as_spam": false,
+                        "edge_liked_by": {
+                            "count": 901
+                        },
+                        "edge_threaded_comments": {
+                            "count": 31,
+                            "edges": [
+                                {
+                                    "node": {
+                                        "created_at": 1740362057,
+                                        "did_report_as_spam": false,
+                                        "edge_liked_by": {
+                                            "count": 0
+                                        },
+                                        "id": "18029244668632130",
+                                        "is_restricted_pending": false,
+                                        "owner": {
+                                            "id": "1900630190",
+                                            "is_verified": false,
+                                            "profile_pic_url": "https://scontent-msp1-1.cdninstagram.com/v/t51.2885-19/452560369_451081164566700_5014445481031300311_n.jpg?stp=dst-jpg_s150x150_tt6&_nc_ht=scontent-msp1-1.cdninstagram.com&_nc_cat=100&_nc_oc=Q6cZ2AGEJokpbxevQbOuShuZ2yDPz_2yuNpBoiswaS1ZCZLn771gxwxus5umaK1-caoICQw&_nc_ohc=OUBm88iTZz0Q7kNvgF8jD0A&_nc_gid=d7abdc2d03804cf485e9c6883a504455&edm=ANTKIIoBAAAA&ccb=7-5&oh=00_AYBrkNCRnoja6t3BPYNMhIq8y-xUHpGgP3A8ydHZb8k9jg&oe=67C3DB46&_nc_sid=d885a2",
+                                            "username": "visha_hicks"
+                                        },
+                                        "text": "@deevine.1 so they think",
+                                        "viewer_has_liked": false
+                                    }
+                                },
+                                {
+                                    "node": {
+                                        "created_at": 1740440487,
+                                        "did_report_as_spam": false,
+                                        "edge_liked_by": {
+                                            "count": 0
+                                        },
+                                        "id": "18068035993698402",
+                                        "is_restricted_pending": false,
+                                        "owner": {
+                                            "id": "1285049825",
+                                            "is_verified": false,
+                                            "profile_pic_url": "https://scontent-msp1-1.cdninstagram.com/v/t51.2885-19/403929059_865803085028618_9038153766984692185_n.jpg?stp=dst-jpg_s150x150_tt6&_nc_ht=scontent-msp1-1.cdninstagram.com&_nc_cat=1&_nc_oc=Q6cZ2AGEJokpbxevQbOuShuZ2yDPz_2yuNpBoiswaS1ZCZLn771gxwxus5umaK1-caoICQw&_nc_ohc=d1Cu8o-5m6kQ7kNvgFmM_xu&_nc_gid=d7abdc2d03804cf485e9c6883a504455&edm=ANTKIIoBAAAA&ccb=7-5&oh=00_AYAOJ1P5mrHzV3L8j_Y7Dr58T8x-ECfV_yistMb4ulzk8A&oe=67C3E1D2&_nc_sid=d885a2",
+                                            "username": "deenatodd"
+                                        },
+                                        "text": "@farisalmomen don't worry, women are realising how we were pitted against each other, and YIKES, we are starting to realise it. So if we are moving forward, that's the least you can do",
+                                        "viewer_has_liked": false
+                                    }
+                                },
+                                {
+                                    "node": {
+                                        "created_at": 1740499175,
+                                        "did_report_as_spam": false,
+                                        "edge_liked_by": {
+                                            "count": 0
+                                        },
+                                        "id": "18097607239517881",
+                                        "is_restricted_pending": false,
+                                        "owner": {
+                                            "id": "295285707",
+                                            "is_verified": false,
+                                            "profile_pic_url": "https://scontent-msp1-1.cdninstagram.com/v/t51.2885-19/448138188_1596884767777549_1589990387883760306_n.jpg?stp=dst-jpg_s150x150_tt6&_nc_ht=scontent-msp1-1.cdninstagram.com&_nc_cat=101&_nc_oc=Q6cZ2AGEJokpbxevQbOuShuZ2yDPz_2yuNpBoiswaS1ZCZLn771gxwxus5umaK1-caoICQw&_nc_ohc=iRPKqaN3CnkQ7kNvgEDcZwP&_nc_gid=d7abdc2d03804cf485e9c6883a504455&edm=ANTKIIoBAAAA&ccb=7-5&oh=00_AYCUNwVy8_8RcmmtKmisUzHGzdNQFJzaZBJj_EnJwLIbmA&oe=67C3F76D&_nc_sid=d885a2",
+                                            "username": "tahlasia"
+                                        },
+                                        "text": "@farisalmomen i would rather a world full of woman and eating \ud83d\udc31all dayyyyyyyy \non a plane \non a train \nin a game \n\ud83e\udd24\ud83e\udd24",
+                                        "viewer_has_liked": false
+                                    }
+                                }
+                            ],
+                            "page_info": {
+                                "end_cursor": "QVFDVHhtMFNxdkJMa2xZWGhjT2NpWk5Xa002RE1ZZ19DZVBuZUJJNEl2NzBGLTZlVDk4aWZLR01XV1FneXRua1VRNlVaanR1bV9OSG95SVJYUjhaVHVhVg==",
+                                "has_next_page": true
+                            }
+                        },
+                        "id": "18034506938567570",
+                        "is_restricted_pending": false,
+                        "owner": {
+                            "id": "257896002",
+                            "is_verified": false,
+                            "profile_pic_url": "https://scontent-msp1-1.cdninstagram.com/v/t51.2885-19/412688991_1351035908866939_5890285171129533650_n.jpg?stp=dst-jpg_s150x150_tt6&_nc_ht=scontent-msp1-1.cdninstagram.com&_nc_cat=107&_nc_oc=Q6cZ2AGEJokpbxevQbOuShuZ2yDPz_2yuNpBoiswaS1ZCZLn771gxwxus5umaK1-caoICQw&_nc_ohc=rn0vA7TWv0cQ7kNvgHKcoZ8&_nc_gid=d7abdc2d03804cf485e9c6883a504455&edm=ANTKIIoBAAAA&ccb=7-5&oh=00_AYDnstgSzZpd2oBSagpOj-SQNTzTTIis917Rzl19jgggtw&oe=67C3EC35&_nc_sid=d885a2",
+                            "username": "farisalmomen"
+                        },
+                        "text": "The kicker is, a lot of women hate women too. A lot of them are the ones who raise boys to be like this. And a lot of them clearly continue to vote against their own self interest. I have a female relative that refuses to see women doctors and once got off a plane because she noticed that the pilot was a woman lol. She does not trust them to be capable at their jobs. Wild",
+                        "viewer_has_liked": false
+                    }
+                },
+                {
+                    "node": {
+                        "created_at": 1739310075,
+                        "did_report_as_spam": false,
+                        "edge_liked_by": {
+                            "count": 478
+                        },
+                        "edge_threaded_comments": {
+                            "count": 2,
+                            "edges": [
+                                {
+                                    "node": {
+                                        "created_at": 1739310132,
+                                        "did_report_as_spam": false,
+                                        "edge_liked_by": {
+                                            "count": 18
+                                        },
+                                        "id": "18059024692949524",
+                                        "is_restricted_pending": false,
+                                        "owner": {
+                                            "id": "216278087",
+                                            "is_verified": false,
+                                            "profile_pic_url": "https://scontent-msp1-1.cdninstagram.com/v/t51.2885-19/472606696_1342322760123227_5978037603846662233_n.jpg?stp=dst-jpg_s150x150_tt6&_nc_ht=scontent-msp1-1.cdninstagram.com&_nc_cat=111&_nc_oc=Q6cZ2AGEJokpbxevQbOuShuZ2yDPz_2yuNpBoiswaS1ZCZLn771gxwxus5umaK1-caoICQw&_nc_ohc=OlozSIwuvTgQ7kNvgF1ctME&_nc_gid=d7abdc2d03804cf485e9c6883a504455&edm=ANTKIIoBAAAA&ccb=7-5&oh=00_AYAlR6WRBt2_hYELhVDLUIzsquvN_Bw2IOtPXiVcLWdLNQ&oe=67C3F80B&_nc_sid=d885a2",
+                                            "username": "dialatricia"
+                                        },
+                                        "text": "@dialatricia oh yeah, and disliked women from the office!",
+                                        "viewer_has_liked": false
+                                    }
+                                },
+                                {
+                                    "node": {
+                                        "created_at": 1739352521,
+                                        "did_report_as_spam": false,
+                                        "edge_liked_by": {
+                                            "count": 23
+                                        },
+                                        "id": "17888366511193627",
+                                        "is_restricted_pending": false,
+                                        "owner": {
+                                            "id": "407564372",
+                                            "is_verified": false,
+                                            "profile_pic_url": "https://scontent-msp1-1.cdninstagram.com/v/t51.2885-19/11312202_379416388934639_960970847_a.jpg?stp=dst-jpg_s150x150_tt6&_nc_ht=scontent-msp1-1.cdninstagram.com&_nc_cat=111&_nc_oc=Q6cZ2AGEJokpbxevQbOuShuZ2yDPz_2yuNpBoiswaS1ZCZLn771gxwxus5umaK1-caoICQw&_nc_ohc=YAg73PdrN6UQ7kNvgGAd4vA&_nc_gid=d7abdc2d03804cf485e9c6883a504455&edm=ANTKIIoBAAAA&ccb=7-5&oh=00_AYBfzc3Q1mMLSCTNpIC3ICKw5QvyMHChqyS3ICmgdb54uw&oe=67C3ED90&_nc_sid=d885a2",
+                                            "username": "catherineannmcguffygan"
+                                        },
+                                        "text": "@dialatricia especially if they ate outspoken, step out of line or not as young as they used to be.",
+                                        "viewer_has_liked": false
+                                    }
+                                }
+                            ],
+                            "page_info": {
+                                "end_cursor": null,
+                                "has_next_page": false
+                            }
+                        },
+                        "id": "18444955492074115",
+                        "is_restricted_pending": false,
+                        "owner": {
+                            "id": "216278087",
+                            "is_verified": false,
+                            "profile_pic_url": "https://scontent-msp1-1.cdninstagram.com/v/t51.2885-19/472606696_1342322760123227_5978037603846662233_n.jpg?stp=dst-jpg_s150x150_tt6&_nc_ht=scontent-msp1-1.cdninstagram.com&_nc_cat=111&_nc_oc=Q6cZ2AGEJokpbxevQbOuShuZ2yDPz_2yuNpBoiswaS1ZCZLn771gxwxus5umaK1-caoICQw&_nc_ohc=OlozSIwuvTgQ7kNvgF1ctME&_nc_gid=d7abdc2d03804cf485e9c6883a504455&edm=ANTKIIoBAAAA&ccb=7-5&oh=00_AYAlR6WRBt2_hYELhVDLUIzsquvN_Bw2IOtPXiVcLWdLNQ&oe=67C3F80B&_nc_sid=d885a2",
+                            "username": "dialatricia"
+                        },
+                        "text": "Gawd, how many times I\u2019ve heard men  dislike women actresses, politicians, athletes, artists, musicians, etc.",
+                        "viewer_has_liked": false
+                    }
+                },
+                {
+                    "node": {
+                        "created_at": 1739478014,
+                        "did_report_as_spam": false,
+                        "edge_liked_by": {
+                            "count": 195
+                        },
+                        "edge_threaded_comments": {
+                            "count": 7,
+                            "edges": [
+                                {
+                                    "node": {
+                                        "created_at": 1740385787,
+                                        "did_report_as_spam": false,
+                                        "edge_liked_by": {
+                                            "count": 1
+                                        },
+                                        "id": "17886624393211553",
+                                        "is_restricted_pending": false,
+                                        "owner": {
+                                            "id": "256955536",
+                                            "is_verified": false,
+                                            "profile_pic_url": "https://scontent-msp1-1.cdninstagram.com/v/t51.2885-19/14134955_642254679267199_1719999154_a.jpg?stp=dst-jpg_s150x150_tt6&_nc_ht=scontent-msp1-1.cdninstagram.com&_nc_cat=107&_nc_oc=Q6cZ2AGEJokpbxevQbOuShuZ2yDPz_2yuNpBoiswaS1ZCZLn771gxwxus5umaK1-caoICQw&_nc_ohc=Ym9qXyR-5Z4Q7kNvgGUeui_&_nc_gid=d7abdc2d03804cf485e9c6883a504455&edm=ANTKIIoBAAAA&ccb=7-5&oh=00_AYDuzcnnFrjqfFwAgk33Msy7yDhmwTYf3w2tLbEem7uF9A&oe=67C3EA51&_nc_sid=d885a2",
+                                            "username": "renzpee"
+                                        },
+                                        "text": "Actually lots of cis women do not like trans women or  effeminate men. Like detest them and do not view them as kin",
+                                        "viewer_has_liked": false
+                                    }
+                                },
+                                {
+                                    "node": {
+                                        "created_at": 1740402081,
+                                        "did_report_as_spam": false,
+                                        "edge_liked_by": {
+                                            "count": 0
+                                        },
+                                        "id": "17858935827368159",
+                                        "is_restricted_pending": false,
+                                        "owner": {
+                                            "id": "506859479",
+                                            "is_verified": false,
+                                            "profile_pic_url": "https://scontent-msp1-1.cdninstagram.com/v/t51.2885-19/466059133_3866038723665357_5950026817922484196_n.jpg?stp=dst-jpg_s150x150_tt6&_nc_ht=scontent-msp1-1.cdninstagram.com&_nc_cat=109&_nc_oc=Q6cZ2AGEJokpbxevQbOuShuZ2yDPz_2yuNpBoiswaS1ZCZLn771gxwxus5umaK1-caoICQw&_nc_ohc=EltyPrCBuwwQ7kNvgGwYDza&_nc_gid=d7abdc2d03804cf485e9c6883a504455&edm=ANTKIIoBAAAA&ccb=7-5&oh=00_AYBRwEnkqvLq4rconDhnMEtCRV9BeB0gPZalejl-Chug2g&oe=67C3EC60&_nc_sid=d885a2",
+                                            "username": "ontetheartist"
+                                        },
+                                        "text": "@renzpee Ive noticed. Those same women often hate other cis women too. And tend to just be bitter jealous individuals all together \ud83e\udd37\ud83c\udffe\u200d\u2640\ufe0f",
+                                        "viewer_has_liked": false
+                                    }
+                                },
+                                {
+                                    "node": {
+                                        "created_at": 1740483092,
+                                        "did_report_as_spam": false,
+                                        "edge_liked_by": {
+                                            "count": 1
+                                        },
+                                        "id": "18053190913908394",
+                                        "is_restricted_pending": false,
+                                        "owner": {
+                                            "id": "316430539",
+                                            "is_verified": false,
+                                            "profile_pic_url": "https://scontent-msp1-1.cdninstagram.com/v/t51.2885-19/11850332_1480925628886477_1068185550_a.jpg?stp=dst-jpg_s150x150_tt6&_nc_ht=scontent-msp1-1.cdninstagram.com&_nc_cat=101&_nc_oc=Q6cZ2AGEJokpbxevQbOuShuZ2yDPz_2yuNpBoiswaS1ZCZLn771gxwxus5umaK1-caoICQw&_nc_ohc=O5SRCRMBa6QQ7kNvgGs4XY6&_nc_gid=d7abdc2d03804cf485e9c6883a504455&edm=ANTKIIoBAAAA&ccb=7-5&oh=00_AYAG4WtASkMXwCprd53itIx5LFyLR-21X1lU7kncqckE5A&oe=67C3E805&_nc_sid=d885a2",
+                                            "username": "ldad264"
+                                        },
+                                        "text": "I'd argue that this why the hate is focused on trans women more than trans men. They can understand why a woman would want to be a man, they can not compute a man wanting to be a woman",
+                                        "viewer_has_liked": false
+                                    }
+                                }
+                            ],
+                            "page_info": {
+                                "end_cursor": "QVFDaHJ4eFZkbC1QODFwaTFOUEp6SFUxQUt1dm02Y2lpUFE3Z1lsSy1DR2M4VVp6ZXFYS0w4MkpMaTk3ZjMtbV93dWVEYTJjUF9lUnJtT2dMbnJwMWlwUQ==",
+                                "has_next_page": true
+                            }
+                        },
+                        "id": "18061880695933218",
+                        "is_restricted_pending": false,
+                        "owner": {
+                            "id": "506859479",
+                            "is_verified": false,
+                            "profile_pic_url": "https://scontent-msp1-1.cdninstagram.com/v/t51.2885-19/466059133_3866038723665357_5950026817922484196_n.jpg?stp=dst-jpg_s150x150_tt6&_nc_ht=scontent-msp1-1.cdninstagram.com&_nc_cat=109&_nc_oc=Q6cZ2AGEJokpbxevQbOuShuZ2yDPz_2yuNpBoiswaS1ZCZLn771gxwxus5umaK1-caoICQw&_nc_ohc=EltyPrCBuwwQ7kNvgGwYDza&_nc_gid=d7abdc2d03804cf485e9c6883a504455&edm=ANTKIIoBAAAA&ccb=7-5&oh=00_AYBRwEnkqvLq4rconDhnMEtCRV9BeB0gPZalejl-Chug2g&oe=67C3EC60&_nc_sid=d885a2",
+                            "username": "ontetheartist"
+                        },
+                        "text": "That\u2019s also why feminine men/trans get SO much hate because we ACTUALLY like women, but as sisters lol \ud83e\udd37\ud83c\udffe\u200d\u2640\ufe0f\n\nUnfortunately it makes those same women-hating men recognize something in themselves when the see a \ud83d\udc85\ud83c\udffeman or beautiful and confident women. \n\nThey are jealous of the attention we get from men, even if it\u2019s unsolicited. They\u2019d rather have it for themselves \ud83d\ude42\u200d\u2195\ufe0f\n\nLots of \u201cstraight\u201d guys are dl \ud83d\udc40",
+                        "viewer_has_liked": false
+                    }
+                },
+                {
+                    "node": {
+                        "created_at": 1739473464,
+                        "did_report_as_spam": false,
+                        "edge_liked_by": {
+                            "count": 61
+                        },
+                        "edge_threaded_comments": {
+                            "count": 1,
+                            "edges": [
+                                {
+                                    "node": {
+                                        "created_at": 1739543396,
+                                        "did_report_as_spam": false,
+                                        "edge_liked_by": {
+                                            "count": 1
+                                        },
+                                        "id": "18045088163058680",
+                                        "is_restricted_pending": false,
+                                        "owner": {
+                                            "id": "1824891363",
+                                            "is_verified": false,
+                                            "profile_pic_url": "https://scontent-msp1-1.cdninstagram.com/v/t51.2885-19/409447108_1342202599737511_630827134309610777_n.jpg?stp=dst-jpg_s150x150_tt6&_nc_ht=scontent-msp1-1.cdninstagram.com&_nc_cat=107&_nc_oc=Q6cZ2AGEJokpbxevQbOuShuZ2yDPz_2yuNpBoiswaS1ZCZLn771gxwxus5umaK1-caoICQw&_nc_ohc=I4_WRY6atu0Q7kNvgF1Ojxw&_nc_gid=d7abdc2d03804cf485e9c6883a504455&edm=ANTKIIoBAAAA&ccb=7-5&oh=00_AYCTDjyt5Oz02EndeEEMEo4Ud87uSC6V8dMy385Ry5GYHg&oe=67C3E53D&_nc_sid=d885a2",
+                                            "username": "thesweetestfix_tia"
+                                        },
+                                        "text": "True this is what I realised in my life",
+                                        "viewer_has_liked": false
+                                    }
+                                }
+                            ],
+                            "page_info": {
+                                "end_cursor": null,
+                                "has_next_page": false
+                            }
+                        },
+                        "id": "18020841440452379",
+                        "is_restricted_pending": false,
+                        "owner": {
+                            "id": "4976215873",
+                            "is_verified": false,
+                            "profile_pic_url": "https://scontent-msp1-1.cdninstagram.com/v/t51.2885-19/305967949_5416628178414212_4596879383929030573_n.jpg?stp=dst-jpg_s150x150_tt6&_nc_ht=scontent-msp1-1.cdninstagram.com&_nc_cat=108&_nc_oc=Q6cZ2AGEJokpbxevQbOuShuZ2yDPz_2yuNpBoiswaS1ZCZLn771gxwxus5umaK1-caoICQw&_nc_ohc=hx6lsrePIRQQ7kNvgFCj4Qs&_nc_gid=d7abdc2d03804cf485e9c6883a504455&edm=ANTKIIoBAAAA&ccb=7-5&oh=00_AYBr6ypzac_VJWDLoQE8sIpoX29Ji4_6DMqPSdVb5plpAA&oe=67C3E385&_nc_sid=d885a2",
+                            "username": "globetrotting_enthusiast"
+                        },
+                        "text": "Omg I keep saying this to my friends but it\u2019s the first time I heard an explanation. Thank you!",
+                        "viewer_has_liked": false
+                    }
+                },
+                {
+                    "node": {
+                        "created_at": 1739474040,
+                        "did_report_as_spam": false,
+                        "edge_liked_by": {
+                            "count": 352
+                        },
+                        "edge_threaded_comments": {
+                            "count": 4,
+                            "edges": [
+                                {
+                                    "node": {
+                                        "created_at": 1740354632,
+                                        "did_report_as_spam": false,
+                                        "edge_liked_by": {
+                                            "count": 0
+                                        },
+                                        "id": "17922714087043966",
+                                        "is_restricted_pending": false,
+                                        "owner": {
+                                            "id": "1331571672",
+                                            "is_verified": false,
+                                            "profile_pic_url": "https://scontent-msp1-1.cdninstagram.com/v/t51.2885-19/340805432_653651519905374_2619899248434307745_n.jpg?stp=dst-jpg_s150x150_tt6&_nc_ht=scontent-msp1-1.cdninstagram.com&_nc_cat=106&_nc_oc=Q6cZ2AGEJokpbxevQbOuShuZ2yDPz_2yuNpBoiswaS1ZCZLn771gxwxus5umaK1-caoICQw&_nc_ohc=sCdrLfOz_NYQ7kNvgEfjU8Z&_nc_gid=d7abdc2d03804cf485e9c6883a504455&edm=ANTKIIoBAAAA&ccb=7-5&oh=00_AYAtp73maDEOWj-urQgq19ymR1lUZs6uzl0A3wG_yDaJXw&oe=67C40DB9&_nc_sid=d885a2",
+                                            "username": "james_drahos"
+                                        },
+                                        "text": "@kaceymeyer was looking for this comment. What happens when the women of the society impose these standards on men.",
+                                        "viewer_has_liked": false
+                                    }
+                                },
+                                {
+                                    "node": {
+                                        "created_at": 1740367969,
+                                        "did_report_as_spam": false,
+                                        "edge_liked_by": {
+                                            "count": 0
+                                        },
+                                        "id": "18052550830922492",
+                                        "is_restricted_pending": false,
+                                        "owner": {
+                                            "id": "56070822434",
+                                            "is_verified": false,
+                                            "profile_pic_url": "https://scontent-msp1-1.cdninstagram.com/v/t51.2885-19/476004984_1140855304215320_3068704837707528361_n.jpg?stp=dst-jpg_s150x150_tt6&_nc_ht=scontent-msp1-1.cdninstagram.com&_nc_cat=108&_nc_oc=Q6cZ2AGEJokpbxevQbOuShuZ2yDPz_2yuNpBoiswaS1ZCZLn771gxwxus5umaK1-caoICQw&_nc_ohc=wdrwv-Bk8-wQ7kNvgHlcyXj&_nc_gid=d7abdc2d03804cf485e9c6883a504455&edm=ANTKIIoBAAAA&ccb=7-5&oh=00_AYB2gb13hlkVpveNxhlJ21fEDFSs2FUpMEysLWgAVJF8Eg&oe=67C3E9BC&_nc_sid=d885a2",
+                                            "username": "kaceymeyer"
+                                        },
+                                        "text": "@james_drahos you\u2019re kinda missing the entire point.",
+                                        "viewer_has_liked": false
+                                    }
+                                },
+                                {
+                                    "node": {
+                                        "created_at": 1740368420,
+                                        "did_report_as_spam": false,
+                                        "edge_liked_by": {
+                                            "count": 0
+                                        },
+                                        "id": "18092209582547687",
+                                        "is_restricted_pending": false,
+                                        "owner": {
+                                            "id": "1331571672",
+                                            "is_verified": false,
+                                            "profile_pic_url": "https://scontent-msp1-1.cdninstagram.com/v/t51.2885-19/340805432_653651519905374_2619899248434307745_n.jpg?stp=dst-jpg_s150x150_tt6&_nc_ht=scontent-msp1-1.cdninstagram.com&_nc_cat=106&_nc_oc=Q6cZ2AGEJokpbxevQbOuShuZ2yDPz_2yuNpBoiswaS1ZCZLn771gxwxus5umaK1-caoICQw&_nc_ohc=sCdrLfOz_NYQ7kNvgEfjU8Z&_nc_gid=d7abdc2d03804cf485e9c6883a504455&edm=ANTKIIoBAAAA&ccb=7-5&oh=00_AYAtp73maDEOWj-urQgq19ymR1lUZs6uzl0A3wG_yDaJXw&oe=67C40DB9&_nc_sid=d885a2",
+                                            "username": "james_drahos"
+                                        },
+                                        "text": "@kaceymeyer your point or hers? I understand the woman's video because I've witnessed the behaviour she describes. I understood your comment as certain women themselves also pushing this masculine stereotype forward, because I have also witnessed that.",
+                                        "viewer_has_liked": false
+                                    }
+                                }
+                            ],
+                            "page_info": {
+                                "end_cursor": "QVFEMFVNNlpKemFJbzByNGJfS0cxTlFzMnY0YS1QVU1SeFVreEJPT3VlQjZfUkR5M3Q0VW03aHRDcE96YURZeFpJaEJoQUsxcGJjRDBZcTl2RVhfZG1Seg==",
+                                "has_next_page": true
+                            }
+                        },
+                        "id": "18054584831120928",
+                        "is_restricted_pending": false,
+                        "owner": {
+                            "id": "56070822434",
+                            "is_verified": false,
+                            "profile_pic_url": "https://scontent-msp1-1.cdninstagram.com/v/t51.2885-19/476004984_1140855304215320_3068704837707528361_n.jpg?stp=dst-jpg_s150x150_tt6&_nc_ht=scontent-msp1-1.cdninstagram.com&_nc_cat=108&_nc_oc=Q6cZ2AGEJokpbxevQbOuShuZ2yDPz_2yuNpBoiswaS1ZCZLn771gxwxus5umaK1-caoICQw&_nc_ohc=wdrwv-Bk8-wQ7kNvgHlcyXj&_nc_gid=d7abdc2d03804cf485e9c6883a504455&edm=ANTKIIoBAAAA&ccb=7-5&oh=00_AYB2gb13hlkVpveNxhlJ21fEDFSs2FUpMEysLWgAVJF8Eg&oe=67C3E9BC&_nc_sid=d885a2",
+                            "username": "kaceymeyer"
+                        },
+                        "text": "Not to mention the internalized misogyny women get from this culture",
+                        "viewer_has_liked": false
+                    }
+                },
+                {
+                    "node": {
+                        "created_at": 1739361346,
+                        "did_report_as_spam": false,
+                        "edge_liked_by": {
+                            "count": 1
+                        },
+                        "edge_threaded_comments": {
+                            "count": 0,
+                            "edges": [],
+                            "page_info": {
+                                "end_cursor": null,
+                                "has_next_page": false
+                            }
+                        },
+                        "id": "18031347851302926",
+                        "is_restricted_pending": false,
+                        "owner": {
+                            "id": "184714417",
+                            "is_verified": false,
+                            "profile_pic_url": "https://scontent-msp1-1.cdninstagram.com/v/t51.2885-19/465987097_2225598561173055_7795626628771821760_n.jpg?stp=dst-jpg_s150x150_tt6&_nc_ht=scontent-msp1-1.cdninstagram.com&_nc_cat=103&_nc_oc=Q6cZ2AGEJokpbxevQbOuShuZ2yDPz_2yuNpBoiswaS1ZCZLn771gxwxus5umaK1-caoICQw&_nc_ohc=BOyr0uQWjG8Q7kNvgFNY6Ve&_nc_gid=d7abdc2d03804cf485e9c6883a504455&edm=ANTKIIoBAAAA&ccb=7-5&oh=00_AYBCX8Sxo44jQiSzb4qSPHEjNXDFN0mCrpO6oHVHK5z_7g&oe=67C3E7BA&_nc_sid=d885a2",
+                            "username": "dianalr7"
+                        },
+                        "text": "",
+                        "viewer_has_liked": false
+                    }
+                },
+                {
+                    "node": {
+                        "created_at": 1739602192,
+                        "did_report_as_spam": false,
+                        "edge_liked_by": {
+                            "count": 20
+                        },
+                        "edge_threaded_comments": {
+                            "count": 0,
+                            "edges": [],
+                            "page_info": {
+                                "end_cursor": null,
+                                "has_next_page": false
+                            }
+                        },
+                        "id": "18013836191505620",
+                        "is_restricted_pending": false,
+                        "owner": {
+                            "id": "55519385837",
+                            "is_verified": false,
+                            "profile_pic_url": "https://scontent-msp1-1.cdninstagram.com/v/t51.2885-19/480342194_1167652158094603_5631962854652613327_n.jpg?stp=dst-jpg_s150x150_tt6&_nc_ht=scontent-msp1-1.cdninstagram.com&_nc_cat=1&_nc_oc=Q6cZ2AGEJokpbxevQbOuShuZ2yDPz_2yuNpBoiswaS1ZCZLn771gxwxus5umaK1-caoICQw&_nc_ohc=WxnJ0zJxP6gQ7kNvgGeHNq_&_nc_gid=d7abdc2d03804cf485e9c6883a504455&edm=ANTKIIoBAAAA&ccb=7-5&oh=00_AYAELZmoIPREV0MiPxK4PbxBP03jzDrWzEOsjtMir46FJQ&oe=67C3FA0C&_nc_sid=d885a2",
+                            "username": "thomas.earl.speers"
+                        },
+                        "text": "I had no father figure and never hung out with groups of guys. My strongest and best friendships have always been girls and women.",
+                        "viewer_has_liked": false
+                    }
+                },
+                {
+                    "node": {
+                        "created_at": 1739482810,
+                        "did_report_as_spam": false,
+                        "edge_liked_by": {
+                            "count": 1131
+                        },
+                        "edge_threaded_comments": {
+                            "count": 10,
+                            "edges": [
+                                {
+                                    "node": {
+                                        "created_at": 1740244769,
+                                        "did_report_as_spam": false,
+                                        "edge_liked_by": {
+                                            "count": 4
+                                        },
+                                        "id": "18001874210724232",
+                                        "is_restricted_pending": false,
+                                        "owner": {
+                                            "id": "2584949187",
+                                            "is_verified": false,
+                                            "profile_pic_url": "https://scontent-msp1-1.cdninstagram.com/v/t51.2885-19/244628516_565418741201790_8978384461187881752_n.jpg?stp=dst-jpg_s150x150_tt6&_nc_ht=scontent-msp1-1.cdninstagram.com&_nc_cat=106&_nc_oc=Q6cZ2AGEJokpbxevQbOuShuZ2yDPz_2yuNpBoiswaS1ZCZLn771gxwxus5umaK1-caoICQw&_nc_ohc=9nActlPJVOgQ7kNvgG3Nr7P&_nc_gid=d7abdc2d03804cf485e9c6883a504455&edm=ANTKIIoBAAAA&ccb=7-5&oh=00_AYBY3MV0mQUZ96cS2EH2wZedK3xNS00V6HjhQGAVPIFKqA&oe=67C41079&_nc_sid=d885a2",
+                                            "username": "mirykoach"
+                                        },
+                                        "text": "@shrinkiesxwife actually,  I think that many men don't even like sex, they're just looking for physical relief,  using women as warmer inflatable dolls",
+                                        "viewer_has_liked": false
+                                    }
+                                },
+                                {
+                                    "node": {
+                                        "created_at": 1740385293,
+                                        "did_report_as_spam": false,
+                                        "edge_liked_by": {
+                                            "count": 1
+                                        },
+                                        "id": "18139537990347671",
+                                        "is_restricted_pending": false,
+                                        "owner": {
+                                            "id": "2330052380",
+                                            "is_verified": false,
+                                            "profile_pic_url": "https://scontent-msp1-1.cdninstagram.com/v/t51.2885-19/297853768_1497594647342950_1305178796681249074_n.jpg?stp=dst-jpg_s150x150_tt6&_nc_ht=scontent-msp1-1.cdninstagram.com&_nc_cat=110&_nc_oc=Q6cZ2AGEJokpbxevQbOuShuZ2yDPz_2yuNpBoiswaS1ZCZLn771gxwxus5umaK1-caoICQw&_nc_ohc=DnTgMfbB1_oQ7kNvgG3HHZy&_nc_gid=d7abdc2d03804cf485e9c6883a504455&edm=ANTKIIoBAAAA&ccb=7-5&oh=00_AYCzqUdOB0-iMEuovFWe1in8tOr5SkhgMxU8jcoGDX4Z9Q&oe=67C41001&_nc_sid=d885a2",
+                                            "username": "uthingolwenkosazana"
+                                        },
+                                        "text": "@shrinkiesxwife i doubt they even like sex with women. they just want a warm body (in some instances even a cold body).",
+                                        "viewer_has_liked": false
+                                    }
+                                },
+                                {
+                                    "node": {
+                                        "created_at": 1740508810,
+                                        "did_report_as_spam": false,
+                                        "edge_liked_by": {
+                                            "count": 0
+                                        },
+                                        "id": "18000938018737738",
+                                        "is_restricted_pending": false,
+                                        "owner": {
+                                            "id": "612685089",
+                                            "is_verified": false,
+                                            "profile_pic_url": "https://scontent-msp1-1.cdninstagram.com/v/t51.2885-19/475072668_2423124551397805_8303078308761891540_n.jpg?stp=dst-jpg_s150x150_tt6&_nc_ht=scontent-msp1-1.cdninstagram.com&_nc_cat=101&_nc_oc=Q6cZ2AGEJokpbxevQbOuShuZ2yDPz_2yuNpBoiswaS1ZCZLn771gxwxus5umaK1-caoICQw&_nc_ohc=bqroZifHhVkQ7kNvgFVGGqN&_nc_gid=d7abdc2d03804cf485e9c6883a504455&edm=ANTKIIoBAAAA&ccb=7-5&oh=00_AYCGB1COb9-WWGl0IFDbfEZoF-UZzDwkp5yxY9l4XS7H4A&oe=67C3DFF8&_nc_sid=d885a2",
+                                            "username": "yourfreespirit"
+                                        },
+                                        "text": "@shrinkiesxwife yes. \ud83d\udcaf",
+                                        "viewer_has_liked": false
+                                    }
+                                }
+                            ],
+                            "page_info": {
+                                "end_cursor": "QVFDRzI3V05PblFBTHdkYTFzS2gtTnJ1VEtNVmdEcGNnN0RfZ05tbHd1bk5lXzZzak1aY2E4bmRWaDJjdmp3SWRUSURkRGFxR2FVQTZ5elhOemZzQkVfNQ==",
+                                "has_next_page": true
+                            }
+                        },
+                        "id": "17897930040134480",
+                        "is_restricted_pending": false,
+                        "owner": {
+                            "id": "38372730",
+                            "is_verified": false,
+                            "profile_pic_url": "https://scontent-msp1-1.cdninstagram.com/v/t51.2885-19/465750427_1111311137175567_1820138949905759152_n.jpg?stp=dst-jpg_s150x150_tt6&_nc_ht=scontent-msp1-1.cdninstagram.com&_nc_cat=103&_nc_oc=Q6cZ2AGEJokpbxevQbOuShuZ2yDPz_2yuNpBoiswaS1ZCZLn771gxwxus5umaK1-caoICQw&_nc_ohc=qYOflsNZBbcQ7kNvgGGMNTj&_nc_gid=d7abdc2d03804cf485e9c6883a504455&edm=ANTKIIoBAAAA&ccb=7-5&oh=00_AYDdklfl30b5U_Yfl9Fus-aHbognjT5l0fMS5gqSV22Qvg&oe=67C3DB1F&_nc_sid=d885a2",
+                            "username": "shrinkiesxwife"
+                        },
+                        "text": "The more I read online comments, the more I realize many men \u2018like seggs *WITH* women\u2019 - but \u2018don\u2019t actually LIKE women\u2019.",
+                        "viewer_has_liked": false
+                    }
+                },
+                {
+                    "node": {
+                        "created_at": 1739464979,
+                        "did_report_as_spam": false,
+                        "edge_liked_by": {
+                            "count": 421
+                        },
+                        "edge_threaded_comments": {
+                            "count": 0,
+                            "edges": [],
+                            "page_info": {
+                                "end_cursor": null,
+                                "has_next_page": false
+                            }
+                        },
+                        "id": "17960994443894477",
+                        "is_restricted_pending": false,
+                        "owner": {
+                            "id": "35127370190",
+                            "is_verified": false,
+                            "profile_pic_url": "https://scontent-msp1-1.cdninstagram.com/v/t51.2885-19/431309978_2138335463170191_3581272556517176424_n.jpg?stp=dst-jpg_s150x150_tt6&_nc_ht=scontent-msp1-1.cdninstagram.com&_nc_cat=103&_nc_oc=Q6cZ2AGEJokpbxevQbOuShuZ2yDPz_2yuNpBoiswaS1ZCZLn771gxwxus5umaK1-caoICQw&_nc_ohc=v0edFFo8zFYQ7kNvgHrEgWz&_nc_gid=d7abdc2d03804cf485e9c6883a504455&edm=ANTKIIoBAAAA&ccb=7-5&oh=00_AYAb1R2zAzIRbobJGCzWM31CvGG1gDghDVPUFk0QUTCeXg&oe=67C41128&_nc_sid=d885a2",
+                            "username": "pantonniann"
+                        },
+                        "text": "Men in the comment section proving her point is just what I'm here for",
+                        "viewer_has_liked": false
+                    }
+                },
+                {
+                    "node": {
+                        "created_at": 1739933673,
+                        "did_report_as_spam": false,
+                        "edge_liked_by": {
+                            "count": 31
+                        },
+                        "edge_threaded_comments": {
+                            "count": 0,
+                            "edges": [],
+                            "page_info": {
+                                "end_cursor": null,
+                                "has_next_page": false
+                            }
+                        },
+                        "id": "17899281726106285",
+                        "is_restricted_pending": false,
+                        "owner": {
+                            "id": "278465790",
+                            "is_verified": false,
+                            "profile_pic_url": "https://scontent-msp1-1.cdninstagram.com/v/t51.2885-19/446111594_1093437698415067_226651765777094693_n.jpg?stp=dst-jpg_s150x150_tt6&_nc_ht=scontent-msp1-1.cdninstagram.com&_nc_cat=107&_nc_oc=Q6cZ2AGEJokpbxevQbOuShuZ2yDPz_2yuNpBoiswaS1ZCZLn771gxwxus5umaK1-caoICQw&_nc_ohc=msD25UZGCP8Q7kNvgEmWk5z&_nc_gid=d7abdc2d03804cf485e9c6883a504455&edm=ANTKIIoBAAAA&ccb=7-5&oh=00_AYA5_cMkC4UsS3AF5beJZjC2HGU23JCkUnDvTNiBPUAvUA&oe=67C3EEEF&_nc_sid=d885a2",
+                            "username": "lalalariiizaaa"
+                        },
+                        "text": "I also see this can manifest as internal misogyny among women.",
+                        "viewer_has_liked": false
+                    }
+                },
+                {
+                    "node": {
+                        "created_at": 1739300502,
+                        "did_report_as_spam": false,
+                        "edge_liked_by": {
+                            "count": 80
+                        },
+                        "edge_threaded_comments": {
+                            "count": 0,
+                            "edges": [],
+                            "page_info": {
+                                "end_cursor": null,
+                                "has_next_page": false
+                            }
+                        },
+                        "id": "17956090439909886",
+                        "is_restricted_pending": false,
+                        "owner": {
+                            "id": "65191304274",
+                            "is_verified": false,
+                            "profile_pic_url": "https://scontent-msp1-1.cdninstagram.com/v/t51.2885-19/430290989_265865839791317_7405658481181317890_n.jpg?stp=dst-jpg_s150x150_tt6&_nc_ht=scontent-msp1-1.cdninstagram.com&_nc_cat=105&_nc_oc=Q6cZ2AGEJokpbxevQbOuShuZ2yDPz_2yuNpBoiswaS1ZCZLn771gxwxus5umaK1-caoICQw&_nc_ohc=t8mKWLqJIkIQ7kNvgF_TwsH&_nc_gid=d7abdc2d03804cf485e9c6883a504455&edm=ANTKIIoBAAAA&ccb=7-5&oh=00_AYAQ3jEQkZI9n3T7YW7niSi3cgjykRgbkcPS28fYvxN6Bg&oe=67C3FA5A&_nc_sid=d885a2",
+                            "username": "teresaandrade712"
+                        },
+                        "text": "They instill the hatred in little boys and some of them never grow up. They also instill fear of predators in little girls to counteract the hate. It\u2019s a sad society.",
+                        "viewer_has_liked": false
+                    }
+                },
+                {
+                    "node": {
+                        "created_at": 1739483119,
+                        "did_report_as_spam": false,
+                        "edge_liked_by": {
+                            "count": 4
+                        },
+                        "edge_threaded_comments": {
+                            "count": 0,
+                            "edges": [],
+                            "page_info": {
+                                "end_cursor": null,
+                                "has_next_page": false
+                            }
+                        },
+                        "id": "18044566232519674",
+                        "is_restricted_pending": false,
+                        "owner": {
+                            "id": "6949489173",
+                            "is_verified": false,
+                            "profile_pic_url": "https://scontent-msp1-1.cdninstagram.com/v/t51.2885-19/473702332_583273271172613_2580965284769409073_n.jpg?stp=dst-jpg_s150x150_tt6&_nc_ht=scontent-msp1-1.cdninstagram.com&_nc_cat=101&_nc_oc=Q6cZ2AGEJokpbxevQbOuShuZ2yDPz_2yuNpBoiswaS1ZCZLn771gxwxus5umaK1-caoICQw&_nc_ohc=tvB8SOtA8EcQ7kNvgFrEPHR&_nc_gid=d7abdc2d03804cf485e9c6883a504455&edm=ANTKIIoBAAAA&ccb=7-5&oh=00_AYBvBllu4_deH5sS73QVpgG5DE-BxRBsKAyW1EOx3RP_TQ&oe=67C3DE79&_nc_sid=d885a2",
+                            "username": "4evathaprincess"
+                        },
+                        "text": "I tell people often that men want women but not the emotions that come with us, all while telling us to not be so masculine.. You can\u2019t hd r it both ways",
+                        "viewer_has_liked": false
+                    }
+                },
+                {
+                    "node": {
+                        "created_at": 1739476529,
+                        "did_report_as_spam": false,
+                        "edge_liked_by": {
+                            "count": 29
+                        },
+                        "edge_threaded_comments": {
+                            "count": 1,
+                            "edges": [
+                                {
+                                    "node": {
+                                        "created_at": 1739769106,
+                                        "did_report_as_spam": false,
+                                        "edge_liked_by": {
+                                            "count": 1
+                                        },
+                                        "id": "17998078634768230",
+                                        "is_restricted_pending": false,
+                                        "owner": {
+                                            "id": "61416138030",
+                                            "is_verified": false,
+                                            "profile_pic_url": "https://scontent-msp1-1.cdninstagram.com/v/t51.2885-19/376052163_2536793323141617_7603276253866383937_n.jpg?stp=dst-jpg_s150x150_tt6&_nc_ht=scontent-msp1-1.cdninstagram.com&_nc_cat=109&_nc_oc=Q6cZ2AGEJokpbxevQbOuShuZ2yDPz_2yuNpBoiswaS1ZCZLn771gxwxus5umaK1-caoICQw&_nc_ohc=_E-EgLYKWdUQ7kNvgHeEyKa&_nc_gid=d7abdc2d03804cf485e9c6883a504455&edm=ANTKIIoBAAAA&ccb=7-5&oh=00_AYCaWCY31MkCTnzRbYY-C4rXZjk2oysKAbF4vEWQqBOgKQ&oe=67C3EA82&_nc_sid=d885a2",
+                                            "username": "thatdanielbramer"
+                                        },
+                                        "text": "@frauvonwell How are they embarrassing themselves?  Pretend I accuse you of being a space alien sent here to spy on us. You reply, \u201cNot at all!\u201d I say, \u201cProve it.\u201d The problem is, you can\u2019t. What is going on here isn\u2019t science, or grounded in science. It\u2019s rhetoric designed to bait, to entrap, and to further divide. And it\u2019s revolting. No human is capable of proving their innocence with respect to such ludicrous claims about their own existential states. Try it out for yourself and see how it goes. You can\u2019t accuse someone of having a negative internal state and then ask them to prove they don\u2019t have that state. Think about it. Moreover, if it\u2019s wrong when guys do this to women (and it is), it\u2019s exactly as wrong to go the other direction. Let\u2019s all give a little grace and imagine that the other side is actually human, and not filled with poison and treachery. Cheers.",
+                                        "viewer_has_liked": false
+                                    }
+                                }
+                            ],
+                            "page_info": {
+                                "end_cursor": null,
+                                "has_next_page": false
+                            }
+                        },
+                        "id": "18115166605453873",
+                        "is_restricted_pending": false,
+                        "owner": {
+                            "id": "6616691683",
+                            "is_verified": false,
+                            "profile_pic_url": "https://scontent-msp1-1.cdninstagram.com/v/t51.2885-19/162169737_1085514491972162_2120950010563339227_n.jpg?stp=dst-jpg_s150x150_tt6&_nc_ht=scontent-msp1-1.cdninstagram.com&_nc_cat=102&_nc_oc=Q6cZ2AGEJokpbxevQbOuShuZ2yDPz_2yuNpBoiswaS1ZCZLn771gxwxus5umaK1-caoICQw&_nc_ohc=9OYNfuh39bcQ7kNvgFf1h2x&_nc_gid=d7abdc2d03804cf485e9c6883a504455&edm=ANTKIIoBAAAA&ccb=7-5&oh=00_AYA_FuT1vPnLTFSJ_DrqdJR1mHuTMM0OKWBBV52GginrgQ&oe=67C40407&_nc_sid=d885a2",
+                            "username": "frauvonwell"
+                        },
+                        "text": "Thank you, this is very interesting! And the men in the comments crying \"wrong!\" without presenting any arguments whatsoever are just embarrassing themselves.",
+                        "viewer_has_liked": false
+                    }
+                }
+            ],
+            "page_info": {
+                "end_cursor": "{\"cached_comments_cursor\": \"17897750310109846\", \"bifilter_token\": \"KDEBEAAwACAAEAAQAAgACAAIAAgA26ym7E-evKE_farLtL-v9ff_73fPXeeeWMQhIgEQAA==\"}",
+                "has_next_page": true
+            }
+        },
+        "edge_media_to_sponsor_user": {
+            "edges": []
+        },
+        "edge_media_to_tagged_user": {
+            "edges": []
+        },
+        "edge_web_media_to_related_media": {
+            "edges": []
+        },
+        "encoding_status": null,
+        "fact_check_information": null,
+        "fact_check_overall_rating": null,
+        "gating_info": null,
+        "has_audio": true,
+        "has_ranked_comments": true,
+        "id": "3564980110742739231",
+        "iphone_struct": {
+            "are_remixes_crosspostable": true,
+            "avatar_stickers": [],
+            "boost_unavailable_identifier": null,
+            "boost_unavailable_reason": null,
+            "boost_unavailable_reason_v2": null,
+            "can_reply": false,
+            "can_see_insights_as_brand": false,
+            "can_view_more_preview_comments": false,
+            "can_viewer_reshare": true,
+            "can_viewer_save": true,
+            "caption": {
+                "bit_flags": 0,
+                "content_type": "comment",
+                "created_at": 1739198788,
+                "created_at_utc": 1739198788,
+                "did_report_as_spam": false,
+                "is_covered": false,
+                "is_ranked_comment": false,
+                "media_id": 3564980110742739231,
+                "pk": "18464186809066582",
+                "private_reply_status": 0,
+                "share_enabled": false,
+                "status": "Active",
+                "strong_id__": "18464186809066582",
+                "text": "The Biggest Plot Twist About Men No One Talks About\u2026 \ud83e\udd2f\n\nEver wondered why some men seem to want women but don\u2019t actually like them? Turns out, the way boys are raised plays a huge role. Society doesn\u2019t teach them how to be men, it just teaches them not to be like women. \ud83d\udca1\n\n\u274c \"Don't cry, be a man.\"\n\u274c \"Don't be weak, be a man.\"\n\u274c \"Don't like that, it's for girls.\"\n\nAnd the weapon of choice? Shame.\nThey\u2019re taught that being feminine is the worst thing ever. But at the same time, their status is measured by their ability to attract women. See the contradiction? \ud83e\uddd0\n\nNo wonder so many women feel unseen, unheard, and undervalued. Maybe it's time to start asking: Do they truly like women, or just what women can do for them?\n\nLet\u2019s talk. \ud83d\udc47\u2728\n\nSource - domesticblisters\n\n#Feminism #Patriarchy #ToxicMasculinity #MenAndWomen #GenderRoles #MaleSocialization #FemininePower #MasculinityCrisis #BreakingStereotypes #GenderNorms #SocialConditioning #RethinkMasculinity #TorontoRealEstate #GTARealEstate #TorontoHomes #RealEstateToronto #TorontoRealtor #GTABuyers #TorontoHomeBuyers #LuxuryHomesToronto #HomesForSaleToronto #InvestInToronto #RealEstateMarket #MenSupportingWomen #ModernMasculinity #FeminismForAll #UnlearnMisogyny #WomenEmpowerment #TimeForChange",
+                "type": 1,
+                "user": {
+                    "fbid_v2": 17841465237676622,
+                    "full_name": "Feminist Futurist",
+                    "id": "65092982589",
+                    "is_private": false,
+                    "is_unpublished": false,
+                    "is_verified": false,
+                    "pk": 65092982589,
+                    "pk_id": "65092982589",
+                    "profile_pic_id": "3530637918399549948_65092982589",
+                    "profile_pic_url": "https://scontent-msp1-1.cdninstagram.com/v/t51.2885-19/470911515_1843286546475685_7481797267725729573_n.jpg?stp=dst-jpg_e0_s150x150_tt6&_nc_ht=scontent-msp1-1.cdninstagram.com&_nc_cat=1&_nc_oc=Q6cZ2AHot0tACIf2OkV08osFCKnKc7rS0Lx00tjpteMqV-8c_N7mFoe5lxkNaTbJVXzZU2A&_nc_ohc=m0ThPXumFyEQ7kNvgEES1R1&_nc_gid=bbace39539d74fc0871895f81d129267&edm=ALQROFkBAAAA&ccb=7-5&oh=00_AYAZ0R5Vgyv5unxCqUNZIxLFHUEynwMRuG_NQrHDvAe97Q&oe=67C3DCEF&_nc_sid=fc8dfb",
+                    "strong_id__": "65092982589",
+                    "username": "feminist.futurist3"
+                },
+                "user_id": 65092982589
+            },
+            "caption_is_edited": false,
+            "client_cache_key": "MzU2NDk4MDExMDc0MjczOTIzMQ==.3",
+            "clips_metadata": {
+                "achievements_info": {
+                    "num_earned_achievements": null,
+                    "show_achievements": false
+                },
+                "additional_audio_info": {
+                    "additional_audio_username": null,
+                    "audio_reattribution_info": {
+                        "should_allow_restore": false
+                    }
+                },
+                "asset_recommendation_info": null,
+                "audio_ranking_info": {
+                    "best_audio_cluster_id": "1524855484769831"
+                },
+                "audio_type": "original_sounds",
+                "branded_content_tag_info": {
+                    "can_add_tag": false
+                },
+                "breaking_content_info": null,
+                "breaking_creator_info": null,
+                "challenge_info": null,
+                "clips_creation_entry_point": "",
+                "content_appreciation_info": {
+                    "enabled": false,
+                    "entry_point_container": null
+                },
+                "contextual_highlight_info": null,
+                "cutout_sticker_info": [],
+                "disable_use_in_clips_client_cache": false,
+                "external_media_info": null,
+                "featured_label": null,
+                "is_fan_club_promo_video": false,
+                "is_public_chat_welcome_video": false,
+                "is_shared_to_fb": false,
+                "mashup_info": {
+                    "can_toggle_mashups_allowed": false,
+                    "formatted_mashups_count": null,
+                    "has_been_mashed_up": true,
+                    "has_nonmimicable_additional_audio": false,
+                    "is_creator_requesting_mashup": false,
+                    "is_light_weight_check": true,
+                    "is_light_weight_reuse_allowed_check": false,
+                    "is_pivot_page_available": true,
+                    "is_reuse_allowed": false,
+                    "mashup_type": null,
+                    "mashups_allowed": true,
+                    "non_privacy_filtered_mashups_media_count": 18,
+                    "original_media": null,
+                    "privacy_filtered_mashups_media_count": null
+                },
+                "merchandising_pill_info": null,
+                "music_canonical_id": "18484722121060150",
+                "music_info": null,
+                "nux_info": null,
+                "original_sound_info": {
+                    "allow_creator_to_rename": true,
+                    "attributed_custom_audio_asset_id": null,
+                    "audio_asset_id": 1310346546857055,
+                    "audio_asset_start_time_in_ms": null,
+                    "audio_filter_infos": [],
+                    "audio_parts": [],
+                    "audio_parts_by_filter": [],
+                    "can_remix_be_shared_to_fb": true,
+                    "can_remix_be_shared_to_fb_expansion": true,
+                    "consumption_info": {
+                        "display_media_id": null,
+                        "is_bookmarked": false,
+                        "is_trending_in_clips": false,
+                        "should_mute_audio_reason": "",
+                        "should_mute_audio_reason_type": null
+                    },
+                    "dash_manifest": "<?xml version=\"1.0\" encoding=\"UTF-8\"?>\n<MPD xmlns=\"urn:mpeg:dash:schema:mpd:2011\" xmlns:xsi=\"http://www.w3.org/2001/XMLSchema-instance\" xsi:schemaLocation=\"urn:mpeg:dash:schema:mpd:2011 DASH-MPD.xsd\" profiles=\"urn:mpeg:dash:profile:isoff-on-demand:2011\" minBufferTime=\"PT2S\" type=\"static\" mediaPresentationDuration=\"PT56.353378S\"><Period id=\"0\" duration=\"PT56.353378S\"><AdaptationSet id=\"0\" contentType=\"audio\" subsegmentStartsWithSAP=\"1\" subsegmentAlignment=\"true\"><Representation id=\"1164842718339435a\" bandwidth=\"58539\" codecs=\"mp4a.40.5\" mimeType=\"audio/mp4\" FBAvgBitrate=\"58539\" audioSamplingRate=\"44100\" FBDefaultQuality=\"1\"><AudioChannelConfiguration schemeIdUri=\"urn:mpeg:dash:23003:3:audio_channel_configuration:2011\" value=\"2\"/><BaseURL>https://scontent-msp1-1.cdninstagram.com/o1/v/t16/f2/m69/AQNrMrn6Codp7mQzaQ6UZiReR0xK865ZcGWloA9ZM3wTl-3NjSwNmhyafNy_tUpnRHK9DZSPOmE6dmzbDhaexoam.mp4?strext=1&amp;_nc_cat=103&amp;_nc_sid=9ca052&amp;_nc_ht=scontent-msp1-1.cdninstagram.com&amp;_nc_ohc=Js-o8WEk_A4Q7kNvgHR65t7&amp;efg=eyJ2ZW5jb2RlX3RhZyI6ImRhc2hfbG5faGVhYWNfdmJyM19hdWRpbyIsInZpZGVvX2lkIjpudWxsLCJjbGllbnRfbmFtZSI6InVua25vd24iLCJvaWxfdXJsZ2VuX2FwcF9pZCI6MjU2MjgxMDQwNTU4LCJ1cmxnZW5fc291cmNlIjoid3d3In0%3D&amp;ccb=17-1&amp;_nc_zt=28&amp;oh=00_AYCkBNRPkvIclmYiuryxzaNsezNoEl9dEODCbX-qUO7WjA&amp;oe=67C406D1</BaseURL><SegmentBase indexRange=\"824-1203\" timescale=\"44100\"><Initialization range=\"0-823\"/></SegmentBase></Representation></AdaptationSet></Period></MPD>\n",
+                    "duration_in_ms": 56353,
+                    "fb_downstream_use_xpost_metadata": {
+                        "downstream_use_xpost_deny_reason": "NONE"
+                    },
+                    "formatted_clips_media_count": null,
+                    "hide_remixing": false,
+                    "ig_artist": {
+                        "full_name": "Feminist Futurist",
+                        "id": "65092982589",
+                        "is_private": false,
+                        "is_verified": false,
+                        "pk": 65092982589,
+                        "pk_id": "65092982589",
+                        "profile_pic_id": "3530637918399549948_65092982589",
+                        "profile_pic_url": "https://scontent-msp1-1.cdninstagram.com/v/t51.2885-19/470911515_1843286546475685_7481797267725729573_n.jpg?stp=dst-jpg_e0_s150x150_tt6&_nc_ht=scontent-msp1-1.cdninstagram.com&_nc_cat=1&_nc_oc=Q6cZ2AHot0tACIf2OkV08osFCKnKc7rS0Lx00tjpteMqV-8c_N7mFoe5lxkNaTbJVXzZU2A&_nc_ohc=m0ThPXumFyEQ7kNvgEES1R1&_nc_gid=bbace39539d74fc0871895f81d129267&edm=ALQROFkBAAAA&ccb=7-5&oh=00_AYAZ0R5Vgyv5unxCqUNZIxLFHUEynwMRuG_NQrHDvAe97Q&oe=67C3DCEF&_nc_sid=fc8dfb",
+                        "strong_id__": "65092982589",
+                        "username": "feminist.futurist3"
+                    },
+                    "is_audio_automatically_attributed": false,
+                    "is_eligible_for_audio_effects": true,
+                    "is_eligible_for_vinyl_sticker": true,
+                    "is_explicit": false,
+                    "is_original_audio_download_eligible": false,
+                    "is_reuse_disabled": false,
+                    "is_xpost_from_fb": false,
+                    "music_canonical_id": null,
+                    "oa_owner_is_music_artist": false,
+                    "original_audio_subtype": "default",
+                    "original_audio_title": "Original audio",
+                    "original_media_id": 3564980110742739231,
+                    "overlap_duration_in_ms": null,
+                    "previous_trend_rank": null,
+                    "progressive_download_url": "https://scontent-msp1-1.xx.fbcdn.net/o1/v/t2/f2/m69/AQPQ73ewLyYIG_mV521VRogrcPPISerATAqogHClmUiMzjXGQuCnplHwKVKXCe2D_ufsfTL8YDkC9p2ILFsfV7mw.mp4?strext=1&_nc_cat=109&_nc_sid=8bf8fe&_nc_ht=scontent-msp1-1.xx.fbcdn.net&_nc_ohc=x1C_hMar_ncQ7kNvgGZJvIJ&efg=eyJ2ZW5jb2RlX3RhZyI6Inhwdl9wcm9ncmVzc2l2ZS5BVURJT19PTkxZLi5DMy4wLnByb2dyZXNzaXZlX2F1ZGlvIiwieHB2X2Fzc2V0X2lkIjo0MDA1MTE1MjA2NDc2MDg1LCJ1cmxnZW5fc291cmNlIjoid3d3In0%3D&ccb=17-1&_nc_zt=28&oh=00_AYA7QEqBXO53GJSvzcfplLD5ysK0uQrMP-6zHrH9ATk6JA&oe=67C3E3AD",
+                    "should_mute_audio": false,
+                    "time_created": 1739198789,
+                    "trend_rank": null,
+                    "xpost_fb_creator_info": null
+                },
+                "originality_info": null,
+                "professional_clips_upsell_type": 0,
+                "reels_on_the_rise_info": null,
+                "reusable_text_attribute_string": null,
+                "reusable_text_info": null,
+                "shopping_info": null,
+                "show_achievements": false,
+                "show_tips": null,
+                "template_info": null,
+                "viewer_interaction_settings": null
+            },
+            "clips_tab_pinned_user_ids": [],
+            "coauthor_producer_can_see_organic_insights": false,
+            "coauthor_producers": [],
+            "code": "DF5WoXMJ1kf",
+            "comment_count": 1310,
+            "comment_inform_treatment": {
+                "action_type": null,
+                "should_have_inform_treatment": false,
+                "text": "",
+                "url": null
+            },
+            "comment_threading_enabled": true,
+            "commerciality_status": "not_commercial",
+            "creator_viewer_insights": [],
+            "crosspost_metadata": {
+                "fb_downstream_use_xpost_metadata": {
+                    "downstream_use_xpost_deny_reason": "NONE"
+                }
+            },
+            "deleted_reason": 0,
+            "device_timestamp": 1739198767335,
+            "enable_media_notes_production": false,
+            "explore_hide_comments": false,
+            "facepile_top_likers": [
+                {
+                    "full_name": "Piper CJ",
+                    "id": "541852756",
+                    "is_private": false,
+                    "is_verified": true,
+                    "pk": 541852756,
+                    "pk_id": "541852756",
+                    "profile_pic_id": "3073055656399180758_541852756",
+                    "profile_pic_url": "https://scontent-msp1-1.cdninstagram.com/v/t51.2885-19/339515177_1299180744343936_6677042087165872451_n.jpg?stp=dst-jpg_e0_s150x150_tt6&_nc_ht=scontent-msp1-1.cdninstagram.com&_nc_cat=1&_nc_oc=Q6cZ2AHot0tACIf2OkV08osFCKnKc7rS0Lx00tjpteMqV-8c_N7mFoe5lxkNaTbJVXzZU2A&_nc_ohc=2PAKRnqXUtcQ7kNvgHqRDWC&_nc_gid=bbace39539d74fc0871895f81d129267&edm=ALQROFkBAAAA&ccb=7-5&oh=00_AYAxz-v2FW1brixcUnPSZvYjPJ8pr_Ceano4bL0FqdmdDg&oe=67C3EA6C&_nc_sid=fc8dfb",
+                    "strong_id__": "541852756",
+                    "username": "piper_cj"
+                }
+            ],
+            "fb_aggregated_comment_count": 0,
+            "fb_aggregated_like_count": 0,
+            "fb_user_tags": {
+                "in": []
+            },
+            "fbid": 18464186752066582,
+            "featured_products": [],
+            "filter_type": 0,
+            "gen_ai_detection_method": {
+                "detection_method": "NONE"
+            },
+            "has_audio": true,
+            "has_delayed_metadata": false,
+            "has_high_risk_gen_ai_inform_treatment": false,
+            "has_liked": true,
+            "has_more_comments": true,
+            "has_privately_liked": false,
+            "has_shared_to_fb": 0,
+            "has_views_fetching": true,
+            "hide_view_all_comment_entrypoint": false,
+            "id": "3564980110742739231_65092982589",
+            "ig_media_sharing_disabled": false,
+            "ig_play_count": 700478,
+            "igbio_product": null,
+            "image_versions2": {
+                "additional_candidates": {
+                    "first_frame": {
+                        "height": 1136,
+                        "scans_profile": "e15",
+                        "url": "https://scontent-msp1-1.cdninstagram.com/v/t51.2885-15/476761676_956688306174271_4896957856174577345_n.jpg?stp=dst-jpg_e15_tt6&efg=eyJ2ZW5jb2RlX3RhZyI6ImltYWdlX3VybGdlbi42NDB4MTEzNi5zZHIuZjcxODc4LmFkZGl0aW9uYWxfY292ZXJfZnJhbWUifQ&_nc_ht=scontent-msp1-1.cdninstagram.com&_nc_cat=1&_nc_oc=Q6cZ2AHot0tACIf2OkV08osFCKnKc7rS0Lx00tjpteMqV-8c_N7mFoe5lxkNaTbJVXzZU2A&_nc_ohc=UrlBplDyxIoQ7kNvgFpZ7Ee&_nc_gid=bbace39539d74fc0871895f81d129267&edm=ALQROFkBAAAA&ccb=7-5&ig_cache_key=acf.MzU2NDk4MDExMDc0MjczOTIzMQ%3D%3D.3-ccb7-5&oh=00_AYBGUB-I8n_3MvE1aD50iwkEi8v3BXFP4ps6-sO0cmr5kA&oe=67C3E877&_nc_sid=fc8dfb",
+                        "width": 640
+                    },
+                    "igtv_first_frame": {
+                        "height": 1136,
+                        "scans_profile": "e15",
+                        "url": "https://scontent-msp1-1.cdninstagram.com/v/t51.2885-15/476761676_956688306174271_4896957856174577345_n.jpg?stp=dst-jpg_e15_tt6&efg=eyJ2ZW5jb2RlX3RhZyI6ImltYWdlX3VybGdlbi42NDB4MTEzNi5zZHIuZjcxODc4LmFkZGl0aW9uYWxfY292ZXJfZnJhbWUifQ&_nc_ht=scontent-msp1-1.cdninstagram.com&_nc_cat=1&_nc_oc=Q6cZ2AHot0tACIf2OkV08osFCKnKc7rS0Lx00tjpteMqV-8c_N7mFoe5lxkNaTbJVXzZU2A&_nc_ohc=UrlBplDyxIoQ7kNvgFpZ7Ee&_nc_gid=bbace39539d74fc0871895f81d129267&edm=ALQROFkBAAAA&ccb=7-5&ig_cache_key=acf.MzU2NDk4MDExMDc0MjczOTIzMQ%3D%3D.3-ccb7-5&oh=00_AYBGUB-I8n_3MvE1aD50iwkEi8v3BXFP4ps6-sO0cmr5kA&oe=67C3E877&_nc_sid=fc8dfb",
+                        "width": 640
+                    },
+                    "smart_frame": null
+                },
+                "candidates": [
+                    {
+                        "height": 1280,
+                        "scans_profile": "e15",
+                        "url": "https://scontent-msp1-1.cdninstagram.com/v/t51.2885-15/476778277_17892377946174590_5240667574788960918_n.jpg?stp=dst-jpg_e15_tt6&efg=eyJ2ZW5jb2RlX3RhZyI6ImltYWdlX3VybGdlbi43MjB4MTI4MC5zZHIuZjc1NzYxLmRlZmF1bHRfY292ZXJfZnJhbWUifQ&_nc_ht=scontent-msp1-1.cdninstagram.com&_nc_cat=1&_nc_oc=Q6cZ2AHot0tACIf2OkV08osFCKnKc7rS0Lx00tjpteMqV-8c_N7mFoe5lxkNaTbJVXzZU2A&_nc_ohc=8IEFKf_JfRIQ7kNvgGxS8xa&_nc_gid=bbace39539d74fc0871895f81d129267&edm=ALQROFkBAAAA&ccb=7-5&ig_cache_key=MzU2NDk4MDExMDc0MjczOTIzMQ%3D%3D.3-ccb7-5&oh=00_AYBBFYHU-l6woIUj28YqQBaoUOygUD_Sbi6A4DiFolIh1w&oe=67C3E5AE&_nc_sid=fc8dfb",
+                        "width": 720
+                    }
+                ],
+                "scrubber_spritesheet_info_candidates": {
+                    "default": {
+                        "file_size_kb": 325,
+                        "max_thumbnails_per_sprite": 105,
+                        "rendered_width": 96,
+                        "sprite_height": 1246,
+                        "sprite_urls": [
+                            "https://scontent-msp1-1.cdninstagram.com/v/t51.2885-15/477467043_4066752643613698_7308209104996345448_n.jpg?_nc_ht=scontent-msp1-1.cdninstagram.com&_nc_cat=110&_nc_oc=Q6cZ2AHot0tACIf2OkV08osFCKnKc7rS0Lx00tjpteMqV-8c_N7mFoe5lxkNaTbJVXzZU2A&_nc_ohc=cla97S1QrwEQ7kNvgHL_OwL&_nc_gid=bbace39539d74fc0871895f81d129267&edm=ALQROFkBAAAA&ccb=7-5&oh=00_AYCDqfgz7RCk_mFNzQ8lq1U9I10lZc6sb8HoWopcsykJag&oe=67C3F0CC&_nc_sid=fc8dfb"
+                        ],
+                        "sprite_width": 1500,
+                        "thumbnail_duration": 0.5368190476190476,
+                        "thumbnail_height": 178,
+                        "thumbnail_width": 100,
+                        "thumbnails_per_row": 15,
+                        "total_thumbnail_num_per_sprite": 105,
+                        "video_length": 56.366
+                    }
+                }
+            },
+            "inline_composer_display_condition": "impression_trigger",
+            "inline_composer_imp_trigger_time": 5,
+            "integrity_review_decision": "pending",
+            "invited_coauthor_producers": [],
+            "is_artist_pick": false,
+            "is_comments_gif_composer_enabled": true,
+            "is_cutout_sticker_allowed": false,
+            "is_dash_eligible": 1,
+            "is_eligible_content_for_post_roll_ad": false,
+            "is_eligible_for_media_note_recs_nux": false,
+            "is_eligible_for_meta_ai_share": false,
+            "is_in_profile_grid": false,
+            "is_open_to_public_submission": false,
+            "is_organic_product_tagging_eligible": false,
+            "is_paid_partnership": false,
+            "is_post_live_clips_media": false,
+            "is_quiet_post": false,
+            "is_reshare_of_text_post_app_media_in_ig": false,
+            "is_reuse_allowed": false,
+            "is_social_ufi_disabled": false,
+            "is_tagged_media_shared_to_viewer_profile_grid": false,
+            "is_third_party_downloads_eligible": false,
+            "is_unified_video": true,
+            "is_visual_reply_commenter_notice_enabled": true,
+            "like_and_view_counts_disabled": false,
+            "like_count": 54977,
+            "max_num_visible_preview_comments": 2,
+            "media_cropping_info": {
+                "square_crop": {
+                    "crop_bottom": 0.0,
+                    "crop_left": 0.0,
+                    "crop_right": 0.0,
+                    "crop_top": 0.0
+                }
+            },
+            "media_notes": {
+                "items": []
+            },
+            "media_type": 2,
+            "meta_ai_suggested_prompts": [],
+            "mezql_token": "",
+            "music_metadata": null,
+            "number_of_qualities": 6,
+            "open_carousel_show_follow_button": false,
+            "organic_tracking_token": "eyJ2ZXJzaW9uIjo1LCJwYXlsb2FkIjp7ImlzX2FuYWx5dGljc190cmFja2VkIjp0cnVlLCJ1dWlkIjoiYmJhY2UzOTUzOWQ3NGZjMDg3MTg5NWY4MWQxMjkyNjczNTY0OTgwMTEwNzQyNzM5MjMxIiwic2VydmVyX3Rva2VuIjoiMTc0MDUxNDAyMzg5NHwzNTY0OTgwMTEwNzQyNzM5MjMxfDMzNTM0NzA2fGRhODcwNjljODI3YjI3MWExNGQyMWU5YTZkZjcxZmIzNTk1OGVmYjNiNjU0YmJmMWI4OWJkZTNiZjNlZDJjYmUifSwic2lnbmF0dXJlIjoiIn0=",
+            "original_height": 1280,
+            "original_media_has_visual_reply_media": false,
+            "original_width": 720,
+            "pk": 3564980110742739231,
+            "play_count": 700478,
+            "preview_comments": [],
+            "product_suggestions": [],
+            "product_type": "clips",
+            "profile_grid_control_enabled": false,
+            "reshare_count": 19251,
+            "share_count_disabled": false,
+            "sharing_friction_info": {
+                "bloks_app_url": null,
+                "sharing_friction_payload": null,
+                "should_have_sharing_friction": false
+            },
+            "shop_routing_user_id": null,
+            "should_request_ads": false,
+            "should_show_author_pog_for_tagged_media_shared_to_profile_grid": false,
+            "strong_id__": "3564980110742739231_65092982589",
+            "subscribe_cta_visible": false,
+            "taken_at": 1739198786,
+            "timeline_pinned_user_ids": [],
+            "top_likers": [
+                "piper_cj"
+            ],
+            "user": {
+                "account_badges": [],
+                "account_type": 1,
+                "can_see_quiet_post_attribution": true,
+                "fan_club_info": {
+                    "autosave_to_exclusive_highlight": null,
+                    "connected_member_count": null,
+                    "fan_club_id": null,
+                    "fan_club_name": null,
+                    "fan_consideration_page_revamp_eligiblity": null,
+                    "has_created_ssc": null,
+                    "has_enough_subscribers_for_ssc": null,
+                    "is_fan_club_gifting_eligible": null,
+                    "is_fan_club_referral_eligible": null,
+                    "is_free_trial_eligible": null,
+                    "largest_public_bc_id": null,
+                    "subscriber_count": null
+                },
+                "fbid_v2": 17841465237676622,
+                "feed_post_reshare_disabled": false,
+                "friendship_status": {
+                    "following": false,
+                    "is_bestie": false,
+                    "is_feed_favorite": false,
+                    "is_restricted": false
+                },
+                "full_name": "Feminist Futurist",
+                "has_anonymous_profile_picture": false,
+                "id": "65092982589",
+                "is_active_on_text_post_app": true,
+                "is_favorite": false,
+                "is_private": false,
+                "is_unpublished": false,
+                "is_verified": false,
+                "latest_reel_media": 0,
+                "pk": 65092982589,
+                "pk_id": "65092982589",
+                "profile_pic_id": "3530637918399549948_65092982589",
+                "profile_pic_url": "https://scontent-msp1-1.cdninstagram.com/v/t51.2885-19/470911515_1843286546475685_7481797267725729573_n.jpg?stp=dst-jpg_e0_s150x150_tt6&_nc_ht=scontent-msp1-1.cdninstagram.com&_nc_cat=1&_nc_oc=Q6cZ2AHot0tACIf2OkV08osFCKnKc7rS0Lx00tjpteMqV-8c_N7mFoe5lxkNaTbJVXzZU2A&_nc_ohc=m0ThPXumFyEQ7kNvgEES1R1&_nc_gid=bbace39539d74fc0871895f81d129267&edm=ALQROFkBAAAA&ccb=7-5&oh=00_AYAZ0R5Vgyv5unxCqUNZIxLFHUEynwMRuG_NQrHDvAe97Q&oe=67C3DCEF&_nc_sid=fc8dfb",
+                "show_account_transparency_details": true,
+                "strong_id__": "65092982589",
+                "text_post_app_is_private": false,
+                "third_party_downloads_enabled": 0,
+                "transparency_product_enabled": false,
+                "username": "feminist.futurist3"
+            },
+            "video_codec": "av01.0.04M.08.0.111.01.01.01.0",
+            "video_dash_manifest": "<?xml version=\"1.0\" encoding=\"UTF-8\"?>\n<MPD xmlns=\"urn:mpeg:dash:schema:mpd:2011\" xmlns:xsi=\"http://www.w3.org/2001/XMLSchema-instance\" xsi:schemaLocation=\"urn:mpeg:dash:schema:mpd:2011 DASH-MPD.xsd\" profiles=\"urn:mpeg:dash:profile:isoff-on-demand:2011\" minBufferTime=\"PT2S\" type=\"static\" mediaPresentationDuration=\"PT56.366665S\" FBManifestIdentifier=\"FgAYD3IyYXYxLXIxZ2VuMnZwORl2xpG24tzRiwSuq9n/05CUBoKBk/ChjcUK4JfE0OSo+Qrugr/otuO2DsS6j+i08LMgiumgpf+H5VQiGCNkYXNoX3VuaWZpZWRfcHJlbWl1bV94aGVfdmJyMl9hdWRpbwA=\"><Period id=\"0\" duration=\"PT56.366665S\"><AdaptationSet id=\"0\" contentType=\"video\" subsegmentAlignment=\"true\" par=\"9:16\" FBUnifiedUploadResolutionMos=\"360:69.8\"><SupplementalProperty schemeIdUri=\"urn:mpeg:mpegB:cicp:MatrixCoefficients\" value=\"1\"/><SupplementalProperty schemeIdUri=\"urn:mpeg:mpegB:cicp:ColourPrimaries\" value=\"1\"/><SupplementalProperty schemeIdUri=\"urn:mpeg:mpegB:cicp:TransferCharacteristics\" value=\"1\"/><Representation id=\"23866136736307781vd\" bandwidth=\"90841\" codecs=\"av01.0.04M.08.0.111.01.01.01.0\" mimeType=\"video/mp4\" sar=\"1:1\" FBEncodingTag=\"dash_r2av1-r1gen2vp9_q40\" FBContentLength=\"640052\" FBPlaybackResolutionMos=\"0:100,360:60.8,480:58.6,720:58.3\" FBPlaybackResolutionMosConfidenceLevel=\"high\" FBPlaybackResolutionCsvqm=\"0:100,360:80.7,480:74.7,720:64.4\" FBAbrPolicyTags=\"\" width=\"540\" height=\"960\" frameRate=\"15360/512\" FBDefaultQuality=\"1\" FBQualityClass=\"sd\" FBQualityLabel=\"270p\"><BaseURL>https://scontent-msp1-1.cdninstagram.com/o1/v/t2/f2/m367/AQN6YjHbxRKNnlI2Ry_NVDCiX1DYWMQKfXbb7o7zxYVSnb4poc9N3gLQLqx0m6YU4AwksR3GNJR5ZN94PUTvRDAp1oKmUtYzvzFRs7Y.mp4?_nc_cat=110&amp;_nc_sid=9ca052&amp;_nc_ht=scontent-msp1-1.cdninstagram.com&amp;_nc_ohc=789aTLZVu1QQ7kNvgEwyO35&amp;efg=eyJ2ZW5jb2RlX3RhZyI6ImlnLXhwdmRzLmNsaXBzLmMyLUMzLmRhc2hfcjJhdjEtcjFnZW4ydnA5X3E0MCIsInZpZGVvX2lkIjpudWxsLCJjbGllbnRfbmFtZSI6ImlnIiwib2lsX3VybGdlbl9hcHBfaWQiOjEyNDAyNDU3NDI4NzQxNCwidXJsZ2VuX3NvdXJjZSI6Ind3dyJ9&amp;ccb=17-1&amp;_nc_zt=28&amp;oh=00_AYC51csP1pG2Fg5mxFg_k03UGtRfWJrcTKXQuZ2ap7ZUTQ&amp;oe=67C3EDDF</BaseURL><SegmentBase indexRange=\"826-1001\" timescale=\"15360\" FBMinimumPrefetchRange=\"1002-9101\" FBFirstSegmentRange=\"1002-43720\" FBFirstSegmentDuration=\"5000\" FBSecondSegmentRange=\"43721-103611\" FBPrefetchSegmentRange=\"1002-43720\" FBPrefetchSegmentDuration=\"5000\"><Initialization range=\"0-825\"/></SegmentBase></Representation><Representation id=\"4061105094123703v\" bandwidth=\"167669\" codecs=\"av01.0.05M.08.0.111.01.01.01.0\" mimeType=\"video/mp4\" sar=\"1:1\" FBEncodingTag=\"dash_r2av1-r1gen2vp9_q50\" FBContentLength=\"1181373\" FBPlaybackResolutionMos=\"0:100,360:69.1,480:66.8,720:65.9\" FBPlaybackResolutionMosConfidenceLevel=\"high\" FBPlaybackResolutionCsvqm=\"0:100,360:88.1,480:83.5,720:75.4\" FBAbrPolicyTags=\"\" width=\"720\" height=\"1280\" frameRate=\"15360/512\" FBQualityClass=\"hd\" FBQualityLabel=\"360p\"><BaseURL>https://scontent-msp1-1.cdninstagram.com/o1/v/t2/f2/m367/AQPe0MyA4FWmngI9z22TQhb0Na7Fq3dv_dDQNcSYAGjDlRFi7qDg-gr2z7B4zeh0-VWoC1lgZqX4HSkdw6XQLeD0Cx_86lt2EEL2OzA.mp4?_nc_cat=108&amp;_nc_sid=9ca052&amp;_nc_ht=scontent-msp1-1.cdninstagram.com&amp;_nc_ohc=qA99SlAiZyYQ7kNvgEI64bg&amp;efg=eyJ2ZW5jb2RlX3RhZyI6ImlnLXhwdmRzLmNsaXBzLmMyLUMzLmRhc2hfcjJhdjEtcjFnZW4ydnA5X3E1MCIsInZpZGVvX2lkIjpudWxsLCJjbGllbnRfbmFtZSI6ImlnIiwib2lsX3VybGdlbl9hcHBfaWQiOjEyNDAyNDU3NDI4NzQxNCwidXJsZ2VuX3NvdXJjZSI6Ind3dyJ9&amp;ccb=17-1&amp;_nc_zt=28&amp;oh=00_AYDKb7DocTScUxCEzkLfYh1CsVWLBAEOEfNirDU_f8btHQ&amp;oe=67C40551</BaseURL><SegmentBase indexRange=\"826-1001\" timescale=\"15360\" FBMinimumPrefetchRange=\"1002-12922\" FBFirstSegmentRange=\"1002-83035\" FBFirstSegmentDuration=\"5000\" FBSecondSegmentRange=\"83036-192948\" FBPrefetchSegmentRange=\"1002-83035\" FBPrefetchSegmentDuration=\"5000\"><Initialization range=\"0-825\"/></SegmentBase></Representation><Representation id=\"2966710256820289v\" bandwidth=\"258226\" codecs=\"av01.0.05M.08.0.111.01.01.01.0\" mimeType=\"video/mp4\" sar=\"1:1\" FBEncodingTag=\"dash_r2av1-r1gen2vp9_q60\" FBContentLength=\"1819424\" FBPlaybackResolutionMos=\"0:100,360:73.7,480:71.5,720:70.3\" FBPlaybackResolutionMosConfidenceLevel=\"high\" FBPlaybackResolutionCsvqm=\"0:100,360:91,480:87.3,720:80.3\" FBAbrPolicyTags=\"\" width=\"720\" height=\"1280\" frameRate=\"15360/512\" FBQualityClass=\"hd\" FBQualityLabel=\"480p\"><BaseURL>https://scontent-msp1-1.cdninstagram.com/o1/v/t2/f2/m367/AQPby0XMZ_gGe2d3Tx2c0D__X9MTWKxv25Kf2LZFtNMvk80Fm3p0rUJh2tGHVCXBsYNdYmskggpzVM-tEtNiPG1ciNSFAaoRK2JpNJ8.mp4?_nc_cat=101&amp;_nc_sid=9ca052&amp;_nc_ht=scontent-msp1-1.cdninstagram.com&amp;_nc_ohc=7t8_enrY1_IQ7kNvgGg-sCY&amp;efg=eyJ2ZW5jb2RlX3RhZyI6ImlnLXhwdmRzLmNsaXBzLmMyLUMzLmRhc2hfcjJhdjEtcjFnZW4ydnA5X3E2MCIsInZpZGVvX2lkIjpudWxsLCJjbGllbnRfbmFtZSI6ImlnIiwib2lsX3VybGdlbl9hcHBfaWQiOjEyNDAyNDU3NDI4NzQxNCwidXJsZ2VuX3NvdXJjZSI6Ind3dyJ9&amp;ccb=17-1&amp;_nc_zt=28&amp;oh=00_AYC7y_BzHZO8dk4y5D2cxFdCk2bNAljsbC2nwnPOZYkJRg&amp;oe=67C3DDAE</BaseURL><SegmentBase indexRange=\"826-1001\" timescale=\"15360\" FBMinimumPrefetchRange=\"1002-16750\" FBFirstSegmentRange=\"1002-132027\" FBFirstSegmentDuration=\"5000\" FBSecondSegmentRange=\"132028-301095\" FBPrefetchSegmentRange=\"1002-132027\" FBPrefetchSegmentDuration=\"5000\"><Initialization range=\"0-825\"/></SegmentBase></Representation><Representation id=\"9121280674623138v\" bandwidth=\"325731\" codecs=\"av01.0.05M.08.0.111.01.01.01.0\" mimeType=\"video/mp4\" sar=\"1:1\" FBEncodingTag=\"dash_r2av1-r1gen2vp9_q70\" FBContentLength=\"2295047\" FBPlaybackResolutionMos=\"0:100,360:75.9,480:73.7,720:72.4\" FBPlaybackResolutionMosConfidenceLevel=\"high\" FBPlaybackResolutionCsvqm=\"0:100,360:92.6,480:89.5,720:83\" FBAbrPolicyTags=\"\" width=\"720\" height=\"1280\" frameRate=\"15360/512\" FBQualityClass=\"hd\" FBQualityLabel=\"540p\"><BaseURL>https://scontent-msp1-1.cdninstagram.com/o1/v/t2/f2/m367/AQNsQyqz3AwXrzP3xBHAtEI-lcBS5y2oUJUhRjN47bEv86m1l59AIXpcw56g_vatA_Zo2zfwZU2n0FoScBGJ06JOGilxuhtER6bTR8k.mp4?_nc_cat=107&amp;_nc_sid=9ca052&amp;_nc_ht=scontent-msp1-1.cdninstagram.com&amp;_nc_ohc=i3lB_VKL1_QQ7kNvgFr1uAl&amp;efg=eyJ2ZW5jb2RlX3RhZyI6ImlnLXhwdmRzLmNsaXBzLmMyLUMzLmRhc2hfcjJhdjEtcjFnZW4ydnA5X3E3MCIsInZpZGVvX2lkIjpudWxsLCJjbGllbnRfbmFtZSI6ImlnIiwib2lsX3VybGdlbl9hcHBfaWQiOjEyNDAyNDU3NDI4NzQxNCwidXJsZ2VuX3NvdXJjZSI6Ind3dyJ9&amp;ccb=17-1&amp;_nc_zt=28&amp;oh=00_AYCKveJRVx-gmDBJsorpKk-D9gk2U1FQaUghjvXo5K2l3g&amp;oe=67C3DB7C</BaseURL><SegmentBase indexRange=\"826-1001\" timescale=\"15360\" FBMinimumPrefetchRange=\"1002-18959\" FBFirstSegmentRange=\"1002-169091\" FBFirstSegmentDuration=\"5000\" FBSecondSegmentRange=\"169092-382192\" FBPrefetchSegmentRange=\"1002-169091\" FBPrefetchSegmentDuration=\"5000\"><Initialization range=\"0-825\"/></SegmentBase></Representation><Representation id=\"3081532282013168v\" bandwidth=\"440073\" codecs=\"av01.0.05M.08.0.111.01.01.01.0\" mimeType=\"video/mp4\" sar=\"1:1\" FBEncodingTag=\"dash_r2av1-r1gen2vp9_q80\" FBContentLength=\"3100687\" FBPlaybackResolutionMos=\"0:100,360:78,480:75.9,720:74.5\" FBPlaybackResolutionMosConfidenceLevel=\"high\" FBPlaybackResolutionCsvqm=\"0:100,360:94.4,480:91.6,720:86.1\" FBAbrPolicyTags=\"\" width=\"720\" height=\"1280\" frameRate=\"15360/512\" FBQualityClass=\"hd\" FBQualityLabel=\"640p\"><BaseURL>https://scontent-msp1-1.cdninstagram.com/o1/v/t2/f2/m367/AQMftdLe3j0kNWnykR-x891XmdSxnrQR5sKIIH6tXl7pT9KT3rqw37Rxpvear6wfZVw0MWkzyzG_7ZNQzSTqCRUfsv6HTJRVeynFifA.mp4?_nc_cat=1&amp;_nc_sid=9ca052&amp;_nc_ht=scontent-msp1-1.cdninstagram.com&amp;_nc_ohc=3ECt9ex0qM8Q7kNvgEGvnoa&amp;efg=eyJ2ZW5jb2RlX3RhZyI6ImlnLXhwdmRzLmNsaXBzLmMyLUMzLmRhc2hfcjJhdjEtcjFnZW4ydnA5X3E4MCIsInZpZGVvX2lkIjpudWxsLCJjbGllbnRfbmFtZSI6ImlnIiwib2lsX3VybGdlbl9hcHBfaWQiOjEyNDAyNDU3NDI4NzQxNCwidXJsZ2VuX3NvdXJjZSI6Ind3dyJ9&amp;ccb=17-1&amp;_nc_zt=28&amp;oh=00_AYDw2aposuLah1SGwC4Ud_WlNMFVzUwEpRdokZWjGdDRtA&amp;oe=67C3F00C</BaseURL><SegmentBase indexRange=\"826-1001\" timescale=\"15360\" FBMinimumPrefetchRange=\"1002-21771\" FBFirstSegmentRange=\"1002-232197\" FBFirstSegmentDuration=\"5000\" FBSecondSegmentRange=\"232198-518362\" FBPrefetchSegmentRange=\"1002-232197\" FBPrefetchSegmentDuration=\"5000\"><Initialization range=\"0-825\"/></SegmentBase></Representation><Representation id=\"1151493183292515v\" bandwidth=\"538025\" codecs=\"av01.0.05M.08.0.111.01.01.01.0\" mimeType=\"video/mp4\" sar=\"1:1\" FBEncodingTag=\"dash_r2av1-r1gen2vp9_q90\" FBContentLength=\"3790837\" FBPlaybackResolutionMos=\"0:100,360:79.8,480:77.2,720:75.8\" FBPlaybackResolutionMosConfidenceLevel=\"high\" FBPlaybackResolutionCsvqm=\"0:100,360:95.3,480:92.9,720:87.9\" FBAbrPolicyTags=\"\" width=\"720\" height=\"1280\" frameRate=\"15360/512\" FBQualityClass=\"hd\" FBQualityLabel=\"720p\"><BaseURL>https://scontent-msp1-1.cdninstagram.com/o1/v/t2/f2/m367/AQOzRzzPFTGxiTi2guFMOuNz06RwjRglhi2CDNgaLb1wNSvBAEgRDkbGNMOWbty4-u7M73dORSvKa0PjUop0TTZS8_sVXIQW1DdequY.mp4?_nc_cat=1&amp;_nc_sid=9ca052&amp;_nc_ht=scontent-msp1-1.cdninstagram.com&amp;_nc_ohc=jNKlibmffIMQ7kNvgEp-Y4n&amp;efg=eyJ2ZW5jb2RlX3RhZyI6ImlnLXhwdmRzLmNsaXBzLmMyLUMzLmRhc2hfcjJhdjEtcjFnZW4ydnA5X3E5MCIsInZpZGVvX2lkIjpudWxsLCJjbGllbnRfbmFtZSI6ImlnIiwib2lsX3VybGdlbl9hcHBfaWQiOjEyNDAyNDU3NDI4NzQxNCwidXJsZ2VuX3NvdXJjZSI6Ind3dyJ9&amp;ccb=17-1&amp;_nc_zt=28&amp;oh=00_AYDXSuB_e5n1x-0-Ob82LHgKiDqzmz8gTawhpwPB-MKY0Q&amp;oe=67C405BA</BaseURL><SegmentBase indexRange=\"826-1001\" timescale=\"15360\" FBMinimumPrefetchRange=\"1002-24189\" FBFirstSegmentRange=\"1002-286919\" FBFirstSegmentDuration=\"5000\" FBSecondSegmentRange=\"286920-636943\" FBPrefetchSegmentRange=\"1002-286919\" FBPrefetchSegmentDuration=\"5000\"><Initialization range=\"0-825\"/></SegmentBase></Representation></AdaptationSet><AdaptationSet id=\"1\" contentType=\"audio\" subsegmentStartsWithSAP=\"1\" subsegmentAlignment=\"true\"><Representation id=\"1733116477254359ad\" bandwidth=\"84073\" codecs=\"mp4a.40.42\" mimeType=\"audio/mp4\" FBAvgBitrate=\"84073\" audioSamplingRate=\"44100\" FBEncodingTag=\"dash_audio_xheaac_vbr2_abr_lrac_frag_5_audio\" FBContentLength=\"593233\" FBPaqMos=\"90.57\" FBAbrPolicyTags=\"\" FBDefaultQuality=\"1\"><AudioChannelConfiguration schemeIdUri=\"urn:mpeg:dash:23003:3:audio_channel_configuration:2011\" value=\"2\"/><BaseURL>https://scontent-msp1-1.cdninstagram.com/o1/v/t16/f2/m69/AQP41i3-ghnM0WsJcURmlDJzZg7yif71dbA01biBny2heH4m0rq4oS6W6lr2xvbqif6Wy2CCvVEYpVimYZi_MSGw.mp4?strext=1&amp;_nc_cat=102&amp;_nc_sid=9ca052&amp;_nc_ht=scontent-msp1-1.cdninstagram.com&amp;_nc_ohc=lJQ4Fivj8U4Q7kNvgF7Aw7x&amp;efg=eyJ2ZW5jb2RlX3RhZyI6ImlnLXhwdmRzLmNsaXBzLmMyLUMzLmRhc2hfYXVkaW9feGhlYWFjX3ZicjJfYWJyX2xyYWNfZnJhZ181X2F1ZGlvIiwidmlkZW9faWQiOm51bGwsImNsaWVudF9uYW1lIjoiaWciLCJvaWxfdXJsZ2VuX2FwcF9pZCI6MTI0MDI0NTc0Mjg3NDE0LCJ1cmxnZW5fc291cmNlIjoid3d3In0%3D&amp;ccb=17-1&amp;_nc_zt=28&amp;oh=00_AYCP9x5RCpTgZ030DI3no-L98j0W2uTix5dYJxGd13S_bQ&amp;oe=67C3D9C2</BaseURL><SegmentBase indexRange=\"838-1013\" timescale=\"44100\" FBMinimumPrefetchRange=\"1014-1941\" FBFirstSegmentRange=\"1014-52071\" FBFirstSegmentDuration=\"4922\" FBSecondSegmentRange=\"52072-102328\" FBPrefetchSegmentRange=\"1014-52071\" FBPrefetchSegmentDuration=\"4922\"><Initialization range=\"0-837\"/></SegmentBase></Representation></AdaptationSet></Period></MPD>\n",
+            "video_duration": 56.366,
+            "video_sticker_locales": [],
+            "video_subtitles_locale": "en_US",
+            "video_versions": [
+                {
+                    "bandwidth": 1302785,
+                    "height": 1280,
+                    "id": "1276657673564361v",
+                    "type": 101,
+                    "url": "https://scontent-msp1-1.cdninstagram.com/o1/v/t16/f2/m86/AQMvQ1K2soV-tId-9-xGmKxQKM8YGfLJh97nqGEStv-LlTRzG6tTlF7Mp3oul-wv0EvFtSZxnT8oTFN1RU0ERaSqVvHMoPc7s2QSeaU.mp4?efg=eyJ4cHZfYXNzZXRfaWQiOjQwMDUxMTUyMDY0NzYwODUsInZlbmNvZGVfdGFnIjoieHB2X3Byb2dyZXNzaXZlLklOU1RBR1JBTS5DTElQUy5DMy43MjAuZGFzaF9iYXNlbGluZV8xX3YxIn0&_nc_ht=scontent-msp1-1.cdninstagram.com&_nc_cat=103&vs=ef5485f380a5a493&_nc_vs=HBksFQIYUmlnX3hwdl9yZWVsc19wZXJtYW5lbnRfc3JfcHJvZC9ERjRFRDhFRjFEMjg2MkYwMjQ0NjVBMTJDMEMyNkU4NV92aWRlb19kYXNoaW5pdC5tcDQVAALIAQAVAhg6cGFzc3Rocm91Z2hfZXZlcnN0b3JlL0dDT0RhQndTVXNUUUVZUUZBTUhtd0dNdmx4bDFicV9FQUFBRhUCAsgBACgAGAAbAogHdXNlX29pbAExEnByb2dyZXNzaXZlX3JlY2lwZQExFQAAJuqE1dKxqJ0OFQIoAkMzLBdATC7ZFocrAhgSZGFzaF9iYXNlbGluZV8xX3YxEQB1_gcA&ccb=9-4&oh=00_AYBeFPQ_5rHwx8Xk5MoJGrsvCKeuhIbSz3-EOpOkFccc8A&oe=67BFFD21&_nc_sid=1d576d",
+                    "width": 720
+                },
+                {
+                    "bandwidth": 1302785,
+                    "height": 1280,
+                    "id": "1276657673564361v",
+                    "type": 102,
+                    "url": "https://scontent-msp1-1.cdninstagram.com/o1/v/t16/f2/m86/AQMvQ1K2soV-tId-9-xGmKxQKM8YGfLJh97nqGEStv-LlTRzG6tTlF7Mp3oul-wv0EvFtSZxnT8oTFN1RU0ERaSqVvHMoPc7s2QSeaU.mp4?efg=eyJ4cHZfYXNzZXRfaWQiOjQwMDUxMTUyMDY0NzYwODUsInZlbmNvZGVfdGFnIjoieHB2X3Byb2dyZXNzaXZlLklOU1RBR1JBTS5DTElQUy5DMy43MjAuZGFzaF9iYXNlbGluZV8xX3YxIn0&_nc_ht=scontent-msp1-1.cdninstagram.com&_nc_cat=103&vs=ef5485f380a5a493&_nc_vs=HBksFQIYUmlnX3hwdl9yZWVsc19wZXJtYW5lbnRfc3JfcHJvZC9ERjRFRDhFRjFEMjg2MkYwMjQ0NjVBMTJDMEMyNkU4NV92aWRlb19kYXNoaW5pdC5tcDQVAALIAQAVAhg6cGFzc3Rocm91Z2hfZXZlcnN0b3JlL0dDT0RhQndTVXNUUUVZUUZBTUhtd0dNdmx4bDFicV9FQUFBRhUCAsgBACgAGAAbAogHdXNlX29pbAExEnByb2dyZXNzaXZlX3JlY2lwZQExFQAAJuqE1dKxqJ0OFQIoAkMzLBdATC7ZFocrAhgSZGFzaF9iYXNlbGluZV8xX3YxEQB1_gcA&ccb=9-4&oh=00_AYBeFPQ_5rHwx8Xk5MoJGrsvCKeuhIbSz3-EOpOkFccc8A&oe=67BFFD21&_nc_sid=1d576d",
+                    "width": 720
+                },
+                {
+                    "bandwidth": 1302785,
+                    "height": 1280,
+                    "id": "1276657673564361v",
+                    "type": 103,
+                    "url": "https://scontent-msp1-1.cdninstagram.com/o1/v/t16/f2/m86/AQMvQ1K2soV-tId-9-xGmKxQKM8YGfLJh97nqGEStv-LlTRzG6tTlF7Mp3oul-wv0EvFtSZxnT8oTFN1RU0ERaSqVvHMoPc7s2QSeaU.mp4?efg=eyJ4cHZfYXNzZXRfaWQiOjQwMDUxMTUyMDY0NzYwODUsInZlbmNvZGVfdGFnIjoieHB2X3Byb2dyZXNzaXZlLklOU1RBR1JBTS5DTElQUy5DMy43MjAuZGFzaF9iYXNlbGluZV8xX3YxIn0&_nc_ht=scontent-msp1-1.cdninstagram.com&_nc_cat=103&vs=ef5485f380a5a493&_nc_vs=HBksFQIYUmlnX3hwdl9yZWVsc19wZXJtYW5lbnRfc3JfcHJvZC9ERjRFRDhFRjFEMjg2MkYwMjQ0NjVBMTJDMEMyNkU4NV92aWRlb19kYXNoaW5pdC5tcDQVAALIAQAVAhg6cGFzc3Rocm91Z2hfZXZlcnN0b3JlL0dDT0RhQndTVXNUUUVZUUZBTUhtd0dNdmx4bDFicV9FQUFBRhUCAsgBACgAGAAbAogHdXNlX29pbAExEnByb2dyZXNzaXZlX3JlY2lwZQExFQAAJuqE1dKxqJ0OFQIoAkMzLBdATC7ZFocrAhgSZGFzaF9iYXNlbGluZV8xX3YxEQB1_gcA&ccb=9-4&oh=00_AYBeFPQ_5rHwx8Xk5MoJGrsvCKeuhIbSz3-EOpOkFccc8A&oe=67BFFD21&_nc_sid=1d576d",
+                    "width": 720
+                }
+            ]
+        },
+        "is_ad": false,
+        "is_affiliate": false,
+        "is_paid_partnership": false,
+        "is_published": true,
+        "is_video": true,
+        "like_and_view_counts_disabled": false,
+        "location": null,
+        "media_overlay_info": null,
+        "media_preview": "ABgqmOBnd0x3rOEyoxWLBHv/AEpL8s5Ea+nPPGO1RQ2isu5iPTj1qTRa7F538vaBjOBn156/nRUETKFUOCWzjr6HA60U0SSyKN5Y87v6ZqS3CsCGClSelRSZ4J6mn25GcGpZrEm8mPeW9+B2HSipiq8beCetFF7ENNj3iBXIrNOS2K1h9z8BWan3z9D/AEpWKvoOL4+b0NFRTdPxH9KKYkz/2Q==",
+        "nft_asset_info": null,
+        "owner": {
+            "blocked_by_viewer": false,
+            "edge_followed_by": {
+                "count": 48742
+            },
+            "edge_owner_to_timeline_media": {
+                "count": 388
+            },
+            "followed_by_viewer": false,
+            "full_name": "Feminist Futurist",
+            "has_blocked_viewer": false,
+            "id": "65092982589",
+            "is_embeds_disabled": false,
+            "is_private": false,
+            "is_unpublished": false,
+            "is_verified": false,
+            "pass_tiering_recommendation": true,
+            "profile_pic_url": "https://scontent-msp1-1.cdninstagram.com/v/t51.2885-19/470911515_1843286546475685_7481797267725729573_n.jpg?stp=dst-jpg_s150x150_tt6&_nc_ht=scontent-msp1-1.cdninstagram.com&_nc_cat=1&_nc_oc=Q6cZ2AGEJokpbxevQbOuShuZ2yDPz_2yuNpBoiswaS1ZCZLn771gxwxus5umaK1-caoICQw&_nc_ohc=m0ThPXumFyEQ7kNvgEES1R1&_nc_gid=d7abdc2d03804cf485e9c6883a504455&edm=ANTKIIoBAAAA&ccb=7-5&oh=00_AYCyFdJecoClKntEKtzWNb9onTaidBQKffM46vl30uVgeQ&oe=67C3DCEF&_nc_sid=d885a2",
+            "requested_by_viewer": false,
+            "restricted_by_viewer": false,
+            "username": "feminist.futurist3"
+        },
+        "pinned_for_users": [],
+        "product_type": "clips",
+        "sensitivity_friction_info": null,
+        "sharing_friction_info": {
+            "bloks_app_url": null,
+            "should_have_sharing_friction": false
+        },
+        "shortcode": "DF5WoXMJ1kf",
+        "taken_at_timestamp": 1739198786,
+        "thumbnail_src": "https://scontent-msp1-1.cdninstagram.com/v/t51.2885-15/476778277_17892377946174590_5240667574788960918_n.jpg?stp=c0.280.720.720a_dst-jpg_e15_s640x640_tt6&_nc_ht=scontent-msp1-1.cdninstagram.com&_nc_cat=1&_nc_oc=Q6cZ2AGEJokpbxevQbOuShuZ2yDPz_2yuNpBoiswaS1ZCZLn771gxwxus5umaK1-caoICQw&_nc_ohc=8IEFKf_JfRIQ7kNvgGxS8xa&_nc_gid=d7abdc2d03804cf485e9c6883a504455&edm=ANTKIIoBAAAA&ccb=7-5&oh=00_AYDvQq9pLcqrsfrIIzL-JmUJhNfQsBxcyZC7vsmq8-JBag&oe=67C3E5AE&_nc_sid=d885a2",
+        "title": "",
+        "tracking_token": "eyJ2ZXJzaW9uIjo1LCJwYXlsb2FkIjp7ImlzX2FuYWx5dGljc190cmFja2VkIjp0cnVlLCJ1dWlkIjoiZDdhYmRjMmQwMzgwNGNmNDg1ZTljNjg4M2E1MDQ0NTUzNTY0OTgwMTEwNzQyNzM5MjMxIiwic2VydmVyX3Rva2VuIjoiMTc0MDUxNDAyMjA4MXwzNTY0OTgwMTEwNzQyNzM5MjMxfDMzNTM0NzA2fDZiMjMyMWQzMGMxZWM3NmNjOTc3MGE1MjQ3NTIwYTdiOWU0ZDc2YzM3NGIzNDEyMzMxZjEzNDhiNTVhYTlkYmEifSwic2lnbmF0dXJlIjoiIn0=",
+        "upcoming_event": null,
+        "video_duration": 56.366,
+        "video_play_count": 700478,
+        "video_url": "https://scontent-msp1-1.cdninstagram.com/o1/v/t16/f2/m86/AQMvQ1K2soV-tId-9-xGmKxQKM8YGfLJh97nqGEStv-LlTRzG6tTlF7Mp3oul-wv0EvFtSZxnT8oTFN1RU0ERaSqVvHMoPc7s2QSeaU.mp4?stp=dst-mp4&efg=eyJxZV9ncm91cHMiOiJbXCJpZ193ZWJfZGVsaXZlcnlfdnRzX290ZlwiXSIsInZlbmNvZGVfdGFnIjoidnRzX3ZvZF91cmxnZW4uY2xpcHMuYzIuNzIwLmJhc2VsaW5lIn0&_nc_cat=103&vs=1276657673564361_1124591774&_nc_vs=HBksFQIYUmlnX3hwdl9yZWVsc19wZXJtYW5lbnRfc3JfcHJvZC9ERjRFRDhFRjFEMjg2MkYwMjQ0NjVBMTJDMEMyNkU4NV92aWRlb19kYXNoaW5pdC5tcDQVAALIAQAVAhg6cGFzc3Rocm91Z2hfZXZlcnN0b3JlL0dDT0RhQndTVXNUUUVZUUZBTUhtd0dNdmx4bDFicV9FQUFBRhUCAsgBACgAGAAbABUAACbYl9WJ5%2FzYQRUCKAJDMywXQEwu2RaHKwIYEmRhc2hfYmFzZWxpbmVfMV92MREAdf4HAA%3D%3D&ccb=9-4&oh=00_AYDyEwZSPFlKvtbSdlQPPI8rcyGVFry7K1nwDW0EdJ-y_Q&oe=67BFFD21&_nc_sid=d885a2",
+        "video_view_count": 364542,
+        "viewer_can_reshare": true,
+        "viewer_has_liked": true,
+        "viewer_has_saved": false,
+        "viewer_has_saved_to_collection": false,
+        "viewer_in_photo_of_you": false
+    }
+}

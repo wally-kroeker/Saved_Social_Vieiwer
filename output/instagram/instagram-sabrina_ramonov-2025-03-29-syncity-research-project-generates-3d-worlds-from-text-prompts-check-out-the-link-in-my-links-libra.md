@@ -1,0 +1,3 @@
+# Instagram Post by sabrina_ramonov
+
+SynCity research project generates 3d worlds from text prompts! Check out the link in my links library (links.Sabrina.dev) Each scene is generated grid by grid. First a 2d image model makes the grid, then convert each grid into 3d model. You can make your own world then jump into it to explore it! #ai #gamedev #3d #3danimation #graphics #aiartcommunity #aiart #sabrinaramonov #gamedeveloper #greenscreenvideo #greenscreen

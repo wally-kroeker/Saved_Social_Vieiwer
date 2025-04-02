@@ -1,0 +1,88 @@
+# Python
+__pycache__/
+*.py[cod]
+*$py.class
+*.so
+.Python
+.venv/
+env/
+build/
+develop-eggs/
+dist/
+downloads/
+eggs/
+.eggs/
+lib/
+lib64/
+parts/
+sdist/
+var/
+wheels/
+*.egg-info/
+.installed.cfg
+*.egg
+
+# Logs
+*.log
+logs/
+process_links.log
+
+# Environment variables
+.env
+.env.*
+!.env.example
+
+# IDE
+.vscode/
+.idea/
+*.swp
+*.swo
+.cursor/
+.cursorrules
+
+# Project specific
+sessions/
+test_output/
+Process_Saved_Links.llm
+output/  # Ignore entire output directory
+olddata/ # Ignore entire olddata directory
+temp/
+tmp/
+downloads/
+uploads/
+
+# Media files in output directory
+# These rules are now redundant if the whole output dir is ignored,
+# but can be kept for clarity or if you decide to partially track output later.
+output/**/*.mp4
+output/**/*.jpg
+output/**/*.jpeg
+output/**/*.png
+output/**/*.webp
+output/**/*.pdf
+output/**/*.json
+# Keep output directory structure
+!output/.gitkeep
+
+# Additional media and large files
+**/*.mp4
+**/*.mov
+**/*.avi
+**/*.webm
+**/*.mkv
+**/*.flv
+**/*.m4v
+**/*.wav
+**/*.mp3
+**/*.flac
+**/*.ogg
+**/*.zip
+**/*.tar
+**/*.gz
+**/*.rar
+**/*.7z
+**/*.iso
+
+# Operating System
+.DS_Store
+Thumbs.db 

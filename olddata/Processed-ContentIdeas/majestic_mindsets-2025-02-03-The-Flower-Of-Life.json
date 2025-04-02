@@ -1,0 +1,386 @@
+{
+    "instaloader": {
+        "node_type": "Post",
+        "version": "4.14.1"
+    },
+    "node": {
+        "__isXDTGraphMediaInterface": "XDTGraphVideo",
+        "__typename": "GraphVideo",
+        "accessibility_caption": null,
+        "can_see_insights_as_brand": false,
+        "caption_is_edited": false,
+        "clips_music_attribution_info": {
+            "artist_name": "majestic_mindsets",
+            "audio_id": "1291489462126664",
+            "should_mute_audio": false,
+            "should_mute_audio_reason": "",
+            "song_name": "Original audio",
+            "uses_original_audio": true
+        },
+        "coauthor_producers": [],
+        "commenting_disabled_for_viewer": false,
+        "comments_disabled": false,
+        "dash_info": {
+            "is_dash_eligible": false,
+            "number_of_qualities": 0,
+            "video_dash_manifest": null
+        },
+        "dimensions": {
+            "height": 1920,
+            "width": 1080
+        },
+        "display_resources": [
+            {
+                "config_height": 1137,
+                "config_width": 640,
+                "src": "https://scontent-yyz1-1.cdninstagram.com/v/t51.2885-15/475771696_17893621050157779_4118576977396624860_n.jpg?stp=dst-jpg_e35_p640x640_sh0.08_tt6&_nc_ht=scontent-yyz1-1.cdninstagram.com&_nc_cat=103&_nc_oc=Q6cZ2AGf4eytcDXjaHtCFLRTORIlKUn5CBn9szuZXwxV4djBLEJAwigfUsNdvxtePF4drFQ&_nc_ohc=VCH1fz-7nCwQ7kNvgH4-upr&_nc_gid=17c49d41bc2c42629f4027f979ae24fb&edm=ANTKIIoBAAAA&ccb=7-5&oh=00_AYA-iPxwrIP1EDTNppFQzXVJxvywp5hyZ_MAc9oNV0KiJQ&oe=67B528AC&_nc_sid=d885a2"
+            },
+            {
+                "config_height": 1333,
+                "config_width": 750,
+                "src": "https://scontent-yyz1-1.cdninstagram.com/v/t51.2885-15/475771696_17893621050157779_4118576977396624860_n.jpg?stp=dst-jpg_e35_p750x750_sh0.08_tt6&_nc_ht=scontent-yyz1-1.cdninstagram.com&_nc_cat=103&_nc_oc=Q6cZ2AGf4eytcDXjaHtCFLRTORIlKUn5CBn9szuZXwxV4djBLEJAwigfUsNdvxtePF4drFQ&_nc_ohc=VCH1fz-7nCwQ7kNvgH4-upr&_nc_gid=17c49d41bc2c42629f4027f979ae24fb&edm=ANTKIIoBAAAA&ccb=7-5&oh=00_AYBzeN7JlwdxyZNHFvoeC4FjTYQfdSSafmMRyN7ljHN6fA&oe=67B528AC&_nc_sid=d885a2"
+            },
+            {
+                "config_height": 1920,
+                "config_width": 1080,
+                "src": "https://scontent-yyz1-1.cdninstagram.com/v/t51.2885-15/475771696_17893621050157779_4118576977396624860_n.jpg?stp=dst-jpg_e35_p1080x1080_sh0.08_tt6&_nc_ht=scontent-yyz1-1.cdninstagram.com&_nc_cat=103&_nc_oc=Q6cZ2AGf4eytcDXjaHtCFLRTORIlKUn5CBn9szuZXwxV4djBLEJAwigfUsNdvxtePF4drFQ&_nc_ohc=VCH1fz-7nCwQ7kNvgH4-upr&_nc_gid=17c49d41bc2c42629f4027f979ae24fb&edm=ANTKIIoBAAAA&ccb=7-5&oh=00_AYCMWqUw700f-gE6gS_eGWSh039LJ7tkSbW5P_O6h9vdng&oe=67B528AC&_nc_sid=d885a2"
+            }
+        ],
+        "display_url": "https://scontent-yyz1-1.cdninstagram.com/v/t51.2885-15/475771696_17893621050157779_4118576977396624860_n.jpg?stp=dst-jpg_e35_p1080x1080_sh0.08_tt6&_nc_ht=scontent-yyz1-1.cdninstagram.com&_nc_cat=103&_nc_oc=Q6cZ2AGf4eytcDXjaHtCFLRTORIlKUn5CBn9szuZXwxV4djBLEJAwigfUsNdvxtePF4drFQ&_nc_ohc=VCH1fz-7nCwQ7kNvgH4-upr&_nc_gid=17c49d41bc2c42629f4027f979ae24fb&edm=ANTKIIoBAAAA&ccb=7-5&oh=00_AYCMWqUw700f-gE6gS_eGWSh039LJ7tkSbW5P_O6h9vdng&oe=67B528AC&_nc_sid=d885a2",
+        "edge_media_preview_comment": {
+            "count": 288,
+            "edges": [
+                {
+                    "node": {
+                        "created_at": 1739544527,
+                        "did_report_as_spam": false,
+                        "edge_liked_by": {
+                            "count": 0
+                        },
+                        "id": "18053109314146373",
+                        "is_restricted_pending": false,
+                        "owner": {
+                            "id": "57164986940",
+                            "is_verified": false,
+                            "profile_pic_url": "https://scontent-yyz1-1.cdninstagram.com/v/t51.2885-19/322078210_724433288855154_265509038963857614_n.jpg?stp=dst-jpg_s150x150_tt6&_nc_ht=scontent-yyz1-1.cdninstagram.com&_nc_cat=106&_nc_oc=Q6cZ2AGf4eytcDXjaHtCFLRTORIlKUn5CBn9szuZXwxV4djBLEJAwigfUsNdvxtePF4drFQ&_nc_ohc=3jj91s2F0dcQ7kNvgFAtZCD&_nc_gid=17c49d41bc2c42629f4027f979ae24fb&edm=ANTKIIoBAAAA&ccb=7-5&oh=00_AYArDXa_G8noFcF0NXjdeEdVOCx_ENFyxt2kwjHyItprzA&oe=67B53C38&_nc_sid=d885a2",
+                            "username": "blendathegoodwitch79"
+                        },
+                        "text": "@chiropractic_medicine Spirit Science videos are amazing, even my young son enjoyed watching them and was able to understood it all at a very young age.  And I agree with what you are saying about chiropractics. As I have been becoming more self aware and in alignment with my joy, I have been experiencing amazing healing in my body. Specifically, as I have been dojng energy work and getting physically stronger, healing emotional wounds and releasing energy blocks and learning to connect and control the energy flowing in and around my body improving my posture, etc, I have felt bones crack, rebreaking old injuries so they can reheal properly, literally getting into physical alignment. It\u2019s challenging to put into words\u2026 and I haven\u2019t found many other descriptions or similar experiences that I can use for comparison\u2026",
+                        "viewer_has_liked": false
+                    }
+                },
+                {
+                    "node": {
+                        "created_at": 1739545416,
+                        "did_report_as_spam": false,
+                        "edge_liked_by": {
+                            "count": 0
+                        },
+                        "id": "18061813915937771",
+                        "is_restricted_pending": false,
+                        "owner": {
+                            "id": "215013390",
+                            "is_verified": false,
+                            "profile_pic_url": "https://scontent-yyz1-1.cdninstagram.com/v/t51.2885-19/479538109_1298815827854515_6675679149399058641_n.jpg?stp=dst-jpg_s150x150_tt6&_nc_ht=scontent-yyz1-1.cdninstagram.com&_nc_cat=107&_nc_oc=Q6cZ2AGf4eytcDXjaHtCFLRTORIlKUn5CBn9szuZXwxV4djBLEJAwigfUsNdvxtePF4drFQ&_nc_ohc=Ty3r70_B8_QQ7kNvgHwkYl4&_nc_gid=17c49d41bc2c42629f4027f979ae24fb&edm=ANTKIIoBAAAA&ccb=7-5&oh=00_AYBfQR5k4YF--uoBm_bZqH554A8CWllOP3S7m-jozkaRLw&oe=67B53BBF&_nc_sid=d885a2",
+                            "username": "blooming_roses24"
+                        },
+                        "text": "@21craynews_ I love this \ud83e\udeb4 thank you",
+                        "viewer_has_liked": false
+                    }
+                }
+            ]
+        },
+        "edge_media_preview_like": {
+            "count": 11303,
+            "edges": []
+        },
+        "edge_media_to_caption": {
+            "edges": [
+                {
+                    "node": {
+                        "created_at": "1738622710",
+                        "id": "17916652881049268",
+                        "text": "\u2728 The Flower of Life, Energy & The Universe \u2728\n\n\ud83d\udd39 Flower of Life & 4D Torus Field \ud83c\udf38\nThe Flower of Life represents the interconnected web of existence, mirroring our 4D torus field\u2014an electromagnetic bubble of light and sound that shapes our reality and interacts with others.\n\n\ud83d\udd39 Nikola Tesla: Energy, Frequency & Vibration \u26a1\nTesla taught that the universe is built on energy, frequency, and vibration. Our torus field is an energetic blueprint, influencing our consciousness and the world around us.\n\n\ud83d\udd39 Max Planck: Quantum Reality \ud83d\udd2c\nPlanck\u2019s theory shows that matter is just vibrating energy. Our thoughts and emotions, through observation and intention, shape our experience of reality.\n\n\ud83d\udd39 Walter Russell: Light & Creation \ud83d\udca1\nRussell described the universe as a rhythmic system of light and energy. Our torus field emits and absorbs light, forming the holographic reality we navigate.\n\n\ud83d\udd39 The Universe is Local & Interconnected \ud83c\udf0c\nOur energy fields are constantly merging, meaning we co-create reality through our vibrations. Shift your frequency, and you shift the world.\n\n\u2728 Everything is energy. Everything is light. Master your vibration, and you master reality. \u2728\n\nHashtags:\n\n#FlowerOfLife #SacredGeometry #EnergyFrequencyVibration #TorusField #NikolaTesla #MaxPlanck #WalterRussell #QuantumReality #HolographicUniverse #Consciousness #RaiseYourVibration #Manifestation #ThePowerOfNow #ElectromagneticField #UniversalEnergy #SpiritualAwakening #Metaphysics #LightCodes #RealityCreation #VibrationMatters #InnerAlchemy #ExpandYourMind #CosmicConsciousness #EnergyAlignment #QuantumPhysics #TrustTheUniverse #spirituality"
+                    }
+                }
+            ]
+        },
+        "edge_media_to_hoisted_comment": {
+            "edges": []
+        },
+        "edge_media_to_parent_comment": {
+            "count": 288,
+            "edges": [
+                {
+                    "node": {
+                        "created_at": 1739543640,
+                        "did_report_as_spam": false,
+                        "edge_liked_by": {
+                            "count": 0
+                        },
+                        "edge_threaded_comments": {
+                            "count": 0,
+                            "edges": [],
+                            "page_info": {
+                                "end_cursor": null,
+                                "has_next_page": false
+                            }
+                        },
+                        "id": "18061413283780188",
+                        "is_restricted_pending": false,
+                        "owner": {
+                            "id": "57164986940",
+                            "is_verified": false,
+                            "profile_pic_url": "https://scontent-yyz1-1.cdninstagram.com/v/t51.2885-19/322078210_724433288855154_265509038963857614_n.jpg?stp=dst-jpg_s150x150_tt6&_nc_ht=scontent-yyz1-1.cdninstagram.com&_nc_cat=106&_nc_oc=Q6cZ2AGf4eytcDXjaHtCFLRTORIlKUn5CBn9szuZXwxV4djBLEJAwigfUsNdvxtePF4drFQ&_nc_ohc=3jj91s2F0dcQ7kNvgFAtZCD&_nc_gid=17c49d41bc2c42629f4027f979ae24fb&edm=ANTKIIoBAAAA&ccb=7-5&oh=00_AYArDXa_G8noFcF0NXjdeEdVOCx_ENFyxt2kwjHyItprzA&oe=67B53C38&_nc_sid=d885a2",
+                            "username": "blendathegoodwitch79"
+                        },
+                        "text": "Thank you so much for sharing the 3D model of the flower of life. I understand the concept, but something in my neurodivergent brain just \u201cclicked\u201d for me seeing it, literally lol, in a different visual model.",
+                        "viewer_has_liked": false
+                    }
+                },
+                {
+                    "node": {
+                        "created_at": 1739541658,
+                        "did_report_as_spam": false,
+                        "edge_liked_by": {
+                            "count": 0
+                        },
+                        "edge_threaded_comments": {
+                            "count": 0,
+                            "edges": [],
+                            "page_info": {
+                                "end_cursor": null,
+                                "has_next_page": false
+                            }
+                        },
+                        "id": "18055735808018880",
+                        "is_restricted_pending": false,
+                        "owner": {
+                            "id": "1721083999",
+                            "is_verified": false,
+                            "profile_pic_url": "https://scontent-yyz1-1.cdninstagram.com/v/t51.2885-19/472638356_992223219463090_6367696577560886129_n.jpg?stp=dst-jpg_s150x150_tt6&_nc_ht=scontent-yyz1-1.cdninstagram.com&_nc_cat=110&_nc_oc=Q6cZ2AGf4eytcDXjaHtCFLRTORIlKUn5CBn9szuZXwxV4djBLEJAwigfUsNdvxtePF4drFQ&_nc_ohc=jgjLY8-Koq8Q7kNvgEpdOkw&_nc_gid=17c49d41bc2c42629f4027f979ae24fb&edm=ANTKIIoBAAAA&ccb=7-5&oh=00_AYBhCuAPTGvHBlju564wYB6kXwnjXh5o-Yqjt2UlTE7wLg&oe=67B54B8D&_nc_sid=d885a2",
+                            "username": "andrea_pal1"
+                        },
+                        "text": "It's a torrid ...\ud83d\ude01",
+                        "viewer_has_liked": false
+                    }
+                },
+                {
+                    "node": {
+                        "created_at": 1739539319,
+                        "did_report_as_spam": false,
+                        "edge_liked_by": {
+                            "count": 0
+                        },
+                        "edge_threaded_comments": {
+                            "count": 0,
+                            "edges": [],
+                            "page_info": {
+                                "end_cursor": null,
+                                "has_next_page": false
+                            }
+                        },
+                        "id": "18035128205573562",
+                        "is_restricted_pending": false,
+                        "owner": {
+                            "id": "186123490",
+                            "is_verified": false,
+                            "profile_pic_url": "https://scontent-yyz1-1.cdninstagram.com/v/t51.2885-19/25011786_1605942029472123_3669747510856908800_n.jpg?stp=dst-jpg_s150x150_tt6&_nc_ht=scontent-yyz1-1.cdninstagram.com&_nc_cat=103&_nc_oc=Q6cZ2AGf4eytcDXjaHtCFLRTORIlKUn5CBn9szuZXwxV4djBLEJAwigfUsNdvxtePF4drFQ&_nc_ohc=brwEv0kTi6kQ7kNvgH8SoDb&_nc_gid=17c49d41bc2c42629f4027f979ae24fb&edm=ANTKIIoBAAAA&ccb=7-5&oh=00_AYA8YgxqmtwPRxNnvRflbeKixQlUCH_vbZD-XULLMkBGwA&oe=67B54388&_nc_sid=d885a2",
+                            "username": "mre1581"
+                        },
+                        "text": "An epic explanation, fantastic!",
+                        "viewer_has_liked": false
+                    }
+                },
+                {
+                    "node": {
+                        "created_at": 1739539156,
+                        "did_report_as_spam": false,
+                        "edge_liked_by": {
+                            "count": 0
+                        },
+                        "edge_threaded_comments": {
+                            "count": 0,
+                            "edges": [],
+                            "page_info": {
+                                "end_cursor": null,
+                                "has_next_page": false
+                            }
+                        },
+                        "id": "18319391212163422",
+                        "is_restricted_pending": false,
+                        "owner": {
+                            "id": "5330440333",
+                            "is_verified": false,
+                            "profile_pic_url": "https://scontent-yyz1-1.cdninstagram.com/v/t51.2885-19/401860984_240260762402633_7339498076597855906_n.jpg?stp=dst-jpg_s150x150_tt6&_nc_ht=scontent-yyz1-1.cdninstagram.com&_nc_cat=105&_nc_oc=Q6cZ2AGf4eytcDXjaHtCFLRTORIlKUn5CBn9szuZXwxV4djBLEJAwigfUsNdvxtePF4drFQ&_nc_ohc=iYu0yRqD5SMQ7kNvgED2799&_nc_gid=17c49d41bc2c42629f4027f979ae24fb&edm=ANTKIIoBAAAA&ccb=7-5&oh=00_AYCBSw_9dnZvg3pjG5YxkoVNTlral6F1ooD4icwF1BGIYw&oe=67B52778&_nc_sid=d885a2",
+                            "username": "_.michelecor._"
+                        },
+                        "text": "\u2764\ufe0f\ud83d\udd25\ud83d\udc4f\ud83d\udc4f",
+                        "viewer_has_liked": false
+                    }
+                },
+                {
+                    "node": {
+                        "created_at": 1739536981,
+                        "did_report_as_spam": false,
+                        "edge_liked_by": {
+                            "count": 0
+                        },
+                        "edge_threaded_comments": {
+                            "count": 0,
+                            "edges": [],
+                            "page_info": {
+                                "end_cursor": null,
+                                "has_next_page": false
+                            }
+                        },
+                        "id": "18017780927487646",
+                        "is_restricted_pending": false,
+                        "owner": {
+                            "id": "65471515090",
+                            "is_verified": false,
+                            "profile_pic_url": "https://scontent-yyz1-1.cdninstagram.com/v/t51.2885-19/470897274_1325396438906709_1072419041397814275_n.jpg?stp=dst-jpg_s150x150_tt6&_nc_ht=scontent-yyz1-1.cdninstagram.com&_nc_cat=109&_nc_oc=Q6cZ2AGf4eytcDXjaHtCFLRTORIlKUn5CBn9szuZXwxV4djBLEJAwigfUsNdvxtePF4drFQ&_nc_ohc=ZIzQXByXtiAQ7kNvgGiuxLp&_nc_gid=17c49d41bc2c42629f4027f979ae24fb&edm=ANTKIIoBAAAA&ccb=7-5&oh=00_AYDiqQne_zTHy2IdlUPbonSRBOzouvJO0Ih1XC7sitRi9A&oe=67B544A7&_nc_sid=d885a2",
+                            "username": "susie_q_turi"
+                        },
+                        "text": "\ud83d\udc4f\ud83d\udc4f\ud83d\udc4f\ud83d\udc4f\ud83d\udc4f\ud83d\udc4f\ud83d\udc4f\ud83d\udc4f\ud83d\udc4f",
+                        "viewer_has_liked": false
+                    }
+                },
+                {
+                    "node": {
+                        "created_at": 1739536937,
+                        "did_report_as_spam": false,
+                        "edge_liked_by": {
+                            "count": 0
+                        },
+                        "edge_threaded_comments": {
+                            "count": 0,
+                            "edges": [],
+                            "page_info": {
+                                "end_cursor": null,
+                                "has_next_page": false
+                            }
+                        },
+                        "id": "17884355187216826",
+                        "is_restricted_pending": false,
+                        "owner": {
+                            "id": "65471515090",
+                            "is_verified": false,
+                            "profile_pic_url": "https://scontent-yyz1-1.cdninstagram.com/v/t51.2885-19/470897274_1325396438906709_1072419041397814275_n.jpg?stp=dst-jpg_s150x150_tt6&_nc_ht=scontent-yyz1-1.cdninstagram.com&_nc_cat=109&_nc_oc=Q6cZ2AGf4eytcDXjaHtCFLRTORIlKUn5CBn9szuZXwxV4djBLEJAwigfUsNdvxtePF4drFQ&_nc_ohc=ZIzQXByXtiAQ7kNvgGiuxLp&_nc_gid=17c49d41bc2c42629f4027f979ae24fb&edm=ANTKIIoBAAAA&ccb=7-5&oh=00_AYDiqQne_zTHy2IdlUPbonSRBOzouvJO0Ih1XC7sitRi9A&oe=67B544A7&_nc_sid=d885a2",
+                            "username": "susie_q_turi"
+                        },
+                        "text": "Great job putting all that information together, man! Wow! I\u2019ve been learning all of this information piece by piece. I love how you mapped it out in a few minutes. \ud83c\udfc6",
+                        "viewer_has_liked": false
+                    }
+                },
+                {
+                    "node": {
+                        "created_at": 1739536665,
+                        "did_report_as_spam": false,
+                        "edge_liked_by": {
+                            "count": 0
+                        },
+                        "edge_threaded_comments": {
+                            "count": 0,
+                            "edges": [],
+                            "page_info": {
+                                "end_cursor": null,
+                                "has_next_page": false
+                            }
+                        },
+                        "id": "18485355883043199",
+                        "is_restricted_pending": false,
+                        "owner": {
+                            "id": "5983110768",
+                            "is_verified": false,
+                            "profile_pic_url": "https://scontent-yyz1-1.cdninstagram.com/v/t51.2885-19/445156493_1166495831357237_8060363128670608975_n.jpg?stp=dst-jpg_s150x150_tt6&_nc_ht=scontent-yyz1-1.cdninstagram.com&_nc_cat=105&_nc_oc=Q6cZ2AGf4eytcDXjaHtCFLRTORIlKUn5CBn9szuZXwxV4djBLEJAwigfUsNdvxtePF4drFQ&_nc_ohc=vZY-OUXW8CwQ7kNvgFpe1cw&_nc_gid=17c49d41bc2c42629f4027f979ae24fb&edm=ANTKIIoBAAAA&ccb=7-5&oh=00_AYBCuZJjcsYd12z63dcdW7p26CYG7TLtmmIhSvurxxaxNA&oe=67B537D6&_nc_sid=d885a2",
+                            "username": "ericahornsby5435"
+                        },
+                        "text": "Peace \ud83d\ude0f",
+                        "viewer_has_liked": false
+                    }
+                }
+            ],
+            "page_info": {
+                "end_cursor": "{\"server_cursor\": \"QVFCT3RYNFYzZG1RYzA4cnJZTGlBbXNueW43aUJ1Slp6OHYtZW5GZXU0WmtFSGIzNnVXT3Y2YzRuV0NiaWJsWVMxOHlNc3Jzd2h5X2Zwa0xld3lNVml0OA==\", \"is_server_cursor_inverse\": true}",
+                "has_next_page": true
+            }
+        },
+        "edge_media_to_sponsor_user": {
+            "edges": []
+        },
+        "edge_media_to_tagged_user": {
+            "edges": []
+        },
+        "edge_web_media_to_related_media": {
+            "edges": []
+        },
+        "encoding_status": null,
+        "fact_check_information": null,
+        "fact_check_overall_rating": null,
+        "gating_info": null,
+        "has_audio": true,
+        "has_ranked_comments": false,
+        "id": "3560146195573727415",
+        "is_ad": false,
+        "is_affiliate": false,
+        "is_paid_partnership": false,
+        "is_published": true,
+        "is_video": true,
+        "like_and_view_counts_disabled": false,
+        "location": {
+            "address_json": "{\"street_address\": \"\", \"zip_code\": \"\", \"city_name\": \"Leeds city centre\", \"region_name\": \"\", \"country_code\": \"\", \"exact_city_match\": true, \"exact_region_match\": false, \"exact_country_match\": false}",
+            "has_public_page": true,
+            "id": "228467045",
+            "name": "Leeds city centre",
+            "slug": "leeds-city-centre"
+        },
+        "media_overlay_info": null,
+        "media_preview": "ABgqpRW7uAyjg+/6/SpFidmKAcjr6fnU6zoUVQChTr7+v1yeaWGclyUXAbGcjknp0/Gld320t+IW2v1v93mI2nuOcqfb/wDWKK0CJSpOP88UUXHylIXcRUENjBx0P1Hb2qFSXcPGc7QOBnPc8ZGOPfHpTdJQMWyMjOVOMjI/TODUtyxkYhVITIycEZA9cijy/rUfmX1lMyf3VI4Pck0VWhX5c5OD936dvz60VI3qVradrUBAcKWJ6A9h/M96bNdvNIEZsIeMDpj3Hf2pxGVGf88Vnyf60/57VSdxNWNpZAoOfw/pRVQE+WfpRUjP/9k=",
+        "nft_asset_info": null,
+        "owner": {
+            "blocked_by_viewer": false,
+            "edge_followed_by": {
+                "count": 11539
+            },
+            "edge_owner_to_timeline_media": {
+                "count": 99
+            },
+            "followed_by_viewer": false,
+            "full_name": "Mr. M \u2728",
+            "has_blocked_viewer": false,
+            "id": "64744333778",
+            "is_embeds_disabled": false,
+            "is_private": false,
+            "is_unpublished": false,
+            "is_verified": false,
+            "pass_tiering_recommendation": true,
+            "profile_pic_url": "https://scontent-yyz1-1.cdninstagram.com/v/t51.2885-19/447556011_1194779421695714_2353299620319990980_n.jpg?stp=dst-jpg_s150x150_tt6&_nc_ht=scontent-yyz1-1.cdninstagram.com&_nc_cat=102&_nc_oc=Q6cZ2AGf4eytcDXjaHtCFLRTORIlKUn5CBn9szuZXwxV4djBLEJAwigfUsNdvxtePF4drFQ&_nc_ohc=VIRlwI7RMN0Q7kNvgFmFDgr&_nc_gid=17c49d41bc2c42629f4027f979ae24fb&edm=ANTKIIoBAAAA&ccb=7-5&oh=00_AYAAPV2pAVfN-Wevk-s1PZCOagWDTJOZUf2a04SzZmIWcg&oe=67B54BCE&_nc_sid=d885a2",
+            "requested_by_viewer": false,
+            "restricted_by_viewer": null,
+            "username": "majestic_mindsets"
+        },
+        "pinned_for_users": [],
+        "product_type": "clips",
+        "sensitivity_friction_info": null,
+        "sharing_friction_info": {
+            "bloks_app_url": null,
+            "should_have_sharing_friction": false
+        },
+        "shortcode": "DFoLho3oWC3",
+        "taken_at_timestamp": 1738622708,
+        "thumbnail_src": "https://scontent-yyz1-1.cdninstagram.com/v/t51.2885-15/475771696_17893621050157779_4118576977396624860_n.jpg?stp=c0.455.1170.1170a_dst-jpg_e35_s640x640_sh0.08_tt6&_nc_ht=scontent-yyz1-1.cdninstagram.com&_nc_cat=103&_nc_oc=Q6cZ2AGf4eytcDXjaHtCFLRTORIlKUn5CBn9szuZXwxV4djBLEJAwigfUsNdvxtePF4drFQ&_nc_ohc=VCH1fz-7nCwQ7kNvgH4-upr&_nc_gid=17c49d41bc2c42629f4027f979ae24fb&edm=ANTKIIoBAAAA&ccb=7-5&oh=00_AYAnSed8M_aMXZFdfI99YqEOCBJmWZjrz-fhm8i2ixGQHg&oe=67B528AC&_nc_sid=d885a2",
+        "title": "",
+        "tracking_token": "eyJ2ZXJzaW9uIjo1LCJwYXlsb2FkIjp7ImlzX2FuYWx5dGljc190cmFja2VkIjp0cnVlLCJ1dWlkIjoiMTdjNDlkNDFiYzJjNDI2MjlmNDAyN2Y5NzlhZTI0ZmIzNTYwMTQ2MTk1NTczNzI3NDE1In0sInNpZ25hdHVyZSI6IiJ9",
+        "upcoming_event": null,
+        "video_duration": 206.726,
+        "video_play_count": 139698,
+        "video_url": "https://scontent-yyz1-1.cdninstagram.com/o1/v/t16/f2/m86/AQMiBp0u6RkikOF9Ck87eiNmSULl4OdE4Ck3JcvdDkdmZSBnv1mwPLmz1J__3e9HDM43zqOojyvvvx8S2F6ThFa6wvt8n5YvuTakWUo.mp4?stp=dst-mp4&efg=eyJxZV9ncm91cHMiOiJbXCJpZ193ZWJfZGVsaXZlcnlfdnRzX290ZlwiXSIsInZlbmNvZGVfdGFnIjoidnRzX3ZvZF91cmxnZW4uY2xpcHMuYzIuNzIwLmJhc2VsaW5lIn0&_nc_cat=101&vs=1617649898891192_701113635&_nc_vs=HBksFQIYUmlnX3hwdl9yZWVsc19wZXJtYW5lbnRfc3JfcHJvZC9DMzRCQkI0RThCMTU5MENGQjQxRjQzNDZENkIwMzM5QV92aWRlb19kYXNoaW5pdC5tcDQVAALIAQAVAhg6cGFzc3Rocm91Z2hfZXZlcnN0b3JlL0dHbnFaaHhuSzRlYnJ6SU9BSmRxWjY0czlKUUhicV9FQUFBRhUCAsgBACgAGAAbABUAACaShPK9s%2FaFQBUCKAJDMywXQGnVT987ZFoYEmRhc2hfYmFzZWxpbmVfMV92MREAdf4HAA%3D%3D&ccb=9-4&oh=00_AYAyzM7nVTaUFJg1MzpuJi04T-ryM5ktAb-q9ecQcvcruw&oe=67B150D6&_nc_sid=d885a2",
+        "video_view_count": 69311,
+        "viewer_can_reshare": true,
+        "viewer_has_liked": false,
+        "viewer_has_saved": false,
+        "viewer_has_saved_to_collection": false,
+        "viewer_in_photo_of_you": false
+    }
+}

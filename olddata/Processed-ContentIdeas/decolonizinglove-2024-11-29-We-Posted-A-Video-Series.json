@@ -1,0 +1,273 @@
+{
+    "instaloader": {
+        "node_type": "Post",
+        "version": "4.14.1"
+    },
+    "node": {
+        "__isXDTGraphMediaInterface": "XDTGraphVideo",
+        "__typename": "GraphVideo",
+        "accessibility_caption": null,
+        "can_see_insights_as_brand": false,
+        "caption_is_edited": false,
+        "clips_music_attribution_info": {
+            "artist_name": "decolonizing.love",
+            "audio_id": "9272418719436141",
+            "should_mute_audio": false,
+            "should_mute_audio_reason": "",
+            "song_name": "Original audio",
+            "uses_original_audio": true
+        },
+        "coauthor_producers": [],
+        "commenting_disabled_for_viewer": false,
+        "comments_disabled": false,
+        "dash_info": {
+            "is_dash_eligible": false,
+            "number_of_qualities": 0,
+            "video_dash_manifest": null
+        },
+        "dimensions": {
+            "height": 1137,
+            "width": 640
+        },
+        "display_resources": [
+            {
+                "config_height": 1137,
+                "config_width": 640,
+                "src": "https://scontent-msp1-1.cdninstagram.com/v/t51.2885-15/468583909_18010494326676615_2412650106527080962_n.jpg?stp=dst-jpg_e15_tt6&_nc_ht=scontent-msp1-1.cdninstagram.com&_nc_cat=103&_nc_oc=Q6cZ2AFBN824Rj5Ft-tLma9suDTjdixYxTyEz_2o4h8rxN7B2r8m1zXAuogH5C-w-mNKNLM&_nc_ohc=qQzji2eqMqUQ7kNvgESbc6S&_nc_gid=3bcd74b052fd4022b2318f37d215886c&edm=ANTKIIoBAAAA&ccb=7-5&oh=00_AYDnzEOTfIoNuuDD61VZ6DfVN3X-3TbF6p-gqzGWTOZadg&oe=67B4C160&_nc_sid=d885a2"
+            },
+            {
+                "config_height": 1333,
+                "config_width": 750,
+                "src": "https://scontent-msp1-1.cdninstagram.com/v/t51.2885-15/468583909_18010494326676615_2412650106527080962_n.jpg?stp=dst-jpg_e15_tt6&_nc_ht=scontent-msp1-1.cdninstagram.com&_nc_cat=103&_nc_oc=Q6cZ2AFBN824Rj5Ft-tLma9suDTjdixYxTyEz_2o4h8rxN7B2r8m1zXAuogH5C-w-mNKNLM&_nc_ohc=qQzji2eqMqUQ7kNvgESbc6S&_nc_gid=3bcd74b052fd4022b2318f37d215886c&edm=ANTKIIoBAAAA&ccb=7-5&oh=00_AYDnzEOTfIoNuuDD61VZ6DfVN3X-3TbF6p-gqzGWTOZadg&oe=67B4C160&_nc_sid=d885a2"
+            },
+            {
+                "config_height": 1920,
+                "config_width": 1080,
+                "src": "https://scontent-msp1-1.cdninstagram.com/v/t51.2885-15/468583909_18010494326676615_2412650106527080962_n.jpg?stp=dst-jpg_e15_tt6&_nc_ht=scontent-msp1-1.cdninstagram.com&_nc_cat=103&_nc_oc=Q6cZ2AFBN824Rj5Ft-tLma9suDTjdixYxTyEz_2o4h8rxN7B2r8m1zXAuogH5C-w-mNKNLM&_nc_ohc=qQzji2eqMqUQ7kNvgESbc6S&_nc_gid=3bcd74b052fd4022b2318f37d215886c&edm=ANTKIIoBAAAA&ccb=7-5&oh=00_AYDnzEOTfIoNuuDD61VZ6DfVN3X-3TbF6p-gqzGWTOZadg&oe=67B4C160&_nc_sid=d885a2"
+            }
+        ],
+        "display_url": "https://scontent-msp1-1.cdninstagram.com/v/t51.2885-15/468583909_18010494326676615_2412650106527080962_n.jpg?stp=dst-jpg_e15_tt6&_nc_ht=scontent-msp1-1.cdninstagram.com&_nc_cat=103&_nc_oc=Q6cZ2AFBN824Rj5Ft-tLma9suDTjdixYxTyEz_2o4h8rxN7B2r8m1zXAuogH5C-w-mNKNLM&_nc_ohc=qQzji2eqMqUQ7kNvgESbc6S&_nc_gid=3bcd74b052fd4022b2318f37d215886c&edm=ANTKIIoBAAAA&ccb=7-5&oh=00_AYDnzEOTfIoNuuDD61VZ6DfVN3X-3TbF6p-gqzGWTOZadg&oe=67B4C160&_nc_sid=d885a2",
+        "edge_media_preview_comment": {
+            "count": 28,
+            "edges": [
+                {
+                    "node": {
+                        "created_at": 1733196653,
+                        "did_report_as_spam": false,
+                        "edge_liked_by": {
+                            "count": 0
+                        },
+                        "id": "17953279739854889",
+                        "is_restricted_pending": false,
+                        "owner": {
+                            "id": "4401114026",
+                            "is_verified": false,
+                            "profile_pic_url": "https://scontent-msp1-1.cdninstagram.com/v/t51.2885-19/467250443_1810209372848458_3696622980928459701_n.jpg?stp=dst-jpg_s150x150_tt6&_nc_ht=scontent-msp1-1.cdninstagram.com&_nc_cat=110&_nc_oc=Q6cZ2AFBN824Rj5Ft-tLma9suDTjdixYxTyEz_2o4h8rxN7B2r8m1zXAuogH5C-w-mNKNLM&_nc_ohc=7E8u0MFTn58Q7kNvgFUHrtd&_nc_gid=3bcd74b052fd4022b2318f37d215886c&edm=ANTKIIoBAAAA&ccb=7-5&oh=00_AYCoG0kNwdCZs6MXt2FJi4eQBTDnDyZl4dq6ZjCSC-tc6g&oe=67B4B995&_nc_sid=d885a2",
+                            "username": "3fun_office"
+                        },
+                        "text": "@loveismy_answer Hey! I\u2019m Coco, the founder of 3fun, and I noticed you're interested in polyamory \ud83c\udf08 If you're ready to explore open relationships or polyamory in a supportive space, 3fun is the perfect place for you. Click the link in my bio, download the app, and start your journey with us today! \u2728",
+                        "viewer_has_liked": false
+                    }
+                }
+            ]
+        },
+        "edge_media_preview_like": {
+            "count": 1818,
+            "edges": []
+        },
+        "edge_media_to_caption": {
+            "edges": [
+                {
+                    "node": {
+                        "created_at": "1732878025",
+                        "id": "18051491363497881",
+                        "text": "We posted a video series where Nick tells a partner he\u2019s going abroad for work and plans to move with his nesting partner, Millie. Some viewers suggested we flip the script and show Millie rejecting that plan, with Nick instead going abroad with another partner. Ironically, this subversion mirrors our lived reality more closely than the original scenario. Millie is generally hesitant to move again for Nick\u2019s career, especially if the new location doesn\u2019t align with her interests.\n\nThis highlights the beauty of egalitarian polyamory: you\u2019re not bound by monocentric norms that dictate the most established couple must always make major life decisions together. In our dynamic, it\u2019s just as likely that Nick could move to another country with a different partner. In fact, before Nick\u2019s last breakup, the plan had been for Millie and Nick to denest, as Millie prefers living alone, and for Nick to move full-time with his other partner. Egalitarian polyamory allows for flexibility and individuality, breaking free from the idea that one partner or relationship always takes precedence.\n\n\u2b50\ufe0f Follow for polyamory content through a decolonizing lens\n\n\ud83d\udd0d Ready to level up your polyamory journey? Book a 1:1 coaching session for personalized guidance \ud83d\udcac!\n\n\ud83d\udc96 hit the link in bio to check it all out! \ud83d\ude80\n\n#Polyamorous #Polyamory #NonMonogamy #OpenRelationship #RelationshipGoals"
+                    }
+                }
+            ]
+        },
+        "edge_media_to_hoisted_comment": {
+            "edges": []
+        },
+        "edge_media_to_parent_comment": {
+            "count": 28,
+            "edges": [
+                {
+                    "node": {
+                        "created_at": 1732989647,
+                        "did_report_as_spam": false,
+                        "edge_liked_by": {
+                            "count": 3
+                        },
+                        "edge_threaded_comments": {
+                            "count": 0,
+                            "edges": [],
+                            "page_info": {
+                                "end_cursor": null,
+                                "has_next_page": false
+                            }
+                        },
+                        "id": "18061990249838541",
+                        "is_restricted_pending": false,
+                        "owner": {
+                            "id": "334984546",
+                            "is_verified": false,
+                            "profile_pic_url": "https://scontent-msp1-1.cdninstagram.com/v/t51.2885-19/449802435_1486032238667076_8420144985808628658_n.jpg?stp=dst-jpg_s150x150_tt6&_nc_ht=scontent-msp1-1.cdninstagram.com&_nc_cat=100&_nc_oc=Q6cZ2AFBN824Rj5Ft-tLma9suDTjdixYxTyEz_2o4h8rxN7B2r8m1zXAuogH5C-w-mNKNLM&_nc_ohc=RwmQzb6i1qkQ7kNvgE0dOcD&_nc_gid=3bcd74b052fd4022b2318f37d215886c&edm=ANTKIIoBAAAA&ccb=7-5&oh=00_AYCcf_UDMiPA9dgCH0J07J3__mKVINeTM3m4H79xHcrdnw&oe=67B4AC0F&_nc_sid=d885a2",
+                            "username": "sweetpeatara"
+                        },
+                        "text": "I love this but am curious how people combat insecurity throughout the relationship. Doesn\u2019t worry creep in that a partner could end things with you or move away? Is that simply viewed as a natural evolution of some relationships?",
+                        "viewer_has_liked": false
+                    }
+                },
+                {
+                    "node": {
+                        "created_at": 1732898403,
+                        "did_report_as_spam": false,
+                        "edge_liked_by": {
+                            "count": 15
+                        },
+                        "edge_threaded_comments": {
+                            "count": 1,
+                            "edges": [
+                                {
+                                    "node": {
+                                        "created_at": 1732948217,
+                                        "did_report_as_spam": false,
+                                        "edge_liked_by": {
+                                            "count": 7
+                                        },
+                                        "id": "18060685306889056",
+                                        "is_restricted_pending": false,
+                                        "owner": {
+                                            "id": "441625980",
+                                            "is_verified": false,
+                                            "profile_pic_url": "https://scontent-msp1-1.cdninstagram.com/v/t51.2885-19/419384696_999353078310362_2165664471645999598_n.jpg?stp=dst-jpg_s150x150_tt6&_nc_ht=scontent-msp1-1.cdninstagram.com&_nc_cat=102&_nc_oc=Q6cZ2AFBN824Rj5Ft-tLma9suDTjdixYxTyEz_2o4h8rxN7B2r8m1zXAuogH5C-w-mNKNLM&_nc_ohc=gmOGs3PdcYMQ7kNvgEbgLfY&_nc_gid=3bcd74b052fd4022b2318f37d215886c&edm=ANTKIIoBAAAA&ccb=7-5&oh=00_AYDtZV1IaLaC87rb1yVWpJt5L9Hfp_d7rvqafr4Ecjj4Hw&oe=67B49885&_nc_sid=d885a2",
+                                            "username": "quietendown"
+                                        },
+                                        "text": "Good question. That would feel more like genuine relationship anarchy to me",
+                                        "viewer_has_liked": false
+                                    }
+                                }
+                            ],
+                            "page_info": {
+                                "end_cursor": null,
+                                "has_next_page": false
+                            }
+                        },
+                        "id": "18055663639742095",
+                        "is_restricted_pending": false,
+                        "owner": {
+                            "id": "1056084631",
+                            "is_verified": false,
+                            "profile_pic_url": "https://scontent-msp1-1.cdninstagram.com/v/t51.2885-19/352565031_1239760866699481_1738485329928416777_n.jpg?stp=dst-jpg_s150x150_tt6&_nc_ht=scontent-msp1-1.cdninstagram.com&_nc_cat=101&_nc_oc=Q6cZ2AFBN824Rj5Ft-tLma9suDTjdixYxTyEz_2o4h8rxN7B2r8m1zXAuogH5C-w-mNKNLM&_nc_ohc=0tSPz5ZeB48Q7kNvgE6auJZ&_nc_gid=3bcd74b052fd4022b2318f37d215886c&edm=ANTKIIoBAAAA&ccb=7-5&oh=00_AYBqsuWJt3bT47FP7EIN64aKihKv7sng1N_mrZcILgi4sQ&oe=67B4B550&_nc_sid=d885a2",
+                            "username": "bittermermaid"
+                        },
+                        "text": "How would you handle this situation if Nick wanted to ask Rebecca to come with him instead of asking Millie first because he hasn\u2019t gotten the opportunity to cohabitate with Rebecca yet?",
+                        "viewer_has_liked": false
+                    }
+                },
+                {
+                    "node": {
+                        "created_at": 1732896879,
+                        "did_report_as_spam": false,
+                        "edge_liked_by": {
+                            "count": 1
+                        },
+                        "edge_threaded_comments": {
+                            "count": 0,
+                            "edges": [],
+                            "page_info": {
+                                "end_cursor": null,
+                                "has_next_page": false
+                            }
+                        },
+                        "id": "18028081643445939",
+                        "is_restricted_pending": false,
+                        "owner": {
+                            "id": "1471736409",
+                            "is_verified": false,
+                            "profile_pic_url": "https://scontent-msp1-1.cdninstagram.com/v/t51.2885-19/464051242_439096022141976_9216848421031976490_n.jpg?stp=dst-jpg_s150x150_tt6&_nc_ht=scontent-msp1-1.cdninstagram.com&_nc_cat=100&_nc_oc=Q6cZ2AFBN824Rj5Ft-tLma9suDTjdixYxTyEz_2o4h8rxN7B2r8m1zXAuogH5C-w-mNKNLM&_nc_ohc=305RGPok6S0Q7kNvgHOeNKz&_nc_gid=3bcd74b052fd4022b2318f37d215886c&edm=ANTKIIoBAAAA&ccb=7-5&oh=00_AYBTyBll2TtTjxfBpUzCLEPFOR-2sGnqPXgJjP_qdhtYiQ&oe=67B494FD&_nc_sid=d885a2",
+                            "username": "ambra_emmanuelle"
+                        },
+                        "text": "I'm so in love with both of you. Do you fancy an Unicorn FROM Italy? \u2764\ufe0f\ud83d\udd25\ud83d\ude0e",
+                        "viewer_has_liked": false
+                    }
+                }
+            ],
+            "page_info": {
+                "end_cursor": "{\"server_cursor\": \"QVFBUDdpT1dLcGU0czZodDJUNmtDckphSjJQeWQ3TzFrc3MtWm5wTVN5S0lzemdqR1pZN3NSSmlDcmQycGZxb190bWpkdUg4N29RbzUwWnMyd20yQWFhSw==\", \"is_server_cursor_inverse\": true}",
+                "has_next_page": true
+            }
+        },
+        "edge_media_to_sponsor_user": {
+            "edges": []
+        },
+        "edge_media_to_tagged_user": {
+            "edges": []
+        },
+        "edge_web_media_to_related_media": {
+            "edges": []
+        },
+        "encoding_status": null,
+        "fact_check_information": null,
+        "fact_check_overall_rating": null,
+        "gating_info": null,
+        "has_audio": true,
+        "has_ranked_comments": false,
+        "id": "3511957876328487499",
+        "is_ad": false,
+        "is_affiliate": false,
+        "is_paid_partnership": false,
+        "is_published": true,
+        "is_video": true,
+        "like_and_view_counts_disabled": false,
+        "location": null,
+        "media_overlay_info": null,
+        "media_preview": "ABgq2woUAnPNGAw4BqAysOG6AnBP146e1AuSOMj07/41NwI2Vs9KKV51VgrYBJ4oo3Ggm2lgOo54qCFYZtx7Djg4q6oXy9/UdTUAkQZxxn260eZXkZN4wYtsBbaRg9+nr1oqc5Q7SDk9PeinZLqdHs4v7X5GlA2yMEkdO/eqt3cQRqWw2T6Dj/CmL0z7UrgNG2eeD1qTmIYVV1LkEsehJ5APQcYopWOAMccUVpynWlY//9k=",
+        "nft_asset_info": null,
+        "owner": {
+            "blocked_by_viewer": false,
+            "edge_followed_by": {
+                "count": 276461
+            },
+            "edge_owner_to_timeline_media": {
+                "count": 1567
+            },
+            "followed_by_viewer": false,
+            "full_name": "Decolonizing Love",
+            "has_blocked_viewer": false,
+            "id": "50312684614",
+            "is_embeds_disabled": false,
+            "is_private": false,
+            "is_unpublished": false,
+            "is_verified": false,
+            "pass_tiering_recommendation": true,
+            "profile_pic_url": "https://scontent-msp1-1.cdninstagram.com/v/t51.2885-19/460261548_1750656385705111_5744712716272411897_n.jpg?stp=dst-jpg_s150x150_tt6&_nc_ht=scontent-msp1-1.cdninstagram.com&_nc_cat=1&_nc_oc=Q6cZ2AFBN824Rj5Ft-tLma9suDTjdixYxTyEz_2o4h8rxN7B2r8m1zXAuogH5C-w-mNKNLM&_nc_ohc=ZLdlOYde2EYQ7kNvgHuyQsd&_nc_gid=3bcd74b052fd4022b2318f37d215886c&edm=ANTKIIoBAAAA&ccb=7-5&oh=00_AYDrqusBom47AS2mk637E4-1INJ6l5M_sS4kerY3eMFk9g&oe=67B4B735&_nc_sid=d885a2",
+            "requested_by_viewer": false,
+            "restricted_by_viewer": null,
+            "username": "decolonizing.love"
+        },
+        "pinned_for_users": [],
+        "product_type": "clips",
+        "sensitivity_friction_info": null,
+        "sharing_friction_info": {
+            "bloks_app_url": null,
+            "should_have_sharing_friction": false
+        },
+        "shortcode": "DC8-xTUsdpL",
+        "taken_at_timestamp": 1732878000,
+        "thumbnail_src": "https://scontent-msp1-1.cdninstagram.com/v/t51.2885-15/468583909_18010494326676615_2412650106527080962_n.jpg?stp=c0.224.576.576a_dst-jpg_e15_tt6&_nc_ht=scontent-msp1-1.cdninstagram.com&_nc_cat=103&_nc_oc=Q6cZ2AFBN824Rj5Ft-tLma9suDTjdixYxTyEz_2o4h8rxN7B2r8m1zXAuogH5C-w-mNKNLM&_nc_ohc=qQzji2eqMqUQ7kNvgESbc6S&_nc_gid=3bcd74b052fd4022b2318f37d215886c&edm=ANTKIIoBAAAA&ccb=7-5&oh=00_AYC0LZhTT0eP88J__JImjMa1sExwzY3lN_-1m2GaYinT5Q&oe=67B4C160&_nc_sid=d885a2",
+        "title": "",
+        "tracking_token": "eyJ2ZXJzaW9uIjo1LCJwYXlsb2FkIjp7ImlzX2FuYWx5dGljc190cmFja2VkIjp0cnVlLCJ1dWlkIjoiM2JjZDc0YjA1MmZkNDAyMmIyMzE4ZjM3ZDIxNTg4NmMzNTExOTU3ODc2MzI4NDg3NDk5In0sInNpZ25hdHVyZSI6IiJ9",
+        "upcoming_event": null,
+        "video_duration": 77.8,
+        "video_play_count": 120522,
+        "video_url": "https://scontent-msp1-1.cdninstagram.com/o1/v/t16/f2/m86/AQNeXeXkwQOPhv0xbPAeFYKTaFLXDdMD-95PRyH6pxKN3tIs2Kp9e_eNQdb3emm4Kn4kmcy5r5HbAiINaz8ebznCoQ8jiV1UeS9vAEA.mp4?stp=dst-mp4&efg=eyJxZV9ncm91cHMiOiJbXCJpZ193ZWJfZGVsaXZlcnlfdnRzX290ZlwiXSIsInZlbmNvZGVfdGFnIjoidnRzX3ZvZF91cmxnZW4uY2xpcHMuYzIuNTc2LmJhc2VsaW5lIn0&_nc_cat=104&vs=1628204928120555_988991706&_nc_vs=HBksFQIYUmlnX3hwdl9yZWVsc19wZXJtYW5lbnRfc3JfcHJvZC80RTQ3QzcyQTQ5QzcxMjIyMTVEMjU2NUI1RUE0QUY4NV92aWRlb19kYXNoaW5pdC5tcDQVAALIAQAVAhg6cGFzc3Rocm91Z2hfZXZlcnN0b3JlL0dGSlA4aHV6a05qS1N4OENBQjhvMVdkMnQzd3RicV9FQUFBRhUCAsgBACgAGAAbABUAACagh8jjnofePxUCKAJDMywXQFNzMzMzMzMYEmRhc2hfYmFzZWxpbmVfMV92MREAdf4HAA%3D%3D&ccb=9-4&oh=00_AYCqV4HodxyyQJCbEX75yq8j6dqJFKBve6jh4XaWxn_ZEQ&oe=67B0ABA1&_nc_sid=d885a2",
+        "video_view_count": 58093,
+        "viewer_can_reshare": true,
+        "viewer_has_liked": false,
+        "viewer_has_saved": false,
+        "viewer_has_saved_to_collection": false,
+        "viewer_in_photo_of_you": false
+    }
+}

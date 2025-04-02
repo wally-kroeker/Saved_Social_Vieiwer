@@ -1,0 +1,1613 @@
+{
+    "instaloader": {
+        "node_type": "Post",
+        "version": "4.14.1"
+    },
+    "node": {
+        "__isXDTGraphMediaInterface": "XDTGraphVideo",
+        "__typename": "GraphVideo",
+        "accessibility_caption": null,
+        "can_see_insights_as_brand": false,
+        "caption_is_edited": false,
+        "clips_music_attribution_info": {
+            "artist_name": "means_tv",
+            "audio_id": "564285576643515",
+            "should_mute_audio": false,
+            "should_mute_audio_reason": "",
+            "song_name": "Original audio",
+            "uses_original_audio": true
+        },
+        "coauthor_producers": [
+            {
+                "id": "71424014408",
+                "is_verified": false,
+                "profile_pic_url": "https://scontent-yyz1-1.cdninstagram.com/v/t51.2885-19/472029114_1997787267313527_8475180584215979264_n.jpg?stp=dst-jpg_s150x150_tt6&_nc_ht=scontent-yyz1-1.cdninstagram.com&_nc_cat=103&_nc_oc=Q6cZ2AF2mMjdnUMZb87dK4Sjo0MT5lxZgA5jRYgl35ejjlyekbJWgfkYDvNjOPbt1PxsJTc&_nc_ohc=Ev73s5cJFd4Q7kNvgGI01dQ&_nc_gid=39844ed5517b4a71a72b255e5a1653a5&edm=ANTKIIoBAAAA&ccb=7-5&oh=00_AYAdI9OOifDtKzAtekwEWWhs8uQUp1Bd7PIBJlbFzK7fKQ&oe=67C3B6AD&_nc_sid=d885a2",
+                "username": "meanstv_backup"
+            }
+        ],
+        "commenting_disabled_for_viewer": false,
+        "comments_disabled": false,
+        "dash_info": {
+            "is_dash_eligible": true,
+            "number_of_qualities": 6,
+            "video_dash_manifest": "<?xml version=\"1.0\" encoding=\"UTF-8\"?>\n<MPD xmlns=\"urn:mpeg:dash:schema:mpd:2011\" xmlns:xsi=\"http://www.w3.org/2001/XMLSchema-instance\" xsi:schemaLocation=\"urn:mpeg:dash:schema:mpd:2011 DASH-MPD.xsd\" profiles=\"urn:mpeg:dash:profile:isoff-on-demand:2011\" minBufferTime=\"PT2S\" type=\"static\" mediaPresentationDuration=\"PT41.099998S\" FBManifestIdentifier=\"FgAYEnIyZXZldnA5LXIxZ2VuMnZwORl2yOyKp+y46wHqjajjlu/rAbiDz7G8m/EBorK/75n1/AHas/v9w4SJBPKUqIXFrIoEtLuAzJbHrwUiGBhkYXNoX2xuX2hlYWFjX3ZicjNfYXVkaW8A\"><Period id=\"0\" duration=\"PT41.099998S\"><AdaptationSet id=\"0\" contentType=\"video\" subsegmentAlignment=\"true\" par=\"9:16\" FBUnifiedUploadResolutionMos=\"360:74.3\"><Representation id=\"530436566147292vd\" bandwidth=\"115023\" codecs=\"vp09.00.31.08.00.01.01.01.00\" mimeType=\"video/mp4\" sar=\"1:1\" FBEncodingTag=\"dash_r2evevp9-r1gen2vp9_q40\" FBContentLength=\"590934\" FBPlaybackResolutionMos=\"0:100,360:50.7,480:47.4,720:47.4\" FBPlaybackResolutionMosConfidenceLevel=\"high\" FBPlaybackResolutionCsvqm=\"0:100,360:90.6,480:87.8,720:82.9\" FBAbrPolicyTags=\"\" width=\"720\" height=\"1280\" frameRate=\"15360/512\" FBDefaultQuality=\"1\" FBQualityClass=\"hd\" FBQualityLabel=\"270p\"><BaseURL>https://scontent-yyz1-1.cdninstagram.com/o1/v/t2/f2/m367/AQPcAHmG0Tqi338hoW_TXf01dHmcLxeEOxJo4QGwtCHeiDmU5-UcVszJdshrDdDktM__5AtFV9EyReRh5FbiB-C72_h_fAej0c6aTkI.mp4?_nc_cat=107&amp;_nc_sid=9ca052&amp;_nc_ht=scontent-yyz1-1.cdninstagram.com&amp;_nc_ohc=OJcxwGqARp4Q7kNvgGHNusu&amp;efg=eyJ2ZW5jb2RlX3RhZyI6ImlnLXhwdmRzLmNsaXBzLmMyLUMzLmRhc2hfcjJldmV2cDktcjFnZW4ydnA5X3E0MCIsInZpZGVvX2lkIjpudWxsLCJjbGllbnRfbmFtZSI6ImlnIiwib2lsX3VybGdlbl9hcHBfaWQiOi0xLCJ1cmxnZW5fc291cmNlIjoid3d3In0%3D&amp;ccb=17-1&amp;_nc_zt=28&amp;oh=00_AYAfQq7YXr8g_GBlt87lbhMurU2s505rzClXWaRoCaxuKw&amp;oe=67C3BEF8</BaseURL><SegmentBase indexRange=\"818-957\" timescale=\"15360\" FBMinimumPrefetchRange=\"958-23621\" FBFirstSegmentRange=\"958-42825\" FBFirstSegmentDuration=\"5000\" FBSecondSegmentRange=\"42826-116146\" FBPrefetchSegmentRange=\"958-42825\" FBPrefetchSegmentDuration=\"5000\"><Initialization range=\"0-817\"/></SegmentBase></Representation><Representation id=\"517747074226980v\" bandwidth=\"160117\" codecs=\"vp09.00.31.08.00.01.01.01.00\" mimeType=\"video/mp4\" sar=\"1:1\" FBEncodingTag=\"dash_r2evevp9-r1gen2vp9_q50\" FBContentLength=\"822603\" FBPlaybackResolutionMos=\"0:100,360:61.6,480:57.5,720:56.2\" FBPlaybackResolutionMosConfidenceLevel=\"high\" FBPlaybackResolutionCsvqm=\"0:100,360:92.8,480:90.7,720:86.9\" FBAbrPolicyTags=\"\" width=\"720\" height=\"1280\" frameRate=\"15360/512\" FBQualityClass=\"hd\" FBQualityLabel=\"360p\"><BaseURL>https://scontent-yyz1-1.cdninstagram.com/o1/v/t2/f2/m367/AQP-BpHhIYx0E8eV55y65rQrZb4fSaPC6-VCBYF_XJ26XV5R73tiugH2DugTqZPrUoq0RRIVd_DW95Z1YpKvCn5sgNRUo3zHC4JpDOU.mp4?_nc_cat=102&amp;_nc_sid=9ca052&amp;_nc_ht=scontent-yyz1-1.cdninstagram.com&amp;_nc_ohc=2RFts0VPWSUQ7kNvgFbfYD8&amp;efg=eyJ2ZW5jb2RlX3RhZyI6ImlnLXhwdmRzLmNsaXBzLmMyLUMzLmRhc2hfcjJldmV2cDktcjFnZW4ydnA5X3E1MCIsInZpZGVvX2lkIjpudWxsLCJjbGllbnRfbmFtZSI6ImlnIiwib2lsX3VybGdlbl9hcHBfaWQiOi0xLCJ1cmxnZW5fc291cmNlIjoid3d3In0%3D&amp;ccb=17-1&amp;_nc_zt=28&amp;oh=00_AYAH-ywKQHTDstCz4GqKzuAQbDkzad_JRyfMgCaTkZzv_w&amp;oe=67C3BE93</BaseURL><SegmentBase indexRange=\"818-957\" timescale=\"15360\" FBMinimumPrefetchRange=\"958-31073\" FBFirstSegmentRange=\"958-57469\" FBFirstSegmentDuration=\"5000\" FBSecondSegmentRange=\"57470-159721\" FBPrefetchSegmentRange=\"958-57469\" FBPrefetchSegmentDuration=\"5000\"><Initialization range=\"0-817\"/></SegmentBase></Representation><Representation id=\"518680487461749v\" bandwidth=\"237603\" codecs=\"vp09.00.31.08.00.01.01.01.00\" mimeType=\"video/mp4\" sar=\"1:1\" FBEncodingTag=\"dash_r2evevp9-r1gen2vp9_q60\" FBContentLength=\"1220689\" FBPlaybackResolutionMos=\"0:100,360:71.7,480:67.7,720:65.5\" FBPlaybackResolutionMosConfidenceLevel=\"high\" FBPlaybackResolutionCsvqm=\"0:100,360:95,480:93.7,720:91\" FBAbrPolicyTags=\"\" width=\"720\" height=\"1280\" frameRate=\"15360/512\" FBQualityClass=\"hd\" FBQualityLabel=\"480p\"><BaseURL>https://scontent-yyz1-1.cdninstagram.com/o1/v/t2/f2/m367/AQPpyw2BZnwHKKxWOEfz2gyws55FztbTXN7lG1FmZAa180rRKVeeqLDJjtlfGbwTAc-TTbkIp09nE5gnoA04cM-Ct4SdINOsf-B6Msg.mp4?_nc_cat=111&amp;_nc_sid=9ca052&amp;_nc_ht=scontent-yyz1-1.cdninstagram.com&amp;_nc_ohc=rLk1ZJNMSbEQ7kNvgEGycQL&amp;efg=eyJ2ZW5jb2RlX3RhZyI6ImlnLXhwdmRzLmNsaXBzLmMyLUMzLmRhc2hfcjJldmV2cDktcjFnZW4ydnA5X3E2MCIsInZpZGVvX2lkIjpudWxsLCJjbGllbnRfbmFtZSI6ImlnIiwib2lsX3VybGdlbl9hcHBfaWQiOi0xLCJ1cmxnZW5fc291cmNlIjoid3d3In0%3D&amp;ccb=17-1&amp;_nc_zt=28&amp;oh=00_AYDEV1wkqnyHGoQTUbR2t242SgImBrLhlAW8pNdQEvhlzg&amp;oe=67C3D068</BaseURL><SegmentBase indexRange=\"818-957\" timescale=\"15360\" FBMinimumPrefetchRange=\"958-42416\" FBFirstSegmentRange=\"958-81942\" FBFirstSegmentDuration=\"5000\" FBSecondSegmentRange=\"81943-235142\" FBPrefetchSegmentRange=\"958-81942\" FBPrefetchSegmentDuration=\"5000\"><Initialization range=\"0-817\"/></SegmentBase></Representation><Representation id=\"1511951779761882v\" bandwidth=\"336543\" codecs=\"vp09.00.31.08.00.01.01.01.00\" mimeType=\"video/mp4\" sar=\"1:1\" FBEncodingTag=\"dash_r2evevp9-r1gen2vp9_q70\" FBContentLength=\"1728993\" FBPlaybackResolutionMos=\"0:100,360:77.8,480:74.4,720:71.9\" FBPlaybackResolutionMosConfidenceLevel=\"high\" FBPlaybackResolutionCsvqm=\"0:100,360:96.3,480:95.4,720:93.6\" FBAbrPolicyTags=\"\" width=\"720\" height=\"1280\" frameRate=\"15360/512\" FBQualityClass=\"hd\" FBQualityLabel=\"540p\"><BaseURL>https://scontent-yyz1-1.cdninstagram.com/o1/v/t2/f2/m367/AQMzUBqi6w2-3bykLhBEoYAKLflQLcs213rRtmyYD01xbBifGWggWIx9LybxwQOr8K8sYSI2o9o2v1dh1w2mpuutbpI2ks3yQFiD1Vk.mp4?_nc_cat=102&amp;_nc_sid=9ca052&amp;_nc_ht=scontent-yyz1-1.cdninstagram.com&amp;_nc_ohc=4WcUcvU4PIEQ7kNvgHItw7w&amp;efg=eyJ2ZW5jb2RlX3RhZyI6ImlnLXhwdmRzLmNsaXBzLmMyLUMzLmRhc2hfcjJldmV2cDktcjFnZW4ydnA5X3E3MCIsInZpZGVvX2lkIjpudWxsLCJjbGllbnRfbmFtZSI6ImlnIiwib2lsX3VybGdlbl9hcHBfaWQiOi0xLCJ1cmxnZW5fc291cmNlIjoid3d3In0%3D&amp;ccb=17-1&amp;_nc_zt=28&amp;oh=00_AYCpm_LqKb1bWc328Qa1MSPccaprdSP53o-93culwvTtmA&amp;oe=67C3C8DF</BaseURL><SegmentBase indexRange=\"818-957\" timescale=\"15360\" FBMinimumPrefetchRange=\"958-53252\" FBFirstSegmentRange=\"958-114061\" FBFirstSegmentDuration=\"5000\" FBSecondSegmentRange=\"114062-331890\" FBPrefetchSegmentRange=\"958-114061\" FBPrefetchSegmentDuration=\"5000\"><Initialization range=\"0-817\"/></SegmentBase></Representation><Representation id=\"1148655320237369v\" bandwidth=\"462195\" codecs=\"vp09.00.31.08.00.01.01.01.00\" mimeType=\"video/mp4\" sar=\"1:1\" FBEncodingTag=\"dash_r2evevp9-r1gen2vp9_q80\" FBContentLength=\"2374529\" FBPlaybackResolutionMos=\"0:100,360:84.2,480:80.1,720:76.9\" FBPlaybackResolutionMosConfidenceLevel=\"high\" FBPlaybackResolutionCsvqm=\"0:100,360:96.9,480:96.4,720:95.2\" FBAbrPolicyTags=\"\" width=\"720\" height=\"1280\" frameRate=\"15360/512\" FBQualityClass=\"hd\" FBQualityLabel=\"640p\"><BaseURL>https://scontent-yyz1-1.cdninstagram.com/o1/v/t2/f2/m367/AQOvTBRFvk_9dlQzMZcJXn-dqmqKtvkzNx7c12RXoJZw-QIRu0qF3RWJbNvZ3SMB-5A5taYL2J57vGHEp0pHq-tf6sHfsUMGPbZx9g4.mp4?_nc_cat=107&amp;_nc_sid=9ca052&amp;_nc_ht=scontent-yyz1-1.cdninstagram.com&amp;_nc_ohc=34NFFx9cPBYQ7kNvgGWIBIV&amp;efg=eyJ2ZW5jb2RlX3RhZyI6ImlnLXhwdmRzLmNsaXBzLmMyLUMzLmRhc2hfcjJldmV2cDktcjFnZW4ydnA5X3E4MCIsInZpZGVvX2lkIjpudWxsLCJjbGllbnRfbmFtZSI6ImlnIiwib2lsX3VybGdlbl9hcHBfaWQiOi0xLCJ1cmxnZW5fc291cmNlIjoid3d3In0%3D&amp;ccb=17-1&amp;_nc_zt=28&amp;oh=00_AYCOI3ge2lb6imc6hvvN04Eab38iccLZTecrrz9HtCnWNg&amp;oe=67C3DBB4</BaseURL><SegmentBase indexRange=\"818-957\" timescale=\"15360\" FBMinimumPrefetchRange=\"958-65226\" FBFirstSegmentRange=\"958-161926\" FBFirstSegmentDuration=\"5000\" FBSecondSegmentRange=\"161927-458331\" FBPrefetchSegmentRange=\"958-161926\" FBPrefetchSegmentDuration=\"5000\"><Initialization range=\"0-817\"/></SegmentBase></Representation><Representation id=\"556167377448081v\" bandwidth=\"611822\" codecs=\"vp09.00.31.08.00.01.01.01.00\" mimeType=\"video/mp4\" sar=\"1:1\" FBEncodingTag=\"dash_r2evevp9-r1gen2vp9_q90\" FBContentLength=\"3143239\" FBPlaybackResolutionMos=\"0:100,360:88,480:84.7,720:81.5\" FBPlaybackResolutionMosConfidenceLevel=\"high\" FBPlaybackResolutionCsvqm=\"0:100,360:97.3,480:97,720:96.2\" FBAbrPolicyTags=\"\" width=\"720\" height=\"1280\" frameRate=\"15360/512\" FBQualityClass=\"hd\" FBQualityLabel=\"720p\"><BaseURL>https://scontent-yyz1-1.cdninstagram.com/o1/v/t2/f2/m367/AQP8QXCvbNVsHrC1BPDvzXkPTZKG8aAPjg05oNFviBDu2ZzNjQZB4zBNCHLQzQW8URU9j4qllU10f-IDPRP8QlgUWGRR5nL8OsT5glg.mp4?_nc_cat=107&amp;_nc_sid=9ca052&amp;_nc_ht=scontent-yyz1-1.cdninstagram.com&amp;_nc_ohc=Un25VkHN-0sQ7kNvgFRk_ig&amp;efg=eyJ2ZW5jb2RlX3RhZyI6ImlnLXhwdmRzLmNsaXBzLmMyLUMzLmRhc2hfcjJldmV2cDktcjFnZW4ydnA5X3E5MCIsInZpZGVvX2lkIjpudWxsLCJjbGllbnRfbmFtZSI6ImlnIiwib2lsX3VybGdlbl9hcHBfaWQiOi0xLCJ1cmxnZW5fc291cmNlIjoid3d3In0%3D&amp;ccb=17-1&amp;_nc_zt=28&amp;oh=00_AYC_rfTApBmnRMf5lBlsH6_syosqkOngDytMg5ObETU0-Q&amp;oe=67C3D3D4</BaseURL><SegmentBase indexRange=\"818-957\" timescale=\"15360\" FBMinimumPrefetchRange=\"958-75760\" FBFirstSegmentRange=\"958-222604\" FBFirstSegmentDuration=\"5000\" FBSecondSegmentRange=\"222605-607720\" FBPrefetchSegmentRange=\"958-222604\" FBPrefetchSegmentDuration=\"5000\"><Initialization range=\"0-817\"/></SegmentBase></Representation></AdaptationSet><AdaptationSet id=\"1\" contentType=\"audio\" subsegmentStartsWithSAP=\"1\" subsegmentAlignment=\"true\"><Representation id=\"1145768960290029ad\" bandwidth=\"66583\" codecs=\"mp4a.40.5\" mimeType=\"audio/mp4\" FBAvgBitrate=\"66583\" audioSamplingRate=\"44100\" FBEncodingTag=\"dash_ln_heaac_vbr3_audio\" FBContentLength=\"327880\" FBPaqMos=\"90.30\" FBAbrPolicyTags=\"\" FBDefaultQuality=\"1\"><AudioChannelConfiguration schemeIdUri=\"urn:mpeg:dash:23003:3:audio_channel_configuration:2011\" value=\"2\"/><BaseURL>https://scontent-yyz1-1.cdninstagram.com/o1/v/t16/f2/m69/AQMQZRkzJZJOy9N6fGCkARzLOTda6mTncghss6Dy2ace_vpuM1x8HpSWlWITR0Pi1fU0mx_YcJjuSf0XODktDDpr.mp4?strext=1&amp;_nc_cat=111&amp;_nc_sid=9ca052&amp;_nc_ht=scontent-yyz1-1.cdninstagram.com&amp;_nc_ohc=VOVWuii65M8Q7kNvgEUCa1j&amp;efg=eyJ2ZW5jb2RlX3RhZyI6ImlnLXhwdmRzLmNsaXBzLmMyLUMzLmRhc2hfbG5faGVhYWNfdmJyM19hdWRpbyIsInZpZGVvX2lkIjpudWxsLCJjbGllbnRfbmFtZSI6ImlnIiwib2lsX3VybGdlbl9hcHBfaWQiOi0xLCJ1cmxnZW5fc291cmNlIjoid3d3In0%3D&amp;ccb=17-1&amp;_nc_zt=28&amp;oh=00_AYBfinCXb6drZAaG5ywux715z7IGzoFeiL44ByyI3Qo-cw&amp;oe=67C3CF95</BaseURL><SegmentBase indexRange=\"824-1095\" timescale=\"44100\" FBMinimumPrefetchRange=\"1096-1439\" FBFirstSegmentRange=\"1096-19203\" FBFirstSegmentDuration=\"2021\" FBSecondSegmentRange=\"19204-36362\" FBPrefetchSegmentRange=\"1096-36362\" FBPrefetchSegmentDuration=\"4017\"><Initialization range=\"0-823\"/></SegmentBase></Representation></AdaptationSet></Period></MPD>\n"
+        },
+        "dimensions": {
+            "height": 1327,
+            "width": 750
+        },
+        "display_resources": [
+            {
+                "config_height": 1132,
+                "config_width": 640,
+                "src": "https://scontent-yyz1-1.cdninstagram.com/v/t51.2885-15/479702161_18264977245284603_2011220834687373197_n.jpg?stp=dst-jpg_e15_p640x640_tt6&_nc_ht=scontent-yyz1-1.cdninstagram.com&_nc_cat=103&_nc_oc=Q6cZ2AF2mMjdnUMZb87dK4Sjo0MT5lxZgA5jRYgl35ejjlyekbJWgfkYDvNjOPbt1PxsJTc&_nc_ohc=1B_HAGmn1u8Q7kNvgEdtD9S&_nc_gid=39844ed5517b4a71a72b255e5a1653a5&edm=ANTKIIoBAAAA&ccb=7-5&oh=00_AYALyv1JGZxTJ0GYvjf83KP6CGjHvLLzirS0T6nDBbbVXQ&oe=67C3AD48&_nc_sid=d885a2"
+            },
+            {
+                "config_height": 1327,
+                "config_width": 750,
+                "src": "https://scontent-yyz1-1.cdninstagram.com/v/t51.2885-15/479702161_18264977245284603_2011220834687373197_n.jpg?stp=dst-jpg_e15_tt6&_nc_ht=scontent-yyz1-1.cdninstagram.com&_nc_cat=103&_nc_oc=Q6cZ2AF2mMjdnUMZb87dK4Sjo0MT5lxZgA5jRYgl35ejjlyekbJWgfkYDvNjOPbt1PxsJTc&_nc_ohc=1B_HAGmn1u8Q7kNvgEdtD9S&_nc_gid=39844ed5517b4a71a72b255e5a1653a5&edm=ANTKIIoBAAAA&ccb=7-5&oh=00_AYCz8HRBMNg8rhLIFV_NthJzCp1BWSIeXMs3Dq90ueLR5g&oe=67C3AD48&_nc_sid=d885a2"
+            },
+            {
+                "config_height": 1911,
+                "config_width": 1080,
+                "src": "https://scontent-yyz1-1.cdninstagram.com/v/t51.2885-15/479702161_18264977245284603_2011220834687373197_n.jpg?stp=dst-jpg_e15_tt6&_nc_ht=scontent-yyz1-1.cdninstagram.com&_nc_cat=103&_nc_oc=Q6cZ2AF2mMjdnUMZb87dK4Sjo0MT5lxZgA5jRYgl35ejjlyekbJWgfkYDvNjOPbt1PxsJTc&_nc_ohc=1B_HAGmn1u8Q7kNvgEdtD9S&_nc_gid=39844ed5517b4a71a72b255e5a1653a5&edm=ANTKIIoBAAAA&ccb=7-5&oh=00_AYCz8HRBMNg8rhLIFV_NthJzCp1BWSIeXMs3Dq90ueLR5g&oe=67C3AD48&_nc_sid=d885a2"
+            }
+        ],
+        "display_url": "https://scontent-yyz1-1.cdninstagram.com/v/t51.2885-15/479702161_18264977245284603_2011220834687373197_n.jpg?stp=dst-jpg_e15_tt6&_nc_ht=scontent-yyz1-1.cdninstagram.com&_nc_cat=103&_nc_oc=Q6cZ2AF2mMjdnUMZb87dK4Sjo0MT5lxZgA5jRYgl35ejjlyekbJWgfkYDvNjOPbt1PxsJTc&_nc_ohc=1B_HAGmn1u8Q7kNvgEdtD9S&_nc_gid=39844ed5517b4a71a72b255e5a1653a5&edm=ANTKIIoBAAAA&ccb=7-5&oh=00_AYCz8HRBMNg8rhLIFV_NthJzCp1BWSIeXMs3Dq90ueLR5g&oe=67C3AD48&_nc_sid=d885a2",
+        "edge_media_preview_comment": {
+            "count": 76,
+            "edges": [
+                {
+                    "node": {
+                        "created_at": 1740496316,
+                        "did_report_as_spam": false,
+                        "edge_liked_by": {
+                            "count": 0
+                        },
+                        "id": "18072949111768817",
+                        "is_restricted_pending": false,
+                        "owner": {
+                            "id": "65291303941",
+                            "is_verified": false,
+                            "profile_pic_url": "https://scontent-yyz1-1.cdninstagram.com/v/t51.2885-19/431000141_751677773581620_1100762360457862327_n.jpg?stp=dst-jpg_s150x150_tt6&_nc_ht=scontent-yyz1-1.cdninstagram.com&_nc_cat=100&_nc_oc=Q6cZ2AF2mMjdnUMZb87dK4Sjo0MT5lxZgA5jRYgl35ejjlyekbJWgfkYDvNjOPbt1PxsJTc&_nc_ohc=1xEQZN3M4EsQ7kNvgHpqjQg&_nc_gid=39844ed5517b4a71a72b255e5a1653a5&edm=ANTKIIoBAAAA&ccb=7-5&oh=00_AYDZkgoKREu4Leiw0LJibrwwPYplm3h3mjsWgQuv3gspJg&oe=67C3AB2C&_nc_sid=d885a2",
+                            "username": "a_noncarnivorous_cat"
+                        },
+                        "text": "@marcellomilanezi see my comment, I think you are exaggerating and I think she was criticising anarchist escapism, intentionally or not",
+                        "viewer_has_liked": false
+                    }
+                },
+                {
+                    "node": {
+                        "created_at": 1740496460,
+                        "did_report_as_spam": false,
+                        "edge_liked_by": {
+                            "count": 1
+                        },
+                        "id": "18006857561711595",
+                        "is_restricted_pending": false,
+                        "owner": {
+                            "id": "65291303941",
+                            "is_verified": false,
+                            "profile_pic_url": "https://scontent-yyz1-1.cdninstagram.com/v/t51.2885-19/431000141_751677773581620_1100762360457862327_n.jpg?stp=dst-jpg_s150x150_tt6&_nc_ht=scontent-yyz1-1.cdninstagram.com&_nc_cat=100&_nc_oc=Q6cZ2AF2mMjdnUMZb87dK4Sjo0MT5lxZgA5jRYgl35ejjlyekbJWgfkYDvNjOPbt1PxsJTc&_nc_ohc=1xEQZN3M4EsQ7kNvgHpqjQg&_nc_gid=39844ed5517b4a71a72b255e5a1653a5&edm=ANTKIIoBAAAA&ccb=7-5&oh=00_AYDZkgoKREu4Leiw0LJibrwwPYplm3h3mjsWgQuv3gspJg&oe=67C3AB2C&_nc_sid=d885a2",
+                            "username": "a_noncarnivorous_cat"
+                        },
+                        "text": "@jameswbirmingham also, how do you select who is on the board? Does being on the board give you some level of authority? Have you read State and Revolution in good faith? Have you read Imperialism? I'm asking because they are relevant to this conversation and to contemporary political and economic analysis.",
+                        "viewer_has_liked": false
+                    }
+                }
+            ]
+        },
+        "edge_media_preview_like": {
+            "count": 3008,
+            "edges": [
+                {
+                    "node": {
+                        "id": "1529761556",
+                        "is_verified": false,
+                        "profile_pic_url": "https://scontent-yyz1-1.cdninstagram.com/v/t51.2885-19/456597652_8551099024914516_3971413206798433400_n.jpg?stp=dst-jpg_s150x150_tt6&_nc_ht=scontent-yyz1-1.cdninstagram.com&_nc_cat=100&_nc_oc=Q6cZ2AF2mMjdnUMZb87dK4Sjo0MT5lxZgA5jRYgl35ejjlyekbJWgfkYDvNjOPbt1PxsJTc&_nc_ohc=RcD9ljx4SHYQ7kNvgFraWz_&_nc_gid=39844ed5517b4a71a72b255e5a1653a5&edm=ANTKIIoBAAAA&ccb=7-5&oh=00_AYCS3tzrgQ_ekrtdosPD3Fl4ADjsSbQEbz1_j8DvK7LJmQ&oe=67C3D1BB&_nc_sid=d885a2",
+                        "username": "greglantern"
+                    }
+                }
+            ]
+        },
+        "edge_media_to_caption": {
+            "edges": [
+                {
+                    "node": {
+                        "created_at": "1739638266",
+                        "id": "18485996284025033",
+                        "text": "\ud83d\udcabWorlds of Ursula K. Le Guin (2018, 68min)\n\nThe remarkable life and legacy of the late anarchist author, Ursula K. Le Guin hasn\u2019t been captured on film\u2026until now.\n\nProduced with Le Guin\u2019s participation over the course of a decade, the film is a journey through the writer\u2019s career and her worlds, both real and fantastic.\n\nDirected by Arwen Curry\nWatch now on Means TV \u2728"
+                    }
+                }
+            ]
+        },
+        "edge_media_to_hoisted_comment": {
+            "edges": []
+        },
+        "edge_media_to_parent_comment": {
+            "count": 76,
+            "edges": [
+                {
+                    "node": {
+                        "created_at": 1739656713,
+                        "did_report_as_spam": false,
+                        "edge_liked_by": {
+                            "count": 16
+                        },
+                        "edge_threaded_comments": {
+                            "count": 13,
+                            "edges": [
+                                {
+                                    "node": {
+                                        "created_at": 1740116825,
+                                        "did_report_as_spam": false,
+                                        "edge_liked_by": {
+                                            "count": 1
+                                        },
+                                        "id": "17893101858176475",
+                                        "is_restricted_pending": false,
+                                        "owner": {
+                                            "id": "16555060",
+                                            "is_verified": false,
+                                            "profile_pic_url": "https://scontent-yyz1-1.cdninstagram.com/v/t51.2885-19/169702637_4031767333550715_4620753323684842718_n.jpg?stp=dst-jpg_s150x150_tt6&_nc_ht=scontent-yyz1-1.cdninstagram.com&_nc_cat=103&_nc_oc=Q6cZ2AF2mMjdnUMZb87dK4Sjo0MT5lxZgA5jRYgl35ejjlyekbJWgfkYDvNjOPbt1PxsJTc&_nc_ohc=I9Ot2AcMGsUQ7kNvgH79RT1&_nc_gid=39844ed5517b4a71a72b255e5a1653a5&edm=ANTKIIoBAAAA&ccb=7-5&oh=00_AYA3Jd1Qbtls-tgVmQmBazrtKTIXyMSAQBsDHATaobtWfA&oe=67C3CE4E&_nc_sid=d885a2",
+                                            "username": "mophoto123"
+                                        },
+                                        "text": "@means_tv it's almost like she wrote a book to inspire thought, not a blueprint for cut and paste cronies",
+                                        "viewer_has_liked": false
+                                    }
+                                },
+                                {
+                                    "node": {
+                                        "created_at": 1740116888,
+                                        "did_report_as_spam": false,
+                                        "edge_liked_by": {
+                                            "count": 0
+                                        },
+                                        "id": "18489736252004426",
+                                        "is_restricted_pending": false,
+                                        "owner": {
+                                            "id": "72378136747",
+                                            "is_verified": false,
+                                            "profile_pic_url": "https://scontent-yyz1-1.cdninstagram.com/v/t51.2885-19/479054545_1526209167988472_6724223427640017228_n.jpg?stp=dst-jpg_s150x150_tt6&_nc_ht=scontent-yyz1-1.cdninstagram.com&_nc_cat=108&_nc_oc=Q6cZ2AF2mMjdnUMZb87dK4Sjo0MT5lxZgA5jRYgl35ejjlyekbJWgfkYDvNjOPbt1PxsJTc&_nc_ohc=84LeBl0TkSAQ7kNvgHRfPUl&_nc_gid=39844ed5517b4a71a72b255e5a1653a5&edm=ANTKIIoBAAAA&ccb=7-5&oh=00_AYA8dlov2DaOHqDHGFvFxvdHSG6nuAVQh2qPZLZjatDi6w&oe=67C3BE9D&_nc_sid=d885a2",
+                                            "username": "sinisteroveralls"
+                                        },
+                                        "text": "@means_tv just let me be a hater \ud83d\ude14",
+                                        "viewer_has_liked": false
+                                    }
+                                },
+                                {
+                                    "node": {
+                                        "created_at": 1740240378,
+                                        "did_report_as_spam": false,
+                                        "edge_liked_by": {
+                                            "count": 0
+                                        },
+                                        "id": "18049091620996829",
+                                        "is_restricted_pending": false,
+                                        "owner": {
+                                            "id": "4240008814",
+                                            "is_verified": false,
+                                            "profile_pic_url": "https://scontent-yyz1-1.cdninstagram.com/v/t51.2885-19/439451498_441685965018235_2658902529391182585_n.jpg?stp=dst-jpg_s150x150_tt6&_nc_ht=scontent-yyz1-1.cdninstagram.com&_nc_cat=107&_nc_oc=Q6cZ2AF2mMjdnUMZb87dK4Sjo0MT5lxZgA5jRYgl35ejjlyekbJWgfkYDvNjOPbt1PxsJTc&_nc_ohc=0ljELO3rAfIQ7kNvgFilXrs&_nc_gid=39844ed5517b4a71a72b255e5a1653a5&edm=ANTKIIoBAAAA&ccb=7-5&oh=00_AYA4tohz6dxRNjqfD6hX9QQNUxvyc_3g8sdUn5Z9RtXx0g&oe=67C3B81C&_nc_sid=d885a2",
+                                            "username": "jamsie_po"
+                                        },
+                                        "text": "@sinisteroveralls given how capitlaism has organized health care any other system would obviously do better.  Bad example to choose",
+                                        "viewer_has_liked": false
+                                    }
+                                }
+                            ],
+                            "page_info": {
+                                "end_cursor": "QVFBQ3FWLU5KYmZZbEVtNjV1emg4VXphRzkySkJ4VmJ0dDA5VlJCOFN0U2U1U3ZlR3lJa3A5RjNpUkNJUTFuaVRCRkJrWlJaRGc3ZVBUUXRfRjRiVTZaYw==",
+                                "has_next_page": true
+                            }
+                        },
+                        "id": "17898807228105063",
+                        "is_restricted_pending": false,
+                        "owner": {
+                            "id": "72378136747",
+                            "is_verified": false,
+                            "profile_pic_url": "https://scontent-yyz1-1.cdninstagram.com/v/t51.2885-19/479054545_1526209167988472_6724223427640017228_n.jpg?stp=dst-jpg_s150x150_tt6&_nc_ht=scontent-yyz1-1.cdninstagram.com&_nc_cat=108&_nc_oc=Q6cZ2AF2mMjdnUMZb87dK4Sjo0MT5lxZgA5jRYgl35ejjlyekbJWgfkYDvNjOPbt1PxsJTc&_nc_ohc=84LeBl0TkSAQ7kNvgHRfPUl&_nc_gid=39844ed5517b4a71a72b255e5a1653a5&edm=ANTKIIoBAAAA&ccb=7-5&oh=00_AYA8dlov2DaOHqDHGFvFxvdHSG6nuAVQh2qPZLZjatDi6w&oe=67C3BE9D&_nc_sid=d885a2",
+                            "username": "sinisteroveralls"
+                        },
+                        "text": "look guys, I hate to say it but; if the best case you can make for anarchism is that it has to take place on some fictional moon inhabited by refugees, I don\u2019t know how solid your theory is.",
+                        "viewer_has_liked": false
+                    }
+                },
+                {
+                    "node": {
+                        "created_at": 1740337864,
+                        "did_report_as_spam": false,
+                        "edge_liked_by": {
+                            "count": 1
+                        },
+                        "edge_threaded_comments": {
+                            "count": 1,
+                            "edges": [
+                                {
+                                    "node": {
+                                        "created_at": 1740496316,
+                                        "did_report_as_spam": false,
+                                        "edge_liked_by": {
+                                            "count": 0
+                                        },
+                                        "id": "18072949111768817",
+                                        "is_restricted_pending": false,
+                                        "owner": {
+                                            "id": "65291303941",
+                                            "is_verified": false,
+                                            "profile_pic_url": "https://scontent-yyz1-1.cdninstagram.com/v/t51.2885-19/431000141_751677773581620_1100762360457862327_n.jpg?stp=dst-jpg_s150x150_tt6&_nc_ht=scontent-yyz1-1.cdninstagram.com&_nc_cat=100&_nc_oc=Q6cZ2AF2mMjdnUMZb87dK4Sjo0MT5lxZgA5jRYgl35ejjlyekbJWgfkYDvNjOPbt1PxsJTc&_nc_ohc=1xEQZN3M4EsQ7kNvgHpqjQg&_nc_gid=39844ed5517b4a71a72b255e5a1653a5&edm=ANTKIIoBAAAA&ccb=7-5&oh=00_AYDZkgoKREu4Leiw0LJibrwwPYplm3h3mjsWgQuv3gspJg&oe=67C3AB2C&_nc_sid=d885a2",
+                                            "username": "a_noncarnivorous_cat"
+                                        },
+                                        "text": "@marcellomilanezi see my comment, I think you are exaggerating and I think she was criticising anarchist escapism, intentionally or not",
+                                        "viewer_has_liked": false
+                                    }
+                                }
+                            ],
+                            "page_info": {
+                                "end_cursor": null,
+                                "has_next_page": false
+                            }
+                        },
+                        "id": "18035732045569644",
+                        "is_restricted_pending": false,
+                        "owner": {
+                            "id": "40113549",
+                            "is_verified": false,
+                            "profile_pic_url": "https://scontent-yyz1-1.cdninstagram.com/v/t51.2885-19/470893870_1815713242590713_7820672672055373186_n.jpg?stp=dst-jpg_s150x150_tt6&_nc_ht=scontent-yyz1-1.cdninstagram.com&_nc_cat=105&_nc_oc=Q6cZ2AF2mMjdnUMZb87dK4Sjo0MT5lxZgA5jRYgl35ejjlyekbJWgfkYDvNjOPbt1PxsJTc&_nc_ohc=JBq6UeASGzsQ7kNvgEBoncK&_nc_gid=39844ed5517b4a71a72b255e5a1653a5&edm=ANTKIIoBAAAA&ccb=7-5&oh=00_AYCMDFDFlXG_BvwrStgs0gLwnO80HK4kSZ6go3th0cv7mg&oe=67C3D22E&_nc_sid=d885a2",
+                            "username": "marcellomilanezi"
+                        },
+                        "text": "I think the striking plint, that makes her work potentially realist, is that anarchist moon is far from utopic: there is violence, corruption and research is stiffled. That is how our protagonist leaves it for the capitalist planet dreaming of how his research can the  be shared - only to find even more violence, corruption, persecution and treachery\u2026 It\u2019s an amazing work, actually cried near the end when he meets at the (actual) Earth embassy and ahoota some truths at the representative\u2019s face",
+                        "viewer_has_liked": false
+                    }
+                },
+                {
+                    "node": {
+                        "created_at": 1739662556,
+                        "did_report_as_spam": false,
+                        "edge_liked_by": {
+                            "count": 0
+                        },
+                        "edge_threaded_comments": {
+                            "count": 1,
+                            "edges": [
+                                {
+                                    "node": {
+                                        "created_at": 1739809543,
+                                        "did_report_as_spam": false,
+                                        "edge_liked_by": {
+                                            "count": 0
+                                        },
+                                        "id": "18059643112959804",
+                                        "is_restricted_pending": false,
+                                        "owner": {
+                                            "id": "8587428602",
+                                            "is_verified": false,
+                                            "profile_pic_url": "https://scontent-yyz1-1.cdninstagram.com/v/t51.2885-19/307281289_425004526284699_6379648210361279513_n.jpg?stp=dst-jpg_s150x150_tt6&_nc_ht=scontent-yyz1-1.cdninstagram.com&_nc_cat=103&_nc_oc=Q6cZ2AF2mMjdnUMZb87dK4Sjo0MT5lxZgA5jRYgl35ejjlyekbJWgfkYDvNjOPbt1PxsJTc&_nc_ohc=dIkNkTR23FoQ7kNvgHaJDp0&_nc_gid=39844ed5517b4a71a72b255e5a1653a5&edm=ANTKIIoBAAAA&ccb=7-5&oh=00_AYDt0iP6LBhHf8EtzK9XOyd1Op_JuHKRLmGl5lJ2N97IiA&oe=67C3C4CF&_nc_sid=d885a2",
+                                            "username": "means_tv"
+                                        },
+                                        "text": "@justinerickson2099 on Means TV!",
+                                        "viewer_has_liked": false
+                                    }
+                                }
+                            ],
+                            "page_info": {
+                                "end_cursor": null,
+                                "has_next_page": false
+                            }
+                        },
+                        "id": "18045418946057733",
+                        "is_restricted_pending": false,
+                        "owner": {
+                            "id": "4111376757",
+                            "is_verified": false,
+                            "profile_pic_url": "https://scontent-yyz1-1.cdninstagram.com/v/t51.2885-19/336328244_875961556824244_9001421129221655510_n.jpg?stp=dst-jpg_s150x150_tt6&_nc_ht=scontent-yyz1-1.cdninstagram.com&_nc_cat=104&_nc_oc=Q6cZ2AF2mMjdnUMZb87dK4Sjo0MT5lxZgA5jRYgl35ejjlyekbJWgfkYDvNjOPbt1PxsJTc&_nc_ohc=X_oUE8h2ercQ7kNvgEtsRep&_nc_gid=39844ed5517b4a71a72b255e5a1653a5&edm=ANTKIIoBAAAA&ccb=7-5&oh=00_AYBqg1V62ULFb19bbSQx30cAnh6CSq5r5khVtRpP37T0YQ&oe=67C3AA38&_nc_sid=d885a2",
+                            "username": "justinerickson2099"
+                        },
+                        "text": "Where can I watch??",
+                        "viewer_has_liked": false
+                    }
+                },
+                {
+                    "node": {
+                        "created_at": 1739639168,
+                        "did_report_as_spam": false,
+                        "edge_liked_by": {
+                            "count": 18
+                        },
+                        "edge_threaded_comments": {
+                            "count": 0,
+                            "edges": [],
+                            "page_info": {
+                                "end_cursor": null,
+                                "has_next_page": false
+                            }
+                        },
+                        "id": "18037104713188631",
+                        "is_restricted_pending": false,
+                        "owner": {
+                            "id": "2993635",
+                            "is_verified": false,
+                            "profile_pic_url": "https://scontent-yyz1-1.cdninstagram.com/v/t51.2885-19/432253097_784131780238256_1258817766711294426_n.jpg?stp=dst-jpg_s150x150_tt6&_nc_ht=scontent-yyz1-1.cdninstagram.com&_nc_cat=108&_nc_oc=Q6cZ2AF2mMjdnUMZb87dK4Sjo0MT5lxZgA5jRYgl35ejjlyekbJWgfkYDvNjOPbt1PxsJTc&_nc_ohc=_-wGQ5Z7CVIQ7kNvgH4xtdi&_nc_gid=39844ed5517b4a71a72b255e5a1653a5&edm=ANTKIIoBAAAA&ccb=7-5&oh=00_AYBrURFhESTQJGqqqS7sCMivEptQAM6gmm2Wv_jO9lWr7A&oe=67C3B467&_nc_sid=d885a2",
+                            "username": "smo20xx"
+                        },
+                        "text": "I went out and bought a tv antenna specifically to watch this when it aired on PBS. It is great. Glad it found a home on means.",
+                        "viewer_has_liked": false
+                    }
+                },
+                {
+                    "node": {
+                        "created_at": 1739640857,
+                        "did_report_as_spam": false,
+                        "edge_liked_by": {
+                            "count": 2
+                        },
+                        "edge_threaded_comments": {
+                            "count": 0,
+                            "edges": [],
+                            "page_info": {
+                                "end_cursor": null,
+                                "has_next_page": false
+                            }
+                        },
+                        "id": "18141852112340475",
+                        "is_restricted_pending": false,
+                        "owner": {
+                            "id": "322185142",
+                            "is_verified": false,
+                            "profile_pic_url": "https://scontent-yyz1-1.cdninstagram.com/v/t51.2885-19/474025532_1917272602012781_2983493836048116410_n.jpg?stp=dst-jpg_s150x150_tt6&_nc_ht=scontent-yyz1-1.cdninstagram.com&_nc_cat=105&_nc_oc=Q6cZ2AF2mMjdnUMZb87dK4Sjo0MT5lxZgA5jRYgl35ejjlyekbJWgfkYDvNjOPbt1PxsJTc&_nc_ohc=YtqBgyIUk5EQ7kNvgHhNGxH&_nc_gid=39844ed5517b4a71a72b255e5a1653a5&edm=ANTKIIoBAAAA&ccb=7-5&oh=00_AYAKeDYw_KHfupCeiEpEZvHJDbMcRk5TLGz11dMLFbogKw&oe=67C3BC58&_nc_sid=d885a2",
+                            "username": "_hugo_zelada"
+                        },
+                        "text": "\ud83d\udd25\ud83d\udd25\ud83d\udd25",
+                        "viewer_has_liked": false
+                    }
+                },
+                {
+                    "node": {
+                        "created_at": 1739656315,
+                        "did_report_as_spam": false,
+                        "edge_liked_by": {
+                            "count": 9
+                        },
+                        "edge_threaded_comments": {
+                            "count": 3,
+                            "edges": [
+                                {
+                                    "node": {
+                                        "created_at": 1739730806,
+                                        "did_report_as_spam": false,
+                                        "edge_liked_by": {
+                                            "count": 4
+                                        },
+                                        "id": "17876027673267024",
+                                        "is_restricted_pending": false,
+                                        "owner": {
+                                            "id": "609375082",
+                                            "is_verified": false,
+                                            "profile_pic_url": "https://scontent-yyz1-1.cdninstagram.com/v/t51.2885-19/452599886_1187953039191516_6442919215963078342_n.jpg?stp=dst-jpg_s150x150_tt6&_nc_ht=scontent-yyz1-1.cdninstagram.com&_nc_cat=100&_nc_oc=Q6cZ2AF2mMjdnUMZb87dK4Sjo0MT5lxZgA5jRYgl35ejjlyekbJWgfkYDvNjOPbt1PxsJTc&_nc_ohc=zEZeQWWP7qsQ7kNvgExYvgq&_nc_gid=39844ed5517b4a71a72b255e5a1653a5&edm=ANTKIIoBAAAA&ccb=7-5&oh=00_AYAH4qxyDQG1Fwp0orpYDVyVqcJtDGz42sKNNiABhILuwg&oe=67C3CD1B&_nc_sid=d885a2",
+                                            "username": "jameswbirmingham"
+                                        },
+                                        "text": "@g_u_y_s_e_r I literally curate an imprint through AK Press. I'll be the first to admit anarchists on the Internet don't read enough. Neither do Marxists though. There's a reading problem across all of the left.",
+                                        "viewer_has_liked": false
+                                    }
+                                },
+                                {
+                                    "node": {
+                                        "created_at": 1740240674,
+                                        "did_report_as_spam": false,
+                                        "edge_liked_by": {
+                                            "count": 0
+                                        },
+                                        "id": "18035566739207248",
+                                        "is_restricted_pending": false,
+                                        "owner": {
+                                            "id": "4240008814",
+                                            "is_verified": false,
+                                            "profile_pic_url": "https://scontent-yyz1-1.cdninstagram.com/v/t51.2885-19/439451498_441685965018235_2658902529391182585_n.jpg?stp=dst-jpg_s150x150_tt6&_nc_ht=scontent-yyz1-1.cdninstagram.com&_nc_cat=107&_nc_oc=Q6cZ2AF2mMjdnUMZb87dK4Sjo0MT5lxZgA5jRYgl35ejjlyekbJWgfkYDvNjOPbt1PxsJTc&_nc_ohc=0ljELO3rAfIQ7kNvgFilXrs&_nc_gid=39844ed5517b4a71a72b255e5a1653a5&edm=ANTKIIoBAAAA&ccb=7-5&oh=00_AYA4tohz6dxRNjqfD6hX9QQNUxvyc_3g8sdUn5Z9RtXx0g&oe=67C3B81C&_nc_sid=d885a2",
+                                            "username": "jamsie_po"
+                                        },
+                                        "text": "@g_u_y_s_e_r actually I think they read more of their books than we do.",
+                                        "viewer_has_liked": false
+                                    }
+                                },
+                                {
+                                    "node": {
+                                        "created_at": 1740282139,
+                                        "did_report_as_spam": false,
+                                        "edge_liked_by": {
+                                            "count": 0
+                                        },
+                                        "id": "18106491988481292",
+                                        "is_restricted_pending": false,
+                                        "owner": {
+                                            "id": "2087907408",
+                                            "is_verified": false,
+                                            "profile_pic_url": "https://scontent-yyz1-1.cdninstagram.com/v/t51.2885-19/436543731_929923545283188_2144503562930896438_n.jpg?stp=dst-jpg_s150x150_tt6&_nc_ht=scontent-yyz1-1.cdninstagram.com&_nc_cat=100&_nc_oc=Q6cZ2AF2mMjdnUMZb87dK4Sjo0MT5lxZgA5jRYgl35ejjlyekbJWgfkYDvNjOPbt1PxsJTc&_nc_ohc=c0nM4F-FiAgQ7kNvgHTdmwD&_nc_gid=39844ed5517b4a71a72b255e5a1653a5&edm=ANTKIIoBAAAA&ccb=7-5&oh=00_AYCSebpZygTXPkiPUZiOIIj51--olf3MkZoAgkuW6z9Ofg&oe=67C3C3F8&_nc_sid=d885a2",
+                                            "username": "g_u_y_s_e_r"
+                                        },
+                                        "text": "@jamsie_po absolutely untrue.",
+                                        "viewer_has_liked": false
+                                    }
+                                }
+                            ],
+                            "page_info": {
+                                "end_cursor": null,
+                                "has_next_page": false
+                            }
+                        },
+                        "id": "18317339035204167",
+                        "is_restricted_pending": false,
+                        "owner": {
+                            "id": "2087907408",
+                            "is_verified": false,
+                            "profile_pic_url": "https://scontent-yyz1-1.cdninstagram.com/v/t51.2885-19/436543731_929923545283188_2144503562930896438_n.jpg?stp=dst-jpg_s150x150_tt6&_nc_ht=scontent-yyz1-1.cdninstagram.com&_nc_cat=100&_nc_oc=Q6cZ2AF2mMjdnUMZb87dK4Sjo0MT5lxZgA5jRYgl35ejjlyekbJWgfkYDvNjOPbt1PxsJTc&_nc_ohc=c0nM4F-FiAgQ7kNvgHTdmwD&_nc_gid=39844ed5517b4a71a72b255e5a1653a5&edm=ANTKIIoBAAAA&ccb=7-5&oh=00_AYCSebpZygTXPkiPUZiOIIj51--olf3MkZoAgkuW6z9Ofg&oe=67C3C3F8&_nc_sid=d885a2",
+                            "username": "g_u_y_s_e_r"
+                        },
+                        "text": "Anarchist read a book challenge \ud83e\udd23\ud83e\udd23",
+                        "viewer_has_liked": false
+                    }
+                },
+                {
+                    "node": {
+                        "created_at": 1739641737,
+                        "did_report_as_spam": false,
+                        "edge_liked_by": {
+                            "count": 2
+                        },
+                        "edge_threaded_comments": {
+                            "count": 0,
+                            "edges": [],
+                            "page_info": {
+                                "end_cursor": null,
+                                "has_next_page": false
+                            }
+                        },
+                        "id": "18289996918170546",
+                        "is_restricted_pending": false,
+                        "owner": {
+                            "id": "559758646",
+                            "is_verified": false,
+                            "profile_pic_url": "https://scontent-yyz1-1.cdninstagram.com/v/t51.2885-19/65003957_1254634468041934_8970164348748038144_n.jpg?stp=dst-jpg_s150x150_tt6&_nc_ht=scontent-yyz1-1.cdninstagram.com&_nc_cat=110&_nc_oc=Q6cZ2AF2mMjdnUMZb87dK4Sjo0MT5lxZgA5jRYgl35ejjlyekbJWgfkYDvNjOPbt1PxsJTc&_nc_ohc=ykxvgGaLpiwQ7kNvgHGMzQB&_nc_gid=39844ed5517b4a71a72b255e5a1653a5&edm=ANTKIIoBAAAA&ccb=7-5&oh=00_AYA7kKgkkS906-mjqkFLkCRl14_awmbtYCEHs4KDYHLxXA&oe=67C3BE2F&_nc_sid=d885a2",
+                            "username": "buzz_or_howl"
+                        },
+                        "text": "\ud83d\udd25",
+                        "viewer_has_liked": false
+                    }
+                },
+                {
+                    "node": {
+                        "created_at": 1739641862,
+                        "did_report_as_spam": false,
+                        "edge_liked_by": {
+                            "count": 19
+                        },
+                        "edge_threaded_comments": {
+                            "count": 10,
+                            "edges": [
+                                {
+                                    "node": {
+                                        "created_at": 1740240489,
+                                        "did_report_as_spam": false,
+                                        "edge_liked_by": {
+                                            "count": 1
+                                        },
+                                        "id": "18394411138102937",
+                                        "is_restricted_pending": false,
+                                        "owner": {
+                                            "id": "4240008814",
+                                            "is_verified": false,
+                                            "profile_pic_url": "https://scontent-yyz1-1.cdninstagram.com/v/t51.2885-19/439451498_441685965018235_2658902529391182585_n.jpg?stp=dst-jpg_s150x150_tt6&_nc_ht=scontent-yyz1-1.cdninstagram.com&_nc_cat=107&_nc_oc=Q6cZ2AF2mMjdnUMZb87dK4Sjo0MT5lxZgA5jRYgl35ejjlyekbJWgfkYDvNjOPbt1PxsJTc&_nc_ohc=0ljELO3rAfIQ7kNvgFilXrs&_nc_gid=39844ed5517b4a71a72b255e5a1653a5&edm=ANTKIIoBAAAA&ccb=7-5&oh=00_AYA4tohz6dxRNjqfD6hX9QQNUxvyc_3g8sdUn5Z9RtXx0g&oe=67C3B81C&_nc_sid=d885a2",
+                                            "username": "jamsie_po"
+                                        },
+                                        "text": "@sid121199 tanks. That gets us tanks.  When your side runs a state we'll enough that you can get tanks I will listen to you.  Otherwise I will just come to the anarchists for really good caf\u00e9s",
+                                        "viewer_has_liked": false
+                                    }
+                                },
+                                {
+                                    "node": {
+                                        "created_at": 1740496256,
+                                        "did_report_as_spam": false,
+                                        "edge_liked_by": {
+                                            "count": 1
+                                        },
+                                        "id": "18114782968443307",
+                                        "is_restricted_pending": false,
+                                        "owner": {
+                                            "id": "65291303941",
+                                            "is_verified": false,
+                                            "profile_pic_url": "https://scontent-yyz1-1.cdninstagram.com/v/t51.2885-19/431000141_751677773581620_1100762360457862327_n.jpg?stp=dst-jpg_s150x150_tt6&_nc_ht=scontent-yyz1-1.cdninstagram.com&_nc_cat=100&_nc_oc=Q6cZ2AF2mMjdnUMZb87dK4Sjo0MT5lxZgA5jRYgl35ejjlyekbJWgfkYDvNjOPbt1PxsJTc&_nc_ohc=1xEQZN3M4EsQ7kNvgHpqjQg&_nc_gid=39844ed5517b4a71a72b255e5a1653a5&edm=ANTKIIoBAAAA&ccb=7-5&oh=00_AYDZkgoKREu4Leiw0LJibrwwPYplm3h3mjsWgQuv3gspJg&oe=67C3AB2C&_nc_sid=d885a2",
+                                            "username": "a_noncarnivorous_cat"
+                                        },
+                                        "text": "@jameswbirmingham lol, anarchism is a liberal ideology. It is, in action, counter-revolutionary, idealist and impracticable. Little wonder it is a popular option for western liberals. I'm not being hyperbolic. I have done the reading and do know the history.",
+                                        "viewer_has_liked": false
+                                    }
+                                },
+                                {
+                                    "node": {
+                                        "created_at": 1740496460,
+                                        "did_report_as_spam": false,
+                                        "edge_liked_by": {
+                                            "count": 1
+                                        },
+                                        "id": "18006857561711595",
+                                        "is_restricted_pending": false,
+                                        "owner": {
+                                            "id": "65291303941",
+                                            "is_verified": false,
+                                            "profile_pic_url": "https://scontent-yyz1-1.cdninstagram.com/v/t51.2885-19/431000141_751677773581620_1100762360457862327_n.jpg?stp=dst-jpg_s150x150_tt6&_nc_ht=scontent-yyz1-1.cdninstagram.com&_nc_cat=100&_nc_oc=Q6cZ2AF2mMjdnUMZb87dK4Sjo0MT5lxZgA5jRYgl35ejjlyekbJWgfkYDvNjOPbt1PxsJTc&_nc_ohc=1xEQZN3M4EsQ7kNvgHpqjQg&_nc_gid=39844ed5517b4a71a72b255e5a1653a5&edm=ANTKIIoBAAAA&ccb=7-5&oh=00_AYDZkgoKREu4Leiw0LJibrwwPYplm3h3mjsWgQuv3gspJg&oe=67C3AB2C&_nc_sid=d885a2",
+                                            "username": "a_noncarnivorous_cat"
+                                        },
+                                        "text": "@jameswbirmingham also, how do you select who is on the board? Does being on the board give you some level of authority? Have you read State and Revolution in good faith? Have you read Imperialism? I'm asking because they are relevant to this conversation and to contemporary political and economic analysis.",
+                                        "viewer_has_liked": false
+                                    }
+                                }
+                            ],
+                            "page_info": {
+                                "end_cursor": "QVFDSzJnYXVtSGJOYzNYeXZnMzRvRllHaVFqbS03ZlpVVTVxc1lYTEdRdFdTbXpsLXljWE9QcWtNZ3hYRnFiRTEzM0d1R1d1LVNNdnRqa0hTcE1IVjg1Zw==",
+                                "has_next_page": true
+                            }
+                        },
+                        "id": "18041969201105902",
+                        "is_restricted_pending": false,
+                        "owner": {
+                            "id": "28311039",
+                            "is_verified": false,
+                            "profile_pic_url": "https://scontent-yyz1-1.cdninstagram.com/v/t51.2885-19/404970720_1388932038712703_6141361772938824876_n.jpg?stp=dst-jpg_s150x150_tt6&_nc_ht=scontent-yyz1-1.cdninstagram.com&_nc_cat=111&_nc_oc=Q6cZ2AF2mMjdnUMZb87dK4Sjo0MT5lxZgA5jRYgl35ejjlyekbJWgfkYDvNjOPbt1PxsJTc&_nc_ohc=a9wBzRvK1BIQ7kNvgFifR0K&_nc_gid=39844ed5517b4a71a72b255e5a1653a5&edm=ANTKIIoBAAAA&ccb=7-5&oh=00_AYCpEgsF2fJDGpBgU_crAfYYtHf1s9qk-WV2wJ3BO_b3DQ&oe=67C3CF65&_nc_sid=d885a2",
+                            "username": "creepingbear"
+                        },
+                        "text": "No need to promote liberalism.",
+                        "viewer_has_liked": false
+                    }
+                },
+                {
+                    "node": {
+                        "created_at": 1739690811,
+                        "did_report_as_spam": false,
+                        "edge_liked_by": {
+                            "count": 3
+                        },
+                        "edge_threaded_comments": {
+                            "count": 0,
+                            "edges": [],
+                            "page_info": {
+                                "end_cursor": null,
+                                "has_next_page": false
+                            }
+                        },
+                        "id": "18081721987548128",
+                        "is_restricted_pending": false,
+                        "owner": {
+                            "id": "3505008936",
+                            "is_verified": false,
+                            "profile_pic_url": "https://scontent-yyz1-1.cdninstagram.com/v/t51.2885-19/412748505_1060911228443379_1758630101537700907_n.jpg?stp=dst-jpg_s150x150_tt6&_nc_ht=scontent-yyz1-1.cdninstagram.com&_nc_cat=103&_nc_oc=Q6cZ2AF2mMjdnUMZb87dK4Sjo0MT5lxZgA5jRYgl35ejjlyekbJWgfkYDvNjOPbt1PxsJTc&_nc_ohc=Tw6USoLNW7YQ7kNvgE_BMYV&_nc_gid=39844ed5517b4a71a72b255e5a1653a5&edm=ANTKIIoBAAAA&ccb=7-5&oh=00_AYBuDTKzeybToc9gTfjdm9DrZ3bek3g-84YQ41BqADWhOA&oe=67C3CC72&_nc_sid=d885a2",
+                            "username": "sid121199"
+                        },
+                        "text": "Thank you for covering anarchist content as well.",
+                        "viewer_has_liked": false
+                    }
+                },
+                {
+                    "node": {
+                        "created_at": 1739700389,
+                        "did_report_as_spam": false,
+                        "edge_liked_by": {
+                            "count": 5
+                        },
+                        "edge_threaded_comments": {
+                            "count": 0,
+                            "edges": [],
+                            "page_info": {
+                                "end_cursor": null,
+                                "has_next_page": false
+                            }
+                        },
+                        "id": "17898095943116016",
+                        "is_restricted_pending": false,
+                        "owner": {
+                            "id": "964176269",
+                            "is_verified": false,
+                            "profile_pic_url": "https://scontent-yyz1-1.cdninstagram.com/v/t51.2885-19/365480548_3786182154935320_1060382164565625946_n.jpg?stp=dst-jpg_s150x150_tt6&_nc_ht=scontent-yyz1-1.cdninstagram.com&_nc_cat=104&_nc_oc=Q6cZ2AF2mMjdnUMZb87dK4Sjo0MT5lxZgA5jRYgl35ejjlyekbJWgfkYDvNjOPbt1PxsJTc&_nc_ohc=-C4Adj4HQjEQ7kNvgHQrmcn&_nc_gid=39844ed5517b4a71a72b255e5a1653a5&edm=ANTKIIoBAAAA&ccb=7-5&oh=00_AYBGyFyRZ_Kv7L4_6q_xQqeqIvESE-z2lHC6rIeLo7-f3g&oe=67C3AA17&_nc_sid=d885a2",
+                            "username": "bodypillowpimp"
+                        },
+                        "text": "A libertarian walks into a bear",
+                        "viewer_has_liked": false
+                    }
+                },
+                {
+                    "node": {
+                        "created_at": 1739641262,
+                        "did_report_as_spam": false,
+                        "edge_liked_by": {
+                            "count": 13
+                        },
+                        "edge_threaded_comments": {
+                            "count": 7,
+                            "edges": [
+                                {
+                                    "node": {
+                                        "created_at": 1739730266,
+                                        "did_report_as_spam": false,
+                                        "edge_liked_by": {
+                                            "count": 0
+                                        },
+                                        "id": "18065362717903195",
+                                        "is_restricted_pending": false,
+                                        "owner": {
+                                            "id": "49296462286",
+                                            "is_verified": false,
+                                            "profile_pic_url": "https://scontent-yyz1-1.cdninstagram.com/v/t51.2885-19/462305154_569853958806391_1049898601229854439_n.jpg?stp=dst-jpg_s150x150_tt6&_nc_ht=scontent-yyz1-1.cdninstagram.com&_nc_cat=107&_nc_oc=Q6cZ2AF2mMjdnUMZb87dK4Sjo0MT5lxZgA5jRYgl35ejjlyekbJWgfkYDvNjOPbt1PxsJTc&_nc_ohc=RqeP6mjhn3QQ7kNvgGAQE3W&_nc_gid=39844ed5517b4a71a72b255e5a1653a5&edm=ANTKIIoBAAAA&ccb=7-5&oh=00_AYDArEILeo6aXo6Y5BI1j9bYeVF-01_7XUk1bAUHFLsf4Q&oe=67C3D7A2&_nc_sid=d885a2",
+                                            "username": "ernst.music.official"
+                                        },
+                                        "text": "@jameswbirmingham  irrelevant",
+                                        "viewer_has_liked": false
+                                    }
+                                },
+                                {
+                                    "node": {
+                                        "created_at": 1739764043,
+                                        "did_report_as_spam": false,
+                                        "edge_liked_by": {
+                                            "count": 0
+                                        },
+                                        "id": "18025034396375917",
+                                        "is_restricted_pending": false,
+                                        "owner": {
+                                            "id": "41568769923",
+                                            "is_verified": false,
+                                            "profile_pic_url": "https://scontent-yyz1-1.cdninstagram.com/v/t51.2885-19/480898643_1150568073377522_5408520021954619269_n.jpg?stp=dst-jpg_s150x150_tt6&_nc_ht=scontent-yyz1-1.cdninstagram.com&_nc_cat=102&_nc_oc=Q6cZ2AF2mMjdnUMZb87dK4Sjo0MT5lxZgA5jRYgl35ejjlyekbJWgfkYDvNjOPbt1PxsJTc&_nc_ohc=t3L40aIeA4EQ7kNvgEP-GoJ&_nc_gid=39844ed5517b4a71a72b255e5a1653a5&edm=ANTKIIoBAAAA&ccb=7-5&oh=00_AYCGl_T-HxPR4Knzj5xzAenJ0mxEj3qed0EmceSTLUGbuw&oe=67C3B5CC&_nc_sid=d885a2",
+                                            "username": "needlesandn3ttles"
+                                        },
+                                        "text": "@zera.bloom it\u2019s a troll. Deprive it of oxygen \u2764\ufe0f",
+                                        "viewer_has_liked": false
+                                    }
+                                },
+                                {
+                                    "node": {
+                                        "created_at": 1739765417,
+                                        "did_report_as_spam": false,
+                                        "edge_liked_by": {
+                                            "count": 1
+                                        },
+                                        "id": "18028846196329421",
+                                        "is_restricted_pending": false,
+                                        "owner": {
+                                            "id": "72378136747",
+                                            "is_verified": false,
+                                            "profile_pic_url": "https://scontent-yyz1-1.cdninstagram.com/v/t51.2885-19/479054545_1526209167988472_6724223427640017228_n.jpg?stp=dst-jpg_s150x150_tt6&_nc_ht=scontent-yyz1-1.cdninstagram.com&_nc_cat=108&_nc_oc=Q6cZ2AF2mMjdnUMZb87dK4Sjo0MT5lxZgA5jRYgl35ejjlyekbJWgfkYDvNjOPbt1PxsJTc&_nc_ohc=84LeBl0TkSAQ7kNvgHRfPUl&_nc_gid=39844ed5517b4a71a72b255e5a1653a5&edm=ANTKIIoBAAAA&ccb=7-5&oh=00_AYA8dlov2DaOHqDHGFvFxvdHSG6nuAVQh2qPZLZjatDi6w&oe=67C3BE9D&_nc_sid=d885a2",
+                                            "username": "sinisteroveralls"
+                                        },
+                                        "text": "@zera.bloom lmao, left-communism go brrr. Literally just lib propaganda with an anarchist aesthetic.",
+                                        "viewer_has_liked": false
+                                    }
+                                }
+                            ],
+                            "page_info": {
+                                "end_cursor": "QVFDWlpuLV93NXR2cWtESzNWWFI1QlFLVzBvWmtnbUQ4U3NWNGJjOExEVktEdV8xNkJJVjNkRGczN24zaUhtZUxhMWVadlFBQTNQSlVmVGpxZnhPUWtwbw==",
+                                "has_next_page": true
+                            }
+                        },
+                        "id": "17960291711892469",
+                        "is_restricted_pending": false,
+                        "owner": {
+                            "id": "49296462286",
+                            "is_verified": false,
+                            "profile_pic_url": "https://scontent-yyz1-1.cdninstagram.com/v/t51.2885-19/462305154_569853958806391_1049898601229854439_n.jpg?stp=dst-jpg_s150x150_tt6&_nc_ht=scontent-yyz1-1.cdninstagram.com&_nc_cat=107&_nc_oc=Q6cZ2AF2mMjdnUMZb87dK4Sjo0MT5lxZgA5jRYgl35ejjlyekbJWgfkYDvNjOPbt1PxsJTc&_nc_ohc=RqeP6mjhn3QQ7kNvgGAQE3W&_nc_gid=39844ed5517b4a71a72b255e5a1653a5&edm=ANTKIIoBAAAA&ccb=7-5&oh=00_AYDArEILeo6aXo6Y5BI1j9bYeVF-01_7XUk1bAUHFLsf4Q&oe=67C3D7A2&_nc_sid=d885a2",
+                            "username": "ernst.music.official"
+                        },
+                        "text": "There isn\u2019t such a thing. So forget it and focus on socialism\u2026",
+                        "viewer_has_liked": false
+                    }
+                },
+                {
+                    "node": {
+                        "created_at": 1739739242,
+                        "did_report_as_spam": false,
+                        "edge_liked_by": {
+                            "count": 3
+                        },
+                        "edge_threaded_comments": {
+                            "count": 1,
+                            "edges": [
+                                {
+                                    "node": {
+                                        "created_at": 1740240756,
+                                        "did_report_as_spam": false,
+                                        "edge_liked_by": {
+                                            "count": 0
+                                        },
+                                        "id": "18048673298194019",
+                                        "is_restricted_pending": false,
+                                        "owner": {
+                                            "id": "4240008814",
+                                            "is_verified": false,
+                                            "profile_pic_url": "https://scontent-yyz1-1.cdninstagram.com/v/t51.2885-19/439451498_441685965018235_2658902529391182585_n.jpg?stp=dst-jpg_s150x150_tt6&_nc_ht=scontent-yyz1-1.cdninstagram.com&_nc_cat=107&_nc_oc=Q6cZ2AF2mMjdnUMZb87dK4Sjo0MT5lxZgA5jRYgl35ejjlyekbJWgfkYDvNjOPbt1PxsJTc&_nc_ohc=0ljELO3rAfIQ7kNvgFilXrs&_nc_gid=39844ed5517b4a71a72b255e5a1653a5&edm=ANTKIIoBAAAA&ccb=7-5&oh=00_AYA4tohz6dxRNjqfD6hX9QQNUxvyc_3g8sdUn5Z9RtXx0g&oe=67C3B81C&_nc_sid=d885a2",
+                                            "username": "jamsie_po"
+                                        },
+                                        "text": "@yazidht1991 actually yeah, that does follow anarchist theory. I never thought of that.",
+                                        "viewer_has_liked": false
+                                    }
+                                }
+                            ],
+                            "page_info": {
+                                "end_cursor": null,
+                                "has_next_page": false
+                            }
+                        },
+                        "id": "18076499281661322",
+                        "is_restricted_pending": false,
+                        "owner": {
+                            "id": "51153620166",
+                            "is_verified": false,
+                            "profile_pic_url": "https://scontent-yyz1-1.cdninstagram.com/v/t51.2885-19/466162140_481011608289762_4648861741383939971_n.jpg?stp=dst-jpg_s150x150_tt6&_nc_ht=scontent-yyz1-1.cdninstagram.com&_nc_cat=1&_nc_oc=Q6cZ2AF2mMjdnUMZb87dK4Sjo0MT5lxZgA5jRYgl35ejjlyekbJWgfkYDvNjOPbt1PxsJTc&_nc_ohc=78a_hKdhNYQQ7kNvgELtvtz&_nc_gid=39844ed5517b4a71a72b255e5a1653a5&edm=ANTKIIoBAAAA&ccb=7-5&oh=00_AYBLN3qmtOguTKrEUhh_Jjbn48imw7ZilGkwvH6C-rTdyw&oe=67C3B205&_nc_sid=d885a2",
+                            "username": "yazidht1991"
+                        },
+                        "text": "I didn't know white flight was a form of anarchism \ud83d\udc80",
+                        "viewer_has_liked": false
+                    }
+                },
+                {
+                    "node": {
+                        "created_at": 1739639216,
+                        "did_report_as_spam": false,
+                        "edge_liked_by": {
+                            "count": 2
+                        },
+                        "edge_threaded_comments": {
+                            "count": 2,
+                            "edges": [
+                                {
+                                    "node": {
+                                        "created_at": 1739652826,
+                                        "did_report_as_spam": false,
+                                        "edge_liked_by": {
+                                            "count": 2
+                                        },
+                                        "id": "18493968538032785",
+                                        "is_restricted_pending": false,
+                                        "owner": {
+                                            "id": "204777744",
+                                            "is_verified": false,
+                                            "profile_pic_url": "https://scontent-yyz1-1.cdninstagram.com/v/t51.2885-19/475860489_1618677972093842_7585237415534791472_n.jpg?stp=dst-jpg_s150x150_tt6&_nc_ht=scontent-yyz1-1.cdninstagram.com&_nc_cat=102&_nc_oc=Q6cZ2AF2mMjdnUMZb87dK4Sjo0MT5lxZgA5jRYgl35ejjlyekbJWgfkYDvNjOPbt1PxsJTc&_nc_ohc=ADMJKWQuwzIQ7kNvgG9Ahfu&_nc_gid=39844ed5517b4a71a72b255e5a1653a5&edm=ANTKIIoBAAAA&ccb=7-5&oh=00_AYAFRl1pZXLTgQiRJg4eqicD1WaaGK23PWJ6Q5xhjZqkVA&oe=67C3D056&_nc_sid=d885a2",
+                                            "username": "tonamoreno"
+                                        },
+                                        "text": "@shg_motorworks Read the book, you won't regret it.",
+                                        "viewer_has_liked": false
+                                    }
+                                },
+                                {
+                                    "node": {
+                                        "created_at": 1740240729,
+                                        "did_report_as_spam": false,
+                                        "edge_liked_by": {
+                                            "count": 0
+                                        },
+                                        "id": "18035154158240620",
+                                        "is_restricted_pending": false,
+                                        "owner": {
+                                            "id": "4240008814",
+                                            "is_verified": false,
+                                            "profile_pic_url": "https://scontent-yyz1-1.cdninstagram.com/v/t51.2885-19/439451498_441685965018235_2658902529391182585_n.jpg?stp=dst-jpg_s150x150_tt6&_nc_ht=scontent-yyz1-1.cdninstagram.com&_nc_cat=107&_nc_oc=Q6cZ2AF2mMjdnUMZb87dK4Sjo0MT5lxZgA5jRYgl35ejjlyekbJWgfkYDvNjOPbt1PxsJTc&_nc_ohc=0ljELO3rAfIQ7kNvgFilXrs&_nc_gid=39844ed5517b4a71a72b255e5a1653a5&edm=ANTKIIoBAAAA&ccb=7-5&oh=00_AYA4tohz6dxRNjqfD6hX9QQNUxvyc_3g8sdUn5Z9RtXx0g&oe=67C3B81C&_nc_sid=d885a2",
+                                            "username": "jamsie_po"
+                                        },
+                                        "text": "@shg_motorworks nah, anarchism works fine organization.  The issue is that they can't defend themselves well.",
+                                        "viewer_has_liked": false
+                                    }
+                                }
+                            ],
+                            "page_info": {
+                                "end_cursor": null,
+                                "has_next_page": false
+                            }
+                        },
+                        "id": "17857588689308622",
+                        "is_restricted_pending": false,
+                        "owner": {
+                            "id": "244378328",
+                            "is_verified": false,
+                            "profile_pic_url": "https://scontent-yyz1-1.cdninstagram.com/v/t51.2885-19/40048292_275042179985047_3568126806517088256_n.jpg?stp=dst-jpg_s150x150_tt6&_nc_ht=scontent-yyz1-1.cdninstagram.com&_nc_cat=107&_nc_oc=Q6cZ2AF2mMjdnUMZb87dK4Sjo0MT5lxZgA5jRYgl35ejjlyekbJWgfkYDvNjOPbt1PxsJTc&_nc_ohc=8n1HtbGeeiQQ7kNvgFYoP1B&_nc_gid=39844ed5517b4a71a72b255e5a1653a5&edm=ANTKIIoBAAAA&ccb=7-5&oh=00_AYBMTv9LD9TQ-EvDQKA3XHSRT6Og2CTVD3MEbGsk6iXafw&oe=67C3D99D&_nc_sid=d885a2",
+                            "username": "shg_motorworks"
+                        },
+                        "text": "I believe the only way this is remotely possible is in an agrarian pre industrial society without currency. However, as history shows, even within these boundaries tribalism thrives",
+                        "viewer_has_liked": false
+                    }
+                },
+                {
+                    "node": {
+                        "created_at": 1739664197,
+                        "did_report_as_spam": false,
+                        "edge_liked_by": {
+                            "count": 16
+                        },
+                        "edge_threaded_comments": {
+                            "count": 4,
+                            "edges": [
+                                {
+                                    "node": {
+                                        "created_at": 1739724517,
+                                        "did_report_as_spam": false,
+                                        "edge_liked_by": {
+                                            "count": 3
+                                        },
+                                        "id": "18053268803280627",
+                                        "is_restricted_pending": false,
+                                        "owner": {
+                                            "id": "1551738587",
+                                            "is_verified": false,
+                                            "profile_pic_url": "https://scontent-yyz1-1.cdninstagram.com/v/t51.2885-19/465938366_545244414785275_2114622422379086414_n.jpg?stp=dst-jpg_s150x150_tt6&_nc_ht=scontent-yyz1-1.cdninstagram.com&_nc_cat=107&_nc_oc=Q6cZ2AF2mMjdnUMZb87dK4Sjo0MT5lxZgA5jRYgl35ejjlyekbJWgfkYDvNjOPbt1PxsJTc&_nc_ohc=kw3yJzDXCx4Q7kNvgGPuB-I&_nc_gid=39844ed5517b4a71a72b255e5a1653a5&edm=ANTKIIoBAAAA&ccb=7-5&oh=00_AYBB_zd-g6idY8zsouc59p1lMZhDSxir06xFtLje1SYfHA&oe=67C3B595&_nc_sid=d885a2",
+                                            "username": "josendhelp"
+                                        },
+                                        "text": "@jameswbirmingham what evidence do you have that a stateless society works. Communism has US CIA intervention to blame for Communism faltering, anarchism can't get past reality. White westerners love to push anarchism when the Global South demands Communism",
+                                        "viewer_has_liked": false
+                                    }
+                                },
+                                {
+                                    "node": {
+                                        "created_at": 1739728220,
+                                        "did_report_as_spam": false,
+                                        "edge_liked_by": {
+                                            "count": 6
+                                        },
+                                        "id": "18119557789440035",
+                                        "is_restricted_pending": false,
+                                        "owner": {
+                                            "id": "609375082",
+                                            "is_verified": false,
+                                            "profile_pic_url": "https://scontent-yyz1-1.cdninstagram.com/v/t51.2885-19/452599886_1187953039191516_6442919215963078342_n.jpg?stp=dst-jpg_s150x150_tt6&_nc_ht=scontent-yyz1-1.cdninstagram.com&_nc_cat=100&_nc_oc=Q6cZ2AF2mMjdnUMZb87dK4Sjo0MT5lxZgA5jRYgl35ejjlyekbJWgfkYDvNjOPbt1PxsJTc&_nc_ohc=zEZeQWWP7qsQ7kNvgExYvgq&_nc_gid=39844ed5517b4a71a72b255e5a1653a5&edm=ANTKIIoBAAAA&ccb=7-5&oh=00_AYAH4qxyDQG1Fwp0orpYDVyVqcJtDGz42sKNNiABhILuwg&oe=67C3CD1B&_nc_sid=d885a2",
+                                            "username": "jameswbirmingham"
+                                        },
+                                        "text": "@josendhelp the vast majority of societies throughout history and prehistory weren't States which is a particular form of polity. Marx's goal was also a stateless society he just thought you needed a State to get there and eventually abolish itself. Unfortunately Bakunin was right, power corrupts and that's why we need to build political structures with as much horizontalism as possible.",
+                                        "viewer_has_liked": false
+                                    }
+                                },
+                                {
+                                    "node": {
+                                        "created_at": 1740240654,
+                                        "did_report_as_spam": false,
+                                        "edge_liked_by": {
+                                            "count": 1
+                                        },
+                                        "id": "18038179427417735",
+                                        "is_restricted_pending": false,
+                                        "owner": {
+                                            "id": "4240008814",
+                                            "is_verified": false,
+                                            "profile_pic_url": "https://scontent-yyz1-1.cdninstagram.com/v/t51.2885-19/439451498_441685965018235_2658902529391182585_n.jpg?stp=dst-jpg_s150x150_tt6&_nc_ht=scontent-yyz1-1.cdninstagram.com&_nc_cat=107&_nc_oc=Q6cZ2AF2mMjdnUMZb87dK4Sjo0MT5lxZgA5jRYgl35ejjlyekbJWgfkYDvNjOPbt1PxsJTc&_nc_ohc=0ljELO3rAfIQ7kNvgFilXrs&_nc_gid=39844ed5517b4a71a72b255e5a1653a5&edm=ANTKIIoBAAAA&ccb=7-5&oh=00_AYA4tohz6dxRNjqfD6hX9QQNUxvyc_3g8sdUn5Z9RtXx0g&oe=67C3B81C&_nc_sid=d885a2",
+                                            "username": "jamsie_po"
+                                        },
+                                        "text": "@jameswbirmingham how did that work out for them?  There is a utility in a government being able to do things.  Power doesn't corrupt.  That is a liberal myth.  Corrupt people seek power.  So you are right it is a dangerous tool.  Just like your societies mastered fire a successful revolution will have to master power.",
+                                        "viewer_has_liked": false
+                                    }
+                                }
+                            ],
+                            "page_info": {
+                                "end_cursor": "QVFBc1BhNnpsLWRVQmxRcXBkTzdzQ01xU2FKS1lxb3NLXzVJS1RvTEQ0TE5kb3V1QWYtdXRrUi1CSS0zcjVxRXlrc01Bc2NXZE9jQWN2UVRZRkFSUXBZUQ==",
+                                "has_next_page": true
+                            }
+                        },
+                        "id": "18059629144818636",
+                        "is_restricted_pending": false,
+                        "owner": {
+                            "id": "1551738587",
+                            "is_verified": false,
+                            "profile_pic_url": "https://scontent-yyz1-1.cdninstagram.com/v/t51.2885-19/465938366_545244414785275_2114622422379086414_n.jpg?stp=dst-jpg_s150x150_tt6&_nc_ht=scontent-yyz1-1.cdninstagram.com&_nc_cat=107&_nc_oc=Q6cZ2AF2mMjdnUMZb87dK4Sjo0MT5lxZgA5jRYgl35ejjlyekbJWgfkYDvNjOPbt1PxsJTc&_nc_ohc=kw3yJzDXCx4Q7kNvgGPuB-I&_nc_gid=39844ed5517b4a71a72b255e5a1653a5&edm=ANTKIIoBAAAA&ccb=7-5&oh=00_AYBB_zd-g6idY8zsouc59p1lMZhDSxir06xFtLje1SYfHA&oe=67C3B595&_nc_sid=d885a2",
+                            "username": "josendhelp"
+                        },
+                        "text": "Anarchists and Communists have the same end goal but Anarchists don't want to do the necessary socialism to get to the moneyless, classless society",
+                        "viewer_has_liked": false
+                    }
+                },
+                {
+                    "node": {
+                        "created_at": 1739700123,
+                        "did_report_as_spam": false,
+                        "edge_liked_by": {
+                            "count": 2
+                        },
+                        "edge_threaded_comments": {
+                            "count": 12,
+                            "edges": [
+                                {
+                                    "node": {
+                                        "created_at": 1739808106,
+                                        "did_report_as_spam": false,
+                                        "edge_liked_by": {
+                                            "count": 0
+                                        },
+                                        "id": "17899743111129333",
+                                        "is_restricted_pending": false,
+                                        "owner": {
+                                            "id": "609375082",
+                                            "is_verified": false,
+                                            "profile_pic_url": "https://scontent-yyz1-1.cdninstagram.com/v/t51.2885-19/452599886_1187953039191516_6442919215963078342_n.jpg?stp=dst-jpg_s150x150_tt6&_nc_ht=scontent-yyz1-1.cdninstagram.com&_nc_cat=100&_nc_oc=Q6cZ2AF2mMjdnUMZb87dK4Sjo0MT5lxZgA5jRYgl35ejjlyekbJWgfkYDvNjOPbt1PxsJTc&_nc_ohc=zEZeQWWP7qsQ7kNvgExYvgq&_nc_gid=39844ed5517b4a71a72b255e5a1653a5&edm=ANTKIIoBAAAA&ccb=7-5&oh=00_AYAH4qxyDQG1Fwp0orpYDVyVqcJtDGz42sKNNiABhILuwg&oe=67C3CD1B&_nc_sid=d885a2",
+                                            "username": "jameswbirmingham"
+                                        },
+                                        "text": "@rosegoldroy My point is every criticism you've leveled at anarchism has been empty and just shows an ignorance about the subject. There are different programmes and platforms for various anarchist groups. This is no different than there being dozens of strains of Marxism and related state communist positionalities. Anarchist Catalonia was a reference to the Spanish Civil War frankly if you don't know the basics of that history I have no idea what you actually do know about leftist history in general. No where do I say \"live and let live\" and if you think I'm going to lay out some sort of \"plan\" on a Meta platform you're either naive AF or a fed. There are organized and disciplined anarchists just like there are organized and disciplined Marxists. But the vast majority of both self-identified folks of both are keyboard warriors who have surface level knowledge through memes and YouTube.",
+                                        "viewer_has_liked": false
+                                    }
+                                },
+                                {
+                                    "node": {
+                                        "created_at": 1739809295,
+                                        "did_report_as_spam": false,
+                                        "edge_liked_by": {
+                                            "count": 0
+                                        },
+                                        "id": "18034818101242461",
+                                        "is_restricted_pending": false,
+                                        "owner": {
+                                            "id": "2959964930",
+                                            "is_verified": false,
+                                            "profile_pic_url": "https://scontent-yyz1-1.cdninstagram.com/v/t51.2885-19/462498878_4025317017697208_8979192415221886232_n.jpg?stp=dst-jpg_s150x150_tt6&_nc_ht=scontent-yyz1-1.cdninstagram.com&_nc_cat=108&_nc_oc=Q6cZ2AF2mMjdnUMZb87dK4Sjo0MT5lxZgA5jRYgl35ejjlyekbJWgfkYDvNjOPbt1PxsJTc&_nc_ohc=vb3Z0mw8uHEQ7kNvgH1sqsw&_nc_gid=39844ed5517b4a71a72b255e5a1653a5&edm=ANTKIIoBAAAA&ccb=7-5&oh=00_AYBCPzc7dGdzS304u3nEsigrxa6W0KVu0GBmX7bvO3_wgA&oe=67C3C347&_nc_sid=d885a2",
+                                            "username": "rosegoldroy"
+                                        },
+                                        "text": "@jameswbirmingham Lol I didn't mean a step by step political plan that you personally are undertaking but I respect the gambit. By side-stepping this glaring issue you can call your ideological opponent a \"fed\". Fair enough. Here's what I know - you're referring to the Anarchist Catalonia of the 1930s as an example of a successful anarchist program. Meanwhile, we have multiple examples of Marxist-Leninism, most notably China, which are in the primary stage of socialism and lifting millions out of poverty. It seems to me one line of thought is a circle-jerk ideology with little success IRL and the other is a practical science being implemented and sustaining itself right now. And before you go on aboutt the details of the Dengist revisions, I don't give af. China is in the primary stage of socialism being managed by a communist party. Beyond that, Idc what other westerners have to say about it since we have few recent achievements to stand on. We ought to be taking notes.",
+                                        "viewer_has_liked": false
+                                    }
+                                },
+                                {
+                                    "node": {
+                                        "created_at": 1739810700,
+                                        "did_report_as_spam": false,
+                                        "edge_liked_by": {
+                                            "count": 0
+                                        },
+                                        "id": "18073139119703738",
+                                        "is_restricted_pending": false,
+                                        "owner": {
+                                            "id": "609375082",
+                                            "is_verified": false,
+                                            "profile_pic_url": "https://scontent-yyz1-1.cdninstagram.com/v/t51.2885-19/452599886_1187953039191516_6442919215963078342_n.jpg?stp=dst-jpg_s150x150_tt6&_nc_ht=scontent-yyz1-1.cdninstagram.com&_nc_cat=100&_nc_oc=Q6cZ2AF2mMjdnUMZb87dK4Sjo0MT5lxZgA5jRYgl35ejjlyekbJWgfkYDvNjOPbt1PxsJTc&_nc_ohc=zEZeQWWP7qsQ7kNvgExYvgq&_nc_gid=39844ed5517b4a71a72b255e5a1653a5&edm=ANTKIIoBAAAA&ccb=7-5&oh=00_AYAH4qxyDQG1Fwp0orpYDVyVqcJtDGz42sKNNiABhILuwg&oe=67C3CD1B&_nc_sid=d885a2",
+                                            "username": "jameswbirmingham"
+                                        },
+                                        "text": "@rosegoldroy China is a better model than what we have here, though I'd argue Cuba is too despite being \"the West.\" As are the Zapatistas if we want to chat about something contemporary and in the spectrum of anarchist thought.  I think we can do better than the examples of actually existing socialism whether China, Vietnam or Kerala. As I mentioned elsewhere on this post I'm on the board of directors of The Institute for Anarchist Studies, as a 'big tent' anarchist org and a public facing anarchist scholar I don't advocate for one anarchist tendency over another publicly.  I'll say the biggest differences between anarchist prefigurative strategy right now and what I see the big ML groups doing is we obviously aren't running presidential candidates and the like. We're generally looking at resilience strategies for dealing with the climate catastrophe and evasion as an alternative to directly confronting state power (see Graeber on Madagascar).",
+                                        "viewer_has_liked": false
+                                    }
+                                }
+                            ],
+                            "page_info": {
+                                "end_cursor": "QVFCZkZmcVhOMUVPaDZXdDlONHo4SkNpS1pLSnhEQjBaWEdWbGxSRFFrSGJieTFTNUhPVHRPQzZkaVQ2WkxTX1drTV9iblBGUHlpWFo4T3I3aTFSQ1JQcg==",
+                                "has_next_page": true
+                            }
+                        },
+                        "id": "18092461258537265",
+                        "is_restricted_pending": false,
+                        "owner": {
+                            "id": "2959964930",
+                            "is_verified": false,
+                            "profile_pic_url": "https://scontent-yyz1-1.cdninstagram.com/v/t51.2885-19/462498878_4025317017697208_8979192415221886232_n.jpg?stp=dst-jpg_s150x150_tt6&_nc_ht=scontent-yyz1-1.cdninstagram.com&_nc_cat=108&_nc_oc=Q6cZ2AF2mMjdnUMZb87dK4Sjo0MT5lxZgA5jRYgl35ejjlyekbJWgfkYDvNjOPbt1PxsJTc&_nc_ohc=vb3Z0mw8uHEQ7kNvgH1sqsw&_nc_gid=39844ed5517b4a71a72b255e5a1653a5&edm=ANTKIIoBAAAA&ccb=7-5&oh=00_AYBCPzc7dGdzS304u3nEsigrxa6W0KVu0GBmX7bvO3_wgA&oe=67C3C347&_nc_sid=d885a2",
+                            "username": "rosegoldroy"
+                        },
+                        "text": "Anarchism skips a step \ud83e\udd37\u200d\u2642\ufe0f won't work",
+                        "viewer_has_liked": false
+                    }
+                },
+                {
+                    "node": {
+                        "created_at": 1739944552,
+                        "did_report_as_spam": false,
+                        "edge_liked_by": {
+                            "count": 1
+                        },
+                        "edge_threaded_comments": {
+                            "count": 1,
+                            "edges": [
+                                {
+                                    "node": {
+                                        "created_at": 1739944586,
+                                        "did_report_as_spam": false,
+                                        "edge_liked_by": {
+                                            "count": 0
+                                        },
+                                        "id": "17845969977399374",
+                                        "is_restricted_pending": false,
+                                        "owner": {
+                                            "id": "65291303941",
+                                            "is_verified": false,
+                                            "profile_pic_url": "https://scontent-yyz1-1.cdninstagram.com/v/t51.2885-19/431000141_751677773581620_1100762360457862327_n.jpg?stp=dst-jpg_s150x150_tt6&_nc_ht=scontent-yyz1-1.cdninstagram.com&_nc_cat=100&_nc_oc=Q6cZ2AF2mMjdnUMZb87dK4Sjo0MT5lxZgA5jRYgl35ejjlyekbJWgfkYDvNjOPbt1PxsJTc&_nc_ohc=1xEQZN3M4EsQ7kNvgHpqjQg&_nc_gid=39844ed5517b4a71a72b255e5a1653a5&edm=ANTKIIoBAAAA&ccb=7-5&oh=00_AYDZkgoKREu4Leiw0LJibrwwPYplm3h3mjsWgQuv3gspJg&oe=67C3AB2C&_nc_sid=d885a2",
+                                            "username": "a_noncarnivorous_cat"
+                                        },
+                                        "text": "@a_noncarnivorous_cat *the",
+                                        "viewer_has_liked": false
+                                    }
+                                }
+                            ],
+                            "page_info": {
+                                "end_cursor": null,
+                                "has_next_page": false
+                            }
+                        },
+                        "id": "17975989103684037",
+                        "is_restricted_pending": false,
+                        "owner": {
+                            "id": "65291303941",
+                            "is_verified": false,
+                            "profile_pic_url": "https://scontent-yyz1-1.cdninstagram.com/v/t51.2885-19/431000141_751677773581620_1100762360457862327_n.jpg?stp=dst-jpg_s150x150_tt6&_nc_ht=scontent-yyz1-1.cdninstagram.com&_nc_cat=100&_nc_oc=Q6cZ2AF2mMjdnUMZb87dK4Sjo0MT5lxZgA5jRYgl35ejjlyekbJWgfkYDvNjOPbt1PxsJTc&_nc_ohc=1xEQZN3M4EsQ7kNvgHpqjQg&_nc_gid=39844ed5517b4a71a72b255e5a1653a5&edm=ANTKIIoBAAAA&ccb=7-5&oh=00_AYDZkgoKREu4Leiw0LJibrwwPYplm3h3mjsWgQuv3gspJg&oe=67C3AB2C&_nc_sid=d885a2",
+                            "username": "a_noncarnivorous_cat"
+                        },
+                        "text": "I read tut dispossessed as a criticism of anarchist escapism and idealism, because it hasn't been a great success and when he goes back things are worse than ever. That's why you need an organised revolution not anarchist separatism. The story makes it overt that they didn't escape capitalism, they just ran away from it.",
+                        "viewer_has_liked": false
+                    }
+                }
+            ],
+            "page_info": {
+                "end_cursor": "{\"bifilter_token\": \"KIEBAAVWGoI2HEAAxekCHRHdPwBHemzWhRNBAIpNd_Z6OEAAzMPzEyMpQADOC1_eYXE_ABfFNLOmFEAA4MP-9zo9QABnAbzO3pY_AGwe1xlnE0AA7stHTRMZQADwZNgyOZY_ADF5bWb_RkAAsiNAwaf6QAD1u4xHys4_APtFuRrrc0AAAA==\"}",
+                "has_next_page": true
+            }
+        },
+        "edge_media_to_sponsor_user": {
+            "edges": []
+        },
+        "edge_media_to_tagged_user": {
+            "edges": [
+                {
+                    "node": {
+                        "id": "3568664191285840121@71424014408",
+                        "user": {
+                            "followed_by_viewer": false,
+                            "full_name": "Means TV back up",
+                            "id": "71424014408",
+                            "is_verified": false,
+                            "profile_pic_url": "https://scontent-yyz1-1.cdninstagram.com/v/t51.2885-19/472029114_1997787267313527_8475180584215979264_n.jpg?stp=dst-jpg_s150x150_tt6&_nc_ht=scontent-yyz1-1.cdninstagram.com&_nc_cat=103&_nc_oc=Q6cZ2AF2mMjdnUMZb87dK4Sjo0MT5lxZgA5jRYgl35ejjlyekbJWgfkYDvNjOPbt1PxsJTc&_nc_ohc=Ev73s5cJFd4Q7kNvgGI01dQ&_nc_gid=39844ed5517b4a71a72b255e5a1653a5&edm=ANTKIIoBAAAA&ccb=7-5&oh=00_AYAdI9OOifDtKzAtekwEWWhs8uQUp1Bd7PIBJlbFzK7fKQ&oe=67C3B6AD&_nc_sid=d885a2",
+                            "username": "meanstv_backup"
+                        },
+                        "x": 0.0,
+                        "y": 0.0
+                    }
+                }
+            ]
+        },
+        "edge_web_media_to_related_media": {
+            "edges": []
+        },
+        "encoding_status": null,
+        "fact_check_information": null,
+        "fact_check_overall_rating": null,
+        "gating_info": null,
+        "has_audio": true,
+        "has_ranked_comments": true,
+        "id": "3568664191285840121",
+        "iphone_struct": {
+            "are_remixes_crosspostable": true,
+            "avatar_stickers": [],
+            "boost_unavailable_identifier": null,
+            "boost_unavailable_reason": null,
+            "boost_unavailable_reason_v2": null,
+            "can_reply": false,
+            "can_see_insights_as_brand": false,
+            "can_view_more_preview_comments": false,
+            "can_viewer_reshare": true,
+            "can_viewer_save": true,
+            "caption": {
+                "bit_flags": 0,
+                "content_type": "comment",
+                "created_at": 1739638266,
+                "created_at_utc": 1739638266,
+                "did_report_as_spam": false,
+                "is_covered": false,
+                "is_ranked_comment": false,
+                "media_id": 3568664191285840121,
+                "pk": "18485996284025033",
+                "private_reply_status": 0,
+                "share_enabled": false,
+                "status": "Active",
+                "strong_id__": "18485996284025033",
+                "text": "\ud83d\udcabWorlds of Ursula K. Le Guin (2018, 68min)\n\nThe remarkable life and legacy of the late anarchist author, Ursula K. Le Guin hasn\u2019t been captured on film\u2026until now.\n\nProduced with Le Guin\u2019s participation over the course of a decade, the film is a journey through the writer\u2019s career and her worlds, both real and fantastic.\n\nDirected by Arwen Curry\nWatch now on Means TV \u2728",
+                "type": 1,
+                "user": {
+                    "fbid_v2": 17841408538083428,
+                    "full_name": "MEANS TV",
+                    "id": "8587428602",
+                    "is_private": false,
+                    "is_unpublished": false,
+                    "is_verified": false,
+                    "pk": 8587428602,
+                    "pk_id": "8587428602",
+                    "profile_pic_id": "2930796108491351403_8587428602",
+                    "profile_pic_url": "https://scontent-yyz1-1.cdninstagram.com/v/t51.2885-19/307281289_425004526284699_6379648210361279513_n.jpg?stp=dst-jpg_e0_s150x150_tt6&_nc_ht=scontent-yyz1-1.cdninstagram.com&_nc_cat=103&_nc_oc=Q6cZ2AElTS3DNwTcyggcwe2pKrHbhRfWerOvKu8cXANoaW3A_KGGKtBhd296utnwl9BQsME&_nc_ohc=dIkNkTR23FoQ7kNvgHaJDp0&_nc_gid=0b39e9103146481292b99f1ffa46a829&edm=ALQROFkBAAAA&ccb=7-5&oh=00_AYBcD2kk04X7MsUZXfkoppHryAvXqvdBT2yh6VOaKrBfCg&oe=67C3C4CF&_nc_sid=fc8dfb",
+                    "strong_id__": "8587428602",
+                    "username": "means_tv"
+                },
+                "user_id": 8587428602
+            },
+            "caption_is_edited": false,
+            "client_cache_key": "MzU2ODY2NDE5MTI4NTg0MDEyMQ==.3",
+            "clips_metadata": {
+                "achievements_info": {
+                    "num_earned_achievements": null,
+                    "show_achievements": false
+                },
+                "additional_audio_info": {
+                    "additional_audio_username": null,
+                    "audio_reattribution_info": {
+                        "should_allow_restore": false
+                    }
+                },
+                "asset_recommendation_info": null,
+                "audio_ranking_info": {
+                    "best_audio_cluster_id": "992602842746967"
+                },
+                "audio_type": "original_sounds",
+                "branded_content_tag_info": {
+                    "can_add_tag": false
+                },
+                "breaking_content_info": null,
+                "breaking_creator_info": null,
+                "challenge_info": null,
+                "clips_creation_entry_point": "clips",
+                "content_appreciation_info": {
+                    "enabled": false,
+                    "entry_point_container": null
+                },
+                "contextual_highlight_info": null,
+                "cutout_sticker_info": [],
+                "disable_use_in_clips_client_cache": false,
+                "external_media_info": null,
+                "featured_label": null,
+                "is_fan_club_promo_video": false,
+                "is_public_chat_welcome_video": false,
+                "is_shared_to_fb": false,
+                "mashup_info": {
+                    "can_toggle_mashups_allowed": false,
+                    "formatted_mashups_count": null,
+                    "has_been_mashed_up": false,
+                    "has_nonmimicable_additional_audio": false,
+                    "is_creator_requesting_mashup": false,
+                    "is_light_weight_check": true,
+                    "is_light_weight_reuse_allowed_check": false,
+                    "is_pivot_page_available": false,
+                    "is_reuse_allowed": true,
+                    "mashup_type": null,
+                    "mashups_allowed": true,
+                    "non_privacy_filtered_mashups_media_count": 0,
+                    "original_media": null,
+                    "privacy_filtered_mashups_media_count": null
+                },
+                "merchandising_pill_info": null,
+                "music_canonical_id": "18393564139101614",
+                "music_info": null,
+                "nux_info": null,
+                "original_sound_info": {
+                    "allow_creator_to_rename": true,
+                    "attributed_custom_audio_asset_id": null,
+                    "audio_asset_id": 564285576643515,
+                    "audio_asset_start_time_in_ms": null,
+                    "audio_filter_infos": [],
+                    "audio_parts": [],
+                    "audio_parts_by_filter": [],
+                    "can_remix_be_shared_to_fb": false,
+                    "can_remix_be_shared_to_fb_expansion": false,
+                    "consumption_info": {
+                        "display_media_id": null,
+                        "is_bookmarked": false,
+                        "is_trending_in_clips": false,
+                        "should_mute_audio_reason": "",
+                        "should_mute_audio_reason_type": null
+                    },
+                    "dash_manifest": "<?xml version=\"1.0\" encoding=\"UTF-8\"?>\n<MPD xmlns=\"urn:mpeg:dash:schema:mpd:2011\" xmlns:xsi=\"http://www.w3.org/2001/XMLSchema-instance\" xsi:schemaLocation=\"urn:mpeg:dash:schema:mpd:2011 DASH-MPD.xsd\" profiles=\"urn:mpeg:dash:profile:isoff-on-demand:2011\" minBufferTime=\"PT2S\" type=\"static\" mediaPresentationDuration=\"PT39.263493S\"><Period id=\"0\" duration=\"PT39.263493S\"><AdaptationSet id=\"0\" contentType=\"audio\" subsegmentStartsWithSAP=\"1\" subsegmentAlignment=\"true\"><Representation id=\"1145768960290029a\" bandwidth=\"66583\" codecs=\"mp4a.40.5\" mimeType=\"audio/mp4\" FBAvgBitrate=\"66583\" audioSamplingRate=\"44100\" FBDefaultQuality=\"1\"><AudioChannelConfiguration schemeIdUri=\"urn:mpeg:dash:23003:3:audio_channel_configuration:2011\" value=\"2\"/><BaseURL>https://scontent-yyz1-1.cdninstagram.com/o1/v/t16/f2/m69/AQMQZRkzJZJOy9N6fGCkARzLOTda6mTncghss6Dy2ace_vpuM1x8HpSWlWITR0Pi1fU0mx_YcJjuSf0XODktDDpr.mp4?strext=1&amp;_nc_cat=111&amp;_nc_sid=9ca052&amp;_nc_ht=scontent-yyz1-1.cdninstagram.com&amp;_nc_ohc=VOVWuii65M8Q7kNvgEUCa1j&amp;efg=eyJ2ZW5jb2RlX3RhZyI6ImRhc2hfbG5faGVhYWNfdmJyM19hdWRpbyIsInZpZGVvX2lkIjpudWxsLCJjbGllbnRfbmFtZSI6InVua25vd24iLCJvaWxfdXJsZ2VuX2FwcF9pZCI6MjU2MjgxMDQwNTU4LCJ1cmxnZW5fc291cmNlIjoid3d3In0%3D&amp;ccb=17-1&amp;_nc_zt=28&amp;oh=00_AYBfinCXb6drZAaG5ywux715z7IGzoFeiL44ByyI3Qo-cw&amp;oe=67C3CF95</BaseURL><SegmentBase indexRange=\"824-1095\" timescale=\"44100\"><Initialization range=\"0-823\"/></SegmentBase></Representation></AdaptationSet></Period></MPD>\n",
+                    "duration_in_ms": 39263,
+                    "fb_downstream_use_xpost_metadata": {
+                        "downstream_use_xpost_deny_reason": "NONE"
+                    },
+                    "formatted_clips_media_count": null,
+                    "hide_remixing": false,
+                    "ig_artist": {
+                        "full_name": "MEANS TV",
+                        "id": "8587428602",
+                        "is_private": false,
+                        "is_verified": false,
+                        "pk": 8587428602,
+                        "pk_id": "8587428602",
+                        "profile_pic_id": "2930796108491351403_8587428602",
+                        "profile_pic_url": "https://scontent-yyz1-1.cdninstagram.com/v/t51.2885-19/307281289_425004526284699_6379648210361279513_n.jpg?stp=dst-jpg_e0_s150x150_tt6&_nc_ht=scontent-yyz1-1.cdninstagram.com&_nc_cat=103&_nc_oc=Q6cZ2AElTS3DNwTcyggcwe2pKrHbhRfWerOvKu8cXANoaW3A_KGGKtBhd296utnwl9BQsME&_nc_ohc=dIkNkTR23FoQ7kNvgHaJDp0&_nc_gid=0b39e9103146481292b99f1ffa46a829&edm=ALQROFkBAAAA&ccb=7-5&oh=00_AYBcD2kk04X7MsUZXfkoppHryAvXqvdBT2yh6VOaKrBfCg&oe=67C3C4CF&_nc_sid=fc8dfb",
+                        "strong_id__": "8587428602",
+                        "username": "means_tv"
+                    },
+                    "is_audio_automatically_attributed": false,
+                    "is_eligible_for_audio_effects": true,
+                    "is_eligible_for_vinyl_sticker": true,
+                    "is_explicit": false,
+                    "is_original_audio_download_eligible": true,
+                    "is_reuse_disabled": false,
+                    "is_xpost_from_fb": false,
+                    "music_canonical_id": null,
+                    "oa_owner_is_music_artist": false,
+                    "original_audio_subtype": "default",
+                    "original_audio_title": "Original audio",
+                    "original_media_id": 3568664191285840121,
+                    "overlap_duration_in_ms": null,
+                    "previous_trend_rank": null,
+                    "progressive_download_url": "https://scontent-yyz1-1.xx.fbcdn.net/o1/v/t2/f2/m69/AQOOg6KDnljGarwSuZJRw87ywlUzd5gUVPB5HrbNWQJFSq3DE0vRWb_v8ijWDnVvQYtYtyorFt74UmZsTe1e8lc2.mp4?strext=1&_nc_cat=106&_nc_sid=8bf8fe&_nc_ht=scontent-yyz1-1.xx.fbcdn.net&_nc_ohc=bb7uz4biG-4Q7kNvgGSl0Kl&efg=eyJ2ZW5jb2RlX3RhZyI6Inhwdl9wcm9ncmVzc2l2ZS5BVURJT19PTkxZLi5DMy4wLnByb2dyZXNzaXZlX2F1ZGlvIiwieHB2X2Fzc2V0X2lkIjoxMDgwMDAyOTAwNTQ4NTI0LCJ1cmxnZW5fc291cmNlIjoid3d3In0%3D&ccb=17-1&_nc_zt=28&oh=00_AYAK3FR116gh_y6ozrDTmPHc8TLM1ywgswDzPPw_4ZLK9g&oe=67C3B138",
+                    "should_mute_audio": false,
+                    "time_created": 1739638269,
+                    "trend_rank": null,
+                    "xpost_fb_creator_info": null
+                },
+                "originality_info": null,
+                "professional_clips_upsell_type": 0,
+                "reels_on_the_rise_info": null,
+                "reusable_text_attribute_string": "THE documentary to watch about anarchist, Ursula K. le Guin",
+                "reusable_text_info": [
+                    {
+                        "alignment": "center",
+                        "colors": [
+                            {
+                                "count": 59,
+                                "hex_rgba_color": "#7300e0ff"
+                            }
+                        ],
+                        "end_time_ms": 41100.0,
+                        "font_size": 26.270916334661354,
+                        "height": 0.2225961538461539,
+                        "id": 18485996275025033,
+                        "is_animated": 0,
+                        "offset_x": 0.5012820512820513,
+                        "offset_y": 0.21874998532808745,
+                        "rotation_degree": 0.0,
+                        "scale": 1.0,
+                        "start_time_ms": 0.0,
+                        "text": "THE documentary to watch about anarchist, Ursula K. le Guin",
+                        "text_emphasis_mode": "inverted_outlines",
+                        "text_format_type": "ig_classic",
+                        "width": 0.9162393162393162,
+                        "z_index": 0
+                    }
+                ],
+                "shopping_info": null,
+                "show_achievements": false,
+                "show_tips": null,
+                "template_info": null,
+                "viewer_interaction_settings": null
+            },
+            "clips_tab_pinned_user_ids": [],
+            "coauthor_producer_can_see_organic_insights": false,
+            "coauthor_producers": [
+                {
+                    "full_name": "Means TV back up",
+                    "id": "71424014408",
+                    "is_private": false,
+                    "is_verified": false,
+                    "pk": 71424014408,
+                    "pk_id": "71424014408",
+                    "profile_pic_id": "3533238779246894941_71424014408",
+                    "profile_pic_url": "https://scontent-yyz1-1.cdninstagram.com/v/t51.2885-19/472029114_1997787267313527_8475180584215979264_n.jpg?stp=dst-jpg_e0_s150x150_tt6&_nc_ht=scontent-yyz1-1.cdninstagram.com&_nc_cat=103&_nc_oc=Q6cZ2AElTS3DNwTcyggcwe2pKrHbhRfWerOvKu8cXANoaW3A_KGGKtBhd296utnwl9BQsME&_nc_ohc=Ev73s5cJFd4Q7kNvgGI01dQ&_nc_gid=0b39e9103146481292b99f1ffa46a829&edm=ALQROFkBAAAA&ccb=7-5&oh=00_AYC1F01zDC2zTq6vJs4YB5llM88sbrbKbNPo_X6Qgmmzhw&oe=67C3B6AD&_nc_sid=fc8dfb",
+                    "strong_id__": "71424014408",
+                    "username": "meanstv_backup"
+                }
+            ],
+            "code": "DGGcSykP8j5",
+            "collab_follow_button_info": {
+                "is_owner_in_author_exp": false,
+                "show_follow_button": false
+            },
+            "comment_count": 76,
+            "comment_inform_treatment": {
+                "action_type": null,
+                "should_have_inform_treatment": false,
+                "text": "",
+                "url": null
+            },
+            "comment_threading_enabled": true,
+            "commerce_integrity_review_decision": "",
+            "commerciality_status": "not_commercial",
+            "creator_viewer_insights": [],
+            "crosspost_metadata": {
+                "fb_downstream_use_xpost_metadata": {
+                    "downstream_use_xpost_deny_reason": "NONE"
+                }
+            },
+            "deleted_reason": 0,
+            "device_timestamp": 1739637913877194,
+            "enable_media_notes_production": false,
+            "explore_hide_comments": false,
+            "facepile_top_likers": [
+                {
+                    "full_name": "DogCatsKill",
+                    "id": "1529761556",
+                    "is_private": false,
+                    "is_verified": false,
+                    "pk": 1529761556,
+                    "pk_id": "1529761556",
+                    "profile_pic_id": "3441755699229912892_1529761556",
+                    "profile_pic_url": "https://scontent-yyz1-1.cdninstagram.com/v/t51.2885-19/456597652_8551099024914516_3971413206798433400_n.jpg?stp=dst-jpg_e0_s150x150_tt6&_nc_ht=scontent-yyz1-1.cdninstagram.com&_nc_cat=100&_nc_oc=Q6cZ2AElTS3DNwTcyggcwe2pKrHbhRfWerOvKu8cXANoaW3A_KGGKtBhd296utnwl9BQsME&_nc_ohc=RcD9ljx4SHYQ7kNvgFraWz_&_nc_gid=0b39e9103146481292b99f1ffa46a829&edm=ALQROFkBAAAA&ccb=7-5&oh=00_AYDEOwbu89BfFQL5uIBKKtT7Rgg79_faWCUr1rCE8IFayA&oe=67C3D1BB&_nc_sid=fc8dfb",
+                    "strong_id__": "1529761556",
+                    "username": "greglantern"
+                }
+            ],
+            "fb_aggregated_comment_count": 0,
+            "fb_aggregated_like_count": 0,
+            "fb_user_tags": {
+                "in": []
+            },
+            "fbid": 18485995420025033,
+            "featured_products": [],
+            "filter_type": 0,
+            "gen_ai_detection_method": {
+                "detection_method": "NONE"
+            },
+            "has_audio": true,
+            "has_delayed_metadata": false,
+            "has_high_risk_gen_ai_inform_treatment": false,
+            "has_liked": true,
+            "has_more_comments": true,
+            "has_privately_liked": false,
+            "has_shared_to_fb": 0,
+            "has_viewer_saved": true,
+            "has_views_fetching": true,
+            "hide_view_all_comment_entrypoint": false,
+            "id": "3568664191285840121_8587428602",
+            "ig_media_sharing_disabled": false,
+            "ig_play_count": 45057,
+            "igbio_product": null,
+            "image_versions2": {
+                "additional_candidates": {
+                    "first_frame": {
+                        "height": 1136,
+                        "scans_profile": "e15",
+                        "url": "https://scontent-yyz1-1.cdninstagram.com/v/t51.2885-15/479060172_3907765249497054_1622193261878832491_n.jpg?stp=dst-jpg_e15_tt6&efg=eyJ2ZW5jb2RlX3RhZyI6ImltYWdlX3VybGdlbi42NDB4MTEzNi5zZHIuZjcxODc4LmFkZGl0aW9uYWxfY292ZXJfZnJhbWUifQ&_nc_ht=scontent-yyz1-1.cdninstagram.com&_nc_cat=106&_nc_oc=Q6cZ2AElTS3DNwTcyggcwe2pKrHbhRfWerOvKu8cXANoaW3A_KGGKtBhd296utnwl9BQsME&_nc_ohc=ihpRYkpeSQYQ7kNvgEy8vSK&_nc_gid=0b39e9103146481292b99f1ffa46a829&edm=ALQROFkBAAAA&ccb=7-5&ig_cache_key=acf.MzU2ODY2NDE5MTI4NTg0MDEyMQ%3D%3D.3-ccb7-5&oh=00_AYDJa-KSfN-rhHVFjcCFoiXtkQRC7biA0LPv9aMpvw0O_A&oe=67C3AD4A&_nc_sid=fc8dfb",
+                        "width": 640
+                    },
+                    "igtv_first_frame": {
+                        "height": 1136,
+                        "scans_profile": "e15",
+                        "url": "https://scontent-yyz1-1.cdninstagram.com/v/t51.2885-15/479060172_3907765249497054_1622193261878832491_n.jpg?stp=dst-jpg_e15_tt6&efg=eyJ2ZW5jb2RlX3RhZyI6ImltYWdlX3VybGdlbi42NDB4MTEzNi5zZHIuZjcxODc4LmFkZGl0aW9uYWxfY292ZXJfZnJhbWUifQ&_nc_ht=scontent-yyz1-1.cdninstagram.com&_nc_cat=106&_nc_oc=Q6cZ2AElTS3DNwTcyggcwe2pKrHbhRfWerOvKu8cXANoaW3A_KGGKtBhd296utnwl9BQsME&_nc_ohc=ihpRYkpeSQYQ7kNvgEy8vSK&_nc_gid=0b39e9103146481292b99f1ffa46a829&edm=ALQROFkBAAAA&ccb=7-5&ig_cache_key=acf.MzU2ODY2NDE5MTI4NTg0MDEyMQ%3D%3D.3-ccb7-5&oh=00_AYDJa-KSfN-rhHVFjcCFoiXtkQRC7biA0LPv9aMpvw0O_A&oe=67C3AD4A&_nc_sid=fc8dfb",
+                        "width": 640
+                    },
+                    "smart_frame": null
+                },
+                "candidates": [
+                    {
+                        "height": 1182,
+                        "scans_profile": "e15",
+                        "url": "https://scontent-yyz1-1.cdninstagram.com/v/t51.2885-15/479702161_18264977245284603_2011220834687373197_n.jpg?stp=dst-jpg_e15_tt6&efg=eyJ2ZW5jb2RlX3RhZyI6ImltYWdlX3VybGdlbi42Njh4MTE4Mi5zZHIuZjc1NzYxLmRlZmF1bHRfY292ZXJfZnJhbWUifQ&_nc_ht=scontent-yyz1-1.cdninstagram.com&_nc_cat=103&_nc_oc=Q6cZ2AElTS3DNwTcyggcwe2pKrHbhRfWerOvKu8cXANoaW3A_KGGKtBhd296utnwl9BQsME&_nc_ohc=1B_HAGmn1u8Q7kNvgEdtD9S&_nc_gid=0b39e9103146481292b99f1ffa46a829&edm=ALQROFkBAAAA&ccb=7-5&ig_cache_key=MzU2ODY2NDE5MTI4NTg0MDEyMQ%3D%3D.3-ccb7-5&oh=00_AYBCaebETTyGy-AZkv0s7FdsOMhdOvIi8npWHL92hfQDvg&oe=67C3AD48&_nc_sid=fc8dfb",
+                        "width": 668
+                    }
+                ],
+                "scrubber_spritesheet_info_candidates": {
+                    "default": {
+                        "file_size_kb": 359,
+                        "max_thumbnails_per_sprite": 105,
+                        "rendered_width": 96,
+                        "sprite_height": 1246,
+                        "sprite_urls": [
+                            "https://scontent-yyz1-1.cdninstagram.com/v/t51.2885-15/479715566_4213220378905199_6267834664397054507_n.jpg?_nc_ht=scontent-yyz1-1.cdninstagram.com&_nc_cat=111&_nc_oc=Q6cZ2AElTS3DNwTcyggcwe2pKrHbhRfWerOvKu8cXANoaW3A_KGGKtBhd296utnwl9BQsME&_nc_ohc=asSHeQssT3UQ7kNvgHF9MRQ&_nc_gid=0b39e9103146481292b99f1ffa46a829&edm=ALQROFkBAAAA&ccb=7-5&oh=00_AYBzr4rb2RooZ34AdvFYFI61h9_D1VI3d1U7YGGK9vFaUw&oe=67C3CB50&_nc_sid=fc8dfb"
+                        ],
+                        "sprite_width": 1500,
+                        "thumbnail_duration": 0.39142857142857146,
+                        "thumbnail_height": 178,
+                        "thumbnail_width": 100,
+                        "thumbnails_per_row": 15,
+                        "total_thumbnail_num_per_sprite": 105,
+                        "video_length": 41.1
+                    }
+                }
+            },
+            "inline_composer_display_condition": "impression_trigger",
+            "inline_composer_imp_trigger_time": 5,
+            "integrity_review_decision": "pending",
+            "invited_coauthor_producers": [],
+            "is_artist_pick": false,
+            "is_comments_gif_composer_enabled": true,
+            "is_cutout_sticker_allowed": false,
+            "is_dash_eligible": 1,
+            "is_eligible_content_for_post_roll_ad": false,
+            "is_eligible_for_media_note_recs_nux": false,
+            "is_eligible_for_meta_ai_share": false,
+            "is_in_profile_grid": false,
+            "is_open_to_public_submission": false,
+            "is_organic_product_tagging_eligible": false,
+            "is_paid_partnership": false,
+            "is_post_live_clips_media": false,
+            "is_quiet_post": false,
+            "is_reshare_of_text_post_app_media_in_ig": false,
+            "is_reuse_allowed": true,
+            "is_social_ufi_disabled": false,
+            "is_tagged_media_shared_to_viewer_profile_grid": false,
+            "is_third_party_downloads_eligible": true,
+            "is_unified_video": false,
+            "is_visual_reply_commenter_notice_enabled": true,
+            "like_and_view_counts_disabled": false,
+            "like_count": 3008,
+            "max_num_visible_preview_comments": 2,
+            "media_cropping_info": {
+                "square_crop": {
+                    "crop_bottom": 0.0,
+                    "crop_left": 0.0,
+                    "crop_right": 0.0,
+                    "crop_top": 0.0
+                }
+            },
+            "media_notes": {
+                "items": []
+            },
+            "media_type": 2,
+            "meta_ai_suggested_prompts": [],
+            "mezql_token": "",
+            "music_metadata": null,
+            "number_of_qualities": 7,
+            "open_carousel_show_follow_button": false,
+            "organic_tracking_token": "eyJ2ZXJzaW9uIjo1LCJwYXlsb2FkIjp7ImlzX2FuYWx5dGljc190cmFja2VkIjp0cnVlLCJ1dWlkIjoiMGIzOWU5MTAzMTQ2NDgxMjkyYjk5ZjFmZmE0NmE4MjkzNTY4NjY0MTkxMjg1ODQwMTIxIiwic2VydmVyX3Rva2VuIjoiMTc0MDUwMTI5MTA0NXwzNTY4NjY0MTkxMjg1ODQwMTIxfDMzNTM0NzA2fGRjMmM5NWIzYWEzMTIxNjQzMDAwOWMzMzg4YjQ2ODRkZTMzMDEzN2IyYjE2NDE1NjRkNDYwNTliNDMzZjc5Y2UifSwic2lnbmF0dXJlIjoiIn0=",
+            "original_height": 1182,
+            "original_media_has_visual_reply_media": false,
+            "original_width": 668,
+            "photo_of_you": false,
+            "pk": 3568664191285840121,
+            "play_count": 45057,
+            "preview_comments": [],
+            "product_suggestions": [],
+            "product_type": "clips",
+            "profile_grid_control_enabled": false,
+            "reshare_count": 893,
+            "saved_collection_ids": [],
+            "share_count_disabled": false,
+            "sharing_friction_info": {
+                "bloks_app_url": null,
+                "sharing_friction_payload": null,
+                "should_have_sharing_friction": false
+            },
+            "shop_routing_user_id": null,
+            "should_open_collab_bottomsheet_on_facepile_tap": false,
+            "should_request_ads": false,
+            "should_show_author_pog_for_tagged_media_shared_to_profile_grid": false,
+            "strong_id__": "3568664191285840121_8587428602",
+            "subscribe_cta_visible": false,
+            "taken_at": 1739638265,
+            "timeline_pinned_user_ids": [],
+            "top_likers": [
+                "greglantern"
+            ],
+            "user": {
+                "account_badges": [],
+                "account_type": 2,
+                "can_see_quiet_post_attribution": true,
+                "fan_club_info": {
+                    "autosave_to_exclusive_highlight": null,
+                    "connected_member_count": null,
+                    "fan_club_id": null,
+                    "fan_club_name": null,
+                    "fan_consideration_page_revamp_eligiblity": null,
+                    "has_created_ssc": null,
+                    "has_enough_subscribers_for_ssc": null,
+                    "is_fan_club_gifting_eligible": null,
+                    "is_fan_club_referral_eligible": null,
+                    "is_free_trial_eligible": null,
+                    "largest_public_bc_id": null,
+                    "subscriber_count": null
+                },
+                "fbid_v2": 17841408538083428,
+                "feed_post_reshare_disabled": false,
+                "friendship_status": {
+                    "following": true,
+                    "is_bestie": false,
+                    "is_feed_favorite": false,
+                    "is_restricted": false
+                },
+                "full_name": "MEANS TV",
+                "has_anonymous_profile_picture": false,
+                "id": "8587428602",
+                "is_active_on_text_post_app": true,
+                "is_favorite": false,
+                "is_private": false,
+                "is_unpublished": false,
+                "is_verified": false,
+                "latest_reel_media": 1740496488,
+                "pk": 8587428602,
+                "pk_id": "8587428602",
+                "profile_pic_id": "2930796108491351403_8587428602",
+                "profile_pic_url": "https://scontent-yyz1-1.cdninstagram.com/v/t51.2885-19/307281289_425004526284699_6379648210361279513_n.jpg?stp=dst-jpg_e0_s150x150_tt6&_nc_ht=scontent-yyz1-1.cdninstagram.com&_nc_cat=103&_nc_oc=Q6cZ2AElTS3DNwTcyggcwe2pKrHbhRfWerOvKu8cXANoaW3A_KGGKtBhd296utnwl9BQsME&_nc_ohc=dIkNkTR23FoQ7kNvgHaJDp0&_nc_gid=0b39e9103146481292b99f1ffa46a829&edm=ALQROFkBAAAA&ccb=7-5&oh=00_AYBcD2kk04X7MsUZXfkoppHryAvXqvdBT2yh6VOaKrBfCg&oe=67C3C4CF&_nc_sid=fc8dfb",
+                "show_account_transparency_details": true,
+                "strong_id__": "8587428602",
+                "text_post_app_is_private": false,
+                "third_party_downloads_enabled": 1,
+                "transparency_product_enabled": false,
+                "username": "means_tv"
+            },
+            "usertags": {
+                "in": [
+                    {
+                        "position": [
+                            0.0,
+                            0.0
+                        ],
+                        "show_category_of_user": false,
+                        "user": {
+                            "full_name": "Means TV back up",
+                            "id": "71424014408",
+                            "is_private": false,
+                            "is_verified": false,
+                            "pk": 71424014408,
+                            "pk_id": "71424014408",
+                            "profile_pic_id": "3533238779246894941_71424014408",
+                            "profile_pic_url": "https://scontent-yyz1-1.cdninstagram.com/v/t51.2885-19/472029114_1997787267313527_8475180584215979264_n.jpg?stp=dst-jpg_e0_s150x150_tt6&_nc_ht=scontent-yyz1-1.cdninstagram.com&_nc_cat=103&_nc_oc=Q6cZ2AElTS3DNwTcyggcwe2pKrHbhRfWerOvKu8cXANoaW3A_KGGKtBhd296utnwl9BQsME&_nc_ohc=Ev73s5cJFd4Q7kNvgGI01dQ&_nc_gid=0b39e9103146481292b99f1ffa46a829&edm=ALQROFkBAAAA&ccb=7-5&oh=00_AYC1F01zDC2zTq6vJs4YB5llM88sbrbKbNPo_X6Qgmmzhw&oe=67C3B6AD&_nc_sid=fc8dfb",
+                            "strong_id__": "71424014408",
+                            "username": "meanstv_backup"
+                        }
+                    }
+                ]
+            },
+            "video_codec": "av01.0.04M.08.0.111.01.01.01.0",
+            "video_dash_manifest": "<?xml version=\"1.0\" encoding=\"UTF-8\"?>\n<MPD xmlns=\"urn:mpeg:dash:schema:mpd:2011\" xmlns:xsi=\"http://www.w3.org/2001/XMLSchema-instance\" xsi:schemaLocation=\"urn:mpeg:dash:schema:mpd:2011 DASH-MPD.xsd\" profiles=\"urn:mpeg:dash:profile:isoff-on-demand:2011\" minBufferTime=\"PT2S\" type=\"static\" mediaPresentationDuration=\"PT41.099998S\" FBManifestIdentifier=\"FgAYD3IyYXYxLXIxZ2VuMnZwORmG0OmyiLyL/QG+6e7T+7WrAtycnIqOwsMDuLa4+Oum0AO2r+fPufTTA5LDkLeSi9QDoq3Yv4q91AW+09iutb3eICIYI2Rhc2hfdW5pZmllZF9wcmVtaXVtX3hoZV92YnIyX2F1ZGlvAA==\"><Period id=\"0\" duration=\"PT41.099998S\"><AdaptationSet id=\"0\" contentType=\"video\" subsegmentAlignment=\"true\" par=\"9:16\" FBUnifiedUploadResolutionMos=\"360:74.3\"><SupplementalProperty schemeIdUri=\"urn:mpeg:mpegB:cicp:MatrixCoefficients\" value=\"1\"/><SupplementalProperty schemeIdUri=\"urn:mpeg:mpegB:cicp:ColourPrimaries\" value=\"1\"/><SupplementalProperty schemeIdUri=\"urn:mpeg:mpegB:cicp:TransferCharacteristics\" value=\"1\"/><Representation id=\"556549924084328vd\" bandwidth=\"95001\" codecs=\"av01.0.04M.08.0.111.01.01.01.0\" mimeType=\"video/mp4\" sar=\"1:1\" FBEncodingTag=\"dash_r2av1-r1gen2vp9_q30\" FBContentLength=\"488071\" FBPlaybackResolutionMos=\"0:100,360:62.3,480:58.3,720:55.7\" FBPlaybackResolutionMosConfidenceLevel=\"high\" FBPlaybackResolutionCsvqm=\"0:100,360:93.3,480:90.8,720:85.7\" FBAbrPolicyTags=\"\" width=\"540\" height=\"960\" frameRate=\"15360/512\" FBDefaultQuality=\"1\" FBQualityClass=\"sd\" FBQualityLabel=\"240p\"><BaseURL>https://scontent-yyz1-1.cdninstagram.com/o1/v/t2/f2/m367/AQPKJfchqbsy-AdRRkpeVYuQ1A-RT5HlXsn6nwS5f00qoBAVCuealJkwRxJGxAUfO8BJDd-T18Pd_CsMOYmVNwAuoVui4ugmqPV5gI4.mp4?_nc_cat=105&amp;_nc_sid=9ca052&amp;_nc_ht=scontent-yyz1-1.cdninstagram.com&amp;_nc_ohc=uCiOpvDJnX8Q7kNvgFVV-Di&amp;efg=eyJ2ZW5jb2RlX3RhZyI6ImlnLXhwdmRzLmNsaXBzLmMyLUMzLmRhc2hfcjJhdjEtcjFnZW4ydnA5X3EzMCIsInZpZGVvX2lkIjpudWxsLCJjbGllbnRfbmFtZSI6ImlnIiwib2lsX3VybGdlbl9hcHBfaWQiOjEyNDAyNDU3NDI4NzQxNCwidXJsZ2VuX3NvdXJjZSI6Ind3dyJ9&amp;ccb=17-1&amp;_nc_zt=28&amp;oh=00_AYCDKIuiRKNck-Kx1Wurj2Cjba3Rry_hOgvWOc0GOz9WLA&amp;oe=67C3CDCA</BaseURL><SegmentBase indexRange=\"826-965\" timescale=\"15360\" FBMinimumPrefetchRange=\"966-19829\" FBFirstSegmentRange=\"966-38511\" FBFirstSegmentDuration=\"5000\" FBSecondSegmentRange=\"38512-98771\" FBPrefetchSegmentRange=\"966-38511\" FBPrefetchSegmentDuration=\"5000\"><Initialization range=\"0-825\"/></SegmentBase></Representation><Representation id=\"1029334335885513v\" bandwidth=\"124667\" codecs=\"av01.0.05M.08.0.111.01.01.01.0\" mimeType=\"video/mp4\" sar=\"1:1\" FBEncodingTag=\"dash_r2av1-r1gen2vp9_q40\" FBContentLength=\"640480\" FBPlaybackResolutionMos=\"0:100,360:68.2,480:64.5,720:62.9\" FBPlaybackResolutionMosConfidenceLevel=\"high\" FBPlaybackResolutionCsvqm=\"0:100,360:94.2,480:92.6,720:89.5\" FBAbrPolicyTags=\"\" width=\"720\" height=\"1280\" frameRate=\"15360/512\" FBQualityClass=\"hd\" FBQualityLabel=\"270p\"><BaseURL>https://scontent-yyz1-1.cdninstagram.com/o1/v/t2/f2/m367/AQNV64CEwzF5HGlQaKFxDia6giByZgpDbGRHD4UFhBk2So3Y3K1KPSJB27WReefUGOxN4L4OCUFRBAKs5GTjS45SmoFcoYC-13yrNdk.mp4?_nc_cat=109&amp;_nc_sid=9ca052&amp;_nc_ht=scontent-yyz1-1.cdninstagram.com&amp;_nc_ohc=bK86nKUJgsMQ7kNvgEDqTG0&amp;efg=eyJ2ZW5jb2RlX3RhZyI6ImlnLXhwdmRzLmNsaXBzLmMyLUMzLmRhc2hfcjJhdjEtcjFnZW4ydnA5X3E0MCIsInZpZGVvX2lkIjpudWxsLCJjbGllbnRfbmFtZSI6ImlnIiwib2lsX3VybGdlbl9hcHBfaWQiOjEyNDAyNDU3NDI4NzQxNCwidXJsZ2VuX3NvdXJjZSI6Ind3dyJ9&amp;ccb=17-1&amp;_nc_zt=28&amp;oh=00_AYAPXrW9_F8uPpvM5P_5rxxKdyZg5QFyv2CDvemRZ-qWzA&amp;oe=67C3B9D2</BaseURL><SegmentBase indexRange=\"826-965\" timescale=\"15360\" FBMinimumPrefetchRange=\"966-25685\" FBFirstSegmentRange=\"966-50032\" FBFirstSegmentDuration=\"5000\" FBSecondSegmentRange=\"50033-129124\" FBPrefetchSegmentRange=\"966-50032\" FBPrefetchSegmentDuration=\"5000\"><Initialization range=\"0-825\"/></SegmentBase></Representation><Representation id=\"1593142218001233v\" bandwidth=\"215810\" codecs=\"av01.0.05M.08.0.111.01.01.01.0\" mimeType=\"video/mp4\" sar=\"1:1\" FBEncodingTag=\"dash_r2av1-r1gen2vp9_q50\" FBContentLength=\"1108726\" FBPlaybackResolutionMos=\"0:100,360:79.2,480:75.8,720:73.8\" FBPlaybackResolutionMosConfidenceLevel=\"high\" FBPlaybackResolutionCsvqm=\"0:100,360:96.2,480:95.2,720:93.5\" FBAbrPolicyTags=\"\" width=\"720\" height=\"1280\" frameRate=\"15360/512\" FBQualityClass=\"hd\" FBQualityLabel=\"360p\"><BaseURL>https://scontent-yyz1-1.cdninstagram.com/o1/v/t2/f2/m367/AQNM9nLYXRNa4b0dtuMXwfbsjlnowloG1QKO_GJNqGTd-HD2kJ2DyvUWZTR6JpNCIWm73ZP2zZ9nqoXUnDHkniQWgnl_aBmWIIVqDr0.mp4?_nc_cat=107&amp;_nc_sid=9ca052&amp;_nc_ht=scontent-yyz1-1.cdninstagram.com&amp;_nc_ohc=IVUTUDyubRgQ7kNvgHhJwmJ&amp;efg=eyJ2ZW5jb2RlX3RhZyI6ImlnLXhwdmRzLmNsaXBzLmMyLUMzLmRhc2hfcjJhdjEtcjFnZW4ydnA5X3E1MCIsInZpZGVvX2lkIjpudWxsLCJjbGllbnRfbmFtZSI6ImlnIiwib2lsX3VybGdlbl9hcHBfaWQiOjEyNDAyNDU3NDI4NzQxNCwidXJsZ2VuX3NvdXJjZSI6Ind3dyJ9&amp;ccb=17-1&amp;_nc_zt=28&amp;oh=00_AYCrcrtPeNG87a4jd5_hHxGnZ2SAkShk9FvUdtg0b2qIEg&amp;oe=67C3C818</BaseURL><SegmentBase indexRange=\"826-965\" timescale=\"15360\" FBMinimumPrefetchRange=\"966-39665\" FBFirstSegmentRange=\"966-84942\" FBFirstSegmentDuration=\"5000\" FBSecondSegmentRange=\"84943-222169\" FBPrefetchSegmentRange=\"966-84942\" FBPrefetchSegmentDuration=\"5000\"><Initialization range=\"0-825\"/></SegmentBase></Representation><Representation id=\"9214962575283423v\" bandwidth=\"295861\" codecs=\"av01.0.05M.08.0.111.01.01.01.0\" mimeType=\"video/mp4\" sar=\"1:1\" FBEncodingTag=\"dash_r2av1-r1gen2vp9_q60\" FBContentLength=\"1519989\" FBPlaybackResolutionMos=\"0:100,360:84.5,480:80.8,720:77.8\" FBPlaybackResolutionMosConfidenceLevel=\"high\" FBPlaybackResolutionCsvqm=\"0:100,360:96.7,480:96.1,720:94.8\" FBAbrPolicyTags=\"\" width=\"720\" height=\"1280\" frameRate=\"15360/512\" FBQualityClass=\"hd\" FBQualityLabel=\"480p\"><BaseURL>https://scontent-yyz1-1.cdninstagram.com/o1/v/t2/f2/m367/AQM2olkzjcLZOxQRwH_DDH-bL8JGjJybGNvtYcSIRvRbJ2hHdg5QphtG3XrMGxnDjzb3FZj0nca2rofDXw7pOGondawPDCVMeAY73yc.mp4?_nc_cat=107&amp;_nc_sid=9ca052&amp;_nc_ht=scontent-yyz1-1.cdninstagram.com&amp;_nc_ohc=pSox4QXXI1cQ7kNvgHNBtkB&amp;efg=eyJ2ZW5jb2RlX3RhZyI6ImlnLXhwdmRzLmNsaXBzLmMyLUMzLmRhc2hfcjJhdjEtcjFnZW4ydnA5X3E2MCIsInZpZGVvX2lkIjpudWxsLCJjbGllbnRfbmFtZSI6ImlnIiwib2lsX3VybGdlbl9hcHBfaWQiOjEyNDAyNDU3NDI4NzQxNCwidXJsZ2VuX3NvdXJjZSI6Ind3dyJ9&amp;ccb=17-1&amp;_nc_zt=28&amp;oh=00_AYD8ldb_Q14Ko4Yjjp972T5ei4uns3nGyoMLou1PXwojvw&amp;oe=67C3A9BC</BaseURL><SegmentBase indexRange=\"826-965\" timescale=\"15360\" FBMinimumPrefetchRange=\"966-48433\" FBFirstSegmentRange=\"966-118391\" FBFirstSegmentDuration=\"5000\" FBSecondSegmentRange=\"118392-309325\" FBPrefetchSegmentRange=\"966-118391\" FBPrefetchSegmentDuration=\"5000\"><Initialization range=\"0-825\"/></SegmentBase></Representation><Representation id=\"1028944459262939v\" bandwidth=\"383233\" codecs=\"av01.0.05M.08.0.111.01.01.01.0\" mimeType=\"video/mp4\" sar=\"1:1\" FBEncodingTag=\"dash_r2av1-r1gen2vp9_q70\" FBContentLength=\"1968861\" FBPlaybackResolutionMos=\"0:100,360:87.9,480:84.9,720:82.1\" FBPlaybackResolutionMosConfidenceLevel=\"high\" FBPlaybackResolutionCsvqm=\"0:100,360:97.1,480:96.6,720:95.7\" FBAbrPolicyTags=\"\" width=\"720\" height=\"1280\" frameRate=\"15360/512\" FBQualityClass=\"hd\" FBQualityLabel=\"540p\"><BaseURL>https://scontent-yyz1-1.cdninstagram.com/o1/v/t2/f2/m367/AQO2cgNEq8ddbGeEM6heqWk10DTKkrHt9s4Aulubf1nplMsWpPoNFH_CWvfTEL7kTRVoPO3qG9PXspQzDWg-wDIz5gOEIbaAnWU_9Ac.mp4?_nc_cat=108&amp;_nc_sid=9ca052&amp;_nc_ht=scontent-yyz1-1.cdninstagram.com&amp;_nc_ohc=uv_c5ePCMhEQ7kNvgEjm5Ld&amp;efg=eyJ2ZW5jb2RlX3RhZyI6ImlnLXhwdmRzLmNsaXBzLmMyLUMzLmRhc2hfcjJhdjEtcjFnZW4ydnA5X3E3MCIsInZpZGVvX2lkIjpudWxsLCJjbGllbnRfbmFtZSI6ImlnIiwib2lsX3VybGdlbl9hcHBfaWQiOjEyNDAyNDU3NDI4NzQxNCwidXJsZ2VuX3NvdXJjZSI6Ind3dyJ9&amp;ccb=17-1&amp;_nc_zt=28&amp;oh=00_AYCnnwgALHUfn3G2giDRJ0qPvuBsOl789OGzf_SPzsPe-w&amp;oe=67C3CB1D</BaseURL><SegmentBase indexRange=\"826-965\" timescale=\"15360\" FBMinimumPrefetchRange=\"966-57708\" FBFirstSegmentRange=\"966-158877\" FBFirstSegmentDuration=\"5000\" FBSecondSegmentRange=\"158878-409672\" FBPrefetchSegmentRange=\"966-158877\" FBPrefetchSegmentDuration=\"5000\"><Initialization range=\"0-825\"/></SegmentBase></Representation><Representation id=\"992895249385262v\" bandwidth=\"470895\" codecs=\"av01.0.05M.08.0.111.01.01.01.0\" mimeType=\"video/mp4\" sar=\"1:1\" FBEncodingTag=\"dash_r2av1-r1gen2vp9_q80\" FBContentLength=\"2419226\" FBPlaybackResolutionMos=\"0:100,360:89.9,480:87.1,720:84.5\" FBPlaybackResolutionMosConfidenceLevel=\"high\" FBPlaybackResolutionCsvqm=\"0:100,360:97.3,480:97,720:96.2\" FBAbrPolicyTags=\"\" width=\"720\" height=\"1280\" frameRate=\"15360/512\" FBQualityClass=\"hd\" FBQualityLabel=\"640p\"><BaseURL>https://scontent-yyz1-1.cdninstagram.com/o1/v/t2/f2/m367/AQOzaS23i97q6PB-uR6z68xlRkpG_BkoSBHRMBKpjSXMl6nxsJzzzFO9DyGB_0Zs8Fp7kz9_cUoCdb0KmaPOthkpJ_tFzGDUUX7RM0Y.mp4?_nc_cat=101&amp;_nc_sid=9ca052&amp;_nc_ht=scontent-yyz1-1.cdninstagram.com&amp;_nc_ohc=0opEyqubK0gQ7kNvgFiSzUp&amp;efg=eyJ2ZW5jb2RlX3RhZyI6ImlnLXhwdmRzLmNsaXBzLmMyLUMzLmRhc2hfcjJhdjEtcjFnZW4ydnA5X3E4MCIsInZpZGVvX2lkIjpudWxsLCJjbGllbnRfbmFtZSI6ImlnIiwib2lsX3VybGdlbl9hcHBfaWQiOjEyNDAyNDU3NDI4NzQxNCwidXJsZ2VuX3NvdXJjZSI6Ind3dyJ9&amp;ccb=17-1&amp;_nc_zt=28&amp;oh=00_AYARWCZWnItZyh00E_YtlBO47cap5pN5aiy9kPaK0UkG5A&amp;oe=67C3ABF2</BaseURL><SegmentBase indexRange=\"826-965\" timescale=\"15360\" FBMinimumPrefetchRange=\"966-65697\" FBFirstSegmentRange=\"966-199054\" FBFirstSegmentDuration=\"5000\" FBSecondSegmentRange=\"199055-507816\" FBPrefetchSegmentRange=\"966-199054\" FBPrefetchSegmentDuration=\"5000\"><Initialization range=\"0-825\"/></SegmentBase></Representation><Representation id=\"1021014113193372v\" bandwidth=\"583100\" codecs=\"av01.0.05M.08.0.111.01.01.01.0\" mimeType=\"video/mp4\" sar=\"1:1\" FBEncodingTag=\"dash_r2av1-r1gen2vp9_q90\" FBContentLength=\"2995680\" FBPlaybackResolutionMos=\"0:100,360:91.5,480:88.9,720:86.4\" FBPlaybackResolutionMosConfidenceLevel=\"high\" FBPlaybackResolutionCsvqm=\"0:100,360:97.5,480:97.2,720:96.6\" FBAbrPolicyTags=\"\" width=\"720\" height=\"1280\" frameRate=\"15360/512\" FBQualityClass=\"hd\" FBQualityLabel=\"720p\"><BaseURL>https://scontent-yyz1-1.cdninstagram.com/o1/v/t2/f2/m367/AQM2QJ8eab0N_DNPmzYlSlzl6upaATmv69s0miTz6wJWlkNF-9ripItJ44uRuMIEa10FW_UeBNCCSQUzWUYOJZzlGErtLS5ZfoULacE.mp4?_nc_cat=105&amp;_nc_sid=9ca052&amp;_nc_ht=scontent-yyz1-1.cdninstagram.com&amp;_nc_ohc=ZmmoQyl2nokQ7kNvgHYLzMR&amp;efg=eyJ2ZW5jb2RlX3RhZyI6ImlnLXhwdmRzLmNsaXBzLmMyLUMzLmRhc2hfcjJhdjEtcjFnZW4ydnA5X3E5MCIsInZpZGVvX2lkIjpudWxsLCJjbGllbnRfbmFtZSI6ImlnIiwib2lsX3VybGdlbl9hcHBfaWQiOjEyNDAyNDU3NDI4NzQxNCwidXJsZ2VuX3NvdXJjZSI6Ind3dyJ9&amp;ccb=17-1&amp;_nc_zt=28&amp;oh=00_AYCU-Jky6Ec2wKxON9XCHjENHKhxTxyq6jci41yjC2JAnQ&amp;oe=67C3C0E6</BaseURL><SegmentBase indexRange=\"826-965\" timescale=\"15360\" FBMinimumPrefetchRange=\"966-73522\" FBFirstSegmentRange=\"966-248763\" FBFirstSegmentDuration=\"5000\" FBSecondSegmentRange=\"248764-628292\" FBPrefetchSegmentRange=\"966-248763\" FBPrefetchSegmentDuration=\"5000\"><Initialization range=\"0-825\"/></SegmentBase></Representation></AdaptationSet><AdaptationSet id=\"1\" contentType=\"audio\" subsegmentStartsWithSAP=\"1\" subsegmentAlignment=\"true\"><Representation id=\"658435083197023ad\" bandwidth=\"64468\" codecs=\"mp4a.40.42\" mimeType=\"audio/mp4\" FBAvgBitrate=\"64468\" audioSamplingRate=\"44100\" FBEncodingTag=\"dash_audio_xheaac_vbr2_abr_lrac_frag_5_audio\" FBContentLength=\"317368\" FBPaqMos=\"90.51\" FBAbrPolicyTags=\"\" FBDefaultQuality=\"1\"><AudioChannelConfiguration schemeIdUri=\"urn:mpeg:dash:23003:3:audio_channel_configuration:2011\" value=\"2\"/><BaseURL>https://scontent-yyz1-1.cdninstagram.com/o1/v/t16/f2/m69/AQNmHoNVtxgjoZT_pUpg7-iguouZcPilA-r530K8ODdk-FQ-SFV75vPsddhn_d4mE7Xk7H1_GHfz2WyfPW4WIfj_.mp4?strext=1&amp;_nc_cat=111&amp;_nc_sid=9ca052&amp;_nc_ht=scontent-yyz1-1.cdninstagram.com&amp;_nc_ohc=MtVKbnls53AQ7kNvgHhygGU&amp;efg=eyJ2ZW5jb2RlX3RhZyI6ImlnLXhwdmRzLmNsaXBzLmMyLUMzLmRhc2hfYXVkaW9feGhlYWFjX3ZicjJfYWJyX2xyYWNfZnJhZ181X2F1ZGlvIiwidmlkZW9faWQiOm51bGwsImNsaWVudF9uYW1lIjoiaWciLCJvaWxfdXJsZ2VuX2FwcF9pZCI6MTI0MDI0NTc0Mjg3NDE0LCJ1cmxnZW5fc291cmNlIjoid3d3In0%3D&amp;ccb=17-1&amp;_nc_zt=28&amp;oh=00_AYCE4lfG_nrxQcmw54uCnKyT8ZX0_InXsgd-7OqR9BGyPg&amp;oe=67C3D659</BaseURL><SegmentBase indexRange=\"840-967\" timescale=\"44100\" FBMinimumPrefetchRange=\"968-2736\" FBFirstSegmentRange=\"968-37722\" FBFirstSegmentDuration=\"4922\" FBSecondSegmentRange=\"37723-79539\" FBPrefetchSegmentRange=\"968-37722\" FBPrefetchSegmentDuration=\"4922\"><Initialization range=\"0-839\"/></SegmentBase></Representation></AdaptationSet></Period></MPD>\n",
+            "video_duration": 41.1,
+            "video_sticker_locales": [],
+            "video_subtitles_confidence": 0.7900000214576721,
+            "video_subtitles_locale": "en_US",
+            "video_versions": [
+                {
+                    "bandwidth": 1021702,
+                    "height": 1280,
+                    "id": "1407584260220170v",
+                    "type": 101,
+                    "url": "https://scontent-yyz1-1.cdninstagram.com/o1/v/t16/f2/m86/AQMEQlK50S37FAH91Jg-FC3BzhYCg0Fej0fUJroXrADhlNhZciilVqXxT-OG_9B5l_h4b7FmFzbl_XFxL_Xag7D6MF2TI2LdjFCeP38.mp4?efg=eyJ4cHZfYXNzZXRfaWQiOjEwODAwMDI5MDA1NDg1MjQsInZlbmNvZGVfdGFnIjoieHB2X3Byb2dyZXNzaXZlLklOU1RBR1JBTS5DTElQUy5DMy43MjAuZGFzaF9iYXNlbGluZV8xX3YxIn0&_nc_ht=scontent-yyz1-1.cdninstagram.com&_nc_cat=107&vs=ba4552dfa350a0b4&_nc_vs=HBksFQIYUmlnX3hwdl9yZWVsc19wZXJtYW5lbnRfc3JfcHJvZC84MDQ4MDQ2NzUxRTAyOTcwNTBEMzNFN0NGOTNENEU5MV92aWRlb19kYXNoaW5pdC5tcDQVAALIAQAVAhg6cGFzc3Rocm91Z2hfZXZlcnN0b3JlL0dITzJteHpDTnU3elhVWUNBSXBuLWlGU3lRVTFicV9FQUFBRhUCAsgBACgAGAAbAogHdXNlX29pbAExEnByb2dyZXNzaXZlX3JlY2lwZQExFQAAJtju8tO4kOsDFQIoAkMzLBdARIzMzMzMzRgSZGFzaF9iYXNlbGluZV8xX3YxEQB1_gcA&ccb=9-4&oh=00_AYBNhGl_z5qpnyvB28WzeLfhzMgPbElCJ5Oy7qFS4s7Pgw&oe=67BFBD3D&_nc_sid=1d576d",
+                    "width": 720
+                },
+                {
+                    "bandwidth": 1021702,
+                    "height": 1280,
+                    "id": "1407584260220170v",
+                    "type": 102,
+                    "url": "https://scontent-yyz1-1.cdninstagram.com/o1/v/t16/f2/m86/AQMEQlK50S37FAH91Jg-FC3BzhYCg0Fej0fUJroXrADhlNhZciilVqXxT-OG_9B5l_h4b7FmFzbl_XFxL_Xag7D6MF2TI2LdjFCeP38.mp4?efg=eyJ4cHZfYXNzZXRfaWQiOjEwODAwMDI5MDA1NDg1MjQsInZlbmNvZGVfdGFnIjoieHB2X3Byb2dyZXNzaXZlLklOU1RBR1JBTS5DTElQUy5DMy43MjAuZGFzaF9iYXNlbGluZV8xX3YxIn0&_nc_ht=scontent-yyz1-1.cdninstagram.com&_nc_cat=107&vs=ba4552dfa350a0b4&_nc_vs=HBksFQIYUmlnX3hwdl9yZWVsc19wZXJtYW5lbnRfc3JfcHJvZC84MDQ4MDQ2NzUxRTAyOTcwNTBEMzNFN0NGOTNENEU5MV92aWRlb19kYXNoaW5pdC5tcDQVAALIAQAVAhg6cGFzc3Rocm91Z2hfZXZlcnN0b3JlL0dITzJteHpDTnU3elhVWUNBSXBuLWlGU3lRVTFicV9FQUFBRhUCAsgBACgAGAAbAogHdXNlX29pbAExEnByb2dyZXNzaXZlX3JlY2lwZQExFQAAJtju8tO4kOsDFQIoAkMzLBdARIzMzMzMzRgSZGFzaF9iYXNlbGluZV8xX3YxEQB1_gcA&ccb=9-4&oh=00_AYBNhGl_z5qpnyvB28WzeLfhzMgPbElCJ5Oy7qFS4s7Pgw&oe=67BFBD3D&_nc_sid=1d576d",
+                    "width": 720
+                },
+                {
+                    "bandwidth": 1021702,
+                    "height": 1280,
+                    "id": "1407584260220170v",
+                    "type": 103,
+                    "url": "https://scontent-yyz1-1.cdninstagram.com/o1/v/t16/f2/m86/AQMEQlK50S37FAH91Jg-FC3BzhYCg0Fej0fUJroXrADhlNhZciilVqXxT-OG_9B5l_h4b7FmFzbl_XFxL_Xag7D6MF2TI2LdjFCeP38.mp4?efg=eyJ4cHZfYXNzZXRfaWQiOjEwODAwMDI5MDA1NDg1MjQsInZlbmNvZGVfdGFnIjoieHB2X3Byb2dyZXNzaXZlLklOU1RBR1JBTS5DTElQUy5DMy43MjAuZGFzaF9iYXNlbGluZV8xX3YxIn0&_nc_ht=scontent-yyz1-1.cdninstagram.com&_nc_cat=107&vs=ba4552dfa350a0b4&_nc_vs=HBksFQIYUmlnX3hwdl9yZWVsc19wZXJtYW5lbnRfc3JfcHJvZC84MDQ4MDQ2NzUxRTAyOTcwNTBEMzNFN0NGOTNENEU5MV92aWRlb19kYXNoaW5pdC5tcDQVAALIAQAVAhg6cGFzc3Rocm91Z2hfZXZlcnN0b3JlL0dITzJteHpDTnU3elhVWUNBSXBuLWlGU3lRVTFicV9FQUFBRhUCAsgBACgAGAAbAogHdXNlX29pbAExEnByb2dyZXNzaXZlX3JlY2lwZQExFQAAJtju8tO4kOsDFQIoAkMzLBdARIzMzMzMzRgSZGFzaF9iYXNlbGluZV8xX3YxEQB1_gcA&ccb=9-4&oh=00_AYBNhGl_z5qpnyvB28WzeLfhzMgPbElCJ5Oy7qFS4s7Pgw&oe=67BFBD3D&_nc_sid=1d576d",
+                    "width": 720
+                }
+            ]
+        },
+        "is_ad": false,
+        "is_affiliate": false,
+        "is_paid_partnership": false,
+        "is_published": true,
+        "is_video": true,
+        "like_and_view_counts_disabled": false,
+        "location": null,
+        "media_overlay_info": null,
+        "media_preview": "ABgq2DkDt+tIGPqPyNRsj/38D/dBqDyF59++3pxg8Z6HrWhKS6v8GXBk+n60VGEf+F+PTaPyopE281+P+Ra24rIjuZTdeWfuksNvoB0P+euav6jM0MJZODwAfqf8K5jz5VfzNxDnv3q4q6bN4Qun9x14XNFQ2MpmiDN97ofqP85orJ6aGTjbQNQVWt33dAM/iOn61yBOa63UP+PZ/p/UVyVb09vmdNPZnZWcaJCvl9CA34nk0U21/wCPeP8A3V/pRWD3Zi9z/9k=",
+        "nft_asset_info": null,
+        "owner": {
+            "blocked_by_viewer": false,
+            "edge_followed_by": {
+                "count": 117020
+            },
+            "edge_owner_to_timeline_media": {
+                "count": 2272
+            },
+            "followed_by_viewer": true,
+            "full_name": "MEANS TV",
+            "has_blocked_viewer": false,
+            "id": "8587428602",
+            "is_embeds_disabled": false,
+            "is_private": false,
+            "is_unpublished": false,
+            "is_verified": false,
+            "pass_tiering_recommendation": true,
+            "profile_pic_url": "https://scontent-yyz1-1.cdninstagram.com/v/t51.2885-19/307281289_425004526284699_6379648210361279513_n.jpg?stp=dst-jpg_s150x150_tt6&_nc_ht=scontent-yyz1-1.cdninstagram.com&_nc_cat=103&_nc_oc=Q6cZ2AF2mMjdnUMZb87dK4Sjo0MT5lxZgA5jRYgl35ejjlyekbJWgfkYDvNjOPbt1PxsJTc&_nc_ohc=dIkNkTR23FoQ7kNvgHaJDp0&_nc_gid=39844ed5517b4a71a72b255e5a1653a5&edm=ANTKIIoBAAAA&ccb=7-5&oh=00_AYDt0iP6LBhHf8EtzK9XOyd1Op_JuHKRLmGl5lJ2N97IiA&oe=67C3C4CF&_nc_sid=d885a2",
+            "requested_by_viewer": false,
+            "restricted_by_viewer": false,
+            "username": "means_tv"
+        },
+        "pinned_for_users": [],
+        "product_type": "clips",
+        "sensitivity_friction_info": null,
+        "sharing_friction_info": {
+            "bloks_app_url": null,
+            "should_have_sharing_friction": false
+        },
+        "shortcode": "DGGcSykP8j5",
+        "taken_at_timestamp": 1739638265,
+        "thumbnail_src": "https://scontent-yyz1-1.cdninstagram.com/v/t51.2885-15/479702161_18264977245284603_2011220834687373197_n.jpg?stp=c0.257.668.668a_dst-jpg_e15_s640x640_tt6&_nc_ht=scontent-yyz1-1.cdninstagram.com&_nc_cat=103&_nc_oc=Q6cZ2AF2mMjdnUMZb87dK4Sjo0MT5lxZgA5jRYgl35ejjlyekbJWgfkYDvNjOPbt1PxsJTc&_nc_ohc=1B_HAGmn1u8Q7kNvgEdtD9S&_nc_gid=39844ed5517b4a71a72b255e5a1653a5&edm=ANTKIIoBAAAA&ccb=7-5&oh=00_AYCQe2Gx3qINVhgsPvyzBh3mmAMW2wQxwd2NgkUzckZmyA&oe=67C3AD48&_nc_sid=d885a2",
+        "title": "",
+        "tracking_token": "eyJ2ZXJzaW9uIjo1LCJwYXlsb2FkIjp7ImlzX2FuYWx5dGljc190cmFja2VkIjp0cnVlLCJ1dWlkIjoiMzk4NDRlZDU1MTdiNGE3MWE3MmIyNTVlNWExNjUzYTUzNTY4NjY0MTkxMjg1ODQwMTIxIiwic2VydmVyX3Rva2VuIjoiMTc0MDUwMTI4NDA1M3wzNTY4NjY0MTkxMjg1ODQwMTIxfDMzNTM0NzA2fGIxZTNmYTQ5NTJjMDRlYzE1Y2RhZjBjNmQ1MWMwMTAwNDM5MGY2NTFhNTM2NWJlMzhhNzk3NDI2YWY1NTI1YzAifSwic2lnbmF0dXJlIjoiIn0=",
+        "upcoming_event": null,
+        "video_duration": 41.1,
+        "video_play_count": 45057,
+        "video_url": "https://scontent-yyz1-1.cdninstagram.com/o1/v/t16/f2/m86/AQMEQlK50S37FAH91Jg-FC3BzhYCg0Fej0fUJroXrADhlNhZciilVqXxT-OG_9B5l_h4b7FmFzbl_XFxL_Xag7D6MF2TI2LdjFCeP38.mp4?stp=dst-mp4&efg=eyJxZV9ncm91cHMiOiJbXCJpZ193ZWJfZGVsaXZlcnlfdnRzX290ZlwiXSIsInZlbmNvZGVfdGFnIjoidnRzX3ZvZF91cmxnZW4uY2xpcHMuYzIuNzIwLmJhc2VsaW5lIn0&_nc_cat=103&vs=1407584260220170_67442822&_nc_vs=HBksFQIYUmlnX3hwdl9yZWVsc19wZXJtYW5lbnRfc3JfcHJvZC84MDQ4MDQ2NzUxRTAyOTcwNTBEMzNFN0NGOTNENEU5MV92aWRlb19kYXNoaW5pdC5tcDQVAALIAQAVAhg6cGFzc3Rocm91Z2hfZXZlcnN0b3JlL0dITzJteHpDTnU3elhVWUNBSXBuLWlGU3lRVTFicV9FQUFBRhUCAsgBACgAGAAbABUAACau%2Bqb1hYvTQRUCKAJDMywXQESMzMzMzM0YEmRhc2hfYmFzZWxpbmVfMV92MREAdf4HAA%3D%3D&ccb=9-4&oh=00_AYCS2dE3jHfEIiqumUMN8M7kfoxrmTDyKnUI8iMYxUT4Hw&oe=67BFBD3D&_nc_sid=d885a2",
+        "video_view_count": 18808,
+        "viewer_can_reshare": true,
+        "viewer_has_liked": true,
+        "viewer_has_saved": true,
+        "viewer_has_saved_to_collection": false,
+        "viewer_in_photo_of_you": false
+    }
+}
