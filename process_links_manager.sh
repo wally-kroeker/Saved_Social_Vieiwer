@@ -552,11 +552,12 @@ start_viewer() {
         return
     fi
     
-    # Start the FastAPI viewer server
-    if [ -f "viewer/main.py" ]; then
+    # Start the FastAPI viewer server - always use absolute path
+    VIEWER_DIR="${BASE_DIR}/viewer"
+    if [ -f "${VIEWER_DIR}/main.py" ]; then
         echo -e "${GREEN}Starting FastAPI viewer at http://localhost:8080${NC}"
-        cd viewer && nohup uvicorn main:app --host 0.0.0.0 --port 8080 > /dev/null 2>&1 &
-        cd ..
+        cd "${VIEWER_DIR}" && nohup uvicorn main:app --host 0.0.0.0 --port 8080 > /dev/null 2>&1 &
+        cd "${BASE_DIR}"
         # Wait a moment to check if it started successfully
         sleep 2
         if is_viewer_running; then
