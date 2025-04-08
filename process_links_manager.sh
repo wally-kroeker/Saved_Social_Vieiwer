@@ -107,8 +107,9 @@ show_help() {
     echo -e "  ${YELLOW}4) View processing status${NC} - Check current processing status and history"
     echo -e "  ${YELLOW}5) System diagnostics${NC} - Verify system components and connections"
     echo -e "  ${YELLOW}6) Configuration${NC} - View and edit configuration settings"
-    echo -e "  ${YELLOW}7) Start content viewer${NC} - Start the content viewer server"
-    echo -e "  ${YELLOW}8)${NC} Restart content viewer${NC} - Restart the content viewer server"
+    echo -e "  ${YELLOW}7) Start content viewer server (Original & V2)${NC} - Start the FastAPI server"
+    echo -e "  ${YELLOW}8) Stop content viewer server${NC} - Stop the FastAPI server"
+    echo -e "  ${YELLOW}9) Restart content viewer server${NC} - Restart the FastAPI server"
     echo -e "  ${YELLOW}h) Show help${NC} - Display this help message"
     echo -e "  ${YELLOW}q) Quit${NC} - Exit the script"
     
@@ -116,6 +117,7 @@ show_help() {
     echo -e "1. Run system diagnostics to ensure all components are working"
     echo -e "2. Process specific platforms or all platforms as needed"
     echo -e "3. Check processing status to verify results"
+    echo -e "4. Start the viewer server to view content (Original at /, V2 at /v2)"
     
     echo -e "\n${BLUE}Command line usage:${NC}"
     echo -e "./process_links_manager.sh youtube --limit 2"
@@ -543,26 +545,28 @@ is_viewer_running() {
 
 # Function to start the viewer server
 start_viewer() {
-    echo -e "${BLUE}Starting content viewer server...${NC}"
+    echo -e "${BLUE}Starting content viewer server (Original & V2)...${NC}"
     
     # Check if FastAPI server is already running
     if is_viewer_running; then
         echo -e "${YELLOW}FastAPI viewer server is already running${NC}"
-        echo -e "Access the viewer at: ${BLUE}http://localhost:8080${NC}"
+        echo -e "Access Original Viewer at: ${BLUE}http://localhost:8080/${NC}"
+        echo -e "Access New Viewer (V2) at: ${BLUE}http://localhost:8080/v2${NC}"
         return
     fi
     
     # Start the FastAPI viewer server - always use absolute path
     VIEWER_DIR="${BASE_DIR}/viewer"
     if [ -f "${VIEWER_DIR}/main.py" ]; then
-        echo -e "${GREEN}Starting FastAPI viewer at http://localhost:8080${NC}"
+        echo -e "${GREEN}Starting FastAPI viewer server...${NC}"
         cd "${VIEWER_DIR}" && nohup uvicorn main:app --host 0.0.0.0 --port 8080 > /dev/null 2>&1 &
-        cd "${BASE_DIR}"
+        cd "${BASE_DIR}" # Go back to the original directory
         # Wait a moment to check if it started successfully
         sleep 2
         if is_viewer_running; then
             echo -e "${GREEN}FastAPI viewer server started in background${NC}"
-            echo -e "Access the viewer at: ${BLUE}http://localhost:8080${NC}"
+            echo -e "Access Original Viewer at: ${BLUE}http://localhost:8080/${NC}"
+            echo -e "Access New Viewer (V2) at: ${BLUE}http://localhost:8080/v2${NC}"
         else
             echo -e "${RED}Error: Failed to start viewer server${NC}"
         fi
@@ -573,7 +577,7 @@ start_viewer() {
 
 # Function to stop the viewer server
 stop_viewer() {
-    echo -e "${BLUE}Stopping content viewer server...${NC}"
+    echo -e "${BLUE}Stopping content viewer server (Original & V2)...${NC}"
     
     if is_viewer_running; then
         pkill -f "uvicorn.*main:app"
@@ -591,7 +595,7 @@ stop_viewer() {
 
 # Function to restart the viewer server
 restart_viewer() {
-    echo -e "${BLUE}Restarting content viewer server...${NC}"
+    echo -e "${BLUE}Restarting content viewer server (Original & V2)...${NC}"
     
     # Stop the server if running
     if is_viewer_running; then
@@ -739,7 +743,8 @@ main() {
                 elif [ "$2" = "status" ]; then
                     if is_viewer_running; then
                         echo -e "${GREEN}Content viewer server is running${NC}"
-                        echo -e "Access the viewer at: ${BLUE}http://localhost:8080${NC}"
+                        echo -e "Access Original Viewer at: ${BLUE}http://localhost:8080/${NC}"
+                        echo -e "Access New Viewer (V2) at: ${BLUE}http://localhost:8080/v2${NC}"
                     else
                         echo -e "${RED}Content viewer server is not running${NC}"
                     fi

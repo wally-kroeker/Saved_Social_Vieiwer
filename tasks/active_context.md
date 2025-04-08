@@ -59,12 +59,30 @@ The FastAPI viewer implementation has been successfully completed with the follo
 The viewer is now fully functional and can be started using either the management script (`./process_links_manager.sh viewer start`) or manually running the FastAPI server in the viewer directory.
 
 ## Recent Changes
-- Implemented dark mode theme for the content viewer UI
-- Successfully implemented simplified FastAPI viewer
-- Modified process_links_manager.sh to support FastAPI viewer start/stop
-- Improved filename handling for special characters
-- Implemented dynamic timeout calculation for longer videos
-- Created standardized content naming across all platforms
+
+Recent significant changes to the project include:
+
+1. **Video Player Enhancements**:
+   - Made entire video cards clickable for better UX
+   - Improved video player modal layout and functionality
+   - Added "View Transcript" button to video modal
+   - Enhanced video player controls and styling
+   - Implemented transcript loading in modal view
+
+2. **Directory Cleanup**:
+   - Removed unnecessary files and directories from viewer
+   - Streamlined viewer directory structure
+   - Improved code organization and maintainability
+
+3. **Previous Changes**:
+   - Complete setup of development environment with all dependencies
+   - Enhanced installation documentation with practical experience
+   - Successful verification of Notion connectivity
+   - Implementation of the processor factory pattern for better extensibility
+   - Addition of platform-specific configuration system
+   - Enhancement of transcript generation with Gemini API integration
+   - Addition of parallel processing capabilities for different platforms
+   - Implementation of continuous processing mode
 
 ## Dependencies
 - FastAPI
@@ -103,26 +121,6 @@ The project continues the Phase 2 architectural improvements, with particular em
    - Fixing intermittent issues with Notion status updates
    - Implementing more robust error handling and recovery mechanisms
    - Improving status update logic and validation
-
-## Recent Changes
-
-Recent significant changes to the project include:
-
-1. **Major Code Restructuring**: Moved all Python scripts to the src directory for better code organization
-   - Relocated core processor scripts (run_youtube_post.py, run_instagram_post.py)
-   - Moved platform_processor.py, processor_factory.py, and process_links.py
-   - Moved notion_integration.py and utility modules
-   - Updated import paths to maintain compatibility
-   - Enhanced project structure with proper Python package organization
-
-2. Complete setup of development environment with all dependencies
-3. Enhanced installation documentation with practical experience
-4. Successful verification of Notion connectivity
-5. Implementation of the processor factory pattern for better extensibility
-6. Addition of platform-specific configuration system
-7. Enhancement of transcript generation with Gemini API integration
-8. Addition of parallel processing capabilities for different platforms
-9. Implementation of continuous processing mode
 
 ## Known Issues
 

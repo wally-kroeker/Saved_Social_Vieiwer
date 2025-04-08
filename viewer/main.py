@@ -17,12 +17,19 @@ PROJECT_ROOT = Path(__file__).resolve().parent.parent
 OUTPUT_DIRECTORY = PROJECT_ROOT / 'output'
 STATIC_DIRECTORY = Path(__file__).resolve().parent / 'static'
 TEMPLATES_DIRECTORY = Path(__file__).resolve().parent / 'templates'
+NEW_VIEWER_DIRECTORY = Path(__file__).resolve().parent / 'Updated-Viewer' / 'dist'
 
 # Create FastAPI app
 app = FastAPI(title="Content Viewer")
 
 # Mount static files
 app.mount("/static", StaticFiles(directory=str(STATIC_DIRECTORY)), name="static")
+
+# Mount static files for the new viewer (V2)
+# Serve assets (CSS, JS, images) from the build directory
+app.mount("/v2/assets", StaticFiles(directory=str(NEW_VIEWER_DIRECTORY / 'assets')), name="v2-assets")
+# Serve other potential static files from the root of the build directory
+app.mount("/v2-static", StaticFiles(directory=str(NEW_VIEWER_DIRECTORY)), name="v2-static-root")
 
 # Set up templates
 templates = Jinja2Templates(directory=str(TEMPLATES_DIRECTORY))
@@ -185,10 +192,27 @@ def get_content(force_refresh=False) -> List[ContentItem]:
     
     return content_cache
 
+# Routes for V2 Viewer
+@app.get("/v2/{rest_of_path:path}")
+async def serve_v2_viewer(rest_of_path: str):
+    """Serve the main index.html for any path under /v2/ to support client-side routing."""
+    index_path = NEW_VIEWER_DIRECTORY / "index.html"
+    if not index_path.is_file():
+        raise HTTPException(status_code=404, detail="V2 Viewer index.html not found. Did you build it?")
+    return FileResponse(index_path)
+
+@app.get("/v2", response_class=FileResponse)
+async def serve_v2_root():
+    """Serve the root index.html for the V2 viewer."""
+    index_path = NEW_VIEWER_DIRECTORY / "index.html"
+    if not index_path.is_file():
+        raise HTTPException(status_code=404, detail="V2 Viewer index.html not found. Did you build it?")
+    return FileResponse(index_path)
+
 # Routes
 @app.get("/", response_class=HTMLResponse)
 async def home(request: Request):
-    """Home page"""
+    """Home page (Original Viewer)"""
     return templates.TemplateResponse(
         "index.html", 
         {"request": request, "title": "Content Viewer"}
