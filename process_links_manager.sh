@@ -536,7 +536,7 @@ process_all() {
 
 # Function to check if the viewer server is running
 is_viewer_running() {
-    if pgrep -f "uvicorn.*main:app" > /dev/null; then
+    if pgrep -f "uvicorn.*viewer.main:app" > /dev/null; then
         return 0  # Server is running
     else
         return 1  # Server is not running
@@ -555,12 +555,16 @@ start_viewer() {
         return
     fi
     
-    # Start the FastAPI viewer server - always use absolute path
-    VIEWER_DIR="${BASE_DIR}/viewer"
-    if [ -f "${VIEWER_DIR}/main.py" ]; then
-        echo -e "${GREEN}Starting FastAPI viewer server...${NC}"
-        cd "${VIEWER_DIR}" && nohup uvicorn main:app --host 0.0.0.0 --port 8080 > /dev/null 2>&1 &
-        cd "${BASE_DIR}" # Go back to the original directory
+    # Define log file path relative to BASE_DIR
+    LOG_FILE="${BASE_DIR}/viewer/fastapi_server.log" 
+    
+    # Check if main.py exists
+    if [ -f "${BASE_DIR}/viewer/main.py" ]; then
+        echo -e "${GREEN}Starting FastAPI viewer server... Logs will be saved to ${LOG_FILE}${NC}"
+        # Run uvicorn from the BASE_DIR, specifying the app location
+        # Redirect stdout and stderr to the log file
+        cd "${BASE_DIR}" && nohup uv run uvicorn viewer.main:app --host 0.0.0.0 --port 8080 >> "${LOG_FILE}" 2>&1 &
+        
         # Wait a moment to check if it started successfully
         sleep 2
         if is_viewer_running; then
@@ -569,6 +573,7 @@ start_viewer() {
             echo -e "Access New Viewer (V2) at: ${BLUE}http://localhost:8080/v2${NC}"
         else
             echo -e "${RED}Error: Failed to start viewer server${NC}"
+            echo -e "${YELLOW}Check logs at ${LOG_FILE}${NC}"
         fi
     else
         echo -e "${RED}Error: viewer/main.py not found${NC}"
@@ -580,13 +585,13 @@ stop_viewer() {
     echo -e "${BLUE}Stopping content viewer server (Original & V2)...${NC}"
     
     if is_viewer_running; then
-        pkill -f "uvicorn.*main:app"
+        pkill -f "uvicorn.*viewer.main:app"
         sleep 2
         if ! is_viewer_running; then
             echo -e "${GREEN}Content viewer server stopped successfully${NC}"
         else
             echo -e "${RED}Failed to stop content viewer server. Try manually with:${NC}"
-            echo -e "${YELLOW}pkill -f \"uvicorn.*main:app\"${NC}"
+            echo -e "${YELLOW}pkill -f \"uvicorn.*viewer.main:app\"${NC}"
         fi
     else
         echo -e "${YELLOW}Content viewer server is not running${NC}"

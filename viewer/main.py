@@ -1,38 +1,34 @@
 import os
 import json
+import re
+import shutil
 from datetime import datetime
 from pathlib import Path
 from typing import List, Dict, Optional, Any
-import re
 
 from fastapi import FastAPI, HTTPException, Request
-from fastapi.responses import HTMLResponse, FileResponse
+from fastapi.responses import HTMLResponse, FileResponse, RedirectResponse
 from fastapi.staticfiles import StaticFiles
-from fastapi.templating import Jinja2Templates
+from pydantic import BaseModel, Field
+
+# Import user data manager functions correctly
+from viewer.user_data_manager import load_user_data, update_user_data_for_item
 
 # Get the project root directory
 PROJECT_ROOT = Path(__file__).resolve().parent.parent
 
 # Define paths
 OUTPUT_DIRECTORY = PROJECT_ROOT / 'output'
-STATIC_DIRECTORY = Path(__file__).resolve().parent / 'static'
-TEMPLATES_DIRECTORY = Path(__file__).resolve().parent / 'templates'
 NEW_VIEWER_DIRECTORY = Path(__file__).resolve().parent / 'Updated-Viewer' / 'dist'
 
 # Create FastAPI app
-app = FastAPI(title="Content Viewer")
-
-# Mount static files
-app.mount("/static", StaticFiles(directory=str(STATIC_DIRECTORY)), name="static")
+app = FastAPI(title="Content Viewer V2")
 
 # Mount static files for the new viewer (V2)
 # Serve assets (CSS, JS, images) from the build directory
 app.mount("/v2/assets", StaticFiles(directory=str(NEW_VIEWER_DIRECTORY / 'assets')), name="v2-assets")
 # Serve other potential static files from the root of the build directory
 app.mount("/v2-static", StaticFiles(directory=str(NEW_VIEWER_DIRECTORY)), name="v2-static-root")
-
-# Set up templates
-templates = Jinja2Templates(directory=str(TEMPLATES_DIRECTORY))
 
 # Define content item model
 class ContentItem:
@@ -209,14 +205,11 @@ async def serve_v2_root():
         raise HTTPException(status_code=404, detail="V2 Viewer index.html not found. Did you build it?")
     return FileResponse(index_path)
 
-# Routes
-@app.get("/", response_class=HTMLResponse)
-async def home(request: Request):
-    """Home page (Original Viewer)"""
-    return templates.TemplateResponse(
-        "index.html", 
-        {"request": request, "title": "Content Viewer"}
-    )
+# Add a redirect from root to /v2
+@app.get("/", response_class=RedirectResponse)
+async def redirect_to_v2():
+    """Redirect the root path to the V2 viewer."""
+    return RedirectResponse(url="/v2")
 
 @app.get("/api/content")
 async def list_content(platform: Optional[str] = None, search: Optional[str] = None):
@@ -285,6 +278,42 @@ async def refresh_content():
     """Force refresh of content cache"""
     items = get_content(force_refresh=True)
     return {"status": "success", "item_count": len(items)}
+
+# --- Pydantic Models for User Data ---
+class UserDataItemUpdate(BaseModel):
+    status: Optional[str] = Field(None, description="Item status (e.g., new, viewed, processing, completed)")
+    favorite: Optional[bool] = Field(None, description="Favorite status")
+    notes: Optional[str] = Field(None, description="User notes")
+
+# --- API Endpoints for User Data ---
+@app.get("/api/user_data")
+async def get_all_user_data():
+    """Retrieve all stored user data (status, favorites, notes)."""
+    try:
+        data = load_user_data()
+        return data
+    except Exception as e:
+        print(f"Error loading user data: {e}")
+        raise HTTPException(status_code=500, detail="Failed to load user data")
+
+@app.put("/api/user_data/{platform}/{filename_base}")
+async def update_single_item_user_data(platform: str, filename_base: str, updates: UserDataItemUpdate):
+    """Update the status, favorite, or notes for a specific item."""
+    try:
+        # Convert Pydantic model to dict, excluding unset values
+        update_dict = updates.model_dump(exclude_unset=True)
+        if not update_dict:
+            raise HTTPException(status_code=400, detail="No update data provided")
+            
+        updated_item_data = update_user_data_for_item(
+            platform,
+            filename_base,
+            update_dict
+        )
+        return updated_item_data # Return the updated data for the specific item
+    except Exception as e:
+        print(f"Error updating user data for {platform}/{filename_base}: {e}")
+        raise HTTPException(status_code=500, detail="Failed to update user data")
 
 if __name__ == "__main__":
     import uvicorn
