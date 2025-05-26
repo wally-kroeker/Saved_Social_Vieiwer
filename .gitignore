@@ -85,4 +85,5 @@ output/**/*.json
 
 # Operating System
 .DS_Store
-Thumbs.db GITHUB-media-mosaic-viewer/
+Thumbs.db
+GITHUB-media-mosaic-viewer/
