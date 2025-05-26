@@ -1,4 +1,3 @@
-
 import React from "react";
 import { Search } from "lucide-react";
 import { Input } from "@/components/ui/input";
@@ -9,9 +8,19 @@ import {
   SelectTrigger,
   SelectValue,
 } from "@/components/ui/select";
+import { ContentStatus } from "./ContentCard";
 
 export type SortOption = "date-desc" | "date-asc" | "title-asc" | "title-desc" | "username-asc" | "username-desc";
 export type PlatformFilter = "all" | "youtube" | "instagram" | "tiktok" | "twitter";
+export type StatusFilter = "all" | ContentStatus;
+
+const statusFilterOptions: { value: StatusFilter; label: string }[] = [
+  { value: "all", label: "All Statuses" },
+  { value: "new", label: "New" },
+  { value: "viewed", label: "Viewed" },
+  { value: "processing", label: "Processing" },
+  { value: "completed", label: "Completed" },
+];
 
 interface FilterBarProps {
   searchQuery: string;
@@ -20,6 +29,8 @@ interface FilterBarProps {
   onPlatformChange: (value: PlatformFilter) => void;
   sortOption: SortOption;
   onSortChange: (value: SortOption) => void;
+  statusFilter: StatusFilter;
+  onStatusChange: (value: StatusFilter) => void;
 }
 
 const FilterBar: React.FC<FilterBarProps> = ({
@@ -29,6 +40,8 @@ const FilterBar: React.FC<FilterBarProps> = ({
   onPlatformChange,
   sortOption,
   onSortChange,
+  statusFilter,
+  onStatusChange,
 }) => {
   return (
     <div className="flex flex-col md:flex-row gap-3">
@@ -56,6 +69,22 @@ const FilterBar: React.FC<FilterBarProps> = ({
             <SelectItem value="instagram">Instagram</SelectItem>
             <SelectItem value="tiktok">TikTok</SelectItem>
             <SelectItem value="twitter">Twitter</SelectItem>
+          </SelectContent>
+        </Select>
+
+        <Select
+          value={statusFilter}
+          onValueChange={(value) => onStatusChange(value as StatusFilter)}
+        >
+          <SelectTrigger className="w-36">
+            <SelectValue placeholder="Status" />
+          </SelectTrigger>
+          <SelectContent>
+            {statusFilterOptions.map((option) => (
+              <SelectItem key={option.value} value={option.value}>
+                {option.label}
+              </SelectItem>
+            ))}
           </SelectContent>
         </Select>
 

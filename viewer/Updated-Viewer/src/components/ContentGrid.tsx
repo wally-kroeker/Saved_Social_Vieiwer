@@ -1,4 +1,3 @@
-
 import React from "react";
 import ContentCard, { ContentItem } from "./ContentCard";
 import { Skeleton } from "@/components/ui/skeleton";
@@ -7,12 +6,14 @@ interface ContentGridProps {
   items: ContentItem[];
   isLoading: boolean;
   onItemClick: (item: ContentItem) => void;
+  onToggleFavorite: (itemId: string) => void;
 }
 
 const ContentGrid: React.FC<ContentGridProps> = ({ 
   items, 
   isLoading, 
-  onItemClick 
+  onItemClick, 
+  onToggleFavorite 
 }) => {
   return (
     <div className="grid grid-cols-1 sm:grid-cols-2 md:grid-cols-3 lg:grid-cols-4 gap-4 mt-6">
@@ -36,6 +37,7 @@ const ContentGrid: React.FC<ContentGridProps> = ({
               key={item.id}
               item={item}
               onClick={onItemClick}
+              onToggleFavorite={onToggleFavorite}
             />
           ))}
       {!isLoading && items.length === 0 && (

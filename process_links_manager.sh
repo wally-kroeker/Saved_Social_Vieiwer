@@ -107,7 +107,7 @@ show_help() {
     echo -e "  ${YELLOW}4) View processing status${NC} - Check current processing status and history"
     echo -e "  ${YELLOW}5) System diagnostics${NC} - Verify system components and connections"
     echo -e "  ${YELLOW}6) Configuration${NC} - View and edit configuration settings"
-    echo -e "  ${YELLOW}7) Start content viewer server (Original & V2)${NC} - Start the FastAPI server"
+    echo -e "  ${YELLOW}7) Start content viewer server${NC} - Start the FastAPI server"
     echo -e "  ${YELLOW}8) Stop content viewer server${NC} - Stop the FastAPI server"
     echo -e "  ${YELLOW}9) Restart content viewer server${NC} - Restart the FastAPI server"
     echo -e "  ${YELLOW}h) Show help${NC} - Display this help message"
@@ -117,7 +117,7 @@ show_help() {
     echo -e "1. Run system diagnostics to ensure all components are working"
     echo -e "2. Process specific platforms or all platforms as needed"
     echo -e "3. Check processing status to verify results"
-    echo -e "4. Start the viewer server to view content (Original at /, V2 at /v2)"
+    echo -e "4. Start the viewer server to view content"
     
     echo -e "\n${BLUE}Command line usage:${NC}"
     echo -e "./process_links_manager.sh youtube --limit 2"
@@ -536,7 +536,12 @@ process_all() {
 
 # Function to check if the viewer server is running
 is_viewer_running() {
-    if pgrep -f "uvicorn.*viewer.main:app" > /dev/null; then
+    # Check for the actual python/uvicorn process, not the 'uv run' wrapper
+    # Handle both patterns: viewer.main:app (from script) and main:app (manual start)
+    local pattern1="uvicorn viewer.main:app --host 0.0.0.0 --port 8080"
+    local pattern2="uvicorn main:app --host 0.0.0.0 --port 8080"
+    
+    if pgrep -f "${pattern1}" > /dev/null || pgrep -f "${pattern2}" > /dev/null; then
         return 0  # Server is running
     else
         return 1  # Server is not running
@@ -545,13 +550,12 @@ is_viewer_running() {
 
 # Function to start the viewer server
 start_viewer() {
-    echo -e "${BLUE}Starting content viewer server (Original & V2)...${NC}"
+    echo -e "${BLUE}Starting content viewer server...${NC}"
     
     # Check if FastAPI server is already running
     if is_viewer_running; then
         echo -e "${YELLOW}FastAPI viewer server is already running${NC}"
-        echo -e "Access Original Viewer at: ${BLUE}http://localhost:8080/${NC}"
-        echo -e "Access New Viewer (V2) at: ${BLUE}http://localhost:8080/v2${NC}"
+        echo -e "Access Viewer at: ${BLUE}http://localhost:8080/${NC}"
         return
     fi
     
@@ -561,16 +565,15 @@ start_viewer() {
     # Check if main.py exists
     if [ -f "${BASE_DIR}/viewer/main.py" ]; then
         echo -e "${GREEN}Starting FastAPI viewer server... Logs will be saved to ${LOG_FILE}${NC}"
-        # Run uvicorn from the BASE_DIR, specifying the app location
+        # Run uvicorn from the viewer directory to avoid import issues
         # Redirect stdout and stderr to the log file
-        cd "${BASE_DIR}" && nohup uv run uvicorn viewer.main:app --host 0.0.0.0 --port 8080 >> "${LOG_FILE}" 2>&1 &
+        cd "${BASE_DIR}/viewer" && nohup uv run uvicorn main:app --host 0.0.0.0 --port 8080 >> "${LOG_FILE}" 2>&1 &
         
         # Wait a moment to check if it started successfully
         sleep 2
         if is_viewer_running; then
             echo -e "${GREEN}FastAPI viewer server started in background${NC}"
-            echo -e "Access Original Viewer at: ${BLUE}http://localhost:8080/${NC}"
-            echo -e "Access New Viewer (V2) at: ${BLUE}http://localhost:8080/v2${NC}"
+            echo -e "Access Viewer at: ${BLUE}http://localhost:8080/${NC}"
         else
             echo -e "${RED}Error: Failed to start viewer server${NC}"
             echo -e "${YELLOW}Check logs at ${LOG_FILE}${NC}"
@@ -582,25 +585,47 @@ start_viewer() {
 
 # Function to stop the viewer server
 stop_viewer() {
-    echo -e "${BLUE}Stopping content viewer server (Original & V2)...${NC}"
+    echo -e "${BLUE}Stopping content viewer server...${NC}" # Simplified message
+    # Target the python/uvicorn process directly, not the 'uv run' wrapper
+    # Handle both patterns: viewer.main:app (from script) and main:app (manual start)
+    local pattern1="uvicorn viewer.main:app --host 0.0.0.0 --port 8080"
+    local pattern2="uvicorn main:app --host 0.0.0.0 --port 8080"
     
-    if is_viewer_running; then
-        pkill -f "uvicorn.*viewer.main:app"
-        sleep 2
+    local stopped=false
+    
+    # Check and stop pattern1 (viewer.main:app)
+    if pgrep -f "${pattern1}" > /dev/null; then
+        echo -e "${YELLOW}Attempting to stop process matching: ${pattern1}${NC}"
+        pkill -f "${pattern1}"
+        stopped=true
+    fi
+    
+    # Check and stop pattern2 (main:app)
+    if pgrep -f "${pattern2}" > /dev/null; then
+        echo -e "${YELLOW}Attempting to stop process matching: ${pattern2}${NC}"
+        pkill -f "${pattern2}"
+        stopped=true
+    fi
+    
+    if [ "$stopped" = true ]; then
+        sleep 3 # Wait for termination
+        
+        # Verify it stopped
         if ! is_viewer_running; then
-            echo -e "${GREEN}Content viewer server stopped successfully${NC}"
+            echo -e "${GREEN}Content viewer server stopped successfully.${NC}"
         else
-            echo -e "${RED}Failed to stop content viewer server. Try manually with:${NC}"
-            echo -e "${YELLOW}pkill -f \"uvicorn.*viewer.main:app\"${NC}"
+            echo -e "${RED}Failed to stop content viewer server.${NC}"
+            echo -e "${YELLOW}Check running processes manually with: ps aux | grep uvicorn${NC}"
+            echo -e "${YELLOW}You may need to forcefully stop it with: pkill -9 -f \"uvicorn.*--port 8080\" ${NC}"
         fi
     else
-        echo -e "${YELLOW}Content viewer server is not running${NC}"
+        echo -e "${YELLOW}Content viewer server is not running.${NC}"
     fi
 }
 
 # Function to restart the viewer server
 restart_viewer() {
-    echo -e "${BLUE}Restarting content viewer server (Original & V2)...${NC}"
+    echo -e "${BLUE}Restarting content viewer server...${NC}"
     
     # Stop the server if running
     if is_viewer_running; then
@@ -748,8 +773,7 @@ main() {
                 elif [ "$2" = "status" ]; then
                     if is_viewer_running; then
                         echo -e "${GREEN}Content viewer server is running${NC}"
-                        echo -e "Access Original Viewer at: ${BLUE}http://localhost:8080/${NC}"
-                        echo -e "Access New Viewer (V2) at: ${BLUE}http://localhost:8080/v2${NC}"
+                        echo -e "Access Viewer at: ${BLUE}http://localhost:8080/${NC}"
                     else
                         echo -e "${RED}Content viewer server is not running${NC}"
                     fi

@@ -12,7 +12,7 @@ from fastapi.staticfiles import StaticFiles
 from pydantic import BaseModel, Field
 
 # Import user data manager functions correctly
-from viewer.user_data_manager import load_user_data, update_user_data_for_item
+from user_data_manager import load_user_data, update_user_data_for_item
 
 # Get the project root directory
 PROJECT_ROOT = Path(__file__).resolve().parent.parent
@@ -24,148 +24,225 @@ NEW_VIEWER_DIRECTORY = Path(__file__).resolve().parent / 'Updated-Viewer' / 'dis
 # Create FastAPI app
 app = FastAPI(title="Content Viewer V2")
 
-# Mount static files for the new viewer (V2)
+# Mount static files for the viewer
 # Serve assets (CSS, JS, images) from the build directory
-app.mount("/v2/assets", StaticFiles(directory=str(NEW_VIEWER_DIRECTORY / 'assets')), name="v2-assets")
+app.mount("/assets", StaticFiles(directory=str(NEW_VIEWER_DIRECTORY / 'assets')), name="viewer-assets")
 # Serve other potential static files from the root of the build directory
-app.mount("/v2-static", StaticFiles(directory=str(NEW_VIEWER_DIRECTORY)), name="v2-static-root")
+app.mount("/static", StaticFiles(directory=str(NEW_VIEWER_DIRECTORY)), name="viewer-static-root")
 
 # Define content item model
 class ContentItem:
     def __init__(self, 
                  platform: str,
                  filename: str, 
-                 file_path: Path,
+                 file_path: Path, # The actual path to the main media file (e.g., mp4)
                  username: str = "", 
                  date: str = "", 
                  title: str = "",
                  has_transcript: bool = False,
+                 transcript_file_path: Optional[Path] = None, # Add path to transcript file
                  has_thumbnail: bool = False,
-                 has_metadata: bool = False):
+                 thumbnail_file_path: Optional[Path] = None, # Add path to thumbnail file
+                 has_metadata: bool = False,
+                 metadata_file_path: Optional[Path] = None, # Add path to metadata file
+                 metadata: Optional[Dict[str, Any]] = None): # Add field for loaded metadata
         self.platform = platform
-        self.filename = filename
-        self.file_path = file_path
+        self.filename = filename # Base filename without extension
+        self.file_path = file_path # Path to the main media file
         self.username = username
         self.date = date
         self.title = title
         self.has_transcript = has_transcript
+        self.transcript_file_path = transcript_file_path # Store transcript path
         self.has_thumbnail = has_thumbnail
+        self.thumbnail_file_path = thumbnail_file_path # Store thumbnail path
         self.has_metadata = has_metadata
+        self.metadata_file_path = metadata_file_path # Store metadata path
+        self.metadata = metadata # Store loaded metadata
         
     def to_dict(self) -> Dict[str, Any]:
-        return {
+        # Helper to get relative path for serving via API
+        def get_relative_serve_path(full_path: Optional[Path]) -> Optional[str]:
+            if full_path and full_path.is_file():
+                try:
+                    relative_path = full_path.relative_to(OUTPUT_DIRECTORY)
+                    return str(relative_path).replace('\\', '/')
+                except ValueError:
+                    print(f"Warning: Could not make path relative to OUTPUT_DIRECTORY: {full_path}")
+                    return None
+            return None
+
+        # Calculate paths ONLY when converting to dict
+        media_serve_path = get_relative_serve_path(self.file_path)
+        transcript_serve_path = get_relative_serve_path(self.transcript_file_path)
+        thumbnail_serve_path = get_relative_serve_path(self.thumbnail_file_path)
+
+        data = {
+            "id": f"{self.platform}-{self.filename}",
             "platform": self.platform,
             "filename": self.filename,
             "username": self.username,
             "date": self.date,
             "title": self.title,
-            "has_transcript": self.has_transcript,
-            "has_thumbnail": self.has_thumbnail,
-            "has_metadata": self.has_metadata,
-            "base_path": f"{self.platform}/{self.filename}"
+            # Booleans based on whether the *original* file exists
+            "has_transcript": self.transcript_file_path is not None and self.transcript_file_path.is_file(),
+            "has_thumbnail": self.thumbnail_file_path is not None and self.thumbnail_file_path.is_file(),
+            "has_metadata": self.metadata is not None, # Based on loaded metadata
+            
+            # Actual paths for frontend use (will be null if file doesn't exist or path fails)
+            "media_path": media_serve_path,
+            "transcript_path": transcript_serve_path,
+            "thumbnailUrl": thumbnail_serve_path,
+            
+            "metadata": self.metadata, # The actual metadata object
         }
+        # Add status and favorite if they exist (e.g., loaded from user_data)
+        # Example: if hasattr(self, 'status'): data['status'] = self.status
+        # Example: if hasattr(self, 'favorite'): data['favorite'] = self.favorite
+        
+        # Clean up null values before returning if desired, but often better for frontend to handle
+        # return {k: v for k, v in data.items() if v is not None}
+        return data
 
 # Content discovery functions
 def discover_content() -> List[ContentItem]:
-    """Scan the output directory for content files"""
+    """Scan the output directory for content files, grouping by base name first."""
     content_items = []
     
-    # Check if output directory exists
     if not OUTPUT_DIRECTORY.exists():
         print(f"Output directory does not exist: {OUTPUT_DIRECTORY}")
         return content_items
     
-    # Scan platform directories
+    media_extensions = { ".mp4", ".mov", ".avi", ".mkv", ".jpg", ".jpeg", ".png", ".gif", ".webp" }
+    video_extensions = { ".mp4", ".mov", ".avi", ".mkv" }
+    image_extensions = { ".jpg", ".jpeg", ".png", ".gif", ".webp" }
+    transcript_extension = ".md"
+    metadata_extension = ".json"
+
     for platform_dir in OUTPUT_DIRECTORY.iterdir():
-        if not platform_dir.is_dir():
+        if not platform_dir.is_dir() or platform_dir.name.startswith('.'): # Skip non-dirs and hidden dirs
             continue
         
         platform = platform_dir.name
-        print(f"Scanning platform directory: {platform}")
+        print(f"--- Scanning platform directory: {platform} ---")
         
-        # Scan content files
-        file_extensions = {".mp4", ".jpg", ".jpeg", ".png", ".md", ".json"}
-        found_files = {}
-        
-        for file_path in platform_dir.glob("**/*"):
-            if not file_path.is_file():
+        # Group files by base name first
+        found_files_by_base: Dict[str, Dict[str, Path]] = {}
+        for file_path in platform_dir.iterdir():
+            if file_path.is_file():
+                base_name = file_path.stem
+                ext = file_path.suffix.lower()
+                if base_name not in found_files_by_base:
+                    found_files_by_base[base_name] = {}
+                found_files_by_base[base_name][ext] = file_path
+
+        print(f"Found {len(found_files_by_base)} potential items based on unique filenames.")
+
+        # Process each group of files sharing a base name
+        for base_name, files_dict in found_files_by_base.items():
+            main_media_path: Optional[Path] = None
+            main_media_ext: Optional[str] = None
+            is_video = False
+
+            # 1. Find primary media file (video > image)
+            for ext in video_extensions:
+                if ext in files_dict:
+                    main_media_path = files_dict[ext]
+                    main_media_ext = ext
+                    is_video = True
+                    break
+            if not main_media_path:
+                 for ext in image_extensions:
+                     if ext in files_dict:
+                         main_media_path = files_dict[ext]
+                         main_media_ext = ext
+                         is_video = False # It's an image
+                         break
+            
+            # Skip if no recognizable media file found for this base_name
+            if not main_media_path or not main_media_ext:
+                # print(f"Skipping base '{base_name}': No primary media file found.")
                 continue
-                
-            if file_path.suffix.lower() not in file_extensions:
-                continue
+
+            # 2. Find associated files
+            metadata_path = files_dict.get(metadata_extension)
+            transcript_path = files_dict.get(transcript_extension)
             
-            # Group files by base name (without extension)
-            base_name = file_path.stem
-            if base_name not in found_files:
-                found_files[base_name] = []
-            found_files[base_name].append(file_path)
-        
-        # Create content items
-        for base_name, files in found_files.items():
-            # Check for video file
-            video_files = [f for f in files if f.suffix.lower() == ".mp4"]
-            if not video_files:
-                continue  # Skip if no video file
-            
-            video_path = video_files[0]
-            filename = video_path.name
-            
-            # Check for transcript, thumbnail, and metadata
-            has_transcript = any(f.suffix.lower() == ".md" for f in files)
-            has_thumbnail = any(f.suffix.lower() in [".jpg", ".jpeg", ".png"] for f in files)
-            has_metadata = any(f.suffix.lower() == ".json" for f in files)
-            
-            # Extract metadata from filename
-            parts = base_name.split('-')
-            
-            # Standard format: platform-username-date-title
-            username = parts[1] if len(parts) > 1 else ""
-            # Remove any leading numbers from username (e.g., "123456nononsensespirituality" -> "nononsensespirituality")
-            if username:
-                username = re.sub(r'^[0-9]+', '', username)
-            
-            date_str = parts[2] if len(parts) > 2 else ""
-            
-            # Format the title properly - join all remaining parts and replace hyphens with spaces
-            if len(parts) > 3:
-                # Create a better title by joining the remaining parts and properly formatting
-                raw_title = ' '.join(parts[3:]).replace('-', ' ')
-                # Clean up multiple spaces
-                title = re.sub(r'\s+', ' ', raw_title).strip()
-            else:
-                title = base_name
-            
-            # Format date if it's in YYMMDD format
-            if date_str and re.match(r'^[0-9]{6}$', date_str):
+            # 3. Find thumbnail (prefer jpg/png, different from main media if main is image)
+            thumbnail_path: Optional[Path] = None
+            preferred_thumb_exts = [".jpg", ".png", ".jpeg", ".webp"]
+            for ext in preferred_thumb_exts:
+                if ext in files_dict and files_dict[ext] != main_media_path: 
+                    thumbnail_path = files_dict[ext]
+                    break
+            # If no distinct thumbnail found and it's a video, use any available image
+            if is_video and not thumbnail_path:
+                 for ext in image_extensions:
+                     if ext in files_dict:
+                         thumbnail_path = files_dict[ext]
+                         break
+            # If the main media is an image, use itself as the thumbnail
+            elif not is_video:
+                 thumbnail_path = main_media_path
+
+            # 4. Load metadata content
+            loaded_metadata: Optional[Dict[str, Any]] = None
+            if metadata_path:
                 try:
-                    # Parse YYMMDD format
-                    year = 2000 + int(date_str[0:2])
-                    month = int(date_str[2:4])
-                    day = int(date_str[4:6])
-                    # Create a proper date string
-                    date_obj = datetime(year, month, day)
-                    # Store in ISO format for easy parsing in JavaScript
-                    date_str = date_obj.strftime('%Y-%m-%d')
-                except (ValueError, IndexError):
-                    # Keep original if parsing fails
-                    pass
+                    with open(metadata_path, 'r', encoding='utf-8') as f: # Specify encoding
+                        loaded_metadata = json.load(f)
+                except Exception as e:
+                    print(f"Warning: Failed to read/parse metadata {metadata_path}: {e}")
+
+            # 5. Extract info from filename pattern: platform-username-YYYY-MM-DD-title
+            parts = base_name.split('-')
+            username = "Unknown"
+            date_str = ""
+            title = base_name # Default title
+            iso_date_str = ""
             
+            # Parsing logic (same as before, seems reasonable for observed names)
+            if len(parts) >= 5 and parts[0] == platform:
+                username = parts[1]
+                if re.match(r'^\d{4}$', parts[2]) and re.match(r'^\d{2}$', parts[3]) and re.match(r'^\d{2}$', parts[4]):
+                    date_str = f"{parts[2]}-{parts[3]}-{parts[4]}"
+                    title = ' '.join(parts[5:]).replace('-', ' ')
+                    try:
+                        date_obj = datetime.strptime(date_str, '%Y-%m-%d')
+                        iso_date_str = date_obj.strftime('%Y-%m-%dT%H:%M:%SZ')
+                    except ValueError:
+                        iso_date_str = ""
+                else:
+                     username = parts[1]
+                     title = ' '.join(parts[2:]).replace('-', ' ')
+            elif len(parts) > 1 and parts[0] == platform:
+                 username = parts[1]
+                 title = ' '.join(parts[2:]).replace('-', ' ')
+            
+            title = re.sub(r'\s+', ' ', title).strip() # Clean title
+            if not title: title = base_name # Fallback title
+            
+            # 6. Create ContentItem instance
             content_item = ContentItem(
                 platform=platform,
                 filename=base_name,
-                file_path=video_path,
+                file_path=main_media_path,
                 username=username,
-                date=date_str,
+                date=iso_date_str,
                 title=title,
-                has_transcript=has_transcript,
-                has_thumbnail=has_thumbnail,
-                has_metadata=has_metadata
+                has_transcript=transcript_path is not None,
+                transcript_file_path=transcript_path,
+                has_thumbnail=thumbnail_path is not None,
+                thumbnail_file_path=thumbnail_path,
+                has_metadata=loaded_metadata is not None,
+                metadata_file_path=metadata_path,
+                metadata=loaded_metadata
             )
-            
             content_items.append(content_item)
-    
+
+    print(f"--- Finished discovery: {len(content_items)} items found ---")
     # Sort by date (newest first)
-    content_items.sort(key=lambda x: x.date if x.date else "", reverse=True)
+    content_items.sort(key=lambda x: x.date if x.date else "0000-00-00T00:00:00Z", reverse=True)
     
     return content_items
 
@@ -188,28 +265,14 @@ def get_content(force_refresh=False) -> List[ContentItem]:
     
     return content_cache
 
-# Routes for V2 Viewer
-@app.get("/v2/{rest_of_path:path}")
-async def serve_v2_viewer(rest_of_path: str):
-    """Serve the main index.html for any path under /v2/ to support client-side routing."""
+# Routes for Viewer (formerly V2)
+@app.get("/", response_class=FileResponse)
+async def serve_viewer_root():
+    """Serve the root index.html for the viewer."""
     index_path = NEW_VIEWER_DIRECTORY / "index.html"
     if not index_path.is_file():
-        raise HTTPException(status_code=404, detail="V2 Viewer index.html not found. Did you build it?")
+        raise HTTPException(status_code=404, detail="Viewer index.html not found. Did you build it?")
     return FileResponse(index_path)
-
-@app.get("/v2", response_class=FileResponse)
-async def serve_v2_root():
-    """Serve the root index.html for the V2 viewer."""
-    index_path = NEW_VIEWER_DIRECTORY / "index.html"
-    if not index_path.is_file():
-        raise HTTPException(status_code=404, detail="V2 Viewer index.html not found. Did you build it?")
-    return FileResponse(index_path)
-
-# Add a redirect from root to /v2
-@app.get("/", response_class=RedirectResponse)
-async def redirect_to_v2():
-    """Redirect the root path to the V2 viewer."""
-    return RedirectResponse(url="/v2")
 
 @app.get("/api/content")
 async def list_content(platform: Optional[str] = None, search: Optional[str] = None):
@@ -284,6 +347,7 @@ class UserDataItemUpdate(BaseModel):
     status: Optional[str] = Field(None, description="Item status (e.g., new, viewed, processing, completed)")
     favorite: Optional[bool] = Field(None, description="Favorite status")
     notes: Optional[str] = Field(None, description="User notes")
+    rating: Optional[int] = Field(None, description="User rating (0-5)")
 
 # --- API Endpoints for User Data ---
 @app.get("/api/user_data")
@@ -314,6 +378,15 @@ async def update_single_item_user_data(platform: str, filename_base: str, update
     except Exception as e:
         print(f"Error updating user data for {platform}/{filename_base}: {e}")
         raise HTTPException(status_code=500, detail="Failed to update user data")
+
+# Catch-all route for client-side routing (must be last)
+@app.get("/{rest_of_path:path}")
+async def serve_viewer_spa(rest_of_path: str):
+    """Serve the main index.html for any path to support client-side routing."""
+    index_path = NEW_VIEWER_DIRECTORY / "index.html"
+    if not index_path.is_file():
+        raise HTTPException(status_code=404, detail="Viewer index.html not found. Did you build it?")
+    return FileResponse(index_path)
 
 if __name__ == "__main__":
     import uvicorn

@@ -17,6 +17,7 @@ The backend is built using FastAPI and provides the following key components:
 ```
 viewer/
 ├── main.py           # Main FastAPI application
+├── user_data_manager.py # Handles loading/saving user-specific data (status, fav, notes)
 ├── static/          # Static assets (CSS, JavaScript) for original viewer
 ├── templates/       # HTML templates for original viewer
 ├── Updated-Viewer/  # Source code for the new React-based viewer (V2)
@@ -26,6 +27,9 @@ viewer/
 │   ├── package.json
 │   └── ...
 └── __pycache__/    # Python bytecode cache
+# --- Outside viewer/ directory (example location) ---
+# user_data.json      # Stores user status, favorites, notes
+# user_data.json.bak  # Backup of user data
 ```
 
 #### Key Classes
@@ -70,13 +74,25 @@ Templates:
 - Video view template (for modal view)
 
 #### New Viewer (React/Vite - V2)
-Located under the `/v2` path. This is a modern single-page application (SPA) built with React, Vite, TypeScript, and potentially other libraries (like Shadcn UI based on `package.json`).
+Located under the `/v2` path. This is a modern single-page application (SPA) built with React, Vite, TypeScript, and potentially other libraries (like Shadcn UI based on `package.json`). Features include:
+- Content status tracking (new, viewed, processing, completed)
+- Favorites/bookmarking
+- User notes per item
+- Filtering by status and favorites
+- Interactive modal with media, metadata, transcript, and notes tabs
 
 Components:
 - (Details specific to the React application - needs further inspection of `Updated-Viewer/src` if required)
 
 Build Output:
 - Served statically from `viewer/Updated-Viewer/dist/`
+
+### User Data Management (Backend)
+- **Storage:** User-specific data (status, favorite, notes) is stored in a JSON file (`user_data.json`) managed by `user_data_manager.py`.
+- **Backup:** A backup file (`user_data.json.bak`) is maintained for resilience against corruption.
+- **API Endpoints:**
+  - `GET /api/user_data`: Retrieves all user data.
+  - `PUT /api/user_data/{platform}/{filename_base}`: Updates status, favorite, or notes for a specific item.
 
 ## API Endpoints
 
@@ -117,16 +133,25 @@ The system automatically discovers content by:
 
 ## Features
 
-### Content Display
+### Content Display (V2 Viewer)
 - Responsive grid layout
 - Thumbnail previews
 - Basic content information display
 - Platform-specific badges
+- **Status Badges:** Color-coded indicators for new, viewed, processing, completed.
+- **Feature Indicators:** Badges for transcript, metadata, and notes availability.
 
-### Content Filtering
+### Content Filtering (V2 Viewer)
 - Full-text search across titles, usernames, and platforms
 - Platform-specific filtering
 - Real-time results updating
+- **Filter by Favorites:** Toggle to show only bookmarked items.
+- **Filter by Status:** Select specific content statuses to display.
+
+### Content Interaction (V2 Viewer)
+- **Bookmarking:** Toggle favorite status via card button or modal button.
+- **Status Updates:** Change content status via modal dropdown/selector.
+- **Notes:** View and edit user notes in the modal.
 
 ### Content Viewing
 - Modal-based content viewer
@@ -134,11 +159,13 @@ The system automatically discovers content by:
 - Metadata display
 - Transcript viewing (when available)
 
-### User Interface
+### User Interface (V2 Viewer)
 - Modern, responsive design
 - Intuitive navigation
 - Search and filter capabilities
-- Loading states and error handling
+- **Enhanced Controls:** Bookmark toggles, status selectors.
+- **Tabbed Modal:** Organizes detailed content view (Media, Metadata, Transcript, Notes).
+- Loading states and error handling (including toast notifications).
 
 ## Technical Details
 

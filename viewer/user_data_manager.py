@@ -62,7 +62,7 @@ def get_user_data_for_item(platform: str, filename_base: str) -> Dict[str, Any]:
     all_data = load_user_data()
     item_key = f"{platform}/{filename_base}"
     # Defaults align with expected frontend structure
-    default_item_data = {"status": "new", "favorite": False, "notes": ""}
+    default_item_data = {"status": "new", "favorite": False, "notes": "", "rating": 0}
     return all_data.get(item_key, default_item_data)
 
 def update_user_data_for_item(platform: str, filename_base: str, updates: Dict[str, Any]) -> Dict[str, Any]:
@@ -71,10 +71,10 @@ def update_user_data_for_item(platform: str, filename_base: str, updates: Dict[s
     item_key = f"{platform}/{filename_base}"
     
     # Get current data or defaults
-    current_item_data = all_data.get(item_key, {"status": "new", "favorite": False, "notes": ""})
+    current_item_data = all_data.get(item_key, {"status": "new", "favorite": False, "notes": "", "rating": 0})
     
     # Apply valid updates
-    allowed_keys = {"status", "favorite", "notes"}
+    allowed_keys = {"status", "favorite", "notes", "rating"}
     valid_updates = {k: v for k, v in updates.items() if k in allowed_keys}
     current_item_data.update(valid_updates)
     
